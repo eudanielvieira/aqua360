@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 
 const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
@@ -8,99 +8,77 @@ const sections = [
   {
     path: '/peixes',
     label: 'Peixes',
-    desc: `${totalFish} espécies de água doce e salgada`,
+    desc: `${totalFish} espécies catalogadas`,
     icon: Fish,
-    gradient: 'from-blue-500 to-cyan-400',
+    color: 'text-blue-500',
+    bg: 'bg-blue-500/10',
   },
   {
     path: '/plantas',
-    label: 'Plantas Aquáticas',
-    desc: 'Espécies para o seu aquário plantado',
+    label: 'Plantas',
+    desc: 'Espécies de plantas aquáticas',
     icon: Leaf,
-    gradient: 'from-emerald-500 to-green-400',
+    color: 'text-emerald-500',
+    bg: 'bg-emerald-500/10',
   },
   {
     path: '/corais',
-    label: 'Corais e Anemonas',
-    desc: '19 especies para aquario marinho',
+    label: 'Corais e Anêmonas',
+    desc: '19 espécies para aquário marinho',
     icon: Gem,
-    gradient: 'from-violet-500 to-purple-400',
+    color: 'text-violet-500',
+    bg: 'bg-violet-500/10',
   },
   {
     path: '/doencas',
-    label: 'Doencas e Tratamentos',
+    label: 'Doenças e Tratamentos',
     desc: 'Diagnóstico, sintomas e cuidados',
     icon: HeartPulse,
-    gradient: 'from-rose-500 to-pink-400',
+    color: 'text-rose-500',
+    bg: 'bg-rose-500/10',
   },
   {
     path: '/calculadoras',
     label: 'Calculadoras',
-    desc: '10 ferramentas úteis para o seu aquário',
+    desc: '10 ferramentas para o seu aquário',
     icon: Calculator,
-    gradient: 'from-amber-500 to-yellow-400',
+    color: 'text-amber-500',
+    bg: 'bg-amber-500/10',
   },
 ]
 
 export default function HomePage() {
   return (
-    <div>
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-dark via-primary to-primary-light py-16 sm:py-24">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-40 h-40 rounded-full bg-white/20 blur-3xl" />
-          <div className="absolute bottom-10 right-10 w-60 h-60 rounded-full bg-accent/30 blur-3xl" />
-        </div>
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-sm mb-6 shadow-lg shadow-white/5">
-            <Waves size={40} className="text-white" />
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Aqua360
-          </h1>
-          <p className="text-lg text-white/70 mt-3 max-w-md mx-auto">
-            O seu guia completo de aquarismo com dados científicos atualizados
-          </p>
-        </div>
-      </section>
+    <div className="max-w-2xl mx-auto px-4 py-12 sm:py-20">
+      <div className="mb-12">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-text tracking-tight">
+          Aqua360
+        </h1>
+        <p className="text-text-secondary mt-3 text-lg">
+          O seu guia completo de aquarismo.
+        </p>
+      </div>
 
-      <div className="max-w-4xl mx-auto px-4 -mt-10 relative z-10 pb-12">
-        <div className="grid gap-4 sm:grid-cols-2">
-          {sections.map(section => {
-            const Icon = section.icon
-            return (
-              <Link
-                key={section.path}
-                to={section.path}
-                className="group relative bg-card rounded-2xl shadow-md shadow-black/5 overflow-hidden hover:shadow-xl hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className={`h-40 bg-gradient-to-br ${section.gradient} p-6 flex flex-col justify-between relative overflow-hidden`}>
-                  <div className="absolute -right-6 -top-6 opacity-10 group-hover:opacity-15 transition-opacity duration-300">
-                    <Icon size={120} strokeWidth={1} />
-                  </div>
-                  <div className="absolute -right-3 -bottom-3 opacity-5 group-hover:opacity-10 transition-opacity duration-300">
-                    <Icon size={70} strokeWidth={1.5} />
-                  </div>
-
-                  <div className="w-11 h-11 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                    <Icon size={22} className="text-white" />
-                  </div>
-
-                  <div>
-                    <h2 className="font-bold text-white text-xl">{section.label}</h2>
-                    <p className="text-sm text-white/70 mt-0.5">{section.desc}</p>
-                  </div>
-                </div>
-
-                <div className="px-6 py-4 flex items-center justify-end">
-                  <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:gap-2.5 transition-all duration-300">
-                    Explorar
-                    <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
+      <div className="space-y-2">
+        {sections.map(section => {
+          const Icon = section.icon
+          return (
+            <Link
+              key={section.path}
+              to={section.path}
+              className="group flex items-center gap-4 px-4 py-4 -mx-4 rounded-2xl hover:bg-card hover:shadow-sm transition-all duration-200"
+            >
+              <div className={`w-11 h-11 rounded-xl ${section.bg} ${section.color} flex items-center justify-center flex-shrink-0`}>
+                <Icon size={20} />
+              </div>
+              <div className="flex-1 min-w-0">
+                <h2 className="font-semibold text-text">{section.label}</h2>
+                <p className="text-sm text-text-secondary">{section.desc}</p>
+              </div>
+              <ArrowRight size={16} className="text-border group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+            </Link>
+          )
+        })}
       </div>
     </div>
   )
