@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { loadAllFish } from '../data/fish-index'
 import type { Fish } from '../types'
 import { checkCompatibility, type CompatibilityResult, type SpeciesParams } from '../utils/compatibility'
+import { fuzzySearch } from '../utils/fuzzySearch'
 import { getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import { Search, X, Plus, CheckCircle, AlertTriangle, XCircle, Info, Trash2, Droplets, Waves, Skull, Heart, Beef, Salad, Cookie } from 'lucide-react'
@@ -50,11 +51,8 @@ function SpeciesSearch({ species, selectedIds, onAdd }: {
   const filtered = useMemo(() => {
     const available = species.filter(s => !selectedIds.has(s.id))
     if (!query.trim()) return available.slice(0, 15)
-    const q = normalize(query)
-    return available.filter(s =>
-      normalize(s.nomePopular).includes(q) ||
-      normalize(s.nomeCientifico).includes(q)
-    ).slice(0, 15)
+    const fuzzyItems = available.map(s => ({ text: [s.nomePopular, s.nomeCientifico], data: s }))
+    return fuzzySearch(fuzzyItems, query, 15).map(r => r.data as SpeciesOption)
   }, [species, query, selectedIds])
 
   return (

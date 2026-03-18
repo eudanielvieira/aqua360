@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral } from '../types'
 import { getPrimaryImage } from '../utils/image'
+import { fuzzySearch } from '../utils/fuzzySearch'
 import PageHeader from '../components/PageHeader'
 import { Search, CheckCircle, AlertTriangle, Leaf, Fish as FishIcon, Shell, Gem, Plus } from 'lucide-react'
 
@@ -403,8 +404,8 @@ export default function AquariumBuilderPage() {
 
   const searchResults = useMemo(() => {
     if (!query.trim()) return allFish.slice(0, 15)
-    const q = normalize(query)
-    return allFish.filter(s => normalize(s.nomePopular).includes(q) || normalize(s.nomeCientifico).includes(q)).slice(0, 15)
+    const fuzzyItems = allFish.map(s => ({ text: [s.nomePopular, s.nomeCientifico], data: s }))
+    return fuzzySearch(fuzzyItems, query, 15).map(r => r.data as SpeciesOption)
   }, [allFish, query])
 
   const recommendations = useMemo(() => {

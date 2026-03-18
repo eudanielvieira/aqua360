@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral, Disease } from '../types'
 import { getPrimaryImage } from '../utils/image'
+import { fuzzySearch, type FuzzyItem } from '../utils/fuzzySearch'
 import PageHeader from '../components/PageHeader'
 import { Search, Fish, Leaf, Gem, HeartPulse } from 'lucide-react'
 
@@ -17,10 +18,6 @@ interface SearchItem {
   typeIcon: typeof Fish
   typeColor: string
   link: string
-}
-
-function normalize(s: string): string {
-  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 }
 
 const fishTypes: Record<string, string> = {
@@ -84,13 +81,17 @@ export default function SearchPage() {
     })
   }, [])
 
+  const fuzzyItems = useMemo((): FuzzyItem[] => {
+    return items.map(i => ({
+      text: [i.nome, i.nomeCientifico],
+      data: i,
+    }))
+  }, [items])
+
   const results = useMemo(() => {
-    if (!query.trim() || query.length < 2) return []
-    const q = normalize(query)
-    return items.filter(i =>
-      normalize(i.nome).includes(q) || normalize(i.nomeCientifico).includes(q)
-    ).slice(0, 30)
-  }, [items, query])
+    if (!query.trim() || query.length < 2) return [] as SearchItem[]
+    return fuzzySearch(fuzzyItems, query, 30).map(r => r.data as SearchItem)
+  }, [fuzzyItems, query])
 
   if (loading) {
     return (
