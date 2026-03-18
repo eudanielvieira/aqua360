@@ -70,6 +70,7 @@ export default function FishCategoryPage() {
             title={fish.nomePopular}
             subtitle={fish.nomeCientifico}
             inatPhotos={fish.enrichment?.inatPhotoUrls}
+            wikiPhoto={fish.enrichment?.wikiPhotoUrl}
           />
         ))}
       </div>

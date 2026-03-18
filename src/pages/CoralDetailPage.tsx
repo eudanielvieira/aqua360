@@ -68,7 +68,7 @@ export default function CoralDetailPage() {
         {enrichment?.inatPhotoUrls?.[0] ? (
           <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
             <img
-              src={getPrimaryImage('', enrichment.inatPhotoUrls)}
+              src={getPrimaryImage('', enrichment.inatPhotoUrls, enrichment.wikiPhotoUrl)}
               alt={coral.nomePopular}
               className="w-full h-full object-cover"
             />

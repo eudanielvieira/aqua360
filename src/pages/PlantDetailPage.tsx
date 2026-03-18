@@ -57,7 +57,7 @@ export default function PlantDetailPage() {
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
           <img
-            src={getPrimaryImage(plant.imagem, enrichment?.inatPhotoUrls)}
+            src={getPrimaryImage(plant.imagem, enrichment?.inatPhotoUrls, enrichment?.wikiPhotoUrl)}
             alt={plant.nomePopular}
             className="w-full h-full object-cover"
             onError={e => {

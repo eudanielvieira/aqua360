@@ -9,11 +9,12 @@ interface Props {
   title: string
   subtitle: string
   inatPhotos?: string[]
+  wikiPhoto?: string
 }
 
-export default function Card({ to, image, title, subtitle, inatPhotos }: Props) {
+export default function Card({ to, image, title, subtitle, inatPhotos, wikiPhoto }: Props) {
   const [imgError, setImgError] = useState(false)
-  const src = getThumbnail(image, inatPhotos)
+  const src = getThumbnail(image, inatPhotos, wikiPhoto)
   const hasImage = src && src !== '/images/.jpg' && src !== '/images/avatar.jpg'
 
   return (

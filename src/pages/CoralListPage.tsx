@@ -128,7 +128,7 @@ export default function CoralListPage() {
               <div className="aspect-square overflow-hidden bg-surface-alt relative">
                 {coral.enrichment?.inatPhotoUrls?.[0] ? (
                   <img
-                    src={getPrimaryImage('', coral.enrichment.inatPhotoUrls)}
+                    src={getPrimaryImage('', coral.enrichment.inatPhotoUrls, coral.enrichment.wikiPhotoUrl)}
                     alt={coral.nomePopular}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     loading="lazy"

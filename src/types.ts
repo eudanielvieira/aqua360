@@ -12,6 +12,7 @@ export interface EnrichmentData {
   gbifTaxonKey?: number
   wormsAphiaId?: number
   taxonomia?: Taxonomia
+  wikiPhotoUrl?: string
   inatPhotoUrls?: string[]
   inatObservationCount?: number
   gbifOccurrenceCount?: number
