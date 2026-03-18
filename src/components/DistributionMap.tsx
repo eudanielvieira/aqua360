@@ -73,7 +73,7 @@ export default function DistributionMap({ taxonKey, speciesName }: Props) {
         <MapContainer
           center={[0, 20]}
           zoom={2}
-          scrollWheelZoom={true}
+          scrollWheelZoom={false}
           className="w-full h-full"
           attributionControl={true}
         >
