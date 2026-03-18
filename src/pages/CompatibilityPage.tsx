@@ -156,7 +156,7 @@ interface PairResult {
   result: CompatibilityResult
 }
 
-function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
+function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs: PairResult[] }) {
   if (selected.length < 2) return null
 
   const params: { key: keyof SpeciesOption; label: string }[] = [
@@ -165,11 +165,32 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
     { key: 'gh', label: 'GH' },
     { key: 'kh', label: 'KH' },
     { key: 'tamanhoAdulto', label: 'Tamanho' },
-    { key: 'tipo', label: 'Tipo de Agua' },
   ]
 
+  // Calcular score e pior problema de cada especie
+  const speciesIssues = new Map<number, { worstScore: number; reason: string }>()
+  for (const s of selected) {
+    let worstScore = 100
+    let reason = ''
+    for (const pair of pairs) {
+      if (pair.a.id !== s.id && pair.b.id !== s.id) continue
+      if (pair.result.score < worstScore) {
+        worstScore = pair.result.score
+        const other = pair.a.id === s.id ? pair.b : pair.a
+        const worstDetail = pair.result.details.reduce((min, d) => d.score < min.score ? d : min, pair.result.details[0])
+        if (worstDetail) {
+          reason = `${worstDetail.param}: incompativel com ${other.nomePopular}`
+        }
+        if (pair.result.warnings.length > 0) {
+          reason = pair.result.warnings[0]
+        }
+      }
+    }
+    speciesIssues.set(s.id, { worstScore, reason })
+  }
+
   return (
-    <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
+    <div className="mt-4 bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
       <div className="p-4 pb-2">
         <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">Comparativo de Parametros</p>
       </div>
@@ -178,35 +199,47 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
           <thead>
             <tr className="border-b border-border/60">
               <th className="text-left p-3 font-semibold text-text-secondary w-28"></th>
-              {selected.map(s => (
-                <th key={s.id} className="p-3 text-center min-w-[100px]">
-                  <div className="flex flex-col items-center gap-1.5">
-                    <div className="w-8 h-8 rounded-lg overflow-hidden bg-surface-alt">
-                      <img
-                        src={getPrimaryImage(s.imagem, s.inatPhotos)}
-                        alt={s.nomePopular}
-                        className="w-full h-full object-cover"
-                        onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
-                      />
+              {selected.map(s => {
+                const issue = speciesIssues.get(s.id)
+                const isBad = issue && issue.worstScore < 40
+                return (
+                  <th key={s.id} className={`p-3 text-center min-w-[110px] ${isBad ? 'bg-red-500/5' : ''}`}>
+                    <div className="flex flex-col items-center gap-1.5">
+                      <div className={`w-10 h-10 rounded-lg overflow-hidden ${isBad ? 'ring-2 ring-red-500 ring-offset-1' : 'bg-surface-alt'}`}>
+                        <img
+                          src={getPrimaryImage(s.imagem, s.inatPhotos)}
+                          alt={s.nomePopular}
+                          className="w-full h-full object-cover"
+                          onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+                        />
+                      </div>
+                      <span className={`font-bold truncate max-w-[100px] ${isBad ? 'text-red-600' : 'text-text'}`}>{s.nomePopular}</span>
+                      {isBad && issue?.reason && (
+                        <span className="text-[9px] text-red-500 font-medium leading-tight text-center max-w-[110px]">
+                          {issue.reason}
+                        </span>
+                      )}
                     </div>
-                    <span className="font-bold text-text truncate max-w-[90px]">{s.nomePopular}</span>
-                  </div>
-                </th>
-              ))}
+                  </th>
+                )
+              })}
             </tr>
           </thead>
           <tbody>
-            {params.filter(p => p.key !== 'tipo').map(param => {
+            {params.map(param => {
               const values = selected.map(s => (s[param.key] as string) || '-')
               const conflict = hasConflict(values)
               return (
                 <tr key={param.key} className={`border-b border-border/40 ${conflict ? 'bg-red-500/3' : ''}`}>
                   <td className="p-3 font-semibold text-text-secondary">{param.label}</td>
-                  {values.map((val, i) => (
-                    <td key={i} className={`p-3 text-center font-medium ${conflict ? 'text-amber-600 dark:text-amber-400' : 'text-text'}`}>
-                      {val}
-                    </td>
-                  ))}
+                  {selected.map((s, i) => {
+                    const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
+                    return (
+                      <td key={s.id} className={`p-3 text-center font-medium ${isBad < 40 ? 'bg-red-500/5' : ''} ${conflict ? 'text-amber-600 dark:text-amber-400' : 'text-text'}`}>
+                        {values[i]}
+                      </td>
+                    )
+                  })}
                 </tr>
               )
             })}
@@ -214,8 +247,9 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
               <td className="p-3 font-semibold text-text-secondary">Agua</td>
               {selected.map(s => {
                 const fresh = isFreshwater(s.tipo || '')
+                const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
                 return (
-                  <td key={s.id} className="p-3 text-center">
+                  <td key={s.id} className={`p-3 text-center ${isBad < 40 ? 'bg-red-500/5' : ''}`}>
                     <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${fresh ? 'bg-cyan-500/10 text-cyan-600' : 'bg-blue-500/10 text-blue-600'}`}>
                       {fresh ? <Droplets size={10} /> : <Waves size={10} />}
                       {fresh ? 'Doce' : 'Salgada'}
@@ -234,8 +268,9 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
                 const label = isCarn ? 'Carnivoro' : isHerb ? 'Herbivoro' : isOmni ? 'Onivoro' : '-'
                 const Icon = isCarn ? Beef : isHerb ? Salad : Cookie
                 const color = isCarn ? 'bg-red-500/10 text-red-600' : isHerb ? 'bg-emerald-500/10 text-emerald-600' : 'bg-amber-500/10 text-amber-600'
+                const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
                 return (
-                  <td key={s.id} className="p-3 text-center">
+                  <td key={s.id} className={`p-3 text-center ${isBad < 40 ? 'bg-red-500/5' : ''}`}>
                     {label !== '-' ? (
                       <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${color}`}>
                         <Icon size={10} />
@@ -252,8 +287,9 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
                 const b = normalize(s.comportamento || '')
                 const isAgg = b.includes('agressiv') || b.includes('territorial')
                 const isPeace = b.includes('pacif') || b.includes('calmo') || b.includes('tranquil')
+                const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
                 return (
-                  <td key={s.id} className="p-3 text-center">
+                  <td key={s.id} className={`p-3 text-center ${isBad < 40 ? 'bg-red-500/5' : ''}`}>
                     {(isAgg || isPeace) ? (
                       <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${isAgg ? 'bg-red-500/10 text-red-600' : 'bg-emerald-500/10 text-emerald-600'}`}>
                         {isAgg ? <Skull size={10} /> : <Heart size={10} />}
@@ -388,7 +424,7 @@ export default function CompatibilityPage() {
             )}
           </div>
 
-          <ComparisonTable selected={selected} />
+          <ComparisonTable selected={selected} pairs={pairs} />
 
           <div className="mt-4 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
             <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Analise por Combinacao</p>
