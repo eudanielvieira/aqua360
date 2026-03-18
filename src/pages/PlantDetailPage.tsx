@@ -1,7 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react'
 import { useParams } from 'react-router-dom'
 import type { Plant } from '../types'
-import { getImageUrl } from '../utils/image'
+import { getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
 import TaxonomyTree from '../components/TaxonomyTree'
@@ -49,7 +49,7 @@ export default function PlantDetailPage() {
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
         <div className="aspect-video max-h-80 overflow-hidden bg-gray-100">
           <img
-            src={getImageUrl(plant.imagem)}
+            src={getPrimaryImage(plant.imagem, enrichment?.inatPhotoUrls)}
             alt={plant.nomePopular}
             className="w-full h-full object-cover"
             onError={e => {

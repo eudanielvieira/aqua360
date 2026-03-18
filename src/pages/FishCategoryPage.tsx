@@ -69,6 +69,7 @@ export default function FishCategoryPage() {
             image={fish.imagem}
             title={fish.nomePopular}
             subtitle={fish.nomeCientifico}
+            inatPhotos={fish.enrichment?.inatPhotoUrls}
           />
         ))}
       </div>

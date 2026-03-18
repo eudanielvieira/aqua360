@@ -3,3 +3,13 @@ export function getImageUrl(imageName: string): string {
   const name = imageName.replace(/\.(jpg|jpeg|png)$/i, '')
   return `/images/${name}.jpg`
 }
+
+export function getPrimaryImage(
+  localImage: string,
+  inatPhotos?: string[],
+): string {
+  if (inatPhotos && inatPhotos.length > 0) {
+    return inatPhotos[0]
+  }
+  return getImageUrl(localImage)
+}

@@ -57,6 +57,7 @@ export default function PlantListPage() {
             image={plant.imagem}
             title={plant.nomePopular}
             subtitle={plant.nomeCientifico}
+            inatPhotos={plant.enrichment?.inatPhotoUrls}
           />
         ))}
       </div>

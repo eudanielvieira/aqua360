@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom'
-import { getImageUrl } from '../utils/image'
+import { getPrimaryImage } from '../utils/image'
 
 interface Props {
   to: string
   image: string
   title: string
   subtitle: string
+  inatPhotos?: string[]
 }
 
-export default function Card({ to, image, title, subtitle }: Props) {
+export default function Card({ to, image, title, subtitle, inatPhotos }: Props) {
   return (
     <Link
       to={to}
@@ -16,7 +17,7 @@ export default function Card({ to, image, title, subtitle }: Props) {
     >
       <div className="aspect-square overflow-hidden bg-gray-100">
         <img
-          src={getImageUrl(image)}
+          src={getPrimaryImage(image, inatPhotos)}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
