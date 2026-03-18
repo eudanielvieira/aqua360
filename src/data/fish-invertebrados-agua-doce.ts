@@ -2324,6 +2324,334 @@ const data: Fish[] = [
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Mexilhões",
     "fonte": "www.aquaonline.com.br"
+  },
+  {
+    "id": 581,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, anfíbio que não metamorfoseia, água fria",
+    "diformismoSexual": "",
+    "familia": "Ambystomatidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Ambystoma mexicanum",
+    "nomePopular": "Axolote",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "outrosNome": "",
+    "ph": "6.5 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "25 cm",
+    "temperatura": "14 a 20 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:17.346Z",
+      "gbifTaxonKey": 2431950,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Amphibia",
+        "ordem": "Caudata",
+        "familia": "Ambystomatidae",
+        "genero": "Ambystoma",
+        "especie": "Ambystoma mexicanum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/321610/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59502601/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/206316323/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 582,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, ornamental, sensível a parâmetros",
+    "diformismoSexual": "",
+    "familia": "Atyidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Caridina cantonensis var. CRS",
+    "nomePopular": "Camarão Red Crystal",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "outrosNome": "",
+    "ph": "5.5 a 7.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "20 a 24 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:19.764Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463941833/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/425044646/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/579869636/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 583,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, azul intenso, raro e valorizado",
+    "diformismoSexual": "",
+    "familia": "Atyidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Caridina cantonensis var. blue bolt",
+    "nomePopular": "Camarão Blue Bolt",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "outrosNome": "",
+    "ph": "5.5 a 6.5",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "20 a 24 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:22.681Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407621836/medium.jpeg",
+        "https://static.inaturalist.org/photos/236300427/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/529058870/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 584,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, amarelo vibrante, fácil reprodução",
+    "diformismoSexual": "",
+    "familia": "Atyidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Neocaridina davidi var. yellow",
+    "nomePopular": "Camarão Yellow Fire",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 10 litros.",
+    "outrosNome": "",
+    "ph": "6.5 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "20 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:24.624Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 585,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, azul veludo, fácil",
+    "diformismoSexual": "",
+    "familia": "Atyidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Neocaridina davidi var. blue",
+    "nomePopular": "Camarão Blue Dream",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 10 litros.",
+    "outrosNome": "",
+    "ph": "6.5 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "20 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:26.351Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 586,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, laranja brilhante",
+    "diformismoSexual": "",
+    "familia": "Atyidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Neocaridina davidi var. orange",
+    "nomePopular": "Camarão Orange Sakura",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 10 litros.",
+    "outrosNome": "",
+    "ph": "6.5 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "20 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:28.322Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 587,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, excelente comedor de algas, não reproduz em água doce",
+    "diformismoSexual": "",
+    "familia": "Neritidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Neritina natalensis",
+    "nomePopular": "Caracol Neritina Zebra",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 10 litros.",
+    "outrosNome": "",
+    "ph": "6.5 a 8.5",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "22 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:30.541Z",
+      "gbifTaxonKey": 5784041,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Cycloneritida",
+        "familia": "Neritidae",
+        "genero": "Vittina",
+        "especie": "Vittina natalensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15601395/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57406138/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/581594876/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 588,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, colorido (dourado, azul, rosa), come algas mortas",
+    "diformismoSexual": "",
+    "familia": "Ampullariidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Pomacea bridgesii",
+    "nomePopular": "Caracol Mistério",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "outrosNome": "",
+    "ph": "7.0 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "5 cm",
+    "temperatura": "22 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:32.308Z",
+      "gbifTaxonKey": 2292581,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Pomacea",
+        "especie": "Pomacea bridgesii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/105182890/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/597793236/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/105178309/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 589,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Come outros caracóis. Controle biológico de pragas.",
+    "diformismoSexual": "",
+    "familia": "Nassariidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Clea helena",
+    "nomePopular": "Caracol Assassino",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "outrosNome": "",
+    "ph": "7.0 a 8.0",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "3 cm",
+    "temperatura": "22 a 28 ºC",
+    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:34.771Z",
+      "gbifTaxonKey": 6504522,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Neogastropoda",
+        "familia": "Nassariidae",
+        "genero": "Anentome",
+        "especie": "Anentome helena"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/13357557/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/433480066/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/44812211/medium.jpeg"
+      ]
+    }
   }
 ]
 
