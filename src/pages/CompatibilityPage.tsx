@@ -337,7 +337,7 @@ export default function CompatibilityPage() {
       {overallScore !== null && (
         <>
           <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex items-center gap-4">
               <div className="text-center">
                 <div className={`text-4xl font-extrabold ${scoreTextColor(overallScore)}`}>
                   {overallScore}%
@@ -358,7 +358,7 @@ export default function CompatibilityPage() {
             </div>
 
             {allWarnings.length > 0 && (
-              <div className="space-y-2 mb-4">
+              <div className="space-y-2 mt-4">
                 {allWarnings.map((warn, i) => (
                   <div key={i} className="p-2.5 rounded-xl bg-red-500/5 border border-red-500/10 flex items-start gap-2">
                     <AlertTriangle size={13} className="text-red-500 flex-shrink-0 mt-0.5" />
@@ -367,7 +367,12 @@ export default function CompatibilityPage() {
                 ))}
               </div>
             )}
+          </div>
 
+          <ComparisonTable selected={selected} />
+
+          <div className="mt-4 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
+            <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Analise por Combinacao</p>
             <div className="space-y-3">
               {pairs.map(pair => {
                 const key = `${pair.a.id}-${pair.b.id}`
@@ -404,8 +409,6 @@ export default function CompatibilityPage() {
               </p>
             </div>
           </div>
-
-          <ComparisonTable selected={selected} />
         </>
       )}
 
