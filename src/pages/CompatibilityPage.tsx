@@ -133,17 +133,129 @@ function scoreBgColor(score: number): string {
   return 'bg-red-500'
 }
 
+function scoreTextColor(score: number): string {
+  if (score >= 80) return 'text-emerald-600'
+  if (score >= 60) return 'text-blue-600'
+  if (score >= 40) return 'text-amber-600'
+  if (score >= 20) return 'text-orange-600'
+  return 'text-red-600'
+}
+
+function hasConflict(values: string[]): boolean {
+  const unique = new Set(values.filter(v => v))
+  return unique.size > 1
+}
+
 interface PairResult {
   a: SpeciesOption
   b: SpeciesOption
   result: CompatibilityResult
 }
 
+function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
+  if (selected.length < 2) return null
+
+  const params: { key: keyof SpeciesOption; label: string }[] = [
+    { key: 'ph', label: 'pH' },
+    { key: 'temperatura', label: 'Temperatura' },
+    { key: 'gh', label: 'GH' },
+    { key: 'kh', label: 'KH' },
+    { key: 'tamanhoAdulto', label: 'Tamanho' },
+    { key: 'tipo', label: 'Tipo de Agua' },
+  ]
+
+  const tipoLabel = (t: string) => {
+    if (!t) return '-'
+    if (t.includes('DULCI')) return 'Doce'
+    if (t.includes('MARINHO')) return 'Salgada'
+    return t
+  }
+
+  return (
+    <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
+      <div className="p-4 pb-2">
+        <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">Comparativo de Parametros</p>
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-xs">
+          <thead>
+            <tr className="border-b border-border/60">
+              <th className="text-left p-3 font-semibold text-text-secondary w-28"></th>
+              {selected.map(s => (
+                <th key={s.id} className="p-3 text-center min-w-[100px]">
+                  <div className="flex flex-col items-center gap-1.5">
+                    <div className="w-8 h-8 rounded-lg overflow-hidden bg-surface-alt">
+                      <img
+                        src={getPrimaryImage(s.imagem, s.inatPhotos)}
+                        alt={s.nomePopular}
+                        className="w-full h-full object-cover"
+                        onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+                      />
+                    </div>
+                    <span className="font-bold text-text truncate max-w-[90px]">{s.nomePopular}</span>
+                  </div>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {params.map(param => {
+              const values = selected.map(s => {
+                const val = s[param.key]
+                if (param.key === 'tipo') return tipoLabel(val as string || '')
+                return (val as string) || '-'
+              })
+              const conflict = hasConflict(values)
+
+              return (
+                <tr key={param.key} className={`border-b border-border/40 ${conflict ? 'bg-red-500/3' : ''}`}>
+                  <td className="p-3 font-semibold text-text-secondary">{param.label}</td>
+                  {values.map((val, i) => (
+                    <td key={i} className={`p-3 text-center font-medium ${conflict ? 'text-amber-600 dark:text-amber-400' : 'text-text'}`}>
+                      {val}
+                    </td>
+                  ))}
+                </tr>
+              )
+            })}
+            <tr className="border-b border-border/40">
+              <td className="p-3 font-semibold text-text-secondary">Dieta</td>
+              {selected.map(s => {
+                const food = (s.alimentacao || '').toLowerCase()
+                const isCarnivore = food.includes('carniv') || food.includes('peixes vivos')
+                const isHerbivore = food.includes('herbivor') || food.includes('vegeta')
+                const label = isCarnivore ? 'Carnivoro' : isHerbivore ? 'Herbivoro' : food.includes('onivor') ? 'Onivoro' : '-'
+                return (
+                  <td key={s.id} className={`p-3 text-center font-medium ${isCarnivore ? 'text-red-500' : 'text-text'}`}>
+                    {label}
+                  </td>
+                )
+              })}
+            </tr>
+            <tr>
+              <td className="p-3 font-semibold text-text-secondary">Temperamento</td>
+              {selected.map(s => {
+                const b = (s.comportamento || '').toLowerCase()
+                const isAgg = b.includes('agressiv') || b.includes('territorial')
+                const label = isAgg ? 'Agressivo' : b.includes('pacif') || b.includes('calmo') ? 'Pacifico' : '-'
+                return (
+                  <td key={s.id} className={`p-3 text-center font-medium ${isAgg ? 'text-red-500' : 'text-emerald-600'}`}>
+                    {label}
+                  </td>
+                )
+              })}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
 export default function CompatibilityPage() {
   const [allSpecies, setAllSpecies] = useState<SpeciesOption[]>([])
   const [loading, setLoading] = useState(true)
   const [selected, setSelected] = useState<SpeciesOption[]>([])
-  const [expandedPair, setExpandedPair] = useState<string | null>(null)
 
   useEffect(() => {
     loadAllFish().then(fish => {
@@ -181,14 +293,14 @@ export default function CompatibilityPage() {
 
   if (loading) {
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
       </div>
     )
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader
         title="Compatibilidade"
         subtitle="Monte seu aquario e verifique se as especies podem conviver"
@@ -206,118 +318,95 @@ export default function CompatibilityPage() {
             <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">
               Seu aquario ({selected.length} {selected.length === 1 ? 'especie' : 'especies'})
             </p>
-            {selected.length > 0 && (
-              <button
-                onClick={() => { setSelected([]); setExpandedPair(null) }}
-                className="flex items-center gap-1 text-xs text-text-secondary hover:text-red-500 transition-colors"
-              >
-                <Trash2 size={12} />
-                Limpar
-              </button>
-            )}
+            <button
+              onClick={() => setSelected([])}
+              className="flex items-center gap-1 text-xs text-text-secondary hover:text-red-500 transition-colors"
+            >
+              <Trash2 size={12} />
+              Limpar
+            </button>
           </div>
           <div className="grid gap-2 sm:grid-cols-2">
             {selected.map(s => (
-              <SpeciesChip
-                key={s.id}
-                species={s}
-                onRemove={() => {
-                  setSelected(prev => prev.filter(x => x.id !== s.id))
-                  setExpandedPair(null)
-                }}
-              />
+              <SpeciesChip key={s.id} species={s} onRemove={() => setSelected(prev => prev.filter(x => x.id !== s.id))} />
             ))}
           </div>
         </div>
       )}
 
       {overallScore !== null && (
-        <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
-          <div className="flex items-center gap-4 mb-4">
-            <div className="text-center">
-              <div className={`text-4xl font-extrabold ${
-                overallScore >= 80 ? 'text-emerald-500'
-                : overallScore >= 60 ? 'text-blue-500'
-                : overallScore >= 40 ? 'text-amber-500'
-                : overallScore >= 20 ? 'text-orange-500'
-                : 'text-red-500'
-              }`}>
-                {overallScore}%
+        <>
+          <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="text-center">
+                <div className={`text-4xl font-extrabold ${scoreTextColor(overallScore)}`}>
+                  {overallScore}%
+                </div>
+                <p className="text-[10px] text-text-secondary font-medium mt-0.5">Geral</p>
               </div>
-              <p className="text-[10px] text-text-secondary font-medium mt-0.5">Geral</p>
+              <div className="flex-1">
+                <div className="w-full h-2.5 rounded-full bg-surface-alt overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all duration-500 ${scoreBgColor(overallScore)}`}
+                    style={{ width: `${overallScore}%` }}
+                  />
+                </div>
+                <p className="text-xs text-text-secondary mt-1.5">
+                  {pairs.length} {pairs.length === 1 ? 'combinacao' : 'combinacoes'} analisadas
+                </p>
+              </div>
             </div>
-            <div className="flex-1">
-              <div className="w-full h-2.5 rounded-full bg-surface-alt overflow-hidden">
-                <div
-                  className={`h-full rounded-full transition-all duration-500 ${scoreBgColor(overallScore)}`}
-                  style={{ width: `${overallScore}%` }}
-                />
+
+            {allWarnings.length > 0 && (
+              <div className="space-y-2 mb-4">
+                {allWarnings.map((warn, i) => (
+                  <div key={i} className="p-2.5 rounded-xl bg-red-500/5 border border-red-500/10 flex items-start gap-2">
+                    <AlertTriangle size={13} className="text-red-500 flex-shrink-0 mt-0.5" />
+                    <p className="text-xs text-red-600 dark:text-red-400 leading-relaxed font-medium">{warn}</p>
+                  </div>
+                ))}
               </div>
-              <p className="text-xs text-text-secondary mt-1.5">
-                {pairs.length} {pairs.length === 1 ? 'combinacao analisada' : 'combinacoes analisadas'}
+            )}
+
+            <div className="space-y-3">
+              {pairs.map(pair => {
+                const key = `${pair.a.id}-${pair.b.id}`
+                return (
+                  <div key={key} className="rounded-xl bg-surface-alt/50 overflow-hidden">
+                    <div className="flex items-center gap-3 p-3">
+                      <div className={`w-8 h-8 rounded-lg ${scoreBgColor(pair.result.score)} flex items-center justify-center flex-shrink-0`}>
+                        <span className="text-xs font-bold text-white">{pair.result.score}</span>
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-semibold text-text truncate">
+                          {pair.a.nomePopular} + {pair.b.nomePopular}
+                        </p>
+                      </div>
+                      <span className={`text-xs font-bold ${pair.result.color} flex-shrink-0`}>{pair.result.label}</span>
+                    </div>
+                    <div className="px-3 pb-3 grid gap-1.5">
+                      {pair.result.details.map((detail, i) => (
+                        <div key={i} className="flex items-start gap-2 px-2 py-1.5 rounded-lg bg-card/50">
+                          <ScoreIcon score={detail.score} />
+                          <p className="text-[11px] text-text-secondary flex-1"><span className="font-semibold text-text">{detail.param}:</span> {detail.note}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+
+            <div className="mt-4 p-3 rounded-xl bg-primary/5 flex items-start gap-2.5">
+              <Info size={14} className="text-primary flex-shrink-0 mt-0.5" />
+              <p className="text-[11px] text-text-secondary leading-relaxed">
+                Analise baseada nos parametros ideais. Tamanho do aquario, quantidade de peixes e decoracao tambem influenciam.
               </p>
             </div>
           </div>
 
-          {allWarnings.length > 0 && (
-            <div className="space-y-2 mb-4">
-              {allWarnings.map((warn, i) => (
-                <div key={i} className="p-2.5 rounded-xl bg-red-500/5 border border-red-500/10 flex items-start gap-2">
-                  <AlertTriangle size={13} className="text-red-500 flex-shrink-0 mt-0.5" />
-                  <p className="text-xs text-red-600 dark:text-red-400 leading-relaxed font-medium">{warn}</p>
-                </div>
-              ))}
-            </div>
-          )}
-
-          <div className="space-y-2">
-            {pairs.map(pair => {
-              const key = `${pair.a.id}-${pair.b.id}`
-              const isExpanded = expandedPair === key
-              return (
-                <div key={key}>
-                  <button
-                    onClick={() => setExpandedPair(isExpanded ? null : key)}
-                    className="w-full flex items-center gap-3 p-3 rounded-xl bg-surface-alt/50 hover:bg-surface-alt transition-colors text-left"
-                  >
-                    <div className={`w-8 h-8 rounded-lg ${scoreBgColor(pair.result.score)} flex items-center justify-center flex-shrink-0`}>
-                      <span className="text-xs font-bold text-white">{pair.result.score}</span>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold text-text truncate">
-                        {pair.a.nomePopular} + {pair.b.nomePopular}
-                      </p>
-                      <p className={`text-xs font-medium ${pair.result.color}`}>
-                        {pair.result.label}
-                      </p>
-                    </div>
-                  </button>
-                  {isExpanded && (
-                    <div className="mt-2 ml-4 space-y-2 pb-2">
-                      {pair.result.details.map((detail, i) => (
-                        <div key={i} className="flex items-start gap-2.5 p-2.5 rounded-lg bg-surface-alt/30">
-                          <ScoreIcon score={detail.score} />
-                          <div className="flex-1 min-w-0">
-                            <p className="text-xs font-semibold text-text">{detail.param}</p>
-                            <p className="text-[11px] text-text-secondary mt-0.5">{detail.note}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              )
-            })}
-          </div>
-
-          <div className="mt-4 p-3 rounded-xl bg-primary/5 flex items-start gap-2.5">
-            <Info size={14} className="text-primary flex-shrink-0 mt-0.5" />
-            <p className="text-[11px] text-text-secondary leading-relaxed">
-              Analise baseada nos parametros ideais de cada especie. Tamanho do aquario,
-              quantidade de peixes e decoracao tambem influenciam. Consulte um especialista.
-            </p>
-          </div>
-        </div>
+          <ComparisonTable selected={selected} />
+        </>
       )}
 
       {selected.length < 2 && (
