@@ -2528,48 +2528,6 @@ const data: Fish[] = [
     }
   },
   {
-    "id": 587,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "Pacífico, excelente comedor de algas, não reproduz em água doce",
-    "diformismoSexual": "",
-    "familia": "Neritidae",
-    "gh": "",
-    "imagem": "",
-    "kh": "",
-    "nomeCientifico": "Neritina natalensis",
-    "nomePopular": "Caracol Neritina Zebra",
-    "origem": "",
-    "outrasInformacoes": "Aquário mínimo: 10 litros.",
-    "outrosNome": "",
-    "ph": "6.5 a 8.5",
-    "posicaoAquario": "",
-    "reproducao": "",
-    "tamanhoAdulto": "3 cm",
-    "temperatura": "22 a 28 ºC",
-    "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:30.541Z",
-      "gbifTaxonKey": 5784041,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Mollusca",
-        "classe": "Gastropoda",
-        "ordem": "Cycloneritida",
-        "familia": "Neritidae",
-        "genero": "Vittina",
-        "especie": "Vittina natalensis"
-      },
-      "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/15601395/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/57406138/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/581594876/medium.jpg"
-      ]
-    }
-  },
-  {
     "id": 588,
     "alimentacao": "",
     "caracteristica": "",

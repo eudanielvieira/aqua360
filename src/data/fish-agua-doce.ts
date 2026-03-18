@@ -1812,45 +1812,6 @@ const data: Fish[] = [
     }
   },
   {
-    "id": 44,
-    "alimentacao": "Herbívoro, deve-se evitar proteína animal, para evitar o Bloat.",
-    "caracteristica": "Nos machos, a metade inferior do corpo é azul clara e a metade superior amarela, corpo todo com faixas transversais escuras. Todas as barbatanas são azuis escuras riscadas de preto. As fêmeas são cinzas.",
-    "comportamento": "Apesar de ser pequeno, é agressivo e territorial. Dificilmente se conseguirá manter dois machos juntos no mesmo aquário. Há necessidade de formação de haréns de no mínimo 4 fêmeas para cada macho.",
-    "diformismoSexual": "Como já foi dito nas suas características, os machos se diferenciam claramente das fêmeas.",
-    "familia": "Cichlidae",
-    "gh": "4 a 6",
-    "imagem": "cynotilapiaafracobwe",
-    "kh": "6 a 8",
-    "nomeCientifico": "Cynotilapia afra",
-    "nomePopular": "Cynotilapia Cobwe",
-    "origem": "África - Lago Malawi (Mbuna)",
-    "outrasInformacoes": "",
-    "outrosNome": "",
-    "ph": "7.5 a 8.5",
-    "posicaoAquario": "Fundo do Aquário",
-    "reproducao": "Incubador bocal maternal.",
-    "tamanhoAdulto": "8 cm",
-    "temperatura": "22 a 28 ºC",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "gbifTaxonKey": 2372858,
-      "wormsAphiaId": 1019401,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Chordata",
-        "classe": "",
-        "ordem": "Perciformes",
-        "familia": "Cichlidae",
-        "genero": "Cynotilapia",
-        "especie": "Cynotilapia afra"
-      },
-      "gbifOccurrenceCount": 60,
-      "enrichedAt": "2026-03-18T12:17:09.454Z"
-    }
-  },
-  {
     "id": 45,
     "alimentacao": "Onívora e o mais variada possível. Aceita bem qualquer tipo de alimento.",
     "caracteristica": "Corpo azul celeste, cortado por listas transversais escuras O mesmo padrão segue nas barbatanas dorsal e peitoral.",
@@ -7818,48 +7779,6 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/175045404/medium.jpeg"
       ],
       "enrichedAt": "2026-03-18T18:51:33.045Z"
-    }
-  },
-  {
-    "id": 191,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
-    "familia": "Cyprinidae",
-    "gh": "",
-    "imagem": "",
-    "kh": "",
-    "nomeCientifico": "Danio margaritatus",
-    "nomePopular": "Celestial Pearl Danio",
-    "origem": "",
-    "outrasInformacoes": "",
-    "outrosNome": "",
-    "ph": "",
-    "posicaoAquario": "",
-    "reproducao": "",
-    "tamanhoAdulto": "",
-    "temperatura": "",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "gbifTaxonKey": 2362709,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Chordata",
-        "classe": "",
-        "ordem": "Cypriniformes",
-        "familia": "Cyprinidae",
-        "genero": "Danio",
-        "especie": "Danio margaritatus"
-      },
-      "enrichedAt": "2026-03-18T18:51:36.840Z",
-      "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/120735744/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/248587826/medium.jpg",
-        "https://static.inaturalist.org/photos/590080034/medium.jpg"
-      ]
     }
   },
   {
