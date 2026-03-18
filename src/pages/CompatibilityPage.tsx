@@ -47,10 +47,11 @@ function SpeciesSelector({ label, species, selected, onSelect }: {
 
   const filtered = useMemo(() => {
     if (!query.trim()) return species.slice(0, 20)
-    const lower = query.toLowerCase()
+    const normalize = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    const q = normalize(query)
     return species.filter(s =>
-      s.nomePopular.toLowerCase().includes(lower) ||
-      s.nomeCientifico.toLowerCase().includes(lower)
+      normalize(s.nomePopular).includes(q) ||
+      normalize(s.nomeCientifico).includes(q)
     ).slice(0, 20)
   }, [species, query])
 
