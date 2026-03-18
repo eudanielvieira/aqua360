@@ -48,7 +48,7 @@ export default function PlantDetailPage() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title={plant.nomePopular} backTo="/plantas" />
 
-      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 border border-border overflow-hidden">
+      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
           <img
             src={getPrimaryImage(plant.imagem, enrichment?.inatPhotoUrls)}

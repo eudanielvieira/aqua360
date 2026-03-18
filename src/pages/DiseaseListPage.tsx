@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import type { Disease, DiseaseCategory } from '../types'
 import { useSearch } from '../hooks/useSearch'
-import { getImageUrl } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
 import { ArrowRight, Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
@@ -143,18 +142,10 @@ export default function DiseaseListPage() {
             <Link
               key={disease.id}
               to={`/doencas/${disease.id}`}
-              className="group flex items-center gap-4 p-4 bg-card rounded-2xl shadow-sm shadow-black/5 border border-border hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
+              className="group flex items-center gap-4 p-4 bg-card rounded-2xl shadow-sm shadow-black/5 hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
             >
-              <div className="w-14 h-14 rounded-xl overflow-hidden bg-surface-alt flex-shrink-0">
-                <img
-                  src={getImageUrl(disease.imagem)}
-                  alt={disease.nome}
-                  className="w-full h-full object-cover"
-                  onError={e => {
-                    const target = e.target as HTMLImageElement
-                    target.src = '/images/avatar.jpg'
-                  }}
-                />
+              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${config.gradient} flex items-center justify-center flex-shrink-0 shadow-sm`}>
+                <Icon size={22} className="text-white" />
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-1">

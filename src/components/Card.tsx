@@ -13,7 +13,7 @@ export default function Card({ to, image, title, subtitle, inatPhotos }: Props) 
   return (
     <Link
       to={to}
-      className="group bg-card rounded-2xl shadow-sm shadow-black/5 border border-border overflow-hidden hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
+      className="group bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
     >
       <div className="aspect-square overflow-hidden bg-surface-alt relative">
         <img

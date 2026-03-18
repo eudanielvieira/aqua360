@@ -50,7 +50,7 @@ export default function FishDetailPage() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
 
-      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 border border-border overflow-hidden">
+      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
           <img
             src={getPrimaryImage(fish.imagem, enrichment?.inatPhotoUrls)}

@@ -50,7 +50,7 @@ export default function FishListPage() {
             <Link
               key={cat.slug}
               to={`/peixes/${cat.slug}`}
-              className="group relative bg-card rounded-2xl shadow-md shadow-black/5 border border-border overflow-hidden hover:shadow-xl hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300"
+              className="group relative bg-card rounded-2xl shadow-md shadow-black/5 overflow-hidden hover:shadow-xl hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300"
             >
               <div className={`h-44 bg-gradient-to-br ${config.gradient} p-6 flex flex-col justify-between relative overflow-hidden`}>
                 <div className="absolute -right-6 -top-6 opacity-10 group-hover:opacity-15 transition-opacity duration-300">

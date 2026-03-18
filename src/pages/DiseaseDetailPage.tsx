@@ -56,7 +56,7 @@ export default function DiseaseDetailPage() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title={disease.nome} backTo="/doencas" />
 
-      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 border border-border overflow-hidden">
+      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className={`bg-gradient-to-r ${config.gradient} p-6 flex items-center gap-4 relative overflow-hidden`}>
           <div className="absolute -right-8 -top-8 opacity-10">
             <Icon size={120} strokeWidth={1} />

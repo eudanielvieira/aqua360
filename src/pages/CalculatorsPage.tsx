@@ -26,7 +26,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
   }
 
   return (
-    <div className="bg-card rounded-2xl shadow-sm shadow-black/5 border border-border overflow-hidden transition-all duration-200 hover:shadow-md">
+    <div className="bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden transition-all duration-200 hover:shadow-md">
       <button
         onClick={() => setOpen(!open)}
         className="w-full flex items-center gap-4 p-5 text-left hover:bg-surface-alt/50 transition-colors"
