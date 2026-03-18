@@ -21,15 +21,20 @@ import {
 } from 'lucide-react'
 import { useDarkMode } from '../hooks/useDarkMode'
 
-const navItems = [
-  { path: '/', label: 'Início', icon: Home },
+const mainNav = [
   { path: '/peixes', label: 'Peixes', icon: Fish },
   { path: '/plantas', label: 'Plantas', icon: Leaf },
   { path: '/corais', label: 'Corais', icon: Gem },
-  { path: '/doencas', label: 'Doenças', icon: HeartPulse },
+  { path: '/doencas', label: 'Doencas', icon: HeartPulse },
+]
+
+const toolsNav = [
   { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
   { path: '/compatibilidade', label: 'Compatibilidade', icon: ArrowLeftRight },
-  { path: '/montar-aquario', label: 'Montador', icon: Sparkles },
+  { path: '/montar-aquario', label: 'Montador de Aquario', icon: Sparkles },
+]
+
+const learnNav = [
   { path: '/guias', label: 'Guias', icon: GraduationCap },
   { path: '/glossario', label: 'Glossario', icon: BookOpen },
   { path: '/busca', label: 'Busca', icon: Search },
@@ -39,6 +44,29 @@ export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
   const { dark, toggle } = useDarkMode()
+
+  const isActive = (path: string) =>
+    location.pathname === path || (path !== '/' && location.pathname.startsWith(path))
+
+  const navLink = (item: { path: string; label: string; icon: typeof Fish }, compact = false) => {
+    const Icon = item.icon
+    const active = isActive(item.path)
+    return (
+      <Link
+        key={item.path}
+        to={item.path}
+        onClick={() => setSidebarOpen(false)}
+        className={`flex items-center gap-2 ${compact ? 'px-3 py-1.5 text-sm' : 'px-4 py-3 text-sm'} rounded-lg transition-all duration-200 ${
+          active
+            ? 'bg-primary/10 text-primary font-semibold'
+            : 'text-text-secondary hover:bg-surface-alt hover:text-text'
+        }`}
+      >
+        <Icon size={compact ? 15 : 18} />
+        {item.label}
+      </Link>
+    )
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-surface">
@@ -58,27 +86,9 @@ export default function Layout() {
             Aqua360
           </Link>
           <nav className="hidden lg:flex items-center gap-1 ml-6">
-            {navItems.map(item => {
-              const Icon = item.icon
-              const active = location.pathname === item.path ||
-                (item.path !== '/' && location.pathname.startsWith(item.path))
-              return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition-all duration-200 ${
-                    active
-                      ? 'bg-primary/10 text-primary font-semibold'
-                      : 'text-text-secondary hover:bg-surface-alt hover:text-text'
-                  }`}
-                >
-                  <Icon size={15} />
-                  {item.label}
-                </Link>
-              )
-            })}
+            {mainNav.map(item => navLink(item, true))}
           </nav>
-          <div className="ml-auto">
+          <div className="ml-auto flex items-center gap-1">
             <button
               onClick={toggle}
               className="p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
@@ -98,17 +108,17 @@ export default function Layout() {
       )}
 
       <aside
-        className={`fixed top-0 left-0 h-full w-80 bg-card shadow-2xl z-50 transform transition-transform duration-300 ease-out lg:hidden ${
+        className={`fixed top-0 left-0 h-full w-80 bg-card shadow-2xl z-50 transform transition-transform duration-300 ease-out lg:hidden overflow-y-auto ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         <div className="flex items-center justify-between px-5 h-14 border-b border-border">
-          <span className="font-bold text-text flex items-center gap-2.5">
+          <Link to="/" onClick={() => setSidebarOpen(false)} className="font-bold text-text flex items-center gap-2.5">
             <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
               <Waves size={16} className="text-primary" />
             </div>
             Aqua360
-          </span>
+          </Link>
           <button
             onClick={() => setSidebarOpen(false)}
             className="p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
@@ -117,33 +127,35 @@ export default function Layout() {
           </button>
         </div>
         <nav className="py-3 px-3">
-          {navItems.map(item => {
-            const Icon = item.icon
-            const active = location.pathname === item.path ||
-              (item.path !== '/' && location.pathname.startsWith(item.path))
-            return (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setSidebarOpen(false)}
-                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm transition-all duration-200 mb-0.5 ${
-                  active
-                    ? 'bg-primary/10 text-primary font-semibold'
-                    : 'text-text-secondary hover:bg-surface-alt hover:text-text'
-                }`}
-              >
-                <Icon size={18} />
-                {item.label}
-              </Link>
-            )
-          })}
-          <button
-            onClick={toggle}
-            className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm text-text-secondary hover:bg-surface-alt hover:text-text transition-all duration-200 w-full mt-2"
+          <Link
+            to="/"
+            onClick={() => setSidebarOpen(false)}
+            className={`flex items-center gap-2 px-4 py-3 rounded-lg text-sm mb-1 transition-all ${
+              location.pathname === '/' ? 'bg-primary/10 text-primary font-semibold' : 'text-text-secondary hover:bg-surface-alt hover:text-text'
+            }`}
           >
-            {dark ? <Sun size={18} /> : <Moon size={18} />}
-            {dark ? 'Modo Claro' : 'Modo Escuro'}
-          </button>
+            <Home size={18} />
+            Inicio
+          </Link>
+
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Catalogo</p>
+          {mainNav.map(item => navLink(item))}
+
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Ferramentas</p>
+          {toolsNav.map(item => navLink(item))}
+
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Aprender</p>
+          {learnNav.map(item => navLink(item))}
+
+          <div className="border-t border-border mt-4 pt-3">
+            <button
+              onClick={toggle}
+              className="flex items-center gap-2 px-4 py-3 rounded-lg text-sm text-text-secondary hover:bg-surface-alt hover:text-text transition-all w-full"
+            >
+              {dark ? <Sun size={18} /> : <Moon size={18} />}
+              {dark ? 'Modo Claro' : 'Modo Escuro'}
+            </button>
+          </div>
         </nav>
       </aside>
 
