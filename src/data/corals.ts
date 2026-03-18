@@ -18,7 +18,7 @@ const data: Coral[] = [
     "coloracao": "Extremamente variada: verde, laranja, vermelho, azul, rosa, multicolorido",
     "descricao": "Um dos corais mais populares no aquarismo marinho pela incrivel variedade de cores e padroes. Formam colonias de polipos circulares. Sao resistentes e otimos para iniciantes. Atencao: algumas especies contem palitoxina, uma toxina potente - nunca manusear sem protecao.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:54:54.093Z",
+      "enrichedAt": "2026-03-18T19:47:34.257Z",
       "gbifTaxonKey": 2257951,
       "taxonomia": {
         "reino": "Animalia",
@@ -28,7 +28,12 @@ const data: Coral[] = [
         "familia": "Zoanthidae",
         "genero": "Zoanthus",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/61188977/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/249491746/medium.jpeg",
+        "https://static.inaturalist.org/photos/587619934/medium.jpg"
+      ]
     }
   },
   {
@@ -48,7 +53,7 @@ const data: Coral[] = [
     "coloracao": "Marrom, verde, amarelo, com centro contrastante",
     "descricao": "Similar aos Zoanthus porem geralmente maiores. Formam tapetes densos de polipos. Extremamente resistentes e de facil manutencao. Contém palitoxina - manusear sempre com luvas.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:54:55.845Z",
+      "enrichedAt": "2026-03-18T19:47:37.325Z",
       "gbifTaxonKey": 2257986,
       "taxonomia": {
         "reino": "Animalia",
@@ -58,7 +63,12 @@ const data: Coral[] = [
         "familia": "Sphenopidae",
         "genero": "Palythoa",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/105724964/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/21789788/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/32471222/medium.jpeg"
+      ]
     }
   },
   {
@@ -78,7 +88,7 @@ const data: Coral[] = [
     "coloracao": "Verde, azul, vermelho, roxo, rajado",
     "descricao": "Corais em formato de disco/cogumelo, ideais para areas de menor iluminacao no aquario. Muito resistentes e de facil propagacao. Excelente opcao para iniciantes no aquarismo marinho.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:54:57.571Z",
+      "enrichedAt": "2026-03-18T19:47:41.115Z",
       "gbifTaxonKey": 1,
       "taxonomia": {
         "reino": "Animalia",
@@ -88,7 +98,12 @@ const data: Coral[] = [
         "familia": "",
         "genero": "",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248441919/medium.jpg",
+        "https://static.inaturalist.org/photos/544036558/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/33238896/medium.jpg"
+      ]
     }
   },
   {
@@ -141,7 +156,15 @@ const data: Coral[] = [
     "compatibilidade": "Pacifico, mas pode se espalhar rapidamente",
     "crescimento": "Muito rapido",
     "coloracao": "Branco, rosa, creme",
-    "descricao": "Famoso pelo movimento pulsante de seus polipos, que se abrem e fecham ritmicamente. Cresce muito rapido e pode se tornar invasivo se nao controlado. Visual hipnotizante no aquario."
+    "descricao": "Famoso pelo movimento pulsante de seus polipos, que se abrem e fecham ritmicamente. Cresce muito rapido e pode se tornar invasivo se nao controlado. Visual hipnotizante no aquario.",
+    "enrichment": {
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/28332552/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/433697022/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/242334543/medium.jpg"
+      ],
+      "enrichedAt": "2026-03-18T19:47:43.266Z"
+    }
   },
   {
     "id": 6,
@@ -158,7 +181,15 @@ const data: Coral[] = [
     "compatibilidade": "Pode liberar terpenoides que inibem outros corais",
     "crescimento": "Moderado",
     "coloracao": "Creme, verde, amarelo",
-    "descricao": "Coral em formato de cogumelo grande com polipos retrateis na superficie. Muito resistente e de facil manutencao. Pode atingir tamanhos consideraveis. Periodicamente retrai seus polipos e troca a camada externa de mucosa."
+    "descricao": "Coral em formato de cogumelo grande com polipos retrateis na superficie. Muito resistente e de facil manutencao. Pode atingir tamanhos consideraveis. Periodicamente retrai seus polipos e troca a camada externa de mucosa.",
+    "enrichment": {
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/5042244/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/120133470/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/26865617/medium.png"
+      ],
+      "enrichedAt": "2026-03-18T19:47:44.652Z"
+    }
   },
   {
     "id": 7,
@@ -177,7 +208,7 @@ const data: Coral[] = [
     "coloracao": "Creme, verde claro, rosa",
     "descricao": "Coral mole com ramificacoes que lembram dedos. Resistente e de facil manutencao. Forma colonias bonitas e volumosas que dao movimento ao aquario.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:55:06.473Z",
+      "enrichedAt": "2026-03-18T19:47:46.235Z",
       "gbifTaxonKey": 2262602,
       "taxonomia": {
         "reino": "Animalia",
@@ -187,7 +218,12 @@ const data: Coral[] = [
         "familia": "Sinulariidae",
         "genero": "Sinularia",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/148223149/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/142509080/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244509977/medium.jpg"
+      ]
     }
   },
   {
@@ -277,7 +313,7 @@ const data: Coral[] = [
     "coloracao": "Verde, vermelho, laranja, multicolorido",
     "descricao": "Corais cerebro com padroes de cores variados e fascinantes. Formam esqueletos massivos com polipos arredondados. A noite, estendem tentaculos para capturar alimentos. Relativamente faceis de manter.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:55:14.059Z",
+      "enrichedAt": "2026-03-18T19:47:47.231Z",
       "gbifTaxonKey": 4884411,
       "taxonomia": {
         "reino": "Animalia",
@@ -287,7 +323,12 @@ const data: Coral[] = [
         "familia": "Merulinidae",
         "genero": "Dipsastraea",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248440505/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/502261497/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/435450812/medium.jpeg"
+      ]
     }
   },
   {
@@ -342,7 +383,7 @@ const data: Coral[] = [
     "coloracao": "Verde, rosa, vermelho, roxo",
     "descricao": "Coral com polipos longos e floridos que criam um visual de jardim subaquatico. Historicamente dificil de manter em aquario, mas tecnicas modernas melhoraram as taxas de sucesso. Necessita alimentacao regular e parametros estaveis.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:55:18.869Z",
+      "enrichedAt": "2026-03-18T19:47:48.310Z",
       "gbifTaxonKey": 2260442,
       "taxonomia": {
         "reino": "Animalia",
@@ -352,7 +393,12 @@ const data: Coral[] = [
         "familia": "Poritidae",
         "genero": "Goniopora",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/334087989/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/518068061/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/220079996/medium.jpeg"
+      ]
     }
   },
   {
@@ -372,7 +418,7 @@ const data: Coral[] = [
     "coloracao": "Extremamente variada: azul, roxo, verde, rosa, creme",
     "descricao": "O genero mais iconico dos corais SPS. Forma ramificacoes elaboradas e coloridas. Exige parametros de agua extremamente estaveis, iluminacao forte e fluxo intenso. Recomendado para aquaristas experientes.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:55:20.712Z",
+      "enrichedAt": "2026-03-18T19:47:50.076Z",
       "gbifTaxonKey": 1,
       "taxonomia": {
         "reino": "Animalia",
@@ -382,7 +428,12 @@ const data: Coral[] = [
         "familia": "",
         "genero": "",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244134157/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/563517667/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/564665819/medium.jpg"
+      ]
     }
   },
   {
@@ -402,7 +453,7 @@ const data: Coral[] = [
     "coloracao": "Verde, roxo, laranja, vermelho, azul",
     "descricao": "Segundo genero mais popular de SPS. Algumas especies formam placas, outras ramificacoes. Geralmente mais tolerante que Acropora, sendo uma boa porta de entrada para o mundo dos SPS.",
     "enrichment": {
-      "enrichedAt": "2026-03-18T17:55:22.413Z",
+      "enrichedAt": "2026-03-18T19:48:16.727Z",
       "gbifTaxonKey": 2259917,
       "taxonomia": {
         "reino": "Animalia",
@@ -412,7 +463,12 @@ const data: Coral[] = [
         "familia": "Acroporidae",
         "genero": "Montipora",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179509671/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179510749/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/297380882/medium.jpg"
+      ]
     }
   },
   {
