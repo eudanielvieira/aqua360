@@ -6,13 +6,13 @@ import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
 import { useState, useEffect } from 'react'
 
-const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
+const totalAnimals = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
 const sections = [
   {
     path: '/peixes',
-    label: 'Peixes',
-    desc: `${totalFish} espécies de água doce e salgada`,
+    label: 'Animais',
+    desc: `${totalAnimals} peixes e invertebrados`,
     icon: Fish,
     color: 'text-blue-500',
     bg: 'bg-blue-500/10',
@@ -117,7 +117,7 @@ export default function HomePage() {
   const navigate = useNavigate()
 
   const stats = [
-    { value: `${totalFish}`, label: 'Peixes' },
+    { value: `${totalAnimals}`, label: 'Animais' },
     { value: `${plantCount}`, label: 'Plantas' },
     { value: `${coralCount}`, label: 'Corais' },
     { value: `${diseaseCount}`, label: 'Doenças' },

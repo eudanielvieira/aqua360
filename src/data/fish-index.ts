@@ -12,13 +12,13 @@ export const fishCategories = [
     "key": "PEIXESDULCICOLAS",
     "slug": "agua-doce",
     "label": "Peixes de Água Doce",
-    "count": 176
+    "count": 260
   },
   {
     "key": "PEIXESMARINHOS",
     "slug": "agua-salgada",
     "label": "Peixes de Água Salgada",
-    "count": 334
+    "count": 346
   },
   {
     "key": "PEIXESINVERTEBRADOSDULCIOLAS",
@@ -30,7 +30,7 @@ export const fishCategories = [
     "key": "PEIXESINVERTEBRADOSMARINHOS",
     "slug": "invertebrados-agua-salgada",
     "label": "Invertebrados de Água Salgada",
-    "count": 6
+    "count": 38
   }
 ]
 
