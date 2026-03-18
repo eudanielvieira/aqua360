@@ -23,7 +23,28 @@ const data: Fish[] = [
     "temperatura": "22 a 26 ºC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2225510,
+      "wormsAphiaId": 210554,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Hymenocera",
+        "especie": "Hymenocera picta"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/176730097/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/208251510/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/612635704/medium.jpg"
+      ],
+      "inatObservationCount": 693,
+      "gbifOccurrenceCount": 584,
+      "enrichedAt": "2026-03-18T12:54:31.673Z"
+    }
   },
   {
     "id": 519,
@@ -47,7 +68,28 @@ const data: Fish[] = [
     "temperatura": "25 a 27 ºC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4372625,
+      "wormsAphiaId": 207675,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Bivalvia",
+        "ordem": "Cardiida",
+        "familia": "Cardiidae",
+        "genero": "Tridacna",
+        "especie": "Tridacna maxima"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164775960/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238173989/medium.jpg",
+        "https://static.inaturalist.org/photos/1990601/medium.jpg"
+      ],
+      "inatObservationCount": 4934,
+      "gbifOccurrenceCount": 23065,
+      "enrichedAt": "2026-03-18T12:54:36.191Z"
+    }
   },
   {
     "id": 581,
@@ -71,7 +113,28 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "Carangueijos Marinhos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2226419,
+      "wormsAphiaId": 158365,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Lysmatidae",
+        "genero": "Lysmata",
+        "especie": "Lysmata wurdemanni"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/515806542/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/265807689/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569729259/medium.jpg"
+      ],
+      "inatObservationCount": 52,
+      "gbifOccurrenceCount": 7806,
+      "enrichedAt": "2026-03-18T12:54:40.103Z"
+    }
   },
   {
     "id": 582,
@@ -95,7 +158,28 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "Carangueijos Marinhos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5863085,
+      "wormsAphiaId": 515365,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Lysmatidae",
+        "genero": "Lysmata",
+        "especie": "Lysmata debelius"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/31027696/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/275434177/medium.jpg",
+        "https://static.inaturalist.org/photos/449345846/medium.jpg"
+      ],
+      "inatObservationCount": 14,
+      "gbifOccurrenceCount": 14,
+      "enrichedAt": "2026-03-18T12:54:44.387Z"
+    }
   },
   {
     "id": 583,
@@ -119,7 +203,28 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "Carangueijos Marinhos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178716,
+      "wormsAphiaId": 210370,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Stenopodidae",
+        "genero": "Stenopus",
+        "especie": "Stenopus hispidus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/93278518/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243381837/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/413313364/medium.jpeg"
+      ],
+      "inatObservationCount": 4868,
+      "gbifOccurrenceCount": 7374,
+      "enrichedAt": "2026-03-18T12:54:48.194Z"
+    }
   },
   {
     "id": 584,
@@ -143,7 +248,28 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "Carangueijos Marinhos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178699,
+      "wormsAphiaId": 421957,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Inachoididae",
+        "genero": "Stenorhynchus",
+        "especie": "Stenorhynchus seticornis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/203789611/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252589172/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/9851727/medium.jpg"
+      ],
+      "inatObservationCount": 1725,
+      "gbifOccurrenceCount": 5469,
+      "enrichedAt": "2026-03-18T12:54:52.657Z"
+    }
   }
 ]
 

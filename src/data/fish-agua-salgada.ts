@@ -23,7 +23,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398692,
+      "wormsAphiaId": 254879,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Abudefduf",
+        "especie": "Abudefduf abdominalis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/18336795/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/184119600/medium.jpg",
+        "https://static.inaturalist.org/photos/324615341/medium.jpeg"
+      ],
+      "inatObservationCount": 750,
+      "gbifOccurrenceCount": 1873,
+      "enrichedAt": "2026-03-18T12:26:12.737Z"
+    }
   },
   {
     "id": 178,
@@ -47,7 +68,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399301,
+      "wormsAphiaId": 304097,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chrysiptera",
+        "especie": "Chrysiptera cyanea"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6153397/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3561074/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15455781/medium.png"
+      ],
+      "inatObservationCount": 32,
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:26:16.686Z"
+    }
   },
   {
     "id": 179,
@@ -71,7 +113,28 @@ const data: Fish[] = [
     "temperatura": "25 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399217,
+      "wormsAphiaId": 212883,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chrysiptera",
+        "especie": "Chrysiptera biocellata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6153397/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15455781/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/256733636/medium.jpg"
+      ],
+      "inatObservationCount": 32,
+      "gbifOccurrenceCount": 35,
+      "enrichedAt": "2026-03-18T12:26:23.026Z"
+    }
   },
   {
     "id": 180,
@@ -95,7 +158,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398496,
+      "wormsAphiaId": 298137,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amblyglyphidodon",
+        "especie": "Amblyglyphidodon curacao"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6153397/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238038821/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/256733636/medium.jpg"
+      ],
+      "inatObservationCount": 32,
+      "gbifOccurrenceCount": 27,
+      "enrichedAt": "2026-03-18T12:26:27.819Z"
+    }
   },
   {
     "id": 181,
@@ -119,7 +203,27 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399260,
+      "wormsAphiaId": 298142,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chrysiptera",
+        "especie": "Chrysiptera hemicyanea"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6153397/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3561074/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15455781/medium.png"
+      ],
+      "inatObservationCount": 32,
+      "enrichedAt": "2026-03-18T12:26:31.459Z"
+    }
   },
   {
     "id": 182,
@@ -143,7 +247,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398623,
+      "wormsAphiaId": 159288,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Abudefduf",
+        "especie": "Abudefduf saxatilis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/617072001/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/604590495/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106685911/medium.jpg"
+      ],
+      "inatObservationCount": 9595,
+      "gbifOccurrenceCount": 63393,
+      "enrichedAt": "2026-03-18T12:26:35.485Z"
+    }
   },
   {
     "id": 183,
@@ -167,7 +292,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398628,
+      "wormsAphiaId": 212878,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Abudefduf",
+        "especie": "Abudefduf septemfasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/623520546/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/430218970/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/448944232/medium.jpeg"
+      ],
+      "inatObservationCount": 1049,
+      "gbifOccurrenceCount": 1490,
+      "enrichedAt": "2026-03-18T12:26:39.999Z"
+    }
   },
   {
     "id": 184,
@@ -191,7 +337,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398682,
+      "wormsAphiaId": 212888,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Abudefduf",
+        "especie": "Abudefduf sordidus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/237980049/medium.jpg",
+        "https://static.inaturalist.org/photos/180036229/medium.jpg",
+        "https://static.inaturalist.org/photos/30397199/medium.jpg"
+      ],
+      "inatObservationCount": 3416,
+      "gbifOccurrenceCount": 4994,
+      "enrichedAt": "2026-03-18T12:26:43.638Z"
+    }
   },
   {
     "id": 185,
@@ -215,7 +382,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398634,
+      "wormsAphiaId": 212879,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Abudefduf",
+        "especie": "Abudefduf vaigiensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/324720907/medium.jpg",
+        "https://static.inaturalist.org/photos/11079433/medium.jpg",
+        "https://static.inaturalist.org/photos/37485127/medium.jpeg"
+      ],
+      "inatObservationCount": 6433,
+      "gbifOccurrenceCount": 10390,
+      "enrichedAt": "2026-03-18T12:26:47.206Z"
+    }
   },
   {
     "id": 186,
@@ -239,7 +427,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408197,
+      "wormsAphiaId": 158920,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Acanthostracion",
+        "especie": "Acanthostracion quadricornis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/158450017/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/394142773/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/343317103/medium.jpg"
+      ],
+      "inatObservationCount": 1963,
+      "gbifOccurrenceCount": 24528,
+      "enrichedAt": "2026-03-18T12:26:50.999Z"
+    }
   },
   {
     "id": 187,
@@ -287,7 +496,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209181,
+      "wormsAphiaId": 159578,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus bahianus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/123831542/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/508052920/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/114867344/medium.jpg"
+      ],
+      "inatObservationCount": 70,
+      "gbifOccurrenceCount": 90650,
+      "enrichedAt": "2026-03-18T12:26:59.611Z"
+    }
   },
   {
     "id": 189,
@@ -311,7 +541,22 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209205,
+      "wormsAphiaId": 219647,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus mata"
+      },
+      "gbifOccurrenceCount": 20,
+      "enrichedAt": "2026-03-18T12:27:03.297Z"
+    }
   },
   {
     "id": 190,
@@ -335,7 +580,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209174,
+      "wormsAphiaId": 159580,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus chirurgus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293721344/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53187542/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/524246835/medium.jpg"
+      ],
+      "inatObservationCount": 1589,
+      "gbifOccurrenceCount": 64230,
+      "enrichedAt": "2026-03-18T12:27:06.962Z"
+    }
   },
   {
     "id": 191,
@@ -359,7 +625,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209188,
+      "wormsAphiaId": 159581,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus coeruleus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164616342/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/256432712/medium.jpeg",
+        "https://static.inaturalist.org/photos/463756836/medium.jpg"
+      ],
+      "inatObservationCount": 7530,
+      "gbifOccurrenceCount": 93112,
+      "enrichedAt": "2026-03-18T12:27:10.868Z"
+    }
   },
   {
     "id": 192,
@@ -383,7 +670,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209167,
+      "wormsAphiaId": 219641,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus dussumieri"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/3209204/medium.jpg",
+        "https://static.inaturalist.org/photos/401511088/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/209236276/medium.png"
+      ],
+      "inatObservationCount": 1282,
+      "gbifOccurrenceCount": 6247,
+      "enrichedAt": "2026-03-18T12:27:15.678Z"
+    }
   },
   {
     "id": 193,
@@ -407,7 +715,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209164,
+      "wormsAphiaId": 301887,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus nigricans"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/111325779/medium.jpeg",
+        "https://static.inaturalist.org/photos/13655446/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/257669975/medium.jpg"
+      ],
+      "inatObservationCount": 1625,
+      "gbifOccurrenceCount": 79,
+      "enrichedAt": "2026-03-18T12:27:19.647Z"
+    }
   },
   {
     "id": 194,
@@ -431,7 +760,21 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209213,
+      "wormsAphiaId": 403088,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus leucosternon"
+      },
+      "enrichedAt": "2026-03-18T12:27:23.561Z"
+    }
   },
   {
     "id": 195,
@@ -455,7 +798,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209244,
+      "wormsAphiaId": 159582,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus lineatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255499460/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/447143637/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/549492485/medium.jpg"
+      ],
+      "inatObservationCount": 3178,
+      "gbifOccurrenceCount": 12591,
+      "enrichedAt": "2026-03-18T12:27:27.090Z"
+    }
   },
   {
     "id": 196,
@@ -479,7 +843,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209162,
+      "wormsAphiaId": 219638,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus nigricans"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/111325779/medium.jpeg",
+        "https://static.inaturalist.org/photos/13655446/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/551498278/medium.jpg"
+      ],
+      "inatObservationCount": 1657,
+      "gbifOccurrenceCount": 24393,
+      "enrichedAt": "2026-03-18T12:27:30.696Z"
+    }
   },
   {
     "id": 197,
@@ -503,7 +888,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209196,
+      "wormsAphiaId": 219625,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus olivaceus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/101778771/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57200680/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/354761689/medium.jpg"
+      ],
+      "inatObservationCount": 2334,
+      "gbifOccurrenceCount": 14676,
+      "enrichedAt": "2026-03-18T12:27:34.826Z"
+    }
   },
   {
     "id": 198,
@@ -527,7 +933,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209215,
+      "wormsAphiaId": 219646,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus thompsoni"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/25341731/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178879458/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244608775/medium.jpeg"
+      ],
+      "inatObservationCount": 343,
+      "gbifOccurrenceCount": 4710,
+      "enrichedAt": "2026-03-18T12:27:41.482Z"
+    }
   },
   {
     "id": 199,
@@ -551,7 +978,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209217,
+      "wormsAphiaId": 219630,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Acanthurus",
+        "especie": "Acanthurus triostegus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/352335014/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/190875865/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/69830488/medium.jpg"
+      ],
+      "inatObservationCount": 6945,
+      "gbifOccurrenceCount": 21327,
+      "enrichedAt": "2026-03-18T12:27:46.591Z"
+    }
   },
   {
     "id": 200,
@@ -575,7 +1023,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406930,
+      "wormsAphiaId": 220054,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Acreichthys",
+        "especie": "Acreichthys tomentosus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/543702/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/453692426/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/432195903/medium.jpeg"
+      ],
+      "inatObservationCount": 179,
+      "gbifOccurrenceCount": 379,
+      "enrichedAt": "2026-03-18T12:27:50.523Z"
+    }
   },
   {
     "id": 201,
@@ -599,7 +1068,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356868,
+      "wormsAphiaId": 316036,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron diadema"
+      },
+      "gbifOccurrenceCount": 35,
+      "enrichedAt": "2026-03-18T12:27:57.861Z"
+    }
   },
   {
     "id": 202,
@@ -623,7 +1107,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356729,
+      "wormsAphiaId": 316042,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron punctatissimum"
+      },
+      "gbifOccurrenceCount": 27,
+      "enrichedAt": "2026-03-18T12:28:01.521Z"
+    }
   },
   {
     "id": 203,
@@ -647,7 +1146,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356818,
+      "wormsAphiaId": 316044,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron microstoma"
+      },
+      "gbifOccurrenceCount": 12,
+      "enrichedAt": "2026-03-18T12:28:05.048Z"
+    }
   },
   {
     "id": 204,
@@ -671,7 +1185,21 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356722,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron rubrum"
+      },
+      "gbifOccurrenceCount": 14,
+      "enrichedAt": "2026-03-18T12:28:08.648Z"
+    }
   },
   {
     "id": 205,
@@ -695,7 +1223,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356883,
+      "wormsAphiaId": 316047,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron spiniferum"
+      },
+      "gbifOccurrenceCount": 23,
+      "enrichedAt": "2026-03-18T12:28:12.427Z"
+    }
   },
   {
     "id": 206,
@@ -719,7 +1262,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356764,
+      "wormsAphiaId": 316049,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Sargocentron",
+        "especie": "Sargocentron tiere"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:28:16.018Z"
+    }
   },
   {
     "id": 207,
@@ -767,7 +1325,28 @@ const data: Fish[] = [
     "temperatura": "23 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2333562,
+      "wormsAphiaId": 217968,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Syngnathiformes",
+        "familia": "Centriscidae",
+        "genero": "Aeoliscus",
+        "especie": "Aeoliscus strigatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/308989261/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/281676079/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/32575399/medium.jpg"
+      ],
+      "inatObservationCount": 636,
+      "gbifOccurrenceCount": 903,
+      "enrichedAt": "2026-03-18T12:28:22.337Z"
+    }
   },
   {
     "id": 209,
@@ -791,7 +1370,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406721,
+      "wormsAphiaId": 159491,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Aluterus",
+        "especie": "Aluterus scriptus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/343317641/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/608288957/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/606023246/medium.jpg"
+      ],
+      "inatObservationCount": 3399,
+      "gbifOccurrenceCount": 27063,
+      "enrichedAt": "2026-03-18T12:28:26.134Z"
+    }
   },
   {
     "id": 210,
@@ -815,7 +1415,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375106,
+      "wormsAphiaId": 218851,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Amblycirrhitus",
+        "especie": "Amblycirrhitus bimacula"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59769014/medium.jpg",
+        "https://static.inaturalist.org/photos/461564978/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/325695058/medium.jpeg"
+      ],
+      "inatObservationCount": 39,
+      "gbifOccurrenceCount": 561,
+      "enrichedAt": "2026-03-18T12:28:30.225Z"
+    }
   },
   {
     "id": 211,
@@ -839,7 +1460,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398513,
+      "wormsAphiaId": 218779,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amblyglyphidodon",
+        "especie": "Amblyglyphidodon leucogaster"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/327620511/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/115705680/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175245171/medium.jpeg"
+      ],
+      "inatObservationCount": 814,
+      "gbifOccurrenceCount": 3160,
+      "enrichedAt": "2026-03-18T12:28:34.081Z"
+    }
   },
   {
     "id": 212,
@@ -863,7 +1505,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212068,
+      "wormsAphiaId": 278392,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion akindynos"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/380820831/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/240772210/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11975392/medium.jpeg"
+      ],
+      "inatObservationCount": 1121,
+      "gbifOccurrenceCount": 2248,
+      "enrichedAt": "2026-03-18T12:28:37.785Z"
+    }
   },
   {
     "id": 213,
@@ -887,7 +1550,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212081,
+      "wormsAphiaId": 212783,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion clarkii"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/31438125/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/205695517/medium.jpg",
+        "https://static.inaturalist.org/photos/31364849/medium.jpg"
+      ],
+      "inatObservationCount": 4552,
+      "gbifOccurrenceCount": 5055,
+      "enrichedAt": "2026-03-18T12:28:42.080Z"
+    }
   },
   {
     "id": 214,
@@ -911,7 +1595,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212057,
+      "wormsAphiaId": 212782,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion ephippium"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/608915830/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53985711/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/184318032/medium.jpeg"
+      ],
+      "inatObservationCount": 81,
+      "gbifOccurrenceCount": 103,
+      "enrichedAt": "2026-03-18T12:28:45.816Z"
+    }
   },
   {
     "id": 215,
@@ -935,7 +1640,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212111,
+      "wormsAphiaId": 278394,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion frenatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/441595987/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/535319482/medium.jpg",
+        "https://static.inaturalist.org/photos/477268439/medium.jpg"
+      ],
+      "inatObservationCount": 1108,
+      "gbifOccurrenceCount": 1013,
+      "enrichedAt": "2026-03-18T12:28:49.450Z"
+    }
   },
   {
     "id": 216,
@@ -959,7 +1685,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212078,
+      "wormsAphiaId": 278395,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion latezonatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/262891465/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11521699/medium.jpg",
+        "https://static.inaturalist.org/photos/604939346/medium.jpg"
+      ],
+      "inatObservationCount": 169,
+      "gbifOccurrenceCount": 268,
+      "enrichedAt": "2026-03-18T12:28:53.154Z"
+    }
   },
   {
     "id": 217,
@@ -983,7 +1730,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212069,
+      "wormsAphiaId": 278398,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion melanopus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452081774/medium.jpg",
+        "https://static.inaturalist.org/photos/50588155/medium.jpg",
+        "https://static.inaturalist.org/photos/213357228/medium.jpeg"
+      ],
+      "inatObservationCount": 1783,
+      "gbifOccurrenceCount": 2570,
+      "enrichedAt": "2026-03-18T12:28:57.161Z"
+    }
   },
   {
     "id": 218,
@@ -1007,7 +1775,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212106,
+      "wormsAphiaId": 278400,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion ocellaris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/10288037/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6466409/medium.jpg",
+        "https://static.inaturalist.org/photos/461354585/medium.jpeg"
+      ],
+      "inatObservationCount": 2785,
+      "gbifOccurrenceCount": 2651,
+      "enrichedAt": "2026-03-18T12:29:00.924Z"
+    }
   },
   {
     "id": 219,
@@ -1031,7 +1820,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212094,
+      "wormsAphiaId": 278402,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion percula"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/513815003/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243337487/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/370606798/medium.jpg"
+      ],
+      "inatObservationCount": 389,
+      "gbifOccurrenceCount": 686,
+      "enrichedAt": "2026-03-18T12:29:05.252Z"
+    }
   },
   {
     "id": 220,
@@ -1055,7 +1865,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212059,
+      "wormsAphiaId": 278403,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion perideraion"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/459287391/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/34128518/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/49769727/medium.jpeg"
+      ],
+      "inatObservationCount": 2500,
+      "gbifOccurrenceCount": 3103,
+      "enrichedAt": "2026-03-18T12:29:09.143Z"
+    }
   },
   {
     "id": 221,
@@ -1079,7 +1910,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212096,
+      "wormsAphiaId": 212781,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion polymnus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/429561263/medium.jpg",
+        "https://static.inaturalist.org/photos/593297546/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15612134/medium.jpg"
+      ],
+      "inatObservationCount": 399,
+      "gbifOccurrenceCount": 478,
+      "enrichedAt": "2026-03-18T12:29:13.811Z"
+    }
   },
   {
     "id": 222,
@@ -1103,7 +1955,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212089,
+      "wormsAphiaId": 278405,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion sandaracinos"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168957846/medium.jpeg",
+        "https://static.inaturalist.org/photos/26255552/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/61434012/medium.jpeg"
+      ],
+      "inatObservationCount": 585,
+      "gbifOccurrenceCount": 563,
+      "enrichedAt": "2026-03-18T12:29:17.400Z"
+    }
   },
   {
     "id": 223,
@@ -1127,7 +2000,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212118,
+      "wormsAphiaId": 212772,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "especie": "Amphiprion sebae"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/22498898/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/267838670/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/229868370/medium.jpeg"
+      ],
+      "inatObservationCount": 24,
+      "gbifOccurrenceCount": 67,
+      "enrichedAt": "2026-03-18T12:29:21.439Z"
+    }
   },
   {
     "id": 224,
@@ -1151,7 +2045,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382596,
+      "wormsAphiaId": 279625,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Anisotremus",
+        "especie": "Anisotremus virginicus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/212660018/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/301265958/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/561438443/medium.jpg"
+      ],
+      "inatObservationCount": 2341,
+      "gbifOccurrenceCount": 45031,
+      "enrichedAt": "2026-03-18T12:29:25.319Z"
+    }
   },
   {
     "id": 225,
@@ -1175,7 +2090,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2387658,
+      "wormsAphiaId": 209189,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Pseudanthias",
+        "especie": "Pseudanthias squamipinnis"
+      },
+      "gbifOccurrenceCount": 31,
+      "enrichedAt": "2026-03-18T12:29:29.277Z"
+    }
   },
   {
     "id": 226,
@@ -1199,7 +2129,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211640,
+      "wormsAphiaId": 209361,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Apogonidae",
+        "genero": "Apogon",
+        "especie": "Apogon erythrinus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/444757464/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255390282/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255390287/medium.jpg"
+      ],
+      "inatObservationCount": 32,
+      "gbifOccurrenceCount": 386,
+      "enrichedAt": "2026-03-18T12:29:33.119Z"
+    }
   },
   {
     "id": 227,
@@ -1223,7 +2174,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211761,
+      "wormsAphiaId": 159589,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Apogonidae",
+        "genero": "Apogon",
+        "especie": "Apogon maculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/604971981/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154791388/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/557336760/medium.jpg"
+      ],
+      "inatObservationCount": 349,
+      "gbifOccurrenceCount": 22029,
+      "enrichedAt": "2026-03-18T12:29:36.786Z"
+    }
   },
   {
     "id": 228,
@@ -1247,7 +2219,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211686,
+      "wormsAphiaId": 273037,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Apogonidae",
+        "genero": "Ostorhinchus",
+        "especie": "Ostorhinchus maculiferus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/153063611/medium.jpeg",
+        "https://static.inaturalist.org/photos/328367676/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/112972826/medium.jpeg"
+      ],
+      "inatObservationCount": 20,
+      "gbifOccurrenceCount": 19,
+      "enrichedAt": "2026-03-18T12:29:40.406Z"
+    }
   },
   {
     "id": 229,
@@ -1271,7 +2264,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211543,
+      "wormsAphiaId": 301982,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Apogonidae",
+        "genero": "Sphaeramia",
+        "especie": "Sphaeramia nematoptera"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:29:44.039Z"
+    }
   },
   {
     "id": 230,
@@ -1295,7 +2303,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407418,
+      "wormsAphiaId": 219926,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Arothron",
+        "especie": "Arothron meleagris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/347256161/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/448757548/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/462004038/medium.gif"
+      ],
+      "inatObservationCount": 4106,
+      "gbifOccurrenceCount": 6386,
+      "enrichedAt": "2026-03-18T12:29:47.588Z"
+    }
   },
   {
     "id": 231,
@@ -1319,7 +2348,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407394,
+      "wormsAphiaId": 219921,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Arothron",
+        "especie": "Arothron nigropunctatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106130793/medium.jpeg",
+        "https://static.inaturalist.org/photos/13138055/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/161636034/medium.jpeg"
+      ],
+      "inatObservationCount": 3907,
+      "gbifOccurrenceCount": 4565,
+      "enrichedAt": "2026-03-18T12:29:51.294Z"
+    }
   },
   {
     "id": 232,
@@ -1343,7 +2393,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407356,
+      "wormsAphiaId": 219932,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Arothron",
+        "especie": "Arothron reticularis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156404298/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/371841464/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/448560132/medium.jpeg"
+      ],
+      "inatObservationCount": 132,
+      "gbifOccurrenceCount": 253,
+      "enrichedAt": "2026-03-18T12:29:55.285Z"
+    }
   },
   {
     "id": 233,
@@ -1367,7 +2438,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2378149,
+      "wormsAphiaId": 219382,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Asterropteryx",
+        "especie": "Asterropteryx semipunctata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/442776561/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/384982120/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/462856158/medium.jpg"
+      ],
+      "inatObservationCount": 437,
+      "gbifOccurrenceCount": 2368,
+      "enrichedAt": "2026-03-18T12:29:58.914Z"
+    }
   },
   {
     "id": 234,
@@ -1391,7 +2483,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407167,
+      "wormsAphiaId": 219874,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Balistidae",
+        "genero": "Balistapus",
+        "especie": "Balistapus undulatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/63970526/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607766445/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/230483619/medium.jpg"
+      ],
+      "inatObservationCount": 3410,
+      "gbifOccurrenceCount": 16896,
+      "enrichedAt": "2026-03-18T12:30:03.220Z"
+    }
   },
   {
     "id": 235,
@@ -1415,7 +2528,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407199,
+      "wormsAphiaId": 306968,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Balistidae",
+        "genero": "Sufflamen",
+        "especie": "Sufflamen bursa"
+      },
+      "gbifOccurrenceCount": 9,
+      "enrichedAt": "2026-03-18T12:30:08.507Z"
+    }
   },
   {
     "id": 236,
@@ -1463,7 +2591,21 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407187,
+      "wormsAphiaId": 306989,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Balistidae",
+        "genero": "Sufflamen",
+        "especie": "Sufflamen fraenatum"
+      },
+      "enrichedAt": "2026-03-18T12:30:16.167Z"
+    }
   },
   {
     "id": 238,
@@ -1559,7 +2701,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407103,
+      "wormsAphiaId": 127397,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Balistidae",
+        "genero": "Balistes",
+        "especie": "Balistes vetula"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/290208394/medium.jpg",
+        "https://static.inaturalist.org/photos/100444901/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/349880214/medium.jpeg"
+      ],
+      "inatObservationCount": 664,
+      "gbifOccurrenceCount": 28671,
+      "enrichedAt": "2026-03-18T12:30:32.695Z"
+    }
   },
   {
     "id": 242,
@@ -1607,7 +2770,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407129,
+      "wormsAphiaId": 219876,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Balistidae",
+        "genero": "Balistoides",
+        "especie": "Balistoides conspicillum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/79966070/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/30919342/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/13958228/medium.jpg"
+      ],
+      "inatObservationCount": 1468,
+      "gbifOccurrenceCount": 3327,
+      "enrichedAt": "2026-03-18T12:30:38.885Z"
+    }
   },
   {
     "id": 244,
@@ -1655,7 +2839,21 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2395457,
+      "wormsAphiaId": 302100,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Blenniidae",
+        "genero": "Microlipophrys",
+        "especie": "Microlipophrys nigriceps"
+      },
+      "enrichedAt": "2026-03-18T12:30:45.399Z"
+    }
   },
   {
     "id": 246,
@@ -1679,7 +2877,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209666,
+      "wormsAphiaId": 218933,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Bodianus",
+        "especie": "Bodianus axillaris"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/10688830/medium.jpg",
+        "https://static.inaturalist.org/photos/11079304/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/267917749/medium.jpg"
+      ],
+      "inatObservationCount": 802,
+      "gbifOccurrenceCount": 2959,
+      "enrichedAt": "2026-03-18T12:30:48.979Z"
+    }
   },
   {
     "id": 247,
@@ -1727,7 +2946,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209681,
+      "wormsAphiaId": 273540,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Bodianus",
+        "especie": "Bodianus pulchellus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/349722951/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/516036543/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/539907431/medium.jpg"
+      ],
+      "inatObservationCount": 53,
+      "gbifOccurrenceCount": 19917,
+      "enrichedAt": "2026-03-18T12:30:55.070Z"
+    }
   },
   {
     "id": 249,
@@ -1751,7 +2991,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209687,
+      "wormsAphiaId": 273541,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Bodianus",
+        "especie": "Bodianus rufus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/176997534/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/389266815/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/286730294/medium.jpeg"
+      ],
+      "inatObservationCount": 1709,
+      "gbifOccurrenceCount": 36049,
+      "enrichedAt": "2026-03-18T12:30:59.035Z"
+    }
   },
   {
     "id": 250,
@@ -1775,7 +3036,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375637,
+      "wormsAphiaId": 219391,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Bryaninops",
+        "especie": "Bryaninops yongei"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/214902386/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/529114959/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55224180/medium.jpeg"
+      ],
+      "inatObservationCount": 525,
+      "gbifOccurrenceCount": 636,
+      "enrichedAt": "2026-03-18T12:31:06.522Z"
+    }
   },
   {
     "id": 251,
@@ -1799,7 +3081,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393870,
+      "wormsAphiaId": 219076,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Calotomus",
+        "especie": "Calotomus carolinus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255519009/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20182334/medium.jpeg",
+        "https://static.inaturalist.org/photos/40595063/medium.jpg"
+      ],
+      "inatObservationCount": 807,
+      "gbifOccurrenceCount": 3534,
+      "enrichedAt": "2026-03-18T12:31:10.285Z"
+    }
   },
   {
     "id": 252,
@@ -1823,7 +3126,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393883,
+      "wormsAphiaId": 276711,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Calotomus",
+        "especie": "Calotomus zonarchus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/437812898/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598700022/medium.jpg",
+        "https://static.inaturalist.org/photos/438787030/medium.jpeg"
+      ],
+      "inatObservationCount": 5,
+      "gbifOccurrenceCount": 507,
+      "enrichedAt": "2026-03-18T12:31:14.105Z"
+    }
   },
   {
     "id": 253,
@@ -1847,7 +3171,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406982,
+      "wormsAphiaId": 220058,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Cantherhines",
+        "especie": "Cantherhines pardalis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607340954/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/480399689/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/273133322/medium.jpg"
+      ],
+      "inatObservationCount": 626,
+      "gbifOccurrenceCount": 2671,
+      "enrichedAt": "2026-03-18T12:31:17.732Z"
+    }
   },
   {
     "id": 254,
@@ -1871,7 +3216,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406945,
+      "wormsAphiaId": 276255,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Cantherhines",
+        "especie": "Cantherhines verecundus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/425040843/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/172338/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/5957758/medium.jpg"
+      ],
+      "inatObservationCount": 28,
+      "gbifOccurrenceCount": 73,
+      "enrichedAt": "2026-03-18T12:31:21.329Z"
+    }
   },
   {
     "id": 255,
@@ -1895,7 +3261,21 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407713,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Canthigaster",
+        "especie": "Canthigaster bennetti"
+      },
+      "gbifOccurrenceCount": 1167,
+      "enrichedAt": "2026-03-18T12:31:24.893Z"
+    }
   },
   {
     "id": 256,
@@ -1919,7 +3299,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407656,
+      "wormsAphiaId": 275256,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Canthigaster",
+        "especie": "Canthigaster jactator"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/239959671/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179580735/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/596812944/medium.jpg"
+      ],
+      "inatObservationCount": 1785,
+      "gbifOccurrenceCount": 7482,
+      "enrichedAt": "2026-03-18T12:31:28.526Z"
+    }
   },
   {
     "id": 257,
@@ -1943,7 +3344,22 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407665,
+      "wormsAphiaId": 307146,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Canthigaster",
+        "especie": "Canthigaster rostrata"
+      },
+      "gbifOccurrenceCount": 38547,
+      "enrichedAt": "2026-03-18T12:31:32.198Z"
+    }
   },
   {
     "id": 258,
@@ -1967,7 +3383,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407688,
+      "wormsAphiaId": 219945,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Canthigaster",
+        "especie": "Canthigaster solandri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/234638848/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/1433168/medium.JPG",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478043349/medium.jpg"
+      ],
+      "inatObservationCount": 639,
+      "gbifOccurrenceCount": 2148,
+      "enrichedAt": "2026-03-18T12:31:35.876Z"
+    }
   },
   {
     "id": 259,
@@ -1991,7 +3428,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407698,
+      "wormsAphiaId": 219947,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Canthigaster",
+        "especie": "Canthigaster valentini"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/60491458/medium.jpg",
+        "https://static.inaturalist.org/photos/11955832/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/112948876/medium.jpg"
+      ],
+      "inatObservationCount": 3144,
+      "gbifOccurrenceCount": 5153,
+      "enrichedAt": "2026-03-18T12:31:39.571Z"
+    }
   },
   {
     "id": 260,
@@ -2015,7 +3473,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388118,
+      "wormsAphiaId": 401240,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Caprodon",
+        "especie": "Caprodon schlegelii"
+      },
+      "gbifOccurrenceCount": 327,
+      "enrichedAt": "2026-03-18T12:31:43.207Z"
+    }
   },
   {
     "id": 261,
@@ -2087,7 +3560,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396546,
+      "wormsAphiaId": 278827,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge argi"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/587623396/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/565112311/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/469058762/medium.jpg"
+      ],
+      "inatObservationCount": 78,
+      "gbifOccurrenceCount": 18689,
+      "enrichedAt": "2026-03-18T12:31:52.087Z"
+    }
   },
   {
     "id": 264,
@@ -2111,7 +3605,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396484,
+      "wormsAphiaId": 211780,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge bicolor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/40725557/medium.jpeg",
+        "https://static.inaturalist.org/photos/9080661/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/276109688/medium.jpeg"
+      ],
+      "inatObservationCount": 1425,
+      "gbifOccurrenceCount": 3103,
+      "enrichedAt": "2026-03-18T12:31:55.940Z"
+    }
   },
   {
     "id": 265,
@@ -2135,7 +3650,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396495,
+      "wormsAphiaId": 278830,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge bispinosa"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/239660703/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/42373334/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/380434973/medium.jpg"
+      ],
+      "inatObservationCount": 659,
+      "gbifOccurrenceCount": 5239,
+      "enrichedAt": "2026-03-18T12:31:59.854Z"
+    }
   },
   {
     "id": 266,
@@ -2159,7 +3695,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396518,
+      "wormsAphiaId": 278833,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge eibli"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/25795915/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/220596456/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/222131333/medium.jpg"
+      ],
+      "inatObservationCount": 136,
+      "gbifOccurrenceCount": 316,
+      "enrichedAt": "2026-03-18T12:32:03.712Z"
+    }
   },
   {
     "id": 267,
@@ -2183,7 +3740,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396542,
+      "wormsAphiaId": 278834,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge ferrugata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/29338640/medium.jpg",
+        "https://static.inaturalist.org/photos/346579895/medium.jpg",
+        "https://static.inaturalist.org/photos/344519805/medium.jpg"
+      ],
+      "inatObservationCount": 21,
+      "gbifOccurrenceCount": 81,
+      "enrichedAt": "2026-03-18T12:32:07.497Z"
+    }
   },
   {
     "id": 268,
@@ -2207,7 +3785,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396483,
+      "wormsAphiaId": 211778,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge fisheri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255663242/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/247558856/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/451903054/medium.jpg"
+      ],
+      "inatObservationCount": 89,
+      "gbifOccurrenceCount": 645,
+      "enrichedAt": "2026-03-18T12:32:11.182Z"
+    }
   },
   {
     "id": 269,
@@ -2231,7 +3830,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396499,
+      "wormsAphiaId": 402160,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge flavissima"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/239660692/medium.jpg",
+        "https://static.inaturalist.org/photos/249894855/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/389795858/medium.jpg"
+      ],
+      "inatObservationCount": 905,
+      "gbifOccurrenceCount": 15737,
+      "enrichedAt": "2026-03-18T12:32:14.923Z"
+    }
   },
   {
     "id": 270,
@@ -2255,7 +3875,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 6168819,
+      "wormsAphiaId": 278839,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge interrupta"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/388840581/medium.jpg",
+        "https://static.inaturalist.org/photos/399049386/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598699758/medium.jpg"
+      ],
+      "inatObservationCount": 9,
+      "gbifOccurrenceCount": 21,
+      "enrichedAt": "2026-03-18T12:32:18.758Z"
+    }
   },
   {
     "id": 271,
@@ -2279,7 +3920,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396548,
+      "wormsAphiaId": 278841,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge loriculus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/251492096/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/289840740/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/220899296/medium.jpeg"
+      ],
+      "inatObservationCount": 240,
+      "gbifOccurrenceCount": 5702,
+      "enrichedAt": "2026-03-18T12:32:22.482Z"
+    }
   },
   {
     "id": 272,
@@ -2303,7 +3965,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396492,
+      "wormsAphiaId": 278848,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Centropyge",
+        "especie": "Centropyge potteri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/69040203/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252219949/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/21674246/medium.jpeg"
+      ],
+      "inatObservationCount": 216,
+      "gbifOccurrenceCount": 5832,
+      "enrichedAt": "2026-03-18T12:32:26.571Z"
+    }
   },
   {
     "id": 273,
@@ -2327,7 +4010,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388891,
+      "wormsAphiaId": 218174,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Cephalopholis",
+        "especie": "Cephalopholis argus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4053475/medium.jpg",
+        "https://static.inaturalist.org/photos/245513610/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2248255/medium.JPG"
+      ],
+      "inatObservationCount": 3331,
+      "gbifOccurrenceCount": 19883,
+      "enrichedAt": "2026-03-18T12:32:30.561Z"
+    }
   },
   {
     "id": 274,
@@ -2351,7 +4055,21 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388835,
+      "wormsAphiaId": 401274,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Cephalopholis",
+        "especie": "Cephalopholis boenak"
+      },
+      "enrichedAt": "2026-03-18T12:32:34.641Z"
+    }
   },
   {
     "id": 275,
@@ -2375,7 +4093,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388809,
+      "wormsAphiaId": 401281,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Cephalopholis",
+        "especie": "Cephalopholis fulva"
+      },
+      "gbifOccurrenceCount": 48052,
+      "enrichedAt": "2026-03-18T12:32:39.186Z"
+    }
   },
   {
     "id": 276,
@@ -2399,7 +4132,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406690,
+      "wormsAphiaId": 280112,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Chaetodermis",
+        "especie": "Chaetodermis penicilligerus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/42006128/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/10940659/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11974493/medium.jpeg"
+      ],
+      "inatObservationCount": 306,
+      "gbifOccurrenceCount": 871,
+      "enrichedAt": "2026-03-18T12:32:43.568Z"
+    }
   },
   {
     "id": 277,
@@ -2423,7 +4177,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385390,
+      "wormsAphiaId": 218730,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon auriga"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6973141/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15056180/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/422431957/medium.jpeg"
+      ],
+      "inatObservationCount": 6328,
+      "gbifOccurrenceCount": 14910,
+      "enrichedAt": "2026-03-18T12:33:02.298Z"
+    }
   },
   {
     "id": 278,
@@ -2447,7 +4222,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385308,
+      "wormsAphiaId": 218735,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon bennetti"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/31156062/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452973249/medium.jpg",
+        "https://static.inaturalist.org/photos/477460211/medium.jpg"
+      ],
+      "inatObservationCount": 968,
+      "gbifOccurrenceCount": 1783,
+      "enrichedAt": "2026-03-18T12:33:17.607Z"
+    }
   },
   {
     "id": 279,
@@ -2471,7 +4267,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385548,
+      "wormsAphiaId": 159661,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon capistratus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/92683344/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/308518622/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/449898623/medium.jpeg"
+      ],
+      "inatObservationCount": 3156,
+      "gbifOccurrenceCount": 41970,
+      "enrichedAt": "2026-03-18T12:33:24.711Z"
+    }
   },
   {
     "id": 280,
@@ -2495,7 +4312,21 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385653,
+      "wormsAphiaId": 302645,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Coradion",
+        "especie": "Coradion chrysozonus"
+      },
+      "enrichedAt": "2026-03-18T12:33:29.154Z"
+    }
   },
   {
     "id": 281,
@@ -2519,7 +4350,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7479802,
+      "wormsAphiaId": 218744,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon citrinellus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/33805303/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233426826/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/602667833/medium.jpg"
+      ],
+      "inatObservationCount": 2190,
+      "gbifOccurrenceCount": 9795,
+      "enrichedAt": "2026-03-18T12:33:32.844Z"
+    }
   },
   {
     "id": 282,
@@ -2543,7 +4395,22 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385375,
+      "wormsAphiaId": 402112,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon collare"
+      },
+      "gbifOccurrenceCount": 7,
+      "enrichedAt": "2026-03-18T12:33:37.093Z"
+    }
   },
   {
     "id": 283,
@@ -2567,7 +4434,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385324,
+      "wormsAphiaId": 273335,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon ephippium"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15333789/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243890971/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/549286482/medium.jpg"
+      ],
+      "inatObservationCount": 2005,
+      "gbifOccurrenceCount": 6055,
+      "enrichedAt": "2026-03-18T12:33:41.159Z"
+    }
   },
   {
     "id": 284,
@@ -2591,7 +4479,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385419,
+      "wormsAphiaId": 218726,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon falcula"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/379635851/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/419993448/medium.jpeg",
+        "https://static.inaturalist.org/photos/178546803/medium.jpeg"
+      ],
+      "inatObservationCount": 380,
+      "gbifOccurrenceCount": 500,
+      "enrichedAt": "2026-03-18T12:33:47.186Z"
+    }
   },
   {
     "id": 285,
@@ -2615,7 +4524,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385538,
+      "wormsAphiaId": 218737,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon fasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/344207037/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/174967542/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55868231/medium.jpeg"
+      ],
+      "inatObservationCount": 1064,
+      "gbifOccurrenceCount": 1084,
+      "enrichedAt": "2026-03-18T12:33:54.815Z"
+    }
   },
   {
     "id": 286,
@@ -2663,7 +4593,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385500,
+      "wormsAphiaId": 273339,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon fremblii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/34139600/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/317852/medium.JPG",
+        "https://static.inaturalist.org/photos/292809330/medium.jpg"
+      ],
+      "inatObservationCount": 326,
+      "gbifOccurrenceCount": 2859,
+      "enrichedAt": "2026-03-18T12:34:05.298Z"
+    }
   },
   {
     "id": 288,
@@ -2687,7 +4638,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385353,
+      "wormsAphiaId": 218716,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon larvatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/74067025/medium.jpg",
+        "https://static.inaturalist.org/photos/59055137/medium.jpeg",
+        "https://static.inaturalist.org/photos/459423618/medium.jpg"
+      ],
+      "inatObservationCount": 123,
+      "gbifOccurrenceCount": 169,
+      "enrichedAt": "2026-03-18T12:34:10.231Z"
+    }
   },
   {
     "id": 289,
@@ -2711,7 +4683,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 9619603,
+      "wormsAphiaId": 218734,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon lineolatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/91071941/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/9952627/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/134145241/medium.jpeg"
+      ],
+      "inatObservationCount": 1489,
+      "gbifOccurrenceCount": 3447,
+      "enrichedAt": "2026-03-18T12:34:16.681Z"
+    }
   },
   {
     "id": 290,
@@ -2735,7 +4728,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385531,
+      "wormsAphiaId": 218733,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon lunula"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6462315/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/331/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/169964645/medium.jpeg"
+      ],
+      "inatObservationCount": 3906,
+      "gbifOccurrenceCount": 8841,
+      "enrichedAt": "2026-03-18T12:34:20.783Z"
+    }
   },
   {
     "id": 291,
@@ -2759,7 +4773,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385556,
+      "wormsAphiaId": 218743,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon melannotus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/62724348/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/409632193/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228710894/medium.jpg"
+      ],
+      "inatObservationCount": 2135,
+      "gbifOccurrenceCount": 5611,
+      "enrichedAt": "2026-03-18T12:34:24.640Z"
+    }
   },
   {
     "id": 292,
@@ -2783,7 +4818,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385528,
+      "wormsAphiaId": 273347,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon mertensii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/14452975/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/5332933/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/358747064/medium.jpg"
+      ],
+      "inatObservationCount": 327,
+      "gbifOccurrenceCount": 2258,
+      "enrichedAt": "2026-03-18T12:34:31.103Z"
+    }
   },
   {
     "id": 293,
@@ -2807,7 +4863,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385494,
+      "wormsAphiaId": 218752,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon meyeri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/51013610/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252325729/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/370920759/medium.jpg"
+      ],
+      "inatObservationCount": 839,
+      "gbifOccurrenceCount": 2263,
+      "enrichedAt": "2026-03-18T12:34:36.003Z"
+    }
   },
   {
     "id": 294,
@@ -2831,7 +4908,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385356,
+      "wormsAphiaId": 218745,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon miliaris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/596812440/medium.jpg",
+        "https://static.inaturalist.org/photos/606830541/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/600454066/medium.jpg"
+      ],
+      "inatObservationCount": 532,
+      "gbifOccurrenceCount": 3939,
+      "enrichedAt": "2026-03-18T12:34:48.411Z"
+    }
   },
   {
     "id": 295,
@@ -2855,7 +4953,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385448,
+      "wormsAphiaId": 159662,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon ocellatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/50223977/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569216342/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/441973498/medium.jpeg"
+      ],
+      "inatObservationCount": 1664,
+      "gbifOccurrenceCount": 35116,
+      "enrichedAt": "2026-03-18T12:34:56.303Z"
+    }
   },
   {
     "id": 296,
@@ -2879,7 +4998,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385381,
+      "wormsAphiaId": 218746,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon octofasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/187480976/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/573587028/medium.jpg",
+        "https://static.inaturalist.org/photos/34714968/medium.jpg"
+      ],
+      "inatObservationCount": 1094,
+      "gbifOccurrenceCount": 1277,
+      "enrichedAt": "2026-03-18T12:35:00.161Z"
+    }
   },
   {
     "id": 297,
@@ -2903,7 +5043,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385422,
+      "wormsAphiaId": 273352,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon ornatissimus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4956860/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/123987464/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248887270/medium.jpg"
+      ],
+      "inatObservationCount": 2562,
+      "gbifOccurrenceCount": 9235,
+      "enrichedAt": "2026-03-18T12:35:06.083Z"
+    }
   },
   {
     "id": 298,
@@ -2927,7 +5088,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385583,
+      "wormsAphiaId": 273354,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon plebeius"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/536418434/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607534637/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/575948942/medium.jpg"
+      ],
+      "inatObservationCount": 1317,
+      "gbifOccurrenceCount": 5500,
+      "enrichedAt": "2026-03-18T12:35:10.184Z"
+    }
   },
   {
     "id": 299,
@@ -2951,7 +5133,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385349,
+      "wormsAphiaId": 273355,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon punctatofasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/505622189/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164904201/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/206693422/medium.jpeg"
+      ],
+      "inatObservationCount": 557,
+      "gbifOccurrenceCount": 2931,
+      "enrichedAt": "2026-03-18T12:35:16.238Z"
+    }
   },
   {
     "id": 300,
@@ -2975,7 +5178,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385543,
+      "wormsAphiaId": 273356,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon quadrimaculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/23523422/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/265786115/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/439635542/medium.jpeg"
+      ],
+      "inatObservationCount": 1432,
+      "gbifOccurrenceCount": 4827,
+      "enrichedAt": "2026-03-18T12:35:19.911Z"
+    }
   },
   {
     "id": 301,
@@ -2999,7 +5223,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385503,
+      "wormsAphiaId": 713411,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon rafflesii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/473127027/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175108059/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607548016/medium.jpg"
+      ],
+      "inatObservationCount": 1320,
+      "gbifOccurrenceCount": 2496,
+      "enrichedAt": "2026-03-18T12:35:24.551Z"
+    }
   },
   {
     "id": 302,
@@ -3023,7 +5268,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385444,
+      "wormsAphiaId": 273359,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon reticulatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252325729/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/370920759/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54399841/medium.jpg"
+      ],
+      "inatObservationCount": 664,
+      "gbifOccurrenceCount": 7051,
+      "enrichedAt": "2026-03-18T12:35:28.274Z"
+    }
   },
   {
     "id": 303,
@@ -3047,7 +5313,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385315,
+      "wormsAphiaId": 218740,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon speculum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/22549454/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/195541810/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/351451545/medium.jpeg"
+      ],
+      "inatObservationCount": 1239,
+      "gbifOccurrenceCount": 2035,
+      "enrichedAt": "2026-03-18T12:35:37.082Z"
+    }
   },
   {
     "id": 304,
@@ -3071,7 +5358,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7906686,
+      "wormsAphiaId": 159663,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon striatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/177316261/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/516231487/medium.jpg",
+        "https://static.inaturalist.org/photos/482468824/medium.png"
+      ],
+      "inatObservationCount": 2198,
+      "gbifOccurrenceCount": 31967,
+      "enrichedAt": "2026-03-18T12:35:41.036Z"
+    }
   },
   {
     "id": 305,
@@ -3095,7 +5403,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 10675465,
+      "wormsAphiaId": 218748,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon triangulum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11763186/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/592518850/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/177669571/medium.jpg"
+      ],
+      "inatObservationCount": 261,
+      "gbifOccurrenceCount": 319,
+      "enrichedAt": "2026-03-18T12:35:45.341Z"
+    }
   },
   {
     "id": 306,
@@ -3119,7 +5448,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385428,
+      "wormsAphiaId": 218719,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon trifascialis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/469851437/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243933/medium.JPG",
+        "https://static.inaturalist.org/photos/10544757/medium.jpg"
+      ],
+      "inatObservationCount": 2561,
+      "gbifOccurrenceCount": 8897,
+      "enrichedAt": "2026-03-18T12:35:52.045Z"
+    }
   },
   {
     "id": 307,
@@ -3143,7 +5493,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8333642,
+      "wormsAphiaId": 218741,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon trifasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/347510901/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/454497011/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/173829537/medium.jpeg"
+      ],
+      "inatObservationCount": 1197,
+      "gbifOccurrenceCount": 5017,
+      "enrichedAt": "2026-03-18T12:35:56.189Z"
+    }
   },
   {
     "id": 308,
@@ -3167,7 +5538,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385331,
+      "wormsAphiaId": 218753,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon unimaculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233496852/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/91073839/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66774276/medium.jpg"
+      ],
+      "inatObservationCount": 1741,
+      "gbifOccurrenceCount": 5322,
+      "enrichedAt": "2026-03-18T12:36:02.950Z"
+    }
   },
   {
     "id": 309,
@@ -3191,7 +5583,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385564,
+      "wormsAphiaId": 218754,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon vagabundus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/209516313/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/259101164/medium.jpg",
+        "https://static.inaturalist.org/photos/615201776/medium.jpg"
+      ],
+      "inatObservationCount": 3128,
+      "gbifOccurrenceCount": 8643,
+      "enrichedAt": "2026-03-18T12:36:06.745Z"
+    }
   },
   {
     "id": 310,
@@ -3215,7 +5628,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385456,
+      "wormsAphiaId": 273367,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chaetodon",
+        "especie": "Chaetodon xanthurus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452177105/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/467374760/medium.jpeg",
+        "https://static.inaturalist.org/photos/60903256/medium.jpg"
+      ],
+      "inatObservationCount": 185,
+      "gbifOccurrenceCount": 230,
+      "enrichedAt": "2026-03-18T12:36:10.375Z"
+    }
   },
   {
     "id": 311,
@@ -3239,7 +5673,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384364,
+      "wormsAphiaId": 218937,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Oxycheilinus",
+        "especie": "Oxycheilinus bimaculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452699616/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/270982189/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/211639004/medium.jpeg"
+      ],
+      "inatObservationCount": 838,
+      "gbifOccurrenceCount": 46,
+      "enrichedAt": "2026-03-18T12:36:13.939Z"
+    }
   },
   {
     "id": 312,
@@ -3263,7 +5718,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383605,
+      "wormsAphiaId": 218948,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Cheilio",
+        "especie": "Cheilio inermis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/38513760/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/612302815/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/200089062/medium.jpeg"
+      ],
+      "inatObservationCount": 1310,
+      "gbifOccurrenceCount": 4441,
+      "enrichedAt": "2026-03-18T12:36:18.371Z"
+    }
   },
   {
     "id": 313,
@@ -3287,7 +5763,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2392166,
+      "wormsAphiaId": 311550,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cheilodactylidae",
+        "genero": "Cheilodactylus",
+        "especie": "Cheilodactylus quadricornis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/351951686/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/351914442/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569815963/medium.jpg"
+      ],
+      "inatObservationCount": 5,
+      "gbifOccurrenceCount": 76,
+      "enrichedAt": "2026-03-18T12:36:22.023Z"
+    }
   },
   {
     "id": 314,
@@ -3311,7 +5808,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2392120,
+      "wormsAphiaId": 311553,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cheilodactylidae",
+        "genero": "Cheilodactylus",
+        "especie": "Cheilodactylus vittatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598700310/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598951546/medium.jpg",
+        "https://static.inaturalist.org/photos/334025615/medium.jpeg"
+      ],
+      "inatObservationCount": 7,
+      "gbifOccurrenceCount": 322,
+      "enrichedAt": "2026-03-18T12:36:26.500Z"
+    }
   },
   {
     "id": 315,
@@ -3335,7 +5853,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2392172,
+      "wormsAphiaId": 311554,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cheilodactylidae",
+        "genero": "Cheilodactylus",
+        "especie": "Cheilodactylus zebra"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/581296461/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4049454/medium.jpg",
+        "https://static.inaturalist.org/photos/30336580/medium.jpg"
+      ],
+      "inatObservationCount": 7,
+      "gbifOccurrenceCount": 73,
+      "enrichedAt": "2026-03-18T12:36:30.145Z"
+    }
   },
   {
     "id": 316,
@@ -3359,7 +5898,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2392163,
+      "wormsAphiaId": 311555,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cheilodactylidae",
+        "genero": "Cheilodactylus",
+        "especie": "Cheilodactylus zonatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/171371129/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/480106080/medium.jpeg",
+        "https://static.inaturalist.org/photos/449573289/medium.jpeg"
+      ],
+      "inatObservationCount": 145,
+      "gbifOccurrenceCount": 521,
+      "enrichedAt": "2026-03-18T12:36:36.123Z"
+    }
   },
   {
     "id": 317,
@@ -3383,7 +5943,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209920,
+      "wormsAphiaId": 218758,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Chelmon",
+        "especie": "Chelmon rostratus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/358508183/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/579723287/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/116164409/medium.jpeg"
+      ],
+      "inatObservationCount": 1206,
+      "gbifOccurrenceCount": 2881,
+      "enrichedAt": "2026-03-18T12:36:40.823Z"
+    }
   },
   {
     "id": 318,
@@ -3407,7 +5988,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4284297,
+      "wormsAphiaId": 293565,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Diodontidae",
+        "genero": "Chilomycterus",
+        "especie": "Chilomycterus spinosus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/432720633/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/141612844/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/476058344/medium.jpeg"
+      ],
+      "inatObservationCount": 273,
+      "gbifOccurrenceCount": 807,
+      "enrichedAt": "2026-03-18T12:36:45.853Z"
+    }
   },
   {
     "id": 319,
@@ -3431,7 +6033,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211123,
+      "wormsAphiaId": 277509,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Chlorurus",
+        "especie": "Chlorurus perspicillatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/251659684/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/1436762/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24776453/medium.jpeg"
+      ],
+      "inatObservationCount": 93,
+      "gbifOccurrenceCount": 8665,
+      "enrichedAt": "2026-03-18T12:36:50.349Z"
+    }
   },
   {
     "id": 320,
@@ -3455,7 +6078,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211134,
+      "wormsAphiaId": 219082,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Chlorurus",
+        "especie": "Chlorurus sordidus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/139887394/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/582257742/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/316094075/medium.png"
+      ],
+      "inatObservationCount": 2182,
+      "gbifOccurrenceCount": 23822,
+      "enrichedAt": "2026-03-18T12:36:54.274Z"
+    }
   },
   {
     "id": 321,
@@ -3503,7 +6147,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212156,
+      "wormsAphiaId": 212808,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis agilis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/448939834/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/333959730/medium.jpg",
+        "https://static.inaturalist.org/photos/471278423/medium.jpg"
+      ],
+      "inatObservationCount": 14,
+      "gbifOccurrenceCount": 7260,
+      "enrichedAt": "2026-03-18T12:37:04.592Z"
+    }
   },
   {
     "id": 323,
@@ -3527,7 +6192,22 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212144,
+      "wormsAphiaId": 402295,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis ternatensis"
+      },
+      "gbifOccurrenceCount": 213,
+      "enrichedAt": "2026-03-18T12:37:09.717Z"
+    }
   },
   {
     "id": 324,
@@ -3551,7 +6231,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212211,
+      "wormsAphiaId": 273729,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis hanui"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/82776729/medium.jpeg",
+        "https://static.inaturalist.org/photos/323681250/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/561754776/medium.jpg"
+      ],
+      "inatObservationCount": 105,
+      "gbifOccurrenceCount": 5231,
+      "enrichedAt": "2026-03-18T12:37:13.963Z"
+    }
   },
   {
     "id": 325,
@@ -3575,7 +6276,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212272,
+      "wormsAphiaId": 212805,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis leucura"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/237394943/medium.jpg",
+        "https://static.inaturalist.org/photos/29499728/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181038085/medium.jpeg"
+      ],
+      "inatObservationCount": 4,
+      "gbifOccurrenceCount": 197,
+      "enrichedAt": "2026-03-18T12:37:17.601Z"
+    }
   },
   {
     "id": 326,
@@ -3599,7 +6321,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212222,
+      "wormsAphiaId": 273743,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis multilineata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/350237206/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/286731567/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2969681/medium.JPG"
+      ],
+      "inatObservationCount": 1382,
+      "gbifOccurrenceCount": 43640,
+      "enrichedAt": "2026-03-18T12:37:21.430Z"
+    }
   },
   {
     "id": 327,
@@ -3623,7 +6366,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212186,
+      "wormsAphiaId": 273759,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Chromis",
+        "especie": "Chromis verater"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/5785660/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/123108087/medium.jpg",
+        "https://static.inaturalist.org/photos/204589580/medium.jpeg"
+      ],
+      "inatObservationCount": 49,
+      "gbifOccurrenceCount": 1185,
+      "enrichedAt": "2026-03-18T12:37:25.335Z"
+    }
   },
   {
     "id": 328,
@@ -3671,7 +6435,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375152,
+      "wormsAphiaId": 277544,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Cirrhitichthys",
+        "especie": "Cirrhitichthys aureus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/190641148/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/511803439/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/262976211/medium.jpg"
+      ],
+      "inatObservationCount": 101,
+      "gbifOccurrenceCount": 118,
+      "enrichedAt": "2026-03-18T12:37:31.560Z"
+    }
   },
   {
     "id": 330,
@@ -3695,7 +6480,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375162,
+      "wormsAphiaId": 218854,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Cirrhitichthys",
+        "especie": "Cirrhitichthys falco"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11975084/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20238996/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/339827541/medium.jpg"
+      ],
+      "inatObservationCount": 1084,
+      "gbifOccurrenceCount": 2881,
+      "enrichedAt": "2026-03-18T12:37:35.266Z"
+    }
   },
   {
     "id": 331,
@@ -3719,7 +6525,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375117,
+      "wormsAphiaId": 218861,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Cirrhitops",
+        "especie": "Cirrhitops fasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/71820871/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/147629812/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/470601637/medium.jpeg"
+      ],
+      "inatObservationCount": 308,
+      "gbifOccurrenceCount": 2633,
+      "enrichedAt": "2026-03-18T12:37:39.164Z"
+    }
   },
   {
     "id": 332,
@@ -3743,7 +6570,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375089,
+      "wormsAphiaId": 218862,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Cirrhitus",
+        "especie": "Cirrhitus pinnulatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/166377214/medium.jpg",
+        "https://static.inaturalist.org/photos/165738417/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/616518525/medium.jpg"
+      ],
+      "inatObservationCount": 1036,
+      "gbifOccurrenceCount": 2655,
+      "enrichedAt": "2026-03-18T12:37:42.773Z"
+    }
   },
   {
     "id": 333,
@@ -3767,7 +6615,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385657,
+      "wormsAphiaId": 280392,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Coradion",
+        "especie": "Coradion melanopus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/594962027/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/19089572/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/461842709/medium.jpeg"
+      ],
+      "inatObservationCount": 209,
+      "gbifOccurrenceCount": 158,
+      "enrichedAt": "2026-03-18T12:37:47.193Z"
+    }
   },
   {
     "id": 334,
@@ -3791,7 +6660,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209776,
+      "wormsAphiaId": 218962,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Coris",
+        "especie": "Coris aygula"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:37:51.989Z"
+    }
   },
   {
     "id": 335,
@@ -3815,7 +6699,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209803,
+      "wormsAphiaId": 273555,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Coris",
+        "especie": "Coris flavovittata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/322640042/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4053510/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/236674362/medium.jpeg"
+      ],
+      "inatObservationCount": 148,
+      "gbifOccurrenceCount": 1447,
+      "enrichedAt": "2026-03-18T12:37:55.609Z"
+    }
   },
   {
     "id": 336,
@@ -3839,7 +6744,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209768,
+      "wormsAphiaId": 218964,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Coris",
+        "especie": "Coris formosa"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/562039206/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/334122760/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/320872898/medium.jpeg"
+      ],
+      "inatObservationCount": 292,
+      "gbifOccurrenceCount": 375,
+      "enrichedAt": "2026-03-18T12:37:59.404Z"
+    }
   },
   {
     "id": 337,
@@ -3863,7 +6789,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5209802,
+      "wormsAphiaId": 218960,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Coris",
+        "especie": "Coris gaimard"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179924790/medium.jpeg",
+        "https://static.inaturalist.org/photos/12588621/medium.jpg",
+        "https://static.inaturalist.org/photos/34248867/medium.jpg"
+      ],
+      "inatObservationCount": 2450,
+      "gbifOccurrenceCount": 7420,
+      "enrichedAt": "2026-03-18T12:38:04.239Z"
+    }
   },
   {
     "id": 338,
@@ -3911,7 +6858,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2379643,
+      "wormsAphiaId": 277561,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Ctenochaetus",
+        "especie": "Ctenochaetus hawaiiensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253868991/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/300304506/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/335279564/medium.jpeg"
+      ],
+      "inatObservationCount": 135,
+      "gbifOccurrenceCount": 2160,
+      "enrichedAt": "2026-03-18T12:38:12.490Z"
+    }
   },
   {
     "id": 340,
@@ -3935,7 +6903,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212038,
+      "wormsAphiaId": 278448,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus albisella"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/325180931/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/384656484/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179506900/medium.jpeg"
+      ],
+      "inatObservationCount": 1043,
+      "gbifOccurrenceCount": 3850,
+      "enrichedAt": "2026-03-18T12:38:16.148Z"
+    }
   },
   {
     "id": 341,
@@ -3959,7 +6948,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212047,
+      "wormsAphiaId": 212843,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus aruanus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/46096726/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/62392288/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179510821/medium.jpeg"
+      ],
+      "inatObservationCount": 2087,
+      "gbifOccurrenceCount": 7140,
+      "enrichedAt": "2026-03-18T12:38:19.862Z"
+    }
   },
   {
     "id": 342,
@@ -3983,7 +6993,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212042,
+      "wormsAphiaId": 212848,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus carneus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11766492/medium.jpg",
+        "https://static.inaturalist.org/photos/153442989/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/455348138/medium.jpeg"
+      ],
+      "inatObservationCount": 401,
+      "gbifOccurrenceCount": 638,
+      "enrichedAt": "2026-03-18T12:38:23.675Z"
+    }
   },
   {
     "id": 343,
@@ -4007,7 +7038,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212036,
+      "wormsAphiaId": 212849,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus marginatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/364027571/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/70239958/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/461374208/medium.jpeg"
+      ],
+      "inatObservationCount": 148,
+      "gbifOccurrenceCount": 309,
+      "enrichedAt": "2026-03-18T12:38:27.340Z"
+    }
   },
   {
     "id": 344,
@@ -4031,7 +7083,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212037,
+      "wormsAphiaId": 278451,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus melanurus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/38379775/medium.jpg",
+        "https://static.inaturalist.org/photos/380391821/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/329866727/medium.jpg"
+      ],
+      "inatObservationCount": 364,
+      "gbifOccurrenceCount": 534,
+      "enrichedAt": "2026-03-18T12:38:31.508Z"
+    }
   },
   {
     "id": 345,
@@ -4055,7 +7128,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5212031,
+      "wormsAphiaId": 212846,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Dascyllus",
+        "especie": "Dascyllus trimaculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/251982550/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6076438/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/379009830/medium.jpg"
+      ],
+      "inatObservationCount": 4398,
+      "gbifOccurrenceCount": 8831,
+      "enrichedAt": "2026-03-18T12:38:35.140Z"
+    }
   },
   {
     "id": 346,
@@ -4079,7 +7173,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334538,
+      "wormsAphiaId": 218053,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Dendrochirus",
+        "especie": "Dendrochirus zebra"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/396379857/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/486299505/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/333610510/medium.jpg"
+      ],
+      "inatObservationCount": 2097,
+      "gbifOccurrenceCount": 2524,
+      "enrichedAt": "2026-03-18T12:38:38.625Z"
+    }
   },
   {
     "id": 347,
@@ -4103,7 +7218,17 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "wormsAphiaId": 127403,
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66717582/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54733465/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/196448786/medium.jpg"
+      ],
+      "inatObservationCount": 6733,
+      "enrichedAt": "2026-03-18T12:38:42.242Z"
+    }
   },
   {
     "id": 348,
@@ -4127,7 +7252,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2376749,
+      "wormsAphiaId": 280601,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Elacatinus",
+        "especie": "Elacatinus evelynae"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/172228190/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/114774308/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/414365639/medium.jpeg"
+      ],
+      "inatObservationCount": 414,
+      "gbifOccurrenceCount": 20077,
+      "enrichedAt": "2026-03-18T12:38:45.132Z"
+    }
   },
   {
     "id": 349,
@@ -4151,7 +7297,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2376717,
+      "wormsAphiaId": 280616,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Elacatinus",
+        "especie": "Elacatinus oceanops"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/158290619/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/22246710/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238158253/medium.jpg"
+      ],
+      "inatObservationCount": 154,
+      "gbifOccurrenceCount": 27015,
+      "enrichedAt": "2026-03-18T12:38:49.465Z"
+    }
   },
   {
     "id": 350,
@@ -4175,7 +7342,17 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "wormsAphiaId": 218972,
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/247183009/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/36179721/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/36180520/medium.jpg"
+      ],
+      "inatObservationCount": 2319,
+      "enrichedAt": "2026-03-18T12:38:53.263Z"
+    }
   },
   {
     "id": 351,
@@ -4199,7 +7376,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388519,
+      "wormsAphiaId": 159351,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Epinephelus",
+        "especie": "Epinephelus adscensionis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/318762191/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/566385832/medium.jpg",
+        "https://static.inaturalist.org/photos/59845855/medium.jpg"
+      ],
+      "inatObservationCount": 223,
+      "gbifOccurrenceCount": 27133,
+      "enrichedAt": "2026-03-18T12:38:55.891Z"
+    }
   },
   {
     "id": 352,
@@ -4223,7 +7421,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388558,
+      "wormsAphiaId": 159352,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Epinephelus",
+        "especie": "Epinephelus guttatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/139056652/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6783657/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/19132332/medium.jpeg"
+      ],
+      "inatObservationCount": 523,
+      "gbifOccurrenceCount": 31633,
+      "enrichedAt": "2026-03-18T12:38:59.545Z"
+    }
   },
   {
     "id": 353,
@@ -4247,7 +7466,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388586,
+      "wormsAphiaId": 273865,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Hyporthodus",
+        "especie": "Hyporthodus quernus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/523511255/medium.jpg",
+        "https://static.inaturalist.org/photos/336372270/medium.jpg",
+        "https://static.inaturalist.org/photos/336372908/medium.jpg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:39:03.254Z"
+    }
   },
   {
     "id": 354,
@@ -4271,7 +7511,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388300,
+      "wormsAphiaId": 159222,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Epinephelus",
+        "especie": "Epinephelus striatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/72175743/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/470151968/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/30324035/medium.jpeg"
+      ],
+      "inatObservationCount": 1029,
+      "gbifOccurrenceCount": 32602,
+      "enrichedAt": "2026-03-18T12:39:06.950Z"
+    }
   },
   {
     "id": 355,
@@ -4295,7 +7556,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399910,
+      "wormsAphiaId": 309030,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Sciaenidae",
+        "genero": "Pareques",
+        "especie": "Pareques acuminatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463866845/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/604964048/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/461053888/medium.jpg"
+      ],
+      "inatObservationCount": 760,
+      "gbifOccurrenceCount": 80,
+      "enrichedAt": "2026-03-18T12:39:10.701Z"
+    }
   },
   {
     "id": 356,
@@ -4319,7 +7601,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399845,
+      "wormsAphiaId": 159315,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Sciaenidae",
+        "genero": "Equetus",
+        "especie": "Equetus lanceolatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/545675970/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4323919/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/25607322/medium.jpeg"
+      ],
+      "inatObservationCount": 115,
+      "gbifOccurrenceCount": 21001,
+      "enrichedAt": "2026-03-18T12:39:14.493Z"
+    }
   },
   {
     "id": 357,
@@ -4343,7 +7646,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2399849,
+      "wormsAphiaId": 276097,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Sciaenidae",
+        "genero": "Equetus",
+        "especie": "Equetus punctatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/203789836/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31225557/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/614391410/medium.jpg"
+      ],
+      "inatObservationCount": 1069,
+      "gbifOccurrenceCount": 22271,
+      "enrichedAt": "2026-03-18T12:39:18.527Z"
+    }
   },
   {
     "id": 358,
@@ -4367,7 +7691,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2376210,
+      "wormsAphiaId": 278586,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Eviota",
+        "especie": "Eviota epiphanes"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/177658591/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179506784/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181935271/medium.jpeg"
+      ],
+      "inatObservationCount": 42,
+      "gbifOccurrenceCount": 142,
+      "enrichedAt": "2026-03-18T12:39:22.558Z"
+    }
   },
   {
     "id": 359,
@@ -4391,7 +7736,22 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356905,
+      "wormsAphiaId": 217897,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Neoniphon",
+        "especie": "Neoniphon sammara"
+      },
+      "gbifOccurrenceCount": 38,
+      "enrichedAt": "2026-03-18T12:39:26.409Z"
+    }
   },
   {
     "id": 360,
@@ -4415,7 +7775,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356898,
+      "wormsAphiaId": 311314,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Neoniphon",
+        "especie": "Neoniphon aurolineatus"
+      },
+      "gbifOccurrenceCount": 8,
+      "enrichedAt": "2026-03-18T12:39:30.060Z"
+    }
   },
   {
     "id": 361,
@@ -4439,7 +7814,22 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382629,
+      "wormsAphiaId": 214582,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Plectorhinchus",
+        "especie": "Plectorhinchus albovittatus"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:39:33.794Z"
+    }
   },
   {
     "id": 362,
@@ -4463,7 +7853,22 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382709,
+      "wormsAphiaId": 310646,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Plectorhinchus",
+        "especie": "Plectorhinchus chaetodonoides"
+      },
+      "gbifOccurrenceCount": 3,
+      "enrichedAt": "2026-03-18T12:39:37.278Z"
+    }
   },
   {
     "id": 363,
@@ -4487,7 +7892,22 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382646,
+      "wormsAphiaId": 214574,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Plectorhinchus",
+        "especie": "Plectorhinchus vittatus"
+      },
+      "gbifOccurrenceCount": 3,
+      "enrichedAt": "2026-03-18T12:39:40.733Z"
+    }
   },
   {
     "id": 364,
@@ -4511,7 +7931,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396452,
+      "wormsAphiaId": 279094,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Genicanthus",
+        "especie": "Genicanthus personatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/338819219/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598699848/medium.jpg",
+        "https://static.inaturalist.org/photos/338817551/medium.jpg"
+      ],
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 311,
+      "enrichedAt": "2026-03-18T12:39:44.201Z"
+    }
   },
   {
     "id": 365,
@@ -4535,7 +7976,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2378704,
+      "wormsAphiaId": 219475,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Gnatholepis",
+        "especie": "Gnatholepis anjerensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/377313407/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11787601/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/115387481/medium.png"
+      ],
+      "inatObservationCount": 222,
+      "gbifOccurrenceCount": 1257,
+      "enrichedAt": "2026-03-18T12:39:47.883Z"
+    }
   },
   {
     "id": 366,
@@ -4559,7 +8021,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5208803,
+      "wormsAphiaId": 219479,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Gobiodon",
+        "especie": "Gobiodon citrinus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/176371793/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/5604127/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216081202/medium.jpeg"
+      ],
+      "inatObservationCount": 215,
+      "gbifOccurrenceCount": 600,
+      "enrichedAt": "2026-03-18T12:39:52.523Z"
+    }
   },
   {
     "id": 367,
@@ -4583,7 +8066,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383021,
+      "wormsAphiaId": 218975,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Gomphosus",
+        "especie": "Gomphosus varius"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/299684715/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/567064509/medium.jpg",
+        "https://static.inaturalist.org/photos/422522671/medium.jpeg"
+      ],
+      "inatObservationCount": 3561,
+      "gbifOccurrenceCount": 23627,
+      "enrichedAt": "2026-03-18T12:39:57.161Z"
+    }
   },
   {
     "id": 368,
@@ -4607,7 +8111,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2380558,
+      "wormsAphiaId": 280932,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Grammatidae",
+        "genero": "Gramma",
+        "especie": "Gramma loreto"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/440726917/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/43087199/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/465495361/medium.jpg"
+      ],
+      "inatObservationCount": 841,
+      "gbifOccurrenceCount": 21734,
+      "enrichedAt": "2026-03-18T12:40:00.871Z"
+    }
   },
   {
     "id": 369,
@@ -4631,7 +8156,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2387978,
+      "wormsAphiaId": 211864,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Grammistes",
+        "especie": "Grammistes sexlineatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/11821845/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/208148664/medium.jpeg",
+        "https://static.inaturalist.org/photos/21803276/medium.jpg"
+      ],
+      "inatObservationCount": 629,
+      "gbifOccurrenceCount": 1551,
+      "enrichedAt": "2026-03-18T12:40:04.941Z"
+    }
   },
   {
     "id": 370,
@@ -4655,7 +8201,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382521,
+      "wormsAphiaId": 275727,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Haemulon",
+        "especie": "Haemulon flavolineatum"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/54154536/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/351488069/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/42976605/medium.jpeg"
+      ],
+      "inatObservationCount": 4819,
+      "gbifOccurrenceCount": 54930,
+      "enrichedAt": "2026-03-18T12:40:08.822Z"
+    }
   },
   {
     "id": 371,
@@ -4679,7 +8246,21 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2382545,
+      "wormsAphiaId": 401814,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Haemulidae",
+        "genero": "Haemulon",
+        "especie": "Haemulon sciurus"
+      },
+      "enrichedAt": "2026-03-18T12:40:12.921Z"
+    }
   },
   {
     "id": 372,
@@ -4727,7 +8308,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384111,
+      "wormsAphiaId": 275793,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Halichoeres",
+        "especie": "Halichoeres radiatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253035852/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/258318662/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/343208929/medium.jpg"
+      ],
+      "inatObservationCount": 1585,
+      "gbifOccurrenceCount": 34434,
+      "enrichedAt": "2026-03-18T12:40:19.182Z"
+    }
   },
   {
     "id": 374,
@@ -4775,7 +8377,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383744,
+      "wormsAphiaId": 218999,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Hemigymnus",
+        "especie": "Hemigymnus fasciatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/254447119/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/11998849/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/13265573/medium.png"
+      ],
+      "inatObservationCount": 1197,
+      "gbifOccurrenceCount": 8982,
+      "enrichedAt": "2026-03-18T12:40:25.557Z"
+    }
   },
   {
     "id": 376,
@@ -4799,7 +8422,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383739,
+      "wormsAphiaId": 218998,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Hemigymnus",
+        "especie": "Hemigymnus melapterus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/536892909/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/460799574/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/368080121/medium.jpeg"
+      ],
+      "inatObservationCount": 2985,
+      "gbifOccurrenceCount": 11773,
+      "enrichedAt": "2026-03-18T12:40:29.243Z"
+    }
   },
   {
     "id": 377,
@@ -4823,7 +8467,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383087,
+      "wormsAphiaId": 219000,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Iniistius",
+        "especie": "Iniistius pentadactylus"
+      },
+      "gbifOccurrenceCount": 12,
+      "enrichedAt": "2026-03-18T12:40:32.886Z"
+    }
   },
   {
     "id": 378,
@@ -4847,7 +8506,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383283,
+      "wormsAphiaId": 402414,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Novaculichthys",
+        "especie": "Novaculichthys taeniourus"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:40:37.023Z"
+    }
   },
   {
     "id": 379,
@@ -4871,7 +8545,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385730,
+      "wormsAphiaId": 218765,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Heniochus",
+        "especie": "Heniochus acuminatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/612374710/medium.jpg",
+        "https://static.inaturalist.org/photos/61252049/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/251551497/medium.jpg"
+      ],
+      "inatObservationCount": 1822,
+      "gbifOccurrenceCount": 4137,
+      "enrichedAt": "2026-03-18T12:40:41.005Z"
+    }
   },
   {
     "id": 380,
@@ -4895,7 +8590,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375045,
+      "wormsAphiaId": 127004,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Priacanthidae",
+        "genero": "Heteropriacanthus",
+        "especie": "Heteropriacanthus cruentatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154324836/medium.jpg",
+        "https://static.inaturalist.org/photos/301489950/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/339035758/medium.jpeg"
+      ],
+      "inatObservationCount": 663,
+      "gbifOccurrenceCount": 24663,
+      "enrichedAt": "2026-03-18T12:40:45.070Z"
+    }
   },
   {
     "id": 381,
@@ -4919,7 +8635,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211460,
+      "wormsAphiaId": 159284,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Holacanthus",
+        "especie": "Holacanthus bermudensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/450961911/medium.jpeg",
+        "https://static.inaturalist.org/photos/435220151/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/197043572/medium.jpg"
+      ],
+      "inatObservationCount": 649,
+      "gbifOccurrenceCount": 27917,
+      "enrichedAt": "2026-03-18T12:40:49.374Z"
+    }
   },
   {
     "id": 382,
@@ -4943,7 +8680,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211452,
+      "wormsAphiaId": 276012,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Holacanthus",
+        "especie": "Holacanthus ciliaris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/176908174/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/450961911/medium.jpeg",
+        "https://static.inaturalist.org/photos/149531418/medium.jpeg"
+      ],
+      "inatObservationCount": 2233,
+      "gbifOccurrenceCount": 39874,
+      "enrichedAt": "2026-03-18T12:40:53.464Z"
+    }
   },
   {
     "id": 383,
@@ -4967,7 +8725,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211450,
+      "wormsAphiaId": 276017,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Holacanthus",
+        "especie": "Holacanthus tricolor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181720083/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/169173146/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/47802042/medium.jpeg"
+      ],
+      "inatObservationCount": 1189,
+      "gbifOccurrenceCount": 38469,
+      "enrichedAt": "2026-03-18T12:40:57.242Z"
+    }
   },
   {
     "id": 384,
@@ -4991,7 +8770,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2389089,
+      "wormsAphiaId": 343725,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Odontanthias",
+        "especie": "Odontanthias fuscipinnis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/336357145/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/332084503/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/102444593/medium.jpg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:41:00.765Z"
+    }
   },
   {
     "id": 385,
@@ -5087,7 +8887,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5204779,
+      "wormsAphiaId": 309120,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Holocentrus",
+        "especie": "Holocentrus adscensionis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/426311460/medium.jpeg",
+        "https://static.inaturalist.org/photos/519995190/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/488542929/medium.jpeg"
+      ],
+      "inatObservationCount": 1107,
+      "gbifOccurrenceCount": 112,
+      "enrichedAt": "2026-03-18T12:41:12.510Z"
+    }
   },
   {
     "id": 389,
@@ -5111,7 +8932,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5204777,
+      "wormsAphiaId": 276189,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Holocentrus",
+        "especie": "Holocentrus rufus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/58479052/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/190174397/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/52322713/medium.jpg"
+      ],
+      "inatObservationCount": 1866,
+      "gbifOccurrenceCount": 27618,
+      "enrichedAt": "2026-03-18T12:41:16.328Z"
+    }
   },
   {
     "id": 390,
@@ -5135,7 +8977,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388770,
+      "wormsAphiaId": 281121,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Hypoplectrus",
+        "especie": "Hypoplectrus unicolor"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/159762618/medium.jpg",
+        "https://static.inaturalist.org/photos/165011727/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24632161/medium.jpg"
+      ],
+      "inatObservationCount": 488,
+      "gbifOccurrenceCount": 32078,
+      "enrichedAt": "2026-03-18T12:41:20.452Z"
+    }
   },
   {
     "id": 391,
@@ -5159,7 +9022,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398736,
+      "wormsAphiaId": 281130,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Hypsypops",
+        "especie": "Hypsypops rubicundus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175544281/medium.jpg",
+        "https://static.inaturalist.org/photos/458116201/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/578623234/medium.jpg"
+      ],
+      "inatObservationCount": 3344,
+      "gbifOccurrenceCount": 119722,
+      "enrichedAt": "2026-03-18T12:41:24.150Z"
+    }
   },
   {
     "id": 392,
@@ -5183,7 +9067,28 @@ const data: Fish[] = [
     "temperatura": "23 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5208679,
+      "wormsAphiaId": 278250,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Kuhliidae",
+        "genero": "Kuhlia",
+        "especie": "Kuhlia sandvicensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/112429578/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/210717504/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/573599777/medium.jpg"
+      ],
+      "inatObservationCount": 216,
+      "gbifOccurrenceCount": 306,
+      "enrichedAt": "2026-03-18T12:41:28.112Z"
+    }
   },
   {
     "id": 393,
@@ -5207,7 +9112,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2381781,
+      "wormsAphiaId": 281242,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pseudochromidae",
+        "genero": "Labracinus",
+        "especie": "Labracinus cyclophthalmus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/32036515/medium.jpg",
+        "https://static.inaturalist.org/photos/32252632/medium.jpg",
+        "https://static.inaturalist.org/photos/32256090/medium.jpg"
+      ],
+      "inatObservationCount": 220,
+      "gbifOccurrenceCount": 629,
+      "enrichedAt": "2026-03-18T12:41:31.735Z"
+    }
   },
   {
     "id": 394,
@@ -5255,7 +9181,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383735,
+      "wormsAphiaId": 219015,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Labroides",
+        "especie": "Labroides bicolor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233496883/medium.jpg",
+        "https://static.inaturalist.org/photos/303504083/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/374938205/medium.jpeg"
+      ],
+      "inatObservationCount": 731,
+      "gbifOccurrenceCount": 4370,
+      "enrichedAt": "2026-03-18T12:41:39.959Z"
+    }
   },
   {
     "id": 396,
@@ -5279,7 +9226,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383731,
+      "wormsAphiaId": 219014,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Labroides",
+        "especie": "Labroides dimidiatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233673749/medium.jpeg",
+        "https://static.inaturalist.org/photos/25405465/medium.jpg",
+        "https://static.inaturalist.org/photos/562484123/medium.jpg"
+      ],
+      "inatObservationCount": 4473,
+      "gbifOccurrenceCount": 21939,
+      "enrichedAt": "2026-03-18T12:41:43.655Z"
+    }
   },
   {
     "id": 397,
@@ -5327,7 +9295,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383618,
+      "wormsAphiaId": 158822,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Lachnolaimus",
+        "especie": "Lachnolaimus maximus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/379893615/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/64291251/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/617072497/medium.jpg"
+      ],
+      "inatObservationCount": 1233,
+      "gbifOccurrenceCount": 51150,
+      "enrichedAt": "2026-03-18T12:41:49.686Z"
+    }
   },
   {
     "id": 399,
@@ -5351,7 +9340,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408100,
+      "wormsAphiaId": 275874,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Lactophrys",
+        "especie": "Lactophrys bicaudalis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6491766/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3881725/medium.JPG",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/535150683/medium.jpg"
+      ],
+      "inatObservationCount": 986,
+      "gbifOccurrenceCount": 21901,
+      "enrichedAt": "2026-03-18T12:41:53.740Z"
+    }
   },
   {
     "id": 400,
@@ -5375,7 +9385,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408096,
+      "wormsAphiaId": 158931,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Lactophrys",
+        "especie": "Lactophrys trigonus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569745508/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221348074/medium.jpg",
+        "https://static.inaturalist.org/photos/178398200/medium.jpg"
+      ],
+      "inatObservationCount": 566,
+      "gbifOccurrenceCount": 23187,
+      "enrichedAt": "2026-03-18T12:41:57.542Z"
+    }
   },
   {
     "id": 401,
@@ -5399,7 +9430,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408093,
+      "wormsAphiaId": 158932,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Lactophrys",
+        "especie": "Lactophrys triqueter"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31359651/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569140291/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/569072795/medium.jpg"
+      ],
+      "inatObservationCount": 3029,
+      "gbifOccurrenceCount": 27863,
+      "enrichedAt": "2026-03-18T12:42:01.245Z"
+    }
   },
   {
     "id": 402,
@@ -5423,7 +9475,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408107,
+      "wormsAphiaId": 219904,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Lactoria",
+        "especie": "Lactoria cornuta"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/89736225/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/176645855/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/610839832/medium.jpg"
+      ],
+      "inatObservationCount": 675,
+      "gbifOccurrenceCount": 1698,
+      "enrichedAt": "2026-03-18T12:42:05.157Z"
+    }
   },
   {
     "id": 403,
@@ -5447,7 +9520,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2408112,
+      "wormsAphiaId": 219902,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Lactoria",
+        "especie": "Lactoria fornasini"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/65972560/medium.jpeg",
+        "https://static.inaturalist.org/photos/13814735/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/143096985/medium.jpg"
+      ],
+      "inatObservationCount": 902,
+      "gbifOccurrenceCount": 1143,
+      "enrichedAt": "2026-03-18T12:42:08.970Z"
+    }
   },
   {
     "id": 404,
@@ -5471,7 +9565,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384922,
+      "wormsAphiaId": 159793,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Lutjanidae",
+        "genero": "Lutjanus",
+        "especie": "Lutjanus apodus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/305095567/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/297886521/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/17577954/medium.jpeg"
+      ],
+      "inatObservationCount": 4820,
+      "gbifOccurrenceCount": 46215,
+      "enrichedAt": "2026-03-18T12:42:12.707Z"
+    }
   },
   {
     "id": 405,
@@ -5495,7 +9610,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385129,
+      "wormsAphiaId": 218482,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Lutjanidae",
+        "genero": "Lutjanus",
+        "especie": "Lutjanus kasmira"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20927822/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/16103805/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/34003187/medium.jpeg"
+      ],
+      "inatObservationCount": 1981,
+      "gbifOccurrenceCount": 8420,
+      "enrichedAt": "2026-03-18T12:42:16.742Z"
+    }
   },
   {
     "id": 406,
@@ -5519,7 +9655,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384899,
+      "wormsAphiaId": 218499,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Lutjanidae",
+        "genero": "Lutjanus",
+        "especie": "Lutjanus sebae"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/114714660/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/602864113/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55969620/medium.jpg"
+      ],
+      "inatObservationCount": 301,
+      "gbifOccurrenceCount": 11535,
+      "enrichedAt": "2026-03-18T12:42:20.621Z"
+    }
   },
   {
     "id": 407,
@@ -5543,7 +9700,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384837,
+      "wormsAphiaId": 159800,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Lutjanidae",
+        "genero": "Lutjanus",
+        "especie": "Lutjanus synagris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/464963915/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/462840909/medium.jpg",
+        "https://static.inaturalist.org/photos/24517254/medium.jpg"
+      ],
+      "inatObservationCount": 1633,
+      "gbifOccurrenceCount": 34709,
+      "enrichedAt": "2026-03-18T12:42:24.419Z"
+    }
   },
   {
     "id": 408,
@@ -5567,7 +9745,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2376016,
+      "wormsAphiaId": 281457,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Lythrypnus",
+        "especie": "Lythrypnus dalli"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/5793730/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/12127296/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/239798416/medium.jpg"
+      ],
+      "inatObservationCount": 305,
+      "gbifOccurrenceCount": 1630,
+      "enrichedAt": "2026-03-18T12:42:27.998Z"
+    }
   },
   {
     "id": 409,
@@ -5591,7 +9790,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383680,
+      "wormsAphiaId": 311594,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Macropharyngodon",
+        "especie": "Macropharyngodon meleagris"
+      },
+      "gbifOccurrenceCount": 9,
+      "enrichedAt": "2026-03-18T12:42:32.327Z"
+    }
   },
   {
     "id": 410,
@@ -5615,7 +9829,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2381246,
+      "wormsAphiaId": 281558,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Kyphosidae",
+        "genero": "Microcanthus",
+        "especie": "Microcanthus strigatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/21152986/medium.jpg",
+        "https://static.inaturalist.org/photos/424018303/medium.jpeg",
+        "https://static.inaturalist.org/photos/40069456/medium.jpg"
+      ],
+      "inatObservationCount": 706,
+      "gbifOccurrenceCount": 2146,
+      "enrichedAt": "2026-03-18T12:42:35.810Z"
+    }
   },
   {
     "id": 411,
@@ -5639,7 +9874,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398749,
+      "wormsAphiaId": 281571,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Microspathodon",
+        "especie": "Microspathodon chrysurus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248693932/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/520923069/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/289855634/medium.jpg"
+      ],
+      "inatObservationCount": 2892,
+      "gbifOccurrenceCount": 33719,
+      "enrichedAt": "2026-03-18T12:42:39.766Z"
+    }
   },
   {
     "id": 412,
@@ -5663,7 +9919,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2387646,
+      "wormsAphiaId": 312510,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Pseudanthias",
+        "especie": "Pseudanthias tuka"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244754443/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/235192226/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/458788520/medium.jpeg"
+      ],
+      "inatObservationCount": 563,
+      "gbifOccurrenceCount": 545,
+      "enrichedAt": "2026-03-18T12:42:43.762Z"
+    }
   },
   {
     "id": 413,
@@ -5687,7 +9964,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211117,
+      "wormsAphiaId": 218695,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Monodactylidae",
+        "genero": "Monodactylus",
+        "especie": "Monodactylus argenteus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/540170137/medium.jpg",
+        "https://static.inaturalist.org/photos/357414715/medium.jpeg",
+        "https://static.inaturalist.org/photos/355986844/medium.jpg"
+      ],
+      "inatObservationCount": 1492,
+      "gbifOccurrenceCount": 3468,
+      "enrichedAt": "2026-03-18T12:42:47.428Z"
+    }
   },
   {
     "id": 414,
@@ -5711,7 +10009,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5211115,
+      "wormsAphiaId": 278304,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Monodactylidae",
+        "genero": "Monodactylus",
+        "especie": "Monodactylus sebae"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/272325930/medium.jpg",
+        "https://static.inaturalist.org/photos/243002050/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407012588/medium.jpg"
+      ],
+      "inatObservationCount": 310,
+      "gbifOccurrenceCount": 1619,
+      "enrichedAt": "2026-03-18T12:42:50.974Z"
+    }
   },
   {
     "id": 415,
@@ -5735,7 +10054,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2357046,
+      "wormsAphiaId": 276190,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis amaena"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/246891562/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179513361/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/580253880/medium.jpg"
+      ],
+      "inatObservationCount": 77,
+      "gbifOccurrenceCount": 1094,
+      "enrichedAt": "2026-03-18T12:42:54.593Z"
+    }
   },
   {
     "id": 416,
@@ -5759,7 +10099,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2357002,
+      "wormsAphiaId": 217927,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis berndti"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/129270320/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106536789/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/12865633/medium.jpeg"
+      ],
+      "inatObservationCount": 511,
+      "gbifOccurrenceCount": 6128,
+      "enrichedAt": "2026-03-18T12:42:58.196Z"
+    }
   },
   {
     "id": 417,
@@ -5783,7 +10144,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2357026,
+      "wormsAphiaId": 217920,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis chryseres"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/132972650/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/263005428/medium.jpg",
+        "https://static.inaturalist.org/photos/28944024/medium.jpg"
+      ],
+      "inatObservationCount": 19,
+      "gbifOccurrenceCount": 260,
+      "enrichedAt": "2026-03-18T12:43:01.782Z"
+    }
   },
   {
     "id": 418,
@@ -5807,7 +10189,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2357064,
+      "wormsAphiaId": 159385,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis jacobus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/426174393/medium.jpeg",
+        "https://static.inaturalist.org/photos/519995221/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216335178/medium.jpg"
+      ],
+      "inatObservationCount": 1107,
+      "gbifOccurrenceCount": 27828,
+      "enrichedAt": "2026-03-18T12:43:05.380Z"
+    }
   },
   {
     "id": 419,
@@ -5831,7 +10234,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356993,
+      "wormsAphiaId": 217925,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis murdjan"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/152656094/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31556045/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/148244983/medium.jpg"
+      ],
+      "inatObservationCount": 883,
+      "gbifOccurrenceCount": 2645,
+      "enrichedAt": "2026-03-18T12:43:09.049Z"
+    }
   },
   {
     "id": 420,
@@ -5855,7 +10279,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2357022,
+      "wormsAphiaId": 217924,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Myripristis",
+        "especie": "Myripristis vittata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/352132959/medium.jpg",
+        "https://static.inaturalist.org/photos/18839407/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/573296366/medium.jpg"
+      ],
+      "inatObservationCount": 387,
+      "gbifOccurrenceCount": 807,
+      "enrichedAt": "2026-03-18T12:43:12.575Z"
+    }
   },
   {
     "id": 421,
@@ -5879,7 +10324,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 9760005,
+      "wormsAphiaId": 219671,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Naso",
+        "especie": "Naso brevirostris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/114430768/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/386289464/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/6774834/medium.jpg"
+      ],
+      "inatObservationCount": 1549,
+      "gbifOccurrenceCount": 5412,
+      "enrichedAt": "2026-03-18T12:43:16.574Z"
+    }
   },
   {
     "id": 422,
@@ -5903,7 +10369,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385839,
+      "wormsAphiaId": 219611,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Microdesmidae",
+        "genero": "Nemateleotris",
+        "especie": "Nemateleotris magnifica"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/19308589/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/152623239/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607054505/medium.jpg"
+      ],
+      "inatObservationCount": 1281,
+      "gbifOccurrenceCount": 4190,
+      "enrichedAt": "2026-03-18T12:43:20.435Z"
+    }
   },
   {
     "id": 423,
@@ -5927,7 +10414,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398611,
+      "wormsAphiaId": 278814,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Neoglyphidodon",
+        "especie": "Neoglyphidodon oxyodon"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3015669/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/265512340/medium.jpeg",
+        "https://static.inaturalist.org/photos/353780820/medium.jpeg"
+      ],
+      "inatObservationCount": 108,
+      "gbifOccurrenceCount": 128,
+      "enrichedAt": "2026-03-18T12:43:24.243Z"
+    }
   },
   {
     "id": 424,
@@ -5951,7 +10459,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5213766,
+      "wormsAphiaId": 219911,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Ostracion",
+        "especie": "Ostracion cubicus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228340980/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244899009/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/230133564/medium.jpg"
+      ],
+      "inatObservationCount": 4120,
+      "gbifOccurrenceCount": 5047,
+      "enrichedAt": "2026-03-18T12:43:27.774Z"
+    }
   },
   {
     "id": 425,
@@ -5975,7 +10504,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8262148,
+      "wormsAphiaId": 219905,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Ostraciidae",
+        "genero": "Ostracion",
+        "especie": "Ostracion meleagris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/23455980/medium.jpg",
+        "https://static.inaturalist.org/photos/467168906/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/102446079/medium.jpg"
+      ],
+      "inatObservationCount": 4170,
+      "gbifOccurrenceCount": 5715,
+      "enrichedAt": "2026-03-18T12:43:31.592Z"
+    }
   },
   {
     "id": 426,
@@ -5999,7 +10549,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375203,
+      "wormsAphiaId": 218865,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Oxycirrhites",
+        "especie": "Oxycirrhites typus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/32674967/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/88075633/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/116190289/medium.jpeg"
+      ],
+      "inatObservationCount": 594,
+      "gbifOccurrenceCount": 762,
+      "enrichedAt": "2026-03-18T12:43:35.357Z"
+    }
   },
   {
     "id": 427,
@@ -6023,7 +10594,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406917,
+      "wormsAphiaId": 220063,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Oxymonacanthus",
+        "especie": "Oxymonacanthus longirostris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/375387414/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/29094871/medium.jpeg",
+        "https://static.inaturalist.org/photos/134566047/medium.jpeg"
+      ],
+      "inatObservationCount": 1177,
+      "gbifOccurrenceCount": 2226,
+      "enrichedAt": "2026-03-18T12:43:39.174Z"
+    }
   },
   {
     "id": 428,
@@ -6047,7 +10639,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2379534,
+      "wormsAphiaId": 219676,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Paracanthurus",
+        "especie": "Paracanthurus hepatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/421064198/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/608063078/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/332545571/medium.jpg"
+      ],
+      "inatObservationCount": 554,
+      "gbifOccurrenceCount": 1229,
+      "enrichedAt": "2026-03-18T12:43:42.985Z"
+    }
   },
   {
     "id": 429,
@@ -6071,7 +10684,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385661,
+      "wormsAphiaId": 282012,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Chaetodontidae",
+        "genero": "Parachaetodon",
+        "especie": "Parachaetodon ocellatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/10940397/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/101338050/medium.jpg",
+        "https://static.inaturalist.org/photos/601693042/medium.jpg"
+      ],
+      "inatObservationCount": 171,
+      "gbifOccurrenceCount": 2273,
+      "enrichedAt": "2026-03-18T12:43:46.817Z"
+    }
   },
   {
     "id": 430,
@@ -6095,7 +10729,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5208733,
+      "wormsAphiaId": 218867,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Paracirrhites",
+        "especie": "Paracirrhites forsteri"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/12818154/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/201786106/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20867258/medium.jpeg"
+      ],
+      "inatObservationCount": 4393,
+      "gbifOccurrenceCount": 12695,
+      "enrichedAt": "2026-03-18T12:43:50.685Z"
+    }
   },
   {
     "id": 431,
@@ -6119,7 +10774,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5208730,
+      "wormsAphiaId": 277097,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cirrhitidae",
+        "genero": "Paracirrhites",
+        "especie": "Paracirrhites hemistictus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/25397202/medium.jpg",
+        "https://static.inaturalist.org/photos/565108390/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/27290131/medium.jpg"
+      ],
+      "inatObservationCount": 199,
+      "gbifOccurrenceCount": 2836,
+      "enrichedAt": "2026-03-18T12:43:54.549Z"
+    }
   },
   {
     "id": 432,
@@ -6143,7 +10819,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398599,
+      "wormsAphiaId": 310900,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Neoglyphidodon",
+        "especie": "Neoglyphidodon nigroris"
+      },
+      "gbifOccurrenceCount": 21,
+      "enrichedAt": "2026-03-18T12:43:58.087Z"
+    }
   },
   {
     "id": 433,
@@ -6167,7 +10858,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398601,
+      "wormsAphiaId": 310905,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Neoglyphidodon",
+        "especie": "Neoglyphidodon melas"
+      },
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T12:44:01.615Z"
+    }
   },
   {
     "id": 434,
@@ -6191,7 +10897,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2406814,
+      "wormsAphiaId": 279224,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Pervagor",
+        "especie": "Pervagor spilosoma"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/249046108/medium.jpeg",
+        "https://static.inaturalist.org/photos/217570952/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/10921124/medium.jpg"
+      ],
+      "inatObservationCount": 92,
+      "gbifOccurrenceCount": 720,
+      "enrichedAt": "2026-03-18T12:44:05.123Z"
+    }
   },
   {
     "id": 435,
@@ -6215,7 +10942,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384690,
+      "wormsAphiaId": 282242,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pholidichthyidae",
+        "genero": "Pholidichthys",
+        "especie": "Pholidichthys leucotaenia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/166942664/medium.jpg",
+        "https://static.inaturalist.org/photos/72219448/medium.jpeg",
+        "https://static.inaturalist.org/photos/405653632/medium.jpg"
+      ],
+      "inatObservationCount": 137,
+      "gbifOccurrenceCount": 194,
+      "enrichedAt": "2026-03-18T12:44:08.688Z"
+    }
   },
   {
     "id": 436,
@@ -6239,7 +10987,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2395972,
+      "wormsAphiaId": 278235,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Blenniidae",
+        "genero": "Plagiotremus",
+        "especie": "Plagiotremus ewaensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/65973166/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/558736183/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178987606/medium.jpeg"
+      ],
+      "inatObservationCount": 58,
+      "gbifOccurrenceCount": 616,
+      "enrichedAt": "2026-03-18T12:44:12.610Z"
+    }
   },
   {
     "id": 437,
@@ -6263,7 +11032,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2394317,
+      "wormsAphiaId": 218713,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Ephippidae",
+        "genero": "Platax",
+        "especie": "Platax batavianus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/386504296/medium.jpg",
+        "https://static.inaturalist.org/photos/345151780/medium.jpg",
+        "https://static.inaturalist.org/photos/287535723/medium.jpg"
+      ],
+      "inatObservationCount": 230,
+      "gbifOccurrenceCount": 1167,
+      "enrichedAt": "2026-03-18T12:44:16.206Z"
+    }
   },
   {
     "id": 438,
@@ -6287,7 +11077,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2394300,
+      "wormsAphiaId": 218711,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Ephippidae",
+        "genero": "Platax",
+        "especie": "Platax orbicularis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/605319145/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/264637080/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/312484936/medium.jpeg"
+      ],
+      "inatObservationCount": 1086,
+      "gbifOccurrenceCount": 2811,
+      "enrichedAt": "2026-03-18T12:44:20.043Z"
+    }
   },
   {
     "id": 439,
@@ -6311,7 +11122,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2394307,
+      "wormsAphiaId": 218712,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Ephippidae",
+        "genero": "Platax",
+        "especie": "Platax pinnatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/13414673/medium.jpg",
+        "https://static.inaturalist.org/photos/29645800/medium.jpg",
+        "https://static.inaturalist.org/photos/14078221/medium.jpg"
+      ],
+      "inatObservationCount": 838,
+      "gbifOccurrenceCount": 1587,
+      "enrichedAt": "2026-03-18T12:44:24.191Z"
+    }
   },
   {
     "id": 440,
@@ -6335,7 +11167,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2394312,
+      "wormsAphiaId": 218710,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Ephippidae",
+        "genero": "Platax",
+        "especie": "Platax teira"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/340467759/medium.png",
+        "https://static.inaturalist.org/photos/29374235/medium.jpg",
+        "https://static.inaturalist.org/photos/153426316/medium.jpg"
+      ],
+      "inatObservationCount": 2156,
+      "gbifOccurrenceCount": 3100,
+      "enrichedAt": "2026-03-18T12:44:28.104Z"
+    }
   },
   {
     "id": 441,
@@ -6359,7 +11212,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398959,
+      "wormsAphiaId": 212856,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Plectroglyphidodon",
+        "especie": "Plectroglyphidodon imparipennis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/603803721/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607378353/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/588639621/medium.jpg"
+      ],
+      "inatObservationCount": 622,
+      "gbifOccurrenceCount": 4244,
+      "enrichedAt": "2026-03-18T12:44:31.967Z"
+    }
   },
   {
     "id": 442,
@@ -6383,7 +11257,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398965,
+      "wormsAphiaId": 212859,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Plectroglyphidodon",
+        "especie": "Plectroglyphidodon johnstonianus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/261708070/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/340927472/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/473389506/medium.jpeg"
+      ],
+      "inatObservationCount": 490,
+      "gbifOccurrenceCount": 17527,
+      "enrichedAt": "2026-03-18T12:44:35.586Z"
+    }
   },
   {
     "id": 443,
@@ -6407,7 +11302,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398961,
+      "wormsAphiaId": 277234,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Plectroglyphidodon",
+        "especie": "Plectroglyphidodon sindonis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/213652607/medium.jpg",
+        "https://static.inaturalist.org/photos/244989479/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/589901271/medium.jpg"
+      ],
+      "inatObservationCount": 15,
+      "gbifOccurrenceCount": 101,
+      "enrichedAt": "2026-03-18T12:44:39.429Z"
+    }
   },
   {
     "id": 444,
@@ -6431,7 +11347,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356971,
+      "wormsAphiaId": 217937,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Plectrypops",
+        "especie": "Plectrypops lima"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228329281/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/256098844/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255544100/medium.jpg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 510,
+      "enrichedAt": "2026-03-18T12:44:42.975Z"
+    }
   },
   {
     "id": 445,
@@ -6455,7 +11392,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375649,
+      "wormsAphiaId": 219544,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Pleurosicya",
+        "especie": "Pleurosicya micheli"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/461775260/medium.jpg",
+        "https://static.inaturalist.org/photos/266024097/medium.jpg",
+        "https://static.inaturalist.org/photos/306597453/medium.jpeg"
+      ],
+      "inatObservationCount": 53,
+      "gbifOccurrenceCount": 224,
+      "enrichedAt": "2026-03-18T12:44:46.613Z"
+    }
   },
   {
     "id": 446,
@@ -6479,7 +11437,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2341909,
+      "wormsAphiaId": 217658,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Plotosidae",
+        "genero": "Plotosus",
+        "especie": "Plotosus lineatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/595433303/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/195908688/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/594818874/medium.jpg"
+      ],
+      "inatObservationCount": 2747,
+      "gbifOccurrenceCount": 129,
+      "enrichedAt": "2026-03-18T12:44:58.417Z"
+    }
   },
   {
     "id": 447,
@@ -6503,7 +11482,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396404,
+      "wormsAphiaId": 220004,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus annularis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/35891795/medium.jpg",
+        "https://static.inaturalist.org/photos/28879263/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/326869137/medium.jpg"
+      ],
+      "inatObservationCount": 383,
+      "gbifOccurrenceCount": 413,
+      "enrichedAt": "2026-03-18T12:45:08.145Z"
+    }
   },
   {
     "id": 448,
@@ -6527,7 +11527,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396435,
+      "wormsAphiaId": 159287,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus arcuatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168120964/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59038601/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/119313960/medium.jpeg"
+      ],
+      "inatObservationCount": 2177,
+      "gbifOccurrenceCount": 38692,
+      "enrichedAt": "2026-03-18T12:45:13.997Z"
+    }
   },
   {
     "id": 449,
@@ -6551,7 +11572,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396426,
+      "wormsAphiaId": 220001,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus imperator"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178508712/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/263254299/medium.jpg",
+        "https://static.inaturalist.org/photos/17822306/medium.jpg"
+      ],
+      "inatObservationCount": 2791,
+      "gbifOccurrenceCount": 5692,
+      "enrichedAt": "2026-03-18T12:45:18.802Z"
+    }
   },
   {
     "id": 450,
@@ -6575,7 +11617,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396444,
+      "wormsAphiaId": 220005,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus maculosus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/512343232/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/519427376/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/173874275/medium.jpeg"
+      ],
+      "inatObservationCount": 516,
+      "gbifOccurrenceCount": 649,
+      "enrichedAt": "2026-03-18T12:45:22.995Z"
+    }
   },
   {
     "id": 451,
@@ -6599,7 +11662,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396407,
+      "wormsAphiaId": 276024,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus navarchus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/27623217/medium.jpg",
+        "https://static.inaturalist.org/photos/73761160/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/82866800/medium.jpg"
+      ],
+      "inatObservationCount": 529,
+      "gbifOccurrenceCount": 550,
+      "enrichedAt": "2026-03-18T12:45:27.307Z"
+    }
   },
   {
     "id": 452,
@@ -6623,7 +11707,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396447,
+      "wormsAphiaId": 276025,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus paru"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/381413877/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/608289149/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/505426582/medium.jpg"
+      ],
+      "inatObservationCount": 4133,
+      "gbifOccurrenceCount": 33660,
+      "enrichedAt": "2026-03-18T12:45:31.196Z"
+    }
   },
   {
     "id": 453,
@@ -6647,7 +11752,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396399,
+      "wormsAphiaId": 220003,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus semicirculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/22550694/medium.jpeg",
+        "https://static.inaturalist.org/photos/130097228/medium.jpg",
+        "https://static.inaturalist.org/photos/5710556/medium.jpg"
+      ],
+      "inatObservationCount": 1764,
+      "gbifOccurrenceCount": 2576,
+      "enrichedAt": "2026-03-18T12:45:35.005Z"
+    }
   },
   {
     "id": 454,
@@ -6671,7 +11797,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396414,
+      "wormsAphiaId": 276026,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus sexstriatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/512601329/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/602864137/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/18492158/medium.jpg"
+      ],
+      "inatObservationCount": 1972,
+      "gbifOccurrenceCount": 3206,
+      "enrichedAt": "2026-03-18T12:45:38.911Z"
+    }
   },
   {
     "id": 455,
@@ -6695,7 +11842,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396411,
+      "wormsAphiaId": 276027,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pomacanthus",
+        "especie": "Pomacanthus xanthometopon"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/14897273/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/91072654/medium.jpg",
+        "https://static.inaturalist.org/photos/364694496/medium.jpg"
+      ],
+      "inatObservationCount": 633,
+      "gbifOccurrenceCount": 645,
+      "enrichedAt": "2026-03-18T12:45:43.713Z"
+    }
   },
   {
     "id": 456,
@@ -6719,7 +11887,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398345,
+      "wormsAphiaId": 277132,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Pomacentrus",
+        "especie": "Pomacentrus amboinensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/715600/medium.jpg",
+        "https://static.inaturalist.org/photos/74427009/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/298625532/medium.jpeg"
+      ],
+      "inatObservationCount": 934,
+      "gbifOccurrenceCount": 5009,
+      "enrichedAt": "2026-03-18T12:45:52.617Z"
+    }
   },
   {
     "id": 457,
@@ -6743,7 +11932,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398388,
+      "wormsAphiaId": 277145,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Pomacentrus",
+        "especie": "Pomacentrus coelestis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255739715/medium.jpeg",
+        "https://static.inaturalist.org/photos/29406456/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/295929101/medium.jpg"
+      ],
+      "inatObservationCount": 1849,
+      "gbifOccurrenceCount": 13977,
+      "enrichedAt": "2026-03-18T12:45:59.601Z"
+    }
   },
   {
     "id": 458,
@@ -6767,7 +11977,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4499,
+      "wormsAphiaId": 402337,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 1424230,
+      "enrichedAt": "2026-03-18T12:46:03.633Z"
+    }
   },
   {
     "id": 459,
@@ -6791,7 +12016,27 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398261,
+      "wormsAphiaId": 277157,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Pomacentrus",
+        "especie": "Pomacentrus melanochir"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/519556387/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/220100303/medium.jpg"
+      ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 12,
+      "enrichedAt": "2026-03-18T12:46:07.443Z"
+    }
   },
   {
     "id": 460,
@@ -6815,7 +12060,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398882,
+      "wormsAphiaId": 310351,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Stegastes",
+        "especie": "Stegastes partitus"
+      },
+      "gbifOccurrenceCount": 6,
+      "enrichedAt": "2026-03-18T12:46:11.120Z"
+    }
   },
   {
     "id": 461,
@@ -6839,7 +12099,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398896,
+      "wormsAphiaId": 310355,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Stegastes",
+        "especie": "Stegastes planifrons"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/6061995/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255355771/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/400727980/medium.jpg"
+      ],
+      "inatObservationCount": 1477,
+      "gbifOccurrenceCount": 21,
+      "enrichedAt": "2026-03-18T12:46:14.723Z"
+    }
   },
   {
     "id": 462,
@@ -6863,7 +12144,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398267,
+      "wormsAphiaId": 277176,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Pomacentrus",
+        "especie": "Pomacentrus vaiuli"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/353210932/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/361133096/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54602151/medium.jpg"
+      ],
+      "inatObservationCount": 835,
+      "gbifOccurrenceCount": 18252,
+      "enrichedAt": "2026-03-18T12:46:18.391Z"
+    }
   },
   {
     "id": 463,
@@ -6887,7 +12189,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398709,
+      "wormsAphiaId": 212768,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Premnas",
+        "especie": "Premnas biaculeatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/120118982/medium.jpg",
+        "https://static.inaturalist.org/photos/73558357/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/60610603/medium.jpg"
+      ],
+      "inatObservationCount": 1376,
+      "gbifOccurrenceCount": 1519,
+      "enrichedAt": "2026-03-18T12:46:22.066Z"
+    }
   },
   {
     "id": 464,
@@ -6911,7 +12234,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2375007,
+      "wormsAphiaId": 273766,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Priacanthidae",
+        "genero": "Priacanthus",
+        "especie": "Priacanthus meeki"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4496001/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20660054/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20347328/medium.jpg"
+      ],
+      "inatObservationCount": 40,
+      "gbifOccurrenceCount": 294,
+      "enrichedAt": "2026-03-18T12:46:26.028Z"
+    }
   },
   {
     "id": 465,
@@ -6935,7 +12279,22 @@ const data: Fish[] = [
     "temperatura": "24 a 2 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2378484,
+      "wormsAphiaId": 276767,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Priolepis",
+        "especie": "Priolepis farcimen"
+      },
+      "gbifOccurrenceCount": 96,
+      "enrichedAt": "2026-03-18T12:46:31.783Z"
+    }
   },
   {
     "id": 466,
@@ -6959,7 +12318,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2356925,
+      "wormsAphiaId": 217938,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Beryciformes",
+        "familia": "Holocentridae",
+        "genero": "Pristilepis",
+        "especie": "Pristilepis oligolepis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/433308389/medium.jpeg",
+        "https://static.inaturalist.org/photos/1266736/medium.",
+        "https://static.inaturalist.org/photos/336510741/medium.jpg"
+      ],
+      "inatObservationCount": 4,
+      "gbifOccurrenceCount": 32,
+      "enrichedAt": "2026-03-18T12:46:36.772Z"
+    }
   },
   {
     "id": 467,
@@ -6983,7 +12363,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2387565,
+      "wormsAphiaId": 218276,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Pseudanthias",
+        "especie": "Pseudanthias bicolor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/173443096/medium.jpeg",
+        "https://static.inaturalist.org/photos/393522514/medium.jpeg",
+        "https://static.inaturalist.org/photos/463422433/medium.jpg"
+      ],
+      "inatObservationCount": 92,
+      "gbifOccurrenceCount": 153,
+      "enrichedAt": "2026-03-18T12:46:40.835Z"
+    }
   },
   {
     "id": 468,
@@ -7007,7 +12408,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8598179,
+      "wormsAphiaId": 1012511,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Pseudanthias",
+        "especie": "Pseudanthias hawaiiensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/68649/medium.jpg",
+        "https://static.inaturalist.org/photos/47601100/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/291100885/medium.jpg"
+      ],
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 5,
+      "enrichedAt": "2026-03-18T12:46:44.404Z"
+    }
   },
   {
     "id": 469,
@@ -7031,7 +12453,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2387560,
+      "wormsAphiaId": 277483,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Pseudanthias",
+        "especie": "Pseudanthias thompsoni"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/324795289/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598700465/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/598699649/medium.jpg"
+      ],
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 161,
+      "enrichedAt": "2026-03-18T12:46:48.206Z"
+    }
   },
   {
     "id": 470,
@@ -7055,7 +12498,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2383693,
+      "wormsAphiaId": 208915,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Pseudocheilinus",
+        "especie": "Pseudocheilinus hexataenia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/188872487/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/432998229/medium.jpg",
+        "https://static.inaturalist.org/photos/14090496/medium.jpg"
+      ],
+      "inatObservationCount": 686,
+      "gbifOccurrenceCount": 8318,
+      "enrichedAt": "2026-03-18T12:46:51.831Z"
+    }
   },
   {
     "id": 471,
@@ -7079,7 +12543,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2381665,
+      "wormsAphiaId": 218336,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pseudochromidae",
+        "genero": "Pseudochromis",
+        "especie": "Pseudochromis fridmani"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/365077267/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178002431/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/312499090/medium.jpeg"
+      ],
+      "inatObservationCount": 259,
+      "gbifOccurrenceCount": 366,
+      "enrichedAt": "2026-03-18T12:46:57.954Z"
+    }
   },
   {
     "id": 472,
@@ -7103,7 +12588,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385790,
+      "wormsAphiaId": 219622,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Microdesmidae",
+        "genero": "Ptereleotris",
+        "especie": "Ptereleotris evides"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/215963/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57118320/medium.jpg",
+        "https://static.inaturalist.org/photos/466975386/medium.jpg"
+      ],
+      "inatObservationCount": 930,
+      "gbifOccurrenceCount": 3142,
+      "enrichedAt": "2026-03-18T12:47:01.964Z"
+    }
   },
   {
     "id": 473,
@@ -7127,7 +12633,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2385827,
+      "wormsAphiaId": 219617,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Microdesmidae",
+        "genero": "Ptereleotris",
+        "especie": "Ptereleotris heteroptera"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181100657/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/596716091/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/460882690/medium.jpg"
+      ],
+      "inatObservationCount": 296,
+      "gbifOccurrenceCount": 1128,
+      "enrichedAt": "2026-03-18T12:47:05.929Z"
+    }
   },
   {
     "id": 474,
@@ -7151,7 +12678,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334443,
+      "wormsAphiaId": 218081,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Pterois",
+        "especie": "Pterois antennata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/91743335/medium.jpeg",
+        "https://static.inaturalist.org/photos/570461053/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/426826034/medium.jpeg"
+      ],
+      "inatObservationCount": 2394,
+      "gbifOccurrenceCount": 3009,
+      "enrichedAt": "2026-03-18T12:47:09.898Z"
+    }
   },
   {
     "id": 475,
@@ -7175,7 +12723,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334440,
+      "wormsAphiaId": 218084,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Pterois",
+        "especie": "Pterois radiata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/61692602/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/165953825/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/332990222/medium.jpg"
+      ],
+      "inatObservationCount": 372,
+      "gbifOccurrenceCount": 899,
+      "enrichedAt": "2026-03-18T12:47:14.398Z"
+    }
   },
   {
     "id": 476,
@@ -7199,7 +12768,22 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334447,
+      "wormsAphiaId": 401021,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Pterois",
+        "especie": "Pterois russelii"
+      },
+      "gbifOccurrenceCount": 619,
+      "enrichedAt": "2026-03-18T12:47:18.244Z"
+    }
   },
   {
     "id": 477,
@@ -7223,7 +12807,27 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334439,
+      "wormsAphiaId": 276269,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Pterois",
+        "especie": "Pterois sphex"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106253831/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/56292741/medium.jpeg",
+        "https://static.inaturalist.org/photos/142553916/medium.jpg"
+      ],
+      "inatObservationCount": 118,
+      "enrichedAt": "2026-03-18T12:47:35.624Z"
+    }
   },
   {
     "id": 478,
@@ -7247,7 +12851,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334438,
+      "wormsAphiaId": 159559,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Pterois",
+        "especie": "Pterois volitans"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/29368079/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/574042798/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/607662093/medium.jpg"
+      ],
+      "inatObservationCount": 6203,
+      "gbifOccurrenceCount": 44632,
+      "enrichedAt": "2026-03-18T12:47:39.307Z"
+    }
   },
   {
     "id": 479,
@@ -7271,7 +12896,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2396596,
+      "wormsAphiaId": 211773,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacanthidae",
+        "genero": "Pygoplites",
+        "especie": "Pygoplites diacanthus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175093220/medium.jpg",
+        "https://static.inaturalist.org/photos/115340876/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/457881814/medium.jpeg"
+      ],
+      "inatObservationCount": 3285,
+      "gbifOccurrenceCount": 8142,
+      "enrichedAt": "2026-03-18T12:47:55.472Z"
+    }
   },
   {
     "id": 480,
@@ -7295,7 +12941,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 9811485,
+      "wormsAphiaId": 159300,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Scarus",
+        "especie": "Scarus coeruleus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293106663/medium.jpg",
+        "https://static.inaturalist.org/photos/208620292/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/611557090/medium.jpg"
+      ],
+      "inatObservationCount": 469,
+      "gbifOccurrenceCount": 25175,
+      "enrichedAt": "2026-03-18T12:48:03.213Z"
+    }
   },
   {
     "id": 481,
@@ -7319,7 +12986,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393671,
+      "wormsAphiaId": 219094,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Scarus",
+        "especie": "Scarus dubius"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/514536085/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/12656747/medium.jpg",
+        "https://static.inaturalist.org/photos/364244862/medium.png"
+      ],
+      "inatObservationCount": 15,
+      "gbifOccurrenceCount": 4861,
+      "enrichedAt": "2026-03-18T12:48:13.591Z"
+    }
   },
   {
     "id": 482,
@@ -7343,7 +13031,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393800,
+      "wormsAphiaId": 219125,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Scarus",
+        "especie": "Scarus psittacus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4676/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24137399/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178881440/medium.jpeg"
+      ],
+      "inatObservationCount": 2018,
+      "gbifOccurrenceCount": 13290,
+      "enrichedAt": "2026-03-18T12:48:18.312Z"
+    }
   },
   {
     "id": 483,
@@ -7367,7 +13076,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393790,
+      "wormsAphiaId": 219124,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Scarus",
+        "especie": "Scarus rubroviolaceus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/346317579/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253153017/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178881239/medium.jpeg"
+      ],
+      "inatObservationCount": 3348,
+      "gbifOccurrenceCount": 14219,
+      "enrichedAt": "2026-03-18T12:48:22.968Z"
+    }
   },
   {
     "id": 484,
@@ -7391,7 +13121,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2393734,
+      "wormsAphiaId": 276062,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Scarus",
+        "especie": "Scarus taeniopterus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/438208962/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/483234214/medium.jpg",
+        "https://static.inaturalist.org/photos/251671448/medium.jpg"
+      ],
+      "inatObservationCount": 1190,
+      "gbifOccurrenceCount": 45389,
+      "enrichedAt": "2026-03-18T12:48:26.757Z"
+    }
   },
   {
     "id": 485,
@@ -7415,7 +13166,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2394736,
+      "wormsAphiaId": 276970,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scatophagidae",
+        "genero": "Scatophagus",
+        "especie": "Scatophagus argus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/171540853/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/595141462/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/536463516/medium.jpg"
+      ],
+      "inatObservationCount": 1078,
+      "gbifOccurrenceCount": 1962,
+      "enrichedAt": "2026-03-18T12:48:31.252Z"
+    }
   },
   {
     "id": 486,
@@ -7439,7 +13211,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2334557,
+      "wormsAphiaId": 159562,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Scorpaeniformes",
+        "familia": "Scorpaenidae",
+        "genero": "Scorpaena",
+        "especie": "Scorpaena brasiliensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/333714382/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216966913/medium.jpeg",
+        "https://static.inaturalist.org/photos/431273113/medium.jpeg"
+      ],
+      "inatObservationCount": 131,
+      "gbifOccurrenceCount": 1134,
+      "enrichedAt": "2026-03-18T12:48:36.204Z"
+    }
   },
   {
     "id": 487,
@@ -7463,7 +13256,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388714,
+      "wormsAphiaId": 127043,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Serranus",
+        "especie": "Serranus scriba"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55231283/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/456529241/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/312811408/medium.jpeg"
+      ],
+      "inatObservationCount": 5753,
+      "gbifOccurrenceCount": 15925,
+      "enrichedAt": "2026-03-18T12:48:42.261Z"
+    }
   },
   {
     "id": 488,
@@ -7487,7 +13301,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388718,
+      "wormsAphiaId": 159236,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Serranus",
+        "especie": "Serranus subligarius"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/396556453/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/545508735/medium.jpg",
+        "https://static.inaturalist.org/photos/551920844/medium.jpg"
+      ],
+      "inatObservationCount": 165,
+      "gbifOccurrenceCount": 16934,
+      "enrichedAt": "2026-03-18T12:48:46.030Z"
+    }
   },
   {
     "id": 489,
@@ -7511,7 +13346,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2388739,
+      "wormsAphiaId": 273909,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Serranidae",
+        "genero": "Serranus",
+        "especie": "Serranus tigrinus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/468511953/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/534460982/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/264757/medium.jpg"
+      ],
+      "inatObservationCount": 1039,
+      "gbifOccurrenceCount": 30327,
+      "enrichedAt": "2026-03-18T12:48:49.597Z"
+    }
   },
   {
     "id": 490,
@@ -7535,7 +13391,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407829,
+      "wormsAphiaId": 158935,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Sphoeroides",
+        "especie": "Sphoeroides spengleri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/152667572/medium.jpg",
+        "https://static.inaturalist.org/photos/91581251/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53526408/medium.jpg"
+      ],
+      "inatObservationCount": 997,
+      "gbifOccurrenceCount": 24120,
+      "enrichedAt": "2026-03-18T12:48:53.500Z"
+    }
   },
   {
     "id": 491,
@@ -7559,7 +13436,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2407878,
+      "wormsAphiaId": 158936,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Sphoeroides",
+        "especie": "Sphoeroides testudineus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/464222747/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/255656888/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/185044134/medium.jpg"
+      ],
+      "inatObservationCount": 2191,
+      "gbifOccurrenceCount": 22497,
+      "enrichedAt": "2026-03-18T12:48:57.435Z"
+    }
   },
   {
     "id": 492,
@@ -7583,7 +13481,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398851,
+      "wormsAphiaId": 218850,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Stegastes",
+        "especie": "Stegastes fasciolatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/170526046/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/385393256/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/391824771/medium.jpg"
+      ],
+      "inatObservationCount": 175,
+      "gbifOccurrenceCount": 22276,
+      "enrichedAt": "2026-03-18T12:49:02.092Z"
+    }
   },
   {
     "id": 493,
@@ -7607,7 +13526,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2398866,
+      "wormsAphiaId": 276669,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Pomacentridae",
+        "genero": "Stegastes",
+        "especie": "Stegastes fuscus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/44877019/medium.jpg",
+        "https://static.inaturalist.org/photos/443364373/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/350875800/medium.jpg"
+      ],
+      "inatObservationCount": 263,
+      "gbifOccurrenceCount": 14721,
+      "enrichedAt": "2026-03-18T12:49:10.920Z"
+    }
   },
   {
     "id": 494,
@@ -7631,7 +13571,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5213455,
+      "wormsAphiaId": 127409,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Monacanthidae",
+        "genero": "Stephanolepis",
+        "especie": "Stephanolepis hispidus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/27994044/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/305319181/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/617073445/medium.jpg"
+      ],
+      "inatObservationCount": 1492,
+      "gbifOccurrenceCount": 25574,
+      "enrichedAt": "2026-03-18T12:49:17.494Z"
+    }
   },
   {
     "id": 495,
@@ -7679,7 +13640,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2386693,
+      "wormsAphiaId": 273257,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Callionymidae",
+        "genero": "Synchiropus",
+        "especie": "Synchiropus picturatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2452963/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/471713200/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/257752947/medium.jpg"
+      ],
+      "inatObservationCount": 21,
+      "gbifOccurrenceCount": 29,
+      "enrichedAt": "2026-03-18T12:49:26.233Z"
+    }
   },
   {
     "id": 497,
@@ -7703,7 +13685,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2386640,
+      "wormsAphiaId": 273264,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Callionymidae",
+        "genero": "Synchiropus",
+        "especie": "Synchiropus splendidus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/234299593/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/397996386/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31997673/medium.jpg"
+      ],
+      "inatObservationCount": 375,
+      "gbifOccurrenceCount": 459,
+      "enrichedAt": "2026-03-18T12:49:30.018Z"
+    }
   },
   {
     "id": 498,
@@ -7727,7 +13730,28 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5213564,
+      "wormsAphiaId": 275363,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Dichotomyctere",
+        "especie": "Dichotomyctere fluviatilis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/577606225/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/286912491/medium.jpeg",
+        "https://static.inaturalist.org/photos/595187438/medium.jpg"
+      ],
+      "inatObservationCount": 40,
+      "gbifOccurrenceCount": 15,
+      "enrichedAt": "2026-03-18T12:49:34.026Z"
+    }
   },
   {
     "id": 499,
@@ -7751,7 +13775,22 @@ const data: Fish[] = [
     "temperatura": "24 a 29 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5213513,
+      "wormsAphiaId": 308063,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Tetraodontiformes",
+        "familia": "Tetraodontidae",
+        "genero": "Arothron",
+        "especie": "Arothron hispidus"
+      },
+      "gbifOccurrenceCount": 12,
+      "enrichedAt": "2026-03-18T12:49:37.875Z"
+    }
   },
   {
     "id": 500,
@@ -7775,7 +13814,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384535,
+      "wormsAphiaId": 273577,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Thalassoma",
+        "especie": "Thalassoma ballieui"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/319022350/medium.jpg",
+        "https://static.inaturalist.org/photos/322245677/medium.jpeg",
+        "https://static.inaturalist.org/photos/322246027/medium.jpeg"
+      ],
+      "inatObservationCount": 82,
+      "gbifOccurrenceCount": 7354,
+      "enrichedAt": "2026-03-18T12:49:41.678Z"
+    }
   },
   {
     "id": 501,
@@ -7799,7 +13859,21 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384533,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Thalassoma",
+        "especie": "Thalassoma bifasciatum"
+      },
+      "gbifOccurrenceCount": 125237,
+      "enrichedAt": "2026-03-18T12:49:45.413Z"
+    }
   },
   {
     "id": 502,
@@ -7847,7 +13921,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384480,
+      "wormsAphiaId": 273584,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Thalassoma",
+        "especie": "Thalassoma lucasanum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/58070760/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/619124988/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/450704514/medium.jpeg"
+      ],
+      "inatObservationCount": 2923,
+      "gbifOccurrenceCount": 7161,
+      "enrichedAt": "2026-03-18T12:49:51.705Z"
+    }
   },
   {
     "id": 504,
@@ -7871,7 +13966,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384468,
+      "wormsAphiaId": 212209,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Thalassoma",
+        "especie": "Thalassoma lunare"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/85783422/medium.jpg",
+        "https://static.inaturalist.org/photos/65922710/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/142191299/medium.jpg"
+      ],
+      "inatObservationCount": 4719,
+      "gbifOccurrenceCount": 13892,
+      "enrichedAt": "2026-03-18T12:49:55.255Z"
+    }
   },
   {
     "id": 505,
@@ -7895,7 +14011,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2384092,
+      "wormsAphiaId": 273585,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Labridae",
+        "genero": "Thalassoma",
+        "especie": "Thalassoma lutescens"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/12055951/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/257369413/medium.jpg",
+        "https://static.inaturalist.org/photos/10638198/medium.jpg"
+      ],
+      "inatObservationCount": 2028,
+      "gbifOccurrenceCount": 15553,
+      "enrichedAt": "2026-03-18T12:49:59.208Z"
+    }
   },
   {
     "id": 506,
@@ -7919,7 +14056,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2378588,
+      "wormsAphiaId": 219588,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Trimma",
+        "especie": "Trimma taylori"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/67512943/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/615417613/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/217019949/medium.jpeg"
+      ],
+      "inatObservationCount": 70,
+      "gbifOccurrenceCount": 340,
+      "enrichedAt": "2026-03-18T12:50:03.108Z"
+    }
   },
   {
     "id": 507,
@@ -7943,7 +14101,28 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2374663,
+      "wormsAphiaId": 220083,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Zanclidae",
+        "genero": "Zanclus",
+        "especie": "Zanclus cornutus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/30586287/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/417142718/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/270056433/medium.jpg"
+      ],
+      "inatObservationCount": 9956,
+      "gbifOccurrenceCount": 23614,
+      "enrichedAt": "2026-03-18T12:50:06.720Z"
+    }
   },
   {
     "id": 508,
@@ -7967,7 +14146,28 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2379869,
+      "wormsAphiaId": 219683,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Zebrasoma",
+        "especie": "Zebrasoma flavescens"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/55798097/medium.jpeg",
+        "https://static.inaturalist.org/photos/24284853/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/36567334/medium.jpeg"
+      ],
+      "inatObservationCount": 2365,
+      "gbifOccurrenceCount": 9609,
+      "enrichedAt": "2026-03-18T12:50:10.669Z"
+    }
   },
   {
     "id": 509,
@@ -8015,7 +14215,28 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2379882,
+      "wormsAphiaId": 219681,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Acanthuridae",
+        "genero": "Zebrasoma",
+        "especie": "Zebrasoma xanthurum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/364628264/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/102842665/medium.jpg",
+        "https://static.inaturalist.org/photos/562492065/medium.jpg"
+      ],
+      "inatObservationCount": 851,
+      "gbifOccurrenceCount": 904,
+      "enrichedAt": "2026-03-18T12:50:18.099Z"
+    }
   }
 ]
 

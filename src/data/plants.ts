@@ -23,7 +23,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 30 cm",
     "temperatura": "18 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3862481,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Melastomataceae",
+        "genero": "Aciotis",
+        "especie": "Aciotis acuminifolia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/504473940/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/172100021/medium.jpg",
+        "https://static.inaturalist.org/photos/436305729/medium.jpeg"
+      ],
+      "inatObservationCount": 13,
+      "gbifOccurrenceCount": 1243,
+      "enrichedAt": "2026-03-18T12:54:57.036Z"
+    }
   },
   {
     "id": 2,
@@ -47,7 +67,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 30 cm",
     "temperatura": "15 a 21 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2873807,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Acorales",
+        "familia": "Acoraceae",
+        "genero": "Acorus",
+        "especie": "Acorus gramineus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/345005955/medium.jpg",
+        "https://static.inaturalist.org/photos/1276214/medium.",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/259328756/medium.jpg"
+      ],
+      "inatObservationCount": 489,
+      "gbifOccurrenceCount": 2200,
+      "enrichedAt": "2026-03-18T12:55:01.223Z"
+    }
   },
   {
     "id": 3,
@@ -71,7 +111,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 15 cm",
     "temperatura": "19 a 22 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2873812,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Acorales",
+        "familia": "Acoraceae",
+        "genero": "Acorus",
+        "especie": "Acorus gramineus"
+      },
+      "gbifOccurrenceCount": 31,
+      "enrichedAt": "2026-03-18T12:55:05.183Z"
+    }
   },
   {
     "id": 4,
@@ -119,7 +173,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "25 a 45 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3674859,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Caryophyllales",
+        "familia": "Amaranthaceae",
+        "genero": "Alternanthera",
+        "especie": "Alternanthera reineckii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/110039911/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/462698149/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/110039936/medium.jpeg"
+      ],
+      "inatObservationCount": 4,
+      "gbifOccurrenceCount": 100,
+      "enrichedAt": "2026-03-18T12:55:11.596Z"
+    }
   },
   {
     "id": 6,
@@ -143,7 +217,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 25",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3084939,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Caryophyllales",
+        "familia": "Amaranthaceae",
+        "genero": "Alternanthera",
+        "especie": "Alternanthera sessilis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/346723318/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/122032799/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/434985684/medium.jpg"
+      ],
+      "inatObservationCount": 2146,
+      "gbifOccurrenceCount": 11178,
+      "enrichedAt": "2026-03-18T12:55:16.173Z"
+    }
   },
   {
     "id": 7,
@@ -239,7 +333,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 20 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871881,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias afzelii"
+      },
+      "gbifOccurrenceCount": 27,
+      "enrichedAt": "2026-03-18T12:55:32.178Z"
+    }
   },
   {
     "id": 11,
@@ -263,7 +371,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 15 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871876,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias barteri"
+      },
+      "gbifOccurrenceCount": 6,
+      "enrichedAt": "2026-03-18T12:55:36.580Z"
+    }
   },
   {
     "id": 12,
@@ -287,7 +409,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7228311,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias barteri"
+      },
+      "gbifOccurrenceCount": 25,
+      "enrichedAt": "2026-03-18T12:55:40.045Z"
+    }
   },
   {
     "id": 13,
@@ -311,7 +447,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "7 a 30 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871880,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias barteri"
+      },
+      "gbifOccurrenceCount": 23,
+      "enrichedAt": "2026-03-18T12:55:45.183Z"
+    }
   },
   {
     "id": 14,
@@ -359,7 +509,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 40 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871872,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias barteri"
+      },
+      "gbifOccurrenceCount": 141,
+      "enrichedAt": "2026-03-18T12:55:51.275Z"
+    }
   },
   {
     "id": 16,
@@ -383,7 +547,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 cm a 15 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871878,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias barteri"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:55:55.926Z"
+    }
   },
   {
     "id": 17,
@@ -407,7 +585,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "40 a 60 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2871883,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Anubias",
+        "especie": "Anubias hastifolia"
+      },
+      "gbifOccurrenceCount": 123,
+      "enrichedAt": "2026-03-18T12:56:03.975Z"
+    }
   },
   {
     "id": 18,
@@ -431,7 +623,21 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "30 a 60 cm",
     "temperatura": "16 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328557,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Aponogetonaceae",
+        "genero": "Aponogeton",
+        "especie": "Aponogeton boivinianus"
+      },
+      "gbifOccurrenceCount": 43,
+      "enrichedAt": "2026-03-18T12:56:11.650Z"
+    }
   },
   {
     "id": 19,
@@ -455,7 +661,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "25 a 50 cm",
     "temperatura": "18 a 32 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328619,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Aponogetonaceae",
+        "genero": "Aponogeton",
+        "especie": "Aponogeton crispus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/104633568/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/590758784/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/499124978/medium.jpeg"
+      ],
+      "inatObservationCount": 4,
+      "gbifOccurrenceCount": 19,
+      "enrichedAt": "2026-03-18T12:56:16.404Z"
+    }
   },
   {
     "id": 20,
@@ -479,7 +705,25 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "25 a 60 cm",
     "temperatura": "15 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328626,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Aponogetonaceae",
+        "genero": "Aponogeton",
+        "especie": "Aponogeton madagascariensis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/563642885/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 110,
+      "enrichedAt": "2026-03-18T12:56:20.988Z"
+    }
   },
   {
     "id": 21,
@@ -503,7 +747,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "0.5 cm",
     "temperatura": "8 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2650105,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Polypodiopsida",
+        "ordem": "Salviniales",
+        "familia": "Salviniaceae",
+        "genero": "Azolla",
+        "especie": "Azolla caroliniana"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/105202350/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/177808218/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/73004262/medium.jpeg"
+      ],
+      "inatObservationCount": 765,
+      "gbifOccurrenceCount": 1878,
+      "enrichedAt": "2026-03-18T12:56:24.491Z"
+    }
   },
   {
     "id": 22,
@@ -527,7 +791,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 35 cm",
     "temperatura": "15 a 32 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3730835,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Plantaginaceae",
+        "genero": "Bacopa",
+        "especie": "Bacopa australis"
+      },
+      "gbifOccurrenceCount": 85,
+      "enrichedAt": "2026-03-18T12:56:29.661Z"
+    }
   },
   {
     "id": 23,
@@ -551,7 +829,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3171189,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Plantaginaceae",
+        "genero": "Bacopa",
+        "especie": "Bacopa caroliniana"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/19900127/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/447762183/medium.jpeg",
+        "https://static.inaturalist.org/photos/68120818/medium.jpg"
+      ],
+      "inatObservationCount": 1534,
+      "gbifOccurrenceCount": 1370,
+      "enrichedAt": "2026-03-18T12:56:33.339Z"
+    }
   },
   {
     "id": 24,
@@ -599,7 +897,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "15 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3171169,
+      "wormsAphiaId": 418758,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Plantaginaceae",
+        "genero": "Bacopa",
+        "especie": "Bacopa monnieri"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/592597313/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/126404188/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/26886202/medium.jpeg"
+      ],
+      "inatObservationCount": 8869,
+      "gbifOccurrenceCount": 10864,
+      "enrichedAt": "2026-03-18T12:56:42.749Z"
+    }
   },
   {
     "id": 26,
@@ -623,7 +942,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3736386,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Plantaginaceae",
+        "genero": "Bacopa",
+        "especie": "Bacopa myriophylloides"
+      },
+      "gbifOccurrenceCount": 151,
+      "enrichedAt": "2026-03-18T12:56:47.051Z"
+    }
   },
   {
     "id": 27,
@@ -647,7 +980,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "30 a 45 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3697755,
+      "wormsAphiaId": 1600108,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Barclaya",
+        "especie": "Barclaya longifolia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/67763434/medium.jpg",
+        "https://static.inaturalist.org/photos/433231488/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/327624144/medium.jpeg"
+      ],
+      "inatObservationCount": 9,
+      "gbifOccurrenceCount": 33,
+      "enrichedAt": "2026-03-18T12:56:51.179Z"
+    }
   },
   {
     "id": 28,
@@ -671,7 +1025,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "30 a 45 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2865952,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Blyxa",
+        "especie": "Blyxa aubertii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/65584169/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253899519/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/171183493/medium.jpeg"
+      ],
+      "inatObservationCount": 40,
+      "gbifOccurrenceCount": 591,
+      "enrichedAt": "2026-03-18T12:56:54.829Z"
+    }
   },
   {
     "id": 29,
@@ -695,7 +1069,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2865970,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Blyxa",
+        "especie": "Blyxa echinosperma"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253899519/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/201620638/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57355456/medium.jpg"
+      ],
+      "inatObservationCount": 9,
+      "gbifOccurrenceCount": 351,
+      "enrichedAt": "2026-03-18T12:56:58.656Z"
+    }
   },
   {
     "id": 30,
@@ -719,7 +1113,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "7 cm a 15 cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2865980,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Blyxa",
+        "especie": "Blyxa japonica"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/212748589/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250691986/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/431908480/medium.jpg"
+      ],
+      "inatObservationCount": 7,
+      "gbifOccurrenceCount": 263,
+      "enrichedAt": "2026-03-18T12:57:07.945Z"
+    }
   },
   {
     "id": 31,
@@ -743,7 +1157,26 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 40 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2650967,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Polypodiopsida",
+        "ordem": "Polypodiales",
+        "familia": "Dryopteridaceae",
+        "genero": "Bolbitis",
+        "especie": "Bolbitis heudelotii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/338807291/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/338809177/medium.jpg"
+      ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 328,
+      "enrichedAt": "2026-03-18T12:57:15.116Z"
+    }
   },
   {
     "id": 32,
@@ -767,7 +1200,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "30 a 80 cm",
     "temperatura": "18 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2882443,
+      "wormsAphiaId": 594762,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Cabombaceae",
+        "genero": "Cabomba",
+        "especie": "Cabomba caroliniana"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/183488313/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/578946045/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/33493242/medium.jpg"
+      ],
+      "inatObservationCount": 1253,
+      "gbifOccurrenceCount": 6914,
+      "enrichedAt": "2026-03-18T12:57:18.913Z"
+    }
   },
   {
     "id": 33,
@@ -791,7 +1245,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "30 a 80 cm",
     "temperatura": "22 a 33 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4925544,
+      "wormsAphiaId": 1600218,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Cabombaceae",
+        "genero": "Cabomba",
+        "especie": "Cabomba furcata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250844232/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250715447/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/68319115/medium.jpeg"
+      ],
+      "inatObservationCount": 39,
+      "gbifOccurrenceCount": 460,
+      "enrichedAt": "2026-03-18T12:57:23.124Z"
+    }
   },
   {
     "id": 34,
@@ -815,7 +1290,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 50 cm",
     "temperatura": "15 a 25 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3046246,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Brassicales",
+        "familia": "Brassicaceae",
+        "genero": "Cardamine",
+        "especie": "Cardamine lyrata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/110735052/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/127121416/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/273804328/medium.jpeg"
+      ],
+      "inatObservationCount": 12,
+      "gbifOccurrenceCount": 501,
+      "enrichedAt": "2026-03-18T12:57:26.793Z"
+    }
   },
   {
     "id": 35,
@@ -839,7 +1334,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "30 a 80 cm",
     "temperatura": "15 a 25 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2882398,
+      "wormsAphiaId": 416204,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Ceratophyllales",
+        "familia": "Ceratophyllaceae",
+        "genero": "Ceratophyllum",
+        "especie": "Ceratophyllum demersum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/116226640/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/83138843/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/201861245/medium.jpg"
+      ],
+      "inatObservationCount": 10838,
+      "gbifOccurrenceCount": 146005,
+      "enrichedAt": "2026-03-18T12:57:31.866Z"
+    }
   },
   {
     "id": 36,
@@ -887,7 +1403,21 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "40 a 100 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2853952,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Asparagales",
+        "familia": "Amaryllidaceae",
+        "genero": "Crinum",
+        "especie": "Crinum calamistratum"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:57:45.907Z"
+    }
   },
   {
     "id": 38,
@@ -911,7 +1441,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869235,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne affinis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164730017/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/560659000/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252896388/medium.jpg"
+      ],
+      "inatObservationCount": 8,
+      "gbifOccurrenceCount": 10,
+      "enrichedAt": "2026-03-18T12:57:53.185Z"
+    }
   },
   {
     "id": 39,
@@ -935,7 +1485,20 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "8 a 12 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869169,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne alba"
+      },
+      "enrichedAt": "2026-03-18T12:58:01.995Z"
+    }
   },
   {
     "id": 40,
@@ -959,7 +1522,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869268,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne albida"
+      },
+      "gbifOccurrenceCount": 14,
+      "enrichedAt": "2026-03-18T12:58:07.652Z"
+    }
   },
   {
     "id": 41,
@@ -983,7 +1560,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "25 a 120 cm",
     "temperatura": "20 a 27 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869211,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne aponogetifolia"
+      },
+      "gbifOccurrenceCount": 5,
+      "enrichedAt": "2026-03-18T12:58:11.671Z"
+    }
   },
   {
     "id": 42,
@@ -1007,7 +1598,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 20 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869189,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne auriculata"
+      },
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T12:58:15.141Z"
+    }
   },
   {
     "id": 43,
@@ -1031,7 +1636,25 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869244,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne beckettii"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/502621000/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 8,
+      "enrichedAt": "2026-03-18T12:58:18.712Z"
+    }
   },
   {
     "id": 44,
@@ -1055,7 +1678,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 30 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869152,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne cordata"
+      },
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T12:58:22.380Z"
+    }
   },
   {
     "id": 45,
@@ -1079,7 +1716,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 10 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869147,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne cordata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/61992708/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/460318330/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/466139580/medium.png"
+      ],
+      "inatObservationCount": 12,
+      "gbifOccurrenceCount": 38,
+      "enrichedAt": "2026-03-18T12:58:26.218Z"
+    }
   },
   {
     "id": 46,
@@ -1103,7 +1760,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869162,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne cordata"
+      },
+      "gbifOccurrenceCount": 13,
+      "enrichedAt": "2026-03-18T12:58:30.263Z"
+    }
   },
   {
     "id": 47,
@@ -1127,7 +1798,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "60 a 90 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869256,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne crispatula"
+      },
+      "gbifOccurrenceCount": 7,
+      "enrichedAt": "2026-03-18T12:58:33.957Z"
+    }
   },
   {
     "id": 48,
@@ -1151,7 +1836,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 10 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869202,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne parva"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:58:37.834Z"
+    }
   },
   {
     "id": 49,
@@ -1175,7 +1874,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 30 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869266,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne pontederiifolia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/58749181/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/58749186/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/61665353/medium.jpg"
+      ],
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 7,
+      "enrichedAt": "2026-03-18T12:58:41.839Z"
+    }
   },
   {
     "id": 50,
@@ -1199,7 +1918,25 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869227,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne purpurea"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/466139580/medium.png"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 5,
+      "enrichedAt": "2026-03-18T12:58:45.823Z"
+    }
   },
   {
     "id": 51,
@@ -1223,7 +1960,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869170,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne spiralis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/259053974/medium.jpeg",
+        "https://static.inaturalist.org/photos/345320629/medium.jpeg",
+        "https://static.inaturalist.org/photos/213315183/medium.jpg"
+      ],
+      "inatObservationCount": 7,
+      "gbifOccurrenceCount": 7,
+      "enrichedAt": "2026-03-18T12:58:49.399Z"
+    }
   },
   {
     "id": 52,
@@ -1247,7 +2004,25 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869198,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne undulata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/385514113/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T12:58:53.086Z"
+    }
   },
   {
     "id": 53,
@@ -1271,7 +2046,25 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869125,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne walkeri"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/259488210/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T12:58:56.749Z"
+    }
   },
   {
     "id": 54,
@@ -1295,7 +2088,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2869214,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne wendtii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/465316571/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/429256528/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/621258243/medium.jpg"
+      ],
+      "inatObservationCount": 5,
+      "gbifOccurrenceCount": 24,
+      "enrichedAt": "2026-03-18T12:59:00.385Z"
+    }
   },
   {
     "id": 55,
@@ -1319,7 +2132,20 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 12056964,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Cryptocoryne",
+        "especie": "Cryptocoryne zukalii"
+      },
+      "enrichedAt": "2026-03-18T12:59:04.631Z"
+    }
   },
   {
     "id": 56,
@@ -1343,7 +2169,22 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 30 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2715325,
+      "wormsAphiaId": 1680849,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Cyperaceae",
+        "genero": "Cyperus",
+        "especie": "Cyperus helferi"
+      },
+      "gbifOccurrenceCount": 5,
+      "enrichedAt": "2026-03-18T12:59:10.172Z"
+    }
   },
   {
     "id": 57,
@@ -1367,7 +2208,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3188666,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Didiplis",
+        "especie": "Didiplis diandra"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/300005518/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/82580017/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/413296529/medium.jpeg"
+      ],
+      "inatObservationCount": 32,
+      "gbifOccurrenceCount": 124,
+      "enrichedAt": "2026-03-18T12:59:15.184Z"
+    }
   },
   {
     "id": 58,
@@ -1439,7 +2300,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 55 cm",
     "temperatura": "15 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328837,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius grandiflorus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/33980170/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/433545039/medium.jpeg"
+      ],
+      "inatObservationCount": 250,
+      "gbifOccurrenceCount": 30,
+      "enrichedAt": "2026-03-18T12:59:24.162Z"
+    }
   },
   {
     "id": 61,
@@ -1463,7 +2344,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 50 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328816,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius grisebachii"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:59:27.690Z"
+    }
   },
   {
     "id": 62,
@@ -1487,7 +2382,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "15 a 25 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328859,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius uruguayensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238165902/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/140489182/medium.jpg",
+        "https://static.inaturalist.org/photos/268569746/medium.jpg"
+      ],
+      "inatObservationCount": 14,
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T12:59:31.183Z"
+    }
   },
   {
     "id": 63,
@@ -1511,7 +2426,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "30 a 60 cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328761,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius subulatus"
+      },
+      "gbifOccurrenceCount": 6,
+      "enrichedAt": "2026-03-18T12:59:34.776Z"
+    }
   },
   {
     "id": 64,
@@ -1535,7 +2464,26 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 15 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328818,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius grisebachii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/162068257/medium.jpeg",
+        "https://static.inaturalist.org/photos/468004338/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216027056/medium.jpg"
+      ],
+      "inatObservationCount": 7,
+      "enrichedAt": "2026-03-18T12:59:38.392Z"
+    }
   },
   {
     "id": 65,
@@ -1559,7 +2507,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 10 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5328707,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Helanthium",
+        "especie": "Helanthium bolivianum"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/582310752/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/42867145/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/173313816/medium.jpg"
+      ],
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T12:59:42.019Z"
+    }
   },
   {
     "id": 66,
@@ -1583,7 +2551,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 10 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2717570,
+      "wormsAphiaId": 593122,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Cyperaceae",
+        "genero": "Eleocharis",
+        "especie": "Eleocharis acicularis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/571855543/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/309468361/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/567210865/medium.jpg"
+      ],
+      "inatObservationCount": 923,
+      "gbifOccurrenceCount": 56703,
+      "enrichedAt": "2026-03-18T12:59:45.790Z"
+    }
   },
   {
     "id": 67,
@@ -1607,7 +2596,26 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "3 a 10 cm",
     "temperatura": "10 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2717077,
+      "wormsAphiaId": 1680486,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Cyperaceae",
+        "genero": "Eleocharis",
+        "especie": "Eleocharis minima"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/497058668/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 1378,
+      "enrichedAt": "2026-03-18T12:59:49.464Z"
+    }
   },
   {
     "id": 68,
@@ -1631,7 +2639,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "3 a 10 cm",
     "temperatura": "10 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2716818,
+      "wormsAphiaId": 715995,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Cyperaceae",
+        "genero": "Eleocharis",
+        "especie": "Eleocharis parvula"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/178572333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228551570/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/151071689/medium.jpg"
+      ],
+      "inatObservationCount": 59,
+      "gbifOccurrenceCount": 4166,
+      "enrichedAt": "2026-03-18T12:59:52.997Z"
+    }
   },
   {
     "id": 69,
@@ -1655,7 +2684,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 50 cm",
     "temperatura": "18 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2717678,
+      "wormsAphiaId": 1680614,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Cyperaceae",
+        "genero": "Eleocharis",
+        "especie": "Eleocharis vivipara"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/66896179/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/231967234/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/246446726/medium.jpeg"
+      ],
+      "inatObservationCount": 49,
+      "gbifOccurrenceCount": 209,
+      "enrichedAt": "2026-03-18T12:59:56.649Z"
+    }
   },
   {
     "id": 70,
@@ -1679,7 +2729,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "1 a 7 cm",
     "temperatura": "21 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5283137,
+      "wormsAphiaId": 1415692,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Bryophyta",
+        "classe": "Bryopsida",
+        "ordem": "Dicranales",
+        "familia": "Fissidentaceae",
+        "genero": "Fissidens",
+        "especie": "Fissidens fontanus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/525969691/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/25034536/medium.jpg",
+        "https://static.inaturalist.org/photos/7721662/medium.jpg"
+      ],
+      "inatObservationCount": 217,
+      "gbifOccurrenceCount": 4561,
+      "enrichedAt": "2026-03-18T13:00:00.531Z"
+    }
   },
   {
     "id": 71,
@@ -1703,7 +2774,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "2 a 3 cm",
     "temperatura": "15 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3730140,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Phrymaceae",
+        "genero": "Glossostigma",
+        "especie": "Glossostigma elatinoides"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/321209667/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/26484290/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/205349934/medium.jpeg"
+      ],
+      "inatObservationCount": 215,
+      "gbifOccurrenceCount": 1151,
+      "enrichedAt": "2026-03-18T13:00:04.815Z"
+    }
   },
   {
     "id": 72,
@@ -1727,7 +2818,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "1 a 3 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3172188,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Linderniaceae",
+        "genero": "Micranthemum",
+        "especie": "Micranthemum callitrichoides"
+      },
+      "gbifOccurrenceCount": 8,
+      "enrichedAt": "2026-03-18T13:00:09.197Z"
+    }
   },
   {
     "id": 73,
@@ -1751,7 +2856,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 20 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3172193,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Linderniaceae",
+        "genero": "Micranthemum",
+        "especie": "Micranthemum micranthemoides"
+      },
+      "gbifOccurrenceCount": 5,
+      "enrichedAt": "2026-03-18T13:00:12.758Z"
+    }
   },
   {
     "id": 74,
@@ -1775,7 +2894,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "8 a 50 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2766146,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Commelinales",
+        "familia": "Pontederiaceae",
+        "genero": "Heteranthera",
+        "especie": "Heteranthera zosterifolia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/214184180/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/390235018/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/71511291/medium.jpg"
+      ],
+      "inatObservationCount": 10,
+      "gbifOccurrenceCount": 256,
+      "enrichedAt": "2026-03-18T13:00:16.275Z"
+    }
   },
   {
     "id": 75,
@@ -1799,7 +2938,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8278565,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": "Hygrophila balsamica"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/133371029/medium.jpeg",
+        "https://static.inaturalist.org/photos/262544590/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/190586331/medium.jpeg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 8,
+      "enrichedAt": "2026-03-18T13:00:19.920Z"
+    }
   },
   {
     "id": 76,
@@ -1823,7 +2982,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 30 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5415350,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": "Hygrophila costata"
+      },
+      "gbifOccurrenceCount": 61,
+      "enrichedAt": "2026-03-18T13:00:23.701Z"
+    }
   },
   {
     "id": 77,
@@ -1847,7 +3020,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 35 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5415353,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": "Hygrophila corymbosa"
+      },
+      "gbifOccurrenceCount": 76,
+      "enrichedAt": "2026-03-18T13:00:27.205Z"
+    }
   },
   {
     "id": 78,
@@ -1871,7 +3058,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 50 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7549085,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": "Hygrophila difformis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/307342746/medium.jpeg",
+        "https://static.inaturalist.org/photos/345231894/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/473817382/medium.jpeg"
+      ],
+      "inatObservationCount": 28,
+      "gbifOccurrenceCount": 59,
+      "enrichedAt": "2026-03-18T13:00:30.933Z"
+    }
   },
   {
     "id": 79,
@@ -1919,7 +3126,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5415355,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": "Hygrophila polysperma"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/445456548/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248670231/medium.jpg",
+        "https://static.inaturalist.org/photos/247081486/medium.jpeg"
+      ],
+      "inatObservationCount": 197,
+      "gbifOccurrenceCount": 1060,
+      "enrichedAt": "2026-03-18T13:00:37.498Z"
+    }
   },
   {
     "id": 81,
@@ -1943,7 +3170,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 9795574,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Acanthaceae",
+        "genero": "Hygrophila",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 9411,
+      "enrichedAt": "2026-03-18T13:00:41.402Z"
+    }
   },
   {
     "id": 82,
@@ -1967,7 +3208,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "8 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5329643,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Hydrocharis",
+        "especie": "Hydrocharis laevigata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/321006207/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/165099084/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/132515930/medium.jpg"
+      ],
+      "inatObservationCount": 550,
+      "gbifOccurrenceCount": 4027,
+      "enrichedAt": "2026-03-18T13:00:45.376Z"
+    }
   },
   {
     "id": 83,
@@ -1991,7 +3252,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 40cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5563158,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Plantaginaceae",
+        "genero": "Limnophila",
+        "especie": "Limnophila heterophylla"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54213533/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/625700822/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53512804/medium.jpeg"
+      ],
+      "inatObservationCount": 7,
+      "gbifOccurrenceCount": 40,
+      "enrichedAt": "2026-03-18T13:00:49.271Z"
+    }
   },
   {
     "id": 84,
@@ -2015,7 +3296,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 40 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5421019,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Onagraceae",
+        "genero": "Ludwigia",
+        "especie": "Ludwigia glandulosa"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/41154717/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/429396333/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/134697601/medium.jpg"
+      ],
+      "inatObservationCount": 146,
+      "gbifOccurrenceCount": 613,
+      "enrichedAt": "2026-03-18T13:00:52.868Z"
+    }
   },
   {
     "id": 85,
@@ -2063,7 +3364,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "15 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5421030,
+      "wormsAphiaId": 1492252,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Onagraceae",
+        "genero": "Ludwigia",
+        "especie": "Ludwigia repens"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/9424498/medium.jpg",
+        "https://static.inaturalist.org/photos/353715907/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/230323988/medium.jpeg"
+      ],
+      "inatObservationCount": 685,
+      "gbifOccurrenceCount": 1215,
+      "enrichedAt": "2026-03-18T13:00:59.103Z"
+    }
   },
   {
     "id": 87,
@@ -2087,7 +3409,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 80 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2707865,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Poales",
+        "familia": "Mayacaceae",
+        "genero": "Mayaca",
+        "especie": "Mayaca fluviatilis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/97957623/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/438605797/medium.jpeg",
+        "https://static.inaturalist.org/photos/43007807/medium.jpeg"
+      ],
+      "inatObservationCount": 576,
+      "gbifOccurrenceCount": 1567,
+      "enrichedAt": "2026-03-18T13:01:02.809Z"
+    }
   },
   {
     "id": 88,
@@ -2111,7 +3453,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 15 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3172187,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Linderniaceae",
+        "genero": "Micranthemum",
+        "especie": "Micranthemum umbrosum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/333399596/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/338052298/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/192666363/medium.jpg"
+      ],
+      "inatObservationCount": 471,
+      "gbifOccurrenceCount": 1119,
+      "enrichedAt": "2026-03-18T13:01:06.654Z"
+    }
   },
   {
     "id": 89,
@@ -2135,7 +3497,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 30 cm",
     "temperatura": "23 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5361785,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Saxifragales",
+        "familia": "Haloragaceae",
+        "genero": "Myriophyllum",
+        "especie": "Myriophyllum aquaticum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/359788354/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/537215990/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/606611600/medium.jpg"
+      ],
+      "inatObservationCount": 10191,
+      "gbifOccurrenceCount": 23187,
+      "enrichedAt": "2026-03-18T13:01:10.208Z"
+    }
   },
   {
     "id": 90,
@@ -2159,7 +3541,21 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 80 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7326926,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Nymphaea",
+        "especie": "Nymphaea lotus"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-03-18T13:01:14.037Z"
+    }
   },
   {
     "id": 91,
@@ -2207,7 +3603,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 80 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2882414,
+      "wormsAphiaId": 1600205,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Nymphaea",
+        "especie": "Nymphaea micrantha"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/217143805/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/111604020/medium.jpeg",
+        "https://static.inaturalist.org/photos/157290603/medium.jpeg"
+      ],
+      "inatObservationCount": 84,
+      "gbifOccurrenceCount": 431,
+      "enrichedAt": "2026-03-18T13:01:20.446Z"
+    }
   },
   {
     "id": 93,
@@ -2231,7 +3648,21 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 75 cm",
     "temperatura": "22 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3697719,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Nymphaea",
+        "especie": "Nymphaea lotus"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T13:01:24.407Z"
+    }
   },
   {
     "id": 94,
@@ -2255,7 +3686,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 35 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5341508,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Asterales",
+        "familia": "Menyanthaceae",
+        "genero": "Nymphoides",
+        "especie": "Nymphoides aquatica"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/321076163/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4257195/medium.JPG",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/35584621/medium.jpeg"
+      ],
+      "inatObservationCount": 410,
+      "gbifOccurrenceCount": 633,
+      "enrichedAt": "2026-03-18T13:01:27.965Z"
+    }
   },
   {
     "id": 95,
@@ -2279,7 +3730,26 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "2 a 10 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3900041,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Lamiaceae",
+        "genero": "Pogostemon",
+        "especie": "Pogostemon helferi"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/179595655/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/299100467/medium.jpg"
+      ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-03-18T13:01:31.601Z"
+    }
   },
   {
     "id": 96,
@@ -2303,7 +3773,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 30 cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7308820,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Lamiaceae",
+        "genero": "Pogostemon",
+        "especie": "Pogostemon stellatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/582867328/medium.jpg",
+        "https://static.inaturalist.org/photos/308968014/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/419185362/medium.jpg"
+      ],
+      "inatObservationCount": 20,
+      "gbifOccurrenceCount": 753,
+      "enrichedAt": "2026-03-18T13:01:35.217Z"
+    }
   },
   {
     "id": 97,
@@ -2327,7 +3817,28 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 40 cm",
     "temperatura": "10 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2984291,
+      "wormsAphiaId": 1492044,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Saxifragales",
+        "familia": "Haloragaceae",
+        "genero": "Proserpinaca",
+        "especie": "Proserpinaca palustris"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/326503160/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/369794629/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/51646801/medium.jpg"
+      ],
+      "inatObservationCount": 1347,
+      "gbifOccurrenceCount": 2464,
+      "enrichedAt": "2026-03-18T13:01:38.904Z"
+    }
   },
   {
     "id": 98,
@@ -2351,7 +3862,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "1 a 5 cm",
     "temperatura": "15 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8244689,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Marchantiophyta",
+        "classe": "Marchantiopsida",
+        "ordem": "Marchantiales",
+        "familia": "Ricciaceae",
+        "genero": "Riccia",
+        "especie": "Riccia fluitans"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/183931150/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/131893700/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/7139595/medium.jpeg"
+      ],
+      "inatObservationCount": 1673,
+      "gbifOccurrenceCount": 17086,
+      "enrichedAt": "2026-03-18T13:01:43.954Z"
+    }
   },
   {
     "id": 99,
@@ -2375,7 +3906,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 20 cm",
     "temperatura": "20 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3188674,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": "Rotala indica"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/412985634/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/441213772/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/459570554/medium.jpeg"
+      ],
+      "inatObservationCount": 26,
+      "gbifOccurrenceCount": 1801,
+      "enrichedAt": "2026-03-18T13:01:48.237Z"
+    }
   },
   {
     "id": 100,
@@ -2399,7 +3950,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "25 a 45 cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3989204,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": "Rotala macrandra"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156654378/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181047909/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/465880378/medium.jpg"
+      ],
+      "inatObservationCount": 5,
+      "gbifOccurrenceCount": 6,
+      "enrichedAt": "2026-03-18T13:01:52.808Z"
+    }
   },
   {
     "id": 101,
@@ -2423,7 +3994,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "40 a 60 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7122825,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": "Rotala rotundifolia"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/361254357/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243934720/medium.jpeg",
+        "https://static.inaturalist.org/photos/260124326/medium.jpg"
+      ],
+      "inatObservationCount": 859,
+      "gbifOccurrenceCount": 1668,
+      "enrichedAt": "2026-03-18T13:01:56.402Z"
+    }
   },
   {
     "id": 102,
@@ -2447,7 +4038,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3188668,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 9657,
+      "enrichedAt": "2026-03-18T13:02:00.071Z"
+    }
   },
   {
     "id": 103,
@@ -2471,7 +4076,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "30 a 40 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3188668,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 9657,
+      "enrichedAt": "2026-03-18T13:02:03.844Z"
+    }
   },
   {
     "id": 104,
@@ -2495,7 +4114,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 3988412,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Myrtales",
+        "familia": "Lythraceae",
+        "genero": "Rotala",
+        "especie": "Rotala wallichii"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/341763056/medium.jpeg",
+        "https://static.inaturalist.org/photos/407991569/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/253731549/medium.jpeg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 20,
+      "enrichedAt": "2026-03-18T13:02:07.507Z"
+    }
   },
   {
     "id": 105,
@@ -2519,7 +4158,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 15 cm",
     "temperatura": "16 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2766037,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Sagittaria",
+        "especie": ""
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/441212246/medium.jpg",
+        "https://static.inaturalist.org/photos/52728332/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/522413704/medium.jpg"
+      ],
+      "inatObservationCount": 19,
+      "gbifOccurrenceCount": 163598,
+      "enrichedAt": "2026-03-18T13:02:11.444Z"
+    }
   },
   {
     "id": 106,
@@ -2543,7 +4202,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "5 a 30",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5329014,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Sagittaria",
+        "especie": "Sagittaria subulata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/441212246/medium.jpg",
+        "https://static.inaturalist.org/photos/52728332/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/522413704/medium.jpg"
+      ],
+      "inatObservationCount": 19,
+      "gbifOccurrenceCount": 268,
+      "enrichedAt": "2026-03-18T13:02:15.276Z"
+    }
   },
   {
     "id": 107,
@@ -2567,7 +4246,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "1 a 3 cm",
     "temperatura": "12 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5274858,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Polypodiopsida",
+        "ordem": "Salviniales",
+        "familia": "Salviniaceae",
+        "genero": "Salvinia",
+        "especie": "Salvinia natans"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/141865687/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/98552677/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181266297/medium.jpg"
+      ],
+      "inatObservationCount": 3351,
+      "gbifOccurrenceCount": 9395,
+      "enrichedAt": "2026-03-18T13:02:19.405Z"
+    }
   },
   {
     "id": 108,
@@ -2591,7 +4290,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "6 a 15 cm",
     "temperatura": "15 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4005796,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Ericales",
+        "familia": "Primulaceae",
+        "genero": "Samolus",
+        "especie": "Samolus parviflorus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/23140219/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4769783/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/134947552/medium.jpeg"
+      ],
+      "inatObservationCount": 3779,
+      "gbifOccurrenceCount": 4988,
+      "enrichedAt": "2026-03-18T13:02:23.401Z"
+    }
   },
   {
     "id": 109,
@@ -2615,7 +4334,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "6 a 10 cm",
     "temperatura": "15 a 25 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5384932,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Piperales",
+        "familia": "Saururaceae",
+        "genero": "Saururus",
+        "especie": "Saururus cernuus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/302025962/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4053539/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/198131994/medium.jpeg"
+      ],
+      "inatObservationCount": 19167,
+      "gbifOccurrenceCount": 17125,
+      "enrichedAt": "2026-03-18T13:02:27.075Z"
+    }
   },
   {
     "id": 110,
@@ -2639,7 +4378,27 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "0,5 à 0,8 cm",
     "temperatura": "15 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4097481,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Spirodela",
+        "especie": "Spirodela polyrhiza"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/555402902/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/69403522/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/469556724/medium.jpeg"
+      ],
+      "inatObservationCount": 8205,
+      "gbifOccurrenceCount": 127579,
+      "enrichedAt": "2026-03-18T13:02:30.757Z"
+    }
   },
   {
     "id": 111,
@@ -2663,7 +4422,21 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2682670,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Bryophyta",
+        "classe": "Bryopsida",
+        "ordem": "Hypnales",
+        "familia": "Hypnaceae",
+        "genero": "Ectropothecium",
+        "especie": "Ectropothecium barbieri"
+      },
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-03-18T13:02:34.328Z"
+    }
   },
   {
     "id": 112,
@@ -2687,7 +4460,27 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "5 a 7 cm",
     "temperatura": "16 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 7447672,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Lentibulariaceae",
+        "genero": "Utricularia",
+        "especie": "Utricularia graminifolia"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/58699662/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/231840276/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/422167801/medium.jpeg"
+      ],
+      "inatObservationCount": 47,
+      "gbifOccurrenceCount": 70,
+      "enrichedAt": "2026-03-18T13:02:37.879Z"
+    }
   },
   {
     "id": 113,
@@ -2711,7 +4504,28 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 55 cm",
     "temperatura": "15 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2865526,
+      "wormsAphiaId": 1435866,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Vallisneria",
+        "especie": "Vallisneria spiralis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/408898489/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106550864/medium.jpeg",
+        "https://static.inaturalist.org/photos/348134787/medium.jpg"
+      ],
+      "inatObservationCount": 197,
+      "gbifOccurrenceCount": 7722,
+      "enrichedAt": "2026-03-18T13:02:41.450Z"
+    }
   },
   {
     "id": 114,
@@ -2735,7 +4549,21 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "",
     "temperatura": "18 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5283635,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Bryophyta",
+        "classe": "Bryopsida",
+        "ordem": "Hypnales",
+        "familia": "Hypnaceae",
+        "genero": "Vesicularia",
+        "especie": "Vesicularia ferriei"
+      },
+      "gbifOccurrenceCount": 121,
+      "enrichedAt": "2026-03-18T13:02:45.716Z"
+    }
   },
   {
     "id": 115,
@@ -2759,7 +4587,25 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "9 a 20 cm",
     "temperatura": "18 a 26 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5838386,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Bryophyta",
+        "classe": "Bryopsida",
+        "ordem": "Hypnales",
+        "familia": "Hypnaceae",
+        "genero": "Vesicularia",
+        "especie": "Vesicularia vesicularis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/515485355/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 244,
+      "enrichedAt": "2026-03-18T13:02:49.536Z"
+    }
   }
 ]
 

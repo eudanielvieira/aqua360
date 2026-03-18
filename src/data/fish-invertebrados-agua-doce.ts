@@ -23,7 +23,21 @@ const data: Fish[] = [
     "temperatura": "20 a 25 ºC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5863061,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Caridina",
+        "especie": "Caridina cantonensis"
+      },
+      "gbifOccurrenceCount": 173,
+      "enrichedAt": "2026-03-18T12:50:21.854Z"
+    }
   },
   {
     "id": 512,
@@ -71,7 +85,28 @@ const data: Fish[] = [
     "temperatura": "18 a 32 ºC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 4362965,
+      "wormsAphiaId": 225694,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Thiaridae",
+        "genero": "Melanoides",
+        "especie": "Melanoides tuberculata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/47691890/medium.jpeg",
+        "https://static.inaturalist.org/photos/53259634/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3909741/medium.JPG"
+      ],
+      "inatObservationCount": 1918,
+      "gbifOccurrenceCount": 5715,
+      "enrichedAt": "2026-03-18T12:50:27.828Z"
+    }
   },
   {
     "id": 514,
@@ -119,7 +154,21 @@ const data: Fish[] = [
     "temperatura": "10 a 30 ºC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 2851,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Planorbidae",
+        "genero": "",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 433292,
+      "enrichedAt": "2026-03-18T12:50:34.335Z"
+    }
   },
   {
     "id": 516,
@@ -143,7 +192,28 @@ const data: Fish[] = [
     "temperatura": "25 a 29 ºC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 8110535,
+      "wormsAphiaId": 848365,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Pomacea",
+        "especie": "Pomacea diffusa"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/364948724/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/1755760/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/364698781/medium.jpeg"
+      ],
+      "inatObservationCount": 123,
+      "gbifOccurrenceCount": 166,
+      "enrichedAt": "2026-03-18T12:50:37.805Z"
+    }
   },
   {
     "id": 517,
@@ -167,7 +237,26 @@ const data: Fish[] = [
     "temperatura": "20 a 32 ºC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "gbifTaxonKey": 5178517,
+      "wormsAphiaId": 443930,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Trichodactylidae",
+        "genero": "Trichodactylus",
+        "especie": "Trichodactylus panoplus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/170385326/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 41,
+      "enrichedAt": "2026-03-18T12:50:41.664Z"
+    }
   },
   {
     "id": 520,
@@ -191,7 +280,21 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Camarões",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2227437,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Cambaridae",
+        "genero": "Cambarellus",
+        "especie": "Cambarellus montezumae"
+      },
+      "gbifOccurrenceCount": 472,
+      "enrichedAt": "2026-03-18T12:50:50.746Z"
+    }
   },
   {
     "id": 521,
@@ -263,7 +366,21 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Camarões",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2227203,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Cambaridae",
+        "genero": "Procambarus",
+        "especie": "Procambarus alleni"
+      },
+      "gbifOccurrenceCount": 251,
+      "enrichedAt": "2026-03-18T12:50:59.660Z"
+    }
   },
   {
     "id": 524,
@@ -287,7 +404,21 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Camarões",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2227300,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Cambaridae",
+        "genero": "Procambarus",
+        "especie": "Procambarus clarkii"
+      },
+      "gbifOccurrenceCount": 78302,
+      "enrichedAt": "2026-03-18T12:51:03.212Z"
+    }
   },
   {
     "id": 525,
@@ -335,7 +466,28 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2223039,
+      "wormsAphiaId": 586055,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Atya",
+        "especie": "Atya scabra"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/467942098/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/25702625/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3238035/medium.JPG"
+      ],
+      "inatObservationCount": 39,
+      "gbifOccurrenceCount": 756,
+      "enrichedAt": "2026-03-18T12:51:09.343Z"
+    }
   },
   {
     "id": 527,
@@ -359,7 +511,21 @@ const data: Fish[] = [
     "temperatura": "22 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5863005,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Atyoida",
+        "especie": "Atyoida pilipes"
+      },
+      "gbifOccurrenceCount": 214,
+      "enrichedAt": "2026-03-18T12:51:13.101Z"
+    }
   },
   {
     "id": 528,
@@ -551,7 +717,21 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2224765,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Macrobrachium",
+        "especie": "Macrobrachium acanthurus"
+      },
+      "gbifOccurrenceCount": 4248,
+      "enrichedAt": "2026-03-18T12:51:35.159Z"
+    }
   },
   {
     "id": 536,
@@ -575,7 +755,21 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2224710,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Macrobrachium",
+        "especie": "Macrobrachium amazonicum"
+      },
+      "gbifOccurrenceCount": 563,
+      "enrichedAt": "2026-03-18T12:51:39.017Z"
+    }
   },
   {
     "id": 537,
@@ -599,7 +793,21 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2224835,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Macrobrachium",
+        "especie": "Macrobrachium jelskii"
+      },
+      "gbifOccurrenceCount": 294,
+      "enrichedAt": "2026-03-18T12:51:42.478Z"
+    }
   },
   {
     "id": 538,
@@ -623,7 +831,21 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2224826,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Macrobrachium",
+        "especie": "Macrobrachium olfersii"
+      },
+      "gbifOccurrenceCount": 584,
+      "enrichedAt": "2026-03-18T12:51:45.928Z"
+    }
   },
   {
     "id": 539,
@@ -647,7 +869,21 @@ const data: Fish[] = [
     "temperatura": "28 a 31oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2224546,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Macrobrachium",
+        "especie": "Macrobrachium rosenbergii"
+      },
+      "gbifOccurrenceCount": 468,
+      "enrichedAt": "2026-03-18T12:51:49.437Z"
+    }
   },
   {
     "id": 540,
@@ -695,7 +931,21 @@ const data: Fish[] = [
     "temperatura": "21 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 11689892,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Neocaridina",
+        "especie": "Neocaridina davidi"
+      },
+      "gbifOccurrenceCount": 274,
+      "enrichedAt": "2026-03-18T12:51:56.446Z"
+    }
   },
   {
     "id": 542,
@@ -719,7 +969,21 @@ const data: Fish[] = [
     "temperatura": "18 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5862985,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Neocaridina",
+        "especie": "Neocaridina palmata"
+      },
+      "gbifOccurrenceCount": 146,
+      "enrichedAt": "2026-03-18T12:52:00.017Z"
+    }
   },
   {
     "id": 543,
@@ -743,7 +1007,21 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2225008,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palaemonidae",
+        "genero": "Palaemon",
+        "especie": "Palaemon pandaliformis"
+      },
+      "gbifOccurrenceCount": 155,
+      "enrichedAt": "2026-03-18T12:52:03.689Z"
+    }
   },
   {
     "id": 544,
@@ -791,7 +1069,28 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2223069,
+      "wormsAphiaId": 586697,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Potimirim",
+        "especie": "Potimirim glabra"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/66031639/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168696307/medium.jpeg",
+        "https://static.inaturalist.org/photos/202981175/medium.jpeg"
+      ],
+      "inatObservationCount": 31,
+      "gbifOccurrenceCount": 472,
+      "enrichedAt": "2026-03-18T12:52:10.103Z"
+    }
   },
   {
     "id": 546,
@@ -815,7 +1114,28 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Lagostins",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2223068,
+      "wormsAphiaId": 586700,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Atyidae",
+        "genero": "Potimirim",
+        "especie": "Potimirim potimirim"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/476824560/medium.jpg",
+        "https://static.inaturalist.org/photos/66031639/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168696307/medium.jpeg"
+      ],
+      "inatObservationCount": 41,
+      "gbifOccurrenceCount": 130,
+      "enrichedAt": "2026-03-18T12:52:13.730Z"
+    }
   },
   {
     "id": 547,
@@ -839,7 +1159,21 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 4382786,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Gecarcinidae",
+        "genero": "Cardisoma",
+        "especie": "Cardisoma armatum"
+      },
+      "gbifOccurrenceCount": 245,
+      "enrichedAt": "2026-03-18T12:52:17.627Z"
+    }
   },
   {
     "id": 548,
@@ -935,7 +1269,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 4382775,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Sesarmidae",
+        "genero": "Parasesarma",
+        "especie": "Parasesarma bidens"
+      },
+      "gbifOccurrenceCount": 46,
+      "enrichedAt": "2026-03-18T12:52:29.486Z"
+    }
   },
   {
     "id": 552,
@@ -959,7 +1307,28 @@ const data: Fish[] = [
     "temperatura": "20 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178496,
+      "wormsAphiaId": 443923,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Trichodactylidae",
+        "genero": "Trichodactylus",
+        "especie": "Trichodactylus borellianus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/449405534/medium.jpeg",
+        "https://static.inaturalist.org/photos/477410859/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/440909649/medium.jpg"
+      ],
+      "inatObservationCount": 17,
+      "gbifOccurrenceCount": 36,
+      "enrichedAt": "2026-03-18T12:52:32.978Z"
+    }
   },
   {
     "id": 553,
@@ -983,7 +1352,28 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178509,
+      "wormsAphiaId": 443928,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Trichodactylidae",
+        "genero": "Trichodactylus",
+        "especie": "Trichodactylus fluviatilis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/311983762/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/172165342/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/174772715/medium.jpg"
+      ],
+      "inatObservationCount": 75,
+      "gbifOccurrenceCount": 163,
+      "enrichedAt": "2026-03-18T12:52:36.870Z"
+    }
   },
   {
     "id": 554,
@@ -1007,7 +1397,21 @@ const data: Fish[] = [
     "temperatura": "22 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178517,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Trichodactylidae",
+        "genero": "Trichodactylus",
+        "especie": "Trichodactylus panoplus"
+      },
+      "gbifOccurrenceCount": 41,
+      "enrichedAt": "2026-03-18T12:52:40.763Z"
+    }
   },
   {
     "id": 555,
@@ -1031,7 +1435,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5178503,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Trichodactylidae",
+        "genero": "Trichodactylus",
+        "especie": "Trichodactylus petropolitanus"
+      },
+      "gbifOccurrenceCount": 81,
+      "enrichedAt": "2026-03-18T12:52:44.342Z"
+    }
   },
   {
     "id": 556,
@@ -1055,7 +1473,21 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 4382509,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Ocypodidae",
+        "genero": "Minuca",
+        "especie": "Minuca mordax"
+      },
+      "gbifOccurrenceCount": 51,
+      "enrichedAt": "2026-03-18T12:52:53.253Z"
+    }
   },
   {
     "id": 557,
@@ -1079,7 +1511,21 @@ const data: Fish[] = [
     "temperatura": "20 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Carangueijos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2221551,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Ocypodidae",
+        "genero": "Leptuca",
+        "especie": "Leptuca pugilator"
+      },
+      "gbifOccurrenceCount": 172,
+      "enrichedAt": "2026-03-18T12:53:07.794Z"
+    }
   },
   {
     "id": 558,
@@ -1103,7 +1549,27 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 10342200,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Asolene",
+        "especie": "Asolene megastoma"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/130805091/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/329707928/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/1168415/medium.JPG"
+      ],
+      "inatObservationCount": 26,
+      "gbifOccurrenceCount": 52,
+      "enrichedAt": "2026-03-18T12:53:14.960Z"
+    }
   },
   {
     "id": 559,
@@ -1127,7 +1593,22 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2291021,
+      "wormsAphiaId": 848622,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Planorbidae",
+        "genero": "Biomphalaria",
+        "especie": "Biomphalaria glabrata"
+      },
+      "gbifOccurrenceCount": 566,
+      "enrichedAt": "2026-03-18T12:53:18.862Z"
+    }
   },
   {
     "id": 560,
@@ -1199,7 +1680,22 @@ const data: Fish[] = [
     "temperatura": "20 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5783797,
+      "wormsAphiaId": 1501298,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Lanistes",
+        "especie": "Lanistes libycus"
+      },
+      "gbifOccurrenceCount": 111,
+      "enrichedAt": "2026-03-18T12:53:28.569Z"
+    }
   },
   {
     "id": 563,
@@ -1223,7 +1719,28 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2292586,
+      "wormsAphiaId": 737469,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Marisa",
+        "especie": "Marisa cornuarietis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/48372743/medium.jpg",
+        "https://static.inaturalist.org/photos/88704409/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/453703091/medium.jpeg"
+      ],
+      "inatObservationCount": 525,
+      "gbifOccurrenceCount": 684,
+      "enrichedAt": "2026-03-18T12:53:32.261Z"
+    }
   },
   {
     "id": 564,
@@ -1247,7 +1764,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2300936,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Thiaridae",
+        "genero": "Melanoides",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 7651,
+      "enrichedAt": "2026-03-18T12:53:36.294Z"
+    }
   },
   {
     "id": 565,
@@ -1271,7 +1802,28 @@ const data: Fish[] = [
     "temperatura": "22 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5784041,
+      "wormsAphiaId": 818788,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Cycloneritida",
+        "familia": "Neritidae",
+        "genero": "Vittina",
+        "especie": "Vittina natalensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15601395/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57406138/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/581594876/medium.jpg"
+      ],
+      "inatObservationCount": 16,
+      "gbifOccurrenceCount": 18,
+      "enrichedAt": "2026-03-18T12:53:39.870Z"
+    }
   },
   {
     "id": 566,
@@ -1295,7 +1847,28 @@ const data: Fish[] = [
     "temperatura": "22 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2291421,
+      "wormsAphiaId": 419512,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Cycloneritida",
+        "familia": "Neritidae",
+        "genero": "Vitta",
+        "especie": "Vitta virginea"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/62540271/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/282089580/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/435908082/medium.jpeg"
+      ],
+      "inatObservationCount": 578,
+      "gbifOccurrenceCount": 732,
+      "enrichedAt": "2026-03-18T12:53:43.509Z"
+    }
   },
   {
     "id": 567,
@@ -1319,7 +1892,22 @@ const data: Fish[] = [
     "temperatura": "23 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5725597,
+      "wormsAphiaId": 224760,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Hemisinidae",
+        "genero": "Pachymelania",
+        "especie": "Pachymelania fusca"
+      },
+      "gbifOccurrenceCount": 96,
+      "enrichedAt": "2026-03-18T12:53:47.238Z"
+    }
   },
   {
     "id": 568,
@@ -1343,7 +1931,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 1,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "",
+        "classe": "",
+        "ordem": "",
+        "familia": "",
+        "genero": "",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 2879272899,
+      "enrichedAt": "2026-03-18T12:53:50.743Z"
+    }
   },
   {
     "id": 569,
@@ -1391,7 +1993,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2292582,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Pomacea",
+        "especie": "Pomacea canaliculata"
+      },
+      "gbifOccurrenceCount": 3674,
+      "enrichedAt": "2026-03-18T12:53:57.412Z"
+    }
   },
   {
     "id": 571,
@@ -1439,7 +2055,21 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 7450328,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Architaenioglossa",
+        "familia": "Ampullariidae",
+        "genero": "Pomacea",
+        "especie": "Pomacea flagellata"
+      },
+      "gbifOccurrenceCount": 601,
+      "enrichedAt": "2026-03-18T12:54:03.409Z"
+    }
   },
   {
     "id": 573,
@@ -1463,7 +2093,21 @@ const data: Fish[] = [
     "temperatura": "5 a 25oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 2291334,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Lymnaeidae",
+        "genero": "Pseudosuccinea",
+        "especie": "Pseudosuccinea columella"
+      },
+      "gbifOccurrenceCount": 2308,
+      "enrichedAt": "2026-03-18T12:54:07.052Z"
+    }
   },
   {
     "id": 574,
@@ -1487,7 +2131,26 @@ const data: Fish[] = [
     "temperatura": "23 a 27oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5782760,
+      "wormsAphiaId": 1061249,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Paludomidae",
+        "genero": "Spekia",
+        "especie": "Spekia zonata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/94575884/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 47,
+      "enrichedAt": "2026-03-18T12:54:10.589Z"
+    }
   },
   {
     "id": 575,
@@ -1511,7 +2174,22 @@ const data: Fish[] = [
     "temperatura": "23 a 28oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 5782761,
+      "wormsAphiaId": 1061104,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "",
+        "familia": "Paludomidae",
+        "genero": "Syrnolopsis",
+        "especie": "Syrnolopsis minuta"
+      },
+      "gbifOccurrenceCount": 9,
+      "enrichedAt": "2026-03-18T12:54:14.199Z"
+    }
   },
   {
     "id": 576,
@@ -1559,7 +2237,21 @@ const data: Fish[] = [
     "temperatura": "22 a 26oC",
     "tipo": "PEIXESINVERTEBRADOSDULCIOLAS",
     "subTipo": "Caramujos",
-    "fonte": "www.aquaonline.com.br"
+    "fonte": "www.aquaonline.com.br",
+    "enrichment": {
+      "gbifTaxonKey": 4616289,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Gastropoda",
+        "ordem": "Cycloneritida",
+        "familia": "Neritidae",
+        "genero": "Vittina",
+        "especie": ""
+      },
+      "gbifOccurrenceCount": 778,
+      "enrichedAt": "2026-03-18T12:54:20.293Z"
+    }
   },
   {
     "id": 578,
