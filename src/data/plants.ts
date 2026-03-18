@@ -385,9 +385,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 27,
       "enrichedAt": "2026-03-18T12:55:32.178Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/132126995/medium.jpeg"
       ]
     }
   },
@@ -428,9 +426,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 6,
       "enrichedAt": "2026-03-18T12:55:36.580Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/408127516/medium.jpeg"
       ]
     }
   },
@@ -471,9 +467,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 25,
       "enrichedAt": "2026-03-18T12:55:40.045Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg"
       ]
     }
   },
@@ -514,9 +508,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 23,
       "enrichedAt": "2026-03-18T12:55:45.183Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://static.inaturalist.org/photos/126964928/medium.jpeg"
       ]
     }
   },
@@ -546,9 +538,7 @@ const data: Plant[] = [
     "enrichment": {
       "enrichedAt": "2026-03-18T20:51:48.817Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/132126995/medium.jpeg"
       ]
     }
   },
@@ -589,9 +579,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 141,
       "enrichedAt": "2026-03-18T12:55:51.275Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/408127516/medium.jpeg"
       ]
     }
   },
@@ -632,9 +620,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 2,
       "enrichedAt": "2026-03-18T12:55:55.926Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://static.inaturalist.org/photos/105664945/medium.jpeg"
       ]
     }
   },
@@ -675,9 +661,7 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 123,
       "enrichedAt": "2026-03-18T12:56:03.975Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/366958387/medium.jpeg"
       ]
     }
   },
@@ -4950,9 +4934,7 @@ const data: Plant[] = [
       },
       "enrichedAt": "2026-03-18T18:52:35.218Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg"
       ]
     }
   },
@@ -5916,9 +5898,7 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+        "https://static.inaturalist.org/photos/126964928/medium.jpeg"
       ]
     }
   },
