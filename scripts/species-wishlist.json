@@ -1,0 +1,48 @@
+{
+  "peixes-agua-doce": [
+    "Paracheirodon innesi",
+    "Paracheirodon axelrodi",
+    "Carassius auratus",
+    "Poecilia reticulata",
+    "Xiphophorus hellerii",
+    "Xiphophorus maculatus",
+    "Pterophyllum scalare",
+    "Symphysodon discus",
+    "Corydoras paleatus",
+    "Corydoras aeneus",
+    "Ancistrus sp.",
+    "Mikrogeophagus ramirezi",
+    "Trichogaster lalius",
+    "Betta splendens",
+    "Danio rerio",
+    "Hyphessobrycon herbertaxelrodi",
+    "Hemigrammus erythrozonus",
+    "Otocinclus affinis",
+    "Pangio kuhlii",
+    "Trigonostigma heteromorpha"
+  ],
+  "peixes-agua-salgada": [
+    "Amphiprion ocellaris",
+    "Paracanthurus hepatus",
+    "Zebrasoma flavescens",
+    "Pterapogon kauderni",
+    "Chrysiptera cyanea",
+    "Gramma loreto",
+    "Pseudochromis fridmani",
+    "Synchiropus splendidus",
+    "Gobiodon okinawae",
+    "Nemateleotris magnifica"
+  ],
+  "plantas": [
+    "Hemianthus callitrichoides",
+    "Glossostigma elatinoides",
+    "Eleocharis acicularis",
+    "Rotala rotundifolia",
+    "Ludwigia repens",
+    "Hygrophila polysperma",
+    "Cryptocoryne wendtii",
+    "Anubias barteri",
+    "Bucephalandra sp.",
+    "Taxiphyllum barbieri"
+  ]
+}
