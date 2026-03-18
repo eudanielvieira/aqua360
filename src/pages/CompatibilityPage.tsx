@@ -17,6 +17,8 @@ interface SpeciesOption {
   kh: string
   tipo: string
   comportamento: string
+  alimentacao: string
+  tamanhoAdulto: string
   inatPhotos?: string[]
 }
 
@@ -32,6 +34,8 @@ function toOption(fish: Fish): SpeciesOption {
     kh: fish.kh,
     tipo: fish.tipo,
     comportamento: fish.comportamento,
+    alimentacao: fish.alimentacao,
+    tamanhoAdulto: fish.tamanhoAdulto,
     inatPhotos: fish.enrichment?.inatPhotoUrls,
   }
 }
@@ -175,11 +179,22 @@ function ResultCard({ result, speciesA, speciesB }: {
         ))}
       </div>
 
-      <div className="mt-6 p-3 rounded-xl bg-primary/5 flex items-start gap-2.5">
+      {result.warnings.length > 0 && (
+        <div className="mt-4 space-y-2">
+          {result.warnings.map((warn, i) => (
+            <div key={i} className="p-3 rounded-xl bg-red-500/5 border border-red-500/10 flex items-start gap-2.5">
+              <AlertTriangle size={14} className="text-red-500 flex-shrink-0 mt-0.5" />
+              <p className="text-xs text-red-600 dark:text-red-400 leading-relaxed font-medium">{warn}</p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-4 p-3 rounded-xl bg-primary/5 flex items-start gap-2.5">
         <Info size={14} className="text-primary flex-shrink-0 mt-0.5" />
         <p className="text-[11px] text-text-secondary leading-relaxed">
-          Esta análise é baseada nos parâmetros ideais de cada espécie. Fatores como tamanho do aquário,
-          quantidade de peixes e decoração também influenciam a convivência. Consulte sempre um especialista.
+          Esta analise e baseada nos parametros ideais de cada especie. Fatores como tamanho do aquario,
+          quantidade de peixes e decoracao tambem influenciam a convivencia. Consulte sempre um especialista.
         </p>
       </div>
     </div>

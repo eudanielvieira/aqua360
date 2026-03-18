@@ -19,7 +19,25 @@
     "Hemigrammus erythrozonus",
     "Otocinclus affinis",
     "Pangio kuhlii",
-    "Trigonostigma heteromorpha"
+    "Trigonostigma heteromorpha",
+    "Heros severus",
+    "Cichla ocellaris",
+    "Hemichromis lifalili",
+    "Rasbora espei",
+    "Boraras brigittae",
+    "Celestichthys margaritatus",
+    "Tateurndina ocellicauda",
+    "Stiphodon ornatus",
+    "Iriatherina werneri",
+    "Pseudomugil furcatus",
+    "Tanichthys albonubes",
+    "Pethia conchonius",
+    "Crossocheilus oblongus",
+    "Gyrinocheilus aymonieri",
+    "Pantodon buchholzi",
+    "Clarias batrachus",
+    "Apteronotus albifrons",
+    "Eigenmannia virescens"
   ],
   "peixes-agua-salgada": [
     "Amphiprion ocellaris",
@@ -31,7 +49,13 @@
     "Pseudochromis fridmani",
     "Synchiropus splendidus",
     "Gobiodon okinawae",
-    "Nemateleotris magnifica"
+    "Nemateleotris magnifica",
+    "Centropyge loricula",
+    "Chelmon rostratus",
+    "Rhinecanthus aculeatus",
+    "Siganus vulpinus",
+    "Valenciennea strigata",
+    "Assessor flavissimus"
   ],
   "plantas": [
     "Hemianthus callitrichoides",
@@ -43,6 +67,12 @@
     "Cryptocoryne wendtii",
     "Anubias barteri",
     "Bucephalandra sp.",
-    "Taxiphyllum barbieri"
+    "Taxiphyllum barbieri",
+    "Staurogyne repens",
+    "Pogostemon erectus",
+    "Alternanthera reineckii",
+    "Limnophila sessiliflora",
+    "Microsorum pteropus",
+    "Vesicularia dubyana"
   ]
 }
