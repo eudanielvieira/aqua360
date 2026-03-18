@@ -46,4 +46,14 @@ body {
     scrollbar-width: thin;
     scrollbar-color: var(--color-border) transparent;
   }
+  .leaflet-container {
+    z-index: 0 !important;
+  }
+  .leaflet-pane {
+    z-index: 0 !important;
+  }
+  .leaflet-top,
+  .leaflet-bottom {
+    z-index: 10 !important;
+  }
 }
