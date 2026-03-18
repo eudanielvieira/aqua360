@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { getPrimaryImage } from '../utils/image'
+import { getThumbnail } from '../utils/image'
 
 interface Props {
   to: string
@@ -17,7 +17,7 @@ export default function Card({ to, image, title, subtitle, inatPhotos }: Props) 
     >
       <div className="aspect-square overflow-hidden bg-surface-alt relative">
         <img
-          src={getPrimaryImage(image, inatPhotos)}
+          src={getThumbnail(image, inatPhotos)}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
           loading="lazy"

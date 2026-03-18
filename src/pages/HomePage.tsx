@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
@@ -92,19 +92,36 @@ const sections = [
   },
 ]
 
-const stats = [
-  { value: `${totalFish}+`, label: 'Peixes' },
-  { value: '115', label: 'Plantas' },
-  { value: '19', label: 'Corais' },
-  { value: '20', label: 'Doenças' },
-]
+// stats são calculados dinamicamente no componente
+
+function useStats() {
+  const [plantCount, setPlantCount] = useState(0)
+  const [coralCount, setCoralCount] = useState(0)
+  const [diseaseCount, setDiseaseCount] = useState(0)
+
+  useEffect(() => {
+    import('../data/plants').then(m => setPlantCount(m.default.length))
+    import('../data/corals').then(m => setCoralCount(m.default.length))
+    import('../data/diseases').then(m => setDiseaseCount(m.default.length))
+  }, [])
+
+  return { plantCount, coralCount, diseaseCount }
+}
 
 export default function HomePage() {
   const { dark, toggle } = useDarkMode()
   const { canInstall, justInstalled, install } = useInstallPWA()
+  const { plantCount, coralCount, diseaseCount } = useStats()
   const [dismissed, setDismissed] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const navigate = useNavigate()
+
+  const stats = [
+    { value: `${totalFish}`, label: 'Peixes' },
+    { value: `${plantCount}`, label: 'Plantas' },
+    { value: `${coralCount}`, label: 'Corais' },
+    { value: `${diseaseCount}`, label: 'Doenças' },
+  ]
   const showBanner = canInstall && !dismissed
 
   return (
