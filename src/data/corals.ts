@@ -645,6 +645,183 @@ const data: Coral[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/365440907/medium.jpg"
       ]
     }
+  },
+  {
+    "id": 20,
+    "nomePopular": "Green Star Polyps (GSP)",
+    "nomeCientifico": "Pachyclavularia violacea",
+    "outrosNome": "",
+    "familia": "Briareidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Muito fácil",
+    "alimentacao": "Fotossintético",
+    "compatibilidade": "Pode se espalhar e cobrir rochas",
+    "crescimento": "Muito rápido",
+    "coloracao": "Verde fluorescente sobre base púrpura",
+    "descricao": "Um dos corais mais fáceis e resistentes. Tapete verde brilhante que se espalha sobre rochas. Ideal para iniciantes em reef.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:14.008Z",
+      "gbifTaxonKey": 9965692,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleralcyonacea",
+        "familia": "Briareidae",
+        "genero": "Briareum",
+        "especie": "Briareum violaceum"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/506661871/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/246379617/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/400933199/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "nomePopular": "Kenya Tree",
+    "nomeCientifico": "Capnella sp.",
+    "outrosNome": "",
+    "familia": "Nephtheidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Baixa a moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Muito fácil",
+    "alimentacao": "Fotossintético",
+    "compatibilidade": "Pacífico, pode se desprender e colonizar novas áreas",
+    "crescimento": "Rápido",
+    "coloracao": "Marrom, rosa claro",
+    "descricao": "Coral em formato de árvore que se reproduz facilmente soltando fragmentos. Muito resistente.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:15.527Z",
+      "gbifTaxonKey": 1,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "",
+        "classe": "",
+        "ordem": "",
+        "familia": "",
+        "genero": "",
+        "especie": ""
+      }
+    }
+  },
+  {
+    "id": 22,
+    "nomePopular": "Hammer Coral (Wall)",
+    "nomeCientifico": "Euphyllia parancora",
+    "outrosNome": "",
+    "familia": "Euphylliidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Moderada",
+    "alimentacao": "Fotossintético, aceita mysis",
+    "compatibilidade": "Tentáculos podem queimar vizinhos",
+    "crescimento": "Lento",
+    "coloracao": "Verde, dourado com pontas rosa",
+    "descricao": "Versão wall do Hammer com crescimento diferente. Tentáculos em formato de martelo com movimentos hipnóticos.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:17.030Z",
+      "gbifTaxonKey": 4339371,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Euphylliidae",
+        "genero": "Fimbriaphyllia",
+        "especie": "Fimbriaphyllia paraancora"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "nomePopular": "Duncan Coral",
+    "nomeCientifico": "Duncanopsammia axifuga",
+    "outrosNome": "",
+    "familia": "Dendrophylliidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Baixa a moderada",
+    "fluxoAgua": "Baixo a moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "Fotossintético, aceita mysis e artêmia",
+    "compatibilidade": "Pacífico",
+    "crescimento": "Moderado",
+    "coloracao": "Verde, rosa, creme",
+    "descricao": "LPS de fácil manutenção com pólipos grandes e bonitos. Se alimenta ativamente quando oferecido comida.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:18.648Z",
+      "gbifTaxonKey": 2259554,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Dendrophylliidae",
+        "genero": "Duncanopsammia",
+        "especie": "Duncanopsammia axifuga"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/318365213/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/325210807/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/577654795/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "nomePopular": "Torch Coral (Gold)",
+    "nomeCientifico": "Euphyllia glabrescens var. gold",
+    "outrosNome": "",
+    "familia": "Euphylliidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Moderada",
+    "alimentacao": "Fotossintético, aceita mysis",
+    "compatibilidade": "Urticante, manter distância",
+    "crescimento": "Lento",
+    "coloracao": "Dourado intenso com pontas brilhantes",
+    "descricao": "Variação gold muito valorizada. Tentáculos dourados que brilham sob luz actínica."
+  },
+  {
+    "id": 25,
+    "nomePopular": "Pulsing Xenia",
+    "nomeCientifico": "Xenia elongata",
+    "outrosNome": "",
+    "familia": "Xeniidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "Fotossintético",
+    "compatibilidade": "Pode invadir áreas",
+    "crescimento": "Muito rápido",
+    "coloracao": "Branco, creme, rosa",
+    "descricao": "Versão pulsante da Xenia com movimento rítmico constante. Visual hipnotizante.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:21.610Z",
+      "gbifTaxonKey": 5185319,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Malacalcyonacea",
+        "familia": "Xeniidae",
+        "genero": "Xenia",
+        "especie": "Xenia elongata"
+      }
+    }
   }
 ]
 

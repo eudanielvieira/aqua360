@@ -4916,6 +4916,377 @@ const data: Plant[] = [
       },
       "enrichedAt": "2026-03-18T18:52:48.239Z"
     }
+  },
+  {
+    "id": 124,
+    "co2": "",
+    "crescimento": "Rápido",
+    "dificuldade": "Fácil",
+    "estrutura": "",
+    "familia": "Alismataceae",
+    "iluminacao": "0.5 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Echinodorus amazonicus",
+    "nomePopular": "Espada Amazônica",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 8.0",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Fundo",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "20 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:34:56.552Z",
+      "gbifTaxonKey": 5328817,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Aquarius",
+        "especie": "Aquarius grisebachii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/162068257/medium.jpeg",
+        "https://static.inaturalist.org/photos/468004338/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216027056/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "co2": "",
+    "crescimento": "Muito rápido",
+    "dificuldade": "Muito fácil",
+    "estrutura": "",
+    "familia": "Hydrocharitaceae",
+    "iluminacao": "0.3 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Egeria densa",
+    "nomePopular": "Elódea",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "5.0 a 9.0",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Fundo",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "10 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:34:58.800Z",
+      "gbifTaxonKey": 5329260,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Hydrocharitaceae",
+        "genero": "Elodea",
+        "especie": "Elodea densa"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/184805256/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/50206710/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/124479108/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "co2": "",
+    "crescimento": "Explosivo",
+    "dificuldade": "Muito fácil",
+    "estrutura": "",
+    "familia": "Araceae",
+    "iluminacao": "0.2 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Lemna minor",
+    "nomePopular": "Lentilha d'Água",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "5.0 a 8.0",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Superfície",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "10 a 30 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:01.140Z",
+      "gbifTaxonKey": 2867589,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Lemna",
+        "especie": "Lemna minor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/90957367/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/447954933/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/49914550/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "co2": "",
+    "crescimento": "Rápido",
+    "dificuldade": "Fácil",
+    "estrutura": "",
+    "familia": "Araceae",
+    "iluminacao": "Alta",
+    "imagem": "",
+    "nomeCientifico": "Pistia stratiotes",
+    "nomePopular": "Pistia (Alface d'Água)",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 7.5",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Superfície",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "22 a 30 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:03.816Z",
+      "gbifTaxonKey": 2870583,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Araceae",
+        "genero": "Pistia",
+        "especie": "Pistia stratiotes"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/105877369/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/81666273/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/224987948/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "co2": "",
+    "crescimento": "Moderado",
+    "dificuldade": "Moderada",
+    "estrutura": "",
+    "familia": "Nymphaeaceae",
+    "iluminacao": "Alta",
+    "imagem": "",
+    "nomeCientifico": "Nymphaea gardneriana",
+    "nomePopular": "Vitória-Régia (mini)",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 7.5",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Superfície",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "22 a 30 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:05.434Z",
+      "gbifTaxonKey": 3697254,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Nymphaea",
+        "especie": "Nymphaea gardneriana"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/473823837/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "co2": "",
+    "crescimento": "Moderado",
+    "dificuldade": "Moderada",
+    "estrutura": "",
+    "familia": "Linderniaceae",
+    "iluminacao": "0.8 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Micranthemum tweediei",
+    "nomePopular": "Monte Carlo",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 7.5",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Frente (carpete)",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "20 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:06.888Z",
+      "gbifTaxonKey": 7546316,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Lamiales",
+        "familia": "Linderniaceae",
+        "genero": "Micranthemum",
+        "especie": "Micranthemum tweedei"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "co2": "",
+    "crescimento": "Rápido",
+    "dificuldade": "Fácil",
+    "estrutura": "",
+    "familia": "Pteridaceae",
+    "iluminacao": "0.5 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Ceratopteris thalictroides",
+    "nomePopular": "Samambaia de Sumatra",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 8.0",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Meio/Flutuante",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "22 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:08.585Z",
+      "gbifTaxonKey": 2651586,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Polypodiopsida",
+        "ordem": "Polypodiales",
+        "familia": "Pteridaceae",
+        "genero": "Ceratopteris",
+        "especie": "Ceratopteris thalictroides"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/86304221/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452012765/medium.jpeg",
+        "https://static.inaturalist.org/photos/259829969/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "co2": "",
+    "crescimento": "Rápido",
+    "dificuldade": "Fácil",
+    "estrutura": "",
+    "familia": "Nymphaeaceae",
+    "iluminacao": "0.5 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Nymphaea lotus",
+    "nomePopular": "Lotus Tigre",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "5.5 a 7.5",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Meio",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "22 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:10.194Z",
+      "gbifTaxonKey": 2882429,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Magnoliopsida",
+        "ordem": "Nymphaeales",
+        "familia": "Nymphaeaceae",
+        "genero": "Nymphaea",
+        "especie": "Nymphaea lotus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/88877710/medium.jpg",
+        "https://static.inaturalist.org/photos/28706467/medium.jpeg",
+        "https://static.inaturalist.org/photos/170281673/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "co2": "",
+    "crescimento": "Moderado",
+    "dificuldade": "Fácil",
+    "estrutura": "",
+    "familia": "Alismataceae",
+    "iluminacao": "0.5 Watts/Litro",
+    "imagem": "",
+    "nomeCientifico": "Echinodorus barthii",
+    "nomePopular": "Planta Espada Rubin",
+    "origem": "",
+    "outrosNome": "",
+    "ph": "6.0 a 8.0",
+    "plantio": "",
+    "porte": "",
+    "posicao": "Meio/Fundo",
+    "reproducao": "",
+    "substratoFertil": "",
+    "suportaEmersao": "",
+    "tamanho": "",
+    "temperatura": "22 a 28 ºC",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:35:12.153Z",
+      "gbifTaxonKey": 5328866,
+      "taxonomia": {
+        "reino": "Plantae",
+        "filo": "Tracheophyta",
+        "classe": "Liliopsida",
+        "ordem": "Alismatales",
+        "familia": "Alismataceae",
+        "genero": "Echinodorus",
+        "especie": "Echinodorus barthii"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238165902/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/140489182/medium.jpg",
+        "https://static.inaturalist.org/photos/268569746/medium.jpg"
+      ]
+    }
   }
 ]
 
