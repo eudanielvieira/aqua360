@@ -71,7 +71,7 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-surface">
       <header className="bg-card sticky top-0 z-40 border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-4">
+        <div className="max-w-3xl mx-auto px-4 h-14 flex items-center gap-4">
           <Link to="/" className="flex items-center gap-2.5 font-bold text-text tracking-tight">
             <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
               <Waves size={16} className="text-primary" />
@@ -164,7 +164,7 @@ export default function Layout() {
       </main>
 
       <footer className="border-t border-border py-6 px-4 text-xs">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex flex-col items-center sm:items-start gap-1">
             <div className="flex items-center gap-2">
               <Waves size={12} className="text-primary" />
