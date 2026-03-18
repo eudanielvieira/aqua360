@@ -6,6 +6,7 @@ import { useSearch } from '../hooks/useSearch'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
+import QuickFilters, { fishFilters, invertFreshFilters, invertSaltFilters } from '../components/QuickFilters'
 
 const PAGE_SIZE = 30
 
@@ -14,6 +15,7 @@ export default function FishCategoryPage() {
   const [allFish, setAllFish] = useState<Fish[]>([])
   const [loading, setLoading] = useState(true)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  const [quickFilter, setQuickFilter] = useState<((item: any) => boolean) | null>(null)
 
   const category = fishCategories.find(c => c.slug === slug)
 
@@ -27,7 +29,8 @@ export default function FishCategoryPage() {
     })
   }, [slug])
 
-  const { query, setQuery, filtered } = useSearch(allFish, ['nomePopular', 'nomeCientifico', 'familia'])
+  const { query, setQuery, filtered: searchFiltered } = useSearch(allFish, ['nomePopular', 'nomeCientifico', 'familia'])
+  const filtered = quickFilter ? searchFiltered.filter(quickFilter) : searchFiltered
   const visible = filtered.slice(0, visibleCount)
   const hasMore = visibleCount < filtered.length
 
@@ -53,13 +56,18 @@ export default function FishCategoryPage() {
         backTo="/peixes"
       />
 
-      <div className="mb-6">
+      <div className="mb-4">
         <SearchBar
           value={query}
           onChange={setQuery}
           placeholder="Buscar por nome popular, científico ou família..."
         />
       </div>
+
+      <QuickFilters
+        filters={slug?.includes('invertebrados-agua-salgada') ? invertSaltFilters : slug?.includes('invertebrados') ? invertFreshFilters : fishFilters}
+        onFilter={fn => { setQuickFilter(() => fn); setVisibleCount(PAGE_SIZE) }}
+      />
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
         {visible.map(fish => (

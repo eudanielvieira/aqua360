@@ -4,6 +4,7 @@ import { useSearch } from '../hooks/useSearch'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
+import QuickFilters, { plantFilters } from '../components/QuickFilters'
 
 const PAGE_SIZE = 30
 
@@ -11,6 +12,7 @@ export default function PlantListPage() {
   const [allPlants, setAllPlants] = useState<Plant[]>([])
   const [loading, setLoading] = useState(true)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  const [quickFilter, setQuickFilter] = useState<((item: any) => boolean) | null>(null)
 
   useEffect(() => {
     import('../data/plants').then(mod => {
@@ -19,7 +21,8 @@ export default function PlantListPage() {
     })
   }, [])
 
-  const { query, setQuery, filtered } = useSearch(allPlants, ['nomePopular', 'nomeCientifico', 'familia'])
+  const { query, setQuery, filtered: searchFiltered } = useSearch(allPlants, ['nomePopular', 'nomeCientifico', 'familia'])
+  const filtered = quickFilter ? searchFiltered.filter(quickFilter) : searchFiltered
   const visible = filtered.slice(0, visibleCount)
   const hasMore = visibleCount < filtered.length
 
@@ -41,13 +44,18 @@ export default function PlantListPage() {
     <div className="max-w-3xl mx-auto px-4 py-6">
       <PageHeader title="Plantas" subtitle={`${filtered.length} espécies encontradas`} />
 
-      <div className="mb-6">
+      <div className="mb-4">
         <SearchBar
           value={query}
           onChange={setQuery}
           placeholder="Buscar por nome popular, científico ou família..."
         />
       </div>
+
+      <QuickFilters
+        filters={plantFilters}
+        onFilter={fn => { setQuickFilter(() => fn); setVisibleCount(PAGE_SIZE) }}
+      />
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
         {visible.map(plant => (
