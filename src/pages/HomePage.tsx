@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves, Sun, Moon, Download, Smartphone } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
+import { useState } from 'react'
 
 const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
@@ -64,9 +65,54 @@ const stats = [
 export default function HomePage() {
   const { dark, toggle } = useDarkMode()
   const { canInstall, isInstalled, install } = useInstallPWA()
+  const [dismissed, setDismissed] = useState(false)
+  const showBanner = canInstall && !dismissed
 
   return (
     <div className="min-h-screen bg-surface">
+      {showBanner && (
+        <div className="bg-primary">
+          <div className="max-w-3xl mx-auto px-4 py-4 flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-white/15 flex items-center justify-center flex-shrink-0">
+              <Smartphone size={24} className="text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-bold text-white">Baixe o app Aqua360</p>
+              <p className="text-xs text-white/70 mt-0.5">Grátis -- acesse offline direto do seu celular</p>
+            </div>
+            <button
+              onClick={install}
+              className="flex items-center gap-2 px-5 py-2.5 bg-white text-primary rounded-xl text-sm font-bold hover:bg-white/90 transition-colors flex-shrink-0"
+            >
+              <Download size={16} />
+              Instalar
+            </button>
+            <button
+              onClick={() => setDismissed(true)}
+              className="p-1.5 rounded-lg text-white/50 hover:text-white hover:bg-white/10 transition-colors flex-shrink-0"
+              aria-label="Fechar"
+            >
+              <X size={16} />
+            </button>
+          </div>
+        </div>
+      )}
+
+      {isInstalled && !dismissed && (
+        <div className="bg-success/10 border-b border-success/20">
+          <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
+            <Smartphone size={16} className="text-success flex-shrink-0" />
+            <p className="text-sm text-success font-medium flex-1">App instalado com sucesso</p>
+            <button
+              onClick={() => setDismissed(true)}
+              className="p-1 rounded text-success/50 hover:text-success transition-colors"
+            >
+              <X size={14} />
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="max-w-3xl mx-auto px-4 pt-10 sm:pt-16 pb-16">
         <div className="flex items-start justify-between mb-8">
           <div>
@@ -82,49 +128,14 @@ export default function HomePage() {
               O seu guia completo de aquarismo com dados científicos atualizados.
             </p>
           </div>
-          <div className="flex items-center gap-2 mt-1">
-            {canInstall && (
-              <button
-                onClick={install}
-                className="p-2.5 rounded-xl bg-primary text-white hover:bg-primary-light transition-colors"
-                aria-label="Instalar aplicativo"
-                title="Instalar aplicativo"
-              >
-                <Download size={18} />
-              </button>
-            )}
-            <button
-              onClick={toggle}
-              className="p-2.5 rounded-xl bg-card shadow-sm shadow-black/5 text-text-secondary hover:text-text transition-colors"
-              aria-label={dark ? 'Modo claro' : 'Modo escuro'}
-            >
-              {dark ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
-          </div>
-        </div>
-
-        {canInstall && (
           <button
-            onClick={install}
-            className="w-full flex items-center gap-4 p-4 mb-6 bg-primary/5 rounded-2xl border border-primary/20 hover:bg-primary/10 transition-colors"
+            onClick={toggle}
+            className="p-2.5 rounded-xl bg-card shadow-sm shadow-black/5 text-text-secondary hover:text-text transition-colors mt-1"
+            aria-label={dark ? 'Modo claro' : 'Modo escuro'}
           >
-            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-              <Smartphone size={20} className="text-primary" />
-            </div>
-            <div className="flex-1 text-left">
-              <p className="text-sm font-semibold text-text">Instalar Aqua360</p>
-              <p className="text-xs text-text-secondary">Acesse offline direto da tela inicial do seu celular</p>
-            </div>
-            <Download size={16} className="text-primary flex-shrink-0" />
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-        )}
-
-        {isInstalled && (
-          <div className="w-full flex items-center gap-3 p-3 mb-6 bg-success/5 rounded-xl border border-success/20">
-            <Smartphone size={16} className="text-success flex-shrink-0" />
-            <p className="text-xs text-success font-medium">Aplicativo instalado com sucesso</p>
-          </div>
-        )}
+        </div>
 
         <div className="grid grid-cols-4 gap-3 mb-10">
           {stats.map(stat => (
@@ -156,6 +167,16 @@ export default function HomePage() {
             )
           })}
         </div>
+
+        {canInstall && dismissed && (
+          <button
+            onClick={install}
+            className="w-full mt-8 flex items-center justify-center gap-2 p-3 rounded-xl text-sm font-semibold text-primary bg-primary/5 hover:bg-primary/10 transition-colors"
+          >
+            <Download size={16} />
+            Instalar o app Aqua360
+          </button>
+        )}
 
         <p className="text-center text-[11px] text-text-secondary/50 mt-12">
           Dados enriquecidos via GBIF, WoRMS e iNaturalist
