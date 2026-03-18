@@ -51,7 +51,7 @@ export default function FishDetailPage() {
       <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
-        <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
+        <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
           <img
             src={getPrimaryImage(fish.imagem, enrichment?.inatPhotoUrls)}
             alt={fish.nomePopular}

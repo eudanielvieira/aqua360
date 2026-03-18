@@ -62,7 +62,7 @@ export default function CoralDetailPage() {
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         {enrichment?.inatPhotoUrls?.[0] ? (
-          <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
+          <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
             <img
               src={getPrimaryImage('', enrichment.inatPhotoUrls)}
               alt={coral.nomePopular}
