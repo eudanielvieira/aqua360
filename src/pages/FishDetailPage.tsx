@@ -128,7 +128,7 @@ export default function FishDetailPage() {
             <div className="mt-8 pt-6 border-t border-border/60">
               <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Distribuição Geográfica</h3>
               <Suspense fallback={<div className="w-full h-64 rounded-2xl bg-surface-alt animate-pulse" />}>
-                <DistributionMap taxonKey={enrichment.gbifTaxonKey} />
+                <DistributionMap taxonKey={enrichment.gbifTaxonKey} speciesName={fish.nomePopular} />
               </Suspense>
             </div>
           )}
