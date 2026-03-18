@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-4">
           <Fish size={32} />
         </div>
-        <h1 className="text-3xl font-bold text-text">Apeixonado</h1>
+        <h1 className="text-3xl font-bold text-text">Aqua360</h1>
         <p className="text-text-secondary mt-2">O seu guia completo de aquarismo</p>
       </div>
 

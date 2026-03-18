@@ -36,7 +36,7 @@ export default function Layout() {
           </button>
           <Link to="/" className="flex items-center gap-2 font-bold text-lg tracking-tight">
             <Fish size={24} />
-            Apeixonado
+            Aqua360
           </Link>
           <nav className="hidden lg:flex items-center gap-1 ml-8">
             {navItems.map(item => {
@@ -75,7 +75,7 @@ export default function Layout() {
         <div className="flex items-center justify-between px-4 h-14 border-b border-gray-100">
           <span className="font-bold text-primary flex items-center gap-2">
             <Fish size={20} />
-            Apeixonado
+            Aqua360
           </span>
           <button
             onClick={() => setSidebarOpen(false)}
@@ -114,7 +114,7 @@ export default function Layout() {
       </main>
 
       <footer className="bg-primary-dark text-white/70 text-center py-4 text-xs">
-        Apeixonado - O seu guia de aquarismo
+        Aqua360 - O seu guia de aquarismo
       </footer>
     </div>
   )
