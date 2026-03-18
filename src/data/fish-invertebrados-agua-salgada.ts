@@ -305,7 +305,12 @@ const data: Fish[] = [
         "familia": "Lysmatidae",
         "genero": "Lysmata",
         "especie": "Lysmata amboinensis"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/456099547/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2403612/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/1649997/medium.jpg"
+      ]
     }
   },
   {
@@ -918,7 +923,15 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESINVERTEBRADOSMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:53:26.242Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238716139/medium.jpeg",
+        "https://static.inaturalist.org/photos/224925070/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/201490677/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 601,
@@ -1122,7 +1135,12 @@ const data: Fish[] = [
         "familia": "Turbinidae",
         "genero": "Turbo",
         "especie": "Turbo fluctuosus"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/391051302/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/21697255/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24051233/medium.jpg"
+      ]
     }
   },
   {

@@ -124,7 +124,12 @@ const data: Plant[] = [
         "especie": "Acorus gramineus"
       },
       "gbifOccurrenceCount": 31,
-      "enrichedAt": "2026-03-18T12:55:05.183Z"
+      "enrichedAt": "2026-03-18T12:55:05.183Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/546261541/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250796576/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/52334427/medium.jpg"
+      ]
     }
   },
   {
@@ -149,7 +154,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 40",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:51:35.194Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/3964940/medium.JPG",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/274036473/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/234101693/medium.jpg"
+      ]
+    }
   },
   {
     "id": 5,
@@ -261,7 +274,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "25 a 40 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:51:37.404Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/108562650/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293228419/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55324640/medium.jpg"
+      ]
+    }
   },
   {
     "id": 8,
@@ -285,7 +306,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:51:39.174Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/108562650/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293228419/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55324640/medium.jpg"
+      ]
+    }
   },
   {
     "id": 9,
@@ -309,7 +338,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 25 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:51:40.961Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/108562650/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293228419/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/55324640/medium.jpg"
+      ]
+    }
   },
   {
     "id": 10,
@@ -346,7 +383,12 @@ const data: Plant[] = [
         "especie": "Anubias afzelii"
       },
       "gbifOccurrenceCount": 27,
-      "enrichedAt": "2026-03-18T12:55:32.178Z"
+      "enrichedAt": "2026-03-18T12:55:32.178Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -384,7 +426,12 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "gbifOccurrenceCount": 6,
-      "enrichedAt": "2026-03-18T12:55:36.580Z"
+      "enrichedAt": "2026-03-18T12:55:36.580Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -422,7 +469,12 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "gbifOccurrenceCount": 25,
-      "enrichedAt": "2026-03-18T12:55:40.045Z"
+      "enrichedAt": "2026-03-18T12:55:40.045Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -460,7 +512,12 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "gbifOccurrenceCount": 23,
-      "enrichedAt": "2026-03-18T12:55:45.183Z"
+      "enrichedAt": "2026-03-18T12:55:45.183Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -485,7 +542,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "15 a 25 cm",
     "temperatura": "20 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:51:48.817Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
+    }
   },
   {
     "id": 15,
@@ -522,7 +587,12 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "gbifOccurrenceCount": 141,
-      "enrichedAt": "2026-03-18T12:55:51.275Z"
+      "enrichedAt": "2026-03-18T12:55:51.275Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -560,7 +630,12 @@ const data: Plant[] = [
         "especie": "Anubias barteri"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:55:55.926Z"
+      "enrichedAt": "2026-03-18T12:55:55.926Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -598,7 +673,12 @@ const data: Plant[] = [
         "especie": "Anubias hastifolia"
       },
       "gbifOccurrenceCount": 123,
-      "enrichedAt": "2026-03-18T12:56:03.975Z"
+      "enrichedAt": "2026-03-18T12:56:03.975Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -636,7 +716,12 @@ const data: Plant[] = [
         "especie": "Aponogeton boivinianus"
       },
       "gbifOccurrenceCount": 43,
-      "enrichedAt": "2026-03-18T12:56:11.650Z"
+      "enrichedAt": "2026-03-18T12:56:11.650Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/411159/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/217563209/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/110003096/medium.jpeg"
+      ]
     }
   },
   {
@@ -804,7 +889,12 @@ const data: Plant[] = [
         "especie": "Bacopa australis"
       },
       "gbifOccurrenceCount": 85,
-      "enrichedAt": "2026-03-18T12:56:29.661Z"
+      "enrichedAt": "2026-03-18T12:56:29.661Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168316376/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/592597313/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221596138/medium.jpeg"
+      ]
     }
   },
   {
@@ -873,7 +963,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:00.133Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168316376/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/592597313/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221596138/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 25,
@@ -955,7 +1053,12 @@ const data: Plant[] = [
         "especie": "Bacopa myriophylloides"
       },
       "gbifOccurrenceCount": 151,
-      "enrichedAt": "2026-03-18T12:56:47.051Z"
+      "enrichedAt": "2026-03-18T12:56:47.051Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/168316376/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/592597313/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221596138/medium.jpeg"
+      ]
     }
   },
   {
@@ -1379,7 +1482,15 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "até 30 cm",
     "temperatura": "5 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:03.271Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/364919352/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/427549855/medium.jpg",
+        "https://static.inaturalist.org/photos/83121738/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 37,
@@ -1416,7 +1527,12 @@ const data: Plant[] = [
         "especie": "Crinum calamistratum"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:57:45.907Z"
+      "enrichedAt": "2026-03-18T12:57:45.907Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/62511409/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/232752512/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54212454/medium.jpg"
+      ]
     }
   },
   {
@@ -1497,7 +1613,12 @@ const data: Plant[] = [
         "genero": "Cryptocoryne",
         "especie": "Cryptocoryne alba"
       },
-      "enrichedAt": "2026-03-18T12:58:01.995Z"
+      "enrichedAt": "2026-03-18T12:58:01.995Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1535,7 +1656,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne albida"
       },
       "gbifOccurrenceCount": 14,
-      "enrichedAt": "2026-03-18T12:58:07.652Z"
+      "enrichedAt": "2026-03-18T12:58:07.652Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1573,7 +1699,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne aponogetifolia"
       },
       "gbifOccurrenceCount": 5,
-      "enrichedAt": "2026-03-18T12:58:11.671Z"
+      "enrichedAt": "2026-03-18T12:58:11.671Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1611,7 +1742,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne auriculata"
       },
       "gbifOccurrenceCount": 4,
-      "enrichedAt": "2026-03-18T12:58:15.141Z"
+      "enrichedAt": "2026-03-18T12:58:15.141Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1691,7 +1827,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne cordata"
       },
       "gbifOccurrenceCount": 4,
-      "enrichedAt": "2026-03-18T12:58:22.380Z"
+      "enrichedAt": "2026-03-18T12:58:22.380Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1773,7 +1914,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne cordata"
       },
       "gbifOccurrenceCount": 13,
-      "enrichedAt": "2026-03-18T12:58:30.263Z"
+      "enrichedAt": "2026-03-18T12:58:30.263Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1811,7 +1957,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne crispatula"
       },
       "gbifOccurrenceCount": 7,
-      "enrichedAt": "2026-03-18T12:58:33.957Z"
+      "enrichedAt": "2026-03-18T12:58:33.957Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -1849,7 +2000,12 @@ const data: Plant[] = [
         "especie": "Cryptocoryne parva"
       },
       "gbifOccurrenceCount": 1,
-      "enrichedAt": "2026-03-18T12:58:37.834Z"
+      "enrichedAt": "2026-03-18T12:58:37.834Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -2144,7 +2300,12 @@ const data: Plant[] = [
         "genero": "Cryptocoryne",
         "especie": "Cryptocoryne zukalii"
       },
-      "enrichedAt": "2026-03-18T12:59:04.631Z"
+      "enrichedAt": "2026-03-18T12:59:04.631Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156029175/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113359986/medium.jpeg",
+        "https://static.inaturalist.org/photos/61992708/medium.jpg"
+      ]
     }
   },
   {
@@ -2183,7 +2344,12 @@ const data: Plant[] = [
         "especie": "Cyperus helferi"
       },
       "gbifOccurrenceCount": 5,
-      "enrichedAt": "2026-03-18T12:59:10.172Z"
+      "enrichedAt": "2026-03-18T12:59:10.172Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/80795235/medium.jpeg",
+        "https://static.inaturalist.org/photos/151282380/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/246879482/medium.jpg"
+      ]
     }
   },
   {
@@ -2252,7 +2418,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 45 cm",
     "temperatura": "15 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:28.252Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154847402/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg"
+      ]
+    }
   },
   {
     "id": 59,
@@ -2276,7 +2450,15 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 45 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:30.427Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154847402/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg"
+      ]
+    }
   },
   {
     "id": 60,
@@ -2357,7 +2539,12 @@ const data: Plant[] = [
         "especie": "Aquarius grisebachii"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:59:27.690Z"
+      "enrichedAt": "2026-03-18T12:59:27.690Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154847402/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg"
+      ]
     }
   },
   {
@@ -2439,7 +2626,12 @@ const data: Plant[] = [
         "especie": "Aquarius subulatus"
       },
       "gbifOccurrenceCount": 6,
-      "enrichedAt": "2026-03-18T12:59:34.776Z"
+      "enrichedAt": "2026-03-18T12:59:34.776Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154847402/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg"
+      ]
     }
   },
   {
@@ -2831,7 +3023,12 @@ const data: Plant[] = [
         "especie": "Micranthemum callitrichoides"
       },
       "gbifOccurrenceCount": 8,
-      "enrichedAt": "2026-03-18T13:00:09.197Z"
+      "enrichedAt": "2026-03-18T13:00:09.197Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/352671722/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2575565/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/369009054/medium.jpg"
+      ]
     }
   },
   {
@@ -2869,7 +3066,12 @@ const data: Plant[] = [
         "especie": "Micranthemum micranthemoides"
       },
       "gbifOccurrenceCount": 5,
-      "enrichedAt": "2026-03-18T13:00:12.758Z"
+      "enrichedAt": "2026-03-18T13:00:12.758Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/352671722/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2575565/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/369009054/medium.jpg"
+      ]
     }
   },
   {
@@ -2995,7 +3197,12 @@ const data: Plant[] = [
         "especie": "Hygrophila costata"
       },
       "gbifOccurrenceCount": 61,
-      "enrichedAt": "2026-03-18T13:00:23.701Z"
+      "enrichedAt": "2026-03-18T13:00:23.701Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/234668291/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/16011546/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66467755/medium.jpg"
+      ]
     }
   },
   {
@@ -3033,7 +3240,12 @@ const data: Plant[] = [
         "especie": "Hygrophila corymbosa"
       },
       "gbifOccurrenceCount": 76,
-      "enrichedAt": "2026-03-18T13:00:27.205Z"
+      "enrichedAt": "2026-03-18T13:00:27.205Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/234668291/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/16011546/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66467755/medium.jpg"
+      ]
     }
   },
   {
@@ -3102,7 +3314,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "20 a 40 cm",
     "temperatura": "18 a 30 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:44.956Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/234668291/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/16011546/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66467755/medium.jpg"
+      ]
+    }
   },
   {
     "id": 80,
@@ -3183,7 +3403,12 @@ const data: Plant[] = [
         "especie": ""
       },
       "gbifOccurrenceCount": 9411,
-      "enrichedAt": "2026-03-18T13:00:41.402Z"
+      "enrichedAt": "2026-03-18T13:00:41.402Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/234668291/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/16011546/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/66467755/medium.jpg"
+      ]
     }
   },
   {
@@ -3340,7 +3565,15 @@ const data: Plant[] = [
     "suportaEmersao": "Sim",
     "tamanho": "10 a 30 cm",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:48.980Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/103474317/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/35355372/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2371589/medium.JPG"
+      ]
+    }
   },
   {
     "id": 86,
@@ -3554,7 +3787,12 @@ const data: Plant[] = [
         "especie": "Nymphaea lotus"
       },
       "gbifOccurrenceCount": 1,
-      "enrichedAt": "2026-03-18T13:01:14.037Z"
+      "enrichedAt": "2026-03-18T13:01:14.037Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164570910/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/353013731/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/79390372/medium.jpg"
+      ]
     }
   },
   {
@@ -3579,7 +3817,15 @@ const data: Plant[] = [
     "suportaEmersao": "Não",
     "tamanho": "20 a 35 cm",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:52:52.332Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164570910/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/353013731/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/79390372/medium.jpg"
+      ]
+    }
   },
   {
     "id": 92,
@@ -3661,7 +3907,12 @@ const data: Plant[] = [
         "especie": "Nymphaea lotus"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T13:01:24.407Z"
+      "enrichedAt": "2026-03-18T13:01:24.407Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/164570910/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/353013731/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/79390372/medium.jpg"
+      ]
     }
   },
   {
@@ -4051,7 +4302,12 @@ const data: Plant[] = [
         "especie": ""
       },
       "gbifOccurrenceCount": 9657,
-      "enrichedAt": "2026-03-18T13:02:00.071Z"
+      "enrichedAt": "2026-03-18T13:02:00.071Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/29380639/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/340028984/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/223865158/medium.jpg"
+      ]
     }
   },
   {
@@ -4089,7 +4345,12 @@ const data: Plant[] = [
         "especie": ""
       },
       "gbifOccurrenceCount": 9657,
-      "enrichedAt": "2026-03-18T13:02:03.844Z"
+      "enrichedAt": "2026-03-18T13:02:03.844Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/29380639/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/340028984/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/223865158/medium.jpg"
+      ]
     }
   },
   {
@@ -4435,7 +4696,12 @@ const data: Plant[] = [
         "especie": "Ectropothecium barbieri"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T13:02:34.328Z"
+      "enrichedAt": "2026-03-18T13:02:34.328Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/242434353/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/141202308/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53984969/medium.jpg"
+      ]
     }
   },
   {
@@ -5797,7 +6063,12 @@ const data: Plant[] = [
         "familia": "Haloragaceae",
         "genero": "Myriophyllum",
         "especie": "Myriophyllum aquaticum"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/227196307/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/102759457/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/113370627/medium.jpeg"
+      ]
     }
   },
   {
