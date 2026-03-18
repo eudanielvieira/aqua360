@@ -3376,7 +3376,7 @@ const data: Fish[] = [
     "imagem": "labidochromiscaeruleus",
     "kh": "6 a 8",
     "nomeCientifico": "Labidochromis caeruleus",
-    "nomePopular": "Labidochromis White",
+    "nomePopular": "Labidochromis Yellow",
     "origem": "África - Lago Malawi (Mbuna)",
     "outrasInformacoes": "",
     "outrosNome": "",
@@ -3408,44 +3408,6 @@ const data: Fish[] = [
       "inatObservationCount": 5,
       "gbifOccurrenceCount": 12,
       "enrichedAt": "2026-03-18T12:19:52.089Z"
-    }
-  },
-  {
-    "id": 83,
-    "alimentacao": "É herbívoro, proteínas animais devem ser evitas, apesar dessa espécie ser pouco suscetível ao Bloat.",
-    "caracteristica": "Apresenta em todo o corpo, uma bonita cor amarela bastante brilhante. Barbatanas amarelas debruadas de preto.",
-    "comportamento": "Difere totalmente dos demais Mbuna’s no que se refere a agressividade. É um peixe calmo e bastante pacífico. Quando em cardume, pode ate haver alguma demonstração de briga entre machos, mas não passara disso; uma demonstração. Por esse motivo deve-se tomar cuidado ao colocá-lo junto a espécies muito agressivas.",
-    "diformismoSexual": "Os machos alem de bem maiores apresentam a faixa preta da barbatana dorsal bem larga e definida, enquanto nas fêmeas ela é só um debruado (contorno) mesmo. Os chamados “egg spots” podem aparecer em alguns machos, mas não é sempre.",
-    "familia": "Cichlidae",
-    "gh": "4 a 6",
-    "imagem": "labidochromiscaeruleusyellow",
-    "kh": "6 a 8",
-    "nomeCientifico": "Labidochromis caeruleus (yellow)",
-    "nomePopular": "Eletric Yellow",
-    "origem": "África - Lago Malawi (Mbuna)",
-    "outrasInformacoes": "",
-    "outrosNome": "Eletric Yellow",
-    "ph": ".5 a 8.5",
-    "posicaoAquario": "Fundo do Aquário",
-    "reproducao": "Incubador bocal maternal. Duração de aproximadamente 21 dias.",
-    "tamanhoAdulto": "14 cm",
-    "temperatura": "22 a 28 ºC",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "gbifTaxonKey": 2371661,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Chordata",
-        "classe": "",
-        "ordem": "Perciformes",
-        "familia": "Cichlidae",
-        "genero": "Labidochromis",
-        "especie": "Labidochromis caeruleus"
-      },
-      "gbifOccurrenceCount": 12,
-      "enrichedAt": "2026-03-18T12:19:55.860Z"
     }
   },
   {
@@ -6595,7 +6557,7 @@ const data: Fish[] = [
     "nomePopular": "Colisa Lalia",
     "origem": "Índia",
     "outrasInformacoes": "Se adaptam bem em aquários iniciando em 40 litros (se comunitários) porém para reprodução devem ser utilizados aquários menores com uma coluna de água de 15 a 20cm.",
-    "outrosNome": "Dwarf Gourami",
+    "outrosNome": "Colisa Cobalto, Colisa Lalia",
     "ph": "6.5 a 7.2",
     "posicaoAquario": "Todo o Aquário",
     "reproducao": "Assim como o seu parente mais famoso, o Betta splends, o macho constrói um ninho de bolhas e atrai a fêmea, a abraça para expelir os ovos que ele fecunda neste momento, depois gentilmente o macho os recolhe com a boca e os coloca no ninho, após a cópula a fêmea deve ser removida pois apenas o macho cuidará da ninhada, os ovos eclodirão em 1 ou 2 dias, os alevinos ficarão presos ao ninho (eventualmente caindo e sendo recolocados pelo pai) durante 2 ou até 3 dias quando começarão a nadar livremente pelo aquário (neste momento é recomendável a remoção do pai que pode tentar come-los), quando podem ser alimentados com infusórios e depois com nauplios de artêmia.",
@@ -6625,30 +6587,6 @@ const data: Fish[] = [
       "gbifOccurrenceCount": 76,
       "enrichedAt": "2026-03-18T12:25:17.819Z"
     }
-  },
-  {
-    "id": 162,
-    "alimentacao": "Carnívora. Em aquário, aceita bem comida viva, granulados ou flocos.",
-    "caracteristica": "São resistentes a águas pobres em oxigênio pois consegue retirar o oxigênio diretamente da atmosfera, porém quando mantida em parâmetros de água inadequados podem adoecer, preferem águas levemente ácidas. Se adaptam bem em aquários iniciando em 40 litros (se comunitários) porém para reprodução devem ser utilizados aquários menores com uma coluna de água de 15 a 20cm.",
-    "comportamento": "Peixes pacíficos, porém os machos podem ter comportamentos agressivos com outros machos quando em aquários pequenos, sendo o ideal manter um macho para várias fêmeas.",
-    "diformismoSexual": "O macho é mais colorido, bem azulado, e possui a nadadeira anal pontiguda, a fêmea possui uma coloração menos pronunciada e linhas escuras verticais.",
-    "familia": "Osphroneminae",
-    "gh": "",
-    "imagem": "trichogasterlaliusvarcobalto",
-    "kh": "",
-    "nomeCientifico": "Trichogaster lalius var.",
-    "nomePopular": "Colisa Cobalto",
-    "origem": "India e sudoeste asiático (variação da Colisa lalia)",
-    "outrasInformacoes": "A Colisa cobalto é o resultado de cruzamentos de Colisas Lalia na busca da coloração azulada, portanto por ser uma mutação criada em cativeiro não é possível encontra-la na natureza, porém seu comportamente é exatamente igual a da Colisa Lalia comum. É também importante ressaltar que caso se mantenham juntas as Colisas comuns (Colisa lalia) com as Colisas Cobalto (Colisas lalia var.) elas podem e irão cruzar.",
-    "outrosNome": "Powder Blue",
-    "ph": "6.5 a 7.2",
-    "posicaoAquario": "Meio do Aquário",
-    "reproducao": "Macho e fêmea devem ser separados em um aquário, com muitas plantas flutuantes, o macho constrói um ninho de bolhas e atrai a fêmea para debaixo dele e a abraça para expelir os ovos que são fecundados por ele neste momento, depois gentilmente o macho os recolhe com a boca e os coloca no ninho, após a cópula a fêmea deve ser removida pois apenas o macho cuidará da ninhada, os ovos eclodirão em 1 ou 2 dias, os alevinos ficarão presos ao ninho (eventualmente caindo e sendo recolocados pelo pai) durante 2 ou até 3 dias quando começarão a nadar livremente pelo aquário (neste momento é recomendável a remoção do pai que pode tentar come-los), quando podem ser alimentados com infusórios e depois com nauplios de artêmia.",
-    "tamanhoAdulto": "6 cm",
-    "temperatura": "22 a 28 ºC",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": ""
   },
   {
     "id": 163,

@@ -43,7 +43,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 750,
       "gbifOccurrenceCount": 1873,
-      "enrichedAt": "2026-03-18T12:26:12.737Z"
+      "enrichedAt": "2026-03-18T12:26:12.737Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Abudefduf_abdominalis_by_NPS.jpg/800px-Abudefduf_abdominalis_by_NPS.jpg"
     }
   },
   {
@@ -88,7 +89,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 32,
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:26:16.686Z"
+      "enrichedAt": "2026-03-18T12:26:16.686Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corl0079_%2827327767923%29.jpg/800px-Corl0079_%2827327767923%29.jpg"
     }
   },
   {
@@ -133,7 +135,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 32,
       "gbifOccurrenceCount": 35,
-      "enrichedAt": "2026-03-18T12:26:23.026Z"
+      "enrichedAt": "2026-03-18T12:26:23.026Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corl0079_%2827327767923%29.jpg/800px-Corl0079_%2827327767923%29.jpg"
     }
   },
   {
@@ -178,7 +181,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 32,
       "gbifOccurrenceCount": 27,
-      "enrichedAt": "2026-03-18T12:26:27.819Z"
+      "enrichedAt": "2026-03-18T12:26:27.819Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corl0079_%2827327767923%29.jpg/800px-Corl0079_%2827327767923%29.jpg"
     }
   },
   {
@@ -222,7 +226,8 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/15455781/medium.png"
       ],
       "inatObservationCount": 32,
-      "enrichedAt": "2026-03-18T12:26:31.459Z"
+      "enrichedAt": "2026-03-18T12:26:31.459Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corl0079_%2827327767923%29.jpg/800px-Corl0079_%2827327767923%29.jpg"
     }
   },
   {
@@ -267,7 +272,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 9595,
       "gbifOccurrenceCount": 63393,
-      "enrichedAt": "2026-03-18T12:26:35.485Z"
+      "enrichedAt": "2026-03-18T12:26:35.485Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/SergeantMajor_Icon.jpg/800px-SergeantMajor_Icon.jpg"
     }
   },
   {
@@ -312,7 +318,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1049,
       "gbifOccurrenceCount": 1490,
-      "enrichedAt": "2026-03-18T12:26:39.999Z"
+      "enrichedAt": "2026-03-18T12:26:39.999Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Abudefduf_septemfasciatus.jpg/800px-Abudefduf_septemfasciatus.jpg"
     }
   },
   {
@@ -357,7 +364,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3416,
       "gbifOccurrenceCount": 4994,
-      "enrichedAt": "2026-03-18T12:26:43.638Z"
+      "enrichedAt": "2026-03-18T12:26:43.638Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Blackspot_sargeant_%28Abudefduf_sordidus%29_and_Pacific_sailfin_tang_%28Zebrasoma_velifer%29_Moorea.jpg/800px-Blackspot_sargeant_%28Abudefduf_sordidus%29_and_Pacific_sailfin_tang_%28Zebrasoma_velifer%29_Moorea.jpg"
     }
   },
   {
@@ -402,7 +410,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 6433,
       "gbifOccurrenceCount": 10390,
-      "enrichedAt": "2026-03-18T12:26:47.206Z"
+      "enrichedAt": "2026-03-18T12:26:47.206Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Abudefduf_vaigiensis_1.jpg/800px-Abudefduf_vaigiensis_1.jpg"
     }
   },
   {
@@ -447,7 +456,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1963,
       "gbifOccurrenceCount": 24528,
-      "enrichedAt": "2026-03-18T12:26:50.999Z"
+      "enrichedAt": "2026-03-18T12:26:50.999Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Juvie_Acanthostracion_quadricornis.jpg/800px-Juvie_Acanthostracion_quadricornis.jpg"
     }
   },
   {
@@ -472,7 +482,11 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:07.962Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
+    }
   },
   {
     "id": 188,
@@ -516,7 +530,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 70,
       "gbifOccurrenceCount": 90650,
-      "enrichedAt": "2026-03-18T12:26:59.611Z"
+      "enrichedAt": "2026-03-18T12:26:59.611Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
     }
   },
   {
@@ -555,7 +570,8 @@ const data: Fish[] = [
         "especie": "Acanthurus mata"
       },
       "gbifOccurrenceCount": 20,
-      "enrichedAt": "2026-03-18T12:27:03.297Z"
+      "enrichedAt": "2026-03-18T12:27:03.297Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
     }
   },
   {
@@ -600,7 +616,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1589,
       "gbifOccurrenceCount": 64230,
-      "enrichedAt": "2026-03-18T12:27:06.962Z"
+      "enrichedAt": "2026-03-18T12:27:06.962Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Doctorfish%2C_Acanthurus_chirurgus.jpg/800px-Doctorfish%2C_Acanthurus_chirurgus.jpg"
     }
   },
   {
@@ -645,7 +662,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 7530,
       "gbifOccurrenceCount": 93112,
-      "enrichedAt": "2026-03-18T12:27:10.868Z"
+      "enrichedAt": "2026-03-18T12:27:10.868Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Acanthurus_coeruleus_-_Sanc1516.jpg/800px-Acanthurus_coeruleus_-_Sanc1516.jpg"
     }
   },
   {
@@ -690,7 +708,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1282,
       "gbifOccurrenceCount": 6247,
-      "enrichedAt": "2026-03-18T12:27:15.678Z"
+      "enrichedAt": "2026-03-18T12:27:15.678Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/A._dussumieri_2.jpg/800px-A._dussumieri_2.jpg"
     }
   },
   {
@@ -735,7 +754,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1625,
       "gbifOccurrenceCount": 79,
-      "enrichedAt": "2026-03-18T12:27:19.647Z"
+      "enrichedAt": "2026-03-18T12:27:19.647Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
     }
   },
   {
@@ -773,7 +793,8 @@ const data: Fish[] = [
         "genero": "Acanthurus",
         "especie": "Acanthurus leucosternon"
       },
-      "enrichedAt": "2026-03-18T12:27:23.561Z"
+      "enrichedAt": "2026-03-18T12:27:23.561Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
     }
   },
   {
@@ -818,7 +839,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3178,
       "gbifOccurrenceCount": 12591,
-      "enrichedAt": "2026-03-18T12:27:27.090Z"
+      "enrichedAt": "2026-03-18T12:27:27.090Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Acanthurus_lineatus_Reunion.jpg/800px-Acanthurus_lineatus_Reunion.jpg"
     }
   },
   {
@@ -863,7 +885,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1657,
       "gbifOccurrenceCount": 24393,
-      "enrichedAt": "2026-03-18T12:27:30.696Z"
+      "enrichedAt": "2026-03-18T12:27:30.696Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Acanthurus_nigricans_SI.jpg/800px-Acanthurus_nigricans_SI.jpg"
     }
   },
   {
@@ -908,7 +931,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2334,
       "gbifOccurrenceCount": 14676,
-      "enrichedAt": "2026-03-18T12:27:34.826Z"
+      "enrichedAt": "2026-03-18T12:27:34.826Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/A._olivaceus.jpg/800px-A._olivaceus.jpg"
     }
   },
   {
@@ -953,7 +977,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 343,
       "gbifOccurrenceCount": 4710,
-      "enrichedAt": "2026-03-18T12:27:41.482Z"
+      "enrichedAt": "2026-03-18T12:27:41.482Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Whitetail_surgeonfish_%28Acanthurus_thompsoni%29_%2846864394875%29.jpg/800px-Whitetail_surgeonfish_%28Acanthurus_thompsoni%29_%2846864394875%29.jpg"
     }
   },
   {
@@ -998,7 +1023,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 6945,
       "gbifOccurrenceCount": 21327,
-      "enrichedAt": "2026-03-18T12:27:46.591Z"
+      "enrichedAt": "2026-03-18T12:27:46.591Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Acanthurus_leucosternon_01.JPG/800px-Acanthurus_leucosternon_01.JPG"
     }
   },
   {
@@ -1043,7 +1069,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 179,
       "gbifOccurrenceCount": 379,
-      "enrichedAt": "2026-03-18T12:27:50.523Z"
+      "enrichedAt": "2026-03-18T12:27:50.523Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Acreichthys_tomentosus_2.JPG/800px-Acreichthys_tomentosus_2.JPG"
     }
   },
   {
@@ -1082,7 +1109,8 @@ const data: Fish[] = [
         "especie": "Sargocentron diadema"
       },
       "gbifOccurrenceCount": 35,
-      "enrichedAt": "2026-03-18T12:27:57.861Z"
+      "enrichedAt": "2026-03-18T12:27:57.861Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sargocentron_diadema_R%C3%A9union.jpg/800px-Sargocentron_diadema_R%C3%A9union.jpg"
     }
   },
   {
@@ -1345,7 +1373,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 636,
       "gbifOccurrenceCount": 903,
-      "enrichedAt": "2026-03-18T12:28:22.337Z"
+      "enrichedAt": "2026-03-18T12:28:22.337Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aeoliscus_strigatus_Prague_2011_1.jpg/800px-Aeoliscus_strigatus_Prague_2011_1.jpg"
     }
   },
   {
@@ -1390,7 +1419,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3399,
       "gbifOccurrenceCount": 27063,
-      "enrichedAt": "2026-03-18T12:28:26.134Z"
+      "enrichedAt": "2026-03-18T12:28:26.134Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Pez_lija_pintado_%28Aluterus_scriptus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_47.jpg/800px-Pez_lija_pintado_%28Aluterus_scriptus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_47.jpg"
     }
   },
   {
@@ -1435,7 +1465,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 39,
       "gbifOccurrenceCount": 561,
-      "enrichedAt": "2026-03-18T12:28:30.225Z"
+      "enrichedAt": "2026-03-18T12:28:30.225Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Amblycirrhitus_bimacula_GJ.jpg/800px-Amblycirrhitus_bimacula_GJ.jpg"
     }
   },
   {
@@ -1480,7 +1511,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 814,
       "gbifOccurrenceCount": 3160,
-      "enrichedAt": "2026-03-18T12:28:34.081Z"
+      "enrichedAt": "2026-03-18T12:28:34.081Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/White-belly_Damsel%28Amblyglyphidodon_leucogaster%29_%2837055928682%29.jpg/800px-White-belly_Damsel%28Amblyglyphidodon_leucogaster%29_%2837055928682%29.jpg"
     }
   },
   {
@@ -1525,7 +1557,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1121,
       "gbifOccurrenceCount": 2248,
-      "enrichedAt": "2026-03-18T12:28:37.785Z"
+      "enrichedAt": "2026-03-18T12:28:37.785Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/800px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
     }
   },
   {
@@ -1570,7 +1603,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 4552,
       "gbifOccurrenceCount": 5055,
-      "enrichedAt": "2026-03-18T12:28:42.080Z"
+      "enrichedAt": "2026-03-18T12:28:42.080Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/800px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
     }
   },
   {
@@ -1615,7 +1649,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 81,
       "gbifOccurrenceCount": 103,
-      "enrichedAt": "2026-03-18T12:28:45.816Z"
+      "enrichedAt": "2026-03-18T12:28:45.816Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Amphiprion_ephippium.jpg/800px-Amphiprion_ephippium.jpg"
     }
   },
   {
@@ -1660,7 +1695,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1108,
       "gbifOccurrenceCount": 1013,
-      "enrichedAt": "2026-03-18T12:28:49.450Z"
+      "enrichedAt": "2026-03-18T12:28:49.450Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pez_payaso_tomate_%28Amphiprion_frenatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_208.jpg/800px-Pez_payaso_tomate_%28Amphiprion_frenatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_208.jpg"
     }
   },
   {
@@ -1705,7 +1741,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 169,
       "gbifOccurrenceCount": 268,
-      "enrichedAt": "2026-03-18T12:28:53.154Z"
+      "enrichedAt": "2026-03-18T12:28:53.154Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Amphiprion_latezonatus%2C_Norfolk.jpg/800px-Amphiprion_latezonatus%2C_Norfolk.jpg"
     }
   },
   {
@@ -1750,7 +1787,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1783,
       "gbifOccurrenceCount": 2570,
-      "enrichedAt": "2026-03-18T12:28:57.161Z"
+      "enrichedAt": "2026-03-18T12:28:57.161Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/800px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
     }
   },
   {
@@ -1795,7 +1833,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2785,
       "gbifOccurrenceCount": 2651,
-      "enrichedAt": "2026-03-18T12:29:00.924Z"
+      "enrichedAt": "2026-03-18T12:29:00.924Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/800px-Clown_fish_in_the_Andaman_Coral_Reef.jpg"
     }
   },
   {
@@ -1840,7 +1879,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 389,
       "gbifOccurrenceCount": 686,
-      "enrichedAt": "2026-03-18T12:29:05.252Z"
+      "enrichedAt": "2026-03-18T12:29:05.252Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/A._percula.jpg/800px-A._percula.jpg"
     }
   },
   {
@@ -1885,7 +1925,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2500,
       "gbifOccurrenceCount": 3103,
-      "enrichedAt": "2026-03-18T12:29:09.143Z"
+      "enrichedAt": "2026-03-18T12:29:09.143Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/800px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
     }
   },
   {
@@ -1930,7 +1971,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 399,
       "gbifOccurrenceCount": 478,
-      "enrichedAt": "2026-03-18T12:29:13.811Z"
+      "enrichedAt": "2026-03-18T12:29:13.811Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Amphiprion_Species.JPG/800px-Amphiprion_Species.JPG"
     }
   },
   {
@@ -1975,7 +2017,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 585,
       "gbifOccurrenceCount": 563,
-      "enrichedAt": "2026-03-18T12:29:17.400Z"
+      "enrichedAt": "2026-03-18T12:29:17.400Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Amphiprion_sandaracinos.jpg/800px-Amphiprion_sandaracinos.jpg"
     }
   },
   {
@@ -2020,7 +2063,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 24,
       "gbifOccurrenceCount": 67,
-      "enrichedAt": "2026-03-18T12:29:21.439Z"
+      "enrichedAt": "2026-03-18T12:29:21.439Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/800px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
     }
   },
   {
@@ -2065,7 +2109,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2341,
       "gbifOccurrenceCount": 45031,
-      "enrichedAt": "2026-03-18T12:29:25.319Z"
+      "enrichedAt": "2026-03-18T12:29:25.319Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Anisotremus_virginicus_in_Madagascar_Reef.jpg/800px-Anisotremus_virginicus_in_Madagascar_Reef.jpg"
     }
   },
   {
@@ -2104,7 +2149,8 @@ const data: Fish[] = [
         "especie": "Pseudanthias squamipinnis"
       },
       "gbifOccurrenceCount": 31,
-      "enrichedAt": "2026-03-18T12:29:29.277Z"
+      "enrichedAt": "2026-03-18T12:29:29.277Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Anthias_anthias_01.jpg/800px-Anthias_anthias_01.jpg"
     }
   },
   {
@@ -2149,7 +2195,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 32,
       "gbifOccurrenceCount": 386,
-      "enrichedAt": "2026-03-18T12:29:33.119Z"
+      "enrichedAt": "2026-03-18T12:29:33.119Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Apogon_maculatus.jpg/800px-Apogon_maculatus.jpg"
     }
   },
   {
@@ -2194,7 +2241,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 349,
       "gbifOccurrenceCount": 22029,
-      "enrichedAt": "2026-03-18T12:29:36.786Z"
+      "enrichedAt": "2026-03-18T12:29:36.786Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Apogon_maculatus.jpg/800px-Apogon_maculatus.jpg"
     }
   },
   {
@@ -2239,7 +2287,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 20,
       "gbifOccurrenceCount": 19,
-      "enrichedAt": "2026-03-18T12:29:40.406Z"
+      "enrichedAt": "2026-03-18T12:29:40.406Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Apogon_maculatus.jpg/800px-Apogon_maculatus.jpg"
     }
   },
   {
@@ -2278,7 +2327,8 @@ const data: Fish[] = [
         "especie": "Sphaeramia nematoptera"
       },
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:29:44.039Z"
+      "enrichedAt": "2026-03-18T12:29:44.039Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Apogon_maculatus.jpg/800px-Apogon_maculatus.jpg"
     }
   },
   {
@@ -2323,7 +2373,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 4106,
       "gbifOccurrenceCount": 6386,
-      "enrichedAt": "2026-03-18T12:29:47.588Z"
+      "enrichedAt": "2026-03-18T12:29:47.588Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Botete_negro_%28Arothron_meleagris%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_54.jpg/800px-Botete_negro_%28Arothron_meleagris%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_54.jpg"
     }
   },
   {
@@ -2368,7 +2419,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3907,
       "gbifOccurrenceCount": 4565,
-      "enrichedAt": "2026-03-18T12:29:51.294Z"
+      "enrichedAt": "2026-03-18T12:29:51.294Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Botete_cara_de_perro_%28Arothron_nigropunctatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_64.jpg/800px-Botete_cara_de_perro_%28Arothron_nigropunctatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_64.jpg"
     }
   },
   {
@@ -2413,7 +2465,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 132,
       "gbifOccurrenceCount": 253,
-      "enrichedAt": "2026-03-18T12:29:55.285Z"
+      "enrichedAt": "2026-03-18T12:29:55.285Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Arothron_reticularis.jpg/800px-Arothron_reticularis.jpg"
     }
   },
   {
@@ -2458,7 +2511,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 437,
       "gbifOccurrenceCount": 2368,
-      "enrichedAt": "2026-03-18T12:29:58.914Z"
+      "enrichedAt": "2026-03-18T12:29:58.914Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/HoshiHZro.jpg/800px-HoshiHZro.jpg"
     }
   },
   {
@@ -2503,7 +2557,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3410,
       "gbifOccurrenceCount": 16896,
-      "enrichedAt": "2026-03-18T12:30:03.220Z"
+      "enrichedAt": "2026-03-18T12:30:03.220Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pez_ballesta_ondulado_%28Balistapus_undulatus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_45.jpg/800px-Pez_ballesta_ondulado_%28Balistapus_undulatus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_45.jpg"
     }
   },
   {
@@ -2542,7 +2597,8 @@ const data: Fish[] = [
         "especie": "Sufflamen bursa"
       },
       "gbifOccurrenceCount": 9,
-      "enrichedAt": "2026-03-18T12:30:08.507Z"
+      "enrichedAt": "2026-03-18T12:30:08.507Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
     }
   },
   {
@@ -2567,7 +2623,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:44.951Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
+    }
   },
   {
     "id": 237,
@@ -2604,7 +2664,8 @@ const data: Fish[] = [
         "genero": "Sufflamen",
         "especie": "Sufflamen fraenatum"
       },
-      "enrichedAt": "2026-03-18T12:30:16.167Z"
+      "enrichedAt": "2026-03-18T12:30:16.167Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
     }
   },
   {
@@ -2629,7 +2690,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:46.923Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
+    }
   },
   {
     "id": 239,
@@ -2653,7 +2718,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:47.819Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
+    }
   },
   {
     "id": 240,
@@ -2677,7 +2746,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:48.883Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
+    }
   },
   {
     "id": 241,
@@ -2721,7 +2794,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 664,
       "gbifOccurrenceCount": 28671,
-      "enrichedAt": "2026-03-18T12:30:32.695Z"
+      "enrichedAt": "2026-03-18T12:30:32.695Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
     }
   },
   {
@@ -2746,7 +2820,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:50.779Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Balistes_vetula_-_01.jpg/800px-Balistes_vetula_-_01.jpg"
+    }
   },
   {
     "id": 243,
@@ -2790,7 +2868,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1468,
       "gbifOccurrenceCount": 3327,
-      "enrichedAt": "2026-03-18T12:30:38.885Z"
+      "enrichedAt": "2026-03-18T12:30:38.885Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Balistoides_conspicillum_2607.jpg/800px-Balistoides_conspicillum_2607.jpg"
     }
   },
   {
@@ -2815,7 +2894,11 @@ const data: Fish[] = [
     "temperatura": "24 a 27 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:52.293Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Blennius_ocellaris_Messina.jpg/800px-Blennius_ocellaris_Messina.jpg"
+    }
   },
   {
     "id": 245,
@@ -2852,7 +2935,8 @@ const data: Fish[] = [
         "genero": "Microlipophrys",
         "especie": "Microlipophrys nigriceps"
       },
-      "enrichedAt": "2026-03-18T12:30:45.399Z"
+      "enrichedAt": "2026-03-18T12:30:45.399Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Blennius_ocellaris_Messina.jpg/800px-Blennius_ocellaris_Messina.jpg"
     }
   },
   {
@@ -2897,7 +2981,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 802,
       "gbifOccurrenceCount": 2959,
-      "enrichedAt": "2026-03-18T12:30:48.979Z"
+      "enrichedAt": "2026-03-18T12:30:48.979Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Labridae_-_Bodianus_axillaris.jpg/800px-Labridae_-_Bodianus_axillaris.jpg"
     }
   },
   {
@@ -2922,7 +3007,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:23:57.576Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bodianus_loxozonus_JNC1087.JPG/800px-Bodianus_loxozonus_JNC1087.JPG"
+    }
   },
   {
     "id": 248,
@@ -2966,7 +3055,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 53,
       "gbifOccurrenceCount": 19917,
-      "enrichedAt": "2026-03-18T12:30:55.070Z"
+      "enrichedAt": "2026-03-18T12:30:55.070Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Spotfin_Hogfish.jpg/800px-Spotfin_Hogfish.jpg"
     }
   },
   {
@@ -3011,7 +3101,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1709,
       "gbifOccurrenceCount": 36049,
-      "enrichedAt": "2026-03-18T12:30:59.035Z"
+      "enrichedAt": "2026-03-18T12:30:59.035Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Spanish_Hogfish%2C_Buddy%27s_Reef%2C_Bonaire%2C_Caribbean_Netherlands_imported_from_iNaturalist_photo_234682244_%28cropped%29.jpg/800px-Spanish_Hogfish%2C_Buddy%27s_Reef%2C_Bonaire%2C_Caribbean_Netherlands_imported_from_iNaturalist_photo_234682244_%28cropped%29.jpg"
     }
   },
   {
@@ -3056,7 +3147,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 525,
       "gbifOccurrenceCount": 636,
-      "enrichedAt": "2026-03-18T12:31:06.522Z"
+      "enrichedAt": "2026-03-18T12:31:06.522Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wirecoral_goby.jpg/800px-Wirecoral_goby.jpg"
     }
   },
   {
@@ -3101,7 +3193,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 807,
       "gbifOccurrenceCount": 3534,
-      "enrichedAt": "2026-03-18T12:31:10.285Z"
+      "enrichedAt": "2026-03-18T12:31:10.285Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Calotomus_carolinus_m%C3%A2le.jpg/800px-Calotomus_carolinus_m%C3%A2le.jpg"
     }
   },
   {
@@ -3146,7 +3239,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 5,
       "gbifOccurrenceCount": 507,
-      "enrichedAt": "2026-03-18T12:31:14.105Z"
+      "enrichedAt": "2026-03-18T12:31:14.105Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Calotomus_zonarchus.jpg/800px-Calotomus_zonarchus.jpg"
     }
   },
   {
@@ -3191,7 +3285,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 626,
       "gbifOccurrenceCount": 2671,
-      "enrichedAt": "2026-03-18T12:31:17.732Z"
+      "enrichedAt": "2026-03-18T12:31:17.732Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Wirenet_Filefish%2C_Wilhelma_Zoo_and_Botanical_Garden_Stuttgart%2C_Stuttgart%2C_Baden-W%C3%BCrttemberg%2C_DE_imported_from_iNaturalist_photo_359132486.jpg/800px-Wirenet_Filefish%2C_Wilhelma_Zoo_and_Botanical_Garden_Stuttgart%2C_Stuttgart%2C_Baden-W%C3%BCrttemberg%2C_DE_imported_from_iNaturalist_photo_359132486.jpg"
     }
   },
   {
@@ -3236,7 +3331,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 28,
       "gbifOccurrenceCount": 73,
-      "enrichedAt": "2026-03-18T12:31:21.329Z"
+      "enrichedAt": "2026-03-18T12:31:21.329Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Cantherhines_macrocerus_397892458.jpg/800px-Cantherhines_macrocerus_397892458.jpg"
     }
   },
   {
@@ -3274,7 +3370,8 @@ const data: Fish[] = [
         "especie": "Canthigaster bennetti"
       },
       "gbifOccurrenceCount": 1167,
-      "enrichedAt": "2026-03-18T12:31:24.893Z"
+      "enrichedAt": "2026-03-18T12:31:24.893Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Canthigaster_callisterna_%28Clown_toado%29.jpg/800px-Canthigaster_callisterna_%28Clown_toado%29.jpg"
     }
   },
   {
@@ -3319,7 +3416,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1785,
       "gbifOccurrenceCount": 7482,
-      "enrichedAt": "2026-03-18T12:31:28.526Z"
+      "enrichedAt": "2026-03-18T12:31:28.526Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Canthigaster_jactator_by_NPS.jpg/800px-Canthigaster_jactator_by_NPS.jpg"
     }
   },
   {
@@ -3358,7 +3456,8 @@ const data: Fish[] = [
         "especie": "Canthigaster rostrata"
       },
       "gbifOccurrenceCount": 38547,
-      "enrichedAt": "2026-03-18T12:31:32.198Z"
+      "enrichedAt": "2026-03-18T12:31:32.198Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Canthigaster_callisterna_%28Clown_toado%29.jpg/800px-Canthigaster_callisterna_%28Clown_toado%29.jpg"
     }
   },
   {
@@ -3403,7 +3502,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 639,
       "gbifOccurrenceCount": 2148,
-      "enrichedAt": "2026-03-18T12:31:35.876Z"
+      "enrichedAt": "2026-03-18T12:31:35.876Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Canthigaster_solandri_%28sharpnosed_puffer%2C_solander%27s_toby%2C_or_blue-spotted_toby%29.jpg/800px-Canthigaster_solandri_%28sharpnosed_puffer%2C_solander%27s_toby%2C_or_blue-spotted_toby%29.jpg"
     }
   },
   {
@@ -3448,7 +3548,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3144,
       "gbifOccurrenceCount": 5153,
-      "enrichedAt": "2026-03-18T12:31:39.571Z"
+      "enrichedAt": "2026-03-18T12:31:39.571Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Canthigaster_valentini_prg1.jpg/800px-Canthigaster_valentini_prg1.jpg"
     }
   },
   {
@@ -3487,7 +3588,8 @@ const data: Fish[] = [
         "especie": "Caprodon schlegelii"
       },
       "gbifOccurrenceCount": 327,
-      "enrichedAt": "2026-03-18T12:31:43.207Z"
+      "enrichedAt": "2026-03-18T12:31:43.207Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Caprodon_schlegelii.001_-_Aquarium_Finisterrae.jpg/800px-Caprodon_schlegelii.001_-_Aquarium_Finisterrae.jpg"
     }
   },
   {
@@ -3580,7 +3682,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 78,
       "gbifOccurrenceCount": 18689,
-      "enrichedAt": "2026-03-18T12:31:52.087Z"
+      "enrichedAt": "2026-03-18T12:31:52.087Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cherub_fish_Centropyge_argi.jpg/800px-Cherub_fish_Centropyge_argi.jpg"
     }
   },
   {
@@ -3625,7 +3728,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1425,
       "gbifOccurrenceCount": 3103,
-      "enrichedAt": "2026-03-18T12:31:55.940Z"
+      "enrichedAt": "2026-03-18T12:31:55.940Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bicolor_angelfish_%28Centropyge_bicolor%29_%2840856469565%29_%28cropped%29.jpg/800px-Bicolor_angelfish_%28Centropyge_bicolor%29_%2840856469565%29_%28cropped%29.jpg"
     }
   },
   {
@@ -3670,7 +3774,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 659,
       "gbifOccurrenceCount": 5239,
-      "enrichedAt": "2026-03-18T12:31:59.854Z"
+      "enrichedAt": "2026-03-18T12:31:59.854Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Centropyge_bispinosa_1.jpg/800px-Centropyge_bispinosa_1.jpg"
     }
   },
   {
@@ -3715,7 +3820,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 136,
       "gbifOccurrenceCount": 316,
-      "enrichedAt": "2026-03-18T12:32:03.712Z"
+      "enrichedAt": "2026-03-18T12:32:03.712Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Centropyge_eibli.jpg/800px-Centropyge_eibli.jpg"
     }
   },
   {
@@ -3760,7 +3866,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 21,
       "gbifOccurrenceCount": 81,
-      "enrichedAt": "2026-03-18T12:32:07.497Z"
+      "enrichedAt": "2026-03-18T12:32:07.497Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Centropyge_ferrugata.jpg"
     }
   },
   {
@@ -3805,7 +3912,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 89,
       "gbifOccurrenceCount": 645,
-      "enrichedAt": "2026-03-18T12:32:11.182Z"
+      "enrichedAt": "2026-03-18T12:32:11.182Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AburaYakkoAd.jpg/800px-AburaYakkoAd.jpg"
     }
   },
   {
@@ -3850,7 +3958,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 905,
       "gbifOccurrenceCount": 15737,
-      "enrichedAt": "2026-03-18T12:32:14.923Z"
+      "enrichedAt": "2026-03-18T12:32:14.923Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AburaYakkoAd.jpg/800px-AburaYakkoAd.jpg"
     }
   },
   {
@@ -3895,7 +4004,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 9,
       "gbifOccurrenceCount": 21,
-      "enrichedAt": "2026-03-18T12:32:18.758Z"
+      "enrichedAt": "2026-03-18T12:32:18.758Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Centropyge_interruptus.jpg/800px-Centropyge_interruptus.jpg"
     }
   },
   {
@@ -3940,7 +4050,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 240,
       "gbifOccurrenceCount": 5702,
-      "enrichedAt": "2026-03-18T12:32:22.482Z"
+      "enrichedAt": "2026-03-18T12:32:22.482Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flame_angelfish_%28Centropyge_loricula%29.jpg/800px-Flame_angelfish_%28Centropyge_loricula%29.jpg"
     }
   },
   {
@@ -3985,7 +4096,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 216,
       "gbifOccurrenceCount": 5832,
-      "enrichedAt": "2026-03-18T12:32:26.571Z"
+      "enrichedAt": "2026-03-18T12:32:26.571Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Centropyge_potteri_Angelfish.jpg/800px-Centropyge_potteri_Angelfish.jpg"
     }
   },
   {
@@ -4030,7 +4142,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3331,
       "gbifOccurrenceCount": 19883,
-      "enrichedAt": "2026-03-18T12:32:30.561Z"
+      "enrichedAt": "2026-03-18T12:32:30.561Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Blue-spotted.grouper.arp.jpg/800px-Blue-spotted.grouper.arp.jpg"
     }
   },
   {
@@ -4068,7 +4181,8 @@ const data: Fish[] = [
         "genero": "Cephalopholis",
         "especie": "Cephalopholis boenak"
       },
-      "enrichedAt": "2026-03-18T12:32:34.641Z"
+      "enrichedAt": "2026-03-18T12:32:34.641Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Peacock_Grouper%2C_Semporna%2C_SA%2C_MY_imported_from_iNaturalist_photo_513996291.jpg/800px-Peacock_Grouper%2C_Semporna%2C_SA%2C_MY_imported_from_iNaturalist_photo_513996291.jpg"
     }
   },
   {
@@ -4107,7 +4221,8 @@ const data: Fish[] = [
         "especie": "Cephalopholis fulva"
       },
       "gbifOccurrenceCount": 48052,
-      "enrichedAt": "2026-03-18T12:32:39.186Z"
+      "enrichedAt": "2026-03-18T12:32:39.186Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Peacock_Grouper%2C_Semporna%2C_SA%2C_MY_imported_from_iNaturalist_photo_513996291.jpg/800px-Peacock_Grouper%2C_Semporna%2C_SA%2C_MY_imported_from_iNaturalist_photo_513996291.jpg"
     }
   },
   {
@@ -4152,7 +4267,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 306,
       "gbifOccurrenceCount": 871,
-      "enrichedAt": "2026-03-18T12:32:43.568Z"
+      "enrichedAt": "2026-03-18T12:32:43.568Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tassled_File_Fish_-_Kew_Gardens_March_2009_%283404467171%29.jpg/800px-Tassled_File_Fish_-_Kew_Gardens_March_2009_%283404467171%29.jpg"
     }
   },
   {
@@ -4197,7 +4313,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 6328,
       "gbifOccurrenceCount": 14910,
-      "enrichedAt": "2026-03-18T12:33:02.298Z"
+      "enrichedAt": "2026-03-18T12:33:02.298Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bep_chaetodon_auriga_pemba.jpg/800px-Bep_chaetodon_auriga_pemba.jpg"
     }
   },
   {
@@ -4242,7 +4359,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 968,
       "gbifOccurrenceCount": 1783,
-      "enrichedAt": "2026-03-18T12:33:17.607Z"
+      "enrichedAt": "2026-03-18T12:33:17.607Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -4287,7 +4405,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3156,
       "gbifOccurrenceCount": 41970,
-      "enrichedAt": "2026-03-18T12:33:24.711Z"
+      "enrichedAt": "2026-03-18T12:33:24.711Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -4325,7 +4444,8 @@ const data: Fish[] = [
         "genero": "Coradion",
         "especie": "Coradion chrysozonus"
       },
-      "enrichedAt": "2026-03-18T12:33:29.154Z"
+      "enrichedAt": "2026-03-18T12:33:29.154Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -4370,7 +4490,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2190,
       "gbifOccurrenceCount": 9795,
-      "enrichedAt": "2026-03-18T12:33:32.844Z"
+      "enrichedAt": "2026-03-18T12:33:32.844Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chaetodon_citrinellus_2.jpg/800px-Chaetodon_citrinellus_2.jpg"
     }
   },
   {
@@ -4409,7 +4530,8 @@ const data: Fish[] = [
         "especie": "Chaetodon collare"
       },
       "gbifOccurrenceCount": 7,
-      "enrichedAt": "2026-03-18T12:33:37.093Z"
+      "enrichedAt": "2026-03-18T12:33:37.093Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -4454,7 +4576,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2005,
       "gbifOccurrenceCount": 6055,
-      "enrichedAt": "2026-03-18T12:33:41.159Z"
+      "enrichedAt": "2026-03-18T12:33:41.159Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Chaetodon_ephippium_PLW_edit.jpg/800px-Chaetodon_ephippium_PLW_edit.jpg"
     }
   },
   {
@@ -4499,7 +4622,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 380,
       "gbifOccurrenceCount": 500,
-      "enrichedAt": "2026-03-18T12:33:47.186Z"
+      "enrichedAt": "2026-03-18T12:33:47.186Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bep_chaetodon_falcula.jpg/800px-Bep_chaetodon_falcula.jpg"
     }
   },
   {
@@ -4544,7 +4668,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1064,
       "gbifOccurrenceCount": 1084,
-      "enrichedAt": "2026-03-18T12:33:54.815Z"
+      "enrichedAt": "2026-03-18T12:33:54.815Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pez_mariposa_diagonal_%28Chaetodon_fasciatus%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_86.jpg/800px-Pez_mariposa_diagonal_%28Chaetodon_fasciatus%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_86.jpg"
     }
   },
   {
@@ -4569,7 +4694,11 @@ const data: Fish[] = [
     "temperatura": "24 a 26 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:24:29.496Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
+    }
   },
   {
     "id": 287,
@@ -4613,7 +4742,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 326,
       "gbifOccurrenceCount": 2859,
-      "enrichedAt": "2026-03-18T12:34:05.298Z"
+      "enrichedAt": "2026-03-18T12:34:05.298Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bluestripe_Butterflyfish.jpg/800px-Bluestripe_Butterflyfish.jpg"
     }
   },
   {
@@ -4658,7 +4788,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 123,
       "gbifOccurrenceCount": 169,
-      "enrichedAt": "2026-03-18T12:34:10.231Z"
+      "enrichedAt": "2026-03-18T12:34:10.231Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Chaetodon_larvatus_at_Red_Sea_Aquarium_by_Hatem_Moushir_1.JPG/800px-Chaetodon_larvatus_at_Red_Sea_Aquarium_by_Hatem_Moushir_1.JPG"
     }
   },
   {
@@ -4703,7 +4834,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1489,
       "gbifOccurrenceCount": 3447,
-      "enrichedAt": "2026-03-18T12:34:16.681Z"
+      "enrichedAt": "2026-03-18T12:34:16.681Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Chaetodon_lineolatus.jpg/800px-Chaetodon_lineolatus.jpg"
     }
   },
   {
@@ -4748,7 +4880,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3906,
       "gbifOccurrenceCount": 8841,
-      "enrichedAt": "2026-03-18T12:34:20.783Z"
+      "enrichedAt": "2026-03-18T12:34:20.783Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -4793,7 +4926,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2135,
       "gbifOccurrenceCount": 5611,
-      "enrichedAt": "2026-03-18T12:34:24.640Z"
+      "enrichedAt": "2026-03-18T12:34:24.640Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Chaetodon_melannotus_edit4.jpg/800px-Chaetodon_melannotus_edit4.jpg"
     }
   },
   {
@@ -4838,7 +4972,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 327,
       "gbifOccurrenceCount": 2258,
-      "enrichedAt": "2026-03-18T12:34:31.103Z"
+      "enrichedAt": "2026-03-18T12:34:31.103Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chaetodon_mertensii.jpg/800px-Chaetodon_mertensii.jpg"
     }
   },
   {
@@ -4883,7 +5018,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 839,
       "gbifOccurrenceCount": 2263,
-      "enrichedAt": "2026-03-18T12:34:36.003Z"
+      "enrichedAt": "2026-03-18T12:34:36.003Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bep_chaetodon_meyeri.jpg/800px-Bep_chaetodon_meyeri.jpg"
     }
   },
   {
@@ -4928,7 +5064,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 532,
       "gbifOccurrenceCount": 3939,
-      "enrichedAt": "2026-03-18T12:34:48.411Z"
+      "enrichedAt": "2026-03-18T12:34:48.411Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chaetodon_miliaris_by_NPS.jpg/800px-Chaetodon_miliaris_by_NPS.jpg"
     }
   },
   {
@@ -4973,7 +5110,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1664,
       "gbifOccurrenceCount": 35116,
-      "enrichedAt": "2026-03-18T12:34:56.303Z"
+      "enrichedAt": "2026-03-18T12:34:56.303Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -5018,7 +5156,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1094,
       "gbifOccurrenceCount": 1277,
-      "enrichedAt": "2026-03-18T12:35:00.161Z"
+      "enrichedAt": "2026-03-18T12:35:00.161Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bep_chaetodon_octofasciatus.jpg/800px-Bep_chaetodon_octofasciatus.jpg"
     }
   },
   {
@@ -5063,7 +5202,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2562,
       "gbifOccurrenceCount": 9235,
-      "enrichedAt": "2026-03-18T12:35:06.083Z"
+      "enrichedAt": "2026-03-18T12:35:06.083Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bep_chaetodon_ornatissimus.jpg/800px-Bep_chaetodon_ornatissimus.jpg"
     }
   },
   {
@@ -5108,7 +5248,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1317,
       "gbifOccurrenceCount": 5500,
-      "enrichedAt": "2026-03-18T12:35:10.184Z"
+      "enrichedAt": "2026-03-18T12:35:10.184Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -5153,7 +5294,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 557,
       "gbifOccurrenceCount": 2931,
-      "enrichedAt": "2026-03-18T12:35:16.238Z"
+      "enrichedAt": "2026-03-18T12:35:16.238Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bep_chaetodon_punctatofasciatus.jpg/800px-Bep_chaetodon_punctatofasciatus.jpg"
     }
   },
   {
@@ -5198,7 +5340,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1432,
       "gbifOccurrenceCount": 4827,
-      "enrichedAt": "2026-03-18T12:35:19.911Z"
+      "enrichedAt": "2026-03-18T12:35:19.911Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/8070_aquaimages.jpg/800px-8070_aquaimages.jpg"
     }
   },
   {
@@ -5243,7 +5386,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1320,
       "gbifOccurrenceCount": 2496,
-      "enrichedAt": "2026-03-18T12:35:24.551Z"
+      "enrichedAt": "2026-03-18T12:35:24.551Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -5288,7 +5432,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 664,
       "gbifOccurrenceCount": 7051,
-      "enrichedAt": "2026-03-18T12:35:28.274Z"
+      "enrichedAt": "2026-03-18T12:35:28.274Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chaetodon_reticulatus.jpg/800px-Chaetodon_reticulatus.jpg"
     }
   },
   {
@@ -5333,7 +5478,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1239,
       "gbifOccurrenceCount": 2035,
-      "enrichedAt": "2026-03-18T12:35:37.082Z"
+      "enrichedAt": "2026-03-18T12:35:37.082Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bep_chaetodon_speculum.jpg/800px-Bep_chaetodon_speculum.jpg"
     }
   },
   {
@@ -5378,7 +5524,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2198,
       "gbifOccurrenceCount": 31967,
-      "enrichedAt": "2026-03-18T12:35:41.036Z"
+      "enrichedAt": "2026-03-18T12:35:41.036Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Chaetodon_striatus_Brasil.jpg/800px-Chaetodon_striatus_Brasil.jpg"
     }
   },
   {
@@ -5423,7 +5570,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 261,
       "gbifOccurrenceCount": 319,
-      "enrichedAt": "2026-03-18T12:35:45.341Z"
+      "enrichedAt": "2026-03-18T12:35:45.341Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -5468,7 +5616,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2561,
       "gbifOccurrenceCount": 8897,
-      "enrichedAt": "2026-03-18T12:35:52.045Z"
+      "enrichedAt": "2026-03-18T12:35:52.045Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pez_mariposa_Chevr%C3%B3n_%28Chaetodon_trifascialis%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-30%2C_DD_32.jpg/800px-Pez_mariposa_Chevr%C3%B3n_%28Chaetodon_trifascialis%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-30%2C_DD_32.jpg"
     }
   },
   {
@@ -5513,7 +5662,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1197,
       "gbifOccurrenceCount": 5017,
-      "enrichedAt": "2026-03-18T12:35:56.189Z"
+      "enrichedAt": "2026-03-18T12:35:56.189Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bep_chaetodon_trifasciatus_PLW_edit.jpg/800px-Bep_chaetodon_trifasciatus_PLW_edit.jpg"
     }
   },
   {
@@ -5558,7 +5708,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1741,
       "gbifOccurrenceCount": 5322,
-      "enrichedAt": "2026-03-18T12:36:02.950Z"
+      "enrichedAt": "2026-03-18T12:36:02.950Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chaetodon_capistratus_319310803.jpg/800px-Chaetodon_capistratus_319310803.jpg"
     }
   },
   {
@@ -5603,7 +5754,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3128,
       "gbifOccurrenceCount": 8643,
-      "enrichedAt": "2026-03-18T12:36:06.745Z"
+      "enrichedAt": "2026-03-18T12:36:06.745Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chaetodon_vagabundus.jpg/800px-Chaetodon_vagabundus.jpg"
     }
   },
   {
@@ -5648,7 +5800,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 185,
       "gbifOccurrenceCount": 230,
-      "enrichedAt": "2026-03-18T12:36:10.375Z"
+      "enrichedAt": "2026-03-18T12:36:10.375Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bep_chaetodon_xanthurus.jpg/800px-Bep_chaetodon_xanthurus.jpg"
     }
   },
   {
@@ -5693,7 +5846,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 838,
       "gbifOccurrenceCount": 46,
-      "enrichedAt": "2026-03-18T12:36:13.939Z"
+      "enrichedAt": "2026-03-18T12:36:13.939Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/L%C3%A1brido_rojo_rayado_%28Cheilinus_quinquecinctus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_132.jpg/800px-L%C3%A1brido_rojo_rayado_%28Cheilinus_quinquecinctus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_132.jpg"
     }
   },
   {
@@ -5738,7 +5892,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1310,
       "gbifOccurrenceCount": 4441,
-      "enrichedAt": "2026-03-18T12:36:18.371Z"
+      "enrichedAt": "2026-03-18T12:36:18.371Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cheilio_inermis_R%C3%A9union.JPG/800px-Cheilio_inermis_R%C3%A9union.JPG"
     }
   },
   {
@@ -5783,7 +5938,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 5,
       "gbifOccurrenceCount": 76,
-      "enrichedAt": "2026-03-18T12:36:22.023Z"
+      "enrichedAt": "2026-03-18T12:36:22.023Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG/800px-Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG"
     }
   },
   {
@@ -5828,7 +5984,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 7,
       "gbifOccurrenceCount": 322,
-      "enrichedAt": "2026-03-18T12:36:26.500Z"
+      "enrichedAt": "2026-03-18T12:36:26.500Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG/800px-Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG"
     }
   },
   {
@@ -5873,7 +6030,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 7,
       "gbifOccurrenceCount": 73,
-      "enrichedAt": "2026-03-18T12:36:30.145Z"
+      "enrichedAt": "2026-03-18T12:36:30.145Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG/800px-Redfingers_on_the_wreck_of_MFV_Princess_Elizabeth_P3167285.JPG"
     }
   },
   {
@@ -5918,7 +6076,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 145,
       "gbifOccurrenceCount": 521,
-      "enrichedAt": "2026-03-18T12:36:36.123Z"
+      "enrichedAt": "2026-03-18T12:36:36.123Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/GoniistiusZonatusJI1.jpg/800px-GoniistiusZonatusJI1.jpg"
     }
   },
   {
@@ -5963,7 +6122,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1206,
       "gbifOccurrenceCount": 2881,
-      "enrichedAt": "2026-03-18T12:36:40.823Z"
+      "enrichedAt": "2026-03-18T12:36:40.823Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chelmon_rostratus_Luc_Viatour.jpg/800px-Chelmon_rostratus_Luc_Viatour.jpg"
     }
   },
   {
@@ -6008,7 +6168,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 273,
       "gbifOccurrenceCount": 807,
-      "enrichedAt": "2026-03-18T12:36:45.853Z"
+      "enrichedAt": "2026-03-18T12:36:45.853Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chilomycterus_spinosus.jpeg/800px-Chilomycterus_spinosus.jpeg"
     }
   },
   {
@@ -6053,7 +6214,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 93,
       "gbifOccurrenceCount": 8665,
-      "enrichedAt": "2026-03-18T12:36:50.349Z"
+      "enrichedAt": "2026-03-18T12:36:50.349Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Corl0049_%2827497387304%29.jpg/800px-Corl0049_%2827497387304%29.jpg"
     }
   },
   {
@@ -6098,7 +6260,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2182,
       "gbifOccurrenceCount": 23822,
-      "enrichedAt": "2026-03-18T12:36:54.274Z"
+      "enrichedAt": "2026-03-18T12:36:54.274Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Chlorurus_sordidus%2C_Anantara_Kihavah-huravalhi%2C_house_reef%2C_Baa_Atoll%2C_Maldives_imported_from_iNaturalist_photo_296761479.jpg/800px-Chlorurus_sordidus%2C_Anantara_Kihavah-huravalhi%2C_house_reef%2C_Baa_Atoll%2C_Maldives_imported_from_iNaturalist_photo_296761479.jpg"
     }
   },
   {
@@ -6167,7 +6330,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 14,
       "gbifOccurrenceCount": 7260,
-      "enrichedAt": "2026-03-18T12:37:04.592Z"
+      "enrichedAt": "2026-03-18T12:37:04.592Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chromis_agilis.jpg/800px-Chromis_agilis.jpg"
     }
   },
   {
@@ -6206,7 +6370,8 @@ const data: Fish[] = [
         "especie": "Chromis ternatensis"
       },
       "gbifOccurrenceCount": 213,
-      "enrichedAt": "2026-03-18T12:37:09.717Z"
+      "enrichedAt": "2026-03-18T12:37:09.717Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chromis_chromis_2.jpg/800px-Chromis_chromis_2.jpg"
     }
   },
   {
@@ -6251,7 +6416,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 105,
       "gbifOccurrenceCount": 5231,
-      "enrichedAt": "2026-03-18T12:37:13.963Z"
+      "enrichedAt": "2026-03-18T12:37:13.963Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chromis_chromis_2.jpg/800px-Chromis_chromis_2.jpg"
     }
   },
   {
@@ -6296,7 +6462,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 4,
       "gbifOccurrenceCount": 197,
-      "enrichedAt": "2026-03-18T12:37:17.601Z"
+      "enrichedAt": "2026-03-18T12:37:17.601Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chromis_chromis_2.jpg/800px-Chromis_chromis_2.jpg"
     }
   },
   {
@@ -6341,7 +6508,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1382,
       "gbifOccurrenceCount": 43640,
-      "enrichedAt": "2026-03-18T12:37:21.430Z"
+      "enrichedAt": "2026-03-18T12:37:21.430Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Chromis_multilineata.jpg/800px-Chromis_multilineata.jpg"
     }
   },
   {
@@ -6386,7 +6554,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 49,
       "gbifOccurrenceCount": 1185,
-      "enrichedAt": "2026-03-18T12:37:25.335Z"
+      "enrichedAt": "2026-03-18T12:37:25.335Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Chromis_verater_by_NPS.jpg/800px-Chromis_verater_by_NPS.jpg"
     }
   },
   {
@@ -6455,7 +6624,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 101,
       "gbifOccurrenceCount": 118,
-      "enrichedAt": "2026-03-18T12:37:31.560Z"
+      "enrichedAt": "2026-03-18T12:37:31.560Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cirrhitichthys_aureus_by_OpenCage.jpg/800px-Cirrhitichthys_aureus_by_OpenCage.jpg"
     }
   },
   {
@@ -6500,7 +6670,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1084,
       "gbifOccurrenceCount": 2881,
-      "enrichedAt": "2026-03-18T12:37:35.266Z"
+      "enrichedAt": "2026-03-18T12:37:35.266Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2018_fiji%2C_10_april%2C_freeway%2C_dwarf_hawkfish_%2840966872195%29.jpg/800px-2018_fiji%2C_10_april%2C_freeway%2C_dwarf_hawkfish_%2840966872195%29.jpg"
     }
   },
   {
@@ -6545,7 +6716,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 308,
       "gbifOccurrenceCount": 2633,
-      "enrichedAt": "2026-03-18T12:37:39.164Z"
+      "enrichedAt": "2026-03-18T12:37:39.164Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/FMIB_42662_Paracirrhites_cinctus_%28Gunther%29_Pilikoa%2C_Oopuka-Hai-Hai.jpeg/800px-FMIB_42662_Paracirrhites_cinctus_%28Gunther%29_Pilikoa%2C_Oopuka-Hai-Hai.jpeg"
     }
   },
   {
@@ -6590,7 +6762,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1036,
       "gbifOccurrenceCount": 2655,
-      "enrichedAt": "2026-03-18T12:37:42.773Z"
+      "enrichedAt": "2026-03-18T12:37:42.773Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Stocky_hawkfish_Sri_Lanka.jpg/800px-Stocky_hawkfish_Sri_Lanka.jpg"
     }
   },
   {
@@ -6635,7 +6808,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 209,
       "gbifOccurrenceCount": 158,
-      "enrichedAt": "2026-03-18T12:37:47.193Z"
+      "enrichedAt": "2026-03-18T12:37:47.193Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Two-eyed_coralfish_%28Coradion_melanopus%29_%2831279169318%29.jpg/800px-Two-eyed_coralfish_%28Coradion_melanopus%29_%2831279169318%29.jpg"
     }
   },
   {
@@ -6719,7 +6893,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 148,
       "gbifOccurrenceCount": 1447,
-      "enrichedAt": "2026-03-18T12:37:55.609Z"
+      "enrichedAt": "2026-03-18T12:37:55.609Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cleaning_Shrimp_and_Coris.jpg/800px-Cleaning_Shrimp_and_Coris.jpg"
     }
   },
   {
@@ -6764,7 +6939,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 292,
       "gbifOccurrenceCount": 375,
-      "enrichedAt": "2026-03-18T12:37:59.404Z"
+      "enrichedAt": "2026-03-18T12:37:59.404Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Coris_formosa_34186077.jpg/800px-Coris_formosa_34186077.jpg"
     }
   },
   {
@@ -6809,7 +6985,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2450,
       "gbifOccurrenceCount": 7420,
-      "enrichedAt": "2026-03-18T12:38:04.239Z"
+      "enrichedAt": "2026-03-18T12:38:04.239Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/L%C3%A1brido_%28Coris_gaimard%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_68.jpg/800px-L%C3%A1brido_%28Coris_gaimard%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_68.jpg"
     }
   },
   {
@@ -6878,7 +7055,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 135,
       "gbifOccurrenceCount": 2160,
-      "enrichedAt": "2026-03-18T12:38:12.490Z"
+      "enrichedAt": "2026-03-18T12:38:12.490Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ctenochaetus_hawaiiensis%2C_Samoa.gif/800px-Ctenochaetus_hawaiiensis%2C_Samoa.gif"
     }
   },
   {
@@ -6923,7 +7101,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1043,
       "gbifOccurrenceCount": 3850,
-      "enrichedAt": "2026-03-18T12:38:16.148Z"
+      "enrichedAt": "2026-03-18T12:38:16.148Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Dascyllus_albisella_2.jpg/800px-Dascyllus_albisella_2.jpg"
     }
   },
   {
@@ -6968,7 +7147,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2087,
       "gbifOccurrenceCount": 7140,
-      "enrichedAt": "2026-03-18T12:38:19.862Z"
+      "enrichedAt": "2026-03-18T12:38:19.862Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg/800px-Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg"
     }
   },
   {
@@ -7013,7 +7193,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 401,
       "gbifOccurrenceCount": 638,
-      "enrichedAt": "2026-03-18T12:38:23.675Z"
+      "enrichedAt": "2026-03-18T12:38:23.675Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dascyllus_carneus_Mayotte.jpg/800px-Dascyllus_carneus_Mayotte.jpg"
     }
   },
   {
@@ -7058,7 +7239,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 148,
       "gbifOccurrenceCount": 309,
-      "enrichedAt": "2026-03-18T12:38:27.340Z"
+      "enrichedAt": "2026-03-18T12:38:27.340Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pomac%C3%A9ntrido_%28Dascyllus_marginatus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_46.jpg/800px-Pomac%C3%A9ntrido_%28Dascyllus_marginatus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_46.jpg"
     }
   },
   {
@@ -7103,7 +7285,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 364,
       "gbifOccurrenceCount": 534,
-      "enrichedAt": "2026-03-18T12:38:31.508Z"
+      "enrichedAt": "2026-03-18T12:38:31.508Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Blacktailed_dascyllus_%28Dascyllus_melanurus%29_%2848651647008%29.jpg/800px-Blacktailed_dascyllus_%28Dascyllus_melanurus%29_%2848651647008%29.jpg"
     }
   },
   {
@@ -7148,7 +7331,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 4398,
       "gbifOccurrenceCount": 8831,
-      "enrichedAt": "2026-03-18T12:38:35.140Z"
+      "enrichedAt": "2026-03-18T12:38:35.140Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Three-spot_Dascyllus%2C_No_Name%2C_Ko_Tao%2C_Surat_Thani%2C_Thailand_imported_from_iNaturalist_photo_332636408.jpg/800px-Three-spot_Dascyllus%2C_No_Name%2C_Ko_Tao%2C_Surat_Thani%2C_Thailand_imported_from_iNaturalist_photo_332636408.jpg"
     }
   },
   {
@@ -7193,7 +7377,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2097,
       "gbifOccurrenceCount": 2524,
-      "enrichedAt": "2026-03-18T12:38:38.625Z"
+      "enrichedAt": "2026-03-18T12:38:38.625Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Dendrochirus_zebra_342182754.jpg/800px-Dendrochirus_zebra_342182754.jpg"
     }
   },
   {
@@ -7227,7 +7412,8 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/196448786/medium.jpg"
       ],
       "inatObservationCount": 6733,
-      "enrichedAt": "2026-03-18T12:38:42.242Z"
+      "enrichedAt": "2026-03-18T12:38:42.242Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Diodon%2C_Mauritius.jpg/800px-Diodon%2C_Mauritius.jpg"
     }
   },
   {
@@ -7272,7 +7458,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 414,
       "gbifOccurrenceCount": 20077,
-      "enrichedAt": "2026-03-18T12:38:45.132Z"
+      "enrichedAt": "2026-03-18T12:38:45.132Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Elacatinus_evelynae.jpg/800px-Elacatinus_evelynae.jpg"
     }
   },
   {
@@ -7317,7 +7504,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 154,
       "gbifOccurrenceCount": 27015,
-      "enrichedAt": "2026-03-18T12:38:49.465Z"
+      "enrichedAt": "2026-03-18T12:38:49.465Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Elacatinus_evelynae.jpg/800px-Elacatinus_evelynae.jpg"
     }
   },
   {
@@ -7351,7 +7539,8 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/36180520/medium.jpg"
       ],
       "inatObservationCount": 2319,
-      "enrichedAt": "2026-03-18T12:38:53.263Z"
+      "enrichedAt": "2026-03-18T12:38:53.263Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Epibulus_insidiator.jpg/800px-Epibulus_insidiator.jpg"
     }
   },
   {
@@ -7396,7 +7585,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 223,
       "gbifOccurrenceCount": 27133,
-      "enrichedAt": "2026-03-18T12:38:55.891Z"
+      "enrichedAt": "2026-03-18T12:38:55.891Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Epinephelus_adscensionis1.jpg/800px-Epinephelus_adscensionis1.jpg"
     }
   },
   {
@@ -7441,7 +7631,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 523,
       "gbifOccurrenceCount": 31633,
-      "enrichedAt": "2026-03-18T12:38:59.545Z"
+      "enrichedAt": "2026-03-18T12:38:59.545Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Epinephelus_guttatus1.jpg/800px-Epinephelus_guttatus1.jpg"
     }
   },
   {
@@ -7486,7 +7677,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3,
       "gbifOccurrenceCount": 2,
-      "enrichedAt": "2026-03-18T12:39:03.254Z"
+      "enrichedAt": "2026-03-18T12:39:03.254Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/FMIB_42458_Epinephelus_quarnus_Seale%3B_from_the_Young.jpeg/800px-FMIB_42458_Epinephelus_quarnus_Seale%3B_from_the_Young.jpeg"
     }
   },
   {
@@ -7531,7 +7723,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1029,
       "gbifOccurrenceCount": 32602,
-      "enrichedAt": "2026-03-18T12:39:06.950Z"
+      "enrichedAt": "2026-03-18T12:39:06.950Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Blacktip_Grouper_%28Epinephelus_fasciatus%29_%286132696543%29_%28cropped%29.jpg/800px-Blacktip_Grouper_%28Epinephelus_fasciatus%29_%286132696543%29_%28cropped%29.jpg"
     }
   },
   {
@@ -7576,7 +7769,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 760,
       "gbifOccurrenceCount": 80,
-      "enrichedAt": "2026-03-18T12:39:10.701Z"
+      "enrichedAt": "2026-03-18T12:39:10.701Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Equetus_lanceolatus_in_Madagascar_Reef.jpg/800px-Equetus_lanceolatus_in_Madagascar_Reef.jpg"
     }
   },
   {
@@ -7621,7 +7815,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 115,
       "gbifOccurrenceCount": 21001,
-      "enrichedAt": "2026-03-18T12:39:14.493Z"
+      "enrichedAt": "2026-03-18T12:39:14.493Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Equetus_lanceolatus_in_Madagascar_Reef.jpg/800px-Equetus_lanceolatus_in_Madagascar_Reef.jpg"
     }
   },
   {
@@ -7666,7 +7861,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1069,
       "gbifOccurrenceCount": 22271,
-      "enrichedAt": "2026-03-18T12:39:18.527Z"
+      "enrichedAt": "2026-03-18T12:39:18.527Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Spotted-drum.png/800px-Spotted-drum.png"
     }
   },
   {
@@ -7711,7 +7907,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 42,
       "gbifOccurrenceCount": 142,
-      "enrichedAt": "2026-03-18T12:39:22.558Z"
+      "enrichedAt": "2026-03-18T12:39:22.558Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ShoriIHZ.jpg/800px-ShoriIHZ.jpg"
     }
   },
   {
@@ -7750,7 +7947,8 @@ const data: Fish[] = [
         "especie": "Neoniphon sammara"
       },
       "gbifOccurrenceCount": 38,
-      "enrichedAt": "2026-03-18T12:39:26.409Z"
+      "enrichedAt": "2026-03-18T12:39:26.409Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Neoniphon_sammara_R%C3%A9union.jpg/800px-Neoniphon_sammara_R%C3%A9union.jpg"
     }
   },
   {
@@ -7789,7 +7987,8 @@ const data: Fish[] = [
         "especie": "Neoniphon aurolineatus"
       },
       "gbifOccurrenceCount": 8,
-      "enrichedAt": "2026-03-18T12:39:30.060Z"
+      "enrichedAt": "2026-03-18T12:39:30.060Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Holocentrus_adscensionis_-_pone.0010676.g033.png/800px-Holocentrus_adscensionis_-_pone.0010676.g033.png"
     }
   },
   {
@@ -7951,7 +8150,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 6,
       "gbifOccurrenceCount": 311,
-      "enrichedAt": "2026-03-18T12:39:44.201Z"
+      "enrichedAt": "2026-03-18T12:39:44.201Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Masked_Angelfish_%28Genicanthus_personatus%29_-_GRB.JPG/800px-Masked_Angelfish_%28Genicanthus_personatus%29_-_GRB.JPG"
     }
   },
   {
@@ -7996,7 +8196,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 222,
       "gbifOccurrenceCount": 1257,
-      "enrichedAt": "2026-03-18T12:39:47.883Z"
+      "enrichedAt": "2026-03-18T12:39:47.883Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Eye-bar_goby_-_Gnatholepis_anjerensis_%28Bleeker_1851%29.jpg/800px-Eye-bar_goby_-_Gnatholepis_anjerensis_%28Bleeker_1851%29.jpg"
     }
   },
   {
@@ -8041,7 +8242,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 215,
       "gbifOccurrenceCount": 600,
-      "enrichedAt": "2026-03-18T12:39:52.523Z"
+      "enrichedAt": "2026-03-18T12:39:52.523Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Lemon_Goby.jpg/800px-Lemon_Goby.jpg"
     }
   },
   {
@@ -8086,7 +8288,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3561,
       "gbifOccurrenceCount": 23627,
-      "enrichedAt": "2026-03-18T12:39:57.161Z"
+      "enrichedAt": "2026-03-18T12:39:57.161Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pacific_bird_wrasse_female_%28Gomphosus_varius%29.jpg/800px-Pacific_bird_wrasse_female_%28Gomphosus_varius%29.jpg"
     }
   },
   {
@@ -8131,7 +8334,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 841,
       "gbifOccurrenceCount": 21734,
-      "enrichedAt": "2026-03-18T12:40:00.871Z"
+      "enrichedAt": "2026-03-18T12:40:00.871Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Gramma_loreto%2C_Adult_%28Royal_Gramma%29.jpg/800px-Gramma_loreto%2C_Adult_%28Royal_Gramma%29.jpg"
     }
   },
   {
@@ -8176,7 +8380,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 629,
       "gbifOccurrenceCount": 1551,
-      "enrichedAt": "2026-03-18T12:40:04.941Z"
+      "enrichedAt": "2026-03-18T12:40:04.941Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/NunoS.jpg/800px-NunoS.jpg"
     }
   },
   {
@@ -8221,7 +8426,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 4819,
       "gbifOccurrenceCount": 54930,
-      "enrichedAt": "2026-03-18T12:40:08.822Z"
+      "enrichedAt": "2026-03-18T12:40:08.822Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Haemulon_flavolineatum_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_2.jpg/800px-Haemulon_flavolineatum_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_2.jpg"
     }
   },
   {
@@ -8259,7 +8465,8 @@ const data: Fish[] = [
         "genero": "Haemulon",
         "especie": "Haemulon sciurus"
       },
-      "enrichedAt": "2026-03-18T12:40:12.921Z"
+      "enrichedAt": "2026-03-18T12:40:12.921Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Blue_Stripe_Grunt._Haemulon_sciurus.jpg/800px-Blue_Stripe_Grunt._Haemulon_sciurus.jpg"
     }
   },
   {
@@ -8284,7 +8491,11 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESMARINHOS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T22:25:39.671Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Halichoeres_marginatus_EOL.jpg/800px-Halichoeres_marginatus_EOL.jpg"
+    }
   },
   {
     "id": 373,
@@ -8328,7 +8539,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1585,
       "gbifOccurrenceCount": 34434,
-      "enrichedAt": "2026-03-18T12:40:19.182Z"
+      "enrichedAt": "2026-03-18T12:40:19.182Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Halichoeres_marginatus_EOL.jpg/800px-Halichoeres_marginatus_EOL.jpg"
     }
   },
   {
@@ -8397,7 +8609,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1197,
       "gbifOccurrenceCount": 8982,
-      "enrichedAt": "2026-03-18T12:40:25.557Z"
+      "enrichedAt": "2026-03-18T12:40:25.557Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/L%C3%A1brido_%28Hemigymnus_fasciatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_222.jpg/800px-L%C3%A1brido_%28Hemigymnus_fasciatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_222.jpg"
     }
   },
   {
@@ -8442,7 +8655,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2985,
       "gbifOccurrenceCount": 11773,
-      "enrichedAt": "2026-03-18T12:40:29.243Z"
+      "enrichedAt": "2026-03-18T12:40:29.243Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7%D1%8B%D0%B9_%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D1%83%D0%B1%D1%8B%D0%B9_%D0%B3%D1%83%D0%B1%D0%B0%D0%BD._Hemigymnus_melapterus._DSCF7043WI.jpg/800px-%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7%D1%8B%D0%B9_%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D1%83%D0%B1%D1%8B%D0%B9_%D0%B3%D1%83%D0%B1%D0%B0%D0%BD._Hemigymnus_melapterus._DSCF7043WI.jpg"
     }
   },
   {
@@ -8565,7 +8779,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1822,
       "gbifOccurrenceCount": 4137,
-      "enrichedAt": "2026-03-18T12:40:41.005Z"
+      "enrichedAt": "2026-03-18T12:40:41.005Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pennant_coralfish_melb_aquarium_edit2.jpg/800px-Pennant_coralfish_melb_aquarium_edit2.jpg"
     }
   },
   {
@@ -8610,7 +8825,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 663,
       "gbifOccurrenceCount": 24663,
-      "enrichedAt": "2026-03-18T12:40:45.070Z"
+      "enrichedAt": "2026-03-18T12:40:45.070Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Glasseye_%28Heteropriacanthus_cruentatus%29.jpg/800px-Glasseye_%28Heteropriacanthus_cruentatus%29.jpg"
     }
   },
   {
@@ -8655,7 +8871,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 649,
       "gbifOccurrenceCount": 27917,
-      "enrichedAt": "2026-03-18T12:40:49.374Z"
+      "enrichedAt": "2026-03-18T12:40:49.374Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Holacanthus_bermudensis_%28cropped%29.jpg/800px-Holacanthus_bermudensis_%28cropped%29.jpg"
     }
   },
   {
@@ -8700,7 +8917,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 2233,
       "gbifOccurrenceCount": 39874,
-      "enrichedAt": "2026-03-18T12:40:53.464Z"
+      "enrichedAt": "2026-03-18T12:40:53.464Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Queen_Angelfish.jpg/800px-Queen_Angelfish.jpg"
     }
   },
   {
@@ -8745,7 +8963,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1189,
       "gbifOccurrenceCount": 38469,
-      "enrichedAt": "2026-03-18T12:40:57.242Z"
+      "enrichedAt": "2026-03-18T12:40:57.242Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Holacanthus_tricolor_1.jpg/800px-Holacanthus_tricolor_1.jpg"
     }
   },
   {
@@ -8790,7 +9009,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 3,
       "gbifOccurrenceCount": 1,
-      "enrichedAt": "2026-03-18T12:41:00.765Z"
+      "enrichedAt": "2026-03-18T12:41:00.765Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/AnthiasFronticinctusFord.jpg/800px-AnthiasFronticinctusFord.jpg"
     }
   },
   {
@@ -8907,7 +9127,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1107,
       "gbifOccurrenceCount": 112,
-      "enrichedAt": "2026-03-18T12:41:12.510Z"
+      "enrichedAt": "2026-03-18T12:41:12.510Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fish3120.jpg/800px-Fish3120.jpg"
     }
   },
   {
@@ -8952,7 +9173,8 @@ const data: Fish[] = [
       ],
       "inatObservationCount": 1866,
       "gbifOccurrenceCount": 27618,
-      "enrichedAt": "2026-03-18T12:41:16.328Z"
+      "enrichedAt": "2026-03-18T12:41:16.328Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fish3120.jpg/800px-Fish3120.jpg"
     }
   },
   {
