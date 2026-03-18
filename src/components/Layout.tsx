@@ -72,13 +72,6 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col bg-surface">
       <header className="bg-card sticky top-0 z-40 border-b border-border">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-4">
-          <button
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="lg:hidden p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
-            aria-label="Menu"
-          >
-            <Menu size={20} />
-          </button>
           <Link to="/" className="flex items-center gap-2.5 font-bold text-text tracking-tight">
             <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
               <Waves size={16} className="text-primary" />
@@ -95,6 +88,13 @@ export default function Layout() {
               aria-label={dark ? 'Modo claro' : 'Modo escuro'}
             >
               {dark ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+            <button
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              className="lg:hidden p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
+              aria-label="Menu"
+            >
+              <Menu size={20} />
             </button>
           </div>
         </div>
