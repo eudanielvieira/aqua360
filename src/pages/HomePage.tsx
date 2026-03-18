@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Heart } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
@@ -200,6 +200,18 @@ export default function HomePage() {
           Dados enriquecidos via GBIF, WoRMS e iNaturalist
         </p>
       </div>
+
+      <footer className="border-t border-border text-text-secondary text-center py-6 text-xs">
+        <div className="flex items-center justify-center gap-2 mb-1">
+          <Waves size={12} className="text-primary" />
+          <span className="font-semibold text-text">Aqua360</span>
+        </div>
+        <p>O seu guia completo de aquarismo</p>
+        <Link to="/apoie" className="inline-flex items-center gap-1.5 mt-3 px-4 py-1.5 rounded-lg bg-rose-500/10 text-rose-500 font-semibold hover:bg-rose-500/20 transition-colors">
+          <Heart size={12} fill="currentColor" />
+          Apoie o projeto
+        </Link>
+      </footer>
     </div>
   )
 }
