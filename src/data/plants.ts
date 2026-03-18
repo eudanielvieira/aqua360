@@ -2541,7 +2541,9 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 2,
       "enrichedAt": "2026-03-18T12:59:27.690Z",
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/8151785/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/154847402/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57413724/medium.jpg"
       ]
     }
   },
@@ -4474,7 +4476,9 @@ const data: Plant[] = [
         "especie": "Sagittaria subulata"
       },
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/159249253/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/441212246/medium.jpg",
+        "https://static.inaturalist.org/photos/52728332/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/522413704/medium.jpg"
       ],
       "inatObservationCount": 19,
       "gbifOccurrenceCount": 268,
@@ -5240,7 +5244,9 @@ const data: Plant[] = [
         "especie": "Aquarius grisebachii"
       },
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/552267307/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/162068257/medium.jpeg",
+        "https://static.inaturalist.org/photos/468004338/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/216027056/medium.jpg"
       ]
     }
   },
@@ -5572,7 +5578,9 @@ const data: Plant[] = [
         "especie": "Echinodorus barthii"
       },
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/453039828/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/238165902/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/140489182/medium.jpg",
+        "https://static.inaturalist.org/photos/268569746/medium.jpg"
       ]
     }
   },
@@ -5686,7 +5694,9 @@ const data: Plant[] = [
         "especie": "Helanthium tenellum"
       },
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/110037593/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478333/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221348002/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/424840018/medium.jpeg"
       ]
     }
   },
