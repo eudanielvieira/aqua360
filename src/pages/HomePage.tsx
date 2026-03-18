@@ -87,7 +87,7 @@ export default function HomePage() {
   const showBanner = canInstall && !dismissed
 
   return (
-    <div className="min-h-screen bg-surface">
+    <div className="min-h-screen bg-surface flex flex-col">
       {showBanner && (
         <div className="bg-primary">
           <div className="max-w-3xl mx-auto px-4 py-4 flex items-center gap-4">
@@ -131,7 +131,7 @@ export default function HomePage() {
         </div>
       )}
 
-      <div className="max-w-3xl mx-auto px-4 pt-10 sm:pt-16 pb-16">
+      <div className="max-w-3xl mx-auto px-4 pt-4 sm:pt-16 pb-16 flex-1">
         <div className="flex items-start justify-between mb-8">
           <div>
             <div className="flex items-center gap-3 mb-3">
