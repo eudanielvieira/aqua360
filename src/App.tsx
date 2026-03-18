@@ -16,8 +16,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route element={<Layout />}>
-          <Route path="/" element={<HomePage />} />
           <Route path="/peixes" element={<FishListPage />} />
           <Route path="/peixes/:slug" element={<FishCategoryPage />} />
           <Route path="/peixes/:slug/:id" element={<FishDetailPage />} />
