@@ -11,6 +11,8 @@ import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import SimilarSpecies from '../components/SimilarSpecies'
 import SpeciesBadges from '../components/SpeciesBadges'
+import FavoriteButton from '../components/FavoriteButton'
+import SEO from '../components/SEO'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -51,7 +53,11 @@ export default function FishDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
+      <SEO title={fish.nomePopular} description={`${fish.nomePopular} (${fish.nomeCientifico}) - pH ${fish.ph}, ${fish.temperatura}. ${fish.comportamento?.slice(0, 100)}`} />
+      <div className="flex items-start justify-between">
+        <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
+        <FavoriteButton id={fish.id} type="fish" slug={slug} />
+      </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">

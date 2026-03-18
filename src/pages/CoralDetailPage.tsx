@@ -9,6 +9,7 @@ import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
+import FavoriteButton from '../components/FavoriteButton'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -58,7 +59,10 @@ export default function CoralDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title={coral.nomePopular} backTo="/corais" />
+      <div className="flex items-start justify-between">
+        <PageHeader title={coral.nomePopular} backTo="/corais" />
+        <FavoriteButton id={coral.id} type="coral" />
+      </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         {enrichment?.inatPhotoUrls?.[0] ? (

@@ -2,7 +2,7 @@ import { Heart, Coffee, QrCode, Copy, Check } from 'lucide-react'
 import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
 
-const PIX_KEY = '' // Daniel vai preencher com sua chave Pix
+const PIX_KEY = 'c2b5d366-6596-42cc-b23a-0a3dd01c64ce'
 
 export default function SupportPage() {
   const [copied, setCopied] = useState(false)

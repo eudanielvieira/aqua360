@@ -9,6 +9,7 @@ import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import SimilarSpecies from '../components/SimilarSpecies'
+import FavoriteButton from '../components/FavoriteButton'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -48,7 +49,10 @@ export default function PlantDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title={plant.nomePopular} backTo="/plantas" />
+      <div className="flex items-start justify-between">
+        <PageHeader title={plant.nomePopular} backTo="/plantas" />
+        <FavoriteButton id={plant.id} type="plant" />
+      </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">

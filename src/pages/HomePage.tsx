@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Heart } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, Search, BookOpen, GraduationCap, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Heart } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
@@ -64,12 +64,39 @@ const sections = [
   },
   {
     path: '/montar-aquario',
-    label: 'Montar Aquario',
+    label: 'Montador de Aquario',
     desc: 'Sugestoes inteligentes baseadas no peixe principal',
     icon: Sparkles,
     color: 'text-purple-500',
     bg: 'bg-purple-500/10',
     hoverBorder: 'hover:border-purple-200 dark:hover:border-purple-500/30',
+  },
+  {
+    path: '/guias',
+    label: 'Guias de Montagem',
+    desc: 'Passo a passo e guia de ciclagem',
+    icon: GraduationCap,
+    color: 'text-indigo-500',
+    bg: 'bg-indigo-500/10',
+    hoverBorder: 'hover:border-indigo-200 dark:hover:border-indigo-500/30',
+  },
+  {
+    path: '/glossario',
+    label: 'Glossario',
+    desc: '40 termos essenciais de aquarismo',
+    icon: BookOpen,
+    color: 'text-slate-500',
+    bg: 'bg-slate-500/10',
+    hoverBorder: 'hover:border-slate-200 dark:hover:border-slate-500/30',
+  },
+  {
+    path: '/busca',
+    label: 'Busca Global',
+    desc: 'Pesquise em todas as secoes',
+    icon: Search,
+    color: 'text-gray-500',
+    bg: 'bg-gray-500/10',
+    hoverBorder: 'hover:border-gray-200 dark:hover:border-gray-500/30',
   },
 ]
 

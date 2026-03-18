@@ -8,6 +8,9 @@ import {
   Calculator,
   ArrowLeftRight,
   Sparkles,
+  Search,
+  BookOpen,
+  GraduationCap,
   Menu,
   X,
   Home,
@@ -25,7 +28,10 @@ const navItems = [
   { path: '/doencas', label: 'Doenças', icon: HeartPulse },
   { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
   { path: '/compatibilidade', label: 'Compatibilidade', icon: ArrowLeftRight },
-  { path: '/montar-aquario', label: 'Montar Aquario', icon: Sparkles },
+  { path: '/montar-aquario', label: 'Montador', icon: Sparkles },
+  { path: '/guias', label: 'Guias', icon: GraduationCap },
+  { path: '/glossario', label: 'Glossario', icon: BookOpen },
+  { path: '/busca', label: 'Busca', icon: Search },
 ]
 
 export default function Layout() {

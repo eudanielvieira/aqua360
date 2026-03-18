@@ -13,6 +13,9 @@ import DiseaseDetailPage from './pages/DiseaseDetailPage'
 import CalculatorsPage from './pages/CalculatorsPage'
 import CompatibilityPage from './pages/CompatibilityPage'
 import AquariumBuilderPage from './pages/AquariumBuilderPage'
+import SearchPage from './pages/SearchPage'
+import GlossaryPage from './pages/GlossaryPage'
+import GuidesPage from './pages/GuidesPage'
 import SupportPage from './pages/SupportPage'
 
 export default function App() {
@@ -33,6 +36,9 @@ export default function App() {
           <Route path="/calculadoras" element={<CalculatorsPage />} />
           <Route path="/compatibilidade" element={<CompatibilityPage />} />
           <Route path="/montar-aquario" element={<AquariumBuilderPage />} />
+          <Route path="/busca" element={<SearchPage />} />
+          <Route path="/glossario" element={<GlossaryPage />} />
+          <Route path="/guias" element={<GuidesPage />} />
           <Route path="/apoie" element={<SupportPage />} />
         </Route>
       </Routes>
