@@ -83,7 +83,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
 
 export default function CalculatorsPage() {
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Calculadoras" subtitle="Ferramentas úteis para o seu aquário" />
 
       <div className="grid gap-3">

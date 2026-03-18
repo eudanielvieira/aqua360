@@ -95,14 +95,14 @@ export default function SearchPage() {
 
   if (loading) {
     return (
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
       </div>
     )
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Busca" subtitle="Pesquise em todas as secoes" />
 
       <div className="relative mb-6">

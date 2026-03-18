@@ -29,7 +29,7 @@ export default function PlantListPage() {
 
   if (loading) {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-6">
+      <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="flex items-center justify-center py-20 text-text-secondary">
           Carregando...
         </div>
@@ -38,7 +38,7 @@ export default function PlantListPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6">
+    <div className="max-w-3xl mx-auto px-4 py-6">
       <PageHeader title="Plantas" subtitle={`${filtered.length} espécies encontradas`} />
 
       <div className="mb-6">

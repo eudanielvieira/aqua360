@@ -37,7 +37,7 @@ export default function FishCategoryPage() {
 
   if (loading) {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-6">
+      <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="flex items-center justify-center py-20 text-text-secondary">
           Carregando...
         </div>
@@ -46,7 +46,7 @@ export default function FishCategoryPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6">
+    <div className="max-w-3xl mx-auto px-4 py-6">
       <PageHeader
         title={category?.label || 'Peixes'}
         subtitle={`${filtered.length} espécies encontradas`}

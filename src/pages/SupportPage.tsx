@@ -15,7 +15,7 @@ export default function SupportPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Apoie o Aqua360" />
 
       <div className="bg-card rounded-2xl shadow-sm shadow-black/5 p-6 sm:p-8 text-center">

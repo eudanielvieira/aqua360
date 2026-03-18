@@ -64,7 +64,7 @@ export default function GlossaryPage() {
   }, {})
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Glossario" subtitle={`${terms.length} termos de aquarismo`} />
 
       <div className="relative mb-6">

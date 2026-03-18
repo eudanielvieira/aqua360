@@ -69,14 +69,14 @@ export default function CoralListPage() {
 
   if (loading) {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
       </div>
     )
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Corais e Anemonas" subtitle={`${corals.length} especies catalogadas`} />
 
       <div className="mb-6">

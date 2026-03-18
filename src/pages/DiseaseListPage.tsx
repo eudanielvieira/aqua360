@@ -82,7 +82,7 @@ export default function DiseaseListPage() {
 
   if (loading) {
     return (
-      <div className="max-w-4xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">
           Carregando...
         </div>
@@ -91,7 +91,7 @@ export default function DiseaseListPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Doenças e Tratamentos" subtitle={`${diseases.length} doenças catalogadas`} />
 
       <div className="mb-6">
