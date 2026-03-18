@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral, Disease } from '../types'
 import { getPrimaryImage } from '../utils/image'
@@ -33,7 +33,8 @@ const fishTypes: Record<string, string> = {
 export default function SearchPage() {
   const [items, setItems] = useState<SearchItem[]>([])
   const [loading, setLoading] = useState(true)
-  const [query, setQuery] = useState('')
+  const [searchParams] = useSearchParams()
+  const [query, setQuery] = useState(searchParams.get('q') || '')
 
   useEffect(() => {
     Promise.all([

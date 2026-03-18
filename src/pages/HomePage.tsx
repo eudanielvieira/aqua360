@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, Search, BookOpen, GraduationCap, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Heart } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
@@ -89,15 +90,6 @@ const sections = [
     bg: 'bg-slate-500/10',
     hoverBorder: 'hover:border-slate-200 dark:hover:border-slate-500/30',
   },
-  {
-    path: '/busca',
-    label: 'Busca Global',
-    desc: 'Pesquise em todas as secoes',
-    icon: Search,
-    color: 'text-gray-500',
-    bg: 'bg-gray-500/10',
-    hoverBorder: 'hover:border-gray-200 dark:hover:border-gray-500/30',
-  },
 ]
 
 const stats = [
@@ -111,6 +103,8 @@ export default function HomePage() {
   const { dark, toggle } = useDarkMode()
   const { canInstall, justInstalled, install } = useInstallPWA()
   const [dismissed, setDismissed] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
+  const navigate = useNavigate()
   const showBanner = canInstall && !dismissed
 
   return (
@@ -180,6 +174,18 @@ export default function HomePage() {
           >
             {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
+        </div>
+
+        <div className="relative mb-8">
+          <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-text-secondary" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter' && searchQuery.trim()) navigate(`/busca?q=${encodeURIComponent(searchQuery.trim())}`) }}
+            placeholder="Buscar peixes, plantas, corais, doencas..."
+            className="w-full pl-11 pr-4 py-3 rounded-2xl border border-border bg-card text-sm shadow-sm shadow-black/5 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all placeholder:text-text-secondary/60"
+          />
         </div>
 
         <div className="grid grid-cols-4 gap-3 mb-10">
