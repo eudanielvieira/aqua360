@@ -5,6 +5,7 @@ import type { Fish } from '../types'
 import { getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
+import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
@@ -26,7 +27,7 @@ export default function FishDetailPage() {
 
   if (loading) {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-6">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">
           Carregando...
         </div>
@@ -36,20 +37,21 @@ export default function FishDetailPage() {
 
   if (!fish) {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-6">
+      <div className="max-w-3xl mx-auto px-4 py-8">
         <PageHeader title="Peixe não encontrado" backTo={`/peixes/${slug}`} />
       </div>
     )
   }
 
   const enrichment = fish.enrichment
+  const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || fish.posicaoAquario
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-6">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
 
-      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-        <div className="aspect-video max-h-80 overflow-hidden bg-gray-100">
+      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 border border-border overflow-hidden">
+        <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
           <img
             src={getPrimaryImage(fish.imagem, enrichment?.inatPhotoUrls)}
             alt={fish.nomePopular}
@@ -59,13 +61,31 @@ export default function FishDetailPage() {
               target.src = '/images/avatar.jpg'
             }}
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+          <div className="absolute bottom-4 left-5 right-5">
+            <p className="text-white/80 text-sm italic drop-shadow-lg">{fish.nomeCientifico}</p>
+          </div>
         </div>
 
-        <div className="p-5">
+        <div className="p-6 sm:p-8">
           {enrichment?.taxonomia && (
-            <div className="mb-5 pb-5 border-b border-gray-100">
-              <h3 className="text-xs font-semibold text-primary uppercase tracking-wide mb-3">Classificação Taxonômica</h3>
+            <div className="mb-6 pb-6 border-b border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Classificação Taxonômica</h3>
               <TaxonomyTree taxonomia={enrichment.taxonomia} />
+            </div>
+          )}
+
+          {hasParams && (
+            <div className="mb-6 pb-6 border-b border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Parâmetros</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                <ParamCard icon="Droplets" label="pH" value={fish.ph} />
+                <ParamCard icon="Gauge" label="GH" value={fish.gh} />
+                <ParamCard icon="Gauge" label="KH" value={fish.kh} />
+                <ParamCard icon="Thermometer" label="Temperatura" value={fish.temperatura} />
+                <ParamCard icon="Ruler" label="Tamanho Adulto" value={fish.tamanhoAdulto} />
+                <ParamCard icon="Layers" label="Posição" value={fish.posicaoAquario} />
+              </div>
             </div>
           )}
 
@@ -77,12 +97,6 @@ export default function FishDetailPage() {
             <DetailRow label="Origem" value={fish.origem} />
             <DetailRow label="Características" value={fish.caracteristica} />
             <DetailRow label="Comportamento" value={fish.comportamento} />
-            <DetailRow label="pH" value={fish.ph} />
-            <DetailRow label="GH" value={fish.gh} />
-            <DetailRow label="KH" value={fish.kh} />
-            <DetailRow label="Temperatura" value={fish.temperatura} />
-            <DetailRow label="Tamanho Adulto" value={fish.tamanhoAdulto} />
-            <DetailRow label="Posição no Aquário" value={fish.posicaoAquario} />
             <DetailRow label="Alimentação" value={fish.alimentacao} />
             <DetailRow label="Reprodução" value={fish.reproducao} />
             <DetailRow label="Dimorfismo Sexual" value={fish.diformismoSexual} />
@@ -91,24 +105,24 @@ export default function FishDetailPage() {
           </dl>
 
           {enrichment?.inatPhotoUrls && enrichment.inatPhotoUrls.length > 0 && (
-            <div className="mt-6 pt-5 border-t border-gray-100">
-              <h3 className="text-xs font-semibold text-primary uppercase tracking-wide mb-3">Fotos da Comunidade</h3>
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Fotos da Comunidade</h3>
               <CommunityPhotos photos={enrichment.inatPhotoUrls} />
             </div>
           )}
 
           {enrichment?.gbifTaxonKey && (
-            <div className="mt-6 pt-5 border-t border-gray-100">
-              <h3 className="text-xs font-semibold text-primary uppercase tracking-wide mb-3">Distribuição Geográfica</h3>
-              <Suspense fallback={<div className="w-full h-64 rounded-xl bg-gray-100 animate-pulse" />}>
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Distribuição Geográfica</h3>
+              <Suspense fallback={<div className="w-full h-64 rounded-2xl bg-surface-alt animate-pulse" />}>
                 <DistributionMap taxonKey={enrichment.gbifTaxonKey} />
               </Suspense>
             </div>
           )}
 
           {enrichment && (
-            <div className="mt-6 pt-5 border-t border-gray-100">
-              <h3 className="text-xs font-semibold text-primary uppercase tracking-wide mb-3">Saiba Mais</h3>
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Saiba Mais</h3>
               <ExternalLinks enrichment={enrichment} nomeCientifico={fish.nomeCientifico} />
             </div>
           )}

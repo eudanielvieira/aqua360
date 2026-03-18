@@ -8,7 +8,7 @@ import {
   Menu,
   X,
   Home,
-  ChevronRight,
+  Waves,
 } from 'lucide-react'
 
 const navItems = [
@@ -24,19 +24,21 @@ export default function Layout() {
   const location = useLocation()
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="bg-primary text-white shadow-lg sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-3">
+    <div className="min-h-screen flex flex-col bg-surface">
+      <header className="bg-gradient-to-r from-primary-dark via-primary to-primary-light text-white sticky top-0 z-40 shadow-lg shadow-primary/10">
+        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-4">
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="lg:hidden p-1.5 rounded-lg hover:bg-white/10 transition-colors"
+            className="lg:hidden p-2 rounded-xl hover:bg-white/10 transition-colors"
             aria-label="Menu"
           >
-            <Menu size={22} />
+            <Menu size={20} />
           </button>
-          <Link to="/" className="flex items-center gap-2 font-bold text-lg tracking-tight">
-            <Fish size={24} />
-            Aqua360
+          <Link to="/" className="flex items-center gap-2.5 font-bold text-lg tracking-tight">
+            <div className="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center backdrop-blur-sm">
+              <Waves size={18} />
+            </div>
+            <span className="bg-gradient-to-r from-white to-white/80 bg-clip-text">Aqua360</span>
           </Link>
           <nav className="hidden lg:flex items-center gap-1 ml-8">
             {navItems.map(item => {
@@ -47,8 +49,10 @@ export default function Layout() {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                    active ? 'bg-white/20 font-medium' : 'hover:bg-white/10'
+                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm transition-all duration-200 ${
+                    active
+                      ? 'bg-white/20 font-semibold shadow-sm shadow-white/10 backdrop-blur-sm'
+                      : 'hover:bg-white/10 text-white/80 hover:text-white'
                   }`}
                 >
                   <Icon size={16} />
@@ -62,29 +66,31 @@ export default function Layout() {
 
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-black/40 z-40 lg:hidden"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 lg:hidden"
           onClick={() => setSidebarOpen(false)}
         />
       )}
 
       <aside
-        className={`fixed top-0 left-0 h-full w-72 bg-white shadow-xl z-50 transform transition-transform duration-200 lg:hidden ${
+        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-out lg:hidden ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="flex items-center justify-between px-4 h-14 border-b border-gray-100">
-          <span className="font-bold text-primary flex items-center gap-2">
-            <Fish size={20} />
+        <div className="flex items-center justify-between px-5 h-16 bg-gradient-to-r from-primary-dark to-primary">
+          <span className="font-bold text-white flex items-center gap-2.5">
+            <div className="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center">
+              <Waves size={18} />
+            </div>
             Aqua360
           </span>
           <button
             onClick={() => setSidebarOpen(false)}
-            className="p-1.5 rounded-lg hover:bg-gray-100"
+            className="p-2 rounded-xl text-white/80 hover:bg-white/10 hover:text-white transition-colors"
           >
             <X size={20} />
           </button>
         </div>
-        <nav className="py-2">
+        <nav className="py-3 px-3">
           {navItems.map(item => {
             const Icon = item.icon
             const active = location.pathname === item.path ||
@@ -94,15 +100,14 @@ export default function Layout() {
                 key={item.path}
                 to={item.path}
                 onClick={() => setSidebarOpen(false)}
-                className={`flex items-center gap-3 px-4 py-3 text-sm transition-colors ${
+                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm transition-all duration-200 mb-1 ${
                   active
-                    ? 'bg-primary/5 text-primary font-medium border-r-2 border-primary'
-                    : 'text-text-secondary hover:bg-gray-50'
+                    ? 'bg-primary/10 text-primary font-semibold'
+                    : 'text-text-secondary hover:bg-surface-alt hover:text-text'
                 }`}
               >
                 <Icon size={18} />
                 {item.label}
-                <ChevronRight size={14} className="ml-auto opacity-40" />
               </Link>
             )
           })}
@@ -113,8 +118,12 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="bg-primary-dark text-white/70 text-center py-4 text-xs">
-        Aqua360 - O seu guia de aquarismo
+      <footer className="bg-primary-dark text-white/60 text-center py-6 text-xs">
+        <div className="flex items-center justify-center gap-2 mb-1">
+          <Waves size={14} />
+          <span className="font-semibold text-white/80">Aqua360</span>
+        </div>
+        O seu guia completo de aquarismo
       </footer>
     </div>
   )

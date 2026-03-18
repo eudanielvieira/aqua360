@@ -13,24 +13,25 @@ export default function Card({ to, image, title, subtitle, inatPhotos }: Props) 
   return (
     <Link
       to={to}
-      className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md hover:border-primary/20 transition-all"
+      className="group bg-card rounded-2xl shadow-sm shadow-black/5 border border-border overflow-hidden hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
     >
-      <div className="aspect-square overflow-hidden bg-gray-100">
+      <div className="aspect-square overflow-hidden bg-surface-alt relative">
         <img
           src={getPrimaryImage(image, inatPhotos)}
           alt={title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
           loading="lazy"
           onError={e => {
             const target = e.target as HTMLImageElement
             target.src = '/images/avatar.jpg'
           }}
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
-      <div className="p-3">
-        <h3 className="font-semibold text-sm text-text truncate">{title}</h3>
+      <div className="p-3.5">
+        <h3 className="font-semibold text-sm text-text truncate leading-tight">{title}</h3>
         {subtitle && (
-          <p className="text-xs text-text-secondary italic truncate mt-0.5">{subtitle}</p>
+          <p className="text-xs text-text-secondary italic truncate mt-1">{subtitle}</p>
         )}
       </div>
     </Link>
