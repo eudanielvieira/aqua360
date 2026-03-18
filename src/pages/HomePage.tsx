@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
@@ -53,6 +53,15 @@ const sections = [
     bg: 'bg-amber-500/10',
     hoverBorder: 'hover:border-amber-200 dark:hover:border-amber-500/30',
   },
+  {
+    path: '/compatibilidade',
+    label: 'Compatibilidade',
+    desc: 'Duas espécies podem conviver juntas?',
+    icon: ArrowLeftRight,
+    color: 'text-cyan-500',
+    bg: 'bg-cyan-500/10',
+    hoverBorder: 'hover:border-cyan-200 dark:hover:border-cyan-500/30',
+  },
 ]
 
 const stats = [
@@ -64,7 +73,7 @@ const stats = [
 
 export default function HomePage() {
   const { dark, toggle } = useDarkMode()
-  const { canInstall, isInstalled, install } = useInstallPWA()
+  const { canInstall, justInstalled, install } = useInstallPWA()
   const [dismissed, setDismissed] = useState(false)
   const showBanner = canInstall && !dismissed
 
@@ -98,7 +107,7 @@ export default function HomePage() {
         </div>
       )}
 
-      {isInstalled && !dismissed && (
+      {justInstalled && !dismissed && (
         <div className="bg-success/10 border-b border-success/20">
           <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
             <Smartphone size={16} className="text-success flex-shrink-0" />

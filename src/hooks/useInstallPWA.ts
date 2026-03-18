@@ -8,9 +8,13 @@ interface BeforeInstallPromptEvent extends Event {
 export function useInstallPWA() {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null)
   const [isInstalled, setIsInstalled] = useState(false)
+  const [justInstalled, setJustInstalled] = useState(false)
 
   useEffect(() => {
-    if (window.matchMedia('(display-mode: standalone)').matches) {
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches
+      || (navigator as any).standalone === true
+
+    if (isStandalone) {
       setIsInstalled(true)
       return
     }
@@ -22,6 +26,7 @@ export function useInstallPWA() {
 
     const installedHandler = () => {
       setIsInstalled(true)
+      setJustInstalled(true)
       setDeferredPrompt(null)
     }
 
@@ -41,6 +46,7 @@ export function useInstallPWA() {
     setDeferredPrompt(null)
     if (outcome === 'accepted') {
       setIsInstalled(true)
+      setJustInstalled(true)
       return true
     }
     return false
@@ -49,6 +55,7 @@ export function useInstallPWA() {
   return {
     canInstall: !!deferredPrompt && !isInstalled,
     isInstalled,
+    justInstalled,
     install,
   }
 }

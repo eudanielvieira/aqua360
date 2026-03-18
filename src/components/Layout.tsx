@@ -6,6 +6,7 @@ import {
   Gem,
   HeartPulse,
   Calculator,
+  ArrowLeftRight,
   Menu,
   X,
   Home,
@@ -22,6 +23,7 @@ const navItems = [
   { path: '/corais', label: 'Corais', icon: Gem },
   { path: '/doencas', label: 'Doenças', icon: HeartPulse },
   { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
+  { path: '/compatibilidade', label: 'Compatibilidade', icon: ArrowLeftRight },
 ]
 
 export default function Layout() {

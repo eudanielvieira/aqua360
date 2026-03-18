@@ -11,6 +11,7 @@ import CoralDetailPage from './pages/CoralDetailPage'
 import DiseaseListPage from './pages/DiseaseListPage'
 import DiseaseDetailPage from './pages/DiseaseDetailPage'
 import CalculatorsPage from './pages/CalculatorsPage'
+import CompatibilityPage from './pages/CompatibilityPage'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/doencas" element={<DiseaseListPage />} />
           <Route path="/doencas/:id" element={<DiseaseDetailPage />} />
           <Route path="/calculadoras" element={<CalculatorsPage />} />
+          <Route path="/compatibilidade" element={<CompatibilityPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
