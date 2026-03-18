@@ -70,6 +70,27 @@ export interface Plant {
   enrichment?: EnrichmentData
 }
 
+export type CoralCategory = 'mole' | 'duro-lps' | 'duro-sps' | 'anemona'
+
+export interface Coral {
+  id: number
+  nomePopular: string
+  nomeCientifico: string
+  outrosNome: string
+  familia: string
+  origem: string
+  categoria: CoralCategory
+  iluminacao: string
+  fluxoAgua: string
+  dificuldade: string
+  alimentacao: string
+  compatibilidade: string
+  crescimento: string
+  coloracao: string
+  descricao: string
+  enrichment?: EnrichmentData
+}
+
 export type DiseaseCategory = 'parasita' | 'bacteria' | 'fungo' | 'virus' | 'protozoario' | 'outro'
 
 export interface Disease {

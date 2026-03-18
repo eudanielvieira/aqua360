@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, HeartPulse, Calculator, ArrowRight, Waves } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 
 const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
@@ -20,8 +20,15 @@ const sections = [
     gradient: 'from-emerald-500 to-green-400',
   },
   {
+    path: '/corais',
+    label: 'Corais e Anemonas',
+    desc: '19 especies para aquario marinho',
+    icon: Gem,
+    gradient: 'from-violet-500 to-purple-400',
+  },
+  {
     path: '/doencas',
-    label: 'Doenças e Tratamentos',
+    label: 'Doencas e Tratamentos',
     desc: 'Diagnóstico, sintomas e cuidados',
     icon: HeartPulse,
     gradient: 'from-rose-500 to-pink-400',

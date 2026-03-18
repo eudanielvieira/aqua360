@@ -1,0 +1,154 @@
+import { useState, useEffect, lazy, Suspense } from 'react'
+import { useParams } from 'react-router-dom'
+import type { Coral, CoralCategory } from '../types'
+import { getPrimaryImage } from '../utils/image'
+import PageHeader from '../components/PageHeader'
+import DetailRow from '../components/DetailRow'
+import ParamCard from '../components/ParamCard'
+import TaxonomyTree from '../components/TaxonomyTree'
+import CommunityPhotos from '../components/CommunityPhotos'
+import ExternalLinks from '../components/ExternalLinks'
+import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
+
+const DistributionMap = lazy(() => import('../components/DistributionMap'))
+
+const categoryConfig: Record<CoralCategory, {
+  label: string
+  icon: typeof Gem
+  gradient: string
+}> = {
+  mole: { label: 'Coral Mole', icon: Circle, gradient: 'from-pink-500 to-rose-400' },
+  'duro-lps': { label: 'LPS (Large Polyp Stony)', icon: Hexagon, gradient: 'from-orange-500 to-amber-400' },
+  'duro-sps': { label: 'SPS (Small Polyp Stony)', icon: Gem, gradient: 'from-violet-500 to-purple-400' },
+  anemona: { label: 'Anemona', icon: Shell, gradient: 'from-cyan-500 to-teal-400' },
+}
+
+export default function CoralDetailPage() {
+  const { id } = useParams<{ id: string }>()
+  const [coral, setCoral] = useState<Coral | null>(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    import('../data/corals').then(mod => {
+      setCoral(mod.default.find(c => c.id === Number(id)) || null)
+      setLoading(false)
+    })
+  }, [id])
+
+  if (loading) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
+      </div>
+    )
+  }
+
+  if (!coral) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <PageHeader title="Coral nao encontrado" backTo="/corais" />
+      </div>
+    )
+  }
+
+  const enrichment = coral.enrichment
+  const config = categoryConfig[coral.categoria]
+  const Icon = config.icon
+  const hasParams = coral.iluminacao || coral.fluxoAgua || coral.dificuldade || coral.crescimento
+
+  return (
+    <div className="max-w-3xl mx-auto px-4 py-8">
+      <PageHeader title={coral.nomePopular} backTo="/corais" />
+
+      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
+        {enrichment?.inatPhotoUrls?.[0] ? (
+          <div className="aspect-video max-h-96 overflow-hidden bg-surface-alt relative">
+            <img
+              src={getPrimaryImage('', enrichment.inatPhotoUrls)}
+              alt={coral.nomePopular}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+            <div className="absolute bottom-4 left-5 right-5 flex items-center justify-between">
+              <p className="text-white/80 text-sm italic drop-shadow-lg">{coral.nomeCientifico}</p>
+              <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-gradient-to-r ${config.gradient} text-white text-xs font-bold shadow-md`}>
+                <Icon size={12} />
+                {config.label}
+              </span>
+            </div>
+          </div>
+        ) : (
+          <div className={`h-40 bg-gradient-to-br ${config.gradient} p-6 flex items-center gap-4 relative overflow-hidden`}>
+            <div className="absolute -right-8 -top-8 opacity-10">
+              <Icon size={120} strokeWidth={1} />
+            </div>
+            <div className="w-14 h-14 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
+              <Icon size={28} className="text-white" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white/70 uppercase tracking-wider">{config.label}</span>
+              <h2 className="text-xl font-bold text-white">{coral.nomePopular}</h2>
+              <p className="text-sm text-white/70 italic mt-0.5">{coral.nomeCientifico}</p>
+            </div>
+          </div>
+        )}
+
+        <div className="p-6 sm:p-8">
+          {enrichment?.taxonomia && (
+            <div className="mb-6 pb-6 border-b border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Classificacao Taxonomica</h3>
+              <TaxonomyTree taxonomia={enrichment.taxonomia} />
+            </div>
+          )}
+
+          {hasParams && (
+            <div className="mb-6 pb-6 border-b border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Parametros</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                <ParamCard icon="Sun" label="Iluminacao" value={coral.iluminacao} />
+                <ParamCard icon="Waves" label="Fluxo de Agua" value={coral.fluxoAgua} />
+                <ParamCard icon="Signal" label="Dificuldade" value={coral.dificuldade} />
+                <ParamCard icon="TrendingUp" label="Crescimento" value={coral.crescimento} />
+                <ParamCard icon="Palette" label="Coloracao" value={coral.coloracao} />
+                <ParamCard icon="Users" label="Compatibilidade" value={coral.compatibilidade} />
+              </div>
+            </div>
+          )}
+
+          <dl>
+            <DetailRow label="Descricao" value={coral.descricao} />
+            <DetailRow label="Nome Popular" value={coral.nomePopular} />
+            <DetailRow label="Nome Cientifico" value={coral.nomeCientifico} />
+            <DetailRow label="Outros Nomes" value={coral.outrosNome} />
+            <DetailRow label="Familia" value={coral.familia} />
+            <DetailRow label="Origem" value={coral.origem} />
+            <DetailRow label="Alimentacao" value={coral.alimentacao} />
+          </dl>
+
+          {enrichment?.inatPhotoUrls && enrichment.inatPhotoUrls.length > 1 && (
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Fotos da Comunidade</h3>
+              <CommunityPhotos photos={enrichment.inatPhotoUrls.slice(1)} />
+            </div>
+          )}
+
+          {enrichment?.gbifTaxonKey && (
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Distribuicao Geografica</h3>
+              <Suspense fallback={<div className="w-full h-64 rounded-2xl bg-surface-alt animate-pulse" />}>
+                <DistributionMap taxonKey={enrichment.gbifTaxonKey} />
+              </Suspense>
+            </div>
+          )}
+
+          {enrichment && (
+            <div className="mt-8 pt-6 border-t border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Saiba Mais</h3>
+              <ExternalLinks enrichment={enrichment} nomeCientifico={coral.nomeCientifico} />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}

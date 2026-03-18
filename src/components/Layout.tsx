@@ -3,6 +3,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 import {
   Fish,
   Leaf,
+  Gem,
   HeartPulse,
   Calculator,
   Menu,
@@ -15,7 +16,8 @@ const navItems = [
   { path: '/', label: 'Início', icon: Home },
   { path: '/peixes', label: 'Peixes', icon: Fish },
   { path: '/plantas', label: 'Plantas', icon: Leaf },
-  { path: '/doencas', label: 'Doenças e Tratamentos', icon: HeartPulse },
+  { path: '/corais', label: 'Corais', icon: Gem },
+  { path: '/doencas', label: 'Doenças', icon: HeartPulse },
   { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
 ]
 
