@@ -1,18 +1,17 @@
 import type { Taxonomia } from '../types'
-import { ChevronRight } from 'lucide-react'
 
 interface Props {
   taxonomia: Taxonomia
 }
 
-const labels: { key: keyof Taxonomia; label: string }[] = [
-  { key: 'reino', label: 'Reino' },
-  { key: 'filo', label: 'Filo' },
-  { key: 'classe', label: 'Classe' },
-  { key: 'ordem', label: 'Ordem' },
-  { key: 'familia', label: 'Família' },
-  { key: 'genero', label: 'Gênero' },
-  { key: 'especie', label: 'Espécie' },
+const labels: { key: keyof Taxonomia; label: string; color: string }[] = [
+  { key: 'reino', label: 'Reino', color: 'bg-slate-100 text-slate-700 border-slate-200' },
+  { key: 'filo', label: 'Filo', color: 'bg-blue-50 text-blue-700 border-blue-200' },
+  { key: 'classe', label: 'Classe', color: 'bg-cyan-50 text-cyan-700 border-cyan-200' },
+  { key: 'ordem', label: 'Ordem', color: 'bg-teal-50 text-teal-700 border-teal-200' },
+  { key: 'familia', label: 'Família', color: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  { key: 'genero', label: 'Gênero', color: 'bg-violet-50 text-violet-700 border-violet-200' },
+  { key: 'especie', label: 'Espécie', color: 'bg-primary/10 text-primary border-primary/20' },
 ]
 
 export default function TaxonomyTree({ taxonomia }: Props) {
@@ -21,15 +20,15 @@ export default function TaxonomyTree({ taxonomia }: Props) {
   if (items.length === 0) return null
 
   return (
-    <div className="flex flex-wrap items-center gap-1 text-xs">
-      {items.map((item, i) => (
-        <span key={item.key} className="flex items-center gap-1">
-          {i > 0 && <ChevronRight size={12} className="text-gray-300" />}
-          <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-surface-alt">
-            <span className="text-text-secondary">{item.label}:</span>
-            <span className={`font-medium text-text ${item.key === 'especie' || item.key === 'genero' ? 'italic' : ''}`}>
-              {taxonomia[item.key]}
-            </span>
+    <div className="flex flex-wrap gap-2">
+      {items.map((item) => (
+        <span
+          key={item.key}
+          className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium ${item.color}`}
+        >
+          <span className="opacity-60 font-normal">{item.label}</span>
+          <span className={item.key === 'especie' || item.key === 'genero' ? 'italic font-semibold' : 'font-semibold'}>
+            {taxonomia[item.key]}
           </span>
         </span>
       ))}

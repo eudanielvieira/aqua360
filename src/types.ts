@@ -70,6 +70,8 @@ export interface Plant {
   enrichment?: EnrichmentData
 }
 
+export type DiseaseCategory = 'parasita' | 'bacteria' | 'fungo' | 'virus' | 'protozoario' | 'outro'
+
 export interface Disease {
   id: number
   nome: string
@@ -78,6 +80,7 @@ export interface Disease {
   tratamento: string
   sintoma: string
   imagem: string
+  categoria: DiseaseCategory
 }
 
 export interface Calculator {

@@ -8,34 +8,30 @@ const sections = [
   {
     path: '/peixes',
     label: 'Peixes',
-    desc: `${totalFish} espécies catalogadas`,
+    desc: `${totalFish} espécies de água doce e salgada`,
     icon: Fish,
     gradient: 'from-blue-500 to-cyan-400',
-    bg: 'bg-blue-50',
   },
   {
     path: '/plantas',
     label: 'Plantas Aquáticas',
-    desc: 'Espécies para seu aquário plantado',
+    desc: 'Espécies para o seu aquário plantado',
     icon: Leaf,
     gradient: 'from-emerald-500 to-green-400',
-    bg: 'bg-green-50',
   },
   {
     path: '/doencas',
     label: 'Doenças e Tratamentos',
-    desc: 'Diagnóstico e cuidados',
+    desc: 'Diagnóstico, sintomas e cuidados',
     icon: HeartPulse,
     gradient: 'from-rose-500 to-pink-400',
-    bg: 'bg-rose-50',
   },
   {
     path: '/calculadoras',
     label: 'Calculadoras',
-    desc: '10 ferramentas úteis',
+    desc: '10 ferramentas úteis para o seu aquário',
     icon: Calculator,
     gradient: 'from-amber-500 to-yellow-400',
-    bg: 'bg-amber-50',
   },
 ]
 
@@ -70,17 +66,26 @@ export default function HomePage() {
                 to={section.path}
                 className="group relative bg-card rounded-2xl shadow-md shadow-black/5 border border-border overflow-hidden hover:shadow-xl hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="p-6 flex items-start gap-4">
-                  <div className={`flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br ${section.gradient} flex items-center justify-center shadow-lg shadow-black/10`}>
+                <div className={`h-40 bg-gradient-to-br ${section.gradient} p-6 flex flex-col justify-between relative overflow-hidden`}>
+                  <div className="absolute -right-6 -top-6 opacity-10 group-hover:opacity-15 transition-opacity duration-300">
+                    <Icon size={120} strokeWidth={1} />
+                  </div>
+                  <div className="absolute -right-3 -bottom-3 opacity-5 group-hover:opacity-10 transition-opacity duration-300">
+                    <Icon size={70} strokeWidth={1.5} />
+                  </div>
+
+                  <div className="w-11 h-11 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
                     <Icon size={22} className="text-white" />
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <h2 className="font-bold text-text text-lg">{section.label}</h2>
-                    <p className="text-sm text-text-secondary mt-1">{section.desc}</p>
+
+                  <div>
+                    <h2 className="font-bold text-white text-xl">{section.label}</h2>
+                    <p className="text-sm text-white/70 mt-0.5">{section.desc}</p>
                   </div>
                 </div>
-                <div className="px-6 pb-4">
-                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary group-hover:gap-2.5 transition-all duration-300">
+
+                <div className="px-6 py-4 flex items-center justify-end">
+                  <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:gap-2.5 transition-all duration-300">
                     Explorar
                     <ArrowRight size={14} />
                   </span>

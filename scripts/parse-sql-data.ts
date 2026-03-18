@@ -120,6 +120,30 @@ interface DiseaseRecord {
   tratamento: string
   sintoma: string
   imagem: string
+  categoria: string
+}
+
+const diseaseClassification: Record<string, string> = {
+  'Quilodonelose': 'protozoario',
+  'Ictiofonose': 'fungo',
+  'Furunculose': 'bacteria',
+  'Tricodiniase': 'protozoario',
+  'Tuberculose pisciaria': 'bacteria',
+  'Chondrococcus': 'bacteria',
+  'Buraco na Cabeça': 'protozoario',
+  'Dactilogirose': 'parasita',
+  'Costiose': 'protozoario',
+  'Mofo dos peixes': 'fungo',
+  'Verme Ancora': 'parasita',
+  'Podridao das Nadadeiras': 'bacteria',
+  'Lepidortose': 'bacteria',
+  'Piolho de peixe': 'parasita',
+  'Girodactilose': 'parasita',
+  'Tripanoplasmose': 'protozoario',
+  'Ictio ou Pontos Brancos': 'protozoario',
+  'Plistoforose': 'protozoario',
+  'Oodiniose': 'protozoario',
+  'Exoftalmia': 'outro',
 }
 
 const allFishFields: (keyof Omit<FishRecord, 'id'>)[] = [
@@ -183,12 +207,14 @@ for (const line of lines) {
     disease.tratamento = ''
     disease.sintoma = ''
     disease.imagem = ''
+    disease.categoria = 'outro'
     columns.forEach((col, i) => {
       const key = normalizeColumnName(col)
       if (key in disease) {
         disease[key] = values[i] || ''
       }
     })
+    disease.categoria = diseaseClassification[disease.nome] || 'outro'
     diseases.push(disease as DiseaseRecord)
   }
 }
