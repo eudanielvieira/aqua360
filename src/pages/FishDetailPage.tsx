@@ -10,6 +10,7 @@ import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import SimilarSpecies from '../components/SimilarSpecies'
+import SpeciesBadges from '../components/SpeciesBadges'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -70,6 +71,16 @@ export default function FishDetailPage() {
         </div>
 
         <div className="p-6 sm:p-8">
+          <div className="mb-5 pb-5 border-b border-border/60">
+            <SpeciesBadges
+              comportamento={fish.comportamento}
+              alimentacao={fish.alimentacao}
+              tipo={fish.tipo}
+              outrasInformacoes={fish.outrasInformacoes}
+              caracteristica={fish.caracteristica}
+            />
+          </div>
+
           {enrichment?.taxonomia && (
             <div className="mb-6 pb-6 border-b border-border/60">
               <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Classificação Taxonômica</h3>

@@ -4,7 +4,7 @@ import type { Fish } from '../types'
 import { checkCompatibility, type CompatibilityResult, type SpeciesParams } from '../utils/compatibility'
 import { getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
-import { Search, X, Plus, CheckCircle, AlertTriangle, XCircle, Info, Trash2 } from 'lucide-react'
+import { Search, X, Plus, CheckCircle, AlertTriangle, XCircle, Info, Trash2, Droplets, Waves, Skull, Heart, Beef, Salad, Cookie } from 'lucide-react'
 
 interface SpeciesOption extends SpeciesParams {
   id: number
@@ -33,6 +33,10 @@ function toOption(fish: Fish): SpeciesOption {
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}
+
+function isFreshwater(tipo: string): boolean {
+  return tipo.includes('DULCI')
 }
 
 function SpeciesSearch({ species, selectedIds, onAdd }: {
@@ -164,13 +168,6 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
     { key: 'tipo', label: 'Tipo de Agua' },
   ]
 
-  const tipoLabel = (t: string) => {
-    if (!t) return '-'
-    if (t.includes('DULCI')) return 'Doce'
-    if (t.includes('MARINHO')) return 'Salgada'
-    return t
-  }
-
   return (
     <div className="mt-6 bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
       <div className="p-4 pb-2">
@@ -199,14 +196,9 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
             </tr>
           </thead>
           <tbody>
-            {params.map(param => {
-              const values = selected.map(s => {
-                const val = s[param.key]
-                if (param.key === 'tipo') return tipoLabel(val as string || '')
-                return (val as string) || '-'
-              })
+            {params.filter(p => p.key !== 'tipo').map(param => {
+              const values = selected.map(s => (s[param.key] as string) || '-')
               const conflict = hasConflict(values)
-
               return (
                 <tr key={param.key} className={`border-b border-border/40 ${conflict ? 'bg-red-500/3' : ''}`}>
                   <td className="p-3 font-semibold text-text-secondary">{param.label}</td>
@@ -219,15 +211,37 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
               )
             })}
             <tr className="border-b border-border/40">
+              <td className="p-3 font-semibold text-text-secondary">Agua</td>
+              {selected.map(s => {
+                const fresh = isFreshwater(s.tipo || '')
+                return (
+                  <td key={s.id} className="p-3 text-center">
+                    <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${fresh ? 'bg-cyan-500/10 text-cyan-600' : 'bg-blue-500/10 text-blue-600'}`}>
+                      {fresh ? <Droplets size={10} /> : <Waves size={10} />}
+                      {fresh ? 'Doce' : 'Salgada'}
+                    </span>
+                  </td>
+                )
+              })}
+            </tr>
+            <tr className="border-b border-border/40">
               <td className="p-3 font-semibold text-text-secondary">Dieta</td>
               {selected.map(s => {
-                const food = (s.alimentacao || '').toLowerCase()
-                const isCarnivore = food.includes('carniv') || food.includes('peixes vivos')
-                const isHerbivore = food.includes('herbivor') || food.includes('vegeta')
-                const label = isCarnivore ? 'Carnivoro' : isHerbivore ? 'Herbivoro' : food.includes('onivor') ? 'Onivoro' : '-'
+                const food = normalize(s.alimentacao || '')
+                const isCarn = food.includes('carniv') || food.includes('peixes vivos')
+                const isHerb = food.includes('herbivor') || food.includes('vegeta')
+                const isOmni = food.includes('onivor')
+                const label = isCarn ? 'Carnivoro' : isHerb ? 'Herbivoro' : isOmni ? 'Onivoro' : '-'
+                const Icon = isCarn ? Beef : isHerb ? Salad : Cookie
+                const color = isCarn ? 'bg-red-500/10 text-red-600' : isHerb ? 'bg-emerald-500/10 text-emerald-600' : 'bg-amber-500/10 text-amber-600'
                 return (
-                  <td key={s.id} className={`p-3 text-center font-medium ${isCarnivore ? 'text-red-500' : 'text-text'}`}>
-                    {label}
+                  <td key={s.id} className="p-3 text-center">
+                    {label !== '-' ? (
+                      <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${color}`}>
+                        <Icon size={10} />
+                        {label}
+                      </span>
+                    ) : <span className="text-text-secondary">-</span>}
                   </td>
                 )
               })}
@@ -235,12 +249,17 @@ function ComparisonTable({ selected }: { selected: SpeciesOption[] }) {
             <tr>
               <td className="p-3 font-semibold text-text-secondary">Temperamento</td>
               {selected.map(s => {
-                const b = (s.comportamento || '').toLowerCase()
+                const b = normalize(s.comportamento || '')
                 const isAgg = b.includes('agressiv') || b.includes('territorial')
-                const label = isAgg ? 'Agressivo' : b.includes('pacif') || b.includes('calmo') ? 'Pacifico' : '-'
+                const isPeace = b.includes('pacif') || b.includes('calmo') || b.includes('tranquil')
                 return (
-                  <td key={s.id} className={`p-3 text-center font-medium ${isAgg ? 'text-red-500' : 'text-emerald-600'}`}>
-                    {label}
+                  <td key={s.id} className="p-3 text-center">
+                    {(isAgg || isPeace) ? (
+                      <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${isAgg ? 'bg-red-500/10 text-red-600' : 'bg-emerald-500/10 text-emerald-600'}`}>
+                        {isAgg ? <Skull size={10} /> : <Heart size={10} />}
+                        {isAgg ? 'Agressivo' : 'Pacifico'}
+                      </span>
+                    ) : <span className="text-text-secondary">-</span>}
                   </td>
                 )
               })}
