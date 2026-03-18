@@ -26,6 +26,8 @@ export default function FishDetailPage() {
     })
   }, [slug, id])
 
+  const loadSimilar = useCallback(() => loadFishByType(slug!), [slug])
+
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
@@ -43,8 +45,6 @@ export default function FishDetailPage() {
       </div>
     )
   }
-
-  const loadSimilar = useCallback(() => loadFishByType(slug!), [slug])
   const enrichment = fish.enrichment
   const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || fish.posicaoAquario
 

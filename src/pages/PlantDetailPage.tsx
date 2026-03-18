@@ -17,6 +17,8 @@ export default function PlantDetailPage() {
   const [plant, setPlant] = useState<Plant | null>(null)
   const [loading, setLoading] = useState(true)
 
+  const loadSimilar = useCallback(() => import('../data/plants').then(m => m.default), [])
+
   useEffect(() => {
     import('../data/plants').then(mod => {
       setPlant(mod.default.find(p => p.id === Number(id)) || null)
@@ -41,8 +43,6 @@ export default function PlantDetailPage() {
       </div>
     )
   }
-
-  const loadSimilar = useCallback(() => import('../data/plants').then(m => m.default), [])
   const enrichment = plant.enrichment
   const hasParams = plant.ph || plant.temperatura || plant.iluminacao || plant.co2 || plant.dificuldade || plant.crescimento
 
