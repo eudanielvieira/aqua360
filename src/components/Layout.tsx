@@ -7,6 +7,7 @@ import {
   HeartPulse,
   Calculator,
   ArrowLeftRight,
+  Sparkles,
   Menu,
   X,
   Home,
@@ -24,6 +25,7 @@ const navItems = [
   { path: '/doencas', label: 'Doenças', icon: HeartPulse },
   { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
   { path: '/compatibilidade', label: 'Compatibilidade', icon: ArrowLeftRight },
+  { path: '/montar-aquario', label: 'Montar Aquario', icon: Sparkles },
 ]
 
 export default function Layout() {

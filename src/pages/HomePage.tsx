@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
@@ -61,6 +61,15 @@ const sections = [
     color: 'text-cyan-500',
     bg: 'bg-cyan-500/10',
     hoverBorder: 'hover:border-cyan-200 dark:hover:border-cyan-500/30',
+  },
+  {
+    path: '/montar-aquario',
+    label: 'Montar Aquario',
+    desc: 'Sugestoes inteligentes baseadas no peixe principal',
+    icon: Sparkles,
+    color: 'text-purple-500',
+    bg: 'bg-purple-500/10',
+    hoverBorder: 'hover:border-purple-200 dark:hover:border-purple-500/30',
   },
 ]
 

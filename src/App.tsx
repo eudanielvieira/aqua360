@@ -12,6 +12,7 @@ import DiseaseListPage from './pages/DiseaseListPage'
 import DiseaseDetailPage from './pages/DiseaseDetailPage'
 import CalculatorsPage from './pages/CalculatorsPage'
 import CompatibilityPage from './pages/CompatibilityPage'
+import AquariumBuilderPage from './pages/AquariumBuilderPage'
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/doencas/:id" element={<DiseaseDetailPage />} />
           <Route path="/calculadoras" element={<CalculatorsPage />} />
           <Route path="/compatibilidade" element={<CompatibilityPage />} />
+          <Route path="/montar-aquario" element={<AquariumBuilderPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
