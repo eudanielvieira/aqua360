@@ -11,6 +11,7 @@ import {
   Search,
   BookOpen,
   GraduationCap,
+  Heart,
   Menu,
   X,
   Home,
@@ -150,16 +151,25 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-border text-text-secondary text-center py-6 text-xs">
-        <div className="flex items-center justify-center gap-2 mb-1">
-          <Waves size={12} className="text-primary" />
-          <span className="font-semibold text-text">Aqua360</span>
+      <footer className="border-t border-border py-6 px-4 text-xs">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col items-center sm:items-start gap-1">
+            <div className="flex items-center gap-2">
+              <Waves size={12} className="text-primary" />
+              <span className="font-semibold text-text">Aqua360</span>
+            </div>
+            <p className="text-text-secondary">O seu guia completo de aquarismo</p>
+          </div>
+          <div className="flex flex-col items-center sm:items-end gap-2">
+            <Link to="/apoie" className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-lg bg-rose-500/10 text-rose-500 font-semibold hover:bg-rose-500/20 transition-colors">
+              <Heart size={12} fill="currentColor" />
+              Apoie o projeto
+            </Link>
+            <p className="text-text-secondary/50 text-[10px]">
+              Dados enriquecidos via GBIF, WoRMS e iNaturalist
+            </p>
+          </div>
         </div>
-        <p>O seu guia completo de aquarismo</p>
-        <Link to="/apoie" className="inline-flex items-center gap-1.5 mt-3 px-4 py-1.5 rounded-lg bg-rose-500/10 text-rose-500 font-semibold hover:bg-rose-500/20 transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          Apoie o projeto
-        </Link>
       </footer>
     </div>
   )
