@@ -16,12 +16,29 @@
   --color-warm: #F59E0B;
 }
 
+.dark {
+  --color-primary: #3B9ED6;
+  --color-primary-dark: #1A2A3A;
+  --color-primary-light: #5BB8E8;
+  --color-accent: #22D3EE;
+  --color-surface: #0F1419;
+  --color-surface-alt: #1A2332;
+  --color-card: #1E2A38;
+  --color-text: #E2E8F0;
+  --color-text-secondary: #94A3B8;
+  --color-border: #2D3B4E;
+  --color-danger: #F87171;
+  --color-success: #34D399;
+  --color-warm: #FBBF24;
+}
+
 body {
   margin: 0;
   background: var(--color-surface);
   color: var(--color-text);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @layer base {

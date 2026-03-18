@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense } from 'react'
+import { useState, useEffect, useCallback, lazy, Suspense } from 'react'
 import { useParams } from 'react-router-dom'
 import { loadFishByType } from '../data/fish-index'
 import type { Fish } from '../types'
@@ -9,6 +9,7 @@ import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
+import SimilarSpecies from '../components/SimilarSpecies'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -43,6 +44,7 @@ export default function FishDetailPage() {
     )
   }
 
+  const loadSimilar = useCallback(() => loadFishByType(slug!), [slug])
   const enrichment = fish.enrichment
   const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || fish.posicaoAquario
 
@@ -128,6 +130,17 @@ export default function FishDetailPage() {
           )}
         </div>
       </div>
+
+      {fish.familia && (
+        <div className="mt-6 bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden p-6 sm:p-8">
+          <SimilarSpecies
+            currentId={fish.id}
+            familia={fish.familia}
+            loadAll={loadSimilar}
+            basePath={`/peixes/${slug}`}
+          />
+        </div>
+      )}
     </div>
   )
 }

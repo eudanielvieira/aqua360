@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense } from 'react'
+import { useState, useEffect, useCallback, lazy, Suspense } from 'react'
 import { useParams } from 'react-router-dom'
 import type { Plant } from '../types'
 import { getPrimaryImage } from '../utils/image'
@@ -8,6 +8,7 @@ import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
+import SimilarSpecies from '../components/SimilarSpecies'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -41,6 +42,7 @@ export default function PlantDetailPage() {
     )
   }
 
+  const loadSimilar = useCallback(() => import('../data/plants').then(m => m.default), [])
   const enrichment = plant.enrichment
   const hasParams = plant.ph || plant.temperatura || plant.iluminacao || plant.co2 || plant.dificuldade || plant.crescimento
 
@@ -128,6 +130,17 @@ export default function PlantDetailPage() {
           )}
         </div>
       </div>
+
+      {plant.familia && (
+        <div className="mt-6 bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden p-6 sm:p-8">
+          <SimilarSpecies
+            currentId={plant.id}
+            familia={plant.familia}
+            loadAll={loadSimilar}
+            basePath="/plantas"
+          />
+        </div>
+      )}
     </div>
   )
 }

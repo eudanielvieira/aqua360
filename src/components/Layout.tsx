@@ -10,7 +10,10 @@ import {
   X,
   Home,
   Waves,
+  Sun,
+  Moon,
 } from 'lucide-react'
+import { useDarkMode } from '../hooks/useDarkMode'
 
 const navItems = [
   { path: '/', label: 'Início', icon: Home },
@@ -24,6 +27,7 @@ const navItems = [
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
+  const { dark, toggle } = useDarkMode()
 
   return (
     <div className="min-h-screen flex flex-col bg-surface">
@@ -63,6 +67,15 @@ export default function Layout() {
               )
             })}
           </nav>
+          <div className="ml-auto">
+            <button
+              onClick={toggle}
+              className="p-2 rounded-xl hover:bg-white/10 transition-colors"
+              aria-label={dark ? 'Modo claro' : 'Modo escuro'}
+            >
+              {dark ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+          </div>
         </div>
       </header>
 
@@ -74,7 +87,7 @@ export default function Layout() {
       )}
 
       <aside
-        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-out lg:hidden ${
+        className={`fixed top-0 left-0 h-full w-80 bg-card shadow-2xl z-50 transform transition-transform duration-300 ease-out lg:hidden ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -113,6 +126,13 @@ export default function Layout() {
               </Link>
             )
           })}
+          <button
+            onClick={toggle}
+            className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm text-text-secondary hover:bg-surface-alt hover:text-text transition-all duration-200 w-full mt-2"
+          >
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
+            {dark ? 'Modo Claro' : 'Modo Escuro'}
+          </button>
         </nav>
       </aside>
 
