@@ -500,7 +500,7 @@ const data: Fish[] = [
     "imagem": "atyoidapilipes",
     "kh": "",
     "nomeCientifico": "Atyoida pilipes Green Lacer Shrimp",
-    "nomePopular": "",
+    "nomePopular": "Koros Shrimp",
     "origem": "",
     "outrasInformacoes": "",
     "outrosNome": "Atyoida pilipes Green Lacer Shrimp",

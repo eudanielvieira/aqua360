@@ -57,7 +57,7 @@ const data: Fish[] = [
     "imagem": "tridacnamaxima",
     "kh": "8.0 a 10.0",
     "nomeCientifico": "Tridacna maxima",
-    "nomePopular": "Tridacna maxima",
+    "nomePopular": "elongate clam",
     "origem": "Em águas relativamente rasas do Indo-Pacífico",
     "outrasInformacoes": "Tridacnas maxima são muito procuradas em lojas especializadas, são animais relativamente fáceis de cuidar, mais exigem parâmetros perfeitos. O índice de cálcio deve estar entre 400 e 450 meq/l. O magnésio é outro parâmetro fundamental para o perfeito desenvolvimento, índices ideais 1250 – 1380 ppm. Curiosidades: A tridacna não possui a mesma capacidade de se fixar a uma rocha, como muitos corais. Em vez disso, o animal possui uma espécie de filamento chamado de Bisso ou Byssus, que é composto de uma estrutura molecular fibrosa, normalmente produzida por bivalves para sua sua fixação. Depois de fixada, qualquer coisa que force ou danifique o Bisso poderá causar um dano ou ferimento, e muito provavelmente, perderemos a tridacna. A capacidade de fechar abruptamente, quando desprovidos de luz, pode ser uma evolução em relação á capacidade de defesa contra predadores. Os seres humanos são o principal predador desses animais. Como vivem em águas rasas, são consumidas como ostras comuns por populações nativas, que utilizam o brilho do sol para localizar as tridacnas, que brilham naturalmente quando irradiadas pelo mesmo.",
     "outrosNome": "Máxima clam",
