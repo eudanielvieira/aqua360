@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves, Sun, Moon } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowRight, Waves, Sun, Moon, Download, Smartphone } from 'lucide-react'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
+import { useInstallPWA } from '../hooks/useInstallPWA'
 
 const totalFish = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
@@ -62,6 +63,7 @@ const stats = [
 
 export default function HomePage() {
   const { dark, toggle } = useDarkMode()
+  const { canInstall, isInstalled, install } = useInstallPWA()
 
   return (
     <div className="min-h-screen bg-surface">
@@ -80,14 +82,49 @@ export default function HomePage() {
               O seu guia completo de aquarismo com dados científicos atualizados.
             </p>
           </div>
-          <button
-            onClick={toggle}
-            className="p-2.5 rounded-xl bg-card shadow-sm shadow-black/5 text-text-secondary hover:text-text transition-colors mt-1"
-            aria-label={dark ? 'Modo claro' : 'Modo escuro'}
-          >
-            {dark ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
+          <div className="flex items-center gap-2 mt-1">
+            {canInstall && (
+              <button
+                onClick={install}
+                className="p-2.5 rounded-xl bg-primary text-white hover:bg-primary-light transition-colors"
+                aria-label="Instalar aplicativo"
+                title="Instalar aplicativo"
+              >
+                <Download size={18} />
+              </button>
+            )}
+            <button
+              onClick={toggle}
+              className="p-2.5 rounded-xl bg-card shadow-sm shadow-black/5 text-text-secondary hover:text-text transition-colors"
+              aria-label={dark ? 'Modo claro' : 'Modo escuro'}
+            >
+              {dark ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+          </div>
         </div>
+
+        {canInstall && (
+          <button
+            onClick={install}
+            className="w-full flex items-center gap-4 p-4 mb-6 bg-primary/5 rounded-2xl border border-primary/20 hover:bg-primary/10 transition-colors"
+          >
+            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <Smartphone size={20} className="text-primary" />
+            </div>
+            <div className="flex-1 text-left">
+              <p className="text-sm font-semibold text-text">Instalar Aqua360</p>
+              <p className="text-xs text-text-secondary">Acesse offline direto da tela inicial do seu celular</p>
+            </div>
+            <Download size={16} className="text-primary flex-shrink-0" />
+          </button>
+        )}
+
+        {isInstalled && (
+          <div className="w-full flex items-center gap-3 p-3 mb-6 bg-success/5 rounded-xl border border-success/20">
+            <Smartphone size={16} className="text-success flex-shrink-0" />
+            <p className="text-xs text-success font-medium">Aplicativo instalado com sucesso</p>
+          </div>
+        )}
 
         <div className="grid grid-cols-4 gap-3 mb-10">
           {stats.map(stat => (
