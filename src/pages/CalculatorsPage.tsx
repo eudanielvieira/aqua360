@@ -31,7 +31,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
         onClick={() => setOpen(!open)}
         className="w-full flex items-center gap-4 p-5 text-left hover:bg-surface-alt/50 transition-colors"
       >
-        <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-gradient-to-br from-primary to-primary-light text-white flex items-center justify-center shadow-sm">
+        <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
           <Icon size={20} />
         </div>
         <div className="flex-1 min-w-0">
@@ -65,7 +65,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
 
           <button
             onClick={handleCalculate}
-            className="mt-4 w-full py-3 bg-gradient-to-r from-primary to-primary-light text-white rounded-xl text-sm font-bold hover:shadow-lg hover:shadow-primary/20 transition-all duration-200"
+            className="mt-4 w-full py-3 bg-primary text-white rounded-xl text-sm font-bold hover:bg-primary-light transition-all duration-200"
           >
             Calcular
           </button>

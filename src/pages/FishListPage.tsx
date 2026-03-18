@@ -5,42 +5,47 @@ import PageHeader from '../components/PageHeader'
 
 const categoryConfig: Record<string, {
   icon: typeof Fish
-  gradient: string
-  iconBg: string
+  color: string
+  bg: string
+  hoverBorder: string
   desc: string
 }> = {
   'agua-doce': {
     icon: Fish,
-    gradient: 'from-sky-500 to-cyan-400',
-    iconBg: 'bg-white/20',
+    color: 'text-blue-500',
+    bg: 'bg-blue-500/10',
+    hoverBorder: 'hover:border-blue-200',
     desc: 'Peixes tropicais, ciclídeos, tetras, bettas e mais',
   },
   'agua-salgada': {
     icon: Waves,
-    gradient: 'from-blue-600 to-indigo-500',
-    iconBg: 'bg-white/20',
+    color: 'text-indigo-500',
+    bg: 'bg-indigo-500/10',
+    hoverBorder: 'hover:border-indigo-200',
     desc: 'Peixes-palhaço, tangs, wrasses, gobies e mais',
   },
   'invertebrados-agua-doce': {
     icon: Shell,
-    gradient: 'from-emerald-500 to-teal-400',
-    iconBg: 'bg-white/20',
+    color: 'text-emerald-500',
+    bg: 'bg-emerald-500/10',
+    hoverBorder: 'hover:border-emerald-200',
     desc: 'Camarões, caranguejos, caracóis e mexilhões',
   },
   'invertebrados-agua-salgada': {
     icon: Anchor,
-    gradient: 'from-violet-500 to-purple-400',
-    iconBg: 'bg-white/20',
+    color: 'text-violet-500',
+    bg: 'bg-violet-500/10',
+    hoverBorder: 'hover:border-violet-200',
     desc: 'Camarões ornamentais e invertebrados marinhos',
   },
 }
 
 export default function FishListPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title="Peixes" subtitle="Selecione uma categoria para explorar" />
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-3 sm:grid-cols-2">
         {fishCategories.map(cat => {
           const config = categoryConfig[cat.slug]
           if (!config) return null
@@ -50,33 +55,17 @@ export default function FishListPage() {
             <Link
               key={cat.slug}
               to={`/peixes/${cat.slug}`}
-              className="group relative bg-card rounded-2xl shadow-md shadow-black/5 overflow-hidden hover:shadow-xl hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300"
+              className={`group flex items-center gap-4 p-5 bg-card rounded-2xl shadow-sm shadow-black/5 border border-transparent ${config.hoverBorder} hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
             >
-              <div className={`h-44 bg-gradient-to-br ${config.gradient} p-6 flex flex-col justify-between relative overflow-hidden`}>
-                <div className="absolute -right-6 -top-6 opacity-10 group-hover:opacity-15 transition-opacity duration-300">
-                  <Icon size={140} strokeWidth={1} />
-                </div>
-                <div className="absolute -right-3 -bottom-3 opacity-5 group-hover:opacity-10 transition-opacity duration-300">
-                  <Icon size={80} strokeWidth={1.5} />
-                </div>
-
-                <div className={`w-12 h-12 rounded-xl ${config.iconBg} backdrop-blur-sm flex items-center justify-center`}>
-                  <Icon size={24} className="text-white" />
-                </div>
-
-                <div>
-                  <h3 className="font-bold text-white text-xl">{cat.label}</h3>
-                  <p className="text-sm text-white/70 mt-1 line-clamp-1">{config.desc}</p>
-                </div>
+              <div className={`w-12 h-12 rounded-xl ${config.bg} ${config.color} flex items-center justify-center flex-shrink-0`}>
+                <Icon size={22} />
               </div>
-
-              <div className="px-6 py-4 flex items-center justify-between">
-                <span className="text-sm font-semibold text-text">{cat.count} espécies</span>
-                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:gap-2.5 transition-all duration-300">
-                  Explorar
-                  <ArrowRight size={14} />
-                </span>
+              <div className="flex-1 min-w-0">
+                <h3 className="font-bold text-text">{cat.label}</h3>
+                <p className="text-xs text-text-secondary mt-0.5">{config.desc}</p>
+                <p className="text-xs font-semibold text-primary mt-1.5">{cat.count} espécies</p>
               </div>
+              <ArrowRight size={16} className="text-border group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
             </Link>
           )
         })}

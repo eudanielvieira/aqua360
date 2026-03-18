@@ -9,14 +9,15 @@ import { Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
 const categoryConfig: Record<DiseaseCategory, {
   label: string
   icon: typeof Bug
-  gradient: string
+  color: string
+  bg: string
 }> = {
-  protozoario: { label: 'Protozoário', icon: Microscope, gradient: 'from-purple-500 to-violet-400' },
-  bacteria: { label: 'Bactéria', icon: Dna, gradient: 'from-red-500 to-rose-400' },
-  parasita: { label: 'Parasita', icon: Bug, gradient: 'from-amber-500 to-orange-400' },
-  fungo: { label: 'Fungo', icon: Leaf, gradient: 'from-emerald-500 to-green-400' },
-  virus: { label: 'Vírus', icon: CircleDot, gradient: 'from-blue-500 to-cyan-400' },
-  outro: { label: 'Outros', icon: HelpCircle, gradient: 'from-gray-500 to-slate-400' },
+  protozoario: { label: 'Protozoário', icon: Microscope, color: 'text-purple-500', bg: 'bg-purple-500/10' },
+  bacteria: { label: 'Bactéria', icon: Dna, color: 'text-red-500', bg: 'bg-red-500/10' },
+  parasita: { label: 'Parasita', icon: Bug, color: 'text-amber-500', bg: 'bg-amber-500/10' },
+  fungo: { label: 'Fungo', icon: Leaf, color: 'text-emerald-500', bg: 'bg-emerald-500/10' },
+  virus: { label: 'Vírus', icon: CircleDot, color: 'text-blue-500', bg: 'bg-blue-500/10' },
+  outro: { label: 'Outros', icon: HelpCircle, color: 'text-gray-500', bg: 'bg-gray-500/10' },
 }
 
 export default function DiseaseDetailPage() {
@@ -56,38 +57,34 @@ export default function DiseaseDetailPage() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader title={disease.nome} backTo="/doencas" />
 
-      <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
-        <div className={`bg-gradient-to-r ${config.gradient} p-6 flex items-center gap-4 relative overflow-hidden`}>
-          <div className="absolute -right-8 -top-8 opacity-10">
-            <Icon size={120} strokeWidth={1} />
-          </div>
-          <div className="w-14 h-14 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
-            <Icon size={28} className="text-white" />
-          </div>
-          <div>
-            <span className="text-xs font-bold text-white/70 uppercase tracking-wider">{config.label}</span>
-            <h2 className="text-xl font-bold text-white">{disease.nome}</h2>
-            {disease.nomeCientifico && (
-              <p className="text-sm text-white/70 italic mt-0.5">{disease.nomeCientifico}</p>
-            )}
-          </div>
-        </div>
-
-        {disease.imagem && (
-          <div className="aspect-video max-h-64 overflow-hidden bg-surface-alt">
-            <img
-              src={getImageUrl(disease.imagem)}
-              alt={disease.nome}
-              className="w-full h-full object-cover"
-              onError={e => {
-                const target = e.target as HTMLImageElement
-                target.style.display = 'none'
-              }}
-            />
-          </div>
-        )}
-
+      <div className="bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
         <div className="p-6 sm:p-8">
+          <div className="flex items-center gap-4 mb-6 pb-6 border-b border-border/60">
+            <div className={`w-12 h-12 rounded-xl ${config.bg} ${config.color} flex items-center justify-center flex-shrink-0`}>
+              <Icon size={24} />
+            </div>
+            <div>
+              <span className={`text-xs font-bold uppercase tracking-wider ${config.color}`}>{config.label}</span>
+              {disease.nomeCientifico && (
+                <p className="text-sm text-text-secondary italic mt-0.5">{disease.nomeCientifico}</p>
+              )}
+            </div>
+          </div>
+
+          {disease.imagem && (
+            <div className="rounded-xl overflow-hidden bg-surface-alt mb-6 max-h-64">
+              <img
+                src={getImageUrl(disease.imagem)}
+                alt={disease.nome}
+                className="w-full h-full object-cover"
+                onError={e => {
+                  const target = e.target as HTMLImageElement
+                  target.style.display = 'none'
+                }}
+              />
+            </div>
+          )}
+
           <dl>
             <DetailRow label="Causa" value={disease.causa} />
             <DetailRow label="Sintomas" value={disease.sintoma} />
