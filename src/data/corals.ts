@@ -822,6 +822,393 @@ const data: Coral[] = [
         "especie": "Xenia elongata"
       }
     }
+  },
+  {
+    "id": 26,
+    "nomePopular": "Toadstool Grande",
+    "nomeCientifico": "Sarcophyton ehrenbergi",
+    "outrosNome": "",
+    "familia": "Alcyoniidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada a alta",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Creme, verde",
+    "descricao": "Versão grande do coral couro. Pode atingir 30cm+ de diâmetro.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:07.122Z",
+      "gbifTaxonKey": 5185229,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Malacalcyonacea",
+        "familia": "Sarcophytidae",
+        "genero": "Sarcophyton",
+        "especie": "Sarcophyton ehrenbergi"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "nomePopular": "Clavularia",
+    "nomeCientifico": "Clavularia sp.",
+    "outrosNome": "",
+    "familia": "Clavulariidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Verde, marrom, branco",
+    "descricao": "Pólipos em forma de estrela. Forma tapetes em rochas."
+  },
+  {
+    "id": 28,
+    "nomePopular": "Nepthea",
+    "nomeCientifico": "Nephthea sp.",
+    "outrosNome": "",
+    "familia": "Nephtheidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado a forte",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Creme, rosa, verde",
+    "descricao": "Coral em formato de árvore com ramificações suaves.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:10.200Z",
+      "gbifTaxonKey": 2263122,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Malacalcyonacea",
+        "familia": "Nephtheidae",
+        "genero": "Litophyton",
+        "especie": ""
+      }
+    }
+  },
+  {
+    "id": 29,
+    "nomePopular": "Lobophytum",
+    "nomeCientifico": "Lobophytum sp.",
+    "outrosNome": "",
+    "familia": "Alcyoniidae",
+    "origem": "",
+    "categoria": "mole",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Creme, verde",
+    "descricao": "Coral couro com superfície lobulada. Muito resistente.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:11.831Z",
+      "gbifTaxonKey": 2262753,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Malacalcyonacea",
+        "familia": "Sarcophytidae",
+        "genero": "Lobophytum",
+        "especie": ""
+      }
+    }
+  },
+  {
+    "id": 30,
+    "nomePopular": "Blastomussa",
+    "nomeCientifico": "Blastomussa merleti",
+    "outrosNome": "",
+    "familia": "Merulinidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Baixa a moderada",
+    "fluxoAgua": "Baixo",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Vermelho, verde, bicolor",
+    "descricao": "LPS com pólipos grandes e carnudos. Ótimo para iniciantes.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:13.675Z",
+      "gbifTaxonKey": 2260363,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Plerogyridae",
+        "genero": "Blastomussa",
+        "especie": "Blastomussa merleti"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250394694/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/249344391/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/258523317/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "nomePopular": "Candy Cane Coral",
+    "nomeCientifico": "Caulastrea furcata",
+    "outrosNome": "",
+    "familia": "Merulinidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Verde, marrom com centros verdes",
+    "descricao": "LPS em formato de bastão com pólipos redondos nas pontas.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:15.626Z",
+      "gbifTaxonKey": 4339401,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Merulinidae",
+        "genero": "Caulastraea",
+        "especie": "Caulastraea furcata"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/435989937/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4481093/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/134768993/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "nomePopular": "Brain Coral (Open)",
+    "nomeCientifico": "Trachyphyllia geoffroyi",
+    "outrosNome": "",
+    "familia": "Merulinidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Baixa a moderada",
+    "fluxoAgua": "Baixo",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Verde, vermelho, multicolor",
+    "descricao": "LPS solitário com cores espetaculares. Vive no substrato.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:17.031Z",
+      "gbifTaxonKey": 2258919,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Merulinidae",
+        "genero": "Trachyphyllia",
+        "especie": "Trachyphyllia geoffroyi"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/13906812/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/338981071/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59282063/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "nomePopular": "Acan Lord",
+    "nomeCientifico": "Micromussa lordhowensis",
+    "outrosNome": "",
+    "familia": "Lobophylliidae",
+    "origem": "",
+    "categoria": "duro-lps",
+    "iluminacao": "Baixa a moderada",
+    "fluxoAgua": "Baixo",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Extremamente variada",
+    "descricao": "Altamente colecionável. Variedades raras valem milhares.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:18.695Z",
+      "gbifTaxonKey": 8965841,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Lobophylliidae",
+        "genero": "Micromussa",
+        "especie": "Micromussa lordhowensis"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/164884659/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/452338576/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/91425605/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "nomePopular": "Seriatopora",
+    "nomeCientifico": "Seriatopora hystrix",
+    "outrosNome": "",
+    "familia": "Pocilloporidae",
+    "origem": "",
+    "categoria": "duro-sps",
+    "iluminacao": "Alta",
+    "fluxoAgua": "Forte",
+    "dificuldade": "Moderada",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Rosa, verde, creme",
+    "descricao": "SPS com ramificações finas como agulhas. Crescimento rápido.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:20.155Z",
+      "gbifTaxonKey": 2259471,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Pocilloporidae",
+        "genero": "Seriatopora",
+        "especie": "Seriatopora hystrix"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/87544846/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/162113151/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/244490976/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "nomePopular": "Pavona",
+    "nomeCientifico": "Pavona decussata",
+    "outrosNome": "",
+    "familia": "Agariciidae",
+    "origem": "",
+    "categoria": "duro-sps",
+    "iluminacao": "Moderada a alta",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Moderada",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Verde, marrom",
+    "descricao": "SPS encrostante que forma placas. Relativamente tolerante.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:21.538Z",
+      "gbifTaxonKey": 2260543,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Scleractinia",
+        "familia": "Agariciidae",
+        "genero": "Pavona",
+        "especie": "Pavona decussata"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/6360336/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/616291611/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4846780/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "nomePopular": "Anêmona Long Tentacle",
+    "nomeCientifico": "Macrodactyla doreensis",
+    "outrosNome": "",
+    "familia": "Actiniidae",
+    "origem": "",
+    "categoria": "anemona",
+    "iluminacao": "Moderada a alta",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Moderada",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Verde, rosa, roxo",
+    "descricao": "Tentáculos muito longos e finos. Enterra o pé no substrato.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:23.186Z",
+      "gbifTaxonKey": 5184107,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Actiniaria",
+        "familia": "Actiniidae",
+        "genero": "Condylactis",
+        "especie": "Condylactis doreensis"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/264465256/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/19144557/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/243873954/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "nomePopular": "Anêmona Condy",
+    "nomeCientifico": "Condylactis gigantea",
+    "outrosNome": "",
+    "familia": "Actiniidae",
+    "origem": "",
+    "categoria": "anemona",
+    "iluminacao": "Moderada",
+    "fluxoAgua": "Moderado",
+    "dificuldade": "Fácil",
+    "alimentacao": "",
+    "compatibilidade": "",
+    "crescimento": "",
+    "coloracao": "Branco com pontas rosa/roxo",
+    "descricao": "Anêmona do Caribe. Fácil mas raramente aceita palhaços.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:42:24.653Z",
+      "gbifTaxonKey": 2256741,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "ordem": "Actiniaria",
+        "familia": "Actiniidae",
+        "genero": "Condylactis",
+        "especie": "Condylactis gigantea"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/213038703/medium.jpg",
+        "https://static.inaturalist.org/photos/76655821/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/153886789/medium.jpeg"
+      ]
+    }
   }
 ]
 

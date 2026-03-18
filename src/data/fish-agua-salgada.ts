@@ -14531,6 +14531,216 @@ const data: Fish[] = [
       ],
       "enrichedAt": "2026-03-18T18:52:31.095Z"
     }
+  },
+  {
+    "id": 518,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, vive em simbiose com camarão pistola",
+    "diformismoSexual": "",
+    "familia": "Gobiidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Cryptocentrus cinctus",
+    "nomePopular": "Gobi Watchman",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "outrosNome": "",
+    "ph": "8.0 a 8.4",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "8 cm",
+    "temperatura": "24 a 27 ºC",
+    "tipo": "PEIXESMARINHOS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:36.688Z",
+      "gbifTaxonKey": 5209054,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Gobiidae",
+        "genero": "Cryptocentrus",
+        "especie": "Cryptocentrus cinctus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/332779215/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/288716142/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/459451739/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 519,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Semi-agressivo com similares, come algas",
+    "diformismoSexual": "",
+    "familia": "Blenniidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Ecsenius bicolor",
+    "nomePopular": "Blenny Bicolor",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "outrosNome": "",
+    "ph": "8.0 a 8.4",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "10 cm",
+    "temperatura": "24 a 27 ºC",
+    "tipo": "PEIXESMARINHOS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:38.104Z",
+      "gbifTaxonKey": 2396049,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Blenniidae",
+        "genero": "Ecsenius",
+        "especie": "Ecsenius bicolor"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/469818087/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/15001403/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/114283989/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 520,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, mas enorme, come corais",
+    "diformismoSexual": "",
+    "familia": "Scaridae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Cetoscarus bicolor",
+    "nomePopular": "Peixe Papagaio Bicolor",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 2000 litros.",
+    "outrosNome": "",
+    "ph": "8.0 a 8.4",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "80 cm",
+    "temperatura": "24 a 27 ºC",
+    "tipo": "PEIXESMARINHOS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:39.531Z",
+      "gbifTaxonKey": 2393553,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Scaridae",
+        "genero": "Cetoscarus",
+        "especie": "Cetoscarus bicolor"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/383158153/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/467594829/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/209253560/medium.jpg"
+      ]
+    }
+  },
+  {
+    "id": 521,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Pacífico, delicado, aquário dedicado",
+    "diformismoSexual": "",
+    "familia": "Syngnathidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Hippocampus zosterae",
+    "nomePopular": "Cavalo Marinho Anão",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "outrosNome": "",
+    "ph": "8.0 a 8.4",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "5 cm",
+    "temperatura": "22 a 26 ºC",
+    "tipo": "PEIXESMARINHOS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:41.187Z",
+      "gbifTaxonKey": 5201131,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Syngnathiformes",
+        "familia": "Syngnathidae",
+        "genero": "Hippocampus",
+        "especie": "Hippocampus zosterae"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/220410398/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/285660687/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31692889/medium.jpeg"
+      ]
+    }
+  },
+  {
+    "id": 522,
+    "alimentacao": "",
+    "caracteristica": "",
+    "comportamento": "Predador emboscador, come peixes do seu tamanho",
+    "diformismoSexual": "",
+    "familia": "Antennariidae",
+    "gh": "",
+    "imagem": "",
+    "kh": "",
+    "nomeCientifico": "Antennarius maculatus",
+    "nomePopular": "Peixe Sapo",
+    "origem": "",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "outrosNome": "",
+    "ph": "8.0 a 8.4",
+    "posicaoAquario": "",
+    "reproducao": "",
+    "tamanhoAdulto": "10 cm",
+    "temperatura": "24 a 27 ºC",
+    "tipo": "PEIXESMARINHOS",
+    "subTipo": "",
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T20:41:42.779Z",
+      "gbifTaxonKey": 5214788,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Lophiiformes",
+        "familia": "Antennariidae",
+        "genero": "Antennarius",
+        "especie": "Antennarius maculatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/43767791/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/460107663/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/297343949/medium.jpg"
+      ]
+    }
   }
 ]
 
