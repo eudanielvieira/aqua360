@@ -12,8 +12,9 @@ dist
 dist-ssr
 *.local
 
-# Enrichment cache
+# Script caches
 scripts/.enrichment-cache.json
+scripts/.names-cache.json
 
 # Editor directories and files
 .vscode/*
