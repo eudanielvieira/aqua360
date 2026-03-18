@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 import {
   Fish,
   Leaf,
@@ -18,7 +18,6 @@ import {
   Waves,
   Sun,
   Moon,
-  ArrowLeft,
 } from 'lucide-react'
 import { useDarkMode } from '../hooks/useDarkMode'
 
@@ -44,9 +43,7 @@ const learnNav = [
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
-  const navigate = useNavigate()
   const { dark, toggle } = useDarkMode()
-  const canGoBack = location.key !== 'default'
 
   const isActive = (path: string) =>
     location.pathname === path || (path !== '/' && location.pathname.startsWith(path))
@@ -82,15 +79,6 @@ export default function Layout() {
           >
             <Menu size={20} />
           </button>
-          {canGoBack && (
-            <button
-              onClick={() => navigate(-1)}
-              className="hidden lg:flex p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
-              aria-label="Voltar"
-            >
-              <ArrowLeft size={18} />
-            </button>
-          )}
           <Link to="/" className="flex items-center gap-2.5 font-bold text-text tracking-tight">
             <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
               <Waves size={16} className="text-primary" />
