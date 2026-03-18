@@ -1513,7 +1513,12 @@ const data: Fish[] = [
         "familia": "Enoplometopidae",
         "genero": "Enoplometopus",
         "especie": "Enoplometopus debelius"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/14118285/medium.jpg",
+        "https://static.inaturalist.org/photos/39498591/medium.jpeg",
+        "https://static.inaturalist.org/photos/122038649/medium.jpg"
+      ]
     }
   },
   {

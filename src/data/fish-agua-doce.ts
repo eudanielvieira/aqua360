@@ -7394,7 +7394,12 @@ const data: Fish[] = [
         "genero": "Symphysodon",
         "especie": "Symphysodon discus"
       },
-      "enrichedAt": "2026-03-18T18:51:08.667Z"
+      "enrichedAt": "2026-03-18T18:51:08.667Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/454555022/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/107110043/medium.jpeg",
+        "https://static.inaturalist.org/photos/586511112/medium.jpg"
+      ]
     }
   },
   {
@@ -7473,7 +7478,12 @@ const data: Fish[] = [
         "genero": "Ancistrus",
         "especie": ""
       },
-      "enrichedAt": "2026-03-18T18:51:13.441Z"
+      "enrichedAt": "2026-03-18T18:51:13.441Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/58055305/medium.jpg",
+        "https://static.inaturalist.org/photos/466294435/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/67668655/medium.jpg"
+      ]
     }
   },
   {
@@ -7510,7 +7520,12 @@ const data: Fish[] = [
         "genero": "Macrotocinclus",
         "especie": "Macrotocinclus affinis"
       },
-      "enrichedAt": "2026-03-18T18:51:15.446Z"
+      "enrichedAt": "2026-03-18T18:51:15.446Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24026671/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/98915580/medium.jpeg",
+        "https://static.inaturalist.org/photos/6570553/medium.jpg"
+      ]
     }
   },
   {
@@ -7547,7 +7562,12 @@ const data: Fish[] = [
         "genero": "Pangio",
         "especie": "Pangio kuhlii"
       },
-      "enrichedAt": "2026-03-18T18:51:17.820Z"
+      "enrichedAt": "2026-03-18T18:51:17.820Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/149223784/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/163755077/medium.jpeg",
+        "https://static.inaturalist.org/photos/472467329/medium.jpg"
+      ]
     }
   },
   {
@@ -7834,7 +7854,12 @@ const data: Fish[] = [
         "genero": "Danio",
         "especie": "Danio margaritatus"
       },
-      "enrichedAt": "2026-03-18T18:51:36.840Z"
+      "enrichedAt": "2026-03-18T18:51:36.840Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/120735744/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248587826/medium.jpg",
+        "https://static.inaturalist.org/photos/590080034/medium.jpg"
+      ]
     }
   },
   {
@@ -7871,7 +7896,12 @@ const data: Fish[] = [
         "genero": "Tateurndina",
         "especie": "Tateurndina ocellicauda"
       },
-      "enrichedAt": "2026-03-18T18:51:40.871Z"
+      "enrichedAt": "2026-03-18T18:51:40.871Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/309626844/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/309235119/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/307218301/medium.jpeg"
+      ]
     }
   },
   {
@@ -7991,7 +8021,12 @@ const data: Fish[] = [
         "genero": "Pseudomugil",
         "especie": "Pseudomugil furcatus"
       },
-      "enrichedAt": "2026-03-18T18:51:47.456Z"
+      "enrichedAt": "2026-03-18T18:51:47.456Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/369251107/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/529344697/medium.jpg",
+        "https://static.inaturalist.org/photos/587919466/medium.jpg"
+      ]
     }
   },
   {
@@ -8364,7 +8399,12 @@ const data: Fish[] = [
         "familia": "Nothobranchiidae",
         "genero": "Fundulopanchax",
         "especie": "Fundulopanchax gardneri"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/4807327/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/354448355/medium.jpg",
+        "https://static.inaturalist.org/photos/223056220/medium.png"
+      ]
     }
   },
   {
@@ -8401,7 +8441,11 @@ const data: Fish[] = [
         "familia": "Cyprinidae",
         "genero": "Danio",
         "especie": "Danio margaritatus"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/476236208/medium.jpg",
+        "https://static.inaturalist.org/photos/476154900/medium.jpg"
+      ]
     }
   },
   {
@@ -8426,7 +8470,15 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:03:48.804Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/240604995/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59360631/medium.jpeg",
+        "https://static.inaturalist.org/photos/556803263/medium.jpg"
+      ]
+    }
   },
   {
     "id": 207,
@@ -8450,7 +8502,15 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:03:50.891Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/409867901/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/275707328/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/120666015/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 208,
@@ -8516,7 +8576,15 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:03:52.847Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/101510398/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/418725346/medium.jpeg",
+        "https://static.inaturalist.org/photos/409715324/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 210,
@@ -8540,7 +8608,15 @@ const data: Fish[] = [
     "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:03:55.187Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/86628364/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/136694002/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/236609576/medium.jpg"
+      ]
+    }
   },
   {
     "id": 211,
@@ -8576,7 +8652,12 @@ const data: Fish[] = [
         "familia": "Characidae",
         "genero": "Moenkhausia",
         "especie": "Moenkhausia pittieri"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/349050805/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/448181356/medium.jpg",
+        "https://static.inaturalist.org/photos/298821733/medium.jpeg"
+      ]
     }
   },
   {
@@ -8613,7 +8694,12 @@ const data: Fish[] = [
         "familia": "Melanotaeniidae",
         "genero": "Melanotaenia",
         "especie": "Melanotaenia boesemani"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/310937589/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/586266337/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/585196465/medium.jpg"
+      ]
     }
   },
   {
@@ -8775,7 +8861,12 @@ const data: Fish[] = [
         "familia": "Characidae",
         "genero": "Hyphessobrycon",
         "especie": "Hyphessobrycon megalopterus"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/25379262/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/442674019/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/190360265/medium.jpg"
+      ]
     }
   },
   {
@@ -8938,7 +9029,12 @@ const data: Fish[] = [
         "familia": "Characidae",
         "genero": "Prionobrama",
         "especie": "Prionobrama filigera"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/142795681/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/310489118/medium.jpg",
+        "https://static.inaturalist.org/photos/123441181/medium.jpeg"
+      ]
     }
   },
   {
@@ -9047,7 +9143,15 @@ const data: Fish[] = [
     "temperatura": "18 a 26 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:04.211Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/120735744/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/248587826/medium.jpg",
+        "https://static.inaturalist.org/photos/303752492/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 224,
@@ -9165,7 +9269,12 @@ const data: Fish[] = [
         "familia": "Callichthyidae",
         "genero": "Corydoras",
         "especie": "Corydoras habrosus"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/334574786/medium.jpeg"
+      ]
     }
   },
   {
@@ -9190,7 +9299,15 @@ const data: Fish[] = [
     "temperatura": "22 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:07.696Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/293463793/medium.jpg",
+        "https://static.inaturalist.org/photos/23675566/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 228,
@@ -9268,7 +9385,12 @@ const data: Fish[] = [
         "familia": "Callichthyidae",
         "genero": "Corydoras",
         "especie": "Corydoras adolfoi"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/334574786/medium.jpeg"
+      ]
     }
   },
   {
@@ -9293,7 +9415,13 @@ const data: Fish[] = [
     "temperatura": "26 a 30 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:12.199Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/272924184/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 231,
@@ -9581,7 +9709,12 @@ const data: Fish[] = [
         "familia": "Osphronemidae",
         "genero": "Trichopodus",
         "especie": "Trichopodus leerii"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/56649897/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/33467123/medium.jpeg",
+        "https://static.inaturalist.org/photos/478594447/medium.jpg"
+      ]
     }
   },
   {
@@ -9869,7 +10002,12 @@ const data: Fish[] = [
         "familia": "Siluridae",
         "genero": "Kryptopterus",
         "especie": "Kryptopterus vitreolus"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/244341464/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/509471039/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/477204588/medium.jpeg"
+      ]
     }
   },
   {
@@ -9978,7 +10116,15 @@ const data: Fish[] = [
     "temperatura": "22 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:17.948Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/458203902/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/594333944/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/71359247/medium.jpg"
+      ]
+    }
   },
   {
     "id": 248,
@@ -10212,7 +10358,15 @@ const data: Fish[] = [
     "temperatura": "20 a 24 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:19.764Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/463941833/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/425044646/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/579869636/medium.jpg"
+      ]
+    }
   },
   {
     "id": 254,
@@ -10236,7 +10390,15 @@ const data: Fish[] = [
     "temperatura": "20 a 24 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:22.681Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407621836/medium.jpeg",
+        "https://static.inaturalist.org/photos/236300427/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/529058870/medium.jpg"
+      ]
+    }
   },
   {
     "id": 255,
@@ -10260,7 +10422,15 @@ const data: Fish[] = [
     "temperatura": "20 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:24.624Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 256,
@@ -10284,7 +10454,15 @@ const data: Fish[] = [
     "temperatura": "20 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:26.351Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 257,
@@ -10308,7 +10486,15 @@ const data: Fish[] = [
     "temperatura": "20 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:28.322Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/59258600/medium.jpeg",
+        "https://static.inaturalist.org/photos/151304704/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/407639680/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 258,

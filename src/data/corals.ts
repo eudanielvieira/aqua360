@@ -708,7 +708,12 @@ const data: Coral[] = [
         "familia": "",
         "genero": "",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/101049589/medium.png",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/284382451/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/101052870/medium.jpeg"
+      ]
     }
   },
   {
@@ -738,7 +743,12 @@ const data: Coral[] = [
         "familia": "Euphylliidae",
         "genero": "Fimbriaphyllia",
         "especie": "Fimbriaphyllia paraancora"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/593326759/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/234353690/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/621666151/medium.jpg"
+      ]
     }
   },
   {
@@ -791,7 +801,15 @@ const data: Coral[] = [
     "compatibilidade": "Urticante, manter distância",
     "crescimento": "Lento",
     "coloracao": "Dourado intenso com pontas brilhantes",
-    "descricao": "Variação gold muito valorizada. Tentáculos dourados que brilham sob luz actínica."
+    "descricao": "Variação gold muito valorizada. Tentáculos dourados que brilham sob luz actínica.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:05:04.531Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/278653095/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54350152/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/54314794/medium.jpg"
+      ]
+    }
   },
   {
     "id": 25,
@@ -820,7 +838,12 @@ const data: Coral[] = [
         "familia": "Xeniidae",
         "genero": "Xenia",
         "especie": "Xenia elongata"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/28332552/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/433697022/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/242334543/medium.jpg"
+      ]
     }
   },
   {
@@ -850,7 +873,12 @@ const data: Coral[] = [
         "familia": "Sarcophytidae",
         "genero": "Sarcophyton",
         "especie": "Sarcophyton ehrenbergi"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/595772404/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/390863060/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/609245540/medium.jpg"
+      ]
     }
   },
   {
@@ -868,7 +896,15 @@ const data: Coral[] = [
     "compatibilidade": "",
     "crescimento": "",
     "coloracao": "Verde, marrom, branco",
-    "descricao": "Pólipos em forma de estrela. Forma tapetes em rochas."
+    "descricao": "Pólipos em forma de estrela. Forma tapetes em rochas.",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:05:10.735Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/142772913/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/282029609/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/51055377/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 28,
@@ -897,7 +933,12 @@ const data: Coral[] = [
         "familia": "Nephtheidae",
         "genero": "Litophyton",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/76627843/medium.jpg",
+        "https://static.inaturalist.org/photos/77907036/medium.jpg",
+        "https://static.inaturalist.org/photos/469807799/medium.jpg"
+      ]
     }
   },
   {
@@ -927,7 +968,12 @@ const data: Coral[] = [
         "familia": "Sarcophytidae",
         "genero": "Lobophytum",
         "especie": ""
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/218780741/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/118103532/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/24749370/medium.jpg"
+      ]
     }
   },
   {

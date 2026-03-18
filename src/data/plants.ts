@@ -4948,7 +4948,12 @@ const data: Plant[] = [
         "genero": "Anubias",
         "especie": "Anubias barteri"
       },
-      "enrichedAt": "2026-03-18T18:52:35.218Z"
+      "enrichedAt": "2026-03-18T18:52:35.218Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -4985,7 +4990,12 @@ const data: Plant[] = [
         "genero": "Bucephalandra",
         "especie": ""
       },
-      "enrichedAt": "2026-03-18T18:52:37.132Z"
+      "enrichedAt": "2026-03-18T18:52:37.132Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648752/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648728/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233090266/medium.jpg"
+      ]
     }
   },
   {
@@ -5022,7 +5032,12 @@ const data: Plant[] = [
         "genero": "Staurogyne",
         "especie": "Staurogyne repens"
       },
-      "enrichedAt": "2026-03-18T18:52:39.230Z"
+      "enrichedAt": "2026-03-18T18:52:39.230Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/106834408/medium.jpeg",
+        "https://static.inaturalist.org/photos/337623847/medium.jpeg",
+        "https://static.inaturalist.org/photos/32819970/medium.jpeg"
+      ]
     }
   },
   {
@@ -5059,7 +5074,12 @@ const data: Plant[] = [
         "genero": "Pogostemon",
         "especie": "Pogostemon erectus"
       },
-      "enrichedAt": "2026-03-18T18:52:41.420Z"
+      "enrichedAt": "2026-03-18T18:52:41.420Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/128006011/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/252999088/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/57354331/medium.jpg"
+      ]
     }
   },
   {
@@ -5180,7 +5200,12 @@ const data: Plant[] = [
         "genero": "Vesicularia",
         "especie": "Vesicularia dubyana"
       },
-      "enrichedAt": "2026-03-18T18:52:48.239Z"
+      "enrichedAt": "2026-03-18T18:52:48.239Z",
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/154374041/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20684731/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/20508644/medium.jpg"
+      ]
     }
   },
   {
@@ -5425,7 +5450,12 @@ const data: Plant[] = [
         "familia": "Linderniaceae",
         "genero": "Micranthemum",
         "especie": "Micranthemum tweedei"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/352671722/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/333399596/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2575565/medium.jpg"
+      ]
     }
   },
   {
@@ -5576,7 +5606,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:41.157Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/156654378/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/181047909/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/465880378/medium.jpg"
+      ]
+    }
   },
   {
     "id": 134,
@@ -5768,7 +5806,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "20 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:42.973Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/242434353/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/141202308/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/53984969/medium.jpg"
+      ]
+    }
   },
   {
     "id": 139,
@@ -5792,7 +5838,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:44.368Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648752/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648728/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233090266/medium.jpg"
+      ]
+    }
   },
   {
     "id": 140,
@@ -5816,7 +5870,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:45.869Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648752/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/228648728/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/233090266/medium.jpg"
+      ]
+    }
   },
   {
     "id": 141,
@@ -5852,7 +5914,12 @@ const data: Plant[] = [
         "familia": "Araceae",
         "genero": "Anubias",
         "especie": "Anubias barteri"
-      }
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/175647596/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/78111427/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/283337339/medium.jpg"
+      ]
     }
   },
   {
@@ -5877,7 +5944,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:53.607Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/465316571/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/429256528/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/621258243/medium.jpg"
+      ]
+    }
   },
   {
     "id": 143,
@@ -5943,7 +6018,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "18 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:55.095Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/30864698/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/221042644/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/85347113/medium.jpeg"
+      ]
+    }
   },
   {
     "id": 145,
@@ -6093,7 +6176,15 @@ const data: Plant[] = [
     "suportaEmersao": "",
     "tamanho": "",
     "temperatura": "22 a 28 ºC",
-    "fonte": ""
+    "fonte": "",
+    "enrichment": {
+      "enrichedAt": "2026-03-18T21:04:56.776Z",
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/110039911/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/462698149/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/110039936/medium.jpeg"
+      ]
+    }
   }
 ]
 
