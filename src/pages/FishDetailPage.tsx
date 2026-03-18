@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, lazy, Suspense } from 'react'
 import { useParams } from 'react-router-dom'
 import { loadFishByType } from '../data/fish-index'
 import type { Fish } from '../types'
-import { getPrimaryImage } from '../utils/image'
+import FallbackImage from '../components/FallbackImage'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
 import ParamCard from '../components/ParamCard'
@@ -61,14 +61,12 @@ export default function FishDetailPage() {
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
-          <img
-            src={getPrimaryImage(fish.imagem, enrichment?.inatPhotoUrls, enrichment?.wikiPhotoUrl)}
+          <FallbackImage
+            localImage={fish.imagem}
+            inatPhotos={enrichment?.inatPhotoUrls}
+            wikiPhoto={enrichment?.wikiPhotoUrl}
             alt={fish.nomePopular}
-            className="w-full h-full object-cover"
-            onError={e => {
-              const target = e.target as HTMLImageElement
-              target.src = '/images/avatar.jpg'
-            }}
+            className="w-full h-full"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
           <div className="absolute bottom-4 left-5 right-5">

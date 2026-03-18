@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getThumbnail } from '../utils/image'
+import { getAllThumbnails } from '../utils/image'
 import { ImageOff } from 'lucide-react'
 
 interface Props {
@@ -13,9 +13,19 @@ interface Props {
 }
 
 export default function Card({ to, image, title, subtitle, inatPhotos, wikiPhoto }: Props) {
-  const [imgError, setImgError] = useState(false)
-  const src = getThumbnail(image, inatPhotos, wikiPhoto)
-  const hasImage = src && src !== '/images/.jpg' && src !== '/images/avatar.jpg'
+  const allUrls = getAllThumbnails(image, inatPhotos, wikiPhoto)
+  const [urlIndex, setUrlIndex] = useState(0)
+  const [allFailed, setAllFailed] = useState(false)
+
+  const currentUrl = allUrls[urlIndex]
+
+  const handleError = () => {
+    if (urlIndex < allUrls.length - 1) {
+      setUrlIndex(prev => prev + 1)
+    } else {
+      setAllFailed(true)
+    }
+  }
 
   return (
     <Link
@@ -23,13 +33,13 @@ export default function Card({ to, image, title, subtitle, inatPhotos, wikiPhoto
       className="group bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden hover:shadow-lg hover:shadow-black/10 hover:-translate-y-0.5 transition-all duration-300"
     >
       <div className="aspect-square overflow-hidden bg-surface-alt relative">
-        {hasImage && !imgError ? (
+        {currentUrl && !allFailed ? (
           <img
-            src={src}
+            src={currentUrl}
             alt={title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
             loading="lazy"
-            onError={() => setImgError(true)}
+            onError={handleError}
           />
         ) : (
           <div className="w-full h-full flex flex-col items-center justify-center bg-surface-alt">

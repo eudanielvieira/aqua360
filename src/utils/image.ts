@@ -1,27 +1,50 @@
 export function getImageUrl(imageName: string): string {
-  if (!imageName) return '/images/avatar.jpg'
+  if (!imageName) return ''
   const name = imageName.replace(/\.(jpg|jpeg|png)$/i, '')
   return `/images/${name}.jpg`
 }
 
-export function getPrimaryImage(
+export function getAllImages(
   localImage: string,
   inatPhotos?: string[],
   wikiPhoto?: string,
-): string {
-  if (wikiPhoto) return wikiPhoto
-  if (inatPhotos && inatPhotos.length > 0) return inatPhotos[0]
-  return getImageUrl(localImage)
+): string[] {
+  const urls: string[] = []
+  if (wikiPhoto) urls.push(wikiPhoto)
+  if (inatPhotos) {
+    for (const url of inatPhotos) {
+      if (url && !urls.includes(url)) urls.push(url)
+    }
+  }
+  const local = getImageUrl(localImage)
+  if (local && !urls.includes(local)) urls.push(local)
+  return urls
 }
 
-export function getThumbnail(
+export function getAllThumbnails(
   localImage: string,
   inatPhotos?: string[],
   wikiPhoto?: string,
-): string {
-  if (wikiPhoto) return wikiPhoto.replace(/\/\d+px-/, '/300px-')
-  if (inatPhotos && inatPhotos.length > 0) {
-    return inatPhotos[0].replace('/medium.', '/small.').replace('/medium/', '/small/')
+): string[] {
+  const urls: string[] = []
+  if (wikiPhoto) urls.push(wikiPhoto.replace(/\/\d+px-/, '/300px-'))
+  if (inatPhotos) {
+    for (const url of inatPhotos) {
+      if (!url) continue
+      const thumb = url.replace('/medium.', '/small.').replace('/medium/', '/small/')
+      if (!urls.includes(thumb)) urls.push(thumb)
+    }
   }
-  return getImageUrl(localImage)
+  const local = getImageUrl(localImage)
+  if (local && !urls.includes(local)) urls.push(local)
+  return urls
+}
+
+// Mantidos para compatibilidade
+export function getPrimaryImage(localImage: string, inatPhotos?: string[], wikiPhoto?: string): string {
+  return getAllImages(localImage, inatPhotos, wikiPhoto)[0] || ''
+}
+
+export function getThumbnail(localImage: string, inatPhotos?: string[], wikiPhoto?: string): string {
+  return getAllThumbnails(localImage, inatPhotos, wikiPhoto)[0] || ''
 }
