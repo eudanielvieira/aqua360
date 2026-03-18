@@ -35,10 +35,17 @@ export default function SupportPage() {
 
           {PIX_KEY ? (
             <>
-              <div className="w-48 h-48 mx-auto bg-white rounded-xl p-3 mb-4 border border-border">
-                <div className="w-full h-full bg-surface-alt rounded-lg flex items-center justify-center">
-                  <QrCode size={80} className="text-text-secondary" />
-                </div>
+              <div className="w-48 h-48 mx-auto bg-white rounded-xl p-3 mb-4 border border-border overflow-hidden">
+                <img
+                  src="/pix-qrcode.png"
+                  alt="QR Code Pix"
+                  className="w-full h-full object-contain"
+                  onError={e => {
+                    const target = e.target as HTMLImageElement
+                    target.style.display = 'none'
+                    target.parentElement!.innerHTML = '<div class="w-full h-full bg-surface-alt rounded-lg flex items-center justify-center"><p class="text-xs text-text-secondary text-center px-4">Aponte a camera do banco para o QR Code ou copie a chave abaixo</p></div>'
+                  }}
+                />
               </div>
               <p className="text-xs text-text-secondary mb-2">Chave Pix:</p>
               <button
