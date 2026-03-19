@@ -156,7 +156,7 @@ export default function HomePage() {
             <button
               onClick={() => setDismissed(true)}
               className="p-1.5 rounded-lg text-white/50 hover:text-white hover:bg-white/10 transition-colors flex-shrink-0"
-              aria-label={t('common:pwa.close')}
+              aria-label={t('common:close')}
             >
               <X size={16} />
             </button>
@@ -278,7 +278,7 @@ export default function HomePage() {
             className="w-full mt-8 flex items-center justify-center gap-2 p-3 rounded-xl text-sm font-semibold text-primary bg-primary/5 hover:bg-primary/10 transition-colors"
           >
             <Download size={16} />
-            {t('common:pwa.installApp')}
+            {t('common:pwa.installFull')}
           </button>
         )}
 
