@@ -91,6 +91,17 @@ export default function Layout() {
           </Link>
           <nav className="hidden lg:flex items-center gap-1 ml-6">
             {mainNav.map(item => navLink(item, true))}
+            <Link
+              to="/sobre"
+              className={`flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-lg transition-all duration-200 ${
+                isActive('/sobre')
+                  ? 'bg-primary/10 text-primary font-semibold'
+                  : 'text-text-secondary hover:bg-surface-alt hover:text-text'
+              }`}
+            >
+              <Waves size={15} />
+              {t('footer.about')}
+            </Link>
           </nav>
           <div className="ml-auto flex items-center gap-1">
             <div className="relative">
