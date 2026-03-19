@@ -6,6 +6,7 @@ import { useDarkMode } from '../hooks/useDarkMode'
 import { useInstallPWA } from '../hooks/useInstallPWA'
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import Footer from '../components/Footer'
 
 const totalAnimals = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
@@ -284,26 +285,7 @@ export default function HomePage() {
 
       </div>
 
-      <footer className="border-t border-border py-6 px-4 text-xs">
-        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex flex-col items-center sm:items-start gap-1">
-            <div className="flex items-center gap-2">
-              <Waves size={12} className="text-primary" />
-              <span className="font-semibold text-text">Aqua360</span>
-            </div>
-            <p className="text-text-secondary">{t('common:footer.tagline')}</p>
-          </div>
-          <div className="flex flex-col items-center sm:items-end gap-2">
-            <Link to="/apoie" className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-lg bg-rose-500/10 text-rose-500 dark:bg-rose-400/15 dark:text-rose-400 font-semibold hover:bg-rose-500/20 transition-colors">
-              <Heart size={12} fill="currentColor" />
-              {t('common:footer.support')}
-            </Link>
-            <p className="text-text-secondary/50 text-[10px]">
-              {t('common:footer.data')}
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
