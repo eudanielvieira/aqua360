@@ -9,6 +9,7 @@ const categoryConfig: Record<string, {
   color: string
   bg: string
   hoverBorder: string
+  labelKey: string
   descKey: string
 }> = {
   'agua-doce': {
@@ -16,6 +17,7 @@ const categoryConfig: Record<string, {
     color: 'text-blue-500',
     bg: 'bg-blue-500/10',
     hoverBorder: 'hover:border-blue-200',
+    labelKey: 'category.freshwater',
     descKey: 'category.freshwater.desc',
   },
   'agua-salgada': {
@@ -23,6 +25,7 @@ const categoryConfig: Record<string, {
     color: 'text-indigo-500',
     bg: 'bg-indigo-500/10',
     hoverBorder: 'hover:border-indigo-200',
+    labelKey: 'category.saltwater',
     descKey: 'category.saltwater.desc',
   },
   'invertebrados-agua-doce': {
@@ -30,6 +33,7 @@ const categoryConfig: Record<string, {
     color: 'text-emerald-500',
     bg: 'bg-emerald-500/10',
     hoverBorder: 'hover:border-emerald-200',
+    labelKey: 'category.invertFresh',
     descKey: 'category.invertFresh.desc',
   },
   'invertebrados-agua-salgada': {
@@ -37,6 +41,7 @@ const categoryConfig: Record<string, {
     color: 'text-violet-500',
     bg: 'bg-violet-500/10',
     hoverBorder: 'hover:border-violet-200',
+    labelKey: 'category.invertSalt',
     descKey: 'category.invertSalt.desc',
   },
 }
@@ -63,7 +68,7 @@ export default function FishListPage() {
                 <Icon size={22} />
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-bold text-text">{cat.label}</h3>
+                <h3 className="font-bold text-text">{t(`fish:${config.labelKey}`)}</h3>
                 <p className="text-xs text-text-secondary mt-0.5">{t(`fish:${config.descKey}`)}</p>
                 <p className="text-xs font-semibold text-primary mt-1.5">{cat.count} {t('common:speciesPlural')}</p>
               </div>

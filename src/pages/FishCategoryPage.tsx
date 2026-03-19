@@ -11,6 +11,13 @@ import QuickFilters, { fishFilters, invertFreshFilters, invertSaltFilters } from
 
 const PAGE_SIZE = 30
 
+const slugToKey: Record<string, string> = {
+  'agua-doce': 'freshwater',
+  'agua-salgada': 'saltwater',
+  'invertebrados-agua-doce': 'invertFresh',
+  'invertebrados-agua-salgada': 'invertSalt',
+}
+
 export default function FishCategoryPage() {
   const { t } = useTranslation(['fish', 'common'])
   const { slug } = useParams<{ slug: string }>()
@@ -53,7 +60,7 @@ export default function FishCategoryPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6">
       <PageHeader
-        title={category?.label || t('fish:title')}
+        title={slug ? t(`fish:category.${slugToKey[slug] || 'freshwater'}`) : t('fish:title')}
         subtitle={t('common:speciesFound', { count: filtered.length })}
         backTo="/peixes"
       />
