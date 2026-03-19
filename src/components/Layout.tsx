@@ -183,6 +183,26 @@ export default function Layout() {
           {learnNav.map(item => navLink(item))}
 
           <div className="border-t border-border mt-4 pt-3">
+            <Link
+              to="/sobre"
+              onClick={() => setSidebarOpen(false)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-lg text-sm transition-all ${
+                location.pathname === '/sobre' ? 'bg-primary/10 text-primary font-semibold' : 'text-text-secondary hover:bg-surface-alt hover:text-text'
+              }`}
+            >
+              <Waves size={18} />
+              {t('footer.about')}
+            </Link>
+            <Link
+              to="/apoie"
+              onClick={() => setSidebarOpen(false)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-lg text-sm transition-all ${
+                location.pathname === '/apoie' ? 'bg-rose-500/10 text-rose-500 font-semibold' : 'text-rose-500/70 hover:bg-rose-500/5 hover:text-rose-500'
+              }`}
+            >
+              <Heart size={18} />
+              {t('footer.support')}
+            </Link>
             <button
               onClick={toggle}
               className="flex items-center gap-2 px-4 py-3 rounded-lg text-sm text-text-secondary hover:bg-surface-alt hover:text-text transition-all w-full"
