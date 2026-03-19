@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, lazy, Suspense } from 'react'
 import { useParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import type { Plant } from '../types'
 import FallbackImage from '../components/FallbackImage'
 import PageHeader from '../components/PageHeader'
@@ -14,6 +15,7 @@ import FavoriteButton from '../components/FavoriteButton'
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
 export default function PlantDetailPage() {
+  const { t } = useTranslation(['plants', 'common'])
   const { id } = useParams<{ id: string }>()
   const [plant, setPlant] = useState<Plant | null>(null)
   const [loading, setLoading] = useState(true)
@@ -31,7 +33,7 @@ export default function PlantDetailPage() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">
-          Carregando...
+          {t('common:loading')}
         </div>
       </div>
     )
@@ -40,7 +42,7 @@ export default function PlantDetailPage() {
   if (!plant) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <PageHeader title="Planta não encontrada" backTo="/plantas" />
+        <PageHeader title={t('plants:notFound')} backTo="/plantas" />
       </div>
     )
   }
@@ -72,52 +74,52 @@ export default function PlantDetailPage() {
         <div className="p-6 sm:p-8">
           {enrichment?.taxonomia && (
             <div className="mb-6 pb-6 border-b border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Classificação Taxonômica</h3>
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.taxonomy')}</h3>
               <TaxonomyTree taxonomia={enrichment.taxonomia} />
             </div>
           )}
 
           {hasParams && (
             <div className="mb-6 pb-6 border-b border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Parâmetros</h3>
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.parameters')}</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
                 <ParamCard icon="Droplets" label="pH" value={plant.ph} />
-                <ParamCard icon="Thermometer" label="Temperatura" value={plant.temperatura} />
-                <ParamCard icon="Sun" label="Iluminação" value={plant.iluminacao} />
-                <ParamCard icon="Wind" label="CO2" value={plant.co2} />
-                <ParamCard icon="Signal" label="Dificuldade" value={plant.dificuldade} />
-                <ParamCard icon="TrendingUp" label="Crescimento" value={plant.crescimento} />
+                <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={plant.temperatura} />
+                <ParamCard icon="Sun" label={t('common:param.lighting')} value={plant.iluminacao} />
+                <ParamCard icon="Wind" label={t('common:param.co2')} value={plant.co2} />
+                <ParamCard icon="Signal" label={t('common:param.difficulty')} value={plant.dificuldade} />
+                <ParamCard icon="TrendingUp" label={t('common:param.growth')} value={plant.crescimento} />
               </div>
             </div>
           )}
 
           <dl>
-            <DetailRow label="Nome Popular" value={plant.nomePopular} />
-            <DetailRow label="Nome Científico" value={plant.nomeCientifico} />
-            <DetailRow label="Outros Nomes" value={plant.outrosNome} />
-            <DetailRow label="Família" value={plant.familia} />
-            <DetailRow label="Estrutura" value={plant.estrutura} />
-            <DetailRow label="Origem" value={plant.origem} />
-            <DetailRow label="Plantio" value={plant.plantio} />
-            <DetailRow label="Tamanho" value={plant.tamanho} />
-            <DetailRow label="Porte" value={plant.porte} />
-            <DetailRow label="Posição" value={plant.posicao} />
-            <DetailRow label="Reprodução" value={plant.reproducao} />
-            <DetailRow label="Substrato Fértil" value={plant.substratoFertil} />
-            <DetailRow label="Suporta Emersão" value={plant.suportaEmersao} />
-            <DetailRow label="Fonte" value={plant.fonte} />
+            <DetailRow label={t('common:detail.label.popularName')} value={plant.nomePopular} />
+            <DetailRow label={t('common:detail.label.scientificName')} value={plant.nomeCientifico} />
+            <DetailRow label={t('common:detail.label.otherNames')} value={plant.outrosNome} />
+            <DetailRow label={t('common:detail.label.family')} value={plant.familia} />
+            <DetailRow label={t('plants:detail.structure')} value={plant.estrutura} />
+            <DetailRow label={t('common:detail.label.origin')} value={plant.origem} />
+            <DetailRow label={t('plants:detail.planting')} value={plant.plantio} />
+            <DetailRow label={t('plants:detail.size')} value={plant.tamanho} />
+            <DetailRow label={t('plants:detail.stature')} value={plant.porte} />
+            <DetailRow label={t('plants:detail.position')} value={plant.posicao} />
+            <DetailRow label={t('plants:detail.reproduction')} value={plant.reproducao} />
+            <DetailRow label={t('plants:detail.fertileSubstrate')} value={plant.substratoFertil} />
+            <DetailRow label={t('plants:detail.supportsEmersion')} value={plant.suportaEmersao} />
+            <DetailRow label={t('common:detail.label.source')} value={plant.fonte} />
           </dl>
 
           {enrichment?.inatPhotoUrls && enrichment.inatPhotoUrls.length > 0 && (
             <div className="mt-8 pt-6 border-t border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Fotos da Comunidade</h3>
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.communityPhotos')}</h3>
               <CommunityPhotos photos={enrichment.inatPhotoUrls} />
             </div>
           )}
 
           {enrichment?.gbifTaxonKey && (
             <div className="mt-8 pt-6 border-t border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Distribuição Geográfica</h3>
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.distribution')}</h3>
               <Suspense fallback={<div className="w-full h-64 rounded-2xl bg-surface-alt animate-pulse" />}>
                 <DistributionMap taxonKey={enrichment.gbifTaxonKey} speciesName={plant.nomePopular} />
               </Suspense>
@@ -126,7 +128,7 @@ export default function PlantDetailPage() {
 
           {enrichment && (
             <div className="mt-8 pt-6 border-t border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Saiba Mais</h3>
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.learnMore')}</h3>
               <ExternalLinks enrichment={enrichment} nomeCientifico={plant.nomeCientifico} />
             </div>
           )}

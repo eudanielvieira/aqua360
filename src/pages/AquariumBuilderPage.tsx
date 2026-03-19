@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral } from '../types'
@@ -330,6 +331,7 @@ function Section({ icon: Icon, color, title, count, children }: {
 }
 
 export default function AquariumBuilderPage() {
+  const { t } = useTranslation(['builder', 'common'])
   const [allFish, setAllFish] = useState<SpeciesOption[]>([])
   const [allInverts, setAllInverts] = useState<SpeciesOption[]>([])
   const [allPlants, setAllPlants] = useState<SpeciesOption[]>([])
@@ -416,7 +418,7 @@ export default function AquariumBuilderPage() {
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
+        <div className="flex items-center justify-center py-20 text-text-secondary">{t('common:loading')}</div>
       </div>
     )
   }
@@ -424,14 +426,14 @@ export default function AquariumBuilderPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader
-        title="Montador de Aquario"
-        subtitle="Escolha o peixe principal e descubra os melhores companheiros"
+        title={t('builder:title')}
+        subtitle={t('builder:subtitle')}
       />
 
       {!mainFish || showSearch ? (
         <div className="bg-card rounded-2xl shadow-sm shadow-black/5 p-4">
           <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">
-            {mainFish ? 'Trocar peixe principal' : 'Escolha o peixe principal'}
+            {mainFish ? t('builder:changeMain') : t('builder:chooseMain')}
           </p>
           <div className="relative">
             <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-secondary" />
@@ -439,7 +441,7 @@ export default function AquariumBuilderPage() {
               type="text"
               value={query}
               onChange={e => setQuery(e.target.value)}
-              placeholder="Buscar especie..."
+              placeholder={t('builder:searchPlaceholder')}
               className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-border bg-surface text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
               autoFocus
             />
@@ -467,7 +469,7 @@ export default function AquariumBuilderPage() {
         </div>
       ) : (
         <div className="bg-card rounded-2xl shadow-sm shadow-black/5 p-4">
-          <p className="text-[10px] font-bold text-text-secondary uppercase tracking-wider mb-3">Peixe principal</p>
+          <p className="text-[10px] font-bold text-text-secondary uppercase tracking-wider mb-3">{t('builder:mainFish')}</p>
           <div className="flex items-center gap-3">
             <div className="w-16 h-16 rounded-xl overflow-hidden bg-surface-alt flex-shrink-0">
               <img src={getPrimaryImage(mainFish.imagem, mainFish.inatPhotos)} alt={mainFish.nomePopular}
@@ -484,7 +486,7 @@ export default function AquariumBuilderPage() {
               </div>
             </div>
             <button onClick={() => setShowSearch(true)} className="text-xs text-primary font-semibold hover:underline flex-shrink-0">
-              Trocar
+              {t('common:change')}
             </button>
           </div>
         </div>
@@ -493,7 +495,7 @@ export default function AquariumBuilderPage() {
       {recommendations && (
         <div className="mt-6 space-y-8">
           {recommendations.fish.length > 0 && (
-            <Section icon={FishIcon} color="text-blue-500" title="Peixes Recomendados" count={recommendations.fish.length}>
+            <Section icon={FishIcon} color="text-blue-500" title={t('builder:recommendedFish')} count={recommendations.fish.length}>
               <div className="grid gap-2 sm:grid-cols-2">
                 {recommendations.fish.map(rec => <RecCard key={rec.species.id} rec={rec} />)}
               </div>
@@ -501,7 +503,7 @@ export default function AquariumBuilderPage() {
           )}
 
           {recommendations.inverts.length > 0 && (
-            <Section icon={Shell} color="text-emerald-500" title="Invertebrados Recomendados" count={recommendations.inverts.length}>
+            <Section icon={Shell} color="text-emerald-500" title={t('builder:recommendedInverts')} count={recommendations.inverts.length}>
               <div className="grid gap-2 sm:grid-cols-2">
                 {recommendations.inverts.map(rec => <RecCard key={rec.species.id} rec={rec} />)}
               </div>
@@ -509,7 +511,7 @@ export default function AquariumBuilderPage() {
           )}
 
           {recommendations.plants.length > 0 && (
-            <Section icon={Leaf} color="text-green-500" title="Plantas Recomendadas" count={recommendations.plants.length}>
+            <Section icon={Leaf} color="text-green-500" title={t('builder:recommendedPlants')} count={recommendations.plants.length}>
               <div className="grid gap-2 sm:grid-cols-2">
                 {recommendations.plants.map(rec => <RecCard key={rec.species.id} rec={rec} />)}
               </div>
@@ -517,7 +519,7 @@ export default function AquariumBuilderPage() {
           )}
 
           {recommendations.corals.length > 0 && (
-            <Section icon={Gem} color="text-violet-500" title="Corais Recomendados" count={recommendations.corals.length}>
+            <Section icon={Gem} color="text-violet-500" title={t('builder:recommendedCorals')} count={recommendations.corals.length}>
               <div className="grid gap-2 sm:grid-cols-2">
                 {recommendations.corals.map(rec => <RecCard key={rec.species.id} rec={rec} />)}
               </div>
@@ -525,7 +527,7 @@ export default function AquariumBuilderPage() {
           )}
 
           {recommendations.fish.length === 0 && recommendations.plants.length === 0 && recommendations.inverts.length === 0 && recommendations.corals.length === 0 && (
-            <p className="text-sm text-text-secondary py-4 text-center">Nenhuma recomendacao encontrada para esta especie</p>
+            <p className="text-sm text-text-secondary py-4 text-center">{t('builder:noRecommendations')}</p>
           )}
         </div>
       )}

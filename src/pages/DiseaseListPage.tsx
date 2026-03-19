@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import type { Disease, DiseaseCategory } from '../types'
 import { useSearch } from '../hooks/useSearch'
@@ -7,49 +8,49 @@ import SearchBar from '../components/SearchBar'
 import { ArrowRight, Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
 
 const categoryConfig: Record<DiseaseCategory, {
-  label: string
+  labelKey: string
   icon: typeof Bug
   color: string
   bg: string
   gradient: string
 }> = {
   protozoario: {
-    label: 'Protozoário',
+    labelKey: 'diseases:category.protozoan',
     icon: Microscope,
     color: 'text-purple-700',
     bg: 'bg-purple-100',
     gradient: 'from-purple-500 to-violet-400',
   },
   bacteria: {
-    label: 'Bactéria',
+    labelKey: 'diseases:category.bacteria',
     icon: Dna,
     color: 'text-red-700',
     bg: 'bg-red-100',
     gradient: 'from-red-500 to-rose-400',
   },
   parasita: {
-    label: 'Parasita',
+    labelKey: 'diseases:category.parasite',
     icon: Bug,
     color: 'text-amber-700',
     bg: 'bg-amber-100',
     gradient: 'from-amber-500 to-orange-400',
   },
   fungo: {
-    label: 'Fungo',
+    labelKey: 'diseases:category.fungus',
     icon: Leaf,
     color: 'text-emerald-700',
     bg: 'bg-emerald-100',
     gradient: 'from-emerald-500 to-green-400',
   },
   virus: {
-    label: 'Vírus',
+    labelKey: 'diseases:category.virus',
     icon: CircleDot,
     color: 'text-blue-700',
     bg: 'bg-blue-100',
     gradient: 'from-blue-500 to-cyan-400',
   },
   outro: {
-    label: 'Outros',
+    labelKey: 'diseases:category.other',
     icon: HelpCircle,
     color: 'text-gray-700',
     bg: 'bg-gray-100',
@@ -58,6 +59,7 @@ const categoryConfig: Record<DiseaseCategory, {
 }
 
 export default function DiseaseListPage() {
+  const { t } = useTranslation(['diseases', 'common'])
   const [diseases, setDiseases] = useState<Disease[]>([])
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState<DiseaseCategory | 'all'>('all')
@@ -84,7 +86,7 @@ export default function DiseaseListPage() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="flex items-center justify-center py-20 text-text-secondary">
-          Carregando...
+          {t('common:loading')}
         </div>
       </div>
     )
@@ -92,13 +94,13 @@ export default function DiseaseListPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title="Doenças e Tratamentos" subtitle={`${diseases.length} doenças catalogadas`} />
+      <PageHeader title={t('diseases:title')} subtitle={t('diseases:diseasesCataloged', { count: diseases.length })} />
 
       <div className="mb-6">
         <SearchBar
           value={query}
           onChange={setQuery}
-          placeholder="Buscar doença..."
+          placeholder={t('diseases:searchPlaceholder')}
         />
       </div>
 
@@ -111,7 +113,7 @@ export default function DiseaseListPage() {
               : 'bg-card text-text-secondary border border-border hover:border-primary/30'
           }`}
         >
-          Todas ({diseases.length})
+          {t('common:allFem')} ({diseases.length})
         </button>
         {(Object.entries(categoryConfig) as [DiseaseCategory, typeof categoryConfig[DiseaseCategory]][]).map(([key, config]) => {
           const count = categoryCounts[key] || 0
@@ -128,7 +130,7 @@ export default function DiseaseListPage() {
               }`}
             >
               <Icon size={13} />
-              {config.label} ({count})
+              {t(config.labelKey)} ({count})
             </button>
           )
         })}
@@ -152,7 +154,7 @@ export default function DiseaseListPage() {
                   <h3 className="font-bold text-text truncate">{disease.nome}</h3>
                   <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold ${config.bg} ${config.color} flex-shrink-0`}>
                     <Icon size={10} />
-                    {config.label}
+                    {t(config.labelKey)}
                   </span>
                 </div>
                 {disease.nomeCientifico && (
@@ -166,7 +168,7 @@ export default function DiseaseListPage() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-text-secondary py-12">Nenhuma doença encontrada.</p>
+        <p className="text-center text-text-secondary py-12">{t('diseases:noResults')}</p>
       )}
     </div>
   )

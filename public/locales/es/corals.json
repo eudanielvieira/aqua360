@@ -1,0 +1,14 @@
+{
+  "title": "Corales y Anemonas",
+  "notFound": "Coral no encontrado",
+  "noResults": "No se encontraron corales.",
+  "searchPlaceholder": "Buscar coral o anemona...",
+  "category.soft": "Coral Blando",
+  "category.lps": "LPS",
+  "category.lpsLong": "LPS (Large Polyp Stony)",
+  "category.sps": "SPS",
+  "category.spsLong": "SPS (Small Polyp Stony)",
+  "category.anemone": "Anemona",
+  "detail.description": "Descripcion",
+  "detail.feeding": "Alimentacion"
+}

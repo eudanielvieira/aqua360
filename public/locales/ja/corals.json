@@ -1,0 +1,14 @@
+{
+  "title": "サンゴとイソギンチャク",
+  "notFound": "サンゴが見つかりません",
+  "noResults": "サンゴが見つかりませんでした。",
+  "searchPlaceholder": "サンゴやイソギンチャクを検索...",
+  "category.soft": "ソフトコーラル",
+  "category.lps": "LPS",
+  "category.lpsLong": "LPS（大型ポリプ石サンゴ）",
+  "category.sps": "SPS",
+  "category.spsLong": "SPS（小型ポリプ石サンゴ）",
+  "category.anemone": "イソギンチャク",
+  "detail.description": "説明",
+  "detail.feeding": "給餌"
+}

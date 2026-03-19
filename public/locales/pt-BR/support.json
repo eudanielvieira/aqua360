@@ -1,0 +1,23 @@
+{
+  "title": "Apoie o Aqua360",
+  "heading": "Ajude a manter o Aqua360 no ar",
+  "description": "O Aqua360 e um projeto independente, mantido com dedicacao para a comunidade de aquarismo. Com dados cientificos de mais de 788 especies, mapas de distribuicao, verificador de compatibilidade e muito mais -- tudo gratuito e sem anuncios.",
+  "tab.pix": "Brasil (Pix)",
+  "tab.international": "Fora do Brasil",
+  "pix.title": "Apoie via Pix",
+  "pix.key": "Chave Pix:",
+  "pix.copied": "Chave copiada!",
+  "pix.qrFallback": "Aponte a camera do banco para o QR Code ou copie a chave abaixo",
+  "pix.qrSoon": "QR Code em breve",
+  "bmac.title": "Support via Buy Me a Coffee",
+  "bmac.description": "Hey! I'm Daniel, a software developer from Brazil passionate about technology, open source, and the aquarium hobby. Aqua360 is my independent project -- a free, ad-free encyclopedia with 788+ species, scientific data, compatibility checker, distribution maps, and calculators. Your support helps keep the servers running and everything free for the community!",
+  "bmac.button": "Buy me a coffee",
+  "bmac.accepts": "Accepts credit card, debit card, and PayPal.",
+  "benefit.server": "Servidor e dominio",
+  "benefit.server.desc": "Sua contribuicao ajuda a pagar a hospedagem e manter o site no ar.",
+  "benefit.content": "Novos conteudos",
+  "benefit.content.desc": "Mais especies, fotos, guias de montagem e funcionalidades novas.",
+  "benefit.adFree": "Sem anuncios",
+  "benefit.adFree.desc": "Com seu apoio o Aqua360 continua 100% gratuito e sem propagandas.",
+  "thanks": "Qualquer valor faz diferenca. Obrigado por apoiar a comunidade de aquarismo!"
+}

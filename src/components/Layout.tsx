@@ -18,32 +18,43 @@ import {
   Waves,
   Sun,
   Moon,
+  Globe,
 } from 'lucide-react'
 import { useDarkMode } from '../hooks/useDarkMode'
+import { useTranslation } from 'react-i18next'
 
 const mainNav = [
-  { path: '/peixes', label: 'Peixes', icon: Fish },
-  { path: '/plantas', label: 'Plantas', icon: Leaf },
-  { path: '/corais', label: 'Corais', icon: Gem },
-  { path: '/doencas', label: 'Doencas', icon: HeartPulse },
+  { path: '/peixes', label: 'nav.fish', icon: Fish },
+  { path: '/plantas', label: 'nav.plants', icon: Leaf },
+  { path: '/corais', label: 'nav.corals', icon: Gem },
+  { path: '/doencas', label: 'nav.diseases', icon: HeartPulse },
 ]
 
 const toolsNav = [
-  { path: '/calculadoras', label: 'Calculadoras', icon: Calculator },
-  { path: '/compatibilidade', label: 'Compatibilidade', icon: ArrowLeftRight },
-  { path: '/montar-aquario', label: 'Montador de Aquario', icon: Sparkles },
+  { path: '/calculadoras', label: 'nav.calculators', icon: Calculator },
+  { path: '/compatibilidade', label: 'nav.compatibility', icon: ArrowLeftRight },
+  { path: '/montar-aquario', label: 'nav.builder', icon: Sparkles },
 ]
 
 const learnNav = [
-  { path: '/guias', label: 'Guias', icon: GraduationCap },
-  { path: '/glossario', label: 'Glossario', icon: BookOpen },
-  { path: '/busca', label: 'Busca', icon: Search },
+  { path: '/guias', label: 'nav.guides', icon: GraduationCap },
+  { path: '/glossario', label: 'nav.glossary', icon: BookOpen },
+  { path: '/busca', label: 'nav.search', icon: Search },
+]
+
+const languages = [
+  { code: 'pt-BR', label: 'PT' },
+  { code: 'en', label: 'EN' },
+  { code: 'es', label: 'ES' },
+  { code: 'ja', label: 'JA' },
 ]
 
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [langOpen, setLangOpen] = useState(false)
   const location = useLocation()
   const { dark, toggle } = useDarkMode()
+  const { t, i18n } = useTranslation('common')
 
   const isActive = (path: string) =>
     location.pathname === path || (path !== '/' && location.pathname.startsWith(path))
@@ -63,7 +74,7 @@ export default function Layout() {
         }`}
       >
         <Icon size={compact ? 15 : 18} />
-        {item.label}
+        {t(item.label)}
       </Link>
     )
   }
@@ -82,10 +93,34 @@ export default function Layout() {
             {mainNav.map(item => navLink(item, true))}
           </nav>
           <div className="ml-auto flex items-center gap-1">
+            <div className="relative">
+              <button
+                onClick={() => setLangOpen(!langOpen)}
+                className="p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors flex items-center gap-1"
+              >
+                <Globe size={16} />
+                <span className="text-xs font-bold">{i18n.language.substring(0, 2).toUpperCase()}</span>
+              </button>
+              {langOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-card border border-border rounded-xl shadow-lg py-1 z-50 min-w-[80px]">
+                  {languages.map(lang => (
+                    <button
+                      key={lang.code}
+                      onClick={() => { i18n.changeLanguage(lang.code); setLangOpen(false) }}
+                      className={`w-full px-3 py-2 text-xs font-medium text-left hover:bg-surface-alt transition-colors ${
+                        i18n.language === lang.code ? 'text-primary font-bold' : 'text-text-secondary'
+                      }`}
+                    >
+                      {lang.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <button
               onClick={toggle}
               className="p-2 rounded-xl text-text-secondary hover:bg-surface-alt hover:text-text transition-colors"
-              aria-label={dark ? 'Modo claro' : 'Modo escuro'}
+              aria-label={dark ? t('lightMode') : t('darkMode')}
             >
               {dark ? <Sun size={18} /> : <Moon size={18} />}
             </button>
@@ -135,16 +170,16 @@ export default function Layout() {
             }`}
           >
             <Home size={18} />
-            Inicio
+            {t('nav.home')}
           </Link>
 
-          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Catalogo</p>
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">{t('nav.catalog')}</p>
           {mainNav.map(item => navLink(item))}
 
-          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Ferramentas</p>
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">{t('nav.tools')}</p>
           {toolsNav.map(item => navLink(item))}
 
-          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">Aprender</p>
+          <p className="text-[10px] font-bold text-text-secondary/50 uppercase tracking-wider px-4 mt-4 mb-2">{t('nav.learn')}</p>
           {learnNav.map(item => navLink(item))}
 
           <div className="border-t border-border mt-4 pt-3">
@@ -153,7 +188,7 @@ export default function Layout() {
               className="flex items-center gap-2 px-4 py-3 rounded-lg text-sm text-text-secondary hover:bg-surface-alt hover:text-text transition-all w-full"
             >
               {dark ? <Sun size={18} /> : <Moon size={18} />}
-              {dark ? 'Modo Claro' : 'Modo Escuro'}
+              {dark ? t('lightMode') : t('darkMode')}
             </button>
           </div>
         </nav>
@@ -170,15 +205,15 @@ export default function Layout() {
               <Waves size={12} className="text-primary" />
               <span className="font-semibold text-text">Aqua360</span>
             </div>
-            <p className="text-text-secondary">O seu guia completo de aquarismo</p>
+            <p className="text-text-secondary">{t('footer.tagline')}</p>
           </div>
           <div className="flex flex-col items-center sm:items-end gap-2">
             <Link to="/apoie" className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-lg bg-rose-500/10 text-rose-500 dark:bg-rose-400/15 dark:text-rose-400 font-semibold hover:bg-rose-500/20 transition-colors">
               <Heart size={12} fill="currentColor" />
-              Apoie o projeto
+              {t('footer.support')}
             </Link>
             <p className="text-text-secondary/50 text-[10px]">
-              Dados enriquecidos via GBIF, WoRMS e iNaturalist
+              {t('footer.data')}
             </p>
           </div>
         </div>

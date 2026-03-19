@@ -1,0 +1,11 @@
+{
+  "title": "検索",
+  "subtitle": "すべてのセクションを横断検索",
+  "placeholder": "魚、水草、サンゴ、病気を検索...",
+  "noResults": "結果が見つかりませんでした",
+  "minChars": "2文字以上入力してください",
+  "type.fish": "魚",
+  "type.plant": "水草",
+  "type.coral": "サンゴ",
+  "type.disease": "病気"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "魚",
+  "subtitle": "カテゴリーを選んで探す",
+  "notFound": "魚が見つかりません",
+  "noResults": "魚が見つかりませんでした。",
+  "searchPlaceholder": "一般名、学名、科で検索...",
+  "category.freshwater": "淡水魚",
+  "category.freshwater.desc": "熱帯魚、シクリッド、テトラ、ベタなど",
+  "category.saltwater": "海水魚",
+  "category.saltwater.desc": "クマノミ、ナンヨウハギ、ベラ、ハゼなど",
+  "category.invertFresh": "淡水無脊椎動物",
+  "category.invertFresh.desc": "エビ、カニ、巻貝、二枚貝",
+  "category.invertSalt": "海水無脊椎動物",
+  "category.invertSalt.desc": "観賞用エビと海洋無脊椎動物",
+  "detail.characteristics": "特徴",
+  "detail.behavior": "行動",
+  "detail.feeding": "給餌",
+  "detail.reproduction": "繁殖",
+  "detail.sexualDimorphism": "性的二形",
+  "detail.otherInfo": "その他の情報"
+}

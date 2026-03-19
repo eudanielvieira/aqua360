@@ -1,0 +1,43 @@
+{
+  "fish": {
+    "pacifico": "Pacificos",
+    "agressivo": "Agresivos",
+    "cardume": "Cardumen",
+    "nano": "Nano (hasta 5cm)",
+    "pequeno": "Pequenos (5-10cm)",
+    "medio": "Medianos (10-20cm)",
+    "grande": "Grandes (20cm+)",
+    "acido": "Agua Acida (pH<7)",
+    "neutro": "Agua Neutra (pH~7)",
+    "alcalino": "Agua Alcalina (pH>7)",
+    "carnivoro": "Carnivoros",
+    "pet": "Pet Fish"
+  },
+  "invertFresh": {
+    "camarao": "Camarones",
+    "caracol": "Caracoles",
+    "caranguejo": "Cangrejos",
+    "lagosta": "Langostas",
+    "mexilhao": "Mejillones"
+  },
+  "invertSalt": {
+    "camarao": "Camarones",
+    "caranguejo": "Cangrejos",
+    "estrela": "Estrellas",
+    "ourico": "Erizos",
+    "caracol": "Caracoles",
+    "molusco": "Moluscos"
+  },
+  "plants": {
+    "facil": "Facil",
+    "moderada": "Moderada",
+    "dificil": "Dificil",
+    "frente": "Frente (alfombra)",
+    "meio": "Medio",
+    "fundo": "Fondo",
+    "flutuante": "Flotante",
+    "rapido": "Crecimiento rapido",
+    "semco2": "Sin CO2",
+    "musgo": "Musgos"
+  }
+}

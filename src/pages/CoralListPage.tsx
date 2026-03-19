@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import type { Coral, CoralCategory } from '../types'
 import { useSearch } from '../hooks/useSearch'
@@ -8,35 +9,35 @@ import SearchBar from '../components/SearchBar'
 import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
 
 const categoryConfig: Record<CoralCategory, {
-  label: string
+  labelKey: string
   icon: typeof Gem
   gradient: string
   bg: string
   color: string
 }> = {
   mole: {
-    label: 'Coral Mole',
+    labelKey: 'corals:category.soft',
     icon: Circle,
     gradient: 'from-pink-500 to-rose-400',
     bg: 'bg-pink-100',
     color: 'text-pink-700',
   },
   'duro-lps': {
-    label: 'LPS',
+    labelKey: 'corals:category.lps',
     icon: Hexagon,
     gradient: 'from-orange-500 to-amber-400',
     bg: 'bg-orange-100',
     color: 'text-orange-700',
   },
   'duro-sps': {
-    label: 'SPS',
+    labelKey: 'corals:category.sps',
     icon: Gem,
     gradient: 'from-violet-500 to-purple-400',
     bg: 'bg-violet-100',
     color: 'text-violet-700',
   },
   anemona: {
-    label: 'Anemona',
+    labelKey: 'corals:category.anemone',
     icon: Shell,
     gradient: 'from-cyan-500 to-teal-400',
     bg: 'bg-cyan-100',
@@ -45,6 +46,7 @@ const categoryConfig: Record<CoralCategory, {
 }
 
 export default function CoralListPage() {
+  const { t } = useTranslation(['corals', 'common'])
   const [corals, setCorals] = useState<Coral[]>([])
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState<CoralCategory | 'all'>('all')
@@ -70,17 +72,17 @@ export default function CoralListPage() {
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
+        <div className="flex items-center justify-center py-20 text-text-secondary">{t('common:loading')}</div>
       </div>
     )
   }
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title="Corais e Anemonas" subtitle={`${corals.length} especies catalogadas`} />
+      <PageHeader title={t('corals:title')} subtitle={t('common:speciesCataloged', { count: corals.length })} />
 
       <div className="mb-6">
-        <SearchBar value={query} onChange={setQuery} placeholder="Buscar coral ou anemona..." />
+        <SearchBar value={query} onChange={setQuery} placeholder={t('corals:searchPlaceholder')} />
       </div>
 
       <div className="flex flex-wrap gap-2 mb-6">
@@ -92,7 +94,7 @@ export default function CoralListPage() {
               : 'bg-card text-text-secondary hover:shadow-sm'
           }`}
         >
-          Todos ({corals.length})
+          {t('common:all')} ({corals.length})
         </button>
         {(Object.entries(categoryConfig) as [CoralCategory, typeof categoryConfig[CoralCategory]][]).map(([key, config]) => {
           const count = categoryCounts[key] || 0
@@ -109,7 +111,7 @@ export default function CoralListPage() {
               }`}
             >
               <Icon size={13} />
-              {config.label} ({count})
+              {t(config.labelKey)} ({count})
             </button>
           )
         })}
@@ -142,7 +144,7 @@ export default function CoralListPage() {
                 <div className="absolute top-2 right-2">
                   <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-white/90 backdrop-blur-sm ${config.color}`}>
                     <Icon size={10} />
-                    {config.label}
+                    {t(config.labelKey)}
                   </span>
                 </div>
               </div>
@@ -156,7 +158,7 @@ export default function CoralListPage() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-text-secondary py-12">Nenhum coral encontrado.</p>
+        <p className="text-center text-text-secondary py-12">{t('corals:noResults')}</p>
       )}
     </div>
   )

@@ -1,0 +1,21 @@
+{
+  "title": "Peces",
+  "subtitle": "Selecciona una categoria para explorar",
+  "notFound": "Pez no encontrado",
+  "noResults": "No se encontraron peces.",
+  "searchPlaceholder": "Buscar por nombre comun, cientifico o familia...",
+  "category.freshwater": "Peces de Agua Dulce",
+  "category.freshwater.desc": "Peces tropicales, ciclidos, tetras, bettas y mas",
+  "category.saltwater": "Peces de Agua Salada",
+  "category.saltwater.desc": "Peces payaso, tangs, wrasses, gobios y mas",
+  "category.invertFresh": "Invertebrados de Agua Dulce",
+  "category.invertFresh.desc": "Camarones, cangrejos, caracoles y mejillones",
+  "category.invertSalt": "Invertebrados de Agua Salada",
+  "category.invertSalt.desc": "Camarones ornamentales e invertebrados marinos",
+  "detail.characteristics": "Caracteristicas",
+  "detail.behavior": "Comportamiento",
+  "detail.feeding": "Alimentacion",
+  "detail.reproduction": "Reproduccion",
+  "detail.sexualDimorphism": "Dimorfismo Sexual",
+  "detail.otherInfo": "Otras Informaciones"
+}

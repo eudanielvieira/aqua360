@@ -1,0 +1,23 @@
+{
+  "title": "Aqua360を支援する",
+  "heading": "Aqua360の運営を支えてください",
+  "description": "Aqua360はアクアリウム愛好家のために情熱を込めて運営する個人プロジェクトです。788種以上の科学データ、分布マップ、相性チェッカーなど、すべて無料・広告なしで提供しています。",
+  "tab.pix": "ブラジル (Pix)",
+  "tab.international": "ブラジル国外",
+  "pix.title": "Pixで支援する",
+  "pix.key": "Pixキー:",
+  "pix.copied": "キーをコピーしました!",
+  "pix.qrFallback": "銀行アプリのカメラでQRコードを読み取るか、下記のキーをコピーしてください",
+  "pix.qrSoon": "QRコード準備中",
+  "bmac.title": "Support via Buy Me a Coffee",
+  "bmac.description": "Hey! I'm Daniel, a software developer from Brazil passionate about technology, open source, and the aquarium hobby. Aqua360 is my independent project -- a free, ad-free encyclopedia with 788+ species, scientific data, compatibility checker, distribution maps, and calculators. Your support helps keep the servers running and everything free for the community!",
+  "bmac.button": "Buy me a coffee",
+  "bmac.accepts": "Accepts credit card, debit card, and PayPal.",
+  "benefit.server": "サーバーとドメイン",
+  "benefit.server.desc": "あなたの支援がホスティング費用とサイトの維持に役立ちます。",
+  "benefit.content": "新しいコンテンツ",
+  "benefit.content.desc": "更に多くの種、写真、セットアップガイド、新機能の追加。",
+  "benefit.adFree": "広告なし",
+  "benefit.adFree.desc": "あなたの支援でAqua360は100%無料・広告なしを維持できます。",
+  "thanks": "どんな金額でも大きな力になります。アクアリウムコミュニティを支えてくださりありがとうございます!"
+}

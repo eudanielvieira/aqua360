@@ -1,0 +1,16 @@
+{
+  "title": "病気と治療",
+  "diseasesCataloged": "{{count}}件の病気を収録",
+  "notFound": "病気が見つかりません",
+  "noResults": "病気が見つかりませんでした。",
+  "searchPlaceholder": "病気を検索...",
+  "category.protozoan": "原虫",
+  "category.bacteria": "細菌",
+  "category.parasite": "寄生虫",
+  "category.fungus": "真菌",
+  "category.virus": "ウイルス",
+  "category.other": "その他",
+  "detail.cause": "原因",
+  "detail.symptoms": "症状",
+  "detail.treatment": "治療"
+}

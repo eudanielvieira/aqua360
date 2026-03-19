@@ -1,0 +1,12 @@
+{
+  "title": "Busqueda",
+  "subtitle": "Busca en todas las secciones",
+  "placeholder": "Buscar peces, plantas, corales, enfermedades...",
+  "results": "{{count}} resultados",
+  "noResults": "No se encontraron resultados",
+  "minChars": "Escribe al menos 2 caracteres para buscar",
+  "typeLabel.fish": "Pez",
+  "typeLabel.plant": "Planta",
+  "typeLabel.coral": "Coral",
+  "typeLabel.disease": "Enfermedad"
+}

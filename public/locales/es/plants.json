@@ -1,0 +1,14 @@
+{
+  "title": "Plantas",
+  "notFound": "Planta no encontrada",
+  "noResults": "No se encontraron plantas.",
+  "searchPlaceholder": "Buscar por nombre comun, cientifico o familia...",
+  "detail.structure": "Estructura",
+  "detail.planting": "Plantacion",
+  "detail.size": "Tamano",
+  "detail.stature": "Porte",
+  "detail.position": "Posicion",
+  "detail.reproduction": "Reproduccion",
+  "detail.fertileSubstrate": "Sustrato Fertil",
+  "detail.supportsEmersion": "Soporta Emersion"
+}

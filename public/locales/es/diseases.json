@@ -1,0 +1,16 @@
+{
+  "title": "Enfermedades y Tratamientos",
+  "diseasesCataloged": "{{count}} enfermedades catalogadas",
+  "notFound": "Enfermedad no encontrada",
+  "noResults": "No se encontraron enfermedades.",
+  "searchPlaceholder": "Buscar enfermedad...",
+  "category.protozoan": "Protozoario",
+  "category.bacteria": "Bacteria",
+  "category.parasite": "Parasito",
+  "category.fungus": "Hongo",
+  "category.virus": "Virus",
+  "category.other": "Otros",
+  "detail.cause": "Causa",
+  "detail.symptoms": "Sintomas",
+  "detail.treatment": "Tratamiento"
+}

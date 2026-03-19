@@ -1,0 +1,21 @@
+{
+  "title": "Peixes",
+  "subtitle": "Selecione uma categoria para explorar",
+  "notFound": "Peixe nao encontrado",
+  "noResults": "Nenhum peixe encontrado.",
+  "searchPlaceholder": "Buscar por nome popular, cientifico ou familia...",
+  "category.freshwater": "Peixes de Agua Doce",
+  "category.freshwater.desc": "Peixes tropicais, ciclideos, tetras, bettas e mais",
+  "category.saltwater": "Peixes de Agua Salgada",
+  "category.saltwater.desc": "Peixes-palhaco, tangs, wrasses, gobies e mais",
+  "category.invertFresh": "Invertebrados de Agua Doce",
+  "category.invertFresh.desc": "Camaroes, caranguejos, caracois e mexilhoes",
+  "category.invertSalt": "Invertebrados de Agua Salgada",
+  "category.invertSalt.desc": "Camaroes ornamentais e invertebrados marinhos",
+  "detail.characteristics": "Caracteristicas",
+  "detail.behavior": "Comportamento",
+  "detail.feeding": "Alimentacao",
+  "detail.reproduction": "Reproducao",
+  "detail.sexualDimorphism": "Dimorfismo Sexual",
+  "detail.otherInfo": "Outras Informacoes"
+}

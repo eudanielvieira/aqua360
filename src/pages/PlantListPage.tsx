@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import type { Plant } from '../types'
 import { useSearch } from '../hooks/useSearch'
 import PageHeader from '../components/PageHeader'
@@ -9,6 +10,7 @@ import QuickFilters, { plantFilters } from '../components/QuickFilters'
 const PAGE_SIZE = 30
 
 export default function PlantListPage() {
+  const { t } = useTranslation(['plants', 'common'])
   const [allPlants, setAllPlants] = useState<Plant[]>([])
   const [loading, setLoading] = useState(true)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
@@ -34,7 +36,7 @@ export default function PlantListPage() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="flex items-center justify-center py-20 text-text-secondary">
-          Carregando...
+          {t('common:loading')}
         </div>
       </div>
     )
@@ -42,13 +44,13 @@ export default function PlantListPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-6">
-      <PageHeader title="Plantas" subtitle={`${filtered.length} espécies encontradas`} />
+      <PageHeader title={t('plants:title')} subtitle={t('common:speciesFound', { count: filtered.length })} />
 
       <div className="mb-4">
         <SearchBar
           value={query}
           onChange={setQuery}
-          placeholder="Buscar por nome popular, científico ou família..."
+          placeholder={t('plants:searchPlaceholder')}
         />
       </div>
 
@@ -72,7 +74,7 @@ export default function PlantListPage() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-text-secondary py-12">Nenhuma planta encontrada.</p>
+        <p className="text-center text-text-secondary py-12">{t('plants:noResults')}</p>
       )}
 
       {hasMore && (
@@ -81,7 +83,7 @@ export default function PlantListPage() {
             onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
             className="px-6 py-2.5 bg-primary text-white rounded-xl text-sm font-medium hover:bg-primary-dark transition-colors"
           >
-            Carregar mais
+            {t('common:loadMore')}
           </button>
         </div>
       )}

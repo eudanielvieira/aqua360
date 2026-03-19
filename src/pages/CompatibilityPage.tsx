@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { loadAllFish } from '../data/fish-index'
 import type { Fish } from '../types'
 import { checkCompatibility, type CompatibilityResult, type SpeciesParams } from '../utils/compatibility'
@@ -45,6 +46,7 @@ function SpeciesSearch({ species, selectedIds, onAdd }: {
   selectedIds: Set<number>
   onAdd: (s: SpeciesOption) => void
 }) {
+  const { t } = useTranslation('compatibility')
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
 
@@ -65,7 +67,7 @@ function SpeciesSearch({ species, selectedIds, onAdd }: {
           onChange={e => { setQuery(e.target.value); setOpen(true) }}
           onFocus={() => setOpen(true)}
           onBlur={() => setTimeout(() => setOpen(false), 200)}
-          placeholder="Adicionar especie ao aquario..."
+          placeholder={t('searchPlaceholder')}
           className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-border bg-surface text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
         />
       </div>
@@ -155,6 +157,7 @@ interface PairResult {
 }
 
 function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs: PairResult[] }) {
+  const { t } = useTranslation(['compatibility', 'common'])
   if (selected.length < 2) return null
 
   const params: { key: keyof SpeciesOption; label: string }[] = [
@@ -190,7 +193,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
   return (
     <div className="mt-4 bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
       <div className="p-4 pb-2">
-        <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">Comparativo de Parametros</p>
+        <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">{t('compatibility:comparisonTable')}</p>
       </div>
       <div className="overflow-x-auto">
         <table className="w-full text-xs">
@@ -242,7 +245,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
               )
             })}
             <tr className="border-b border-border/40">
-              <td className="p-3 font-semibold text-text-secondary">Agua</td>
+              <td className="p-3 font-semibold text-text-secondary">{t('compatibility:water')}</td>
               {selected.map(s => {
                 const fresh = isFreshwater(s.tipo || '')
                 const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
@@ -250,20 +253,20 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
                   <td key={s.id} className={`p-3 text-center ${isBad < 40 ? 'bg-red-500/5' : ''}`}>
                     <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${fresh ? 'bg-cyan-500/10 text-cyan-600' : 'bg-blue-500/10 text-blue-600'}`}>
                       {fresh ? <Droplets size={10} /> : <Waves size={10} />}
-                      {fresh ? 'Doce' : 'Salgada'}
+                      {fresh ? t('common:water.fresh') : t('common:water.salt')}
                     </span>
                   </td>
                 )
               })}
             </tr>
             <tr className="border-b border-border/40">
-              <td className="p-3 font-semibold text-text-secondary">Dieta</td>
+              <td className="p-3 font-semibold text-text-secondary">{t('compatibility:diet')}</td>
               {selected.map(s => {
                 const food = normalize(s.alimentacao || '')
                 const isCarn = food.includes('carniv') || food.includes('peixes vivos')
                 const isHerb = food.includes('herbivor') || food.includes('vegeta')
                 const isOmni = food.includes('onivor')
-                const label = isCarn ? 'Carnivoro' : isHerb ? 'Herbivoro' : isOmni ? 'Onivoro' : '-'
+                const label = isCarn ? t('common:diet.carnivore') : isHerb ? t('common:diet.herbivore') : isOmni ? t('common:diet.omnivore') : '-'
                 const Icon = isCarn ? Beef : isHerb ? Salad : Cookie
                 const color = isCarn ? 'bg-red-500/10 text-red-600' : isHerb ? 'bg-emerald-500/10 text-emerald-600' : 'bg-amber-500/10 text-amber-600'
                 const isBad = speciesIssues.get(s.id)?.worstScore ?? 100
@@ -280,7 +283,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
               })}
             </tr>
             <tr>
-              <td className="p-3 font-semibold text-text-secondary">Temperamento</td>
+              <td className="p-3 font-semibold text-text-secondary">{t('compatibility:temperament')}</td>
               {selected.map(s => {
                 const b = normalize(s.comportamento || '')
                 const isAgg = b.includes('agressiv') || b.includes('territorial')
@@ -291,7 +294,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
                     {(isAgg || isPeace) ? (
                       <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold ${isAgg ? 'bg-red-500/10 text-red-600' : 'bg-emerald-500/10 text-emerald-600'}`}>
                         {isAgg ? <Skull size={10} /> : <Heart size={10} />}
-                        {isAgg ? 'Agressivo' : 'Pacifico'}
+                        {isAgg ? t('common:temperament.aggressive') : t('common:temperament.peaceful')}
                       </span>
                     ) : <span className="text-text-secondary">-</span>}
                   </td>
@@ -306,6 +309,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
 }
 
 export default function CompatibilityPage() {
+  const { t } = useTranslation(['compatibility', 'common'])
   const [allSpecies, setAllSpecies] = useState<SpeciesOption[]>([])
   const [loading, setLoading] = useState(true)
   const [selected, setSelected] = useState<SpeciesOption[]>([])
@@ -347,7 +351,7 @@ export default function CompatibilityPage() {
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <div className="flex items-center justify-center py-20 text-text-secondary">Carregando...</div>
+        <div className="flex items-center justify-center py-20 text-text-secondary">{t('common:loading')}</div>
       </div>
     )
   }
@@ -355,8 +359,8 @@ export default function CompatibilityPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <PageHeader
-        title="Compatibilidade"
-        subtitle="Monte seu aquario e verifique se as especies podem conviver"
+        title={t('compatibility:title')}
+        subtitle={t('compatibility:subtitle')}
       />
 
       <SpeciesSearch
@@ -369,14 +373,14 @@ export default function CompatibilityPage() {
         <div className="mt-4">
           <div className="flex items-center justify-between mb-2">
             <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">
-              Seu aquario ({selected.length} {selected.length === 1 ? 'especie' : 'especies'})
+              {t('compatibility:yourAquarium')} ({selected.length} {selected.length === 1 ? t('common:species') : t('common:speciesPlural')})
             </p>
             <button
               onClick={() => setSelected([])}
               className="flex items-center gap-1 text-xs text-text-secondary hover:text-red-500 transition-colors"
             >
               <Trash2 size={12} />
-              Limpar
+              {t('common:clear')}
             </button>
           </div>
           <div className="grid gap-2 sm:grid-cols-2">
@@ -395,7 +399,7 @@ export default function CompatibilityPage() {
                 <div className={`text-4xl font-extrabold ${scoreTextColor(overallScore)}`}>
                   {overallScore}%
                 </div>
-                <p className="text-[10px] text-text-secondary font-medium mt-0.5">Geral</p>
+                <p className="text-[10px] text-text-secondary font-medium mt-0.5">{t('compatibility:overall')}</p>
               </div>
               <div className="flex-1">
                 <div className="w-full h-2.5 rounded-full bg-surface-alt overflow-hidden">
@@ -405,7 +409,7 @@ export default function CompatibilityPage() {
                   />
                 </div>
                 <p className="text-xs text-text-secondary mt-1.5">
-                  {pairs.length} {pairs.length === 1 ? 'combinacao' : 'combinacoes'} analisadas
+                  {pairs.length} {pairs.length === 1 ? t('common:combination') : t('common:combinationPlural')} analisadas
                 </p>
               </div>
             </div>
@@ -425,7 +429,7 @@ export default function CompatibilityPage() {
           <ComparisonTable selected={selected} pairs={pairs} />
 
           <div className="mt-4 bg-card rounded-2xl shadow-sm shadow-black/5 p-5">
-            <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">Analise por Combinacao</p>
+            <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('compatibility:analysisTitle')}</p>
             <div className="space-y-3">
               {pairs.map(pair => {
                 const key = `${pair.a.id}-${pair.b.id}`
@@ -458,7 +462,7 @@ export default function CompatibilityPage() {
             <div className="mt-4 p-3 rounded-xl bg-primary/5 flex items-start gap-2.5">
               <Info size={14} className="text-primary flex-shrink-0 mt-0.5" />
               <p className="text-[11px] text-text-secondary leading-relaxed">
-                Analise baseada nos parametros ideais. Tamanho do aquario, quantidade de peixes e decoracao tambem influenciam.
+                {t('compatibility:analysisNote')}
               </p>
             </div>
           </div>
@@ -470,8 +474,8 @@ export default function CompatibilityPage() {
           <Plus size={32} className="text-border mx-auto mb-3" />
           <p className="text-sm text-text-secondary">
             {selected.length === 0
-              ? 'Adicione especies para montar seu aquario'
-              : 'Adicione mais uma especie para ver a compatibilidade'}
+              ? t('compatibility:addSpecies')
+              : t('compatibility:addOneMore')}
           </p>
         </div>
       )}

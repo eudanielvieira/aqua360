@@ -1,0 +1,21 @@
+{
+  "title": "Fish",
+  "subtitle": "Select a category to explore",
+  "notFound": "Fish not found",
+  "noResults": "No fish found.",
+  "searchPlaceholder": "Search by common name, scientific name or family...",
+  "category.freshwater": "Freshwater Fish",
+  "category.freshwater.desc": "Tropical fish, cichlids, tetras, bettas and more",
+  "category.saltwater": "Saltwater Fish",
+  "category.saltwater.desc": "Clownfish, tangs, wrasses, gobies and more",
+  "category.invertFresh": "Freshwater Invertebrates",
+  "category.invertFresh.desc": "Shrimp, crabs, snails and mussels",
+  "category.invertSalt": "Saltwater Invertebrates",
+  "category.invertSalt.desc": "Ornamental shrimp and marine invertebrates",
+  "detail.characteristics": "Characteristics",
+  "detail.behavior": "Behavior",
+  "detail.feeding": "Feeding",
+  "detail.reproduction": "Reproduction",
+  "detail.sexualDimorphism": "Sexual Dimorphism",
+  "detail.otherInfo": "Other Information"
+}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
 import { loadFishByType, fishCategories } from '../data/fish-index'
 import type { Fish } from '../types'
@@ -11,6 +12,7 @@ import QuickFilters, { fishFilters, invertFreshFilters, invertSaltFilters } from
 const PAGE_SIZE = 30
 
 export default function FishCategoryPage() {
+  const { t } = useTranslation(['fish', 'common'])
   const { slug } = useParams<{ slug: string }>()
   const [allFish, setAllFish] = useState<Fish[]>([])
   const [loading, setLoading] = useState(true)
@@ -42,7 +44,7 @@ export default function FishCategoryPage() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="flex items-center justify-center py-20 text-text-secondary">
-          Carregando...
+          {t('common:loading')}
         </div>
       </div>
     )
@@ -51,8 +53,8 @@ export default function FishCategoryPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6">
       <PageHeader
-        title={category?.label || 'Peixes'}
-        subtitle={`${filtered.length} espécies encontradas`}
+        title={category?.label || t('fish:title')}
+        subtitle={t('common:speciesFound', { count: filtered.length })}
         backTo="/peixes"
       />
 
@@ -60,7 +62,7 @@ export default function FishCategoryPage() {
         <SearchBar
           value={query}
           onChange={setQuery}
-          placeholder="Buscar por nome popular, científico ou família..."
+          placeholder={t('fish:searchPlaceholder')}
         />
       </div>
 
@@ -84,7 +86,7 @@ export default function FishCategoryPage() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-text-secondary py-12">Nenhum peixe encontrado.</p>
+        <p className="text-center text-text-secondary py-12">{t('fish:noResults')}</p>
       )}
 
       {hasMore && (
@@ -93,7 +95,7 @@ export default function FishCategoryPage() {
             onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
             className="px-6 py-2.5 bg-primary text-white rounded-xl text-sm font-medium hover:bg-primary-dark transition-colors"
           >
-            Carregar mais
+            {t('common:loadMore')}
           </button>
         </div>
       )}

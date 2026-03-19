@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import * as icons from 'lucide-react'
 import { calculators, type CalculatorConfig } from '../utils/calculators'
 import PageHeader from '../components/PageHeader'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 
 function CalculatorCard({ config }: { config: CalculatorConfig }) {
+  const { t } = useTranslation(['calculators', 'common'])
   const [open, setOpen] = useState(false)
   const [values, setValues] = useState<Record<string, string>>({})
   const [result, setResult] = useState('')
@@ -17,7 +19,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
     for (const field of config.fields) {
       const val = parseFloat(values[field.key] || '0')
       if (isNaN(val) || val <= 0) {
-        setResult('Preencha todos os campos com valores válidos.')
+        setResult(t('calculators:invalidFields'))
         return
       }
       numValues[field.key] = val
@@ -67,7 +69,7 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
             onClick={handleCalculate}
             className="mt-4 w-full py-3 bg-primary text-white rounded-xl text-sm font-bold hover:bg-primary-light transition-all duration-200"
           >
-            Calcular
+            {t('common:calculate')}
           </button>
 
           {result && (
@@ -82,9 +84,10 @@ function CalculatorCard({ config }: { config: CalculatorConfig }) {
 }
 
 export default function CalculatorsPage() {
+  const { t } = useTranslation('calculators')
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title="Calculadoras" subtitle="Ferramentas úteis para o seu aquário" />
+      <PageHeader title={t('title')} subtitle={t('subtitle')} />
 
       <div className="grid gap-3">
         {calculators.map(calc => (

@@ -1,0 +1,80 @@
+{
+  "title": "Guias",
+  "subtitle": "Aprende a montar y mantener tu acuario",
+  "aquariumTypes": "Tipos de Acuario",
+  "stepByStep": "Paso a paso",
+  "suggestedFish": "Peces sugeridos",
+  "buildSmart": "Armar acuario inteligente",
+  "cyclingTitle": "Guia de Ciclado",
+  "cyclingDesc": "El ciclado es el proceso mas importante antes de poner peces en el acuario. Toma de 4 a 6 semanas para que las bacterias beneficas se establezcan.",
+  "types": {
+    "comunitario": {
+      "title": "Comunitario de Agua Dulce",
+      "desc": "Acuario con diversas especies pacificas conviviendo juntas.",
+      "steps": [
+        "Elige un acuario de al menos 60 litros",
+        "Agrega sustrato inerte (grava o arena) de 3-5cm",
+        "Instala el filtro (minimo 5x el volumen por hora) y calentador",
+        "Decora con troncos y rocas (crea escondites)",
+        "Llena con agua declorada y enciende los equipos",
+        "Espera el ciclado completo (4-6 semanas)",
+        "Comienza con peces resistentes como Danio o Corydoras",
+        "Agrega nuevas especies gradualmente (2-3 por semana)"
+      ],
+      "fishSuggestions": "Neon, Corydoras, Betta (solo), Rasbora, Guppy, Plati"
+    },
+    "plantado": {
+      "title": "Acuario Plantado",
+      "desc": "Enfoque en plantas acuaticas con iluminacion y CO2.",
+      "steps": [
+        "Elige un acuario con buena area de superficie (bajo y ancho)",
+        "Coloca sustrato fertil en la base cubierto por grava fina",
+        "Instala iluminacion adecuada (0.5-1W por litro o LED equivalente)",
+        "Configura sistema de CO2 (presurizado o DIY)",
+        "Planta primero las plantas del fondo, luego medio y frente",
+        "Inicia con iluminacion reducida (6h/dia) y aumenta gradualmente",
+        "Espera el ciclado y que las plantas se establezcan (3-4 semanas)",
+        "Agrega peces pacificos y pequenos que no danen las plantas"
+      ],
+      "fishSuggestions": "Neon, Rasbora, Otocinclus, Corydoras, Camaron Amano"
+    },
+    "ciclideos": {
+      "title": "Ciclidos Africanos",
+      "desc": "Acuario con ciclidos del Lago Malawi o Tanganyika.",
+      "steps": [
+        "Acuario de al menos 200 litros (los ciclidos son territoriales)",
+        "Sustrato de arena de aragonita o grava calcarea (eleva el pH)",
+        "Arma muchas rocas creando cuevas y territorios",
+        "Filtracion potente (8-10x el volumen por hora)",
+        "No uses plantas (la mayoria sera destruida)",
+        "Espera el ciclado completo",
+        "Agrega varios peces a la vez para diluir la agresividad",
+        "Mantiene superpoblacion controlada para reducir territorios"
+      ],
+      "fishSuggestions": "Labidochromis, Pseudotropheus, Aulonocara, Neolamprologus"
+    },
+    "marinho": {
+      "title": "Acuario Marino / Reef",
+      "desc": "Acuario de agua salada con peces, corales e invertebrados.",
+      "steps": [
+        "Acuario de al menos 150 litros con sump",
+        "Agrega roca viva (1kg por cada 5 litros)",
+        "Instala skimmer, bomba de circulacion e iluminacion LED marina",
+        "Prepara agua con sal sintetica propia para acuario marino",
+        "Espera el ciclado con roca viva (4-8 semanas)",
+        "Mide parametros: amoniaco 0, nitrito 0, nitrato < 10",
+        "Comienza con peces resistentes (Clownfish, Chromis)",
+        "Agrega corales blandos primero, luego LPS y por ultimo SPS"
+      ],
+      "fishSuggestions": "Amphiprion, Chromis, Gramma loreto, Gobiodon, Nemateleotris"
+    }
+  },
+  "cycling": [
+    { "day": "Dia 1", "title": "Montaje", "desc": "Arma el acuario con sustrato, decoracion, filtro y calentador. Llena con agua declorada y enciende todo." },
+    { "day": "Dia 2-3", "title": "Fuente de amoniaco", "desc": "Agrega una fuente de amoniaco: alimento para peces, camaron muerto o amoniaco puro (2-4 ppm)." },
+    { "day": "Semana 1-2", "title": "Pico de amoniaco", "desc": "El amoniaco sube. Las bacterias Nitrosomonas comienzan a colonizar el filtro. Mide el amoniaco cada 2 dias." },
+    { "day": "Semana 2-3", "title": "Aparece nitrito", "desc": "El amoniaco comienza a bajar y el nitrito sube. Las bacterias Nitrospira se estan estableciendo." },
+    { "day": "Semana 3-4", "title": "Baja el nitrito", "desc": "El nitrito comienza a bajar y aparece el nitrato. El ciclo esta casi completo." },
+    { "day": "Semana 4-6", "title": "Ciclo completo", "desc": "Amoniaco 0, Nitrito 0, Nitrato presente. Haz un CPA del 50% y agrega los primeros peces!" }
+  ]
+}

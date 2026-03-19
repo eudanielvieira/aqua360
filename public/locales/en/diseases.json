@@ -1,0 +1,16 @@
+{
+  "title": "Diseases & Treatments",
+  "diseasesCataloged": "{{count}} diseases cataloged",
+  "notFound": "Disease not found",
+  "noResults": "No diseases found.",
+  "searchPlaceholder": "Search disease...",
+  "category.protozoan": "Protozoan",
+  "category.bacteria": "Bacteria",
+  "category.parasite": "Parasite",
+  "category.fungus": "Fungus",
+  "category.virus": "Virus",
+  "category.other": "Other",
+  "detail.cause": "Cause",
+  "detail.symptoms": "Symptoms",
+  "detail.treatment": "Treatment"
+}

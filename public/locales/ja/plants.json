@@ -1,0 +1,14 @@
+{
+  "title": "水草",
+  "notFound": "水草が見つかりません",
+  "noResults": "水草が見つかりませんでした。",
+  "searchPlaceholder": "一般名、学名、科で検索...",
+  "detail.structure": "構造",
+  "detail.planting": "植栽",
+  "detail.size": "サイズ",
+  "detail.stature": "草丈",
+  "detail.position": "配置",
+  "detail.reproduction": "繁殖",
+  "detail.fertileSubstrate": "栄養系ソイル",
+  "detail.supportsEmersion": "水上栽培対応"
+}

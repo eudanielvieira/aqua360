@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { getPrimaryImage } from '../utils/image'
 
 interface Species {
@@ -20,6 +21,7 @@ interface Props {
 }
 
 export default function SimilarSpecies({ currentId, familia, loadAll, basePath, max = 6 }: Props) {
+  const { t } = useTranslation('common')
   const [similar, setSimilar] = useState<Species[]>([])
 
   useEffect(() => {
@@ -37,7 +39,7 @@ export default function SimilarSpecies({ currentId, familia, loadAll, basePath, 
   return (
     <div>
       <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">
-        Especies da mesma familia ({familia})
+        {t('detail.similarSpecies')} ({familia})
       </h3>
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
         {similar.map(species => (

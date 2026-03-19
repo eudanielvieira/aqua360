@@ -1,0 +1,16 @@
+{
+  "title": "Doencas e Tratamentos",
+  "diseasesCataloged": "{{count}} doencas catalogadas",
+  "notFound": "Doenca nao encontrada",
+  "noResults": "Nenhuma doenca encontrada.",
+  "searchPlaceholder": "Buscar doenca...",
+  "category.protozoan": "Protozoario",
+  "category.bacteria": "Bacteria",
+  "category.parasite": "Parasita",
+  "category.fungus": "Fungo",
+  "category.virus": "Virus",
+  "category.other": "Outros",
+  "detail.cause": "Causa",
+  "detail.symptoms": "Sintomas",
+  "detail.treatment": "Tratamento"
+}

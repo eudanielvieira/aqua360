@@ -1,0 +1,14 @@
+{
+  "title": "Plants",
+  "notFound": "Plant not found",
+  "noResults": "No plants found.",
+  "searchPlaceholder": "Search by common name, scientific name or family...",
+  "detail.structure": "Structure",
+  "detail.planting": "Planting",
+  "detail.size": "Size",
+  "detail.stature": "Stature",
+  "detail.position": "Position",
+  "detail.reproduction": "Reproduction",
+  "detail.fertileSubstrate": "Fertile Substrate",
+  "detail.supportsEmersion": "Supports Emersion"
+}
