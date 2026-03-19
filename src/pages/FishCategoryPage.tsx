@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
-import { loadFishByType, fishCategories } from '../data/fish-index'
+import { loadFishByType } from '../data/fish-index'
 import type { Fish } from '../types'
 import { useSearch } from '../hooks/useSearch'
 import PageHeader from '../components/PageHeader'
@@ -25,8 +25,6 @@ export default function FishCategoryPage() {
   const [loading, setLoading] = useState(true)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const [quickFilter, setQuickFilter] = useState<((item: any) => boolean) | null>(null)
-
-  const category = fishCategories.find(c => c.slug === slug)
 
   useEffect(() => {
     if (!slug) return
