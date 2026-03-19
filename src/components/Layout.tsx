@@ -11,7 +11,6 @@ import {
   Search,
   BookOpen,
   GraduationCap,
-  Heart,
   Menu,
   X,
   Home,
