@@ -37,6 +37,7 @@
   "lightMode": "Light Mode",
   "footer.tagline": "Your complete aquarium guide",
   "footer.support": "Support the project",
+  "footer.about": "About",
   "footer.data": "Data enriched via GBIF, WoRMS and iNaturalist",
   "detail.taxonomy": "Taxonomic Classification",
   "detail.parameters": "Parameters",

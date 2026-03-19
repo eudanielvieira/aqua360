@@ -18,6 +18,7 @@ const namespaces = [
   'builder',
   'support',
   'search',
+  'about',
 ]
 
 i18n

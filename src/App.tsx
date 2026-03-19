@@ -17,6 +17,7 @@ import SearchPage from './pages/SearchPage'
 import GlossaryPage from './pages/GlossaryPage'
 import GuidesPage from './pages/GuidesPage'
 import SupportPage from './pages/SupportPage'
+import AboutPage from './pages/AboutPage'
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/glossario" element={<GlossaryPage />} />
           <Route path="/guias" element={<GuidesPage />} />
           <Route path="/apoie" element={<SupportPage />} />
+          <Route path="/sobre" element={<AboutPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
