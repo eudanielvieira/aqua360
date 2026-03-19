@@ -1,4 +1,4 @@
-import { Waves, Shield, Eye, Heart, ArrowLeftRight, Fish, Leaf, Gem, Calculator, GraduationCap, Github } from 'lucide-react'
+import { Waves, Shield, Eye, Heart, ArrowLeftRight, Fish, Leaf, Gem, Calculator, GraduationCap } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import PageHeader from '../components/PageHeader'
@@ -96,23 +96,14 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-3">
+        <div className="flex justify-center">
           <Link
             to="/apoie"
-            className="flex-1 flex items-center justify-center gap-2 p-4 rounded-2xl bg-rose-500/10 text-rose-500 font-bold text-sm hover:bg-rose-500/20 transition-colors"
+            className="flex items-center justify-center gap-2 px-8 p-4 rounded-2xl bg-rose-500/10 text-rose-500 font-bold text-sm hover:bg-rose-500/20 transition-colors"
           >
             <Heart size={18} />
             {t('cta.support')}
           </Link>
-          <a
-            href="https://github.com/eudanielvieira/aqua360"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 p-4 rounded-2xl bg-surface-alt text-text-secondary font-bold text-sm hover:bg-surface hover:text-text transition-colors"
-          >
-            <Github size={18} />
-            {t('cta.github')}
-          </a>
         </div>
       </div>
     </div>
