@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, Search, BookOpen, GraduationCap, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Heart, Globe } from 'lucide-react'
+import { Fish, Leaf, Gem, HeartPulse, Calculator, ArrowLeftRight, Sparkles, Search, BookOpen, GraduationCap, ArrowRight, Waves, Sun, Moon, Download, Smartphone, X, Globe } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { fishCategories } from '../data/fish-index'
 import { useDarkMode } from '../hooks/useDarkMode'
