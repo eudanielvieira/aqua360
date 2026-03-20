@@ -14,6 +14,7 @@ import SimilarSpecies from '../components/SimilarSpecies'
 import SpeciesBadges from '../components/SpeciesBadges'
 import FavoriteButton from '../components/FavoriteButton'
 import SEO from '../components/SEO'
+import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
@@ -33,6 +34,8 @@ export default function FishDetailPage() {
 
   const loadSimilar = useCallback(() => loadFishByType(slug!), [slug])
 
+  const translated = useTranslatedSpecies(fish, 'fish')
+
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
@@ -43,21 +46,22 @@ export default function FishDetailPage() {
     )
   }
 
-  if (!fish) {
+  if (!fish || !translated) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
         <PageHeader title={t('fish:notFound')} backTo={`/peixes/${slug}`} />
       </div>
     )
   }
+  const f = translated
   const enrichment = fish.enrichment
-  const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || fish.posicaoAquario
+  const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || f.posicaoAquario
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <SEO title={fish.nomePopular} description={`${fish.nomePopular} (${fish.nomeCientifico}) - pH ${fish.ph}, ${fish.temperatura}. ${fish.comportamento?.slice(0, 100)}`} />
+      <SEO title={f.nomePopular} description={`${f.nomePopular} (${fish.nomeCientifico}) - pH ${fish.ph}, ${fish.temperatura}. ${f.comportamento?.slice(0, 100)}`} />
       <div className="flex items-start justify-between">
-        <PageHeader title={fish.nomePopular} backTo={`/peixes/${slug}`} />
+        <PageHeader title={f.nomePopular} backTo={`/peixes/${slug}`} />
         <FavoriteButton id={fish.id} type="fish" slug={slug} />
       </div>
 
@@ -67,7 +71,7 @@ export default function FishDetailPage() {
             localImage={fish.imagem}
             inatPhotos={enrichment?.inatPhotoUrls}
             wikiPhoto={enrichment?.wikiPhotoUrl}
-            alt={fish.nomePopular}
+            alt={f.nomePopular}
             className="w-full h-full"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -79,11 +83,11 @@ export default function FishDetailPage() {
         <div className="p-6 sm:p-8">
           <div className="mb-5 pb-5 border-b border-border/60">
             <SpeciesBadges
-              comportamento={fish.comportamento}
-              alimentacao={fish.alimentacao}
+              comportamento={f.comportamento}
+              alimentacao={f.alimentacao}
               tipo={fish.tipo}
-              outrasInformacoes={fish.outrasInformacoes}
-              caracteristica={fish.caracteristica}
+              outrasInformacoes={f.outrasInformacoes}
+              caracteristica={f.caracteristica}
             />
           </div>
 
@@ -103,23 +107,23 @@ export default function FishDetailPage() {
                 <ParamCard icon="Gauge" label="KH" value={fish.kh} />
                 <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={fish.temperatura} />
                 <ParamCard icon="Ruler" label={t('common:param.adultSize')} value={fish.tamanhoAdulto} />
-                <ParamCard icon="Layers" label={t('common:param.position')} value={fish.posicaoAquario} />
+                <ParamCard icon="Layers" label={t('common:param.position')} value={f.posicaoAquario} />
               </div>
             </div>
           )}
 
           <dl>
-            <DetailRow label={t('common:detail.label.popularName')} value={fish.nomePopular} />
+            <DetailRow label={t('common:detail.label.popularName')} value={f.nomePopular} />
             <DetailRow label={t('common:detail.label.scientificName')} value={fish.nomeCientifico} />
-            <DetailRow label={t('common:detail.label.otherNames')} value={fish.outrosNome} />
+            <DetailRow label={t('common:detail.label.otherNames')} value={f.outrosNome} />
             <DetailRow label={t('common:detail.label.family')} value={fish.familia} />
-            <DetailRow label={t('common:detail.label.origin')} value={fish.origem} />
-            <DetailRow label={t('fish:detail.characteristics')} value={fish.caracteristica} />
-            <DetailRow label={t('fish:detail.behavior')} value={fish.comportamento} />
-            <DetailRow label={t('fish:detail.feeding')} value={fish.alimentacao} />
-            <DetailRow label={t('fish:detail.reproduction')} value={fish.reproducao} />
-            <DetailRow label={t('fish:detail.sexualDimorphism')} value={fish.diformismoSexual} />
-            <DetailRow label={t('fish:detail.otherInfo')} value={fish.outrasInformacoes} />
+            <DetailRow label={t('common:detail.label.origin')} value={f.origem} />
+            <DetailRow label={t('fish:detail.characteristics')} value={f.caracteristica} />
+            <DetailRow label={t('fish:detail.behavior')} value={f.comportamento} />
+            <DetailRow label={t('fish:detail.feeding')} value={f.alimentacao} />
+            <DetailRow label={t('fish:detail.reproduction')} value={f.reproducao} />
+            <DetailRow label={t('fish:detail.sexualDimorphism')} value={f.diformismoSexual} />
+            <DetailRow label={t('fish:detail.otherInfo')} value={f.outrasInformacoes} />
             <DetailRow label={t('common:detail.label.source')} value={fish.fonte} />
           </dl>
 
@@ -134,7 +138,7 @@ export default function FishDetailPage() {
             <div className="mt-8 pt-6 border-t border-border/60">
               <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.distribution')}</h3>
               <Suspense fallback={<div className="w-full h-64 rounded-2xl bg-surface-alt animate-pulse" />}>
-                <DistributionMap taxonKey={enrichment.gbifTaxonKey} speciesName={fish.nomePopular} />
+                <DistributionMap taxonKey={enrichment.gbifTaxonKey} speciesName={f.nomePopular} />
               </Suspense>
             </div>
           )}

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import { loadFishByType } from '../data/fish-index'
 import type { Fish } from '../types'
 import { useSearch } from '../hooks/useSearch'
+import { useTranslatedSpeciesList } from '../hooks/useTranslatedSpecies'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
@@ -36,7 +37,8 @@ export default function FishCategoryPage() {
     })
   }, [slug])
 
-  const { query, setQuery, filtered: searchFiltered } = useSearch(allFish, ['nomePopular', 'nomeCientifico', 'familia'])
+  const translatedFish = useTranslatedSpeciesList(allFish, 'fish')
+  const { query, setQuery, filtered: searchFiltered } = useSearch(translatedFish, ['nomePopular', 'nomeCientifico', 'familia'])
   const filtered = quickFilter ? searchFiltered.filter(quickFilter) : searchFiltered
   const visible = filtered.slice(0, visibleCount)
   const hasMore = visibleCount < filtered.length
