@@ -19,6 +19,7 @@ const namespaces = [
   'support',
   'search',
   'about',
+  'data-diseases',
 ]
 
 i18n

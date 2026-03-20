@@ -5,6 +5,7 @@ import type { Disease, DiseaseCategory } from '../types'
 import { useSearch } from '../hooks/useSearch'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
+import { useTranslatedSpeciesList } from '../hooks/useTranslatedSpecies'
 import { ArrowRight, Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
 
 const categoryConfig: Record<DiseaseCategory, {
@@ -71,7 +72,8 @@ export default function DiseaseListPage() {
     })
   }, [])
 
-  const { query, setQuery, filtered: searchFiltered } = useSearch(diseases, ['nome', 'nomeCientifico'])
+  const translatedDiseases = useTranslatedSpeciesList(diseases, 'disease')
+  const { query, setQuery, filtered: searchFiltered } = useSearch(translatedDiseases, ['nome', 'nomeCientifico'])
 
   const filtered = activeFilter === 'all'
     ? searchFiltered

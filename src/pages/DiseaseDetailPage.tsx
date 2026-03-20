@@ -5,6 +5,7 @@ import type { Disease, DiseaseCategory } from '../types'
 import { getImageUrl } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
+import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 import { Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
 
 const categoryConfig: Record<DiseaseCategory, {
@@ -34,6 +35,8 @@ export default function DiseaseDetailPage() {
     })
   }, [id])
 
+  const translated = useTranslatedSpecies(disease, 'disease')
+
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
@@ -57,7 +60,7 @@ export default function DiseaseDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <PageHeader title={disease.nome} backTo="/doencas" />
+      <PageHeader title={translated?.nome || disease.nome} backTo="/doencas" />
 
       <div className="bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">
         <div className="p-6 sm:p-8">
@@ -88,9 +91,9 @@ export default function DiseaseDetailPage() {
           )}
 
           <dl>
-            <DetailRow label={t('diseases:detail.cause')} value={disease.causa} />
-            <DetailRow label={t('diseases:detail.symptoms')} value={disease.sintoma} />
-            <DetailRow label={t('diseases:detail.treatment')} value={disease.tratamento} />
+            <DetailRow label={t('diseases:detail.cause')} value={translated?.causa || disease.causa} />
+            <DetailRow label={t('diseases:detail.symptoms')} value={translated?.sintoma || disease.sintoma} />
+            <DetailRow label={t('diseases:detail.treatment')} value={translated?.tratamento || disease.tratamento} />
           </dl>
         </div>
       </div>

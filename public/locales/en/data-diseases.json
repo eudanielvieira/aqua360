@@ -1,0 +1,122 @@
+{
+  "1": {
+    "nome": "Chilodonella Disease",
+    "causa": "Caused by an oval-shaped ciliate parasite that produces a blue-white opacity on the fish's skin. It feeds on destroyed epidermal cells and gill epithelial cells. It is transmitted by direct contact, reproduces rapidly, and primarily attacks fish weakened by stress, poor nutrition, or inadequate water parameters.",
+    "tratamento": "Trypaflavine bath for 24 hours (with this medication, the parasite dies in approximately 10 hours). Raise the water temperature to 28 degrees Celsius. Maintain good oxygenation during treatment.",
+    "sintoma": "Difficulty swimming and breathing. Constant itching, with the fish rubbing against objects to rid itself of parasites. Excessive mucus production on the skin."
+  },
+  "2": {
+    "nome": "Ichthyophonosis",
+    "causa": "Transmitted through spores present in contaminated food. The fungus develops in the stomach and intestines and is eliminated through feces. Some spores penetrate the intestinal wall and are carried by the bloodstream to various organs such as the heart and liver, where they form small brown or black nodules. When these nodules rupture, the organs are attacked and the fish dies. The disease appears when the parasite is introduced through contaminated food, materials, or fish, and poor water conditions facilitate its spread.",
+    "tratamento": "There is currently no known cure. In some cases, the fish may survive for up to 6 months after infection. It is recommended to isolate infected fish immediately to prevent contamination of others.",
+    "sintoma": "Early symptoms are difficult to identify as they are highly varied: loss of appetite, lethargy, exophthalmia (bulging eyes), fins losing pieces and becoming folded, fish hiding most of the time, swimming instability and abnormal movements, fish lying on the bottom with swollen belly, skin and scales with a glassy appearance, fish rolling on its axis and swaying, skin ulcerations, emaciation, faded coloration, and mouth permanently open."
+  },
+  "3": {
+    "nome": "Furunculosis",
+    "causa": "An infectious disease caused by the gram-negative bacterium Aeromonas salmonicida, which is non-motile and non-spore-forming. Ulcers appear in areas richest in capillary vessels. Upon infecting the fish, the bacterium destroys the tissue surrounding the point of infection.",
+    "tratamento": "Oxytetracycline (Terramycin) 500 mg per 50 liters of water, in a 24-hour bath. Repeat the bath every 5 days until the infection is under control. Maintain good water quality during treatment.",
+    "sintoma": "Red spots on the body (giving the appearance of wounds). Blisters containing pus and blood. When the blisters open, ulcers form (the released pus can contaminate other fish). Ulcerative lesions on the body, usually in the caudal region."
+  },
+  "4": {
+    "nome": "Trichodina Disease",
+    "causa": "Caused by a ciliate protozoan (ciliated protozoan) very common in aquariums. It attacks fish when they are severely weakened by stress, nutritional deficiency, or inadequate water parameters.",
+    "tratamento": "Trypaflavine bath: 10 mg per liter of water for 24 hours (the parasite dies in approximately 10 hours). Raise the water temperature to 28 degrees Celsius. Address the underlying causes of the fish's weakness (stress, nutritional deficiency, inadequate water parameters, etc.).",
+    "sintoma": "Extreme irritation and itching, with the fish constantly rubbing against objects in the aquarium (causing hyperemia from friction)."
+  },
+  "5": {
+    "nome": "Fish Tuberculosis",
+    "causa": "Transmission occurs through ingestion of spores present in carriers such as Tubifex worms. The parasite invades the fish's cartilage, producing necrosis and deformity. This disease is uncommon in aquarium fish, being more frequent in salmonids. It can be transmitted between fish through ingestion of contaminated tissue.",
+    "tratamento": "There is currently no known cure. It is recommended to immediately isolate infected fish and maintain optimal water conditions for the remaining fish. Discard any suspect live food.",
+    "sintoma": "Rotational movements while swimming. Emaciation in the upper body, just behind the head. Dark coloration in the caudal region. Lethargy and progressive loss of appetite."
+  },
+  "6": {
+    "nome": "Chondrococcus",
+    "causa": "Fish accustomed to relatively low water temperatures become susceptible to this disease when transferred to warmer water. It generally starts from a wound. Fish that have been transported or placed in small, inadequate containers are more likely to contract the disease. Fish caught with rough nets may develop mouth wounds and scale loss, making them prone to infection.",
+    "tratamento": "Oxytetracycline (Terramycin) 500 mg per 40 to 50 liters of water, in a 24 to 48-hour bath. Trypaflavine 2 mg per 25 liters of water in 24-hour baths. Maintain good oxygenation and water quality.",
+    "sintoma": "Appearance of a crust on the body resembling slime or mold (which may also affect the mouth). Blue-white patches. Corroded caudal fin. Loss of movement. Surface breathing (gasping). In some species, a hyperemic ring (excess blood) appears on the tail and around the eyes. Tremors."
+  },
+  "7": {
+    "nome": "Hole in the Head",
+    "causa": "In ornamental fish, the disease is frequently associated with the flagellate protozoan Hexamita, combined with other opportunistic pathogens such as bacteria. It occurs due to a decline in the fish's immune defenses, caused by stress, nutritional deficiency (especially lack of vitamins), or poor water quality. It is very common in cichlids, especially Discus and Oscars.",
+    "tratamento": "Metronidazole (Flagyl 400 mg): 250 mg per 100 g of paste or live food, twice daily for 10 days. Whenever the fish can tolerate it, slowly raise the temperature to 32 degrees Celsius, as treatment is less effective below 31 degrees Celsius. Application of antiseptics (Mercurochrome, Rifocin spray, Povidone-iodine, Betadine, or Potassium Permanganate) on the lesions may be necessary to prevent secondary infections.",
+    "sintoma": "Depigmentation and emergence of small pits in the head region, which initially are small but gradually increase in size and depth. Secondary infections by bacteria, fungi, or protozoans may occur. Malnutrition, general weakness (cachexia), gastroenteritis, and peritonitis (inflammation of the peritoneum)."
+  },
+  "8": {
+    "nome": "Dactylogyrus (Gill Fluke)",
+    "causa": "Caused by a parasitic worm that has 4 eyes and 2 proboscises that secrete an irritating fluid. The parasite attaches to the fish using a specialized disc and inserts its proboscis to feed on blood. It reproduces by laying eggs. It is uncommon in ornamental fish aquariums, but when infestation is severe it can destroy gill tissue and rupture blood vessels, causing death by asphyxiation or hemorrhage.",
+    "tratamento": "Methylene Blue 2 mg per liter of water + Formalin (40%) 2 ml per 10 liters of water, in 30 to 45-minute baths. Remove the fish if it shows signs of distress. Use aeration during treatment. After 3 days, replace half the water. Alternatively, common salt bath: 10 to 15 g per liter of water.",
+    "sintoma": "Enlarged gills that become pale and protruding. Thickened gill edges. The opercula (bony plates on the sides of the head) remain partially open. Rapid and labored breathing."
+  },
+  "9": {
+    "nome": "Costia Disease",
+    "causa": "Caused by the flagellate protozoan Ichthyobodo necator, formerly known as Costia. The specific causes that lead to infection are not fully understood, but stressed fish with weakened immunity are more susceptible. The parasite feeds on the fish's epithelial cells.",
+    "tratamento": "Aqualife or Labcon Ictio (1 drop per 2 liters of water). Malachite Green, Trypaflavine, or Formalin may also be used. Bath in a hospital tank with a solution of 2 mg per liter of Potassium Permanganate (KMnO4). Salt bath (2.5 g per liter of water) for 10 to 20 minutes daily until the skin becomes clear.",
+    "sintoma": "Infected fish congregate in areas of moving water. They may rub against hard objects such as rocks and gravel, appearing lethargic and remaining at the bottom of the aquarium. A gray-blue sheen may be noticeable on the flanks. Loss of appetite. Severe skin cloudiness with whitish patches, which in serious cases can lead to skin destruction with wounds and bleeding. Red streaks may appear on the fins."
+  },
+  "10": {
+    "nome": "Fish Fungus (Saprolegniasis)",
+    "causa": "Caused by fungi of the genus Saprolegnia that preferentially attack injured and weakened fish. The fungus exploits skin lesions, damaged fins, or areas where the protective mucus layer has been compromised. Stressed fish with weakened immune systems or those kept in poor water quality are more susceptible.",
+    "tratamento": "Prolonged bath (4 days) in a hospital tank with marine salt: 10 g per liter of water. To reinforce treatment, dip the fish twice daily in a more concentrated marine salt solution: 25 g per liter of water for a few minutes. Methylene Blue may also be used.",
+    "sintoma": "White patches or cotton-like tufts on the body and fins. Listlessness, loss of appetite, and lethargic behavior. Affected areas may have a cottony appearance and spread rapidly if left untreated."
+  },
+  "11": {
+    "nome": "Anchor Worm (Lernaea)",
+    "causa": "The spread of this crustacean parasite occurs through contaminated water or contact with fish infested with adult female parasites. Reproduction is rapid, spreading the parasite quickly among aquarium fish. The females anchor themselves deeply into the fish's skin using anchor-shaped structures.",
+    "tratamento": "With the fish held gently in hand, remove the parasite using tweezers, taking care to extract the anchor completely. After removal, apply a parasiticide or antiseptic to the site to prevent secondary infections. Treat the aquarium with antiparasitic medication to eliminate larvae in the water.",
+    "sintoma": "Gill lesions with loss of gill architecture and reduced respiratory function. Temporary or permanent occlusion of circulation may occur due to parasite attachment. Localized or diffuse necrosis and disintegration of gill tissue. Progressive weight loss. Constant irritation on the body surface. Behavioral changes, with fish attempting to rid themselves of parasites by rubbing against hard objects."
+  },
+  "12": {
+    "nome": "Fin Rot",
+    "causa": "The initial colonization is typically caused by the bacteria Pseudomonas fluorescens and Aeromonas liquefaciens, followed by Mycobacterium sp. and Myxobacteria of the genus Cytophaga columnaris. The necrotic tissue serves as a culture medium for fungi of the genera Saprolegnia and Achyla, which worsen fin loss. When the colonization destroys the fin and reaches the caudal peduncle, the disease becomes very difficult to reverse, and bloodstream invasion and septicemia may occur.",
+    "tratamento": "Oxytetracycline (Terramycin) 500 mg per 50 liters of water, replacing 1/3 of the water every 24 hours for five days. Brush the affected fins with Povidone-iodine or Neomycin ointment. Raise the aquarium temperature to 30 degrees Celsius. Maintain excellent water quality.",
+    "sintoma": "Progressive fin necrosis, with fins becoming frayed, corroded, and irregular in appearance. Lethargic fish with reduced movement. In advanced cases, the fin may be completely destroyed down to the peduncle."
+  },
+  "13": {
+    "nome": "Lepidorthosis (Scale Protrusion Disease)",
+    "causa": "A bacterial infection that causes scale protrusion and loss. Generally associated with bacteria of the genus Aeromonas. Stressed fish with compromised immune systems or those kept in poor water quality are more prone to developing the disease.",
+    "tratamento": "Aureomycin (Chlortetracycline) 50 mg per liter of water in baths for 4 days. Alternatively, Chloramphenicol 10 mg per liter of water. Maintain excellent water quality and adequate nutrition during treatment.",
+    "sintoma": "Scale loss across the entire body, especially on the dorsal area. Raised scales giving a pinecone-like appearance. Progressively slower movements. Rapid breathing. Progressive tail paralysis. Fish stays at the surface, losing its reflexes."
+  },
+  "14": {
+    "nome": "Fish Louse (Argulus)",
+    "causa": "Argulus is a parasitic crustacean that feeds primarily on the blood cells of its host fish. It can enter the aquarium through newly acquired fish that have not undergone proper quarantine, or through contaminated water and plants. The parasite has a flattened shape and attaches to the fish's skin using suckers.",
+    "tratamento": "The parasite should be removed manually with tweezers, with care. After removal, treat the lesions with healing products to prevent secondary infections. Treat the aquarium with antiparasitic medication to eliminate remaining eggs and larvae.",
+    "sintoma": "Visibly debilitated and malnourished fish. Argulus is visible to the naked eye (measuring approximately 5 to 8 mm), but due to its flattened shape it can be difficult to detect. It can attack any part of the body, most commonly found on the fins. Hemorrhagic spots at attachment sites."
+  },
+  "15": {
+    "nome": "Gyrodactylus (Skin Fluke)",
+    "causa": "Caused by a blind worm measuring 0.5 to 0.8 mm in length, which has a sucker on its mouth and a hook on its tail by which it attaches to the fish. Unlike Dactylogyrus, this parasite is viviparous (does not lay eggs), which facilitates its rapid proliferation. It primarily attacks the skin and fins of fish.",
+    "tratamento": "Common salt bath: 10 to 15 g per liter of water for 20 minutes. Formalin (40%) 2 ml per 10 liters of water in 30-minute baths. Methylene Blue 2 mg per liter. Maintain good aeration during any treatment. Repeat the treatment after 3 days to eliminate remaining parasites.",
+    "sintoma": "Fish becomes progressively paler. The skin produces excess mucus. Hemorrhagic patches or spots on the body and fins. Rapid breathing. Lethargic, exhausted fish with increasingly slower movements, remaining at the surface. Can lead to death if untreated."
+  },
+  "16": {
+    "nome": "Tryanoplasmosis",
+    "causa": "Caused by protozoans that parasitize the fish through the bloodstream. They are transmitted from one fish to another through leech bites, which act as vectors. Leeches can be introduced into the aquarium through plants or decorations previously used in other aquariums.",
+    "tratamento": "Generally incurable. Prophylaxis consists of preventing leeches in the aquarium. Carefully inspect plants and decorations before introducing them. Quarantine new fish and plants. Maintain excellent water quality to strengthen the fish's immune system.",
+    "sintoma": "Similar to 'sleeping sickness.' Affected fish display a lethargic state, remaining virtually motionless. Progressive weakening, anemia, and sunken eyes. They rest in an oblique position with their head resting on the bottom of the aquarium. They may die of starvation due to inability to feed."
+  },
+  "17": {
+    "nome": "Ich (White Spot Disease)",
+    "causa": "Caused by the ciliate protozoan Ichthyophthirius multifiliis, one of the most common and devastating diseases in freshwater fish. At higher temperatures, the parasite completes its life cycle faster, making it more dangerous. It does not survive in low oxygen concentrations or in highly acidic water (pH below 5). The parasite lodges primarily on the dorsal surface, head, beneath the skin, gills, and gill filaments, forming cysts.",
+    "tratamento": "Raise the temperature to 30-33 degrees Celsius for 3 to 5 days (this accelerates the parasite's life cycle, making it vulnerable). Trypaflavine bath at 30 degrees Celsius for at least 3 weeks. Non-iodized salt: 20 g per liter of water with aeration for 2 to 5 minutes. Malachite Green according to the manufacturer's instructions. Perform partial water changes and disinfect shared equipment. New fish should be quarantined for 2 to 3 weeks.",
+    "sintoma": "Early stage: appearance of white spots (like grains of salt) on the fish's surface, clamped fins, erratic swimming, fish rubbing against rocks, decreased appetite, and increased mucus production. Acute stage: development of ulcers, loss of vitality, fish lying motionless at the bottom of the aquarium. Fungi and bacteria may take advantage of the fish's weakened state to cause secondary infections."
+  },
+  "18": {
+    "nome": "Neon Tetra Disease (Pleistophora)",
+    "causa": "Caused by the sporozoan Pleistophora hyphessobryconis. It primarily attacks tetras such as Neon Tetras, Hyphessobrycon, and Brachydanio. The parasite invades the trunk musculature where it reproduces, causing pallor and edema (swelling) in affected areas. Low temperatures favor the development of the disease.",
+    "tratamento": "A cure is very difficult. It is recommended to try a bath in a solution of 2.5 g of Acriflavine or 2 g of Methylene Blue per 100 liters of water, for 15 days. Maintain the aquarium at higher temperatures. Isolate infected fish immediately. Remove dead fish quickly to prevent others from ingesting them.",
+    "sintoma": "Loss of appetite. Agitated nocturnal swimming. Intense distress. Progressive fading of skin pigments until complete discoloration (especially the blue stripe of the Neon Tetra). Separation from the school. Emaciation with a retracted abdomen. Hardening and destruction of tissues, potentially affecting the kidneys."
+  },
+  "19": {
+    "nome": "Velvet Disease (Oodinium)",
+    "causa": "Transmission is direct, through an infective flagellated stage of the parasite that can actively move through the water in search of a new host. It is extremely dangerous among small fish, especially characins (Neon Tetras, Rummy-nose Tetras, etc.), and can devastate an entire aquarium in less than 6 hours.",
+    "tratamento": "Azoo Anti-Oodinium (specific commercial product). Prolonged Trypaflavine baths. Methylene Blue: 2 drops of 5% solution per 5 liters of water, for 5 days. Raise the temperature to 30 degrees Celsius and completely darken the environment (the parasite depends on light for photosynthesis). Remove plants and decorative objects from the aquarium during treatment.",
+    "sintoma": "Early stage: skin irritation, increased mucus production, swimming disorders (erratic swimming). Advanced stage: appearance of brownish shiny patches on the body surface, resembling velvet. Respiratory dysfunction, gill congestion, and gill hyperplasia. Terminal stages with fish sinking to the bottom belly-up and swimming in circles."
+  },
+  "20": {
+    "nome": "Pop-eye (Exophthalmia)",
+    "causa": "May have different causes: infectious dropsy, fish tuberculosis, parasites (Diplozoon, Gyrodactylus, and Dactylogyrus), chemical factors such as unbalanced aquarium parameters, and nutritional deficiencies. The accumulation of fluid in the ocular cavity is the mechanism that causes the eye to protrude.",
+    "tratamento": "There is no single specific treatment, as it depends on the cause. Salt bath for 36 hours. Eye drops: Silver Proteinate (Argyrol) 5% or Chloramphenicol 5% applied directly to the eye. Lower the water temperature to reduce ocular pressure. Chloramphenicol 250 mg per 20 liters of water. Use of water conditioners (such as Aquasafe), frequent partial water changes, and adequate nutrition help with prevention.",
+    "sintoma": "Accumulation of fluid in the fish's ocular cavity, causing edema and protrusion (bulging outward) of one or both eyeballs. It may be unilateral (one eye) or bilateral (both eyes). In severe cases, the eye may detach. Frequently accompanied by lethargy and loss of appetite."
+  }
+}

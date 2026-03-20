@@ -1,0 +1,122 @@
+{
+  "1": {
+    "nome": "Quilodoneliasis",
+    "causa": "Causada por un parasito ciliado de forma ovalada que produce una opacidad blanco-azulada en la piel de los peces. Se alimenta de celulas epidermicas destruidas y de celulas del epitelio branquial. Es transmisible por contagio directo, su multiplicacion es rapida y ataca principalmente a peces debilitados por estres, mala alimentacion o parametros inadecuados del agua.",
+    "tratamento": "Bano de tripaflavina durante 24 horas (con esta medicacion, el parasito muere en aproximadamente 10 horas). Elevar la temperatura del agua a 28 grados Celsius. Mantener buena oxigenacion durante el tratamiento.",
+    "sintoma": "Nado y respiracion con dificultad. Picazon constante, con el pez frotandose contra objetos para librarse de los parasitos. Produccion excesiva de mucosidad en la piel."
+  },
+  "2": {
+    "nome": "Ictiofoniasis",
+    "causa": "Transmitida a traves de esporas presentes en alimentos contaminados. El hongo se desarrolla en el estomago e intestinos, siendo eliminado por las heces. Algunas esporas llegan a perforar la pared intestinal y son transportadas por la sangre a diversos organos como el corazon y el higado, donde forman pequenos nodulos pardos o negros. Cuando estos nodulos se rompen, los organos son atacados y el pez muere. La enfermedad aparece cuando el parasito es introducido por alimentos, materiales o peces contaminados, y las malas condiciones del agua facilitan su propagacion.",
+    "tratamento": "Actualmente no existe cura conocida. En algunos casos, el pez puede sobrevivir hasta 6 meses despues de la infeccion. Se recomienda aislar al pez infectado inmediatamente para evitar la contaminacion de otros.",
+    "sintoma": "Los primeros sintomas son dificiles de identificar ya que son muy diversificados: perdida de apetito, entorpecimiento, exoftalmia (ojos saltones), aletas perdiendo pedazos y quedando dobladas, pez escondido la mayor parte del tiempo, inestabilidad al nadar y movimientos extranos, pez en el fondo con abdomen hinchado, piel y escamas con aspecto vitreo, pez girando sobre su eje y balanceandose, ulceraciones en la piel, adelgazamiento, piel descolorida y boca siempre abierta."
+  },
+  "3": {
+    "nome": "Forunculosis",
+    "causa": "Enfermedad de caracter infeccioso causada por la bacteria gramnegativa Aeromonas salmonicida, que es inmovil y no productora de esporas. Las ulceras aparecen en las zonas mas ricas en vasos capilares. Al insertarse en el pez, la bacteria destruye el tejido alrededor del punto de infeccion.",
+    "tratamento": "Terramicina 500 mg por cada 50 litros de agua, en bano de 24 horas. Repetir el bano cada 5 dias hasta controlar la infeccion. Mantener buena calidad del agua durante el tratamiento.",
+    "sintoma": "Manchas rojas en el cuerpo (dando impresion de heridas). Ampollas de pus y sangre. Cuando las ampollas se abren, se forman ulceras (el pus liberado puede contaminar a otros peces). Escaras de tipo ulceroso en el cuerpo, generalmente en la region caudal."
+  },
+  "4": {
+    "nome": "Tricodiniasis",
+    "causa": "Causada por un cilioforo (protozoario provisto de cilios) muy comun en acuarios. Ataca a los peces cuando se encuentran muy debilitados por estres, deficiencia alimentaria o parametros inadecuados del agua.",
+    "tratamento": "Bano de tripaflavina: 10 mg por litro de agua durante 24 horas (el parasito muere en aproximadamente 10 horas). Elevar la temperatura del agua a 28 grados Celsius. Tratar las causas que llevaron a la debilidad del pez (estres, deficiencia en la alimentacion, agua con parametros inadecuados, etc.).",
+    "sintoma": "Extrema irritacion y picazon, con el pez frotandose constantemente contra objetos del acuario (produciendo hiperemia por la friccion)."
+  },
+  "5": {
+    "nome": "Tuberculosis Piscicola",
+    "causa": "La transmision ocurre por la ingestion de esporas presentes en portadores como el Tubifex. El parasito invade el cartilago del pez, produciendo necrosis y deformidad. Enfermedad poco comun en peces de acuario, siendo mas frecuente en salmonidos. Puede transmitirse entre peces por la ingestion de tejido contaminado.",
+    "tratamento": "No existe cura conocida actualmente. Se recomienda aislar inmediatamente a los peces infectados y mantener optimas condiciones de agua para los demas. Descartar cualquier alimento vivo sospechoso.",
+    "sintoma": "Movimientos rotatorios al nadar. Adelgazamiento en la parte superior del cuerpo, justo detras de la cabeza. Coloracion oscura en la parte caudal. Letargia y perdida progresiva del apetito."
+  },
+  "6": {
+    "nome": "Condrococcosis",
+    "causa": "Peces habituados a agua de temperatura relativamente baja, cuando son transferidos a aguas mas calidas, se vuelven susceptibles a la enfermedad. Generalmente se inicia a partir de una herida. Peces transportados o colocados en recipientes pequenos e inadecuados tienen mayores probabilidades de adquirir la enfermedad. Peces retirados con redes asperas pueden presentar heridas en la boca y descamacion, quedando sujetos a infeccion.",
+    "tratamento": "Terramicina 500 mg por cada 40 a 50 litros de agua, en bano de 24 a 48 horas. Tripaflavina 2 mg por cada 25 litros de agua en banos de 24 horas. Mantener buena oxigenacion y calidad del agua.",
+    "sintoma": "Aparicion de una costra en el cuerpo con aspecto de limo o moho (que puede atacar tambien la boca). Manchas blanco-azuladas. Aleta caudal corroida. Perdida de movimientos. Respiracion en la superficie (boqueando). En algunas especies aparece un anillo hiperhemico (exceso de sangre) en la cola y alrededor de los ojos. Temblores."
+  },
+  "7": {
+    "nome": "Enfermedad del Agujero en la Cabeza",
+    "causa": "En peces ornamentales, la enfermedad esta frecuentemente asociada al protozoario flagelado Hexamita, combinado con otros agentes patogenos oportunistas como bacterias. Ocurre debido a la caida de las defensas inmunologicas del pez, causada por estres, alimentacion deficiente (especialmente falta de vitaminas) o mala calidad del agua. Es muy comun en ciclidos, especialmente Discus y Oscars.",
+    "tratamento": "Metronidazol (Flagyl 400 mg): 250 mg por cada 100 g de alimento en pasta o vivo, 2 veces al dia, durante 10 dias. Siempre que el pez lo tolere, elevar lentamente la temperatura hasta 32 grados Celsius, ya que por debajo de 31 grados el tratamiento tiene menor eficacia. La aplicacion de antisepticos (mercurocromo, Rifocina en spray, Povidona yodada, Betadine o Permanganato de Potasio) en las lesiones puede ser necesaria para prevenir infecciones secundarias.",
+    "sintoma": "Despigmentacion y aparicion de pequenos orificios en la region cercana a la cabeza, que inicialmente son pequenos pero aumentan gradualmente en tamano y profundidad. Pueden ocurrir infecciones secundarias por bacterias, hongos o protozoarios. Desnutricion, debilidad general (caquexia), gastroenteritis y peritonitis (inflamacion del peritoneo)."
+  },
+  "8": {
+    "nome": "Dactilogirosis",
+    "causa": "Causada por un gusano parasito que posee 4 ojos y 2 trompas que secretan liquido irritante. El parasito se fija al pez mediante un disco especial e introduce su trompa para succionar sangre. Se reproduce por huevos. Es poco comun en acuarios con peces ornamentales, pero cuando la infestacion es grande puede haber destruccion del tejido branquial y ruptura de los vasos, causando muerte por asfixia o hemorragia.",
+    "tratamento": "Azul de metileno 2 mg por litro de agua + Formalina (40%) 2 ml por cada 10 litros de agua, en banos de 30 a 45 minutos. Retirar al pez si presenta signos de angustia. Usar aireacion durante el tratamiento. Despues de 3 dias, cambiar la mitad del agua. Alternativamente, bano de sal comun: 10 a 15 g por litro de agua.",
+    "sintoma": "Aumento de las branquias, que quedan palidas y prominentes. Bordes de las branquias engrosados. Los operculos (placas oseas a los lados de la cabeza) quedan entreabiertos. Respiracion acelerada y dificultosa."
+  },
+  "9": {
+    "nome": "Costiasis",
+    "causa": "Causada por el protozoario flagelado Ichthyobodo necator, anteriormente conocido como Costia. Las causas especificas que llevan a la infeccion no son totalmente conocidas, pero los peces estresados y con baja inmunidad son mas susceptibles. El parasito se alimenta de las celulas epiteliales del pez.",
+    "tratamento": "Aqualife o Labcon Ictio (1 gota por cada 2 litros de agua). Verde de Malaquita, Tripaflavina o Formol tambien pueden utilizarse. Bano en acuario-hospital con solucion de 2 mg por litro de Permanganato de Potasio (KMnO4). Bano de sal (2,5 g por litro de agua) de 10 a 20 minutos por dia hasta que la piel se aclare.",
+    "sintoma": "Los peces contaminados se concentran en zonas de agua con movimiento. Pueden rascarse contra objetos duros como piedras y grava, presentando aspecto apatico y permaneciendo en el fondo del acuario. Un brillo gris-azulado puede notarse en los flancos del animal. Perdida de apetito. Fuerte turbidez en la piel con manchas blanquecinas, pudiendo en casos graves llevar a la destruccion de la piel con heridas y sangrado. Pueden surgir ramificaciones rojizas en las aletas."
+  },
+  "10": {
+    "nome": "Hongo de los Peces (Saprolegnia)",
+    "causa": "Causada por hongos del genero Saprolegnia que atacan preferentemente a peces heridos y debilitados. El hongo aprovecha lesiones en la piel, aletas danadas o areas con la capa protectora de mucosidad comprometida para instalarse. Peces estresados, con sistema inmunologico debilitado o en aguas de mala calidad son mas propensos.",
+    "tratamento": "Bano prolongado (4 dias) en acuario-hospital con sal marina: 10 g por litro de agua. Para reforzar el tratamiento, sumergir al pez dos veces al dia en solucion mas concentrada de sal marina: 25 g por litro de agua durante algunos minutos. Azul de metileno tambien puede utilizarse.",
+    "sintoma": "Manchas blancas o mechones similares a algodon en el cuerpo y las aletas. Desanimo, falta de apetito y comportamiento apatico. Las areas afectadas pueden presentar aspecto algodonoso y extenderse rapidamente si no se tratan."
+  },
+  "11": {
+    "nome": "Gusano Ancla (Lernaea)",
+    "causa": "La diseminacion de este parasito crustaceo ocurre a traves de agua contaminada o por el contacto con peces infestados con hembras adultas del parasito. La procreacion es rapida, propagando el parasito rapidamente entre los peces del acuario. Las hembras se fijan profundamente en la piel del pez con estructuras en forma de ancla.",
+    "tratamento": "Con el pez sujeto delicadamente en la mano, retirar el parasito con ayuda de unas pinzas, con cuidado de extraer completamente el ancla. Despues de la extraccion, aplicar medicamento parasiticida o antiseptico en el lugar de la remocion para evitar infecciones secundarias. Tratar el acuario con medicamento antiparasitario para eliminar larvas en el agua.",
+    "sintoma": "Lesiones en las branquias con perdida de la arquitectura branquial y reduccion de la funcion respiratoria. Puede ocurrir oclusion temporal o permanente de la circulacion por la fijacion del parasito. Necrosis y desintegracion local o difusa del tejido branquial. Perdida de peso progresiva. Irritacion constante en la superficie del cuerpo. Cambios de comportamiento, con peces intentando librarse de los parasitos frotandose contra objetos duros."
+  },
+  "12": {
+    "nome": "Podredumbre de Aletas",
+    "causa": "La colonizacion original es generalmente producida por las bacterias Pseudomonas fluorescens y Aeromonas liquefaciens, seguidas por Mycobacterium sp. y Mixobacterias del genero Cytophaga columnaris. Los tejidos necroticos sirven de medio de cultivo para hongos de los generos Saprolegnia y Achyla, que agravan la perdida de las aletas. Cuando la colonizacion destruye la aleta y alcanza el pedunculo caudal, la enfermedad se vuelve muy dificil de revertir, pudiendo ocurrir invasion del torrente sanguineo y septicemia.",
+    "tratamento": "Oxitetraciclina (Terramicina) 500 mg por cada 50 litros de agua, renovando 1/3 del agua cada 24 horas durante cinco dias. Pincelar las aletas afectadas con Yodo-Povidona o pomada de Neomicina. Aumentar la temperatura del acuario a 30 grados Celsius. Mantener excelente calidad del agua.",
+    "sintoma": "Necrosis progresiva de las aletas, que quedan deshilachadas, corroidas y con aspecto irregular. Pez apatico, con movimientos reducidos. En casos avanzados, la aleta puede ser completamente destruida hasta el pedunculo."
+  },
+  "13": {
+    "nome": "Lepidortosis",
+    "causa": "Infeccion bacteriana que causa el levantamiento y la perdida de escamas. Generalmente asociada a bacterias del genero Aeromonas. Peces estresados, con sistema inmunologico comprometido o mantenidos en agua de mala calidad son mas propensos a desarrollar la enfermedad.",
+    "tratamento": "Aureomicina 50 mg por litro de agua en banos durante 4 dias. Alternativamente, Cloranfenicol 10 mg por litro de agua. Mantener excelente calidad del agua y alimentacion adecuada durante el tratamiento.",
+    "sintoma": "Perdida de escamas por todo el cuerpo, especialmente en el dorso. Escamas levantadas dando aspecto de pina de pino. Movimientos cada vez mas lentos. Respiracion acelerada. Paralizacion progresiva de la cola. El pez queda en la superficie perdiendo sus reflejos."
+  },
+  "14": {
+    "nome": "Piojo de Pez (Argulus)",
+    "causa": "El Argulus es un crustaceo parasito que se alimenta principalmente de celulas sanguineas del pez hospedador. Puede llegar al acuario a traves de peces recien adquiridos que no pasaron por una cuarentena adecuada, o por agua y plantas contaminadas. El parasito tiene forma aplanada y se fija a la piel del pez con ventosas.",
+    "tratamento": "La remocion del parasito debe hacerse manualmente con unas pinzas, con cuidado. Despues de la remocion, tratar las lesiones con productos cicatrizantes para evitar infecciones secundarias. Tratar el acuario con medicamento antiparasitario para eliminar huevos y larvas remanentes.",
+    "sintoma": "Pez visiblemente abatido y desnutrido. El Argulus es visible a simple vista (mide aproximadamente 5 a 8 mm), pero por su forma aplanada puede ser dificil de detectar. Puede atacar cualquier parte del cuerpo, siendo mas comun encontrarlo en las aletas. Puntos de hemorragia en los sitios de fijacion."
+  },
+  "15": {
+    "nome": "Girodactilosis",
+    "causa": "Causada por un gusano ciego de 0,5 a 0,8 mm de longitud, que posee una ventosa en la boca y un gancho en la cola por el cual se fija al pez. A diferencia del Dactylogyrus, este parasito es viviparo (no pone huevos), lo que facilita su rapida proliferacion. Ataca principalmente la piel y las aletas de los peces.",
+    "tratamento": "Bano de sal comun: 10 a 15 g por litro de agua durante 20 minutos. Formalina (40%) 2 ml por cada 10 litros de agua en banos de 30 minutos. Azul de metileno 2 mg por litro. Mantener buena aireacion durante cualquier tratamiento. Repetir el tratamiento despues de 3 dias para eliminar parasitos remanentes.",
+    "sintoma": "El pez se vuelve cada vez mas palido. La piel produce exceso de mucosidad. Manchas o puntos hemorragicos en el cuerpo y en las aletas. Respiracion acelerada. Pez apatico, cansado, con movimientos cada vez mas lentos, permaneciendo en la superficie. Puede llevar a la muerte si no se trata."
+  },
+  "16": {
+    "nome": "Tripanoplasmosis",
+    "causa": "Causada por protozoarios que parasitan al pez a traves del torrente sanguineo. Son transmitidos de un pez a otro por las picaduras de sanguijuelas, que actuan como vectores. Las sanguijuelas pueden ser introducidas en el acuario por plantas o decoraciones ya utilizadas en otros acuarios.",
+    "tratamento": "Generalmente es incurable. La profilaxis consiste en evitar sanguijuelas en el acuario. Inspeccionar cuidadosamente plantas y decoraciones antes de introducirlas. Poner en cuarentena nuevos peces y plantas. Mantener excelente calidad del agua para fortalecer el sistema inmunologico de los peces.",
+    "sintoma": "Similar a la 'enfermedad del sueno'. Los peces atacados presentan estado letargico, quedando practicamente sin movimiento. Debilitamiento progresivo, anemia y ojos hundidos. Quedan en posicion oblicua, apoyando la cabeza en el fondo del acuario. Pueden morir de inanicion por no poder alimentarse."
+  },
+  "17": {
+    "nome": "Punto Blanco (Ich)",
+    "causa": "Causada por el protozoario ciliado Ichthyophthirius multifiliis, una de las enfermedades mas comunes y devastadoras en peces de agua dulce. A temperaturas mas altas el parasito completa su ciclo mas rapido, volviendose mas peligroso. No sobrevive en concentraciones bajas de oxigeno o en aguas muy acidas (pH por debajo de 5). El parasito se aloja principalmente en la superficie dorsal, cabeza, debajo de la piel, agallas y branquias, formando quistes.",
+    "tratamento": "Elevar la temperatura a 30-33 grados Celsius durante 3 a 5 dias (acelera el ciclo del parasito, haciendolo vulnerable). Bano de tripaflavina con temperatura de 30 grados durante al menos 3 semanas. Sal no yodada: 20 g por litro de agua con aireacion durante 2 a 5 minutos. Verde de Malaquita segun instrucciones del fabricante. Realizar cambios parciales de agua y desinfectar materiales de uso colectivo. Los peces nuevos deben permanecer en cuarentena durante 2 a 3 semanas.",
+    "sintoma": "Fase inicial: aparicion de puntos blancos (como granos de sal) en la superficie del pez, aletas encogidas, nado irregular, pez rascandose contra piedras, disminucion del apetito y aumento en la produccion de mucosidad. Fase aguda: desarrollo de ulceras, perdida de vitalidad, pez inmovil en el fondo del acuario. Hongos y bacterias pueden aprovechar la fragilidad del pez para infecciones secundarias."
+  },
+  "18": {
+    "nome": "Plistoforosis (Enfermedad de los Neon)",
+    "causa": "Causada por el esporozoario Pleistophora hyphessobryconis. Ataca principalmente a tetras como Neon, Hyphessobrycon y Brachydanio. El parasito invade la musculatura del tronco donde se reproduce, causando palidez y edema (hinchazon) en las areas afectadas. Las temperaturas bajas favorecen el desarrollo de la enfermedad.",
+    "tratamento": "La cura es muy dificil. Se recomienda intentar un bano en solucion de 2,5 g de euflavina o 2 g de azul de metileno por cada 100 litros de agua, durante 15 dias. Mantener el acuario a buenas temperaturas (mas elevadas). Aislar peces infectados inmediatamente. Retirar peces muertos rapidamente para evitar que otros los ingieran.",
+    "sintoma": "Perdida de apetito. Nado nocturno agitado. Agonia intensa. Decoloracion progresiva de los pigmentos de la piel hasta decoloracion total (especialmente la franja azul del Neon). Alejamiento del cardumen. Adelgazamiento con abdomen retraido. Endurecimiento y destruccion de los tejidos, pudiendo atacar los rinones."
+  },
+  "19": {
+    "nome": "Enfermedad del Terciopelo (Oodiniasis)",
+    "causa": "El contagio es directo, por una forma flagelada infectante del parasito que puede desplazarse activamente en el agua en busca de un nuevo hospedador. Es extremadamente peligrosa entre peces pequenos, especialmente caracidos (Neon, Rodostomus, etc.), pudiendo devastar un acuario entero en menos de 6 horas.",
+    "tratamento": "Azoo anti-oodinium (producto comercial especifico). Banos prolongados de tripaflavina. Azul de metileno: 2 gotas al 5% por cada 5 litros de agua, durante 5 dias. Elevar la temperatura a 30 grados Celsius y oscurecer totalmente el ambiente (el parasito depende de la luz para la fotosintesis). Retirar plantas y objetos decorativos del acuario durante el tratamiento.",
+    "sintoma": "Fase inicial: irritacion cutanea, aumento de produccion de mucosidad, trastornos natatorios (nado irregular). Fase avanzada: aparicion de manchas brillantes parduscas en la superficie del cuerpo, similares a terciopelo. Disfuncion respiratoria, congestion e hiperplasia branquial. Estadios agonicos con peces yendo al fondo boca arriba y nadando en circulos."
+  },
+  "20": {
+    "nome": "Exoftalmia (Ojo Salton)",
+    "causa": "Puede tener diferentes causas: ascitis infecciosa, tuberculosis piscicola, parasitos (Diplozoon, Gyrodactylus y Dactylogyrus), factores quimicos como acuario con parametros desequilibrados, y deficiencias alimentarias. La acumulacion de liquido en la cavidad ocular es el mecanismo que causa la protrusion del ojo.",
+    "tratamento": "No existe un tratamiento especifico unico, ya que depende de la causa. Bano de sal durante 36 horas. Colirios: Argirol al 5% o Cloranfenicol 5% aplicados directamente en el ojo. Bajar la temperatura del agua para disminuir la presion ocular. Cloranfenicol 250 mg por cada 20 litros de agua. El uso de acondicionadores de agua (tipo Aquasafe), cambios parciales frecuentes y alimentacion adecuada ayudan en la prevencion.",
+    "sintoma": "Acumulacion de liquido en la cavidad ocular del pez, causando edema y protrusion (salirse hacia fuera) de uno o ambos globos oculares. Puede ser unilateral (un ojo) o bilateral (ambos). En casos graves, el ojo puede desprenderse. Frecuentemente acompanado de apatia y perdida de apetito."
+  }
+}
