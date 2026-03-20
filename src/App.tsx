@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { usePageTracking } from './hooks/usePageTracking'
 import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
 import FishListPage from './pages/FishListPage'
@@ -22,7 +23,16 @@ import AboutPage from './pages/AboutPage'
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <AppRoutes />
+    </BrowserRouter>
+  )
+}
+
+function AppRoutes() {
+  usePageTracking()
+
+  return (
+    <Routes>
         <Route path="/" element={<HomePage />} />
         <Route element={<Layout />}>
           <Route path="/peixes" element={<FishListPage />} />
@@ -44,6 +54,5 @@ export default function App() {
           <Route path="/sobre" element={<AboutPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
   )
 }
