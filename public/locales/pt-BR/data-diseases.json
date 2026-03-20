@@ -1,0 +1,122 @@
+{
+  "1": {
+    "nome": "Quilodonelose",
+    "causa": "Causada por um parasita ciliado de forma oval que produz opacidade branco-azulada na pele dos peixes. Alimenta-se de celulas epidermicas destruidas e de celulas do epitelio branquial. E transmissivel por contagio direto, sua multiplicacao e rapida e ataca principalmente peixes debilitados por estresse, ma alimentacao ou parametros inadequados da agua.",
+    "tratamento": "Banho de tripaflavina por 24 horas (com esta medicacao, o parasita morre em aproximadamente 10 horas). Elevar a temperatura da agua para 28 graus Celsius. Manter boa oxigenacao durante o tratamento.",
+    "sintoma": "Nado e respiracao com dificuldade. Coceira constante, com o peixe se esfregando em objetos para se livrar dos parasitas. Producao excessiva de muco na pele."
+  },
+  "2": {
+    "nome": "Ictiofonose",
+    "causa": "Transmitida atraves de esporos presentes em alimentos contaminados. O fungo se desenvolve no estomago e intestinos, sendo eliminado pelas fezes. Alguns esporos chegam a perfurar a parede intestinal e sao levados pelo sangue a diversos orgaos como coracao e figado, onde formam pequenos nodulos pardos ou pretos. Quando esses nodulos se rompem, os orgaos sao atacados e o peixe morre. A doenca aparece quando o parasita e introduzido por alimentos, materiais ou peixes contaminados, e as mas condicoes da agua facilitam sua propagacao.",
+    "tratamento": "Atualmente nao ha cura conhecida. Em alguns casos, o peixe pode sobreviver por ate 6 meses apos a infeccao. Recomenda-se isolar o peixe infectado imediatamente para evitar a contaminacao de outros.",
+    "sintoma": "Os primeiros sintomas sao dificeis de identificar pois sao muito diversificados: perda de apetite, entorpecimento, exoftalmia (olhos saltados), nadadeiras perdendo pedacos e ficando dobradas, peixe escondido a maior parte do tempo, instabilidade para nadar e movimentos estranhos, peixe no fundo com barriga inchada, pele e escamas com aspecto vitreo, peixe virando sobre o eixo e balancando, ulceracoes na pele, emagrecimento, pele desbotada e boca sempre aberta."
+  },
+  "3": {
+    "nome": "Furunculose",
+    "causa": "Doenca de carater infeccioso causada pela bacteria gram-negativa Aeromonas salmonicida, que e imovel e nao produtora de esporos. As ulceras aparecem nas zonas mais ricas em vasos capilares. Ao se inserir no peixe, a bacteria destroi o tecido ao redor do ponto de infeccao.",
+    "tratamento": "Terramicina 500 mg para cada 50 litros de agua, em banho de 24 horas. Repetir o banho a cada 5 dias ate controlar a infeccao. Manter boa qualidade da agua durante o tratamento.",
+    "sintoma": "Manchas vermelhas no corpo (dando impressao de ferimentos). Bolhas de pus e sangue. Quando as bolhas se abrem, ha formacao de ulceras (o pus liberado pode contaminar outros peixes). Escaras do tipo ulceroso no corpo, geralmente na regiao caudal."
+  },
+  "4": {
+    "nome": "Tricodiniase",
+    "causa": "Causada por um cilioforo (protozoario provido de cilios) muito comum em aquarios. Ataca os peixes quando se encontram muito debilitados por estresse, deficiencia alimentar ou parametros inadequados da agua.",
+    "tratamento": "Banho de tripaflavina: 10 mg por litro de agua durante 24 horas (o parasita morre em aproximadamente 10 horas). Elevar a temperatura da agua para 28 graus Celsius. Tratar as causas que levaram a debilidade do peixe (estresse, deficiencia na alimentacao, agua com parametros inadequados, etc.).",
+    "sintoma": "Extrema irritacao e coceira, com o peixe se esfregando constantemente em objetos do aquario (produzindo hiperemia pelo atrito)."
+  },
+  "5": {
+    "nome": "Tuberculose Piscicola",
+    "causa": "A transmissao ocorre pela ingestao de esporos presentes em portadores como o Tubifex. O parasita invade a cartilagem do peixe, produzindo necrose e deformidade. Doenca pouco comum em peixes de aquario, sendo mais frequente em salmonideos. Pode ser transmitida entre peixes pela ingestao de tecido contaminado.",
+    "tratamento": "Nao ha cura conhecida atualmente. Recomenda-se isolar imediatamente os peixes infectados e manter otimas condicoes de agua para os demais. Descartar qualquer alimento vivo suspeito.",
+    "sintoma": "Movimentos rotatorios ao nadar. Emagrecimento na parte superior do corpo, logo apos a cabeca. Coloracao escura na parte caudal. Letargia e perda de apetite progressiva."
+  },
+  "6": {
+    "nome": "Chondrococcus",
+    "causa": "Peixes habituados a agua de temperatura relativamente baixa, quando transferidos para aguas mais quentes, tornam-se suscetiveis a doenca. Geralmente se inicia a partir de uma ferida. Peixes transportados ou colocados em recipientes pequenos e inadequados tem maiores chances de adquirir a doenca. Peixes retirados com redes asperas podem apresentar feridas na boca e descamacao, ficando sujeitos a infeccao.",
+    "tratamento": "Terramicina 500 mg para cada 40 a 50 litros de agua, em banho de 24 a 48 horas. Tripaflavina 2 mg para cada 25 litros de agua em banhos de 24 horas. Manter boa oxigenacao e qualidade da agua.",
+    "sintoma": "Aparecimento de uma crosta no corpo com aspecto de limo ou mofo (que pode atacar tambem a boca). Manchas branco-azuladas. Nadadeira caudal corroida. Perda de movimentos. Respiracao pela superficie (boquejando). Em algumas especies ha o aparecimento de um anel hipermico (excesso de sangue) na cauda e ao redor dos olhos. Tremores."
+  },
+  "7": {
+    "nome": "Buraco na Cabeca",
+    "causa": "Em peixes ornamentais, a doenca e frequentemente associada ao protozoario flagelado Hexamita, combinado com outros agentes patogenicos oportunistas como bacterias. Ocorre devido a queda das defesas imunologicas do peixe, causada por estresse, alimentacao deficiente (especialmente falta de vitaminas) ou ma qualidade da agua. E muito comum em ciclideos, especialmente Discus e Oscars.",
+    "tratamento": "Metronidazol (Flagyl 400 mg): 250 mg para cada 100 g de alimento em pasta ou vivo, 2 vezes ao dia, por 10 dias. Sempre que o peixe tolerar, elevar lentamente a temperatura ate 32 graus Celsius, pois abaixo de 31 graus o tratamento tem menor eficacia. Aplicacao de antissepticos (mercurio-cromo, Rifocina spray, Povidine, Betadine ou Permanganato de Potassio) nas lesoes pode ser necessaria para prevenir infeccoes secundarias.",
+    "sintoma": "Despigmentacao e surgimento de pequenos orificios na regiao proxima a cabeca, que inicialmente sao pequenos mas aumentam gradativamente em tamanho e profundidade. Podem ocorrer infeccoes secundarias por bacterias, fungos ou protozoarios. Desnutricao, fraqueza geral (caquexia), gastroenterite e peritonite (inflamacao do peritonio)."
+  },
+  "8": {
+    "nome": "Dactilogirose",
+    "causa": "Causada por um verme parasita que possui 4 olhos e 2 trombas que secretam liquido irritante. O parasita se fixa no peixe por meio de um disco especial e introduz sua tromba para sugar o sangue. Se reproduz por ovos. E pouco comum em aquarios com peixes ornamentais, mas quando a infestacao e grande pode haver destruicao do tecido branquial e ruptura dos vasos, causando morte por asfixia ou hemorragia.",
+    "tratamento": "Azul de metileno 2 mg por litro de agua + Formalina (40%) 2 ml para cada 10 litros de agua, em banhos de 30 a 45 minutos. Retirar o peixe ao apresentar sinais de angustia. Usar aeracao durante o tratamento. Apos 3 dias, trocar metade da agua. Alternativamente, banho de sal comum: 10 a 15 g por litro de agua.",
+    "sintoma": "Aumento das guelras, que ficam palidas e salientes. Bordas das branquias engrossadas. Os operculos (placas osseas ao lado da cabeca) ficam entreabertos. Respiracao acelerada e dificultosa."
+  },
+  "9": {
+    "nome": "Costiose",
+    "causa": "Causada pelo protozoario flagelado Ichthyobodo necator, anteriormente conhecido como Costia. As causas especificas que levam a infeccao nao sao totalmente conhecidas, mas peixes estressados e com imunidade baixa sao mais suscetiveis. O parasita se alimenta das celulas epiteliais do peixe.",
+    "tratamento": "Aqualife ou Labcon Ictio (1 gota para cada 2 litros de agua). Verde de Malaquita, Tripaflavina ou Formol tambem podem ser utilizados. Banho no aquario-hospital com solucao de 2 mg por litro de Permanganato de Potassio (KMnO4). Banho de sal (2,5 g por litro de agua) de 10 a 20 minutos por dia ate que a pele fique clara.",
+    "sintoma": "Os peixes contaminados concentram-se em locais de agua movimentada. Podem se cocar em objetos duros como pedras e cascalho, apresentando aspecto apatico e permanecendo no fundo do aquario. Um brilho cinza-azulado pode ser notado nos flancos do animal. Perda de apetite. Forte turvacao na pele com manchas esbranquicadas, podendo em casos graves levar a destruicao da pele com feridas e sangramento. Podem surgir ramificacoes vermelhas nas barbatanas."
+  },
+  "10": {
+    "nome": "Mofo dos Peixes",
+    "causa": "Causada por fungos do genero Saprolegnia que atacam preferencialmente peixes feridos e debilitados. O fungo aproveita lesoes na pele, nadadeiras danificadas ou areas com a camada protetora de muco comprometida para se instalar. Peixes estressados, com sistema imunologico enfraquecido ou em aguas com ma qualidade sao mais propensos.",
+    "tratamento": "Banho prolongado (4 dias) em aquario-hospital com sal marinho: 10 g por litro de agua. Para reforcar o tratamento, mergulhar o peixe duas vezes ao dia em solucao mais concentrada de sal marinho: 25 g por litro de agua por alguns minutos. Azul de metileno tambem pode ser utilizado.",
+    "sintoma": "Manchas brancas ou tufos semelhantes a algodao no corpo e nadadeiras. Desanimo, falta de apetite e comportamento apatico. As areas afetadas podem apresentar aspecto algodonoso e se espalhar rapidamente se nao tratadas."
+  },
+  "11": {
+    "nome": "Verme Ancora",
+    "causa": "A disseminacao deste parasita crustaceo ocorre atraves de agua contaminada ou pelo contato com peixes infestados com femeas adultas do parasita. A procriacao e rapida, espalhando o parasita rapidamente entre os peixes do aquario. As femeas se fixam profundamente na pele do peixe com estruturas em formato de ancora.",
+    "tratamento": "Com o peixe seguro delicadamente na mao, remover o parasita com auxilio de uma pinca, com cuidado para extrair completamente a ancora. Apos a retirada, aplicar medicamento parasiticida ou antisseptico no local da remocao para evitar infeccoes secundarias. Tratar o aquario com medicamento antiparasitario para eliminar larvas na agua.",
+    "sintoma": "Lesoes nas branquias com perda da arquitetura branquial e reducao da funcao respiratoria. Pode ocorrer oclusao temporaria ou permanente da circulacao pela fixacao do parasita. Necrose e desintegracao local ou difusa do tecido branquial. Perda de peso progressiva. Irritacao constante na superficie do corpo. Mudancas de comportamento, com peixes tentando se livrar dos parasitas esfregando-se em objetos duros."
+  },
+  "12": {
+    "nome": "Podridao das Nadadeiras",
+    "causa": "A colonizacao original e geralmente produzida pelas bacterias Pseudomonas fluorescens e Aeromonas liquefaciens, seguidas por Mycobacterium sp. e Myxobacterias do genero Cytophaga columnaris. Os tecidos necroticos servem de meio de cultura para fungos dos generos Saprolegnia e Achyla, que agravam a perda das nadadeiras. Quando a colonizacao destroi a nadadeira e atinge o pedunculo caudal, a doenca se torna muito dificil de regredir, podendo ocorrer invasao da corrente sanguinea e septicemia.",
+    "tratamento": "Oxitetraciclina (Terramicina) 500 mg para cada 50 litros de agua, renovando 1/3 da agua a cada 24 horas durante cinco dias. Pincelar as nadadeiras afetadas com Iodo-Povidine ou pomada de Neomicina. Aumentar a temperatura do aquario para 30 graus Celsius. Manter excelente qualidade da agua.",
+    "sintoma": "Necrose progressiva das nadadeiras, que ficam desfiadas, corroidas e com aspecto irregular. Peixe apatico, com movimentos reduzidos. Em casos avancados, a nadadeira pode ser completamente destruida ate o pedunculo."
+  },
+  "13": {
+    "nome": "Lepidortose",
+    "causa": "Infeccao bacteriana que causa o levantamento e a perda de escamas. Geralmente associada a bacterias do genero Aeromonas. Peixes estressados, com sistema imunologico comprometido ou mantidos em agua de ma qualidade sao mais propensos a desenvolver a doenca.",
+    "tratamento": "Aureomicina 50 mg por litro de agua em banhos por 4 dias. Alternativamente, Cloromicetina 10 mg por litro de agua. Manter excelente qualidade da agua e alimentacao adequada durante o tratamento.",
+    "sintoma": "Perda de escamas por todo o corpo, especialmente no dorso. Escamas levantadas dando aspecto de pinha de pinheiro. Movimentos cada vez mais lentos. Respiracao acelerada. Paralisacao progressiva da cauda. Peixe fica na superficie perdendo seus reflexos."
+  },
+  "14": {
+    "nome": "Piolho de Peixe",
+    "causa": "O Argulus e um crustaceo parasita que se alimenta principalmente de celulas sanguineas do peixe hospedeiro. Pode chegar ao aquario atraves de peixes recem-adquiridos que nao passaram por quarentena adequada, ou por agua e plantas contaminadas. O parasita tem formato achatado e se fixa na pele do peixe com ventosas.",
+    "tratamento": "A remocao do parasita deve ser feita manualmente com uma pinca, com cuidado. Apos a remocao, tratar as lesoes com produtos cicatrizantes para evitar infeccoes secundarias. Tratar o aquario com medicamento antiparasitario para eliminar ovos e larvas remanescentes.",
+    "sintoma": "Peixe visivelmente abatido e desnutrido. O Argulus e visivel a olho nu (mede aproximadamente 5 a 8 mm), porem por seu formato achatado pode ser dificil de detectar. Pode atacar qualquer parte do corpo, sendo mais comum encontra-lo nas nadadeiras. Pontos de hemorragia nos locais de fixacao."
+  },
+  "15": {
+    "nome": "Girodactilose",
+    "causa": "Causada por um verme cego de 0,5 a 0,8 mm de comprimento, que possui uma ventosa na boca e um gancho na cauda pelo qual se fixa ao peixe. Diferente do Dactylogyrus, este parasita e viviparo (nao bota ovos), o que facilita sua rapida proliferacao. Ataca principalmente a pele e nadadeiras dos peixes.",
+    "tratamento": "Banho de sal comum: 10 a 15 g por litro de agua por 20 minutos. Formalina (40%) 2 ml para cada 10 litros de agua em banhos de 30 minutos. Azul de metileno 2 mg por litro. Manter boa aeracao durante qualquer tratamento. Repetir o tratamento apos 3 dias para eliminar parasitas remanescentes.",
+    "sintoma": "Peixe fica cada vez mais palido. A pele produz excesso de mucosidade. Manchas ou pontos hemorragicos no corpo e nas nadadeiras. Respiracao acelerada. Peixe apatico, cansado, com movimentos cada vez mais lentos, permanecendo na superficie. Pode levar a morte se nao tratado."
+  },
+  "16": {
+    "nome": "Tripanoplasmose",
+    "causa": "Causada por protozoarios que parasitam o peixe atraves da corrente sanguinea. Sao transmitidos de um peixe a outro pelas picadas de sanguessugas, que atuam como vetores. As sanguessugas podem ser introduzidas no aquario por plantas ou decoracoes ja utilizadas em outros aquarios.",
+    "tratamento": "Geralmente e incuravel. A profilaxia consiste em evitar sanguessugas no aquario. Inspecionar cuidadosamente plantas e decoracoes antes de introduzi-las. Quarentenar novos peixes e plantas. Manter excelente qualidade da agua para fortalecer o sistema imunologico dos peixes.",
+    "sintoma": "Semelhante a 'doenca do sono'. Peixes atacados apresentam estado letargico, ficando praticamente sem movimento. Enfraquecimento progressivo, anemia e olhos fundos. Ficam em posicao obliqua, apoiando a cabeca no fundo do aquario. Podem morrer de inanicao por nao conseguirem se alimentar."
+  },
+  "17": {
+    "nome": "Ictio (Pontos Brancos)",
+    "causa": "Causada pelo protozoario ciliado Ichthyophthirius multifiliis, uma das doencas mais comuns e devastadoras em peixes de agua doce. Em temperaturas mais altas o parasita completa seu ciclo mais rapido, tornando-se mais perigoso. Nao sobrevive em concentracoes baixas de oxigenio ou em aguas muito acidas (pH abaixo de 5). O parasita se aloja principalmente na superficie dorsal, cabeca, abaixo da pele, guelras e branquias, formando cistos.",
+    "tratamento": "Elevar a temperatura para 30-33 graus Celsius por 3 a 5 dias (acelera o ciclo do parasita, tornando-o vulneravel). Banho de tripaflavina com temperatura de 30 graus por pelo menos 3 semanas. Sal nao iodado: 20 g por litro de agua com aeracao por 2 a 5 minutos. Verde de Malaquita conforme instrucoes do fabricante. Realizar trocas parciais de agua e desinfetar materiais de uso coletivo. Novos peixes devem ficar em quarentena por 2 a 3 semanas.",
+    "sintoma": "Fase inicial: aparicao de pontos brancos (como graos de sal) na superficie do peixe, barbatanas encolhidas, nado irregular, peixe se cocando em pedras, diminuicao do apetite e aumento na producao de muco. Fase aguda: desenvolvimento de ulceras, perda de vitalidade, peixe parado no fundo do aquario. Fungos e bacterias podem aproveitar a fragilidade do peixe para infeccoes secundarias."
+  },
+  "18": {
+    "nome": "Plistoforose (Doenca dos Neons)",
+    "causa": "Causada pelo esporozoario Pleistophora hyphessobryconis. Ataca principalmente tetras como Neon, Hyphessobrycon e Brachydanio. O parasita invade a musculatura do tronco onde se reproduz, causando palidez e edema (inchaco) nas areas afetadas. Temperaturas baixas favorecem o desenvolvimento da doenca.",
+    "tratamento": "A cura e muito dificil. Recomenda-se tentar banho em solucao de 2,5 g de euflavina ou 2 g de azul de metileno para cada 100 litros de agua, durante 15 dias. Manter o aquario com boas temperaturas (mais elevadas). Isolar peixes infectados imediatamente. Remover peixes mortos rapidamente para evitar que outros os ingiram.",
+    "sintoma": "Perda de apetite. Nado noturno agitado. Agonia intensa. Descoloracao progressiva dos pigmentos da pele ate descoloracao total (especialmente a faixa azul do Neon). Afastamento do cardume. Emagrecimento com abdomen retraido. Endurecimento e destruicao dos tecidos, podendo atacar os rins."
+  },
+  "19": {
+    "nome": "Oodiniose (Doenca de Veludo)",
+    "causa": "O contagio e direto, por uma forma flagelada infectante do parasita que pode se deslocar ativamente na agua a procura de um novo hospedeiro. E extremamente perigosa entre peixes pequenos, especialmente caracideos (Neon, Rodostomus, etc.), podendo devastar um aquario inteiro em menos de 6 horas.",
+    "tratamento": "Azoo anti-oodinium (produto comercial especifico). Banhos demorados de tripaflavina. Azul de metileno: 2 gotas a 5% para cada 5 litros de agua, durante 5 dias. Elevar a temperatura para 30 graus Celsius e escurecer totalmente o ambiente (o parasita depende de luz para fotossintese). Retirar plantas e objetos decorativos do aquario durante o tratamento.",
+    "sintoma": "Fase inicial: irritacao cutanea, aumento de producao de muco, disturbios natatorios (nado irregular). Fase avancada: surgimento de manchas brilhantes acastanhadas na superficie do corpo, semelhantes a veludo. Disfuncao respiratoria, congestao e hiperplasia branquial. Estagios agonicos com peixes indo ao fundo de ventre para cima e nadando em rodopios."
+  },
+  "20": {
+    "nome": "Exoftalmia (Olho Inchado)",
+    "causa": "Pode ter diferentes causas: ascite infecciosa, tuberculose piscicola, parasitas (Diplozoon, Gyrodactylus e Dactylogyrus), fatores quimicos como aquario com parametros desequilibrados, e deficiencias alimentares. O acumulo de liquido na cavidade ocular e o mecanismo que causa a protrusao do olho.",
+    "tratamento": "Nao ha tratamento especifico unico, pois depende da causa. Banho de sal durante 36 horas. Colirios: Argirol a 5% ou Cloranfenicol 5% aplicados diretamente no olho. Baixar a temperatura da agua para diminuir a pressao ocular. Cloranfenicol 250 mg para cada 20 litros de agua. Uso de condicionadores de agua (tipo Aquasafe), trocas parciais frequentes e alimentacao adequada ajudam na prevencao.",
+    "sintoma": "Acumulo de liquido na cavidade ocular do peixe, causando edema e protrusao (saltar para fora) de um ou ambos os globos oculares. Pode ser unilateral (um olho) ou bilateral (ambos). Em casos graves, o olho pode se desprender. Frequentemente acompanhado de apatia e perda de apetite."
+  }
+}
