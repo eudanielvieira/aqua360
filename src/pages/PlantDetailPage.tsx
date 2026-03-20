@@ -10,6 +10,7 @@ import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import SimilarSpecies from '../components/SimilarSpecies'
+import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 import FavoriteButton from '../components/FavoriteButton'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
@@ -28,6 +29,8 @@ export default function PlantDetailPage() {
       setLoading(false)
     })
   }, [id])
+
+  const translated = useTranslatedSpecies(plant, 'plant')
 
   if (loading) {
     return (
@@ -52,7 +55,7 @@ export default function PlantDetailPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <div className="flex items-start justify-between">
-        <PageHeader title={plant.nomePopular} backTo="/plantas" />
+        <PageHeader title={translated?.nomePopular || plant.nomePopular} backTo="/plantas" />
         <FavoriteButton id={plant.id} type="plant" />
       </div>
 
@@ -86,27 +89,27 @@ export default function PlantDetailPage() {
                 <ParamCard icon="Droplets" label="pH" value={plant.ph} />
                 <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={plant.temperatura} />
                 <ParamCard icon="Sun" label={t('common:param.lighting')} value={plant.iluminacao} />
-                <ParamCard icon="Wind" label={t('common:param.co2')} value={plant.co2} />
-                <ParamCard icon="Signal" label={t('common:param.difficulty')} value={plant.dificuldade} />
-                <ParamCard icon="TrendingUp" label={t('common:param.growth')} value={plant.crescimento} />
+                <ParamCard icon="Wind" label={t('common:param.co2')} value={translated?.co2 || plant.co2} />
+                <ParamCard icon="Signal" label={t('common:param.difficulty')} value={translated?.dificuldade || plant.dificuldade} />
+                <ParamCard icon="TrendingUp" label={t('common:param.growth')} value={translated?.crescimento || plant.crescimento} />
               </div>
             </div>
           )}
 
           <dl>
-            <DetailRow label={t('common:detail.label.popularName')} value={plant.nomePopular} />
+            <DetailRow label={t('common:detail.label.popularName')} value={translated?.nomePopular || plant.nomePopular} />
             <DetailRow label={t('common:detail.label.scientificName')} value={plant.nomeCientifico} />
-            <DetailRow label={t('common:detail.label.otherNames')} value={plant.outrosNome} />
+            <DetailRow label={t('common:detail.label.otherNames')} value={translated?.outrosNome || plant.outrosNome} />
             <DetailRow label={t('common:detail.label.family')} value={plant.familia} />
-            <DetailRow label={t('plants:detail.structure')} value={plant.estrutura} />
-            <DetailRow label={t('common:detail.label.origin')} value={plant.origem} />
-            <DetailRow label={t('plants:detail.planting')} value={plant.plantio} />
+            <DetailRow label={t('plants:detail.structure')} value={translated?.estrutura || plant.estrutura} />
+            <DetailRow label={t('common:detail.label.origin')} value={translated?.origem || plant.origem} />
+            <DetailRow label={t('plants:detail.planting')} value={translated?.plantio || plant.plantio} />
             <DetailRow label={t('plants:detail.size')} value={plant.tamanho} />
-            <DetailRow label={t('plants:detail.stature')} value={plant.porte} />
-            <DetailRow label={t('plants:detail.position')} value={plant.posicao} />
-            <DetailRow label={t('plants:detail.reproduction')} value={plant.reproducao} />
-            <DetailRow label={t('plants:detail.fertileSubstrate')} value={plant.substratoFertil} />
-            <DetailRow label={t('plants:detail.supportsEmersion')} value={plant.suportaEmersao} />
+            <DetailRow label={t('plants:detail.stature')} value={translated?.porte || plant.porte} />
+            <DetailRow label={t('plants:detail.position')} value={translated?.posicao || plant.posicao} />
+            <DetailRow label={t('plants:detail.reproduction')} value={translated?.reproducao || plant.reproducao} />
+            <DetailRow label={t('plants:detail.fertileSubstrate')} value={translated?.substratoFertil || plant.substratoFertil} />
+            <DetailRow label={t('plants:detail.supportsEmersion')} value={translated?.suportaEmersao || plant.suportaEmersao} />
             <DetailRow label={t('common:detail.label.source')} value={plant.fonte} />
           </dl>
 

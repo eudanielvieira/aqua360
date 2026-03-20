@@ -6,6 +6,7 @@ import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
 import QuickFilters, { plantFilters } from '../components/QuickFilters'
+import { useTranslatedSpeciesList } from '../hooks/useTranslatedSpecies'
 
 const PAGE_SIZE = 30
 
@@ -23,7 +24,8 @@ export default function PlantListPage() {
     })
   }, [])
 
-  const { query, setQuery, filtered: searchFiltered } = useSearch(allPlants, ['nomePopular', 'nomeCientifico', 'familia'])
+  const translatedPlants = useTranslatedSpeciesList(allPlants, 'plant')
+  const { query, setQuery, filtered: searchFiltered } = useSearch(translatedPlants, ['nomePopular', 'nomeCientifico', 'familia'])
   const filtered = quickFilter ? searchFiltered.filter(quickFilter) : searchFiltered
   const visible = filtered.slice(0, visibleCount)
   const hasMore = visibleCount < filtered.length

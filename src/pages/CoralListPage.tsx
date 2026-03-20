@@ -6,6 +6,7 @@ import { useSearch } from '../hooks/useSearch'
 import { getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import SearchBar from '../components/SearchBar'
+import { useTranslatedSpeciesList } from '../hooks/useTranslatedSpecies'
 import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
 
 const categoryConfig: Record<CoralCategory, {
@@ -58,7 +59,8 @@ export default function CoralListPage() {
     })
   }, [])
 
-  const { query, setQuery, filtered: searchFiltered } = useSearch(corals, ['nomePopular', 'nomeCientifico', 'familia'])
+  const translatedCorals = useTranslatedSpeciesList(corals, 'coral')
+  const { query, setQuery, filtered: searchFiltered } = useSearch(translatedCorals, ['nomePopular', 'nomeCientifico', 'familia'])
 
   const filtered = activeFilter === 'all'
     ? searchFiltered

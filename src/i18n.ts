@@ -20,6 +20,8 @@ const namespaces = [
   'search',
   'about',
   'data-diseases',
+  'data-corals',
+  'data-plants',
 ]
 
 i18n

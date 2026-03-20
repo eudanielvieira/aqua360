@@ -8,6 +8,7 @@ import DetailRow from '../components/DetailRow'
 import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
+import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 import ExternalLinks from '../components/ExternalLinks'
 import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
 import FavoriteButton from '../components/FavoriteButton'
@@ -38,6 +39,8 @@ export default function CoralDetailPage() {
     })
   }, [id])
 
+  const translated = useTranslatedSpecies(coral, 'coral')
+
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
@@ -62,7 +65,7 @@ export default function CoralDetailPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <div className="flex items-start justify-between">
-        <PageHeader title={coral.nomePopular} backTo="/corais" />
+        <PageHeader title={translated?.nomePopular || coral.nomePopular} backTo="/corais" />
         <FavoriteButton id={coral.id} type="coral" />
       </div>
 
@@ -93,7 +96,7 @@ export default function CoralDetailPage() {
             </div>
             <div>
               <span className="text-xs font-bold text-white/70 uppercase tracking-wider">{t(config.labelKey)}</span>
-              <h2 className="text-xl font-bold text-white">{coral.nomePopular}</h2>
+              <h2 className="text-xl font-bold text-white">{translated?.nomePopular || coral.nomePopular}</h2>
               <p className="text-sm text-white/70 italic mt-0.5">{coral.nomeCientifico}</p>
             </div>
           </div>
@@ -111,24 +114,24 @@ export default function CoralDetailPage() {
             <div className="mb-6 pb-6 border-b border-border/60">
               <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.parameters')}</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-                <ParamCard icon="Sun" label={t('common:param.lighting')} value={coral.iluminacao} />
-                <ParamCard icon="Waves" label={t('common:param.waterFlow')} value={coral.fluxoAgua} />
-                <ParamCard icon="Signal" label={t('common:param.difficulty')} value={coral.dificuldade} />
-                <ParamCard icon="TrendingUp" label={t('common:param.growth')} value={coral.crescimento} />
-                <ParamCard icon="Palette" label={t('common:param.coloring')} value={coral.coloracao} />
-                <ParamCard icon="Users" label={t('common:param.compatibility')} value={coral.compatibilidade} />
+                <ParamCard icon="Sun" label={t('common:param.lighting')} value={translated?.iluminacao || coral.iluminacao} />
+                <ParamCard icon="Waves" label={t('common:param.waterFlow')} value={translated?.fluxoAgua || coral.fluxoAgua} />
+                <ParamCard icon="Signal" label={t('common:param.difficulty')} value={translated?.dificuldade || coral.dificuldade} />
+                <ParamCard icon="TrendingUp" label={t('common:param.growth')} value={translated?.crescimento || coral.crescimento} />
+                <ParamCard icon="Palette" label={t('common:param.coloring')} value={translated?.coloracao || coral.coloracao} />
+                <ParamCard icon="Users" label={t('common:param.compatibility')} value={translated?.compatibilidade || coral.compatibilidade} />
               </div>
             </div>
           )}
 
           <dl>
-            <DetailRow label={t('corals:detail.description')} value={coral.descricao} />
-            <DetailRow label={t('common:detail.label.popularName')} value={coral.nomePopular} />
+            <DetailRow label={t('corals:detail.description')} value={translated?.descricao || coral.descricao} />
+            <DetailRow label={t('common:detail.label.popularName')} value={translated?.nomePopular || coral.nomePopular} />
             <DetailRow label={t('common:detail.label.scientificName')} value={coral.nomeCientifico} />
-            <DetailRow label={t('common:detail.label.otherNames')} value={coral.outrosNome} />
+            <DetailRow label={t('common:detail.label.otherNames')} value={translated?.outrosNome || coral.outrosNome} />
             <DetailRow label={t('common:detail.label.family')} value={coral.familia} />
-            <DetailRow label={t('common:detail.label.origin')} value={coral.origem} />
-            <DetailRow label={t('corals:detail.feeding')} value={coral.alimentacao} />
+            <DetailRow label={t('common:detail.label.origin')} value={translated?.origem || coral.origem} />
+            <DetailRow label={t('corals:detail.feeding')} value={translated?.alimentacao || coral.alimentacao} />
           </dl>
 
           {enrichment?.inatPhotoUrls && enrichment.inatPhotoUrls.length > 1 && (
