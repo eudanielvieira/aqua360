@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { loadFishByType } from '../data/fish-index'
 import type { Fish } from '../types'
 import FallbackImage from '../components/FallbackImage'
+import { isNormalized } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
 import ParamCard from '../components/ParamCard'
@@ -66,7 +67,17 @@ export default function FishDetailPage() {
       </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
-        <div className="w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-surface-alt relative">
+        {/*
+          A arte propria e quadrada e foi montada com o peixe inteiro
+          dentro do quadro, entao o hero acompanha a proporcao dela. As
+          fotos do Wikipedia e do iNaturalist sao paisagem e continuam na
+          faixa larga, que e onde elas ficam bem.
+        */}
+        <div
+          className={`w-full overflow-hidden bg-surface-alt relative ${
+            isNormalized(fish.imagem) ? 'aspect-square' : 'h-64 sm:h-80 md:h-96'
+          }`}
+        >
           <FallbackImage
             localImage={fish.imagem}
             inatPhotos={enrichment?.inatPhotoUrls}

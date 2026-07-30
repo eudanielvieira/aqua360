@@ -20,6 +20,9 @@ scripts/.names-cache.json
 # tratados em public/images. Nao sao publicados nem versionados.
 source-images
 
+# Capturas de tela do Playwright MCP
+.playwright-mcp
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

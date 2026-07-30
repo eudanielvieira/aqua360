@@ -137,14 +137,28 @@ async function normalize(fileName: string, outDir: string) {
   const input = await sharp(join(SRC_DIR, fileName)).toBuffer()
   const bg = await detectBackground(input)
 
-  const fitted = await sharp(input)
-    .resize(SIZE, SIZE, {
-      fit: 'contain',
-      background: bg,
-      kernel: 'lanczos3',
-      withoutEnlargement: false,
-    })
+  // A ilustracao inteira entra no quadrado; nada de corte.
+  const dentro = await sharp(input)
+    .resize(SIZE, SIZE, { fit: 'inside', kernel: 'lanczos3', withoutEnlargement: false })
     .flatten({ background: bg })
+    .toBuffer()
+
+  const { width = SIZE, height = SIZE } = await sharp(dentro).metadata()
+  const sobraX = SIZE - width
+  const sobraY = SIZE - height
+
+  // A sobra e preenchida replicando a linha e a coluna da borda, em vez
+  // de uma cor chapada. O fundo dessas ilustracoes tem um degrade leve,
+  // entao qualquer cor unica cria uma emenda visivel no tamanho grande;
+  // a replicacao acompanha o degrade linha a linha e some.
+  const fitted = await sharp(dentro)
+    .extend({
+      left: Math.floor(sobraX / 2),
+      right: Math.ceil(sobraX / 2),
+      top: Math.floor(sobraY / 2),
+      bottom: Math.ceil(sobraY / 2),
+      extendWith: 'copy',
+    })
     .toBuffer()
 
   const output = join(outDir, `${slug}.jpg`)

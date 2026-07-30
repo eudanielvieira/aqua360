@@ -12,8 +12,12 @@ export function getImageUrl(imageName: string): string {
  * Essas sao arte propria e ficam na frente das fotos do Wikipedia e do
  * iNaturalist. O restante de public/images ainda e o arquivo antigo de
  * 180x135, que perde para a foto remota e por isso continua no fim.
+ *
+ * Tambem serve para o layout saber que a imagem e quadrada: onde o
+ * espaco e uma faixa larga, a arte precisa de um recorte proprio para
+ * nao entrar cortada.
  */
-function isNormalized(imageName: string): boolean {
+export function isNormalized(imageName: string): boolean {
   if (!imageName) return false
   return NORMALIZED_IMAGES.has(imageName.replace(/\.(jpg|jpeg|png)$/i, ''))
 }
