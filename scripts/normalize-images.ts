@@ -6,9 +6,14 @@
  * - saida em JPEG de alta qualidade em public/images
  *
  * Uso:
- *   bun run scripts/normalize-images.ts            processa tudo
- *   bun run scripts/normalize-images.ts --dry      so lista o que faria
- *   bun run scripts/normalize-images.ts <nome>     processa so um arquivo
+ *   bun run normalize-images            processa tudo
+ *   bun run normalize-images --dry      so lista o que faria
+ *   bun run normalize-images <nome>     processa so um arquivo
+ *
+ * O script roda em node, nao em bun, apesar de o projeto usar bun. O
+ * alocador do bun quebra com as chamadas nativas do sharp: derruba o
+ * processo com SIGTRAP no meio do lote ("pas panic: deallocation did
+ * fail"). Em node o mesmo codigo processa as 15 sem falha.
  */
 
 import sharp from 'sharp'
@@ -147,22 +152,65 @@ async function normalize(fileName: string, outDir: string) {
   const sobraX = SIZE - width
   const sobraY = SIZE - height
 
-  // A sobra e preenchida replicando a linha e a coluna da borda, em vez
-  // de uma cor chapada. O fundo dessas ilustracoes tem um degrade leve,
-  // entao qualquer cor unica cria uma emenda visivel no tamanho grande;
-  // a replicacao acompanha o degrade linha a linha e some.
-  const fitted = await sharp(dentro)
-    .extend({
-      left: Math.floor(sobraX / 2),
-      right: Math.ceil(sobraX / 2),
-      top: Math.floor(sobraY / 2),
-      bottom: Math.ceil(sobraY / 2),
-      extendWith: 'copy',
-    })
-    .toBuffer()
+  const esquerda = Math.floor(sobraX / 2)
+  const direita = sobraX - esquerda
+  const topo = Math.floor(sobraY / 2)
+  const rodape = sobraY - topo
+
+  /**
+   * Cor de uma borda da ilustracao ja redimensionada, pela mediana.
+   *
+   * Mediana e nao media porque o peixe encosta na borda em varias
+   * ilustracoes: a ponta da dorsal do Acara Bandeira cruza a linha de
+   * cima. A media puxaria o tom para o cinza da nadadeira, a mediana
+   * ignora, porque o fundo ocupa a maior parte da faixa.
+   *
+   * Uma cor por lado, e nao uma so para a imagem toda, para acompanhar
+   * o degrade entre o topo e a base do papel.
+   */
+  async function corDaBorda(recorte: { left: number; top: number; width: number; height: number }) {
+    const { data } = await sharp(dentro)
+      .extract(recorte)
+      .removeAlpha()
+      .raw()
+      .toBuffer({ resolveWithObject: true })
+
+    const mediana = (canal: number) => {
+      const valores: number[] = []
+      for (let i = canal; i < data.length; i += 3) valores.push(data[i])
+      valores.sort((a, b) => a - b)
+      return valores[Math.floor(valores.length / 2)]
+    }
+
+    return { r: mediana(0), g: mediana(1), b: mediana(2) }
+  }
+
+  // Cada lado e estendido no seu proprio passo porque o extend do sharp
+  // aceita uma cor so por chamada, e aqui cada borda tem a sua.
+  const tira = 16
+  let composta = dentro
+
+  if (topo > 0) {
+    const cor = await corDaBorda({ left: 0, top: 0, width, height: Math.min(tira, height) })
+    composta = await sharp(composta).extend({ top: topo, background: cor }).toBuffer()
+  }
+  if (rodape > 0) {
+    const alto = Math.min(tira, height)
+    const cor = await corDaBorda({ left: 0, top: height - alto, width, height: alto })
+    composta = await sharp(composta).extend({ bottom: rodape, background: cor }).toBuffer()
+  }
+  if (esquerda > 0) {
+    const cor = await corDaBorda({ left: 0, top: 0, width: Math.min(tira, width), height })
+    composta = await sharp(composta).extend({ left: esquerda, background: cor }).toBuffer()
+  }
+  if (direita > 0) {
+    const largo = Math.min(tira, width)
+    const cor = await corDaBorda({ left: width - largo, top: 0, width: largo, height })
+    composta = await sharp(composta).extend({ right: direita, background: cor }).toBuffer()
+  }
 
   const output = join(outDir, `${slug}.jpg`)
-  await sharp(fitted)
+  await sharp(composta)
     .composite([{ input: Buffer.from(watermarkTile()), top: 0, left: 0 }])
     .jpeg({ quality: JPEG_QUALITY, chromaSubsampling: '4:4:4', mozjpeg: true })
     .toFile(output)

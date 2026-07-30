@@ -7,7 +7,6 @@ import FallbackImage from '../components/FallbackImage'
 import { isNormalized } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
-import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
@@ -26,13 +25,32 @@ const DistributionMap = lazy(() => import('../components/DistributionMap'))
  * longo la de baixo, com titulo em cima e separador, e ocuparia altura
  * demais na coluna ao lado da imagem.
  */
-function FactRow({ label, value }: { label: string; value?: string }) {
+function FactRow({
+  label,
+  value,
+  clamp = false,
+}: {
+  label: string
+  value?: string
+  /**
+   * Corta o valor em duas linhas. Usado nos parametros, onde alguns
+   * registros trazem um paragrafo no lugar do valor e estouram a tabela:
+   * o tamanho adulto da Arraia Leopoldi rende dez linhas. O texto
+   * completo continua acessivel no title.
+   */
+  clamp?: boolean
+}) {
   if (!value || value.trim() === '') return null
 
   return (
-    <div className="flex gap-2 text-sm">
-      <dt className="text-text-secondary shrink-0">{label}:</dt>
-      <dd className="text-text font-medium min-w-0">{value}</dd>
+    <div className="flex gap-3 py-1.5 text-sm border-b border-border/40 last:border-0">
+      <dt className="text-text-secondary w-32 shrink-0">{label}</dt>
+      <dd
+        className={`text-text font-medium min-w-0 flex-1 ${clamp ? 'line-clamp-2' : ''}`}
+        title={clamp ? value : undefined}
+      >
+        {value}
+      </dd>
     </div>
   )
 }
@@ -99,8 +117,8 @@ export default function FishDetailPage() {
               paisagem e ficam numa moldura mais baixa.
             */}
             <div
-              className={`shrink-0 overflow-hidden rounded-2xl bg-surface-alt w-full sm:w-[22rem] sm:mx-auto md:mx-0 md:w-64 ${
-                isNormalized(fish.imagem) ? 'aspect-square' : 'h-56 sm:h-64 md:h-48'
+              className={`shrink-0 overflow-hidden rounded-2xl bg-surface-alt w-full sm:w-[22rem] sm:mx-auto md:mx-0 md:w-[22.5rem] ${
+                isNormalized(fish.imagem) ? 'aspect-square' : 'h-56 sm:h-64 md:h-64'
               }`}
             >
               <FallbackImage
@@ -131,17 +149,23 @@ export default function FishDetailPage() {
                 />
               </div>
 
+              {/*
+                Os parametros sao linhas de tabela, nao cartoes: seis
+                cartoes ocupavam altura demais ao lado da imagem e
+                dominavam a ficha. Em tabela a coluna encolhe pela metade
+                e as duas alturas se aproximam sem truque de layout.
+              */}
               {hasParams && (
                 <div className="mt-5">
-                  <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.parameters')}</h3>
-                  <div className="grid grid-cols-2 gap-2.5">
-                    <ParamCard icon="Droplets" label="pH" value={fish.ph} wrap />
-                    <ParamCard icon="Gauge" label="GH" value={fish.gh} wrap />
-                    <ParamCard icon="Gauge" label="KH" value={fish.kh} wrap />
-                    <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={fish.temperatura} wrap />
-                    <ParamCard icon="Ruler" label={t('common:param.adultSize')} value={fish.tamanhoAdulto} wrap />
-                    <ParamCard icon="Layers" label={t('common:param.position')} value={f.posicaoAquario} wrap />
-                  </div>
+                  <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-1">{t('common:detail.parameters')}</h3>
+                  <dl>
+                    <FactRow label="pH" value={fish.ph} clamp />
+                    <FactRow label="GH" value={fish.gh} clamp />
+                    <FactRow label="KH" value={fish.kh} clamp />
+                    <FactRow label={t('common:param.temperature')} value={fish.temperatura} clamp />
+                    <FactRow label={t('common:param.adultSize')} value={fish.tamanhoAdulto} clamp />
+                    <FactRow label={t('common:param.position')} value={f.posicaoAquario} clamp />
+                  </dl>
                 </div>
               )}
             </div>

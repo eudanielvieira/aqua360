@@ -11,7 +11,7 @@
     "parse-data": "bun run scripts/parse-sql-data.ts",
     "enrich": "bun run scripts/enrich-data.ts",
     "translate-fish": "bun run scripts/translate-fish.ts",
-    "normalize-images": "bun run scripts/normalize-images.ts"
+    "normalize-images": "node scripts/normalize-images.ts"
   },
   "dependencies": {
     "i18next": "^25.8.19",
