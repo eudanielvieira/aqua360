@@ -98,12 +98,22 @@ export default function FishDetailPage() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <SEO title={f.nomePopular} description={`${f.nomePopular} (${fish.nomeCientifico}) - pH ${fish.ph}, ${fish.temperatura}. ${f.comportamento?.slice(0, 100)}`} />
       <div className="flex items-start justify-between">
-        <PageHeader title={f.nomePopular} backTo={`/peixes/${slug}`} />
+        <PageHeader backTo={`/peixes/${slug}`} />
         <FavoriteButton id={fish.id} type="fish" slug={slug} />
       </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         <div className="p-6 sm:p-8">
+          {/*
+            Os dois nomes abrem a ficha, acima da imagem e da tabela. O
+            popular e o titulo da pagina e leva o peso; o cientifico vem
+            logo abaixo, menor e em italico, como identificacao.
+          */}
+          <header className="mb-6 pb-5 border-b border-border/60">
+            <h1 className="text-3xl font-extrabold text-text tracking-tight leading-tight">{f.nomePopular}</h1>
+            <p className="mt-1 text-lg italic text-text-secondary">{fish.nomeCientifico}</p>
+          </header>
+
           {/*
             Ficha no formato de infobox: a imagem de um lado e a
             identificacao da especie do outro. Empilha no mobile, onde
@@ -131,9 +141,7 @@ export default function FishDetailPage() {
             </div>
 
             <div className="min-w-0 flex-1">
-              <p className="text-lg italic text-text-secondary leading-snug">{fish.nomeCientifico}</p>
-
-              <dl className="mt-3 space-y-2">
+              <dl>
                 <FactRow label={t('common:detail.label.otherNames')} value={f.outrosNome} />
                 <FactRow label={t('common:detail.label.family')} value={fish.familia} />
                 <FactRow label={t('common:detail.label.origin')} value={f.origem} />
