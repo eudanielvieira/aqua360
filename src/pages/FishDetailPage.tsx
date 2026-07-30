@@ -19,6 +19,24 @@ import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
 
+/**
+ * Linha curta da ficha (outros nomes, familia, origem).
+ *
+ * O DetailRow nao serve aqui: ele foi feito para os blocos de texto
+ * longo la de baixo, com titulo em cima e separador, e ocuparia altura
+ * demais na coluna ao lado da imagem.
+ */
+function FactRow({ label, value }: { label: string; value?: string }) {
+  if (!value || value.trim() === '') return null
+
+  return (
+    <div className="flex gap-2 text-sm">
+      <dt className="text-text-secondary shrink-0">{label}:</dt>
+      <dd className="text-text font-medium min-w-0">{value}</dd>
+    </div>
+  )
+}
+
 export default function FishDetailPage() {
   const { t } = useTranslation(['fish', 'common'])
   const { slug, id } = useParams<{ slug: string; id: string }>()
@@ -67,45 +85,66 @@ export default function FishDetailPage() {
       </div>
 
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
-        {/*
-          A arte propria e quadrada e foi montada com o peixe inteiro
-          dentro do quadro, entao o hero acompanha a proporcao dela em vez
-          de cortar. No mobile ele ocupa a largura toda; do sm pra cima
-          fica num quadro menor centralizado, senao um quadrado de 736px
-          tomaria a tela inteira e empurraria a ficha pra baixo.
-
-          As fotos do Wikipedia e do iNaturalist sao paisagem e continuam
-          na faixa larga, que e onde elas ficam bem.
-        */}
-        <div
-          className={`overflow-hidden bg-surface-alt relative ${
-            isNormalized(fish.imagem)
-              ? 'w-full aspect-square sm:w-[26rem] sm:max-w-full sm:mx-auto sm:my-6 sm:rounded-2xl'
-              : 'w-full h-64 sm:h-80 md:h-96'
-          }`}
-        >
-          <FallbackImage
-            localImage={fish.imagem}
-            inatPhotos={enrichment?.inatPhotoUrls}
-            wikiPhoto={enrichment?.wikiPhotoUrl}
-            alt={f.nomePopular}
-            className="w-full h-full"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-          <div className="absolute bottom-4 left-5 right-5">
-            <p className="text-white/80 text-sm italic drop-shadow-lg">{fish.nomeCientifico}</p>
-          </div>
-        </div>
-
         <div className="p-6 sm:p-8">
-          <div className="mb-5 pb-5 border-b border-border/60">
-            <SpeciesBadges
-              comportamento={f.comportamento}
-              alimentacao={f.alimentacao}
-              tipo={fish.tipo}
-              outrasInformacoes={f.outrasInformacoes}
-              caracteristica={f.caracteristica}
-            />
+          {/*
+            Ficha no formato de infobox: a imagem de um lado e a
+            identificacao da especie do outro. Empilha no mobile, onde
+            nao ha largura para duas colunas.
+          */}
+          <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-7 mb-6 pb-6 border-b border-border/60">
+            {/*
+              A arte propria e quadrada e foi montada com o peixe inteiro
+              dentro do quadro, entao o quadro acompanha a proporcao dela
+              em vez de cortar. As fotos do Wikipedia e do iNaturalist sao
+              paisagem e ficam numa moldura mais baixa.
+            */}
+            <div
+              className={`shrink-0 overflow-hidden rounded-2xl bg-surface-alt w-full sm:w-[22rem] sm:mx-auto md:mx-0 md:w-64 ${
+                isNormalized(fish.imagem) ? 'aspect-square' : 'h-56 sm:h-64 md:h-48'
+              }`}
+            >
+              <FallbackImage
+                localImage={fish.imagem}
+                inatPhotos={enrichment?.inatPhotoUrls}
+                wikiPhoto={enrichment?.wikiPhotoUrl}
+                alt={f.nomePopular}
+                className="w-full h-full"
+              />
+            </div>
+
+            <div className="min-w-0 flex-1">
+              <p className="text-lg italic text-text-secondary leading-snug">{fish.nomeCientifico}</p>
+
+              <dl className="mt-3 space-y-2">
+                <FactRow label={t('common:detail.label.otherNames')} value={f.outrosNome} />
+                <FactRow label={t('common:detail.label.family')} value={fish.familia} />
+                <FactRow label={t('common:detail.label.origin')} value={f.origem} />
+              </dl>
+
+              <div className="mt-4">
+                <SpeciesBadges
+                  comportamento={f.comportamento}
+                  alimentacao={f.alimentacao}
+                  tipo={fish.tipo}
+                  outrasInformacoes={f.outrasInformacoes}
+                  caracteristica={f.caracteristica}
+                />
+              </div>
+
+              {hasParams && (
+                <div className="mt-5">
+                  <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.parameters')}</h3>
+                  <div className="grid grid-cols-2 gap-2.5">
+                    <ParamCard icon="Droplets" label="pH" value={fish.ph} wrap />
+                    <ParamCard icon="Gauge" label="GH" value={fish.gh} wrap />
+                    <ParamCard icon="Gauge" label="KH" value={fish.kh} wrap />
+                    <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={fish.temperatura} wrap />
+                    <ParamCard icon="Ruler" label={t('common:param.adultSize')} value={fish.tamanhoAdulto} wrap />
+                    <ParamCard icon="Layers" label={t('common:param.position')} value={f.posicaoAquario} wrap />
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           {enrichment?.taxonomia && (
@@ -115,26 +154,8 @@ export default function FishDetailPage() {
             </div>
           )}
 
-          {hasParams && (
-            <div className="mb-6 pb-6 border-b border-border/60">
-              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.parameters')}</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-                <ParamCard icon="Droplets" label="pH" value={fish.ph} />
-                <ParamCard icon="Gauge" label="GH" value={fish.gh} />
-                <ParamCard icon="Gauge" label="KH" value={fish.kh} />
-                <ParamCard icon="Thermometer" label={t('common:param.temperature')} value={fish.temperatura} />
-                <ParamCard icon="Ruler" label={t('common:param.adultSize')} value={fish.tamanhoAdulto} />
-                <ParamCard icon="Layers" label={t('common:param.position')} value={f.posicaoAquario} />
-              </div>
-            </div>
-          )}
-
+          {/* Nome, familia e origem sobem para a ficha, entao aqui ficam so os textos longos. */}
           <dl>
-            <DetailRow label={t('common:detail.label.popularName')} value={f.nomePopular} />
-            <DetailRow label={t('common:detail.label.scientificName')} value={fish.nomeCientifico} />
-            <DetailRow label={t('common:detail.label.otherNames')} value={f.outrosNome} />
-            <DetailRow label={t('common:detail.label.family')} value={fish.familia} />
-            <DetailRow label={t('common:detail.label.origin')} value={f.origem} />
             <DetailRow label={t('fish:detail.characteristics')} value={f.caracteristica} />
             <DetailRow label={t('fish:detail.behavior')} value={f.comportamento} />
             <DetailRow label={t('fish:detail.feeding')} value={f.alimentacao} />
