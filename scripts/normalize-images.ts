@@ -12,7 +12,7 @@
  */
 
 import sharp from 'sharp'
-import { readdir, mkdir } from 'node:fs/promises'
+import { readdir, mkdir, readFile, writeFile } from 'node:fs/promises'
 import { existsSync, statSync } from 'node:fs'
 import { join, basename, extname, resolve } from 'node:path'
 
@@ -21,6 +21,7 @@ const ROOT = resolve(import.meta.dirname, '..')
 // copiada inteira para dist/ pelo Vite, e os originais nao vao para a web.
 const SRC_DIR = join(ROOT, 'source-images')
 const DEFAULT_OUT_DIR = join(ROOT, 'public/images')
+const MANIFEST = join(ROOT, 'src/data/normalized-images.ts')
 
 const SIZE = 760
 const JPEG_QUALITY = 92
@@ -155,6 +156,39 @@ async function normalize(fileName: string, outDir: string) {
   return { slug, output, bg }
 }
 
+/**
+ * Regrava src/data/normalized-images.ts com os slugs ja tratados.
+ *
+ * O app usa essa lista para colocar a imagem local na frente das fotos
+ * do Wikipedia e do iNaturalist. Sem ela, a arte normalizada nunca
+ * apareceria, porque as fotos remotas vem primeiro para as centenas de
+ * especies que ainda usam os arquivos antigos de 180x135.
+ *
+ * A lista e a uniao com o que ja estava la, para que rodar o script em
+ * um subconjunto de imagens nao derrube as normalizadas anteriores.
+ */
+async function updateManifest(slugs: string[]) {
+  const anteriores = existsSync(MANIFEST)
+    ? [...(await readFile(MANIFEST, 'utf8')).matchAll(/^\s*'([^']+)',$/gm)].map(m => m[1])
+    : []
+
+  const todos = [...new Set([...anteriores, ...slugs])].sort()
+
+  const conteudo = `// Gerado por scripts/normalize-images.ts. Nao editar a mao.
+//
+// Imagens ja normalizadas em 760x760 com a marca dagua do Aqua360.
+// Sao a arte oficial do projeto, entao tem prioridade sobre as fotos
+// remotas em src/utils/image.ts. Os demais arquivos de public/images
+// continuam sendo os antigos de 180x135 e seguem como ultimo recurso.
+export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
+${todos.map(s => `  '${s}',`).join('\n')}
+])
+`
+
+  await writeFile(MANIFEST, conteudo)
+  return todos.length
+}
+
 async function main() {
   const args = process.argv.slice(2)
   const dryRun = args.includes('--dry')
@@ -176,6 +210,8 @@ async function main() {
     process.exit(1)
   }
 
+  const processados: string[] = []
+
   for (const file of files) {
     if (dryRun) {
       const existe = existsSync(join(outDir, `${toSlug(file)}.jpg`))
@@ -184,12 +220,20 @@ async function main() {
     }
     const { slug, bg } = await normalize(file, outDir)
     const { size } = statSync(join(outDir, `${slug}.jpg`))
+    processados.push(slug)
     console.log(
       `${slug}.jpg  ${SIZE}x${SIZE}  ${(size / 1024).toFixed(0)} KB  fundo rgb(${bg.r},${bg.g},${bg.b})`
     )
   }
 
   console.log(`\n${files.length} imagem(ns) ${dryRun ? 'a processar' : 'processada(s)'}.`)
+
+  // So atualiza o manifesto quando a saida e a pasta real do app: uma
+  // amostra em diretorio temporario nao deve mudar o que o site usa.
+  if (!dryRun && outDir === DEFAULT_OUT_DIR) {
+    const total = await updateManifest(processados)
+    console.log(`Manifesto src/data/normalized-images.ts: ${total} slug(s).`)
+  }
 }
 
 main()

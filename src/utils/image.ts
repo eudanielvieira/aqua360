@@ -1,7 +1,21 @@
+import { NORMALIZED_IMAGES } from '../data/normalized-images'
+
 export function getImageUrl(imageName: string): string {
   if (!imageName) return ''
   const name = imageName.replace(/\.(jpg|jpeg|png)$/i, '')
   return `/images/${name}.jpg`
+}
+
+/**
+ * Imagem ja tratada em 760x760 com a marca dagua do Aqua360.
+ *
+ * Essas sao arte propria e ficam na frente das fotos do Wikipedia e do
+ * iNaturalist. O restante de public/images ainda e o arquivo antigo de
+ * 180x135, que perde para a foto remota e por isso continua no fim.
+ */
+function isNormalized(imageName: string): boolean {
+  if (!imageName) return false
+  return NORMALIZED_IMAGES.has(imageName.replace(/\.(jpg|jpeg|png)$/i, ''))
 }
 
 export function getAllImages(
@@ -10,13 +24,14 @@ export function getAllImages(
   wikiPhoto?: string,
 ): string[] {
   const urls: string[] = []
-  if (wikiPhoto) urls.push(wikiPhoto)
+  const local = getImageUrl(localImage)
+  if (local && isNormalized(localImage)) urls.push(local)
+  if (wikiPhoto && !urls.includes(wikiPhoto)) urls.push(wikiPhoto)
   if (inatPhotos) {
     for (const url of inatPhotos) {
       if (url && !urls.includes(url)) urls.push(url)
     }
   }
-  const local = getImageUrl(localImage)
   if (local && !urls.includes(local)) urls.push(local)
   return urls
 }
@@ -27,7 +42,12 @@ export function getAllThumbnails(
   wikiPhoto?: string,
 ): string[] {
   const urls: string[] = []
-  if (wikiPhoto) urls.push(wikiPhoto.replace(/\/\d+px-/, '/300px-'))
+  const local = getImageUrl(localImage)
+  if (local && isNormalized(localImage)) urls.push(local)
+  if (wikiPhoto) {
+    const thumb = wikiPhoto.replace(/\/\d+px-/, '/300px-')
+    if (!urls.includes(thumb)) urls.push(thumb)
+  }
   if (inatPhotos) {
     for (const url of inatPhotos) {
       if (!url) continue
@@ -35,7 +55,6 @@ export function getAllThumbnails(
       if (!urls.includes(thumb)) urls.push(thumb)
     }
   }
-  const local = getImageUrl(localImage)
   if (local && !urls.includes(local)) urls.push(local)
   return urls
 }
