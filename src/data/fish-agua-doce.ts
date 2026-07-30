@@ -8611,7 +8611,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Cichlidae",
     "gh": "",
-    "imagem": "",
+    "imagem": "pterophyllumscalarekoi",
     "kh": "",
     "nomeCientifico": "Pterophyllum scalare var. koi",
     "nomePopular": "Acará Bandeira Koi",

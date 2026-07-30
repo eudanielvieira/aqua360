@@ -180,13 +180,18 @@ async function normalize(fileName: string, outDir: string) {
  *
  * A lista e a uniao com o que ja estava la, para que rodar o script em
  * um subconjunto de imagens nao derrube as normalizadas anteriores.
+ * Slugs sem arquivo correspondente saem: assim um nome errado que tenha
+ * entrado na lista se resolve apagando o .jpg e rodando de novo, sem
+ * precisar editar o manifesto a mao.
  */
-async function updateManifest(slugs: string[]) {
+async function updateManifest(slugs: string[], outDir: string) {
   const anteriores = existsSync(MANIFEST)
     ? [...(await readFile(MANIFEST, 'utf8')).matchAll(/^\s*'([^']+)',$/gm)].map(m => m[1])
     : []
 
-  const todos = [...new Set([...anteriores, ...slugs])].sort()
+  const todos = [...new Set([...anteriores, ...slugs])]
+    .filter(s => existsSync(join(outDir, `${s}.jpg`)))
+    .sort()
 
   const conteudo = `// Gerado por scripts/normalize-images.ts. Nao editar a mao.
 //
@@ -208,7 +213,11 @@ async function main() {
   const dryRun = args.includes('--dry')
   const outFlag = args.indexOf('--out')
   const outDir = outFlag >= 0 ? resolve(args[outFlag + 1]) : DEFAULT_OUT_DIR
-  const only = args.filter((a, i) => !a.startsWith('--') && i !== outFlag + 1)
+  // O indice do valor de --out so existe quando a flag existe. Sem essa
+  // guarda, outFlag vale -1 e o teste descarta o argumento 0, que e
+  // justamente o filtro por nome quando se pede uma imagem so.
+  const valorDoOut = outFlag >= 0 ? outFlag + 1 : -1
+  const only = args.filter((a, i) => !a.startsWith('--') && i !== valorDoOut)
 
   if (!existsSync(SRC_DIR)) {
     console.error(`Pasta de origem nao encontrada: ${SRC_DIR}`)
@@ -245,7 +254,7 @@ async function main() {
   // So atualiza o manifesto quando a saida e a pasta real do app: uma
   // amostra em diretorio temporario nao deve mudar o que o site usa.
   if (!dryRun && outDir === DEFAULT_OUT_DIR) {
-    const total = await updateManifest(processados)
+    const total = await updateManifest(processados, outDir)
     console.log(`Manifesto src/data/normalized-images.ts: ${total} slug(s).`)
   }
 }
