@@ -13,6 +13,7 @@ export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
   'carassiusauratusauratus',
   'epiplatysannulatus',
   'herosseverus',
+  'iriatherinawerneri',
   'melanotaeniapraecox',
   'mesonautafestivum',
   'mikrogeophagusaltispinosus',
