@@ -69,13 +69,19 @@ export default function FishDetailPage() {
       <div className="bg-card rounded-3xl shadow-lg shadow-black/5 overflow-hidden">
         {/*
           A arte propria e quadrada e foi montada com o peixe inteiro
-          dentro do quadro, entao o hero acompanha a proporcao dela. As
-          fotos do Wikipedia e do iNaturalist sao paisagem e continuam na
-          faixa larga, que e onde elas ficam bem.
+          dentro do quadro, entao o hero acompanha a proporcao dela em vez
+          de cortar. No mobile ele ocupa a largura toda; do sm pra cima
+          fica num quadro menor centralizado, senao um quadrado de 736px
+          tomaria a tela inteira e empurraria a ficha pra baixo.
+
+          As fotos do Wikipedia e do iNaturalist sao paisagem e continuam
+          na faixa larga, que e onde elas ficam bem.
         */}
         <div
-          className={`w-full overflow-hidden bg-surface-alt relative ${
-            isNormalized(fish.imagem) ? 'aspect-square' : 'h-64 sm:h-80 md:h-96'
+          className={`overflow-hidden bg-surface-alt relative ${
+            isNormalized(fish.imagem)
+              ? 'w-full aspect-square sm:w-[26rem] sm:max-w-full sm:mx-auto sm:my-6 sm:rounded-2xl'
+              : 'w-full h-64 sm:h-80 md:h-96'
           }`}
         >
           <FallbackImage
