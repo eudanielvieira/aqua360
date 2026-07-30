@@ -16,6 +16,10 @@ dist-ssr
 scripts/.enrichment-cache.json
 scripts/.names-cache.json
 
+# Originais das ilustracoes: entram no scripts/normalize-images.ts e saem
+# tratados em public/images. Nao sao publicados nem versionados.
+source-images
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

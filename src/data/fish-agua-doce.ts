@@ -7693,7 +7693,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Cichlidae",
     "gh": "",
-    "imagem": "",
+    "imagem": "herosseverus",
     "kh": "",
     "nomeCientifico": "Heros severus",
     "nomePopular": "Acara Severo",
