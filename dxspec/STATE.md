@@ -77,10 +77,11 @@ alwaysApply: true
 - [ ] **Aviso de divulgação de afiliado.** Não existe em nenhuma página. Com os cards de princípio
       removidos, a Sobre agora não fala nada sobre monetização. Decidir o lugar: card novo na Sobre,
       linha no rodapé ou página própria.
-- [ ] Normalizar o resto do acervo. 37 das 731 imagens em `public/images` estão tratadas; o restante
+- [ ] Normalizar o resto do acervo. 38 das 731 imagens em `public/images` estão tratadas; o restante
       ainda é o arquivo antigo de 180x135. O caminho é jogar os originais em `source-images/` e rodar
       `bun run normalize-images <nome>`, que já atualiza o manifesto sozinho. Na família Polypteridae
-      faltam o Bichir Tigre (130) e o Peixe-Corda (58); o id 251 não tem imagem nenhuma.
+      falta só o Peixe-Corda (58), com o Bichir Tigre fechado em 2026-07-31; o id 251 não tem imagem
+      nenhuma.
 - [ ] Decidir o que fazer com o slug `symphysodonauequifasciatus`, que tem um typo ("auequi") vindo do
       dado antigo. Renomear exige mexer no arquivo e no campo `imagem` do Acará Disco ao mesmo tempo.
 - [ ] **`FishCategoryPage` ordena o array do módulo de dados no lugar** (`data.sort(...)`, sem cópia),
