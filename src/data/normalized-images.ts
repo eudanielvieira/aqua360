@@ -24,5 +24,6 @@ export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
   'pterophyllumscalare',
   'pterophyllumscalarekoi',
   'puntiustetrazona',
+  'puntiustitteya',
   'symphysodonauequifasciatus',
 ])
