@@ -37,3 +37,22 @@ ficam disponiveis sob demanda, sem custo de carga.
   copia `public/` inteiro para `dist/`. Ignorados no git e no `.vercelignore`.
 - **Proximo:** publicar os 3 commits e processar o próximo lote de ilustrações em `source-images/`.
 - **Detalhe:** commits `a9f621c`, `d09870f`, `9d58684`.
+
+## 2026-07-31 - board - acervo em 33 ilustracoes, ficha em infobox e duas fusoes
+**Quem:** Daniel Vieira (agente)
+- O acervo tratado foi de 14 para 33 ilustrações, entre elas os três Apistogramma, os barbos, as duas
+  arraias, o Aruanã e o Auratus. O preenchimento das sobras mudou duas vezes até acertar: replicação
+  de borda criava estria vertical, tira desfocada espalhava o peixe encostado na borda, e a solução
+  foi cor chapada por lado tirada pela mediana. Emenda de no máximo 2 em 255 nas 33.
+- A ficha da página de peixe virou infobox: nomes no topo com hierarquia, imagem à esquerda e tabela
+  compacta à direita, no lugar dos seis cards que dominavam a tela.
+- Duas espécies estavam duplicadas e foram fundidas, ambas pelo mesmo motivo (sinônimo antigo
+  convivendo com o nome aceito): Barbo Denison (148 sobrevive, 222 removido) e Barbo Sumatra /
+  Barbo Tigre (151 sobrevive, 221 removido). Água doce foi de 247 para 245 registros.
+- Descoberto um bug de i18n que atinge 74 espécies: a tradução é indexada só pelo id e água doce e
+  salgada têm numeração própria, então em EN/ES/JA essas fichas servem conteúdo de peixe trocado.
+- Correção de rumo: durante a sessão inteira eu relatei "deploy pendente, commits só no local". Estava
+  errado. O reflog de `origin/main` mostra `update by push` logo após cada commit, 64 no total, e
+  `HEAD` está igual a `origin/main`. Tudo já foi publicado.
+- **Proximo:** decidir se migra o chaveamento das traduções para acabar com as 74 colisões.
+- **Detalhe:** de `5a49be7` a `dbfa570`, 18 commits.
