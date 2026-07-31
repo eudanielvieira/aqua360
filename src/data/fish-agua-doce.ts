@@ -6137,22 +6137,23 @@ const data: Fish[] = [
     "gh": "5 a 25",
     "imagem": "puntiusdenisonii",
     "kh": "",
-    "nomeCientifico": "Puntius denisonii",
-    "nomePopular": "Barbo Denisoni",
-    "origem": "Ásia, Índia",
-    "outrasInformacoes": "Tamanho mínimo do aquário: 200 litros, com no mínimo 100 cm de comprimento e 40 cm de largura. Assim como a maioria dos outros Barbos, é um peixe muito rápido e ativo e pode comer pedaços das plantas mais tenras do aquário se sua dieta não tiver alimentos vegetais o suficiente. Deve ser mantido em aquário com correnteza média e com peixes igualmente rápidos e ativos.",
-    "outrosNome": "Barbo Denisoni/ Red Line Barb / Torpedo Barb",
-    "ph": "6.8 a 7.8",
+    "nomeCientifico": "Sahyadria denisonii",
+    "nomePopular": "Barbo Denison",
+    "origem": "Índia, endêmico dos estados de Kerala e Karnataka",
+    "outrasInformacoes": "Aquário com base de pelo menos 120 x 45 cm, algo em torno de 200 litros. Assim como a maioria dos outros Barbos, é um peixe muito rápido e ativo e pode comer pedaços das plantas mais tenras do aquário se sua dieta não tiver alimentos vegetais o suficiente. Deve ser mantido em aquário com correnteza média e com peixes igualmente rápidos e ativos. Está classificado como Em Perigo (EN) na Lista Vermelha da IUCN, por causa da coleta intensa para o aquarismo, então prefira exemplares de criação.",
+    "outrosNome": "Barbo Denisoni, Red Line Barb, Torpedo Barb, Roseline Shark",
+    "ph": "6.5 a 7.8",
     "posicaoAquario": "Todo o Aquário",
     "reproducao": "Ovíparo, são considerados disseminadores livres, pois a fêmea libera seus ovos na água e o macho nada em volta fertilizando-os. Os ovos eclodem mais rapidamente quando mantidos em temperatura mais alta e após dois ou três dias da eclosão os alevinos já consumiram o conteúdo do saco vitelínico e começam a nadar. Não ocorre o cuidado parental entre os peixes desta espécie, a partir do momento em que os filhotes apresentam nado livre pode-se oferecer rações específicas para alevinos de ovíparos e alimentos vivos como infusórios, micro-vermes, náuplios de artêmia, conforme os filhotes forem crescendo alimentos vivos de maior porte podem ser oferecidos. Recomenda-se usar filtro interno de espuma ou então colocar perlon na entrada de água do filtro externo para evitar sugar os filhotes, quando em aquários próprios para reprodução.",
-    "tamanhoAdulto": "15 cm",
-    "temperatura": "18 a 24 ºC",
+    "tamanhoAdulto": "9 a 11 cm",
+    "temperatura": "15 a 25 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "gbifTaxonKey": 2363913,
+      "gbifTaxonKey": 8395052,
       "wormsAphiaId": 1533238,
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Puntius_denisonii_1.jpg/800px-Puntius_denisonii_1.jpg",
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9136,49 +9137,6 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/287818884/medium.jpeg"
       ],
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tiger_barb_fish.jpg/800px-Tiger_barb_fish.jpg"
-    }
-  },
-  {
-    "id": 222,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "Pacífico, ativo, cardume",
-    "diformismoSexual": "",
-    "familia": "Cyprinidae",
-    "gh": "",
-    "imagem": "puntiusdenisonii",
-    "kh": "",
-    "nomeCientifico": "Sahyadria denisonii",
-    "nomePopular": "Barbo Denison",
-    "origem": "",
-    "outrasInformacoes": "Aquário mínimo: 200 litros.",
-    "outrosNome": "",
-    "ph": "6.5 a 7.8",
-    "posicaoAquario": "",
-    "reproducao": "",
-    "tamanhoAdulto": "12 cm",
-    "temperatura": "22 a 26 ºC",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:24.882Z",
-      "gbifTaxonKey": 8395052,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Chordata",
-        "classe": "",
-        "ordem": "Cypriniformes",
-        "familia": "Cyprinidae",
-        "genero": "Sahyadria",
-        "especie": "Sahyadria denisonii"
-      },
-      "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/313654933/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/553208258/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/313652912/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Puntius_denisonii_1.jpg/800px-Puntius_denisonii_1.jpg"
     }
   },
   {
