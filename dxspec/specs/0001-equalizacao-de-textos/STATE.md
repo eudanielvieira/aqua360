@@ -10,12 +10,13 @@ alwaysApply: false
 > aponta pra cá. Volátil. Contrato: `./spec.md`. Plano: `./tasks.md`.
 > Histórico imutável (como chegou até aqui): `./journal/` (append-only, uma entrada por handoff).
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (nota cruzada da frente de SEO)
+**Última atualização:** 2026-07-31 por Daniel Vieira (água doce: parâmetros fechados e piloto de voz)
 **Status:** ativa
 
 ## Onde estamos
-Nove das vinte tasks fechadas (1 a 7, 13 e 15), todas as mecânicas. O que sobra é pesquisa por
-espécie, reescrita de voz e a cascata para os outros idiomas.
+Nove tasks fechadas (1 a 7, 13 e 15) mais a task 11 entregue esperando revisão; 8 e 9 parciais.
+**Água doce está com 100% dos parâmetros preenchidos** e 20 fichas já têm o texto na voz nova.
+O que sobra é o texto das outras 71 fichas de água doce e o acervo marinho inteiro.
 
 | Regra | AC | Abertura | Agora |
 |-------|-----|---------:|------:|
@@ -24,24 +25,37 @@ espécie, reescrita de voz e a cascata para os outros idiomas.
 | `faixas` | AC-4 | 23 | **0** |
 | `tipografia` | AC-5 | 434 | 114 |
 | `taxonomia` | AC-6 | 75 | **0** |
-| `completude` | AC-7 | 2208 | 2211 |
+| `completude` | AC-7 | 2208 | 1624 |
 | `voz` | AC-8 | 0 | 0 |
 | `acentuacao` | AC-9 | 190 | **0** |
 | `paridade` | AC-10 | 250 | **0** |
-| **Total** | | **10536** | **2598** |
+| **Total** | | **10536** | **2011** |
 
-Ficha mínima: 151 de 704 (21%). Os 273 de `chaves` e os 114 de `tipografia` que restam estão todos
-nas traduções en/es/ja e só a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o
-português fechar. `completude` subiu três pontos: normalizar revelou campo vazio que antes estava
-mascarado por resíduo, então é progresso disfarçado de regressão.
+Ficha mínima: 176 de 704 (25%), e **em água doce 176 de 244 (72%)**, contra 151 na abertura desta
+leva. Os 273 de `chaves` e os 114 de `tipografia` que restam estão todos nas traduções en/es/ja e só
+a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o português fechar.
+
+Água doce, por coluna: origem, pH, GH, KH, temperatura, tamanho adulto e posição no aquário estão em
+**zero vazios**. Falta só texto: 71 fichas, 222 células (`caracteristica` 67, `reproducao` 55,
+`diformismoSexual` 50, `alimentacao` 40, `comportamento` 10).
 
 ## Em andamento / próximo passo
-- **Task 8:** `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia (346 marinhas, 76
-  invertebrados de água doce, 38 invertebrados marinhos). Derivar da família e do que `comportamento`
-  já descreve; onde não bastar, pesquisa com `fonte`. Gate:
-  `bun run validate-data --rule=completude` sem `vazio:posicaoAquario`.
+- **Bloqueio primeiro:** o lote 01 precisa da sua revisão antes de escalar. Ver "Bloqueios".
+- **Depois:** lotes 02 em diante, 20 fichas por vez, com `bun run harvest-params --narrativos` já
+  tendo colhido o material de 67 das 71 restantes. Gate por lote:
+  `bun run validate-data --rule=voz --lote=NN`.
+- **Task 8 no resto do acervo:** `posicaoAquario` segue 100% vazia em 346 marinhas e 114
+  invertebrados. A ferramenta que fechou água doce serve nos outros arquivos com
+  `--arquivo=agua-salgada`, mas a fonte de marinho é pior que a de doce e vai precisar de ajuste.
 
 ## Decisões recentes
+- 2026-07-31: **KH em água doce passa a ser derivado da dureza**, porque nenhuma base publica KH por
+  espécie. A `fonte` cita a referência da dureza que originou o valor. Alternativa em aberto para
+  você decidir: tornar `kh` opcional em doce, como já é no marinho.
+- 2026-07-31: **`fonte` é lista de referência e nada mais.** Ela aparece na página com o rótulo
+  "Fonte", e estava saindo com a anotação de derivação junto. A derivação agora vive no relatório do
+  script.
+- 2026-07-31: texto narrativo é escrito a partir do fato colhido, **nunca traduzido da fonte**.
 - 2026-07-31: voz de aquarista experiente na reescrita, calibrada pelo exemplo da spec.
 - 2026-07-31: dado faltante vem de pesquisa com fonte citada, nunca de memória. Já aplicado na task 5,
   onde dois valores com dígito perdido viraram campo vazio em vez de palpite.
@@ -52,8 +66,14 @@ mascarado por resíduo, então é progresso disfarçado de regressão.
 - 2026-07-31: texto de interface escrito direto no `.tsx` entrou na frente como AC-12 (task 19).
 
 ## Bloqueios
-- [ ] **Task 11 precisa de revisão sua.** O lote piloto de 20 fichas na voz nova tem que passar por
-      você antes de escalar a reescrita para 615 páginas de texto. Ninguém destrava isso sozinho.
+- [ ] **O lote piloto está pronto e é a sua vez.** 20 fichas, 95 células, em
+      `scripts/textos-pt/lote-01.json` (commit `da66739`), com o guia em `./voz.md`. Ler o JSON é mais
+      rápido que abrir o arquivo de dados. Enquanto ele não for aprovado, as 71 fichas restantes de
+      água doce ficam paradas, e a cascata para en/es/ja também.
+- [ ] **Três duplicatas de água doce esperando sua decisão.** 177 contra 25, 178 contra 176, 205
+      contra 50, mais 163 contra 237. O validador não as vê porque compara o nome científico como
+      texto cru. Fundir apaga rota, mexe no sitemap e nas quatro traduções, então não fiz sozinho.
+      Precedente: task 3.
 - [ ] **Japonês sem revisor.** Todo lote de ja fecha como dívida aberta, não como pronto. Desde a
       abertura da frente.
 

@@ -21,10 +21,10 @@ alwaysApply: false
 | 6  | Higiene tipográfica em `src/data/*.ts`: travessão, espaço duplo, grau, pontuação final | AC-5 | 1 | `bun run validate-data --rule=tipografia` sem nenhuma ocorrência de `src/data` | done |
 | 7  | Alinhar `familia` à taxonomia GBIF nas 75 divergências | AC-6 | 1 | `bun run validate-data --rule=taxonomia` | done |
 | 7b | Enriquecer as 61 fichas sem taxonomia no GBIF, para que a regra deixe de ser cega nelas | AC-6 | 7 | `--rule=taxonomia` sem avisos `sem-taxonomia` | todo |
-| 8  | `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia, derivando da família e do que o `comportamento` já descreve, com `fonte` quando a derivação não bastar | AC-7 | 4,5 | `bun run validate-data --rule=completude` sem `vazio:posicaoAquario` | todo |
-| 9  | **Loop:** as 32 fichas esqueleto, em lotes de 20, com `fonte` citada | AC-7 | 8 | `bun run validate-data --rule=completude --lote=<n>` | todo |
+| 8  | `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia, derivando da família e do que o `comportamento` já descreve, com `fonte` quando a derivação não bastar | AC-7 | 4,5 | `bun run validate-data --rule=completude` sem `vazio:posicaoAquario` | parcial (água doce fechada, 63 fichas; faltam 346 marinhas e 114 invertebrados) |
+| 9  | **Loop:** as 32 fichas esqueleto, em lotes de 20, com `fonte` citada | AC-7 | 8 | `bun run validate-data --rule=completude --lote=<n>` | parcial (as 25 esqueleto de água doce têm parâmetro; 15 delas já têm texto) |
 | 10 | **Loop:** o resto das lacunas, com `fonte` citada. O grosso é `tamanhoAdulto` em 341 fichas marinhas e `caracteristica` em 76 invertebrados de água doce, que são pesquisa por espécie e não passada por coluna | AC-7 | 9 | `bun run validate-data --rule=completude` chega a 100% | todo |
-| 11 | Guia de voz em `./voz.md` mais lote piloto de 20 fichas para calibrar antes de escalar | AC-8 | 6 | revisão do usuário no lote piloto, registrada em `journal/` | todo |
+| 11 | Guia de voz em `./voz.md` mais lote piloto de 20 fichas para calibrar antes de escalar | AC-8 | 6 | revisão do usuário no lote piloto, registrada em `journal/` | feito, **aguardando sua revisão** (lote 01, commit `da66739`) |
 | 12 | **Loop:** reescrita dos campos narrativos em lotes de 20, na voz calibrada | AC-8 | 11 | `bun run validate-data --rule=voz --lote=<n>` | todo |
 | 13 | Acentuar as 171 strings de UI em `public/locales/pt-BR/` | AC-9 | 1 | `bun run validate-data --rule=acentuacao` | done |
 | 14 | Derivar os totais do acervo do dado (about e home) por interpolação, e apagar as contagens fixas | AC-9 | 13 | `bun run validate-data --rule=acentuacao` mais conferência do número na página | todo |

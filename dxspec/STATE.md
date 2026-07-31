@@ -13,14 +13,15 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (sexta pausa do dia, gesto de arrastar no mobile)
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (agua doce: parametros fechados e piloto de voz)
 
 ## Foco atual
-- **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. A leva mecânica
-  fechou: validador no lugar como placar e gate, chaves de tradução rechaveadas por tipo, formato de
-  parâmetro canônico, taxonomia alinhada ao GBIF, UI em português acentuada e espanhol rechaveado.
-  Placar de 10536 para 2598 bloqueantes. O que sobra é o trabalho caro: pesquisa por espécie com
-  fonte citada, reescrita na voz de aquarista e a cascata para os outros idiomas. Começa pela task 8.
+- **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. Depois da leva
+  mecânica veio a de conteúdo, e **água doce está com 100% dos parâmetros preenchidos**: origem, pH,
+  GH, KH, temperatura, tamanho adulto e posição no aquário, zero vazios nas 244 fichas. Vinte fichas
+  já têm o texto na voz de aquarista, como lote piloto. Placar de 10536 para 2011 bloqueantes; ficha
+  mínima em água doce de 62% para 72%. **A frente está travada na sua revisão do lote piloto**, que
+  segura as outras 71 fichas de texto e a cascata para en/es/ja.
   Ver `dxspec/specs/0001-equalizacao-de-textos/STATE.md`.
 - **Monetização.** O site vai passar a ter propaganda e links de afiliado, e o texto do projeto foi
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
@@ -41,7 +42,7 @@ alwaysApply: true
 
 | Frente | Status | STATE local | Proximo passo (resumo) |
 |--------|--------|-------------|------------------------|
-| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
+| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Água doce com parâmetros em 100% e lote piloto de texto entregue (placar 10536 para 2011). Próxima: **sua revisão do lote 01**, e só então os lotes 02 em diante |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
 | SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
 | Gesto no mobile (sem spec própria) | pausada | - | Entregue na ficha de peixe (commit `22305f2`): arrastar para o lado troca de espécie, na ordem da listagem. Próximo: decidir se vale em plantas, corais e doenças (`SwipeNav` já é reutilizável) e se entra barra de anterior/próxima no rodapé, que resolve a descoberta do gesto |
@@ -51,7 +52,10 @@ alwaysApply: true
 > Frentes sem pasta propria (ex.: IMP-*) vivem como linha aqui ate virarem feature/spec.
 
 ## Bloqueios (cross-frente)
-- Nenhum bloqueio técnico. Um alerta de conformidade: enquanto os links de afiliado subirem sem aviso
+- **Lote piloto de texto esperando sua revisão** (`scripts/textos-pt/lote-01.json`, guia em
+  `dxspec/specs/0001-equalizacao-de-textos/voz.md`). Enquanto não passar, a reescrita não escala.
+- **Quatro pares de ficha duplicada em água doce** esperando sua decisão de fundir ou manter (177/25,
+  178/176, 205/50, 163/237). Fundir apaga rota e mexe no sitemap e nas quatro traduções. Um alerta de conformidade: enquanto os links de afiliado subirem sem aviso
   de divulgação, o site fica exposto nas regras de programas como o Amazon Associates, que exigem
   aviso visível. Isso é decisão de produto, não trava código.
 
