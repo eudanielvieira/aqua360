@@ -1,7 +1,13 @@
 import type { Taxonomia } from '../types'
 
 interface Props {
-  taxonomia: Taxonomia
+  taxonomia?: Taxonomia
+  /**
+   * Texto do posto vazio. Com ele a arvore sai sempre com os sete postos,
+   * mesmo na especie que nao tem o bloco de taxonomia; sem ele os postos
+   * vazios somem e cada ficha mostra uma sequencia diferente.
+   */
+  fallback?: string
 }
 
 const labels: { key: keyof Taxonomia; label: string; color: string }[] = [
@@ -14,24 +20,41 @@ const labels: { key: keyof Taxonomia; label: string; color: string }[] = [
   { key: 'especie', label: 'Espécie', color: 'bg-primary/10 text-primary border-primary/20' },
 ]
 
-export default function TaxonomyTree({ taxonomia }: Props) {
-  const items = labels.filter(l => taxonomia[l.key])
+const corVazio = 'bg-surface-alt text-text-secondary border-border'
+
+export default function TaxonomyTree({ taxonomia, fallback }: Props) {
+  const items = fallback ? labels : labels.filter(l => taxonomia?.[l.key])
 
   if (items.length === 0) return null
 
   return (
     <div className="flex flex-wrap gap-2">
-      {items.map((item) => (
-        <span
-          key={item.key}
-          className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium ${item.color}`}
-        >
-          <span className="opacity-60 font-normal">{item.label}</span>
-          <span className={item.key === 'especie' || item.key === 'genero' ? 'italic font-semibold' : 'font-semibold'}>
-            {taxonomia[item.key]}
+      {items.map((item) => {
+        const valor = taxonomia?.[item.key]?.trim()
+        const cientifico = item.key === 'especie' || item.key === 'genero'
+
+        return (
+          <span
+            key={item.key}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium ${
+              valor ? item.color : corVazio
+            }`}
+          >
+            <span className="opacity-60 font-normal">{item.label}</span>
+            <span
+              className={
+                valor
+                  ? cientifico
+                    ? 'italic font-semibold'
+                    : 'font-semibold'
+                  : 'italic font-normal'
+              }
+            >
+              {valor || fallback}
+            </span>
           </span>
-        </span>
-      ))}
+        )
+      })}
     </div>
   )
 }

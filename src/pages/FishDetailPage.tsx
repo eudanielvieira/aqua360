@@ -30,10 +30,17 @@ const DistributionMap = lazy(() => import('../components/DistributionMap'))
 function FactRow({
   label,
   value,
+  fallback,
   clamp = false,
 }: {
   label: string
   value?: string
+  /**
+   * Texto que entra no lugar do valor quando o campo esta vazio, para a
+   * linha nao sumir. Mesma ideia do DetailRow: a ficha sai sempre com o
+   * mesmo conjunto de linhas e a lacuna aparece em vez de se esconder.
+   */
+  fallback?: string
   /**
    * Corta o valor em duas linhas. Usado nos parametros, onde alguns
    * registros trazem um paragrafo no lugar do valor e estouram a tabela:
@@ -42,16 +49,19 @@ function FactRow({
    */
   clamp?: boolean
 }) {
-  if (!value || value.trim() === '') return null
+  const vazio = !value || value.trim() === ''
+  if (vazio && !fallback) return null
 
   return (
     <div className="flex gap-3 py-1.5 text-sm border-b border-border/40 last:border-0">
       <dt className="text-text-secondary w-32 shrink-0">{label}</dt>
       <dd
-        className={`text-text font-medium min-w-0 flex-1 ${clamp ? 'line-clamp-2' : ''}`}
-        title={clamp ? value : undefined}
+        className={`min-w-0 flex-1 ${
+          vazio ? 'text-text-secondary italic' : 'text-text font-medium'
+        } ${clamp && !vazio ? 'line-clamp-2' : ''}`}
+        title={clamp && !vazio ? value : undefined}
       >
-        {value}
+        {vazio ? fallback : value}
       </dd>
     </div>
   )
@@ -110,7 +120,14 @@ export default function FishDetailPage() {
   }
   const f = translated
   const enrichment = fish.enrichment
-  const hasParams = fish.ph || fish.gh || fish.kh || fish.temperatura || fish.tamanhoAdulto || f.posicaoAquario
+  /*
+    A ficha do peixe e homogenea: todas as especies saem com as mesmas
+    linhas, os mesmos parametros e as mesmas secoes de texto, na mesma
+    ordem. Onde o acervo ainda nao tem o dado, a linha fica e diz que
+    nao ha informacao, em vez de sumir. Duas fichas lado a lado passam a
+    ser comparaveis, e a lacuna vira trabalho visivel em vez de silencio.
+  */
+  const naoInformado = t('common:detail.notInformed')
 
   const swipePrev = translatedPrev
     ? { to: `/peixes/${slug}/${translatedPrev.id}`, label: translatedPrev.nomePopular }
@@ -168,9 +185,9 @@ export default function FishDetailPage() {
 
               <div className="min-w-0 flex-1">
                 <dl>
-                  <FactRow label={t('common:detail.label.otherNames')} value={f.outrosNome} />
-                  <FactRow label={t('common:detail.label.family')} value={fish.familia} />
-                  <FactRow label={t('common:detail.label.origin')} value={f.origem} />
+                  <FactRow label={t('common:detail.label.otherNames')} value={f.outrosNome} fallback={naoInformado} />
+                  <FactRow label={t('common:detail.label.family')} value={fish.familia} fallback={naoInformado} />
+                  <FactRow label={t('common:detail.label.origin')} value={f.origem} fallback={naoInformado} />
                 </dl>
 
                 <div className="mt-4">
@@ -189,38 +206,34 @@ export default function FishDetailPage() {
                   dominavam a ficha. Em tabela a coluna encolhe pela metade
                   e as duas alturas se aproximam sem truque de layout.
                 */}
-                {hasParams && (
-                  <div className="mt-5">
-                    <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-1">{t('common:detail.parameters')}</h3>
-                    <dl>
-                      <FactRow label="pH" value={fish.ph} clamp />
-                      <FactRow label="GH" value={fish.gh} clamp />
-                      <FactRow label="KH" value={fish.kh} clamp />
-                      <FactRow label={t('common:param.temperature')} value={fish.temperatura} clamp />
-                      <FactRow label={t('common:param.adultSize')} value={fish.tamanhoAdulto} clamp />
-                      <FactRow label={t('common:param.position')} value={f.posicaoAquario} clamp />
-                    </dl>
-                  </div>
-                )}
+                <div className="mt-5">
+                  <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-1">{t('common:detail.parameters')}</h3>
+                  <dl>
+                    <FactRow label="pH" value={fish.ph} fallback={naoInformado} clamp />
+                    <FactRow label="GH" value={fish.gh} fallback={naoInformado} clamp />
+                    <FactRow label="KH" value={fish.kh} fallback={naoInformado} clamp />
+                    <FactRow label={t('common:param.temperature')} value={fish.temperatura} fallback={naoInformado} clamp />
+                    <FactRow label={t('common:param.adultSize')} value={fish.tamanhoAdulto} fallback={naoInformado} clamp />
+                    <FactRow label={t('common:param.position')} value={f.posicaoAquario} fallback={naoInformado} clamp />
+                  </dl>
+                </div>
               </div>
             </div>
 
-            {enrichment?.taxonomia && (
-              <div className="mb-6 pb-6 border-b border-border/60">
-                <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.taxonomy')}</h3>
-                <TaxonomyTree taxonomia={enrichment.taxonomia} />
-              </div>
-            )}
+            <div className="mb-6 pb-6 border-b border-border/60">
+              <h3 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('common:detail.taxonomy')}</h3>
+              <TaxonomyTree taxonomia={enrichment?.taxonomia} fallback={naoInformado} />
+            </div>
 
             {/* Nome, familia e origem sobem para a ficha, entao aqui ficam so os textos longos. */}
             <dl>
-              <DetailRow label={t('fish:detail.characteristics')} value={f.caracteristica} />
-              <DetailRow label={t('fish:detail.behavior')} value={f.comportamento} />
-              <DetailRow label={t('fish:detail.feeding')} value={f.alimentacao} />
-              <DetailRow label={t('fish:detail.reproduction')} value={f.reproducao} />
-              <DetailRow label={t('fish:detail.sexualDimorphism')} value={f.diformismoSexual} />
-              <DetailRow label={t('fish:detail.otherInfo')} value={f.outrasInformacoes} />
-              <DetailRow label={t('common:detail.label.source')} value={fish.fonte} />
+              <DetailRow label={t('fish:detail.characteristics')} value={f.caracteristica} fallback={naoInformado} />
+              <DetailRow label={t('fish:detail.behavior')} value={f.comportamento} fallback={naoInformado} />
+              <DetailRow label={t('fish:detail.feeding')} value={f.alimentacao} fallback={naoInformado} />
+              <DetailRow label={t('fish:detail.reproduction')} value={f.reproducao} fallback={naoInformado} />
+              <DetailRow label={t('fish:detail.sexualDimorphism')} value={f.diformismoSexual} fallback={naoInformado} />
+              <DetailRow label={t('fish:detail.otherInfo')} value={f.outrasInformacoes} fallback={naoInformado} />
+              <DetailRow label={t('common:detail.label.source')} value={fish.fonte} fallback={naoInformado} />
             </dl>
 
             {enrichment?.inatPhotoUrls && enrichment.inatPhotoUrls.length > 0 && (

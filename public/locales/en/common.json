@@ -51,6 +51,7 @@
   "detail.label.family": "Family",
   "detail.label.origin": "Origin",
   "detail.label.source": "Source",
+  "detail.notInformed": "Not available",
   "param.ph": "pH",
   "param.gh": "GH",
   "param.kh": "KH",
