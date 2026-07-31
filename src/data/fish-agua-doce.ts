@@ -8763,7 +8763,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Osteoglossidae",
     "gh": "",
-    "imagem": "",
+    "imagem": "osteoglossumbicirrhosum",
     "kh": "",
     "nomeCientifico": "Osteoglossum bicirrhosum",
     "nomePopular": "Aruanã Prata",
