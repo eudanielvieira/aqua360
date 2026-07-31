@@ -176,7 +176,7 @@ const data: Fish[] = [
     "caracteristica": "",
     "comportamento": "São extremamente pacíficos e, geralmente, possuem hábitos noturnos. Podem viver solitárias ou em grupo.",
     "diformismoSexual": "Esta espécie não é hermafrodita. Com um pouco de paciência, pode-se observar, no corpo do macho, no lado direito atrás da cabeça o complexo peniano.",
-    "familia": "Ampulariidae",
+    "familia": "Ampullariidae",
     "gh": "",
     "imagem": "pomaceadiffusa",
     "kh": "",
