@@ -14,7 +14,7 @@ alwaysApply: false
 | #  | Task | Cobre AC | Depende de | Gate (comando) | Status |
 |----|------|----------|------------|----------------|--------|
 | 1  | `scripts/validate-data.ts` com as regras `chaves`, `formato`, `faixas`, `tipografia`, `taxonomia`, `completude`, `voz`, `acentuacao`, `paridade`, e placar no fim | AC-1 | - | `bun run validate-data` imprime o placar e sai 0 ou 1 | done |
-| 2  | Rechavear `data-*.json` para `<tipo>:<id>` e ajustar `useTranslatedSpecies` e `generate-pt-data` | AC-2 | 1 | `bun run validate-data --rule=chaves` | todo |
+| 2  | Rechavear `data-*.json` para `<tipo>:<id>` e ajustar `useTranslatedSpecies` e `generate-pt-data` | AC-2 | 1 | `bun run validate-data --rule=chaves` | done (276 restantes, dependem da cascata) |
 | 3  | Fundir a duplicata `Polypterus senegalus` (251 sai, 132 absorve e ganha `ph`) | AC-7 | 1 | `bun run validate-data --rule=completude` sem o alerta de duplicata | todo |
 | 4  | Normalizar formato de `ph`, `gh`, `kh`, `temperatura`, `tamanhoAdulto` e `posicaoAquario` nos 4 arquivos | AC-3 | 1 | `bun run validate-data --rule=formato` | todo |
 | 5  | Corrigir as faixas incoerentes (ids 78, 277, 465 e os três `ph` gravados como `"a"`) e marcar as legítimas com `fonte` | AC-4 | 4 | `bun run validate-data --rule=faixas` | todo |
@@ -31,6 +31,7 @@ alwaysApply: false
 | 16 | Cache por hash do texto de origem no `translate-fish`, no lugar do cache por id | AC-11 | 2 | `bun run translate-fish` reenvia só o que mudou | todo |
 | 17 | Regras de voz e proibição de travessão dentro do prompt de tradução, e repasse em en/es/ja | AC-5, AC-11 | 12,16 | `bun run validate-data --rule=tipografia` nos 4 idiomas | todo |
 | 18 | Instalar o eval de fidelidade no CI com `/spec-ci` | AC-1 | 1 | workflow do GitHub Actions verde | todo |
+| 19 | **Proposta, aguarda emenda da spec:** levar para o i18n os ~75 textos em português escritos direto no `.tsx`/`.ts` (`calculators.ts` 19, `AquariumBuilderPage` 13, `compatibility.ts` 9, `SpeciesBadges` 8, `TaxonomyTree` 7 e outros), mais a regra `embutido` no validador | AC-12 (a criar) | 13 | `bun run validate-data --rule=embutido` | proposta |
 
 ## Protocolo do loop
 Vale para as tasks 9, 10 e 12, que são as que consomem o acervo inteiro.

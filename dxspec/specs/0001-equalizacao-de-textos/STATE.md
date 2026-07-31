@@ -29,10 +29,27 @@ Placar de abertura, com `bun run validate-data`:
 
 Total: 10536 bloqueantes. Ficha mínima em 154 de 705 (22%).
 
+Task 2 fechada também: a chave das traduções passou a levar o slug (`agua-doce:177`), `chaves` caiu de
+5272 para 276 bloqueantes, e os 276 que restam são as 92 fichas que nunca tiveram tradução própria,
+que só a cascata (task 17) resolve. Conferido no app: em inglês o Kinguio caía como "Damselfish" e
+agora cai no português correto, enquanto a ficha marinha do mesmo id segue traduzida.
+
+Duas coisas que só apareceram ao rodar o app, e não no dado:
+1. O `:` é o separador de namespace do i18next, então a busca precisou de `nsSeparator: false`. Sem
+   isso a chave nova não resolvia nada e tudo caía no português, o que passaria por "funcionando".
+2. Existem cerca de 75 textos em português escritos direto no `.tsx`/`.ts`, fora do i18n, que nenhum
+   idioma traduz. Em inglês a ficha mostra "Reino / Filo / Classe" e as tarjas "Agua Doce" e
+   "Carnivoro", sem acento. Virou a task 19, proposta, dependendo de uma emenda na spec.
+
 ## Próximo passo
-Task 2, o rechaveamento para `<tipo>:<id>`, que sozinha zera os 5272 de `chaves` e destrava a cascata.
-Antes da task 4 (formato) é preciso decidir o caso do `gh` em água salgada, registrado como
-SPEC_DEVIATION em `tasks.md`.
+Duas decisões antes de seguir:
+- **`gh` em água salgada** (SPEC_DEVIATION em `tasks.md`): mover para `densidade` ou limpar. Trava a
+  task 4.
+- **Emenda da spec** para absorver os textos embutidos no código como AC-12. Se entrar, a task 19
+  passa a valer e o validador ganha a regra `embutido`.
+
+Com o `gh` decidido, a fila é task 3 (fusão da duplicata), depois 4 e 5 (formato e faixas), que são
+mecânicas e fecham dois ACs de uma vez.
 
 ## Decisões vivas
 - **Voz de aquarista experiente**, calibrada pelo exemplo na spec. Escolhida sabendo que dá mais
