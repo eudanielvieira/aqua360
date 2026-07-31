@@ -34,7 +34,7 @@ alwaysApply: true
 
 | Frente | Status | STATE local | Proximo passo (resumo) |
 |--------|--------|-------------|------------------------|
-| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Spec em review; depois disso, escrever `scripts/validate-data.ts` (task 1) |
+| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
 | Colisão de ids nas traduções | absorvida | `dxspec/specs/0001-equalizacao-de-textos/` | Virou a task 2 da spec 0001. São 92 ids, não 74: a contagem antiga só olhava doce contra salgada |

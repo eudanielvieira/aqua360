@@ -6,73 +6,61 @@ alwaysApply: false
 
 # STATE - Equalização de textos
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (task 1 fechada)
+**Última atualização:** 2026-07-31 por Daniel Vieira (primeira leva de implementação)
 
 ## Onde estamos
-Spec aprovada, ADR 0001 aceito e task 1 fechada: `scripts/validate-data.ts` roda as nove regras,
-imprime o placar e serve de gate. Baseline de campos vazios gravada em `scripts/.validate-baseline.json`
-(678 fichas com lacuna, 3979 células), que é o marco zero da regra de procedência.
+Spec aprovada, ADR 0001 aceito, e as nove tasks mecânicas fechadas: 1 a 7, 13 e 15. O que sobra é
+pesquisa por espécie, reescrita de voz e a cascata para os outros idiomas.
 
-Placar de abertura, com `bun run validate-data`:
+Placar, com `bun run validate-data`:
 
-| Regra | AC | Bloqueantes | Avisos |
-|-------|-----|------------|--------|
-| `chaves` | AC-2 | 5272 | 0 |
-| `formato` | AC-3 | 2084 | 0 |
-| `faixas` | AC-4 | 23 | 0 |
-| `tipografia` | AC-5 | 434 | 0 |
-| `taxonomia` | AC-6 | 75 | 61 |
-| `completude` | AC-7 | 2208 | 17 |
+| Regra | AC | Abertura | Agora |
+|-------|-----|---------:|------:|
+| `chaves` | AC-2 | 5272 | 273 |
+| `formato` | AC-3 | 2084 | **0** |
+| `faixas` | AC-4 | 23 | **0** |
+| `tipografia` | AC-5 | 434 | 114 |
+| `taxonomia` | AC-6 | 75 | **0** |
+| `completude` | AC-7 | 2208 | 2211 |
 | `voz` | AC-8 | 0 | 0 |
-| `acentuacao` | AC-9 | 190 | 1 |
-| `paridade` | AC-10 | 250 | 0 |
+| `acentuacao` | AC-9 | 190 | **0** |
+| `paridade` | AC-10 | 250 | **0** |
+| **Total** | | **10536** | **2598** |
 
-Total: 10536 bloqueantes. Ficha mínima em 154 de 705 (22%).
+Ficha mínima: 151 de 704 (21%). Caiu de 154 porque a fusão da duplicata tirou uma ficha e porque
+três registros perderam parâmetro que era resíduo (`ph` gravado como `"a"`), o que é progresso
+disfarçado de regressão: antes o campo parecia preenchido e não estava.
 
-Task 2 fechada também: a chave das traduções passou a levar o slug (`agua-doce:177`), `chaves` caiu de
-5272 para 276 bloqueantes, e os 276 que restam são as 92 fichas que nunca tiveram tradução própria,
-que só a cascata (task 17) resolve. Conferido no app: em inglês o Kinguio caía como "Damselfish" e
-agora cai no português correto, enquanto a ficha marinha do mesmo id segue traduzida.
+Os 273 de `chaves` e os 114 de `tipografia` que restam são todos das traduções en/es/ja e só a
+cascata (tasks 16 e 17) resolve. Não vale rodar a cascata antes do português fechar.
 
-Duas coisas que só apareceram ao rodar o app, e não no dado:
-1. O `:` é o separador de namespace do i18next, então a busca precisou de `nsSeparator: false`. Sem
-   isso a chave nova não resolvia nada e tudo caía no português, o que passaria por "funcionando".
-2. Existem cerca de 75 textos em português escritos direto no `.tsx`/`.ts`, fora do i18n, que nenhum
-   idioma traduz. Em inglês a ficha mostra "Reino / Filo / Classe" e as tarjas "Agua Doce" e
-   "Carnivoro", sem acento. Virou a task 19, proposta, dependendo de uma emenda na spec.
+## O que mudou de decisão pelo caminho
+Três coisas viraram SPEC_DEVIATION resolvida em `tasks.md`, todas por medição contradizer a spec:
+1. `gh` em marinho guardava densidade, não dureza. Saiu do dado.
+2. A proibição de aspas curvas estava errada: o acervo tem 478 delas contra 2 retas e em português
+   são a forma correta. Regra removida.
+3. Texto de interface escrito direto no `.tsx` não passa pelo i18n. Virou o AC-12 e a task 19.
+
+## Achados que só apareceram abrindo o app
+- **`/guias` estava em tela branca nos quatro idiomas.** `GuidesPage` pedia `t('cyclingSteps')` como
+  array e essa chave nunca existiu. Bug anterior à frente, consertado no commit `d4686df`.
+- **O `:` é o separador de namespace do i18next.** A chave nova (`agua-doce:177`) não resolvia nada e
+  tudo caía no português, o que passaria por "funcionando" numa conferência superficial.
+- Por causa dos dois, a regra `paridade` passou a ler os `t()` do código, e não só comparar os
+  arquivos de idioma entre si.
 
 ## Próximo passo
-Duas decisões antes de seguir:
-- **`gh` em água salgada** (SPEC_DEVIATION em `tasks.md`): mover para `densidade` ou limpar. Trava a
-  task 4.
-- **Emenda da spec** para absorver os textos embutidos no código como AC-12. Se entrar, a task 19
-  passa a valer e o validador ganha a regra `embutido`.
+Task 8: `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia. É a maior lacuna única que
+sobra e a mais derivável, porque a família e o texto de `comportamento` quase sempre dizem onde o
+bicho vive.
 
-Com o `gh` decidido, a fila é task 3 (fusão da duplicata), depois 4 e 5 (formato e faixas), que são
-mecânicas e fecham dois ACs de uma vez.
-
-## Decisões vivas
-- **Voz de aquarista experiente**, calibrada pelo exemplo na spec. Escolhida sabendo que dá mais
-  trabalho de reescrita do que só limpar o texto atual.
-- **Dado faltante vem de pesquisa com fonte citada.** É a opção mais lenta das três consideradas,
-  escolhida porque um site de referência não pode publicar parâmetro de pH escrito de memória.
-- **Formato canônico troca o "a" por hífen** (`24-27 °C` no lugar de `24 a 27 ºC`). O motivo é que
-  esses campos não passam pela camada de tradução, então o leitor inglês lê a palavra portuguesa
-  hoje. Precisa virar ADR antes da task 4: toca os quatro arquivos e os quatro idiomas de uma vez.
-- **Português é a nascente.** `data-*.json` de en/es/ja nunca é editado à mão. Os namespaces de UI
-  são a exceção, porque são escritos por idioma.
+Depois dela a fila é 9 e 10 (pesquisa por espécie, em lotes de 20) e 11 e 12 (voz). A task 11 pede
+uma revisão sua no lote piloto antes de escalar a reescrita para o acervo inteiro.
 
 ## Riscos e pontos de atenção
-- A task 2 muda o formato das chaves dos quatro `data-*.json`. Se rodar depois de as tasks 9 a 12
-  terem escrito muito texto, o retrabalho de cascata é grande. Por isso ela vem cedo.
-- O japonês não tem revisor no time. Todo lote de ja fecha como dívida aberta no `journal/`, não como
-  pronto.
-- A frente de monetização toca os mesmos arquivos de UI que a task 13. Vale coordenar a ordem para
-  não gerar conflito bobo em `support.json`.
-
-## Ligações com o board
-- Absorve do board os todos soltos: família errada no Betta, duplicata `Polypterus senegalus`,
-  colisão de ids nas traduções, números do acervo escritos à mão, limpeza de travessão no
-  `fish-agua-doce.ts`, fichas quase vazias (Barbo Rosa, Bagre de Vidro, Bagre Andador, Aruanã Prata),
-  e a replicação dos números da página Sobre em en/es/ja.
-- Não absorve: normalização de imagens e a frente de monetização.
+- O japonês não tem revisor no time. Todo lote de ja fecha como dívida aberta.
+- A task 13 encostou na frente de monetização: ao tirar o `--` de `support.description`, a promessa
+  "tudo gratuito e sem anúncios" saiu junto. O `benefit.adFree` continua intacto e segue como todo de
+  lá.
+- `completude` subiu 3 pontos em vez de cair. É esperado nesta fase: normalizar revelou campo vazio
+  que antes estava mascarado por resíduo.

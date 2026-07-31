@@ -26,9 +26,9 @@ alwaysApply: false
 | 10 | **Loop:** o resto das lacunas, com `fonte` citada. O grosso é `tamanhoAdulto` em 341 fichas marinhas e `caracteristica` em 76 invertebrados de água doce, que são pesquisa por espécie e não passada por coluna | AC-7 | 9 | `bun run validate-data --rule=completude` chega a 100% | todo |
 | 11 | Guia de voz em `./voz.md` mais lote piloto de 20 fichas para calibrar antes de escalar | AC-8 | 6 | revisão do usuário no lote piloto, registrada em `journal/` | todo |
 | 12 | **Loop:** reescrita dos campos narrativos em lotes de 20, na voz calibrada | AC-8 | 11 | `bun run validate-data --rule=voz --lote=<n>` | todo |
-| 13 | Acentuar as 171 strings de UI em `public/locales/pt-BR/` | AC-9 | 1 | `bun run validate-data --rule=acentuacao` | todo |
+| 13 | Acentuar as 171 strings de UI em `public/locales/pt-BR/` | AC-9 | 1 | `bun run validate-data --rule=acentuacao` | done |
 | 14 | Derivar os totais do acervo do dado (about e home) por interpolação, e apagar as contagens fixas | AC-9 | 13 | `bun run validate-data --rule=acentuacao` mais conferência do número na página | todo |
-| 15 | Corrigir as 124 chaves do espanhol em `support`, `guides`, `filters`, `builder` e `search` `[P]` | AC-10 | 1 | `bun run validate-data --rule=paridade` | todo |
+| 15 | Corrigir as 124 chaves do espanhol em `support`, `guides`, `filters`, `builder` e `search` `[P]` | AC-10 | 1 | `bun run validate-data --rule=paridade` | done |
 | 16 | Cache por hash do texto de origem no `translate-fish`, no lugar do cache por id | AC-11 | 2 | `bun run translate-fish` reenvia só o que mudou | todo |
 | 17 | Regras de voz e proibição de travessão dentro do prompt de tradução, e repasse em en/es/ja | AC-5, AC-11 | 12,16 | `bun run validate-data --rule=tipografia` nos 4 idiomas | todo |
 | 18 | Instalar o eval de fidelidade no CI com `/spec-ci` | AC-1 | 1 | workflow do GitHub Actions verde | todo |
