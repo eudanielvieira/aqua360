@@ -15,6 +15,21 @@ export default function FallbackImage({ localImage, inatPhotos, wikiPhoto, alt, 
   const [urlIndex, setUrlIndex] = useState(0)
   const [allFailed, setAllFailed] = useState(false)
 
+  /*
+    Trocar de especie sem sair da rota (o arrasto lateral da ficha, os links
+    de especies da mesma familia) so troca as props: este componente continua
+    montado e levaria consigo o indice da especie anterior. Uma foto que
+    falhou fazia entao a especie seguinte comecar pela segunda opcao, e a
+    arte propria do Aqua360, que e sempre a primeira, era pulada.
+  */
+  const listaAtual = allUrls.join('|')
+  const [listaAnterior, setListaAnterior] = useState(listaAtual)
+  if (listaAtual !== listaAnterior) {
+    setListaAnterior(listaAtual)
+    setUrlIndex(0)
+    setAllFailed(false)
+  }
+
   const currentUrl = allUrls[urlIndex]
 
   const handleError = () => {
