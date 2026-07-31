@@ -13,15 +13,15 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (abertura da spec 0001, equalizacao de textos)
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (quarta pausa do dia, leva mecanica da spec 0001)
 
 ## Foco atual
-- **Equalização de textos (spec 0001).** Frente nova e a maior do projeto. O acervo tem 705 fichas e
-  só 154 estão completas na ficha mínima; 92 ids colidem entre os quatro arquivos e fazem 92 fichas
-  servirem conteúdo de outro peixe em EN/ES/JA; os parâmetros têm formatos e erros de digitação; e a
-  UI em português tem 171 strings sem acentuação. O plano é um validador que serve de placar e gate,
-  normalização mecânica, preenchimento com fonte citada e reescrita na voz de aquarista, tudo em
-  lotes de 20. Ver `dxspec/specs/0001-equalizacao-de-textos/spec.md`.
+- **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. A leva mecânica
+  fechou: validador no lugar como placar e gate, chaves de tradução rechaveadas por tipo, formato de
+  parâmetro canônico, taxonomia alinhada ao GBIF, UI em português acentuada e espanhol rechaveado.
+  Placar de 10536 para 2598 bloqueantes. O que sobra é o trabalho caro: pesquisa por espécie com
+  fonte citada, reescrita na voz de aquarista e a cascata para os outros idiomas. Começa pela task 8.
+  Ver `dxspec/specs/0001-equalizacao-de-textos/STATE.md`.
 - **Monetização.** O site vai passar a ter propaganda e links de afiliado, e o texto do projeto foi
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
   vendendo "Sem anúncios" como benefício de quem apoia, e não existe em lugar nenhum o aviso de
@@ -37,7 +37,7 @@ alwaysApply: true
 | Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
-| Colisão de ids nas traduções | absorvida | `dxspec/specs/0001-equalizacao-de-textos/` | Virou a task 2 da spec 0001. São 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
+| Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 
 > Frentes sem pasta propria (ex.: IMP-*) vivem como linha aqui ate virarem feature/spec.
 
@@ -54,9 +54,10 @@ alwaysApply: true
 > da spec, com o validador avisando sem bloquear.
 
 - [ ] **`/apoie` promete "Sem anúncios".** `support.json` em pt e es tem `benefit.adFree` ("Sem
-      anúncios" / "Com seu apoio o Aqua360 continua 100% gratuito e sem propagandas") e a `description`
-      diz "tudo gratuito e sem anúncios". Com propaganda no ar isso é falso na página onde a pessoa
-      decide doar. O benefício precisa virar outro (por exemplo, apoiar mantém o catálogo crescendo).
+      anúncios" / "Com seu apoio o Aqua360 continua 100% gratuito e sem propagandas"). Com propaganda
+      no ar isso é falso na página onde a pessoa decide doar. O benefício precisa virar outro (por
+      exemplo, apoiar mantém o catálogo crescendo). A `description` em pt já saiu nesta sessão, de
+      carona na limpeza de `--` da spec 0001 (commit `b5903b7`); em es, en e ja ela continua lá.
 - [ ] **Aviso de divulgação de afiliado.** Não existe em nenhuma página. Com os cards de princípio
       removidos, a Sobre agora não fala nada sobre monetização. Decidir o lugar: card novo na Sobre,
       linha no rodapé ou página própria.

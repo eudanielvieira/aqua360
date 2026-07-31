@@ -95,3 +95,14 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** consertar `/apoie`, que ainda promete "Sem anúncios", e decidir onde entra o aviso de
   divulgação de afiliado.
 - **Detalhe:** commits `335fede`, `b7236be`, `0ab79c7`, `eaf1d03`, `a34798d`.
+
+## 2026-07-31 - frente `0001-equalizacao-de-textos` - abertura e leva mecanica
+**Quem:** Daniel Vieira (agente)
+- Frente nova, a maior do projeto: spec com diagnostico medido (705 fichas, 154 completas, 92 ids
+  colidindo, 1630 lacunas) e nove tasks mecanicas fechadas no mesmo dia. Placar do validador de 10536
+  para 2598 bloqueantes, com formato, faixas, taxonomia, acentuacao e paridade zerados.
+- Dois bugs apareceram ao abrir o app, nenhum previsto: `/guias` estava em tela branca nos quatro
+  idiomas por uma chave de i18n que nunca existiu, e o `:` da chave nova colidia com o separador de
+  namespace do i18next.
+- **Proximo:** task 8, `posicaoAquario` nas 460 fichas em que a coluna esta 100% vazia.
+- **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0001-2026-07-31-abertura-e-leva-mecanica.md`

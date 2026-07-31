@@ -1,18 +1,21 @@
 ---
 name: STATE
-description: Memoria local da frente de equalizacao de textos. Onde paramos e por que.
+description: Memoria de trabalho LOCAL da frente de equalizacao de textos. Volatil.
 alwaysApply: false
 ---
 
-# STATE - Equalização de textos
+# STATE local - Equalização de textos
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (primeira leva de implementação)
+> Memoria de trabalho **desta frente** (snapshot mutável: estado AGORA). O board (`dxspec/STATE.md`)
+> aponta pra cá. Volátil. Contrato: `./spec.md`. Plano: `./tasks.md`.
+> Histórico imutável (como chegou até aqui): `./journal/` (append-only, uma entrada por handoff).
+
+**Última atualização:** 2026-07-31 por Daniel Vieira
+**Status:** ativa
 
 ## Onde estamos
-Spec aprovada, ADR 0001 aceito, e as nove tasks mecânicas fechadas: 1 a 7, 13 e 15. O que sobra é
-pesquisa por espécie, reescrita de voz e a cascata para os outros idiomas.
-
-Placar, com `bun run validate-data`:
+Nove das vinte tasks fechadas (1 a 7, 13 e 15), todas as mecânicas. O que sobra é pesquisa por
+espécie, reescrita de voz e a cascata para os outros idiomas.
 
 | Regra | AC | Abertura | Agora |
 |-------|-----|---------:|------:|
@@ -27,40 +30,42 @@ Placar, com `bun run validate-data`:
 | `paridade` | AC-10 | 250 | **0** |
 | **Total** | | **10536** | **2598** |
 
-Ficha mínima: 151 de 704 (21%). Caiu de 154 porque a fusão da duplicata tirou uma ficha e porque
-três registros perderam parâmetro que era resíduo (`ph` gravado como `"a"`), o que é progresso
-disfarçado de regressão: antes o campo parecia preenchido e não estava.
+Ficha mínima: 151 de 704 (21%). Os 273 de `chaves` e os 114 de `tipografia` que restam estão todos
+nas traduções en/es/ja e só a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o
+português fechar. `completude` subiu três pontos: normalizar revelou campo vazio que antes estava
+mascarado por resíduo, então é progresso disfarçado de regressão.
 
-Os 273 de `chaves` e os 114 de `tipografia` que restam são todos das traduções en/es/ja e só a
-cascata (tasks 16 e 17) resolve. Não vale rodar a cascata antes do português fechar.
+## Em andamento / próximo passo
+- **Task 8:** `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia (346 marinhas, 76
+  invertebrados de água doce, 38 invertebrados marinhos). Derivar da família e do que `comportamento`
+  já descreve; onde não bastar, pesquisa com `fonte`. Gate:
+  `bun run validate-data --rule=completude` sem `vazio:posicaoAquario`.
 
-## O que mudou de decisão pelo caminho
-Três coisas viraram SPEC_DEVIATION resolvida em `tasks.md`, todas por medição contradizer a spec:
-1. `gh` em marinho guardava densidade, não dureza. Saiu do dado.
-2. A proibição de aspas curvas estava errada: o acervo tem 478 delas contra 2 retas e em português
-   são a forma correta. Regra removida.
-3. Texto de interface escrito direto no `.tsx` não passa pelo i18n. Virou o AC-12 e a task 19.
+## Decisões recentes
+- 2026-07-31: voz de aquarista experiente na reescrita, calibrada pelo exemplo da spec.
+- 2026-07-31: dado faltante vem de pesquisa com fonte citada, nunca de memória. Já aplicado na task 5,
+  onde dois valores com dígito perdido viraram campo vazio em vez de palpite.
+- 2026-07-31: formato canônico troca o "a" por hífen (`24-27 °C`). Difícil de reverter, virou
+  [ADR 0001](./adr-0001-formato-canonico-de-parametros.md).
+- 2026-07-31: `gh` em marinho guardava densidade e foi limpo (parâmetro do sistema, não da espécie).
+- 2026-07-31: a proibição de aspas curvas do AC-5 caiu, por contrariar o corpus e a norma do português.
+- 2026-07-31: texto de interface escrito direto no `.tsx` entrou na frente como AC-12 (task 19).
 
-## Achados que só apareceram abrindo o app
-- **`/guias` estava em tela branca nos quatro idiomas.** `GuidesPage` pedia `t('cyclingSteps')` como
-  array e essa chave nunca existiu. Bug anterior à frente, consertado no commit `d4686df`.
-- **O `:` é o separador de namespace do i18next.** A chave nova (`agua-doce:177`) não resolvia nada e
-  tudo caía no português, o que passaria por "funcionando" numa conferência superficial.
-- Por causa dos dois, a regra `paridade` passou a ler os `t()` do código, e não só comparar os
-  arquivos de idioma entre si.
+## Bloqueios
+- [ ] **Task 11 precisa de revisão sua.** O lote piloto de 20 fichas na voz nova tem que passar por
+      você antes de escalar a reescrita para 615 páginas de texto. Ninguém destrava isso sozinho.
+- [ ] **Japonês sem revisor.** Todo lote de ja fecha como dívida aberta, não como pronto. Desde a
+      abertura da frente.
 
-## Próximo passo
-Task 8: `posicaoAquario` nas 460 fichas em que a coluna está 100% vazia. É a maior lacuna única que
-sobra e a mais derivável, porque a família e o texto de `comportamento` quase sempre dizem onde o
-bicho vive.
-
-Depois dela a fila é 9 e 10 (pesquisa por espécie, em lotes de 20) e 11 e 12 (voz). A task 11 pede
-uma revisão sua no lote piloto antes de escalar a reescrita para o acervo inteiro.
-
-## Riscos e pontos de atenção
-- O japonês não tem revisor no time. Todo lote de ja fecha como dívida aberta.
-- A task 13 encostou na frente de monetização: ao tirar o `--` de `support.description`, a promessa
-  "tudo gratuito e sem anúncios" saiu junto. O `benefit.adFree` continua intacto e segue como todo de
-  lá.
-- `completude` subiu 3 pontos em vez de cair. É esperado nesta fase: normalizar revelou campo vazio
-  que antes estava mascarado por resíduo.
+## Ideias adiadas / todos da frente
+- **Campos numéricos** (`phMin`/`phMax`) com formatação por locale, no lugar de string. É o destino
+  certo do dado de parâmetro. Gatilho para reconsiderar: quando alguém pedir filtro por faixa,
+  comparação entre espécies ou unidade imperial. Registrado no ADR 0001 como alternativa descartada
+  por ora.
+- **Densidade de referência do marinho no guia.** Saiu de 334 fichas na task 4 e não foi para lugar
+  nenhum. Gatilho: quando a página de guias ganhar a seção de marinho.
+- **pH marinho do acervo inteiro é `8-9`** em 332 das 338 fichas com valor. É largo demais para reef,
+  onde o padrão é 8.1 a 8.4. Não mexi porque trocar 332 registros exige pesquisa com fonte, não
+  varredura. Gatilho: entra na task 10.
+- **Origem truncada no id 9** ("América do Sul, sul da região"). A frase perdeu o fim no dump antigo e
+  completar exige fonte. Gatilho: task 10.
