@@ -71,3 +71,27 @@ ficam disponiveis sob demanda, sem custo de carga.
   commit da página Sobre ainda não publicados.
 - **Proximo:** replicar os números corrigidos em en, es e ja, que seguem com 707, 788 e os `--`.
 - **Detalhe:** commit `5b715ff`.
+
+## 2026-07-31 - board - monetizacao muda o texto da pagina Sobre, mais 4 ilustracoes
+**Quem:** Daniel Vieira (agente)
+- O projeto vai passar a ter propaganda e links de afiliado, e a página Sobre afirmava o contrário em
+  três lugares. Saíram nos quatro idiomas: o parágrafo `story.p3` e os cards "Zero propaganda" e
+  "Sem venda casada". Decisão registrada: remover sem texto substituto, e não trocar por um aviso de
+  transparência. A seção "Como o projeto funciona" ficou com um card só.
+- A contradição maior não está na Sobre e sim em `/apoie`: o `support.json` de pt e es promete
+  "Sem anúncios" como benefício de quem apoia, justo na página onde a pessoa decide doar. Ficou
+  intacto porque o escopo escolhido foi só a Sobre.
+- Quatro ilustrações normalizadas: Barbo Xadrez (149), Betta (21), Bichir do senegal (132) e Bichir
+  Marmorato (131). O acervo tratado foi de 33 para 37.
+- Dois problemas de dado apareceram ao abrir as fichas para conferir a arte. O Betta tem
+  `familia: "Anabantidae"` no campo manual contra Osphronemidae na taxonomia do GBIF, e a própria
+  ficha exibe as duas: o rodapé "Espécies da mesma família (Anabantidae)" lista só o Gourami
+  Leopardo. E o id 251 "Polypterus Senegalus" é duplicata do 132 "Bichir do senegal", registro quase
+  vazio e sem imagem, enquanto o `ph` do 132 está gravado como a string `"a"`.
+- Ajuste da nota da pausa anterior: os dois commits que ficaram `ahead 2` já estavam publicados ao
+  abrir esta sessão, e os cinco desta também estavam ao fechar. O atraso do disparo é de minutos, não
+  de sessões. O método da nota continua o mesmo: confirmar com `git fetch origin && git status -sb`.
+- O board vinha dizendo 724 imagens em `public/images`. São 731.
+- **Proximo:** consertar `/apoie`, que ainda promete "Sem anúncios", e decidir onde entra o aviso de
+  divulgação de afiliado.
+- **Detalhe:** commits `335fede`, `b7236be`, `0ab79c7`, `eaf1d03`, `a34798d`.
