@@ -41,6 +41,35 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/*
+  Passagem de ficha no gesto lateral (SwipeNav). A ficha que sai continua
+  na direcao do dedo e some pela borda; a seguinte entra pela borda oposta.
+  Sem isso a troca acontecia sem nenhum movimento e no celular nao dava para
+  perceber que a ficha tinha mudado.
+
+  A saida comeca em `--passagem-origem`, que e onde o dedo largou o conteudo,
+  para o card nao dar um solavanco de volta ao centro antes de partir.
+*/
+@keyframes ficha-saida-esquerda {
+  from { transform: translate3d(var(--passagem-origem, 0px), 0, 0); opacity: 1; }
+  to { transform: translate3d(-100%, 0, 0); opacity: 0; }
+}
+
+@keyframes ficha-saida-direita {
+  from { transform: translate3d(var(--passagem-origem, 0px), 0, 0); opacity: 1; }
+  to { transform: translate3d(100%, 0, 0); opacity: 0; }
+}
+
+@keyframes ficha-entrada-direita {
+  from { transform: translate3d(100%, 0, 0); opacity: 0; }
+  to { transform: translate3d(0, 0, 0); opacity: 1; }
+}
+
+@keyframes ficha-entrada-esquerda {
+  from { transform: translate3d(-100%, 0, 0); opacity: 0; }
+  to { transform: translate3d(0, 0, 0); opacity: 1; }
+}
+
 @layer base {
   * {
     scrollbar-width: thin;
