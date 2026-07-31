@@ -173,3 +173,27 @@ ficam disponiveis sob demanda, sem custo de carga.
   ficha, que resolveria a descoberta do gesto (hoje ninguém sabe que ele existe até tentar) e de
   quebra daria links entre espécies para o Google.
 - **Detalhe:** commit `22305f2`
+
+## 2026-07-31 - frente `0001-equalizacao-de-textos` - agua doce: parametros fechados e piloto de voz
+**Quem:** Daniel Vieira (agente)
+- Pedido pelo sintoma, nao pela task: "a falta de padrao dos peixes de agua doce me incomoda, umas
+  fichas tem informacao e outras estao quase em branco". Medido, eram 809 celulas vazias nas 244
+  fichas, e as 25 quase vazias sao seguidas porque vieram de uma importacao em bloco que so trouxe
+  nome e familia. **Agua doce agora tem 100% dos parametros**: origem, pH, GH, KH, temperatura,
+  tamanho adulto e posicao no aquario, zero vazios. Ficha minima de 62% para 72%, placar de 2598 para
+  2011.
+- A leva comecou por ferramenta: `harvest-fish-params.ts` colhe no Seriously Fish e no FishBase,
+  `apply-fish-params.ts` grava no formato do ADR 0001 e so em campo vazio. Quatro correcoes de
+  leitura da fonte foram necessarias antes dos numeros ficarem confiaveis, entre elas o pH que vinha
+  como prosa sobre populacao selvagem e o tamanho que invadia a secao seguinte e trazia a medida do
+  movel no lugar da do peixe.
+- Task 11 entregue: `voz.md` mais o lote 01 com 20 fichas e 95 celulas de texto escritas do zero na
+  voz de aquarista, a partir do fato colhido e nunca traduzidas da fonte. Gate `--rule=voz --lote=01`
+  passa.
+- Tres achados que nao estavam no plano: nove nomes cientificos com o epiteto em maiuscula (que de
+  quebra escondiam a especie das duas bases), quatro pares de ficha duplicada que o validador nao ve
+  por comparar o nome cientifico como texto cru, e a `fonte` vazando anotacao de derivacao na cara do
+  leitor, so visivel ao abrir a pagina no navegador.
+- **Proximo:** sua revisao do lote 01 (`scripts/textos-pt/lote-01.json`), que destrava as outras 71
+  fichas de texto de agua doce e a cascata para en/es/ja.
+- **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0002-2026-07-31-agua-doce-parametros-e-piloto-de-voz.md`, commits `c6ce0e7`, `da66739`, `aee792d`

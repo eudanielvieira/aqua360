@@ -27,15 +27,15 @@ alwaysApply: true
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
   vendendo "Sem anúncios" como benefício de quem apoia, e não existe em lugar nenhum o aviso de
   divulgação de afiliado.
-- **SEO.** Frente nova, aberta e fechada na parte estrutural nesta sessão. O site servia o mesmo
-  título e a mesma descrição nas 926 URLs; agora o build grava o head de cada rota no HTML publicado,
-  com robots.txt fechando robô de treino de IA e sitemap de 925 URLs. Está pausada com um passo
-  seguinte claro e grande: URL por idioma. Detalhe no journal global.
-- **Gesto no mobile.** Frente pequena, aberta e entregue nesta pausa a pedido do Daniel: na ficha de
-  peixe, arrastar o dedo para o lado troca de espécie. Fica pausada com duas decisões abertas, ambas
-  de produto: estender às outras fichas e resolver a descoberta do gesto. Detalhe no journal global.
+- **SEO.** Estrutural entregue: o site servia o mesmo título e a mesma descrição nas 926 URLs, e
+  agora o build grava o head de cada rota no HTML publicado, com robots.txt fechando robô de treino
+  de IA e sitemap de 925 URLs. Pausada com um passo seguinte claro e grande: URL por idioma. Detalhe
+  no journal global.
+- **Gesto no mobile.** Frente pequena, entregue: na ficha de peixe, arrastar o dedo para o lado troca
+  de espécie. Pausada com duas decisões abertas, ambas de produto: estender às outras fichas e
+  resolver a descoberta do gesto. Detalhe no journal global.
 - Em paralelo, a normalização das ilustrações segue por demanda: chega arte nova pelo chat, entra pela
-  esteira. Nesta pausa entraram quatro.
+  esteira.
 
 ## Frentes
 > Uma linha por frente. Status: ativa | on-deck | concluida | pausada.
@@ -55,9 +55,10 @@ alwaysApply: true
 - **Lote piloto de texto esperando sua revisão** (`scripts/textos-pt/lote-01.json`, guia em
   `dxspec/specs/0001-equalizacao-de-textos/voz.md`). Enquanto não passar, a reescrita não escala.
 - **Quatro pares de ficha duplicada em água doce** esperando sua decisão de fundir ou manter (177/25,
-  178/176, 205/50, 163/237). Fundir apaga rota e mexe no sitemap e nas quatro traduções. Um alerta de conformidade: enquanto os links de afiliado subirem sem aviso
-  de divulgação, o site fica exposto nas regras de programas como o Amazon Associates, que exigem
-  aviso visível. Isso é decisão de produto, não trava código.
+  178/176, 205/50, 163/237). Fundir apaga rota e mexe no sitemap e nas quatro traduções.
+- Alerta de conformidade: enquanto os links de afiliado subirem sem aviso de divulgação, o site fica
+  exposto nas regras de programas como o Amazon Associates, que exigem aviso visível. Isso é decisão
+  de produto, não trava código.
 
 ## Todos soltos (nao pertencem a uma frente ainda)
 > Sete todos que estavam aqui viraram task da spec 0001 e saíram desta lista: família errada no Betta,
@@ -69,7 +70,7 @@ alwaysApply: true
 - [ ] **`/apoie` promete "Sem anúncios".** `support.json` em pt e es tem `benefit.adFree` ("Sem
       anúncios" / "Com seu apoio o Aqua360 continua 100% gratuito e sem propagandas"). Com propaganda
       no ar isso é falso na página onde a pessoa decide doar. O benefício precisa virar outro (por
-      exemplo, apoiar mantém o catálogo crescendo). A `description` em pt já saiu nesta sessão, de
+      exemplo, apoiar mantém o catálogo crescendo). A `description` em pt já saiu em 2026-07-31, de
       carona na limpeza de `--` da spec 0001 (commit `b5903b7`); em es, en e ja ela continua lá.
 - [ ] **Aviso de divulgação de afiliado.** Não existe em nenhuma página. Com os cards de princípio
       removidos, a Sobre agora não fala nada sobre monetização. Decidir o lugar: card novo na Sobre,
