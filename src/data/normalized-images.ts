@@ -27,6 +27,7 @@ export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
   'osteoglossumbicirrhosum',
   'paracheirodonaxelrodi',
   'pethiaconchonius',
+  'polypterussenegalus',
   'potamotrygonleopoldi',
   'potamotrygonmotoro',
   'pseudotropheusacei',
