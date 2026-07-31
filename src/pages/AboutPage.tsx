@@ -1,4 +1,4 @@
-import { Waves, Shield, Eye, Heart, ArrowLeftRight, Fish, Leaf, Gem, Calculator, GraduationCap } from 'lucide-react'
+import { Waves, Heart, ArrowLeftRight, Fish, Leaf, Gem, Calculator, GraduationCap } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import PageHeader from '../components/PageHeader'
@@ -16,8 +16,6 @@ export default function AboutPage() {
   ]
 
   const principles = [
-    { icon: Shield, color: 'text-emerald-500', bg: 'bg-emerald-500/10', titleKey: 'principle.noAds', descKey: 'principle.noAds.desc' },
-    { icon: Eye, color: 'text-blue-500', bg: 'bg-blue-500/10', titleKey: 'principle.transparent', descKey: 'principle.transparent.desc' },
     { icon: Heart, color: 'text-rose-500', bg: 'bg-rose-500/10', titleKey: 'principle.community', descKey: 'principle.community.desc' },
   ]
 
@@ -40,7 +38,6 @@ export default function AboutPage() {
           <div className="space-y-4 text-sm text-text-secondary leading-relaxed">
             <p>{t('story.p1')}</p>
             <p>{t('story.p2')}</p>
-            <p>{t('story.p3')}</p>
           </div>
         </div>
 
