@@ -13,11 +13,11 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (segunda pausa do dia)
 
 ## Foco atual
 - Nenhuma frente ativa. A normalização das ilustrações roda por demanda: chega arte nova, entra pela
-  esteira. O trabalho de hoje está commitado, verificado no navegador e publicado.
+  esteira. O último trabalho foi a revisão da página Sobre, commitado e verificado no navegador.
 
 ## Frentes
 > Uma linha por frente. Status: ativa | on-deck | concluida | pausada.
@@ -39,6 +39,12 @@ alwaysApply: true
       Disco (180) vira "Three-Bar Damselfish". As duas fusões de hoje já eliminaram dois casos. O
       conserto é rechavear os quatro `data-*.json` incluindo o tipo (ex: `agua-doce:194`) e ajustar o
       hook.
+- [ ] Replicar em en, es e ja a correção da página Sobre. Os três seguem dizendo 707 peixes e "mais de
+      788 espécies", e usam `--` como travessão. As chaves batem com o português, então é só trocar os
+      valores. O japonês precisa de alguém que leia, o agente só trocaria os números.
+- [ ] Números do acervo estão escritos à mão em dois lugares e desencontram sozinhos: nos quatro
+      `about.json` e nas contagens fixas de `src/data/fish-index.ts`. Vale derivar do dado, via
+      interpolação do i18next, como a home já faz com `count`.
 - [ ] Normalizar o resto do acervo. 33 das 724 imagens em `public/images` estão tratadas; o restante
       ainda é o arquivo antigo de 180x135. O caminho é jogar os originais em `source-images/` e rodar
       `bun run normalize-images <nome>`, que já atualiza o manifesto sozinho.
@@ -56,9 +62,10 @@ alwaysApply: true
       Não vieram deste trabalho, mas seguram qualquer gate de CI que rode `bun run lint`.
 
 ## Notas de operacao
-- **Publicacao e automatica.** Os commits vao para `origin/main` logo depois de criados, sem que o
-  agente rode `git push` (o reflog de `origin/main` registra 64 `update by push`). Não existe fila de
-  commits locais esperando deploy; assuma que o que foi commitado já está publicado.
+- **Publicacao e automatica, mas nao imediata.** Os commits vão para `origin/main` sem que o agente
+  rode `git push` (o reflog de `origin/main` registra dezenas de `update by push`), só que o disparo
+  atrasa: nesta pausa `main` ficou `ahead 2`. Antes de afirmar que algo está no ar, rode
+  `git fetch origin && git status -sb` em vez de assumir.
 - **O script de imagens roda em node, nao em bun.** O alocador do bun quebra com as chamadas nativas
   do sharp e derruba o lote com SIGTRAP. O `package.json` já aponta para `node`.
 - **Arte nova chega pelo chat.** O arquivo em resolução cheia fica em

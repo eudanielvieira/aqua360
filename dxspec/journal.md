@@ -56,3 +56,18 @@ ficam disponiveis sob demanda, sem custo de carga.
   `HEAD` está igual a `origin/main`. Tudo já foi publicado.
 - **Proximo:** decidir se migra o chaveamento das traduções para acabar com as 74 colisões.
 - **Detalhe:** de `5a49be7` a `dbfa570`, 18 commits.
+
+## 2026-07-31 - board - revisao da pagina Sobre
+**Quem:** Daniel Vieira (agente)
+- Revisão do `about.json` em português. O problema real não era escrita, eram números: o catálogo
+  dizia 707 peixes e são 705, e "mais de 788 espécies" subestimava o acervo, que somando peixes,
+  invertebrados, plantas e corais dá 890. O arquivo também estava inteiro sem acentuação e usava `--`
+  como travessão.
+- A contagem fixa de 247 em `fish-index.ts` ficou desatualizada quando removi os dois registros
+  duplicados na sessão anterior. Ela alimenta a lista de categorias e o total de animais da home, que
+  mostravam um peixe a mais do que existe. Corrigida para 245.
+- Ajuste da nota anterior: registrei que a publicação era automática e imediata. É automática, mas não
+  imediata. Ao fechar esta sessão `main` está `ahead 2` de `origin/main`, com o handoff anterior e o
+  commit da página Sobre ainda não publicados.
+- **Proximo:** replicar os números corrigidos em en, es e ja, que seguem com 707, 788 e os `--`.
+- **Detalhe:** commit `5b715ff`.
