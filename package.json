@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && bun run scripts/generate-seo.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "parse-data": "bun run scripts/parse-sql-data.ts",
     "validate-data": "bun run scripts/validate-data.ts",
     "enrich": "bun run scripts/enrich-data.ts",
     "translate-fish": "bun run scripts/translate-fish.ts",
-    "normalize-images": "node scripts/normalize-images.ts"
+    "normalize-images": "node scripts/normalize-images.ts",
+    "generate-seo": "bun run scripts/generate-seo.ts",
+    "generate-og-image": "node scripts/generate-og-image.ts"
   },
   "dependencies": {
     "i18next": "^25.8.19",

@@ -10,6 +10,8 @@ import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import ExternalLinks from '../components/ExternalLinks'
 import SimilarSpecies from '../components/SimilarSpecies'
+import SEO from '../components/SEO'
+import { plantMeta } from '../seo/meta'
 import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 import FavoriteButton from '../components/FavoriteButton'
 
@@ -54,6 +56,7 @@ export default function PlantDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+      <SEO {...plantMeta(translated ?? plant)} type="article" />
       <div className="flex items-start justify-between">
         <PageHeader title={translated?.nomePopular || plant.nomePopular} backTo="/plantas" />
         <FavoriteButton id={plant.id} type="plant" />

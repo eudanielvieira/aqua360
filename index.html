@@ -10,8 +10,33 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Aqua360" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
-    <meta name="description" content="O seu guia completo de aquarismo com dados cientificos atualizados" />
+    <!--
+      Tudo entre os marcadores seo e reescrito por rota no build, pelo
+      scripts/generate-seo.ts. O que esta aqui e o padrao: vale no dev e nas
+      URLs que caem no fallback do SPA sem ter pagina gerada.
+      Nao editar a mao sem ajustar o gerador junto.
+
+      Quando o app sobe, o src/seo/prerendered.ts apaga este bloco: o React
+      remonta as mesmas tags, e sem a limpeza o head ficaria com duas
+      description e dois canonical divergentes.
+    -->
+    <!--seo-->
     <title>Aqua360 - O seu guia completo de aquarismo</title>
+    <meta name="description" content="Guia de aquarismo com fichas de peixes, plantas, corais e doenças: parâmetros de água, compatibilidade, mapas de distribuição e calculadoras." />
+    <meta name="robots" content="index, follow, max-snippet:160, max-image-preview:large, max-video-preview:0" />
+    <link rel="canonical" href="https://aqua360.vercel.app/" />
+    <meta property="og:site_name" content="Aqua360" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aqua360.vercel.app/" />
+    <meta property="og:title" content="Aqua360 - O seu guia completo de aquarismo" />
+    <meta property="og:description" content="Guia de aquarismo com fichas de peixes, plantas, corais e doenças: parâmetros de água, compatibilidade, mapas de distribuição e calculadoras." />
+    <meta property="og:image" content="https://aqua360.vercel.app/og-image.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aqua360 - O seu guia completo de aquarismo" />
+    <meta name="twitter:description" content="Guia de aquarismo com fichas de peixes, plantas, corais e doenças: parâmetros de água, compatibilidade, mapas de distribuição e calculadoras." />
+    <meta name="twitter:image" content="https://aqua360.vercel.app/og-image.png" />
+    <!--/seo-->
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PSSXYRC64"></script>
     <script>

@@ -9,6 +9,8 @@ import ParamCard from '../components/ParamCard'
 import TaxonomyTree from '../components/TaxonomyTree'
 import CommunityPhotos from '../components/CommunityPhotos'
 import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
+import SEO from '../components/SEO'
+import { coralMeta } from '../seo/meta'
 import ExternalLinks from '../components/ExternalLinks'
 import { Gem, Shell, Hexagon, Circle } from 'lucide-react'
 import FavoriteButton from '../components/FavoriteButton'
@@ -64,6 +66,7 @@ export default function CoralDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+      <SEO {...coralMeta(translated ?? coral)} type="article" />
       <div className="flex items-start justify-between">
         <PageHeader title={translated?.nomePopular || coral.nomePopular} backTo="/corais" />
         <FavoriteButton id={coral.id} type="coral" />

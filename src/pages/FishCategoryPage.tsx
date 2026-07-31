@@ -6,6 +6,8 @@ import type { Fish } from '../types'
 import { useSearch } from '../hooks/useSearch'
 import { useTranslatedSpeciesList } from '../hooks/useTranslatedSpecies'
 import PageHeader from '../components/PageHeader'
+import SEO from '../components/SEO'
+import { fishCategoryPages } from '../seo/meta'
 import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
 import QuickFilters, { fishFilters, invertFreshFilters, invertSaltFilters } from '../components/QuickFilters'
@@ -59,6 +61,7 @@ export default function FishCategoryPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-6">
+      {slug && fishCategoryPages[slug] && <SEO {...fishCategoryPages[slug]} />}
       <PageHeader
         title={slug ? t(`fish:category.${slugToKey[slug] || 'freshwater'}`) : t('fish:title')}
         subtitle={t('common:speciesFound', { count: filtered.length })}

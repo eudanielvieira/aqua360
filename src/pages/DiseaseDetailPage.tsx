@@ -6,6 +6,8 @@ import { getImageUrl } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import DetailRow from '../components/DetailRow'
 import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
+import SEO from '../components/SEO'
+import { diseaseMeta } from '../seo/meta'
 import { Bug, Microscope, Leaf, CircleDot, HelpCircle, Dna } from 'lucide-react'
 
 const categoryConfig: Record<DiseaseCategory, {
@@ -60,6 +62,7 @@ export default function DiseaseDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+      <SEO {...diseaseMeta(translated ?? disease)} type="article" />
       <PageHeader title={translated?.nome || disease.nome} backTo="/doencas" />
 
       <div className="bg-card rounded-2xl shadow-sm shadow-black/5 overflow-hidden">

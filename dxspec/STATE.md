@@ -26,6 +26,10 @@ alwaysApply: true
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
   vendendo "Sem anúncios" como benefício de quem apoia, e não existe em lugar nenhum o aviso de
   divulgação de afiliado.
+- **SEO.** Frente nova e já entregue na parte estrutural. O site inteiro servia o mesmo título e a
+  mesma descrição nas 926 URLs, porque o HTML da SPA é uma casca só e o `SEO.tsx` estava ligado em
+  uma única página. Agora o build grava o head de cada rota direto no HTML publicado, com robots.txt
+  fechando robô de treino de IA e sitemap de 925 URLs. O que falta é URL por idioma.
 - Em paralelo, a normalização das ilustrações segue por demanda: chega arte nova pelo chat, entra pela
   esteira. Nesta pausa entraram quatro.
 
@@ -36,6 +40,7 @@ alwaysApply: true
 |--------|--------|-------------|------------------------|
 | Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
+| SEO (sem spec própria) | ativa | - | Base no ar: head por rota gerado no build, robots.txt, sitemap com 925 URLs. Falta URL por idioma (`/en/...` + hreflang), que é o que destrava os outros três idiomas |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
 | Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 

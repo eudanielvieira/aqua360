@@ -14,6 +14,7 @@ import SimilarSpecies from '../components/SimilarSpecies'
 import SpeciesBadges from '../components/SpeciesBadges'
 import FavoriteButton from '../components/FavoriteButton'
 import SEO from '../components/SEO'
+import { fishMeta } from '../seo/meta'
 import { useTranslatedSpecies } from '../hooks/useTranslatedSpecies'
 
 const DistributionMap = lazy(() => import('../components/DistributionMap'))
@@ -96,7 +97,7 @@ export default function FishDetailPage() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <SEO title={f.nomePopular} description={`${f.nomePopular} (${fish.nomeCientifico}) - pH ${fish.ph}, ${fish.temperatura}. ${f.comportamento?.slice(0, 100)}`} />
+      <SEO {...fishMeta(f)} type="article" />
       <div className="flex items-start justify-between">
         <PageHeader backTo={`/peixes/${slug}`} />
         <FavoriteButton id={fish.id} type="fish" slug={slug} />

@@ -22,6 +22,8 @@ import {
 import { useDarkMode } from '../hooks/useDarkMode'
 import { useTranslation } from 'react-i18next'
 import Footer from './Footer'
+import SEO from './SEO'
+import { staticPages } from '../seo/meta'
 
 const mainNav = [
   { path: '/peixes', label: 'nav.fish', icon: Fish },
@@ -79,8 +81,15 @@ export default function Layout() {
     )
   }
 
+  // Head das rotas sem parametro, num lugar so em vez de repetido em treze
+  // paginas. As de detalhe nao entram aqui: elas montam o proprio SEO a partir
+  // da ficha carregada, e por serem descendentes do Outlet o Helmet da pagina
+  // vence o do Layout.
+  const staticMeta = staticPages[location.pathname]
+
   return (
     <div className="min-h-screen flex flex-col bg-surface">
+      {staticMeta && <SEO {...staticMeta} />}
       <header className="bg-card sticky top-0 z-40 border-b border-border">
         <div className="max-w-3xl mx-auto px-4 h-14 flex items-center gap-4">
           <Link to="/" className="flex items-center gap-2.5 font-bold text-text tracking-tight">

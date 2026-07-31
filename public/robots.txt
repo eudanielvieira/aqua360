@@ -1,0 +1,72 @@
+# Aqua360 - regras de rastreamento
+#
+# A politica e simples: buscador entra, robo de treino de IA nao entra.
+# O acervo e aberto para quem procura uma especie no Google; nao e materia
+# prima gratuita para modelo de linguagem de terceiro.
+#
+# A pagina /busca continua liberada aqui de proposito. Ela e "noindex" pela
+# meta tag, e bloquear no robots.txt teria o efeito contrario ao desejado:
+# o Google nunca baixaria a pagina e portanto nunca leria o noindex dela.
+
+# --- Buscadores: liberados ---------------------------------------------------
+
+User-agent: *
+Allow: /
+
+# --- Treino e embasamento de IA: bloqueados ----------------------------------
+#
+# Google-Extended nao afeta o ranking da Busca. Ele controla so o uso do
+# conteudo pelo Gemini e pelos AI Overviews, entao da para sair da resposta
+# gerada sem perder posicao no resultado organico.
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+# --- Nao bloqueados, e por que ------------------------------------------------
+#
+# OAI-SearchBot e ChatGPT-User nao entram na lista acima. Eles nao treinam
+# modelo: sao a busca do ChatGPT e o acesso disparado por um usuario, e citam
+# a fonte com link. Bloquear os dois tiraria o Aqua360 das respostas com
+# credito sem impedir treino nenhum. Se um dia a decisao mudar, e so mover os
+# dois nomes para o bloco de cima.
+
+Sitemap: https://aqua360.vercel.app/sitemap.xml

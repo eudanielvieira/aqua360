@@ -7,6 +7,9 @@ import { useInstallPWA } from '../hooks/useInstallPWA'
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Footer from '../components/Footer'
+import SEO from '../components/SEO'
+import { staticPages } from '../seo/meta'
+import { siteOrganization } from '../seo/jsonld'
 
 const totalAnimals = fishCategories.reduce((sum, c) => sum + c.count, 0)
 
@@ -137,6 +140,8 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-surface flex flex-col">
+      {/* A home fica fora do Layout, entao monta o proprio head. */}
+      <SEO {...staticPages['/']} jsonLd={[siteOrganization()]} />
       {showBanner && (
         <div className="bg-primary">
           <div className="max-w-3xl mx-auto px-4 py-4 flex items-center gap-4">
