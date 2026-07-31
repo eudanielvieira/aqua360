@@ -5485,11 +5485,11 @@ const data: Fish[] = [
     "origem": "África, oeste e central, bacia do Nilo e afluentes",
     "outrasInformacoes": "Tamanho mínimo do aquário de 200 litros   ",
     "outrosNome": "Bichir de cuvier, Dinossaur eel (ing)",
-    "ph": "a",
+    "ph": "6.5 a 7.5",
     "posicaoAquario": "Fundo do Aquário",
     "reproducao": "O macho persegue a fêmea por várias horas antes da desova. Depositados os ovos, o macho os fertilizará. É recomendado separar os filhotes porque o canibalismo é comum entre os alevinos.   ",
-    "tamanhoAdulto": "cm",
-    "temperatura": "a ºC",
+    "tamanhoAdulto": "30 cm",
+    "temperatura": "24 a 28 ºC",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
     "fonte": "",
@@ -10252,49 +10252,6 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/344473796/medium.jpg"
       ],
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chitala_Ornata.jpg/800px-Chitala_Ornata.jpg"
-    }
-  },
-  {
-    "id": 251,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "Semi-agressivo, peixe primitivo com pulmões",
-    "diformismoSexual": "",
-    "familia": "Polypteridae",
-    "gh": "",
-    "imagem": "",
-    "kh": "",
-    "nomeCientifico": "Polypterus senegalus",
-    "nomePopular": "Polypterus Senegalus",
-    "origem": "",
-    "outrasInformacoes": "Aquário mínimo: 200 litros.",
-    "outrosNome": "",
-    "ph": "6.5 a 7.5",
-    "posicaoAquario": "",
-    "reproducao": "",
-    "tamanhoAdulto": "30 cm",
-    "temperatura": "24 a 28 ºC",
-    "tipo": "PEIXESDULCICOLAS",
-    "subTipo": "",
-    "fonte": "",
-    "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:14.713Z",
-      "gbifTaxonKey": 4287129,
-      "taxonomia": {
-        "reino": "Animalia",
-        "filo": "Chordata",
-        "classe": "",
-        "ordem": "Polypteriformes",
-        "familia": "Polypteridae",
-        "genero": "Polypterus",
-        "especie": "Polypterus senegalus"
-      },
-      "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/244169297/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/243650469/medium.jpeg",
-        "https://static.inaturalist.org/photos/61682113/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Polypterus_senegalus_Natural_History_Museum_University_of_Pisa.jpg/800px-Polypterus_senegalus_Natural_History_Museum_University_of_Pisa.jpg"
     }
   }
 ]

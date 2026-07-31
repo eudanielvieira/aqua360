@@ -2207,11 +2207,6 @@
     "comportamento": "Predador noturno, come peixes menores. Pet fish.",
     "outrasInformacoes": "Aquário mínimo: 800 litros."
   },
-  "agua-doce:251": {
-    "nomePopular": "Polypterus Senegalus",
-    "comportamento": "Semi-agressivo, peixe primitivo com pulmões",
-    "outrasInformacoes": "Aquário mínimo: 200 litros."
-  },
   "agua-salgada:177": {
     "nomePopular": "Mao Mao",
     "alimentacao": "Podem ser carnívoros ou herbívoros, mas a maioria é onívora. O que facilita muito sua alimentação. Seus alimentos são algas, pequenos crustáceos, vermes e mesmo alimento flocados e secos. Não deve ficar sem proteínas frescas.",
