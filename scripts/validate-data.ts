@@ -15,7 +15,7 @@
  * Aviso nunca derruba o gate: serve para o humano olhar.
  */
 
-import { readdirSync, existsSync } from 'node:fs'
+import { readdirSync, existsSync, readFileSync, statSync } from 'node:fs'
 import { resolve, join } from 'node:path'
 import type { Fish } from '../src/types'
 
@@ -218,6 +218,23 @@ function achatar(obj: unknown, prefixo = ''): [string, string][] {
   for (const [k, v] of Object.entries(obj as Record<string, unknown>)) {
     if (typeof v === 'string') saida.push([prefixo + k, v])
     else if (v && typeof v === 'object') saida.push(...achatar(v, `${prefixo}${k}.`))
+  }
+  return saida
+}
+
+/**
+ * Chaves como o i18next as enxerga: array e folha.
+ *
+ * `type.marine.steps` e um array de 8 passos que o codigo pede inteiro com
+ * `returnObjects`. Achatar em `.0` ate `.7` faria a chave que o codigo pede
+ * parecer inexistente.
+ */
+function chavesDeLocale(obj: unknown, prefixo = ''): string[] {
+  const saida: string[] = []
+  if (!obj || typeof obj !== 'object') return saida
+  for (const [k, v] of Object.entries(obj as Record<string, unknown>)) {
+    if (typeof v === 'string' || Array.isArray(v)) saida.push(prefixo + k)
+    else if (v && typeof v === 'object') saida.push(...chavesDeLocale(v, `${prefixo}${k}.`))
   }
   return saida
 }
@@ -510,13 +527,89 @@ const regraAcentuacao: Regra = (ctx) => {
   return v
 }
 
+/** Arquivos de codigo que consomem traducao. */
+function arquivosDeCodigo(dir: string): string[] {
+  const saida: string[] = []
+  for (const nome of readdirSync(dir)) {
+    const p = join(dir, nome)
+    if (statSync(p).isDirectory()) {
+      if (nome !== 'data' && nome !== 'assets') saida.push(...arquivosDeCodigo(p))
+    } else if (/\.tsx?$/.test(nome)) saida.push(p)
+  }
+  return saida
+}
+
+/**
+ * Chaves que o codigo pede via `t()`, com o namespace resolvido.
+ *
+ * Chave em template literal (`cycling.step${i}.day`) vira padrao com curinga:
+ * basta uma chave real casar para o pedido estar atendido.
+ */
+function chavesPedidasPeloCodigo(): { arquivo: string; ns: string; chave: string; padrao: boolean }[] {
+  const pedidos: { arquivo: string; ns: string; chave: string; padrao: boolean }[] = []
+
+  for (const arquivo of arquivosDeCodigo(join(ROOT, 'src'))) {
+    const texto = readFileSync(arquivo, 'utf8')
+
+    // Namespaces declarados no arquivo, para resolver chave sem prefixo.
+    const declarados: string[] = []
+    for (const m of texto.matchAll(/useTranslation\(\s*(\[[^\]]*\]|'[^']*'|"[^"]*")/g)) {
+      for (const n of m[1].matchAll(/['"]([^'"]+)['"]/g)) declarados.push(n[1])
+    }
+    if (declarados.length === 0) declarados.push('common')
+
+    for (const m of texto.matchAll(/\bt\(\s*(['"`])((?:[^'"`\\]|\\.)*?)\1/g)) {
+      const bruto = m[2]
+      if (!bruto || /^\s*$/.test(bruto)) continue
+      const temTemplate = bruto.includes('${')
+      const [ns, chave] = bruto.includes(':')
+        ? [bruto.slice(0, bruto.indexOf(':')), bruto.slice(bruto.indexOf(':') + 1)]
+        : [declarados[0], bruto]
+      // Namespace desconhecido significa que o ":" era outra coisa, nao prefixo.
+      if (!NAMESPACES.includes(ns)) continue
+      pedidos.push({ arquivo: arquivo.replace(ROOT + '/', ''), ns, chave, padrao: temTemplate })
+    }
+  }
+  return pedidos
+}
+
+/** Namespaces de UI registrados no app. */
+const NAMESPACES = [
+  'common', 'home', 'fish', 'plants', 'corals', 'diseases', 'calculators',
+  'compatibility', 'glossary', 'guides', 'filters', 'builder', 'support',
+  'search', 'about',
+]
+
 /** AC-10: paridade de chaves de UI entre os quatro idiomas. */
 const regraParidade: Regra = (ctx) => {
   const v: Violacao[] = []
   const uiPt = Object.entries(ctx.locales['pt-BR']).filter(([n]) => !n.startsWith('data-'))
 
+  // O codigo e a fonte da demanda: chave que ele pede e o pt-BR nao tem quebra
+  // os quatro idiomas de uma vez, e a comparacao entre locales nao ve isso.
+  const disponiveis = new Map<string, Set<string>>()
   for (const [nome, conteudo] of uiPt) {
-    const referencia = new Set(achatar(conteudo).map(([k]) => k))
+    disponiveis.set(nome.replace('.json', ''), new Set(chavesDeLocale(conteudo)))
+  }
+  for (const pedido of chavesPedidasPeloCodigo()) {
+    const doNs = disponiveis.get(pedido.ns)
+    if (!doNs) continue
+    const atende = pedido.padrao
+      ? [...doNs].some((k) => new RegExp('^' + pedido.chave.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\\$\\\{[^}]*\\\}/g, '.+') + '$').test(k))
+      : doNs.has(pedido.chave)
+    if (!atende) {
+      v.push({
+        regra: 'paridade',
+        tipo: 'chave-pedida-pelo-codigo',
+        severidade: 'bloqueante',
+        alvo: `${pedido.ns}:${pedido.chave}`,
+        detalhe: `${pedido.arquivo} pede esta chave e nenhum idioma a define`,
+      })
+    }
+  }
+
+  for (const [nome, conteudo] of uiPt) {
+    const referencia = new Set(chavesDeLocale(conteudo))
     for (const locale of LOCALES) {
       if (locale === 'pt-BR') continue
       if (ctx.filtroLocale && locale !== ctx.filtroLocale) continue
@@ -525,7 +618,7 @@ const regraParidade: Regra = (ctx) => {
         v.push({ regra: 'paridade', tipo: 'namespace-ausente', severidade: 'bloqueante', alvo: `${locale}/${nome}`, detalhe: 'namespace nao existe neste idioma' })
         continue
       }
-      const chaves = new Set(achatar(outro).map(([k]) => k))
+      const chaves = new Set(chavesDeLocale(outro))
       for (const k of referencia) {
         if (!chaves.has(k)) {
           v.push({ regra: 'paridade', tipo: 'chave-ausente', severidade: 'bloqueante', alvo: `${locale}/${nome}:${k}`, detalhe: 'cai no fallback pt-BR' })

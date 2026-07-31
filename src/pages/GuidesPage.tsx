@@ -56,9 +56,14 @@ export default function GuidesPage() {
   ]
 
   const cyclingStepIcons = [Filter, FlaskConical, Droplets, Thermometer, Clock, CheckCircle]
-  const cyclingSteps = (t('cyclingSteps', { returnObjects: true }) as { day: string; title: string; desc: string }[]).map((step, i) => ({
-    ...step,
-    icon: cyclingStepIcons[i] || CheckCircle,
+  // Os seis passos vivem como chaves soltas (`cycling.step1.day` e afins) nos
+  // quatro idiomas. O codigo pedia um array `cyclingSteps` que nunca existiu, e
+  // o `.map` num retorno de string derrubava a pagina inteira.
+  const cyclingSteps = cyclingStepIcons.map((icon, i) => ({
+    day: t(`cycling.step${i + 1}.day`),
+    title: t(`cycling.step${i + 1}.title`),
+    desc: t(`cycling.step${i + 1}.desc`),
+    icon,
   }))
 
   return (
