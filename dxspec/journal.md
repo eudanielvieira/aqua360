@@ -141,3 +141,35 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** URL por idioma (`/en/`, `/es/`, `/ja/`) com hreflang. É o que falta para os outros três
   idiomas saírem do escuro: hoje os quatro dividem a mesma URL e o Google indexa um só.
 - **Detalhe:** commit `8c28378`; a seção SEO do `README.md` documenta o arranjo.
+
+## 2026-07-31 - board - arrastar de lado troca de peixe no mobile
+**Quem:** Daniel Vieira (agente)
+- Pedido curto do Daniel: no celular, arrastar para o lado e cair no próximo peixe. Entregue na ficha
+  de peixe. Arrastar para a esquerda abre a próxima espécie, para a direita volta para a anterior, e
+  enquanto o dedo anda a ficha acompanha com 40% do arrasto (o resto vira resistência) com uma
+  etiqueta na lateral mostrando qual espécie vem a seguir.
+- A ordem do gesto é a mesma da listagem da categoria (ordenada pelo nome popular em pt), então a
+  sequência que a pessoa viu na lista é a que o dedo percorre. Nas pontas o gesto só faz o conteúdo
+  ceder um pouco e voltar, sem etiqueta.
+- O que mais importa aqui não é o gesto, é o que ele **não** pode atropelar. Trava de direção nos
+  primeiros 12px, e se o movimento for mais vertical que horizontal a rolagem ganha e o gesto é
+  abortado. Os 28px da borda esquerda ficam reservados ao "voltar" do navegador, que usa essa faixa
+  no iOS e no Chrome do Android. O mapa de distribuição arrasta sozinho pelo Leaflet e foi marcado com
+  `data-swipe-ignore`, um atributo que o hook procura via `closest` na origem do toque. O
+  `touch-action: pan-y pinch-zoom` deixa rolagem e zoom com o navegador e reserva só o eixo horizontal.
+- Detalhe de implementação que evita jank em celular fraco: o conteúdo entra no `SwipeNav` por
+  `children`, então o arrasto redesenha só a casca a cada quadro e a ficha inteira (imagens, mapa,
+  taxonomia) não é redesenhada junto.
+- Uma correção de carona que o gesto exigiu: o app não tinha reset de rolagem na troca de rota, então
+  a ficha nova abria na altura em que a anterior estava. O `SwipeNav` chama `window.scrollTo` ao
+  navegar. Vale saber que a navegação por link continua sem esse reset em qualquer outra tela.
+- Verificado no navegador em viewport de 390x844 com eventos de toque sintéticos: os dois sentidos, o
+  arrasto curto que volta sem trocar, o vertical que não navega, o que começa na borda e não navega, o
+  de dentro do mapa que não navega, a ponta da lista freada sem etiqueta e a ficha nova abrindo no
+  topo. `tsc -b` limpo e `eslint` sem erro nos três arquivos; os 71 do `bun run lint` seguem os mesmos
+  pré-existentes.
+- **Proximo:** decidir duas coisas. Se o gesto vale também em plantas, corais e doenças (o `SwipeNav`
+  já é reutilizável, é só envolver o conteúdo) e se entra uma barra de anterior/próxima no rodapé da
+  ficha, que resolveria a descoberta do gesto (hoje ninguém sabe que ele existe até tentar) e de
+  quebra daria links entre espécies para o Google.
+- **Detalhe:** commit `22305f2`

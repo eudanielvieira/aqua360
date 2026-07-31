@@ -13,7 +13,7 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (quinta pausa do dia, frente de SEO)
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (sexta pausa do dia, gesto de arrastar no mobile)
 
 ## Foco atual
 - **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. A leva mecânica
@@ -30,6 +30,9 @@ alwaysApply: true
   título e a mesma descrição nas 926 URLs; agora o build grava o head de cada rota no HTML publicado,
   com robots.txt fechando robô de treino de IA e sitemap de 925 URLs. Está pausada com um passo
   seguinte claro e grande: URL por idioma. Detalhe no journal global.
+- **Gesto no mobile.** Frente pequena, aberta e entregue nesta pausa a pedido do Daniel: na ficha de
+  peixe, arrastar o dedo para o lado troca de espécie. Fica pausada com duas decisões abertas, ambas
+  de produto: estender às outras fichas e resolver a descoberta do gesto. Detalhe no journal global.
 - Em paralelo, a normalização das ilustrações segue por demanda: chega arte nova pelo chat, entra pela
   esteira. Nesta pausa entraram quatro.
 
@@ -41,6 +44,7 @@ alwaysApply: true
 | Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
 | SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
+| Gesto no mobile (sem spec própria) | pausada | - | Entregue na ficha de peixe (commit `22305f2`): arrastar para o lado troca de espécie, na ordem da listagem. Próximo: decidir se vale em plantas, corais e doenças (`SwipeNav` já é reutilizável) e se entra barra de anterior/próxima no rodapé, que resolve a descoberta do gesto |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
 | Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 
@@ -74,6 +78,14 @@ alwaysApply: true
       dado antigo. Renomear exige mexer no arquivo e no campo `imagem` do Acará Disco ao mesmo tempo.
 - [ ] 71 erros de lint pré-existentes no projeto, a maioria `no-explicit-any` e `set-state-in-effect`.
       Não vieram deste trabalho, mas seguram qualquer gate de CI que rode `bun run lint`.
+- [ ] **O projeto não tem runner de teste.** Não existe `vitest` nem script `test` no `package.json`, e
+      a verificação de cada entrega tem sido manual no navegador. Enquanto isso não muda, nenhum gate
+      de CI consegue exigir teste, e coisas como o gesto de arrastar (que tem regra de borda: trava de
+      direção, faixa da borda, zona ignorada) ficam sem rede de proteção contra regressão.
+- [ ] **Rolagem não volta ao topo ao trocar de rota por link.** O app nunca teve reset de rolagem; o
+      `SwipeNav` resolveu só no caminho do gesto, chamando `window.scrollTo` ao navegar. Quem abre uma
+      espécie parecida pelo rodapé da ficha continua caindo no meio da página nova. A correção certa é
+      um reset por mudança de rota no `Layout`, uma linha para todas as telas.
 - [ ] **Enviar o sitemap no Google Search Console.** `https://aqua360.vercel.app/sitemap.xml` está no
       ar e declarado no `robots.txt`, mas sem submeter a indexação das 925 URLs demora muito mais.
       Depende de acesso do Daniel, não tem como o agente fazer.
