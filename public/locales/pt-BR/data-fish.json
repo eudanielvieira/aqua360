@@ -97,6 +97,7 @@
     "comportamento": "São pacíficos e bastante sociáveis, mas não pode ser mantido mais de um macho por aquário. É aconselhável a formação de um pequeno harém.",
     "diformismoSexual": "Como foi dito nas suas características, a diferenciação entre machos e fêmeas é bem distinta.",
     "origem": "América do Sul, sul da região",
+    "posicaoAquario": "Todo o aquário",
     "reproducao": "Sua reprodução em cativeiro é relativamente fácil; a fêmea deposita os ovos no ninho previamente escolhido (gruta, fresta de pedras, buracos cavados no substrato, cantos de troncos, etc) e logo depois o macho faz a fertilização. A eclosão acontece em aproximadamente 72 horas."
   },
   "agua-doce:10": {
@@ -1043,6 +1044,7 @@
     "diformismoSexual": "A fêmea, para além de ser mais pequena que o macho, possui a zona do ventre rosada e o macho possui o segundo raio da barbatana dorsal mais longo.",
     "origem": "Brasil / Bolívia",
     "outrasInformacoes": "É um peixe bastante sensível a mudanças bruscas na qualidade da água.",
+    "posicaoAquario": "Todo o aquário",
     "reproducao": "A postura é feita sobre uma superfície lisa e plana, como pedras ou folhas. Os ovos eclodirão dentro de, mais ou menos, 72 horas. Após a eclosão, os alevins irão consumir o saco-vitelino, depois deverão ser alimentados com artêmia recém-eclodida ou comida líquida própria para alevins. A segurança dos ovos é feita pelo casal."
   },
   "agua-doce:98": {
@@ -1311,6 +1313,7 @@
     "diformismoSexual": "Macho é menor e mais colorido que a fêmea.",
     "origem": "Sudeste da Ásia, Malasya e Singapura",
     "outrasInformacoes": "Pacíficos e coloridos, porém não são indicados para iniciantes, já que requerem parâmetros de água estáveis (água ácida e macia) e alimentação variada e cuidadosa. Também devem ser mantidos apenas com peixes menores e pacíficos pois tem a tendência a não se alimentar quando importunado.",
+    "posicaoAquario": "Todo o aquário",
     "reproducao": "Assim como o seu parentes (Colisa, Bettas), o macho constrói um ninho de bolhas e restos de plantas, cópula se dá embaixo do ninho onde os ovos caem da fêmea e são vertilizados pelo macho, que depois os carrega para o ninho, após a cópula a fêmea deve ser removida pois apenas o macho cuidará da ninhada, os ovos eclodirão em 2 ou 3 dias, os alevinos consumirão o saco vitelino e nadarão livremente pelo aquário após 4 dias, quando podem ser alimentados com infusórios e depois com nauplios de artêmia, o pai cuidará da cria durante aproximadamente 14 dias. O aquário para reprodução deve ter uma coluna de água baixa e muitas plantas flutuantes."
   },
   "agua-doce:124": {
@@ -1496,6 +1499,7 @@
     "comportamento": "São talvez os menores (em tamanho) dos mbunas, mas são sem dúvida alguma, um dos mais corajosos entre eles. Enfrentam peixe de porte muito maior, demonstrando uma agressividade bastante alta. São agressivos, territoriais, não toleram machos da mesma espécie e quando em grupos tem que estar em haréns de no mínimo quatro (o ideal é cinco ou seis) fêmeas para cada macho. São por muitos considerados um dos mais bonitos mbunas, mas o fato da sua agressividade muito alta deve sempre ser levada em consideração. Atacam (as vezes juntos, machos e fêmeas) peixes decores parecidas como Mbamba’s , Lombardois fêmeas, etc; independente do tamanho desses.",
     "diformismoSexual": "É praticamente impossível identificar machos de fêmeas. Alguns afirmam que as fêmeas seriam ligeiramente menores que os machos, mas isso não pode ser tomado como regra. Outros afirmam que o final da barbatana dorsal dos machos é sutilmente mais pontuda que as das fêmeas, mas outra vez isso não pode ser tido como regra.",
     "origem": "África - Lago Malawi (Mbuna)",
+    "posicaoAquario": "Todo o aquário",
     "reproducao": "Incubador bocal maternal. Dura aproximadamente 21 dias."
   },
   "agua-doce:141": {
@@ -1871,52 +1875,84 @@
     "reproducao": "Ovovivíparos; a fêmea incuba os ovos dentro do abdômen por um período que pode variar de quatro a seis semanas, dependendo da temperatura. Quando dá a luz já nascem indivíduos completamente formados."
   },
   "agua-doce:177": {
-    "nomePopular": "Kinguio / Peixe Dourado"
+    "nomePopular": "Kinguio / Peixe Dourado",
+    "origem": "Ásia, leste da China e Japão",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:178": {
-    "nomePopular": "Espadinha"
+    "nomePopular": "Espadinha",
+    "origem": "América do Norte e Central, de Veracruz no México ao noroeste de Honduras",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:179": {
-    "nomePopular": "Plati"
+    "nomePopular": "Plati",
+    "origem": "América do Norte e Central, de Veracruz no México ao norte de Belize",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:180": {
-    "nomePopular": "Disco"
+    "nomePopular": "Disco",
+    "origem": "América do Sul, bacia Amazônica no baixo rio Negro, no rio Abacaxis e no rio Trombetas",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:181": {
-    "nomePopular": "Coridora Bronze"
+    "nomePopular": "Coridora Bronze",
+    "origem": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:182": {
-    "nomePopular": "Cascudo Ancistrus"
+    "nomePopular": "Cascudo Ancistrus",
+    "origem": "América do Sul, sobretudo Brasil, Colômbia, Venezuela e Peru",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:183": {
-    "nomePopular": "Golden Oto"
+    "nomePopular": "Golden Oto",
+    "origem": "América do Sul, rios da região do Rio de Janeiro, no Brasil",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:184": {
-    "nomePopular": "Kuhli Loach / Cobra"
+    "nomePopular": "Kuhli Loach / Cobra",
+    "origem": "Ásia, Indonésia e península da Malásia",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:185": {
-    "nomePopular": "Rasbora Arlequim"
+    "nomePopular": "Rasbora Arlequim",
+    "origem": "Ásia, península Malaia, Singapura e Indonésia",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:186": {
-    "nomePopular": "Acara Severo"
+    "nomePopular": "Acara Severo",
+    "origem": "América do Sul, alto rio Orinoco na Colômbia e na Venezuela, e alto rio Negro na bacia Amazônica",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:187": {
-    "nomePopular": "Tucunare"
+    "nomePopular": "Tucunare",
+    "origem": "América do Sul, do rio Marowijne no Suriname e na Guiana Francesa até o rio Essequibo, na Guiana",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:188": {
-    "nomePopular": "Ciclideo Joia Vermelho"
+    "nomePopular": "Ciclideo Joia Vermelho",
+    "origem": "África, bacia do rio Congo na República Centro-Africana, no Congo e na República Democrática do Congo",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:189": {
-    "nomePopular": "Lambchop rasbora"
+    "nomePopular": "Lambchop rasbora",
+    "origem": "Ásia, Tailândia e Camboja",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:190": {
-    "nomePopular": "Rasbora Mosquito"
+    "nomePopular": "Rasbora Mosquito",
+    "origem": "Ásia, sul de Bornéu, na Indonésia",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:192": {
-    "nomePopular": "Gobi Pavao"
+    "nomePopular": "Gobi Pavao",
+    "origem": "Oceania, leste de Papua-Nova Guiné",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:193": {
-    "nomePopular": "Gobi Arco-Iris"
+    "nomePopular": "Gobi Arco-Iris",
+    "origem": "Ásia, ilha de Sumatra, na Indonésia",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:194": {
     "nomePopular": "Arco-Iris Threadfin",
@@ -1931,36 +1967,55 @@
     "reproducao": "Desova por dispersão, sem nenhum cuidado parental, e come os próprios ovos e alevinos se tiver chance. A fêmea solta poucos ovos por dia ao longo de vários dias, aderindo-os a raízes de plantas flutuantes ou a mechas de fibra. Temperatura na parte alta da faixa favorece a desova. Dá para conduzir de duas formas: separar um grupo de machos e fêmeas num aquário de desova com substrato próprio, ou manter uma colônia em aquário bem plantado e deixar que parte dos alevinos escape sozinha."
   },
   "agua-doce:195": {
-    "nomePopular": "Olho Azul de Furcata"
+    "nomePopular": "Olho Azul de Furcata",
+    "origem": "Oceania, planícies do leste de Papua-Nova Guiné",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:196": {
-    "nomePopular": "Neon Chines"
+    "nomePopular": "Neon Chines",
+    "origem": "Ásia, China e Vietnã, hoje considerado extinto na natureza",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:197": {
-    "nomePopular": "Barbo Rosa"
+    "nomePopular": "Barbo Rosa",
+    "origem": "Ásia, Afeganistão, Paquistão, Índia, Nepal e Bangladesh",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:198": {
-    "nomePopular": "Siames Comedor de Algas"
+    "nomePopular": "Siames Comedor de Algas",
+    "origem": "Ásia, da Tailândia à Indonésia",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:199": {
-    "nomePopular": "Comedor de Algas Chines"
+    "nomePopular": "Comedor de Algas Chines",
+    "origem": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong, e norte da península Malaia",
+    "posicaoAquario": "Vidros e superfícies"
   },
   "agua-doce:200": {
-    "nomePopular": "Peixe Borboleta Africano"
+    "nomePopular": "Peixe Borboleta Africano",
+    "origem": "África ocidental e central, da Nigéria e do lago Chade às bacias do Ogooué e do Congo",
+    "posicaoAquario": "Topo"
   },
   "agua-doce:201": {
-    "nomePopular": "Bagre Andador"
+    "nomePopular": "Bagre Andador",
+    "origem": "Ásia, ilha de Java, na Indonésia",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:202": {
-    "nomePopular": "Peixe Faca Negro"
+    "nomePopular": "Peixe Faca Negro",
+    "origem": "América do Sul, da Venezuela às bacias do Paraguai e do Paraná, e Amazônia peruana",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:203": {
-    "nomePopular": "Peixe Faca Transparente"
+    "nomePopular": "Peixe Faca Transparente",
+    "origem": "América do Sul, a leste dos Andes, da bacia do Orinoco à do rio da Prata",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:204": {
     "nomePopular": "Killifish Gardneri",
     "alimentacao": "Carnívoro, prefere alimentos vivos.",
     "comportamento": "Pacífico, pode ser mantido em casais.",
+    "origem": "África, bacia do rio Cross, na Nigéria e nos Camarões",
     "outrasInformacoes": "Aquário mínimo: 20 litros. Excelente para nano aquários.",
     "posicaoAquario": "Meio"
   },
@@ -1968,6 +2023,7 @@
     "nomePopular": "Microrasbora Galaxy",
     "alimentacao": "Onívoro, aceita micro rações e artêmias.",
     "comportamento": "Pacífico, vive em cardume de 8+.",
+    "origem": "Ásia, Myanmar",
     "outrasInformacoes": "Aquário mínimo: 15 litros. Um dos menores peixes de aquário.",
     "posicaoAquario": "Meio"
   },
@@ -1975,6 +2031,7 @@
     "nomePopular": "Molinésia Negra",
     "alimentacao": "Onívoro com tendência herbívora, come algas.",
     "comportamento": "Pacífico, vivíparo, reproduz facilmente.",
+    "origem": "América Central e do Sul, do México à Colômbia",
     "outrasInformacoes": "Aquário mínimo: 40 litros. Tolera água levemente salobra.",
     "posicaoAquario": "Todo o aquário"
   },
@@ -1982,6 +2039,7 @@
     "nomePopular": "Molinésia Balão",
     "alimentacao": "Onívoro, aceita rações e algas.",
     "comportamento": "Pacífico, corpo arredondado por seleção genética.",
+    "origem": "América do Norte, da Carolina do Norte nos Estados Unidos a Veracruz, no México",
     "outrasInformacoes": "Aquário mínimo: 40 litros. Variação ornamental da Molinésia.",
     "posicaoAquario": "Todo o aquário"
   },
@@ -1989,6 +2047,7 @@
     "nomePopular": "Limpa-vidro",
     "alimentacao": "Herbívoro, alimenta-se de algas e biofilme.",
     "comportamento": "Pacífico, vive em grupo de 5+. Excelente comedor de algas.",
+    "origem": "América do Sul, bacias dos rios Amazonas, Orinoco, Paraná, Paraguai, Xingu e Tocantins",
     "outrasInformacoes": "Aquário mínimo: 30 litros. O melhor peixe para controle de algas em aquários plantados.",
     "posicaoAquario": "Vidros e superfícies"
   },
@@ -1996,6 +2055,7 @@
     "nomePopular": "Acará Bandeira Koi",
     "alimentacao": "Onívoro, aceita rações, artêmias e pequenos peixes.",
     "comportamento": "Semi-agressivo na reprodução, pacífico em comunitários.",
+    "origem": "América do Sul, bacia Amazônica no Peru, na Colômbia e no Brasil",
     "outrasInformacoes": "Aquário mínimo: 100 litros. Variação ornamental com cores branca e laranja.",
     "posicaoAquario": "Meio"
   },
@@ -2003,6 +2063,7 @@
     "nomePopular": "Ciclídeo Papagaio",
     "alimentacao": "Onívoro, aceita rações, camarões e frutas.",
     "comportamento": "Semi-agressivo, territorial mas não predador. Interativo com o dono.",
+    "origem": "Híbrido criado em cativeiro, sem população natural",
     "outrasInformacoes": "Aquário mínimo: 150 litros. Híbrido ornamental, cores vibrantes. Considerado pet fish.",
     "posicaoAquario": "Todo o aquário"
   },
@@ -2010,6 +2071,7 @@
     "nomePopular": "Tetra Diamante",
     "alimentacao": "Onívoro, aceita rações e alimentos vivos.",
     "comportamento": "Pacífico, vive em cardume de 8+.",
+    "origem": "América do Sul, bacia do lago Valencia, na Venezuela",
     "outrasInformacoes": "Aquário mínimo: 60 litros. Escamas brilhantes que refletem a luz.",
     "posicaoAquario": "Meio"
   },
@@ -2017,6 +2079,7 @@
     "nomePopular": "Peixe Arco-Íris Boesemani",
     "alimentacao": "Onívoro, aceita todos os tipos de alimentos.",
     "comportamento": "Pacífico, ativo, vive em cardume de 6+.",
+    "origem": "Ásia, lagos Ayamaru na península de Doberai, na Papua Ocidental, Indonésia",
     "outrasInformacoes": "Aquário mínimo: 100 litros. Cores azul e laranja deslumbrantes nos machos.",
     "posicaoAquario": "Meio"
   },
@@ -2024,6 +2087,7 @@
     "nomePopular": "Aruanã Prata",
     "alimentacao": "Carnívoro, aceita peixes vivos, camarões, insetos e rações.",
     "comportamento": "Predador de superfície. Salta fora do aquário se não tiver tampa. Reconhece o dono.",
+    "origem": "América do Sul, bacia Amazônica e rios Rupununi e Oiapoque",
     "outrasInformacoes": "Aquário mínimo: 1000 litros (jumbo). Um dos peixes mais majestosos do aquarismo. Pet fish que come na mão.",
     "posicaoAquario": "Topo"
   },
@@ -2031,178 +2095,247 @@
     "nomePopular": "Pirarucu",
     "alimentacao": "Carnívoro, aceita peixes, camarões e rações para grandes peixes.",
     "comportamento": "Predador imponente. Respira ar atmosférico. Necessita tampa reforçada.",
+    "origem": "América do Sul, bacia do rio Amazonas",
     "outrasInformacoes": "Aquário mínimo: 5000 litros (tanque). Maior peixe de água doce da América do Sul. Proibido em alguns estados.",
     "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:215": {
     "nomePopular": "Tetra Rummy Nose",
     "comportamento": "Pacífico, cardume de 8+",
-    "outrasInformacoes": "Aquário mínimo: 60 litros."
+    "origem": "América do Sul, bacias dos rios Negro e Meta",
+    "outrasInformacoes": "Aquário mínimo: 60 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:216": {
     "nomePopular": "Tetra Fantasma Negro",
     "comportamento": "Pacífico, cardume",
-    "outrasInformacoes": "Aquário mínimo: 50 litros."
+    "origem": "América do Sul, alto rio Paraguai e bacia do rio Guaporé",
+    "outrasInformacoes": "Aquário mínimo: 50 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:217": {
     "nomePopular": "Tetra Buenos Aires",
     "comportamento": "Semi-agressivo, come plantas",
-    "outrasInformacoes": "Aquário mínimo: 80 litros."
+    "origem": "América do Sul, bacias dos rios Paraná e Uruguai",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:218": {
     "nomePopular": "Peixe Lápis",
     "comportamento": "Pacífico, cardume",
-    "outrasInformacoes": "Aquário mínimo: 30 litros."
+    "origem": "América do Sul, dos rios da Guiana ao sul até a bacia Amazônica e o rio Negro",
+    "outrasInformacoes": "Aquário mínimo: 30 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:219": {
     "nomePopular": "Peixe Lápis Anão",
     "comportamento": "Pacífico, nano cardume",
-    "outrasInformacoes": "Aquário mínimo: 20 litros."
+    "origem": "América do Sul, baixo e médio Amazonas, Colômbia, Guiana, Peru, Suriname e Venezuela",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:220": {
     "nomePopular": "Piaba Vidro",
     "comportamento": "Pacífico, corpo transparente",
-    "outrasInformacoes": "Aquário mínimo: 60 litros."
+    "origem": "América do Sul, bacia do rio Amazonas",
+    "outrasInformacoes": "Aquário mínimo: 60 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:223": {
     "nomePopular": "Peixe Zebra Dourado",
     "comportamento": "Pacífico, ativo, cardume",
-    "outrasInformacoes": "Aquário mínimo: 40 litros."
+    "origem": "Ásia, Paquistão, Índia, Bangladesh, Nepal e Myanmar",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:224": {
     "nomePopular": "Corydoras Panda",
     "comportamento": "Pacífico, grupo de 6+",
-    "outrasInformacoes": "Aquário mínimo: 40 litros."
+    "origem": "América do Sul, alto rio Amazonas",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:225": {
     "nomePopular": "Corydoras Pigmeu",
     "comportamento": "Pacífico, nano, cardume 10+",
-    "outrasInformacoes": "Aquário mínimo: 20 litros."
+    "origem": "América do Sul, bacia do rio Madeira",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:226": {
     "nomePopular": "Corydoras Habrosus",
     "comportamento": "Pacífico, nano, grupo 8+",
-    "outrasInformacoes": "Aquário mínimo: 20 litros."
+    "origem": "América do Sul, alto rio Orinoco",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:227": {
     "nomePopular": "Corydoras Albino",
     "comportamento": "Pacífico, grupo 6+",
-    "outrasInformacoes": "Aquário mínimo: 60 litros."
+    "origem": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes",
+    "outrasInformacoes": "Aquário mínimo: 60 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:228": {
     "nomePopular": "Corydoras Venezuela",
     "comportamento": "Pacífico, laranja brilhante",
-    "outrasInformacoes": "Aquário mínimo: 50 litros."
+    "origem": "América do Sul, Venezuela",
+    "outrasInformacoes": "Aquário mínimo: 50 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:229": {
     "nomePopular": "Corydoras Adolfoi",
     "comportamento": "Pacífico, faixa laranja na cabeça",
-    "outrasInformacoes": "Aquário mínimo: 40 litros."
+    "origem": "América do Sul, bacia do rio Negro",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:230": {
     "nomePopular": "Ramirezi Electric Blue",
     "comportamento": "Pacífico, sensível à qualidade da água",
-    "outrasInformacoes": "Aquário mínimo: 50 litros."
+    "origem": "América do Sul, bacia do rio Orinoco, nos llanos da Venezuela e da Colômbia",
+    "outrasInformacoes": "Aquário mínimo: 50 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:231": {
     "nomePopular": "Jack Dempsey",
     "comportamento": "Agressivo, territorial. Pet fish interativo.",
-    "outrasInformacoes": "Aquário mínimo: 250 litros."
+    "origem": "América Central, vertente atlântica do sul do México a Honduras",
+    "outrasInformacoes": "Aquário mínimo: 250 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:232": {
     "nomePopular": "Texas Cichlid",
     "comportamento": "Agressivo, territorial",
-    "outrasInformacoes": "Aquário mínimo: 300 litros."
+    "origem": "América do Norte, baixo rio Grande no Texas e nordeste do México",
+    "outrasInformacoes": "Aquário mínimo: 300 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:233": {
     "nomePopular": "Green Terror",
     "comportamento": "Agressivo, territorial, cores vibrantes",
-    "outrasInformacoes": "Aquário mínimo: 300 litros."
+    "origem": "América do Sul, vertente do Pacífico, do rio Esmeraldas no Equador ao rio Tumbes no Peru",
+    "outrasInformacoes": "Aquário mínimo: 300 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:234": {
     "nomePopular": "Red Devil",
     "comportamento": "Muito agressivo, territorial. Pet fish.",
-    "outrasInformacoes": "Aquário mínimo: 400 litros."
+    "origem": "América Central, lagos Nicarágua e Manágua, na Nicarágua",
+    "outrasInformacoes": "Aquário mínimo: 400 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:235": {
     "nomePopular": "Jaguar Cichlid",
     "comportamento": "Predador agressivo, come peixes menores",
-    "outrasInformacoes": "Aquário mínimo: 500 litros."
+    "origem": "América Central, vertente atlântica de Honduras à Costa Rica",
+    "outrasInformacoes": "Aquário mínimo: 500 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:236": {
     "nomePopular": "Dovii",
     "comportamento": "Extremamente agressivo, o maior ciclídeo centro-americano.",
-    "outrasInformacoes": "Aquário mínimo: 800 litros."
+    "origem": "América Central, vertentes atlântica e do Pacífico, de Honduras à Costa Rica",
+    "outrasInformacoes": "Aquário mínimo: 800 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:237": {
     "nomePopular": "Gourami Pérola",
     "comportamento": "Pacífico, elegante, respira ar atmosférico.",
-    "outrasInformacoes": "Aquário mínimo: 100 litros."
+    "origem": "Ásia, península Malaia, Tailândia e Indonésia",
+    "outrasInformacoes": "Aquário mínimo: 100 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:238": {
     "nomePopular": "Gourami Chocolate",
     "comportamento": "Pacífico, difícil, incubador bocal",
-    "outrasInformacoes": "Aquário mínimo: 40 litros."
+    "origem": "Ásia, Sumatra e Bornéu, na Indonésia, e península Malaia",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:239": {
     "nomePopular": "Dojo Loach",
     "comportamento": "Pacífico, água fria, reage a pressão atmosférica.",
-    "outrasInformacoes": "Aquário mínimo: 150 litros."
+    "origem": "Ásia, da Sibéria e Sacalina à Coreia, Japão, China e norte do Vietnã",
+    "outrasInformacoes": "Aquário mínimo: 150 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:240": {
     "nomePopular": "Hillstream Loach",
     "comportamento": "Pacífico, precisa de forte correnteza",
-    "outrasInformacoes": "Aquário mínimo: 60 litros."
+    "origem": "Ásia, bacia do Mekong na China, no Vietnã e no Camboja",
+    "outrasInformacoes": "Aquário mínimo: 60 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:241": {
     "nomePopular": "Cascudo Comum",
     "comportamento": "Pacífico, come algas, cresce muito",
-    "outrasInformacoes": "Aquário mínimo: 300 litros."
+    "origem": "América do Sul, faixa costeira das Guianas, do rio Oiapoque ao rio Essequibo",
+    "outrasInformacoes": "Aquário mínimo: 300 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:242": {
     "nomePopular": "Cascudo Bristlenose",
     "comportamento": "Pacífico, excelente comedor de algas",
-    "outrasInformacoes": "Aquário mínimo: 80 litros."
+    "origem": "América do Sul, bacia do rio Paraná",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:243": {
     "nomePopular": "Cascudo Royal",
     "comportamento": "Pacífico, come madeira",
-    "outrasInformacoes": "Aquário mínimo: 400 litros."
+    "origem": "América do Sul, bacia do Orinoco e afluentes do médio e baixo Amazonas",
+    "outrasInformacoes": "Aquário mínimo: 400 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:244": {
     "nomePopular": "Bagre de Vidro",
     "comportamento": "Pacífico, corpo completamente transparente, cardume.",
-    "outrasInformacoes": "Aquário mínimo: 80 litros."
+    "origem": "Ásia, sul e sudeste da Tailândia",
+    "outrasInformacoes": "Aquário mínimo: 80 litros.",
+    "posicaoAquario": "Meio"
   },
   "agua-doce:245": {
     "nomePopular": "Pimelodus Pintado",
     "comportamento": "Semi-agressivo, ativo à noite, barbilhões longos.",
-    "outrasInformacoes": "Aquário mínimo: 150 litros."
+    "origem": "América do Sul, bacias dos rios Amazonas e Orinoco",
+    "outrasInformacoes": "Aquário mínimo: 150 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:246": {
     "nomePopular": "Guppy Endler",
     "comportamento": "Pacífico, vivíparo, cores intensas, menor que Guppy.",
-    "outrasInformacoes": "Aquário mínimo: 20 litros."
+    "origem": "América do Sul, lagoas de Campoma e Buena Vista, na Venezuela",
+    "outrasInformacoes": "Aquário mínimo: 20 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:247": {
     "nomePopular": "Plati Mickey",
     "comportamento": "Pacífico, vivíparo, mancha em formato Mickey na cauda.",
-    "outrasInformacoes": "Aquário mínimo: 40 litros."
+    "origem": "América do Norte e Central, de Veracruz no México ao norte de Belize",
+    "outrasInformacoes": "Aquário mínimo: 40 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:248": {
     "nomePopular": "Molinésia Vela",
     "comportamento": "Pacífico, nadadeira dorsal enorme, tolera água salobra.",
-    "outrasInformacoes": "Aquário mínimo: 150 litros."
+    "origem": "América Central, península de Yucatán e sistema do Usumacinta, no México",
+    "outrasInformacoes": "Aquário mínimo: 150 litros.",
+    "posicaoAquario": "Todo o aquário"
   },
   "agua-doce:249": {
     "nomePopular": "Peixe Elefante",
     "comportamento": "Pacífico, noturno, usa campo elétrico para navegar.",
-    "outrasInformacoes": "Aquário mínimo: 200 litros."
+    "origem": "África, das bacias do Níger às do Congo",
+    "outrasInformacoes": "Aquário mínimo: 200 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-doce:250": {
     "nomePopular": "Peixe Faca Palhaço",
     "comportamento": "Predador noturno, come peixes menores. Pet fish.",
-    "outrasInformacoes": "Aquário mínimo: 800 litros."
+    "origem": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong",
+    "outrasInformacoes": "Aquário mínimo: 800 litros.",
+    "posicaoAquario": "Fundo"
   },
   "agua-salgada:177": {
     "nomePopular": "Mao Mao",
