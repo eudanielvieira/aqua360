@@ -1,67 +1,24 @@
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-
-type TranslatableType = 'fish' | 'plant' | 'coral' | 'disease'
-
-const translatableFields: Record<TranslatableType, string[]> = {
-  fish: [
-    'nomePopular',
-    'alimentacao',
-    'caracteristica',
-    'comportamento',
-    'diformismoSexual',
-    'origem',
-    'outrasInformacoes',
-    'outrosNome',
-    'posicaoAquario',
-    'reproducao',
-  ],
-  plant: [
-    'nomePopular',
-    'outrosNome',
-    'origem',
-    'reproducao',
-    'co2',
-    'crescimento',
-    'dificuldade',
-    'estrutura',
-    'plantio',
-    'porte',
-    'posicao',
-    'substratoFertil',
-    'suportaEmersao',
-  ],
-  coral: [
-    'nomePopular',
-    'outrosNome',
-    'origem',
-    'alimentacao',
-    'compatibilidade',
-    'descricao',
-    'coloracao',
-    'iluminacao',
-    'fluxoAgua',
-    'dificuldade',
-    'crescimento',
-  ],
-  disease: ['nome', 'causa', 'tratamento', 'sintoma'],
-}
-
-const namespaceMap: Record<TranslatableType, string> = {
-  fish: 'data-fish',
-  plant: 'data-plants',
-  coral: 'data-corals',
-  disease: 'data-diseases',
-}
+import {
+  namespaceMap,
+  speciesKey,
+  translatableFields,
+  type TranslatableType,
+} from '../translatable-fields'
 
 function applyTranslation<T extends { id: number }>(
   species: T,
   type: TranslatableType,
   t: (key: string, options?: Record<string, unknown>) => unknown
 ): T {
-  const translated = t(`${species.id}`, {
+  // nsSeparator: false porque a chave de peixe leva o slug junto ("agua-doce:194")
+  // e o ":" e justamente o separador de namespace do i18next. Sem isso ele
+  // procuraria a chave "194" num namespace "agua-doce" que nao existe.
+  const translated = t(speciesKey(species, type), {
     returnObjects: true,
     defaultValue: null,
+    nsSeparator: false,
   })
 
   if (!translated || typeof translated !== 'object') return species

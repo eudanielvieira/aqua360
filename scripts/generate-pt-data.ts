@@ -5,85 +5,43 @@
 
 import { resolve } from 'path'
 import type { Fish, Plant, Coral, Disease } from '../src/types'
+import { speciesKey, translatableFields, type TranslatableType } from '../src/translatable-fields'
 
 const ROOT = resolve(import.meta.dir, '..')
 const LOCALE_DIR = resolve(ROOT, 'public/locales/pt-BR')
 
-// -- Field definitions per data type --
-
-const FISH_TRANSLATABLE_FIELDS: (keyof Fish)[] = [
-  'nomePopular',
-  'alimentacao',
-  'caracteristica',
-  'comportamento',
-  'diformismoSexual',
-  'origem',
-  'outrasInformacoes',
-  'outrosNome',
-  'posicaoAquario',
-  'reproducao',
-]
-
-const PLANT_TRANSLATABLE_FIELDS: (keyof Plant)[] = [
-  'nomePopular',
-  'outrosNome',
-  'origem',
-  'reproducao',
-  'co2',
-  'crescimento',
-  'dificuldade',
-  'estrutura',
-  'plantio',
-  'porte',
-  'posicao',
-  'substratoFertil',
-  'suportaEmersao',
-]
-
-const CORAL_TRANSLATABLE_FIELDS: (keyof Coral)[] = [
-  'nomePopular',
-  'outrosNome',
-  'origem',
-  'alimentacao',
-  'compatibilidade',
-  'descricao',
-  'coloracao',
-  'iluminacao',
-  'fluxoAgua',
-  'dificuldade',
-  'crescimento',
-]
-
-const DISEASE_TRANSLATABLE_FIELDS: (keyof Disease)[] = [
-  'nome',
-  'causa',
-  'tratamento',
-  'sintoma',
-]
-
 // -- Helpers --
 
-function pick<T extends Record<string, unknown>>(obj: T, fields: (keyof T)[]): Record<string, unknown> {
+function pick(obj: Record<string, unknown>, fields: string[]): Record<string, unknown> {
   const result: Record<string, unknown> = {}
   for (const field of fields) {
     const value = obj[field]
     if (value !== undefined && value !== null && value !== '') {
-      result[field as string] = value
+      result[field] = value
     }
   }
   return result
 }
 
-function buildLocaleMap<T extends { id: number }>(
+/**
+ * Indexa pelo `speciesKey`, nao pelo id cru. Peixe mora em quatro arquivos com
+ * numeracao propria e 92 ids existem em mais de um: chavear so pelo id fazia a
+ * ficha seguinte sobrescrever a anterior, e 92 fichas sumiam da traducao.
+ */
+function buildLocaleMap<T extends { id: number; tipo?: string }>(
   items: T[],
-  fields: (keyof T)[],
+  type: TranslatableType,
 ): Record<string, Record<string, unknown>> {
   const map: Record<string, Record<string, unknown>> = {}
   for (const item of items) {
-    const picked = pick(item, fields)
-    if (Object.keys(picked).length > 0) {
-      map[String(item.id)] = picked
+    const picked = pick(item as unknown as Record<string, unknown>, translatableFields[type])
+    if (Object.keys(picked).length === 0) continue
+
+    const key = speciesKey(item, type)
+    if (map[key]) {
+      throw new Error(`Chave repetida em ${type}: ${key}. O acervo tem duas fichas com a mesma chave.`)
     }
+    map[key] = picked
   }
   return map
 }
@@ -125,10 +83,10 @@ async function main() {
   console.log(`Diseases: ${diseases.length} entries\n`)
 
   // Build locale maps
-  const fishMap = buildLocaleMap(allFish, FISH_TRANSLATABLE_FIELDS)
-  const plantMap = buildLocaleMap(plants, PLANT_TRANSLATABLE_FIELDS)
-  const coralMap = buildLocaleMap(corals, CORAL_TRANSLATABLE_FIELDS)
-  const diseaseMap = buildLocaleMap(diseases, DISEASE_TRANSLATABLE_FIELDS)
+  const fishMap = buildLocaleMap(allFish, 'fish')
+  const plantMap = buildLocaleMap(plants, 'plant')
+  const coralMap = buildLocaleMap(corals, 'coral')
+  const diseaseMap = buildLocaleMap(diseases, 'disease')
 
   // Write locale files
   await writeLocale('data-fish.json', fishMap)

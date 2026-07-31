@@ -170,14 +170,21 @@ async function main() {
   console.log('\nDone!')
 }
 
+/** Ordena por slug e depois pelo id numerico ("agua-doce:9" antes de "agua-doce:10"). */
+function compareKeys(a: string, b: string): number {
+  const [slugA, idA] = a.split(':')
+  const [slugB, idB] = b.split(':')
+  if (slugA !== slugB) return slugA.localeCompare(slugB)
+  return Number(idA) - Number(idB)
+}
+
 async function writeOutput(
   outPath: string,
   data: Record<string, Record<string, string>>,
   allIds: string[],
 ): Promise<void> {
-  // Sort by numeric ID
   const sorted: Record<string, Record<string, string>> = {}
-  for (const id of allIds.sort((a, b) => Number(a) - Number(b))) {
+  for (const id of allIds.sort(compareKeys)) {
     if (data[id]) {
       sorted[id] = data[id]
     }
