@@ -197,3 +197,31 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** sua revisao do lote 01 (`scripts/textos-pt/lote-01.json`), que destrava as outras 71
   fichas de texto de agua doce e a cascata para en/es/ja.
 - **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0002-2026-07-31-agua-doce-parametros-e-piloto-de-voz.md`, commits `c6ce0e7`, `da66739`, `aee792d`
+
+## 2026-07-31 - frente `0001-equalizacao-de-textos` - ficha de peixe homogenea
+**Quem:** Daniel Vieira (agente)
+- Correcao de rota vinda do Daniel ("nao fui claro quando solicitei uma equalizacao da base"): o
+  incomodo nao era o dado faltando, era a **secao sumir junto com o dado**, entao duas fichas nunca
+  tinham o mesmo formato. A ficha de peixe agora sai igual nas 704 especies, com "Nao informado" na
+  lacuna. O dado nao mudou e o placar segue em 2011.
+- Expos tres lacunas que nenhuma regra pegava porque a pagina escondia: taxonomia ausente em 84 de
+  704, posto `classe` vazio em 536 das 620 que tem o bloco (o GBIF ja devolve), `outrosNome` vazio em
+  333 e `fonte` em 489.
+- **Proximo:** decidir GH e KH em agua salgada, que agora aparecem como "Nao informado" nas 346
+  marinhas sendo que marinho nao tem esses parametros por especie. Sao 692 falsos sinais de trabalho.
+- **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0003-2026-07-31-ficha-homogenea.md`, commit `b5703c4`
+
+## 2026-07-31 - board - passagem de card no arrasto e a foto que vazava entre especies
+**Quem:** Daniel Vieira (agente)
+- O gesto trocava a ficha sem nenhum movimento, e no celular nao dava para perceber que tinha
+  passado. A troca virou duas etapas: a ficha atual sai pela borda na direcao do dedo (170ms,
+  ease-in) e so entao a rota muda e a seguinte entra pela borda oposta (240ms, ease-out). A saida
+  parte de onde o dedo largou o conteudo, e quem tem "reduzir movimento" ligado troca direto.
+- Bug achado a partir de um relato do Daniel ("cheguei no ultimo peixe com a foto atualizada e voltei,
+  e ele voltou com foto desatualizada"): o `FallbackImage` guarda em estado qual fonte de imagem esta
+  em uso, e trocar de especie sem sair da rota so troca as props, entao ele levava junto o indice da
+  especie anterior. Uma foto remota que falhava fazia todas as fichas seguintes pularem a arte propria
+  do Aqua360. **Nao era o service worker**, apesar da nota de operacao do board apontar pra la.
+- **Proximo:** as duas decisoes de produto que ja estavam abertas nesta frente (gesto em plantas,
+  corais e doencas; barra de anterior/proxima no rodape para a descoberta do gesto).
+- **Detalhe:** commits `bef4c39`, `7f8a1ae`

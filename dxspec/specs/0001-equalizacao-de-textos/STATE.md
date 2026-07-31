@@ -10,13 +10,18 @@ alwaysApply: false
 > aponta pra cá. Volátil. Contrato: `./spec.md`. Plano: `./tasks.md`.
 > Histórico imutável (como chegou até aqui): `./journal/` (append-only, uma entrada por handoff).
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (água doce: parâmetros fechados e piloto de voz)
+**Última atualização:** 2026-07-31 por Daniel Vieira (ficha de peixe homogênea)
 **Status:** ativa
 
 ## Onde estamos
 Nove tasks fechadas (1 a 7, 13 e 15) mais a task 11 entregue esperando revisão; 8 e 9 parciais.
 **Água doce está com 100% dos parâmetros preenchidos** e 20 fichas já têm o texto na voz nova.
 O que sobra é o texto das outras 71 fichas de água doce e o acervo marinho inteiro.
+
+**A ficha de peixe agora é homogênea** (commit `b5703c4`): as 704 espécies saem com as mesmas seções,
+na mesma ordem, e onde falta dado a linha fica dizendo "Não informado" em vez de sumir. O dado não
+mudou, então o placar abaixo é o mesmo de antes da mudança. O que mudou é que a lacuna virou visível
+na tela, e não só no relatório do validador.
 
 | Regra | AC | Abertura | Agora |
 |-------|-----|---------:|------:|
@@ -39,8 +44,17 @@ a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o português f
 **zero vazios**. Falta só texto: 71 fichas, 222 células (`caracteristica` 67, `reproducao` 55,
 `diformismoSexual` 50, `alimentacao` 40, `comportamento` 10).
 
+Três lacunas que a ficha homogênea expôs e que nenhuma regra do validador via, porque a página
+escondia: `enrichment.taxonomia` ausente em **84 das 704**; posto `classe` vazio em **536 das 620**
+que têm o bloco (o GBIF já devolve esse campo, é enriquecimento e não pesquisa); `outrosNome` vazio
+em **333** e `fonte` em **489**.
+
 ## Em andamento / próximo passo
 - **Bloqueio primeiro:** o lote 01 precisa da sua revisão antes de escalar. Ver "Bloqueios".
+- **Decisão sua, rápida:** GH e KH em água salgada. As 346 fichas marinhas agora exibem os dois como
+  "Não informado", mas marinho não tem esses parâmetros por espécie: o `gh` foi limpo justamente por
+  guardar densidade, que é do sistema, e o `kh` já é opcional lá. São 692 falsos sinais de trabalho.
+  Escondê-los nas categorias marinhas, criar um segundo texto ("Não se aplica") ou deixar como está.
 - **Depois:** lotes 02 em diante, 20 fichas por vez, com `bun run harvest-params --narrativos` já
   tendo colhido o material de 67 das 71 restantes. Gate por lote:
   `bun run validate-data --rule=voz --lote=NN`.
@@ -49,6 +63,12 @@ a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o português f
   `--arquivo=agua-salgada`, mas a fonte de marinho é pior que a de doce e vai precisar de ajuste.
 
 ## Decisões recentes
+- 2026-07-31: **o "Não informado" mora na apresentação, nunca no dado.** Campo vazio continua vazio no
+  arquivo. Gravar o texto no dado zeraria o `completude` e transformaria 1624 lacunas reais em enfeite.
+- 2026-07-31: **o `fallback` que segura a linha vazia é opt-in por componente.** Plantas, corais e
+  doenças usam o mesmo `DetailRow` e seguem escondendo campo vazio, porque o pedido foi sobre peixe.
+- 2026-07-31: **seção de mídia e de link externo continua condicional** (fotos da comunidade,
+  distribuição, saiba mais). Não é campo da espécie, é widget que depende de fonte externa.
 - 2026-07-31: **KH em água doce passa a ser derivado da dureza**, porque nenhuma base publica KH por
   espécie. A `fonte` cita a referência da dureza que originou o valor. Alternativa em aberto para
   você decidir: tornar `kh` opcional em doce, como já é no marinho.
@@ -85,6 +105,9 @@ a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o português f
   2026-07-31 sobre SEO em `dxspec/journal.md`.
 
 ## Ideias adiadas / todos da frente
+- **Posto `classe` vazio em 536 fichas.** É o único dos sete postos que falta em massa, e o GBIF já
+  devolve o campo: sai com uma passada do `enrich-data.ts`, sem pesquisa manual. Gatilho: agora que a
+  árvore mostra os sete postos sempre, o buraco aparece em toda ficha. Barato e visível.
 - **Campos numéricos** (`phMin`/`phMax`) com formatação por locale, no lugar de string. É o destino
   certo do dado de parâmetro. Gatilho para reconsiderar: quando alguém pedir filtro por faixa,
   comparação entre espécies ou unidade imperial. Registrado no ADR 0001 como alternativa descartada

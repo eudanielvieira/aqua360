@@ -13,16 +13,17 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (agua doce: parametros fechados e piloto de voz)
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (ficha de peixe homogenea, animacao do arrasto)
 
 ## Foco atual
 - **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. Depois da leva
   mecânica veio a de conteúdo, e **água doce está com 100% dos parâmetros preenchidos**: origem, pH,
   GH, KH, temperatura, tamanho adulto e posição no aquário, zero vazios nas 244 fichas. Vinte fichas
   já têm o texto na voz de aquarista, como lote piloto. Placar de 10536 para 2011 bloqueantes; ficha
-  mínima em água doce de 62% para 72%. **A frente está travada na sua revisão do lote piloto**, que
-  segura as outras 71 fichas de texto e a cascata para en/es/ja.
-  Ver `dxspec/specs/0001-equalizacao-de-textos/STATE.md`.
+  mínima em água doce de 62% para 72%. A ficha de peixe também ficou **homogênea**: as 704 espécies
+  saem com as mesmas seções e a lacuna aparece como "Não informado" em vez de sumir da tela.
+  **A frente está travada na sua revisão do lote piloto**, que segura as outras 71 fichas de texto e a
+  cascata para en/es/ja. Ver `dxspec/specs/0001-equalizacao-de-textos/STATE.md`.
 - **Monetização.** O site vai passar a ter propaganda e links de afiliado, e o texto do projeto foi
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
   vendendo "Sem anúncios" como benefício de quem apoia, e não existe em lugar nenhum o aviso de
@@ -32,8 +33,9 @@ alwaysApply: true
   de IA e sitemap de 925 URLs. Pausada com um passo seguinte claro e grande: URL por idioma. Detalhe
   no journal global.
 - **Gesto no mobile.** Frente pequena, entregue: na ficha de peixe, arrastar o dedo para o lado troca
-  de espécie. Pausada com duas decisões abertas, ambas de produto: estender às outras fichas e
-  resolver a descoberta do gesto. Detalhe no journal global.
+  de espécie, agora com a passagem de card (a ficha sai pela borda, a seguinte entra pela oposta).
+  Pausada com duas decisões abertas, ambas de produto: estender às outras fichas e resolver a
+  descoberta do gesto. Detalhe no journal global.
 - Em paralelo, a normalização das ilustrações segue por demanda: chega arte nova pelo chat, entra pela
   esteira.
 
@@ -42,10 +44,10 @@ alwaysApply: true
 
 | Frente | Status | STATE local | Proximo passo (resumo) |
 |--------|--------|-------------|------------------------|
-| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Água doce com parâmetros em 100% e lote piloto de texto entregue (placar 10536 para 2011). Próxima: **sua revisão do lote 01**, e só então os lotes 02 em diante |
+| Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Água doce com parâmetros em 100%, lote piloto de texto entregue (placar 10536 para 2011) e ficha de peixe homogênea (`b5703c4`). Próxima: **sua revisão do lote 01**, e só então os lotes 02 em diante. Decisão rápida pendente: GH e KH nas 346 marinhas, que hoje saem como "Não informado" sendo que marinho não tem esses parâmetros por espécie |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
 | SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
-| Gesto no mobile (sem spec própria) | pausada | - | Entregue na ficha de peixe (commit `22305f2`): arrastar para o lado troca de espécie, na ordem da listagem. Próximo: decidir se vale em plantas, corais e doenças (`SwipeNav` já é reutilizável) e se entra barra de anterior/próxima no rodapé, que resolve a descoberta do gesto |
+| Gesto no mobile (sem spec própria) | pausada | - | Entregue na ficha de peixe (commits `22305f2`, `bef4c39`): arrastar para o lado troca de espécie, na ordem da listagem, com passagem de card no lugar da troca seca. Próximo: decidir se vale em plantas, corais e doenças (`SwipeNav` já é reutilizável) e se entra barra de anterior/próxima no rodapé, que resolve a descoberta do gesto |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
 | Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 
@@ -81,6 +83,10 @@ alwaysApply: true
       faltam o Bichir Tigre (130) e o Peixe-Corda (58); o id 251 não tem imagem nenhuma.
 - [ ] Decidir o que fazer com o slug `symphysodonauequifasciatus`, que tem um typo ("auequi") vindo do
       dado antigo. Renomear exige mexer no arquivo e no campo `imagem` do Acará Disco ao mesmo tempo.
+- [ ] **`FishCategoryPage` ordena o array do módulo de dados no lugar** (`data.sort(...)`, sem cópia),
+      ou seja, mexe no array compartilhado por todas as telas. Hoje não dá sintoma porque a ficha
+      ordena uma cópia com a mesma chave (`nomePopular`), mas morde no dia em que alguém pedir outra
+      ordenação. `[...data].sort(...)` resolve, como o `FishDetailPage` já faz.
 - [ ] 71 erros de lint pré-existentes no projeto, a maioria `no-explicit-any` e `set-state-in-effect`.
       Não vieram deste trabalho, mas seguram qualquer gate de CI que rode `bun run lint`.
 - [ ] **O projeto não tem runner de teste.** Não existe `vitest` nem script `test` no `package.json`, e
@@ -123,6 +129,10 @@ alwaysApply: true
   com `navigator.serviceWorker.getRegistrations()` mais `caches.keys()` antes de concluir qualquer
   coisa. Vale também saber que, com o SW ativo, toda navegação recebe o `index.html` precacheado e não
   o HTML por rota; isso não afeta rastreador, que não roda service worker.
+- **Mas nem todo sintoma de "conteúdo velho" é o service worker.** Em 2026-07-31 um relato de foto
+  desatualizada tinha cara de cache e era bug de estado no `FallbackImage` (commit `7f8a1ae`).
+  Reproduzir o caminho exato no navegador custou pouco e mostrou a causa real; começar pelo SW teria
+  custado uma sessão. Reproduza primeiro, culpe o cache depois.
 
 ## Historico
 > O historico do projeto e o **journal global** append-only em `dxspec/journal.md` (nunca podado).
