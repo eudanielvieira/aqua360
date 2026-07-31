@@ -1,48 +1,168 @@
 {
-  "title": "Glossario",
+  "title": "Glossário",
   "subtitle": "{{count}} termos de aquarismo",
   "searchPlaceholder": "Buscar termo...",
   "noResults": "Nenhum termo encontrado",
   "terms": [
-    { "term": "Alevino", "def": "Filhote de peixe recem-nascido, ainda em fase larval ou juvenil." },
-    { "term": "Aquario comunitario", "def": "Aquario que abriga diferentes especies de peixes e plantas convivendo juntas." },
-    { "term": "Aquario hospital", "def": "Aquario separado utilizado para tratar peixes doentes ou em quarentena." },
-    { "term": "Aquascaping", "def": "Arte de criar paisagens aquaticas dentro do aquario, combinando plantas, pedras e troncos." },
-    { "term": "Briofita", "def": "Grupo de plantas que inclui os musgos aquaticos (ex: musgo de Java)." },
-    { "term": "Cardume", "def": "Grupo de peixes da mesma especie nadando juntos. Muitas especies precisam de cardume para se sentirem seguras." },
-    { "term": "Ciclagem", "def": "Processo de maturacao do filtro biologico do aquario, onde bacterias beneficas colonizam a midia filtrante para converter amonia em nitrito e depois em nitrato." },
-    { "term": "Ciclideos", "def": "Familia de peixes (Cichlidae) que inclui Acara, Oscar, Disco, Ciclideo Africano, entre outros." },
-    { "term": "CO2", "def": "Dioxido de carbono injetado no aquario plantado para acelerar o crescimento das plantas." },
-    { "term": "Coralimorfo", "def": "Grupo de invertebrados marinhos semelhantes a corais, como Discosoma e Ricordea." },
-    { "term": "dGH (GH)", "def": "Dureza geral da agua, mede a concentracao de calcio e magnesio. Importante para peixes de agua doce." },
-    { "term": "dKH (KH)", "def": "Dureza de carbonatos, mede a capacidade tamponante da agua (estabilidade do pH)." },
-    { "term": "Dimorfismo sexual", "def": "Diferencas fisicas visiveis entre macho e femea da mesma especie." },
-    { "term": "Ectoparasita", "def": "Parasita que vive na superficie externa do peixe (pele, branquias, nadadeiras)." },
-    { "term": "Filtro biologico", "def": "Sistema de filtragem que usa bacterias beneficas para converter substancias toxicas (amonia, nitrito) em menos toxicas (nitrato)." },
-    { "term": "Filtro canister", "def": "Filtro externo pressurizado com grande capacidade de midia filtrante." },
-    { "term": "Hang-on (HOB)", "def": "Filtro que pendura na borda do aquario, com a agua sendo puxada e devolvida por cima." },
-    { "term": "Hardscape", "def": "Elementos nao vivos na decoracao do aquario: pedras, troncos, substrato." },
-    { "term": "Incubador bocal", "def": "Metodo de reproducao onde o peixe (geralmente a femea) carrega os ovos na boca ate a eclosao." },
-    { "term": "Invertebrado", "def": "Animal sem coluna vertebral, como camaroes, caracois, caranguejos e corais." },
-    { "term": "LPS", "def": "Large Polyp Stony - corais duros com polipos grandes (ex: Euphyllia, Favia)." },
-    { "term": "Midia filtrante", "def": "Material colocado no filtro para filtragem mecanica, biologica ou quimica (ceramica, espuma, carvao)." },
-    { "term": "Nadadeira", "def": "Estrutura em formato de barbatana usada pelos peixes para nadar, equilibrar e direcionar." },
-    { "term": "Nitrato (NO3)", "def": "Produto final do ciclo do nitrogenio. Menos toxico que amonia e nitrito, mas em excesso causa algas e estresse." },
-    { "term": "Nitrito (NO2)", "def": "Substancia toxica intermediaria no ciclo do nitrogenio. Niveis devem ser zero em aquario ciclado." },
-    { "term": "Operculo", "def": "Placa ossea que cobre as branquias do peixe." },
-    { "term": "Osmoregulacao", "def": "Processo pelo qual o peixe controla o equilibrio de sal e agua em seu corpo." },
-    { "term": "Oviparo", "def": "Especie que se reproduz por ovos depositados externamente." },
-    { "term": "pH", "def": "Escala de 0 a 14 que mede a acidez ou alcalinidade da agua. pH 7 e neutro, abaixo e acido, acima e alcalino." },
-    { "term": "Pet fish", "def": "Peixe que interage com o dono, reconhece quem o alimenta e permite contato. Ex: Oscar, Flowerhorn, Kinguio." },
-    { "term": "Quarentena", "def": "Periodo de isolamento de novos peixes antes de introduzi-los no aquario principal, para evitar doencas." },
-    { "term": "Reef (Recife)", "def": "Aquario marinho focado em corais e invertebrados, com iluminacao e parametros especificos." },
-    { "term": "Sump", "def": "Aquario auxiliar abaixo do principal usado para filtragem, aquecimento e equipamentos." },
-    { "term": "SPS", "def": "Small Polyp Stony - corais duros com polipos pequenos (ex: Acropora, Montipora). Exigem parametros estaveis." },
-    { "term": "Substrato", "def": "Material que cobre o fundo do aquario (areia, cascalho, substrato fertil). Serve de base para plantas." },
-    { "term": "Substrato fertil", "def": "Substrato rico em nutrientes colocado sob o cascalho para alimentar as raizes das plantas." },
-    { "term": "Termostato", "def": "Aquecedor com controle automatico de temperatura para manter a agua na faixa ideal." },
-    { "term": "TPA", "def": "Troca Parcial de Agua - procedimento regular de trocar parte da agua do aquario para manter a qualidade." },
-    { "term": "Viviparo", "def": "Especie que da a luz filhotes vivos (sem botar ovos). Ex: Guppy, Plati, Molinesia." },
-    { "term": "Zooxantela", "def": "Alga microscopica que vive dentro dos tecidos dos corais, fornecendo energia via fotossintese." }
+    {
+      "term": "Alevino",
+      "def": "Filhote de peixe recém-nascido, ainda em fase larval ou juvenil."
+    },
+    {
+      "term": "Aquário comunitário",
+      "def": "Aquário que abriga diferentes espécies de peixes e plantas convivendo juntas."
+    },
+    {
+      "term": "Aquário hospital",
+      "def": "Aquário separado utilizado para tratar peixes doentes ou em quarentena."
+    },
+    {
+      "term": "Aquascaping",
+      "def": "Arte de criar paisagens aquáticas dentro do aquário, combinando plantas, pedras e troncos."
+    },
+    {
+      "term": "Briófita",
+      "def": "Grupo de plantas que inclui os musgos aquáticos (ex: musgo de Java)."
+    },
+    {
+      "term": "Cardume",
+      "def": "Grupo de peixes da mesma espécie nadando juntos. Muitas espécies precisam de cardume para se sentirem seguras."
+    },
+    {
+      "term": "Ciclagem",
+      "def": "Processo de maturação do filtro biológico do aquário, onde bactérias benéficas colonizam a mídia filtrante para converter amônia em nitrito e depois em nitrato."
+    },
+    {
+      "term": "Ciclídeos",
+      "def": "Família de peixes (Cichlidae) que inclui Acará, Oscar, Disco, Ciclídeo Africano, entre outros."
+    },
+    {
+      "term": "CO2",
+      "def": "Dióxido de carbono injetado no aquário plantado para acelerar o crescimento das plantas."
+    },
+    {
+      "term": "Coralimorfo",
+      "def": "Grupo de invertebrados marinhos semelhantes a corais, como Discosoma e Ricordea."
+    },
+    {
+      "term": "dGH (GH)",
+      "def": "Dureza geral da água, mede a concentração de cálcio e magnésio. Importante para peixes de água doce."
+    },
+    {
+      "term": "dKH (KH)",
+      "def": "Dureza de carbonatos, mede a capacidade tamponante da água (estabilidade do pH)."
+    },
+    {
+      "term": "Dimorfismo sexual",
+      "def": "Diferenças físicas visíveis entre macho e fêmea da mesma espécie."
+    },
+    {
+      "term": "Ectoparasita",
+      "def": "Parasita que vive na superfície externa do peixe (pele, brânquias, nadadeiras)."
+    },
+    {
+      "term": "Filtro biológico",
+      "def": "Sistema de filtragem que usa bactérias benéficas para converter substâncias tóxicas (amônia, nitrito) em menos tóxicas (nitrato)."
+    },
+    {
+      "term": "Filtro canister",
+      "def": "Filtro externo pressurizado com grande capacidade de mídia filtrante."
+    },
+    {
+      "term": "Hang-on (HOB)",
+      "def": "Filtro que pendura na borda do aquário, com a água sendo puxada e devolvida por cima."
+    },
+    {
+      "term": "Hardscape",
+      "def": "Elementos não vivos na decoração do aquário: pedras, troncos, substrato."
+    },
+    {
+      "term": "Incubador bocal",
+      "def": "Método de reprodução onde o peixe (geralmente a fêmea) carrega os ovos na boca até a eclosão."
+    },
+    {
+      "term": "Invertebrado",
+      "def": "Animal sem coluna vertebral, como camarões, caracóis, caranguejos e corais."
+    },
+    {
+      "term": "LPS",
+      "def": "Large Polyp Stony - corais duros com pólipos grandes (ex: Euphyllia, Favia)."
+    },
+    {
+      "term": "Mídia filtrante",
+      "def": "Material colocado no filtro para filtragem mecânica, biológica ou química (cerâmica, espuma, carvao)."
+    },
+    {
+      "term": "Nadadeira",
+      "def": "Estrutura em formato de barbatana usada pelos peixes para nadar, equilibrar e direcionar."
+    },
+    {
+      "term": "Nitrato (NO3)",
+      "def": "Produto final do ciclo do nitrogênio. Menos tóxico que amônia e nitrito, mas em excesso causa algas e estresse."
+    },
+    {
+      "term": "Nitrito (NO2)",
+      "def": "Substância tóxica intermediária no ciclo do nitrogênio. Níveis devem ser zero em aquário ciclado."
+    },
+    {
+      "term": "Opérculo",
+      "def": "Placa óssea que cobre as brânquias do peixe."
+    },
+    {
+      "term": "Osmoregulacao",
+      "def": "Processo pelo qual o peixe controla o equilíbrio de sal e água em seu corpo."
+    },
+    {
+      "term": "Ovíparo",
+      "def": "Espécie que se reproduz por ovos depositados externamente."
+    },
+    {
+      "term": "pH",
+      "def": "Escala de 0 a 14 que mede a acidez ou alcalinidade da água. pH 7 e neutro, abaixo e ácido, acima e alcalino."
+    },
+    {
+      "term": "Pet fish",
+      "def": "Peixe que interage com o dono, reconhece quem o alimenta e permite contato. Ex: Oscar, Flowerhorn, Kinguio."
+    },
+    {
+      "term": "Quarentena",
+      "def": "Período de isolamento de novos peixes antes de introduzi-los no aquário principal, para evitar doenças."
+    },
+    {
+      "term": "Reef (Recife)",
+      "def": "Aquário marinho focado em corais e invertebrados, com iluminação e parâmetros específicos."
+    },
+    {
+      "term": "Sump",
+      "def": "Aquário auxiliar abaixo do principal usado para filtragem, aquecimento e equipamentos."
+    },
+    {
+      "term": "SPS",
+      "def": "Small Polyp Stony - corais duros com pólipos pequenos (ex: Acropora, Montipora). Exigem parâmetros estáveis."
+    },
+    {
+      "term": "Substrato",
+      "def": "Material que cobre o fundo do aquário (areia, cascalho, substrato fértil). Serve de base para plantas."
+    },
+    {
+      "term": "Substrato fértil",
+      "def": "Substrato rico em nutrientes colocado sob o cascalho para alimentar as raízes das plantas."
+    },
+    {
+      "term": "Termostato",
+      "def": "Aquecedor com controle automático de temperatura para manter a água na faixa ideal."
+    },
+    {
+      "term": "TPA",
+      "def": "Troca Parcial de Água - procedimento regular de trocar parte da água do aquário para manter a qualidade."
+    },
+    {
+      "term": "Vivíparo",
+      "def": "Espécie que da a luz filhotes vivos (sem botar ovos). Ex: Guppy, Plati, Molinesia."
+    },
+    {
+      "term": "Zooxantela",
+      "def": "Alga microscópica que vive dentro dos tecidos dos corais, fornecendo energia via fotossíntese."
+    }
   ]
 }

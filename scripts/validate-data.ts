@@ -119,10 +119,22 @@ const ACENTUADAS = [
   'científica', 'variedade', 'coloração', 'compatível', 'incompatível',
 ]
 
-const SEM_ACENTO = new Map<string, string>()
+/**
+ * Dicionario do corpus: palavra sem acento -> forma correta.
+ *
+ * Fica em arquivo porque e usado em dois lugares (aqui e na correcao em lote) e
+ * porque cresce junto com o texto do site.
+ */
+const SEM_ACENTO = new Map<string, string>(
+  Object.entries(JSON.parse(readFileSync(join(import.meta.dirname, 'pt-acentos.json'), 'utf8')))
+    .filter(([k]) => !k.startsWith('_'))
+    .map(([k, v]) => [k, v as string]),
+)
+// A lista embutida continua valendo como complemento, para palavras que ainda
+// nao apareceram nos arquivos de UI mas podem aparecer.
 for (const palavra of ACENTUADAS) {
   const chave = tirarAcento(palavra)
-  if (chave !== palavra) SEM_ACENTO.set(chave, palavra)
+  if (chave !== palavra && !SEM_ACENTO.has(chave)) SEM_ACENTO.set(chave, palavra)
 }
 
 /** "e" no lugar de "é". Ambiguo por natureza, entra como aviso. */

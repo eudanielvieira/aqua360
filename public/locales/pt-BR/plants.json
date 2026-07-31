@@ -1,14 +1,14 @@
 {
   "title": "Plantas",
-  "notFound": "Planta nao encontrada",
+  "notFound": "Planta não encontrada",
   "noResults": "Nenhuma planta encontrada.",
-  "searchPlaceholder": "Buscar por nome popular, cientifico ou familia...",
+  "searchPlaceholder": "Buscar por nome popular, científico ou família...",
   "detail.structure": "Estrutura",
   "detail.planting": "Plantio",
   "detail.size": "Tamanho",
   "detail.stature": "Porte",
-  "detail.position": "Posicao",
-  "detail.reproduction": "Reproducao",
-  "detail.fertileSubstrate": "Substrato Fertil",
-  "detail.supportsEmersion": "Suporta Emersao"
+  "detail.position": "Posição",
+  "detail.reproduction": "Reprodução",
+  "detail.fertileSubstrate": "Substrato Fértil",
+  "detail.supportsEmersion": "Suporta Emersão"
 }

@@ -1,14 +1,14 @@
 {
-  "title": "Corais e Anemonas",
-  "notFound": "Coral nao encontrado",
+  "title": "Corais e Anêmonas",
+  "notFound": "Coral não encontrado",
   "noResults": "Nenhum coral encontrado.",
-  "searchPlaceholder": "Buscar coral ou anemona...",
+  "searchPlaceholder": "Buscar coral ou anêmona...",
   "category.soft": "Coral Mole",
   "category.lps": "LPS",
   "category.lpsLong": "LPS (Large Polyp Stony)",
   "category.sps": "SPS",
   "category.spsLong": "SPS (Small Polyp Stony)",
-  "category.anemone": "Anemona",
-  "detail.description": "Descricao",
-  "detail.feeding": "Alimentacao"
+  "category.anemone": "Anêmona",
+  "detail.description": "Descrição",
+  "detail.feeding": "Alimentação"
 }

@@ -1,11 +1,11 @@
 {
   "title": "Busca",
-  "subtitle": "Pesquise em todas as secoes",
-  "placeholder": "Buscar peixes, plantas, corais, doencas...",
+  "subtitle": "Pesquise em todas as seções",
+  "placeholder": "Buscar peixes, plantas, corais, doenças...",
   "noResults": "Nenhum resultado encontrado",
   "minChars": "Digite pelo menos 2 caracteres para buscar",
   "type.fish": "Peixe",
   "type.plant": "Planta",
   "type.coral": "Coral",
-  "type.disease": "Doenca"
+  "type.disease": "Doença"
 }
