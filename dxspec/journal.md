@@ -106,3 +106,38 @@ ficam disponiveis sob demanda, sem custo de carga.
   namespace do i18next.
 - **Proximo:** task 8, `posicaoAquario` nas 460 fichas em que a coluna esta 100% vazia.
 - **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0001-2026-07-31-abertura-e-leva-mecanica.md`
+
+## 2026-07-31 - board - SEO: head por rota, robots.txt e sitemap
+**Quem:** Daniel Vieira (agente)
+- Frente nova, aberta a partir de uma pergunta: como pôr meta tag em todas as páginas sem entregar o
+  conteúdo inteiro ao Google. O diagnóstico achou coisa pior que a suposta: o `SEO.tsx` existia desde
+  sempre mas estava ligado em **uma** das dezoito páginas (`FishDetailPage`), e como o HTML da SPA é
+  uma casca só, as 926 URLs serviam o mesmo `<title>` e a mesma description. Não havia `robots.txt`,
+  sitemap, canonical nem dado estruturado.
+- Três decisões do Daniel fecharam o escopo: prerender do head no build (contra só react-helmet ou
+  função na Vercel), fechar IA e abrir Busca no robots.txt, e adiar URL por idioma.
+- O desenho é uma fonte só, `src/seo/meta.ts`, consumida pelos dois lados: o `scripts/generate-seo.ts`
+  grava 926 HTMLs no `dist` depois do `vite build`, e o `SEO.tsx` refaz o mesmo head no cliente. Sem
+  isso o build e a tela escreveriam títulos diferentes da mesma ficha.
+- **Bug que só apareceu no navegador, e é o registro que mais importa aqui:** o react-helmet-async 3
+  sobre React 19 não remove mais tag do DOM. Ele só renderiza `<title>`, `<meta>` e `<link>` como
+  elemento normal e deixa o React 19 içar para o head, então ele **soma** às tags que vieram no HTML
+  em vez de trocar. A página ficava com dois `canonical` apontando para URLs diferentes, que é pior
+  que nenhum: o Google descarta o sinal inteiro. Marcar as tags com `data-rh` **não resolve** nessa
+  versão, esse atributo só vale no caminho antigo (React 18 e anteriores). A saída foi o
+  `src/seo/prerendered.ts`, que apaga o bloco entre os marcadores `<!--seo-->` quando o React assume.
+  O `<title>` ficou fora do Helmet e é escrito via `document.title`, senão sobravam dois.
+- Uma duplicata que persistiu no teste era cache do service worker servindo o bundle anterior. Vale
+  lembrar em qualquer teste futuro de `dist`: desregistrar o SW antes de concluir que algo está
+  quebrado.
+- Cruzamento entre frentes que vale registrar: as descriptions das fichas saem dos **mesmos campos**
+  que a spec 0001 está consertando. O gerador acusou 51 descrições curtas demais, que são exatamente
+  as fichas magras do AC-7 (`completude`). Fechar as tasks da 0001 agora melhora o snippet do Google
+  de carona, sem trabalho adicional de SEO.
+- Verificado no build de produção com navegador: uma tag de cada por rota, na carga direta e na
+  navegação interna; `/busca` com `noindex, follow` e fora do sitemap; o HTML servido sem JavaScript
+  já traz o head certo (é o caminho do WhatsApp e do Facebook). Lint seguiu nos mesmos 71 erros
+  pré-existentes.
+- **Proximo:** URL por idioma (`/en/`, `/es/`, `/ja/`) com hreflang. É o que falta para os outros três
+  idiomas saírem do escuro: hoje os quatro dividem a mesma URL e o Google indexa um só.
+- **Detalhe:** commit `8c28378`; a seção SEO do `README.md` documenta o arranjo.

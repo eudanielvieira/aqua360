@@ -10,7 +10,7 @@ alwaysApply: false
 > aponta pra cá. Volátil. Contrato: `./spec.md`. Plano: `./tasks.md`.
 > Histórico imutável (como chegou até aqui): `./journal/` (append-only, uma entrada por handoff).
 
-**Última atualização:** 2026-07-31 por Daniel Vieira
+**Última atualização:** 2026-07-31 por Daniel Vieira (nota cruzada da frente de SEO)
 **Status:** ativa
 
 ## Onde estamos
@@ -56,6 +56,13 @@ mascarado por resíduo, então é progresso disfarçado de regressão.
       você antes de escalar a reescrita para 615 páginas de texto. Ninguém destrava isso sozinho.
 - [ ] **Japonês sem revisor.** Todo lote de ja fecha como dívida aberta, não como pronto. Desde a
       abertura da frente.
+
+## Contexto de fora da frente
+- **O AC-7 (`completude`) agora paga em dois lugares.** A frente de SEO passou a derivar a description
+  das páginas dos **mesmos campos** que esta spec conserta, e o gerador acusou 51 fichas com descrição
+  curta demais: são exatamente as fichas magras do `completude`. Ou seja, fechar as tasks de conteúdo
+  daqui melhora o snippet do Google de carona, sem nenhum trabalho extra de SEO. Ver a entrada de
+  2026-07-31 sobre SEO em `dxspec/journal.md`.
 
 ## Ideias adiadas / todos da frente
 - **Campos numéricos** (`phMin`/`phMax`) com formatação por locale, no lugar de string. É o destino

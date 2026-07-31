@@ -13,7 +13,7 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (quarta pausa do dia, leva mecanica da spec 0001)
+**Ultima atualizacao:** 2026-07-31 por Daniel Vieira (quinta pausa do dia, frente de SEO)
 
 ## Foco atual
 - **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. A leva mecânica
@@ -26,10 +26,10 @@ alwaysApply: true
   escrito prometendo o oposto. A página Sobre já está limpa nos quatro idiomas, mas `/apoie` continua
   vendendo "Sem anúncios" como benefício de quem apoia, e não existe em lugar nenhum o aviso de
   divulgação de afiliado.
-- **SEO.** Frente nova e já entregue na parte estrutural. O site inteiro servia o mesmo título e a
-  mesma descrição nas 926 URLs, porque o HTML da SPA é uma casca só e o `SEO.tsx` estava ligado em
-  uma única página. Agora o build grava o head de cada rota direto no HTML publicado, com robots.txt
-  fechando robô de treino de IA e sitemap de 925 URLs. O que falta é URL por idioma.
+- **SEO.** Frente nova, aberta e fechada na parte estrutural nesta sessão. O site servia o mesmo
+  título e a mesma descrição nas 926 URLs; agora o build grava o head de cada rota no HTML publicado,
+  com robots.txt fechando robô de treino de IA e sitemap de 925 URLs. Está pausada com um passo
+  seguinte claro e grande: URL por idioma. Detalhe no journal global.
 - Em paralelo, a normalização das ilustrações segue por demanda: chega arte nova pelo chat, entra pela
   esteira. Nesta pausa entraram quatro.
 
@@ -40,7 +40,7 @@ alwaysApply: true
 |--------|--------|-------------|------------------------|
 | Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Nove tasks mecânicas fechadas (placar de 10536 para 2598). Próxima: `posicaoAquario` nas 460 fichas com a coluna vazia (task 8) |
 | Monetização (propaganda + afiliados) | ativa | - | Tirar a promessa de "Sem anúncios" de `/apoie` (pt e es) e decidir onde entra o aviso de afiliado |
-| SEO (sem spec própria) | ativa | - | Base no ar: head por rota gerado no build, robots.txt, sitemap com 925 URLs. Falta URL por idioma (`/en/...` + hreflang), que é o que destrava os outros três idiomas |
+| SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
 | Normalização de imagens (sem spec própria) | pausada | - | Processar o próximo lote de arte que chegar |
 | Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 
@@ -74,6 +74,20 @@ alwaysApply: true
       dado antigo. Renomear exige mexer no arquivo e no campo `imagem` do Acará Disco ao mesmo tempo.
 - [ ] 71 erros de lint pré-existentes no projeto, a maioria `no-explicit-any` e `set-state-in-effect`.
       Não vieram deste trabalho, mas seguram qualquer gate de CI que rode `bun run lint`.
+- [ ] **Enviar o sitemap no Google Search Console.** `https://aqua360.vercel.app/sitemap.xml` está no
+      ar e declarado no `robots.txt`, mas sem submeter a indexação das 925 URLs demora muito mais.
+      Depende de acesso do Daniel, não tem como o agente fazer.
+- [ ] **`og:image` do iNaturalist pode dar 403.** 204 das 704 fichas caem em foto do iNaturalist como
+      imagem de compartilhamento (37 têm arte própria, 370 usam Wikipedia, 93 caem no card padrão).
+      Vi um 403 deles no console durante o teste. Quando falha, o card sai sem imagem em vez de cair
+      no `og-image.png`. Mantido porque foto real rende mais clique, mas é uma linha em
+      `speciesImage` (`src/seo/meta.ts`) se a preferência mudar.
+- [ ] **Domínio próprio muda uma linha.** O canonical, as `og:url` e o sitemap saem de `SITE_URL` em
+      `src/seo/site.ts`, hoje `https://aqua360.vercel.app`. Trocar lá resolve tudo de uma vez, mas o
+      `robots.txt` tem a URL do sitemap escrita à mão e precisa acompanhar.
+- [ ] **28 títulos acima de 60 caracteres**, todos nome de espécie genuinamente longo (ex.: "Ramirezi
+      Electric Blue (Mikrogeophagus ramirezi var. electric blue)"). O sufixo da marca já é descartado
+      sozinho quando não cabe; o resto é encurtar nome popular no dado, se valer a pena.
 
 ## Notas de operacao
 - **Publicacao e automatica, com atraso de minutos.** Os commits vão para `origin/main` sem que o
@@ -86,6 +100,12 @@ alwaysApply: true
 - **Arte nova chega pelo chat.** O arquivo em resolução cheia fica em
   `~/.claude/image-cache/<sessao>/<n>.png`; basta copiar para `source-images/` com o nome do slug que
   o campo `imagem` do registro exige.
+- **Testando o `dist` no navegador, desregistre o service worker antes.** O app é PWA com
+  `registerType: 'autoUpdate'`, e o SW precacha o shell e os assets. Numa sessão de teste ele serviu o
+  bundle da build anterior e produziu um sintoma convincente que já estava corrigido no código. Limpe
+  com `navigator.serviceWorker.getRegistrations()` mais `caches.keys()` antes de concluir qualquer
+  coisa. Vale também saber que, com o SW ativo, toda navegação recebe o `index.html` precacheado e não
+  o HTML por rota; isso não afeta rastreador, que não roda service worker.
 
 ## Historico
 > O historico do projeto e o **journal global** append-only em `dxspec/journal.md` (nunca podado).
