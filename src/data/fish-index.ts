@@ -12,7 +12,7 @@ export const fishCategories = [
     "key": "PEIXESDULCICOLAS",
     "slug": "agua-doce",
     "label": "Peixes de Água Doce",
-    "count": 247
+    "count": 245
   },
   {
     "key": "PEIXESMARINHOS",
