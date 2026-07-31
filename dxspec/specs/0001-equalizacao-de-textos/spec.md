@@ -98,9 +98,13 @@ O hífen usado é o hífen comum (U+002D), nunca travessão ou meia-risca.
 ### AC-5: Higiene tipográfica em todos os idiomas
 - **Dado** qualquer texto voltado ao usuário, em `src/data/*.ts` ou em `public/locales/`
 - **Quando** rodar `bun run validate-data`
-- **Então** não existe travessão nem meia-risca, nem aspas curvas, nem espaço duplo, nem `--` usado
-  como travessão, nem tag HTML ou entidade solta; e todo campo narrativo com mais de 40 caracteres
-  termina em pontuação final
+- **Então** não existe travessão nem meia-risca, nem espaço duplo, nem `--` usado como travessão, nem
+  tag HTML ou entidade solta; e todo campo narrativo com mais de 40 caracteres termina em pontuação
+  final
+
+Aspas curvas saíram deste critério na task 6. A versão original as proibia por serem herança do dump,
+mas o acervo tem 478 delas contra 2 aspas retas, e em português elas são a forma tipograficamente
+correta. Trocar seria churn contra a norma do próprio texto.
 
 ### AC-6: `familia` bate com a taxonomia
 - **Dado** uma ficha com `enrichment.taxonomia.familia` preenchida
@@ -142,6 +146,13 @@ O hífen usado é o hífen comum (U+002D), nunca travessão ou meia-risca.
 - **Então** só as fichas cujo texto de origem mudou de hash são reenviadas, o resultado de en/es/ja
   passa nas mesmas regras do AC-5, e o japonês entra em `journal/` como pendente de revisão humana
 
+### AC-12: nenhum texto de interface escrito direto no código
+- **Dado** os arquivos `.tsx` e `.ts` de `src/`, fora de `src/data/`
+- **Quando** rodar `bun run validate-data --rule=embutido`
+- **Então** nenhum literal em português voltado ao usuário aparece fora do i18n, e o que hoje está
+  embutido (rótulos da taxonomia, tarjas de espécie, nomes e descrições das calculadoras, veredito de
+  compatibilidade, textos do montador) passa a vir de `t()` com chave nos quatro idiomas
+
 ## Matriz de decisão: obrigatoriedade por campo e tipo de registro
 > Define o que "ficha completa" significa e impede o validador de exigir de um caramujo o que só faz
 > sentido num ciclídeo. `obrig` = bloqueia o AC-7. `opc` = preenche quando houver dado.
@@ -172,6 +183,12 @@ O hífen usado é o hífen comum (U+002D), nunca travessão ou meia-risca.
 Razão das linhas `n/a`: em água salgada o aquarista controla salinidade e alcalinidade do sistema
 inteiro, não da espécie, então `gh` e `kh` por ficha seriam ruído. `imagem` pertence à frente de
 normalização de imagens e não bloqueia nada aqui.
+
+Em marinho, `n/a` para `gh` significa **campo vazio**, não campo ignorado. O importador antigo gravou
+densidade ali (`1.023 a 1.025` em 260 das 334 fichas preenchidas), exibida na página com o rótulo
+"GH", que para um peixe marinho está errado. Como o valor é do sistema e não da espécie, ele sai do
+dado na task 4. A densidade de referência do marinho passa a ser assunto do guia, uma vez, em vez de
+repetir o mesmo número em 334 fichas.
 
 Onde `diformismoSexual` é obrigatório e a espécie é monomórfica, o valor correto é a frase explícita
 ("Machos e fêmeas são iguais por fora."), nunca o campo vazio.
