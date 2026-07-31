@@ -34,6 +34,7 @@ export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
   'pterophyllumscalarekoi',
   'puntiusarulius',
   'puntiusdenisonii',
+  'puntiusoligolepis',
   'puntiussachsii',
   'puntiustetrazona',
   'puntiustitteya',
