@@ -13,7 +13,7 @@ alwaysApply: false
 
 | #  | Task | Cobre AC | Depende de | Gate (comando) | Status |
 |----|------|----------|------------|----------------|--------|
-| 1  | `scripts/validate-data.ts` com as regras `chaves`, `formato`, `faixas`, `tipografia`, `taxonomia`, `completude`, `voz`, `acentuacao`, `paridade`, e placar no fim | AC-1 | - | `bun run validate-data` imprime o placar e sai 0 ou 1 | todo |
+| 1  | `scripts/validate-data.ts` com as regras `chaves`, `formato`, `faixas`, `tipografia`, `taxonomia`, `completude`, `voz`, `acentuacao`, `paridade`, e placar no fim | AC-1 | - | `bun run validate-data` imprime o placar e sai 0 ou 1 | done |
 | 2  | Rechavear `data-*.json` para `<tipo>:<id>` e ajustar `useTranslatedSpecies` e `generate-pt-data` | AC-2 | 1 | `bun run validate-data --rule=chaves` | todo |
 | 3  | Fundir a duplicata `Polypterus senegalus` (251 sai, 132 absorve e ganha `ph`) | AC-7 | 1 | `bun run validate-data --rule=completude` sem o alerta de duplicata | todo |
 | 4  | Normalizar formato de `ph`, `gh`, `kh`, `temperatura`, `tamanhoAdulto` e `posicaoAquario` nos 4 arquivos | AC-3 | 1 | `bun run validate-data --rule=formato` | todo |
@@ -59,7 +59,13 @@ o primeiro teste do repositório, ele entra junto com o runner na mesma task.
 
 ## Divergências (SPEC_DEVIATION)
 > Se a implementação precisar fugir da spec, registre aqui antes de seguir.
-- [ ] (nenhuma até agora)
+- [ ] **Task 1 - `gh` em água salgada guarda densidade, não dureza.** A matriz da spec marcou `gh` como
+      não aplicável em marinho supondo o campo vazio. O validador mostrou o oposto: 334 das 346 fichas
+      têm `gh` preenchido, e o valor é densidade (`1.023 a 1.025` em 260 delas, mais 8 variações com
+      erro de digitação como `1.23 a 1.025` e `1023 a 1.025`). A ficha exibe isso rotulado "GH", que
+      para um peixe marinho está simplesmente errado. Resolução pendente de decisão do usuário antes
+      da task 4: mover para um campo `densidade`, ou tratar como parâmetro de sistema e limpar.
+      Não mexer em `gh` de marinho até decidir.
 
 ## Checklist de Definition of Done
 - [ ] Todos os AC verdes pelo gate executável (não por inspeção)

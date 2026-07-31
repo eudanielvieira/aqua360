@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "parse-data": "bun run scripts/parse-sql-data.ts",
+    "validate-data": "bun run scripts/validate-data.ts",
     "enrich": "bun run scripts/enrich-data.ts",
     "translate-fish": "bun run scripts/translate-fish.ts",
     "normalize-images": "node scripts/normalize-images.ts"

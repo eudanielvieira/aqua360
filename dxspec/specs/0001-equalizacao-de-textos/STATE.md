@@ -6,16 +6,33 @@ alwaysApply: false
 
 # STATE - Equalização de textos
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (abertura da frente)
+**Última atualização:** 2026-07-31 por Daniel Vieira (task 1 fechada)
 
 ## Onde estamos
-Spec escrita e em review. Nada implementado ainda. O diagnóstico que abriu a frente está na própria
-`spec.md`, na tabela de contexto medido, e não precisa ser refeito.
+Spec aprovada, ADR 0001 aceito e task 1 fechada: `scripts/validate-data.ts` roda as nove regras,
+imprime o placar e serve de gate. Baseline de campos vazios gravada em `scripts/.validate-baseline.json`
+(678 fichas com lacuna, 3979 células), que é o marco zero da regra de procedência.
+
+Placar de abertura, com `bun run validate-data`:
+
+| Regra | AC | Bloqueantes | Avisos |
+|-------|-----|------------|--------|
+| `chaves` | AC-2 | 5272 | 0 |
+| `formato` | AC-3 | 2084 | 0 |
+| `faixas` | AC-4 | 23 | 0 |
+| `tipografia` | AC-5 | 434 | 0 |
+| `taxonomia` | AC-6 | 75 | 61 |
+| `completude` | AC-7 | 2208 | 17 |
+| `voz` | AC-8 | 0 | 0 |
+| `acentuacao` | AC-9 | 190 | 1 |
+| `paridade` | AC-10 | 250 | 0 |
+
+Total: 10536 bloqueantes. Ficha mínima em 154 de 705 (22%).
 
 ## Próximo passo
-Task 1: escrever `scripts/validate-data.ts`. Ele é pré-requisito de tudo, porque é o placar que diz
-quanto falta e o gate que impede regressão. Só depois dele a task 2 (rechaveamento) destrava a
-cascata para os outros idiomas.
+Task 2, o rechaveamento para `<tipo>:<id>`, que sozinha zera os 5272 de `chaves` e destrava a cascata.
+Antes da task 4 (formato) é preciso decidir o caso do `gh` em água salgada, registrado como
+SPEC_DEVIATION em `tasks.md`.
 
 ## Decisões vivas
 - **Voz de aquarista experiente**, calibrada pelo exemplo na spec. Escolhida sabendo que dá mais
