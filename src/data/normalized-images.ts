@@ -11,6 +11,7 @@ export const NORMALIZED_IMAGES: ReadonlySet<string> = new Set([
   'apistogrammapanduro',
   'apistogrammatrifasciata',
   'astatotilapialatifasciata',
+  'bettasplendens',
   'carassiusauratusauratus',
   'clariasbatrachus',
   'colomesusasellus',
