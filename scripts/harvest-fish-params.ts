@@ -59,6 +59,20 @@ interface Colheita {
   distribuicao?: { texto: string; fonte: Faixa['fonte'] }
   /** `benthopelagic`, `demersal`, `pelagic`... Alimenta `posicaoAquario`. */
   habitat?: string
+  /**
+   * Trechos crus, em ingles, das secoes narrativas da fonte.
+   *
+   * Materia-prima de consulta para escrever os campos de texto em portugues, e
+   * so isso: o que vai para a ficha e texto novo, escrito a partir do fato. Por
+   * isso o cache e ignorado pelo git, e nada daqui chega ao site.
+   */
+  textos?: {
+    dieta?: string
+    comportamento?: string
+    dimorfismo?: string
+    reproducao?: string
+    descricao?: string
+  }
   urls: string[]
   /** Fontes que responderam 404 ou nao tinham o bloco esperado. */
   faltou: string[]
@@ -290,7 +304,46 @@ function lerSeriouslyFish(texto: string, c: Colheita): boolean {
     achou = true
   }
 
+  const textos = {
+    dieta: secao(texto, 'Diet', ['Behaviour and Compatibility', 'Sexual Dimorphism']),
+    comportamento: secao(texto, 'Behaviour and Compatibility', ['Sexual Dimorphism', 'Reproduction']),
+    dimorfismo: secao(texto, 'Sexual Dimorphism', ['Reproduction', 'Notes']),
+    reproducao: secao(texto, 'Reproduction', ['Notes', 'References']),
+    descricao: secao(texto, 'Habitat', ['Maximum Standard Length']),
+  }
+  if (Object.values(textos).some(Boolean)) {
+    c.textos = { ...c.textos, ...Object.fromEntries(Object.entries(textos).filter(([, v]) => v)) }
+    achou = true
+  }
+
   return achou
+}
+
+/** Uma secao da ficha, do titulo ate o proximo titulo conhecido. */
+function secao(texto: string, titulo: string, ate: string[]): string | undefined {
+  /*
+   * O titulo fica sozinho na linha, mas com espaco em volta: "\n Diet\n".
+   *
+   * Sensivel a maiuscula de proposito. O menu de navegacao da pagina repete os
+   * mesmos titulos em caixa alta ("DIET", "REPRODUCTION") e vem antes do corpo,
+   * entao uma busca indiferente a caixa captura o menu inteiro no lugar do
+   * texto da especie.
+   */
+  // Algumas secoes trazem a ancora "voltar ao topo" colada no titulo, na mesma
+  // linha ("Behaviour and Compatibility Top ↑"), e outras nao.
+  const cabecalho = (t: string) => new RegExp(`\\n[ \\t]*${t}[ \\t]*(?:Top ↑)?[ \\t]*\\n`)
+  const abre = texto.match(cabecalho(titulo))
+  if (!abre || abre.index === undefined) return undefined
+  const resto = texto.slice(abre.index + abre[0].length)
+  const fins = ate.map((t) => resto.search(cabecalho(t))).filter((i) => i > 0)
+  const corpo = resto.slice(0, fins.length ? Math.min(...fins) : 2200)
+  const limpo = corpo
+    .replace(/Top ↑/g, ' ')
+    // Chamada de afiliado do proprio site, que nao e fato sobre a especie.
+    .replace(/(To search for|To find|Click here|You can find)[^.]*\./gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+  return limpo.length > 30 ? limpo.slice(0, 2000) : undefined
 }
 
 // -- FishBase --
@@ -426,6 +479,9 @@ function relatorio(fichas: Fish[], cache: Cache): void {
 /** Campos parametricos que a coleta consegue preencher. */
 const ALVOS = ['ph', 'gh', 'temperatura', 'tamanhoAdulto', 'origem', 'posicaoAquario']
 
+/** Campos narrativos, que a coleta so alimenta com materia-prima de consulta. */
+const ALVOS_TEXTO = ['caracteristica', 'comportamento', 'alimentacao', 'reproducao', 'diformismoSexual']
+
 async function main(): Promise<void> {
   const arquivo = argumento('arquivo') ?? 'agua-doce'
   if (!ARQUIVOS[arquivo]) {
@@ -443,12 +499,26 @@ async function main(): Promise<void> {
   }
 
   const texto = (v: unknown) => (typeof v === 'string' ? v.trim() : '')
-  let fila = temFlag('todas')
-    ? fichas
-    : fichas.filter((f) => ALVOS.some((c) => !texto((f as unknown as Record<string, unknown>)[c])))
+  const ids = argumento('ids')?.split(',').map((s) => parseInt(s.trim(), 10)).filter(Number.isFinite)
+
+  let fila: Fish[]
+  if (ids?.length) {
+    fila = fichas.filter((f) => ids.includes(f.id))
+  } else if (temFlag('narrativos')) {
+    // Fila do lote de texto: a de parametro nao serve depois que eles fecharam.
+    fila = fichas.filter((f) => ALVOS_TEXTO.some((c) => !texto((f as unknown as Record<string, unknown>)[c])))
+  } else if (temFlag('todas')) {
+    fila = fichas
+  } else {
+    fila = fichas.filter((f) => ALVOS.some((c) => !texto((f as unknown as Record<string, unknown>)[c])))
+  }
 
   if (!temFlag('forcar')) {
-    fila = fila.filter((f) => !cache[f.nomeCientifico])
+    // Na fila de texto, ja estar no cache nao basta: a coleta antiga so trouxe
+    // parametro, e o que falta agora e a materia-prima das secoes narrativas.
+    fila = temFlag('narrativos')
+      ? fila.filter((f) => !cache[f.nomeCientifico]?.textos)
+      : fila.filter((f) => !cache[f.nomeCientifico])
   }
 
   const limite = parseInt(argumento('limite') ?? '0', 10)

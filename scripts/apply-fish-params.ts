@@ -66,16 +66,6 @@ function temperaturaPlausivel(f: Faixa): boolean {
   return f.min >= 15 && f.max <= 32 && f.max - f.min <= 12
 }
 
-/**
- * KH derivado da dureza colhida, e nao de fonte por especie.
- *
- * Nenhuma das duas bases publica KH: o Seriously Fish da dureza geral e o
- * FishBase da dH. Em agua natural o carbonato acompanha a dureza geral do
- * biotopo, entao a banda larga abaixo e conselho correto, so nao e medida da
- * especie. Vai marcado na `fonte` como derivacao, para ninguem ler como fato
- * publicado. A alternativa, discutida no handoff, e tornar `kh` opcional em
- * agua doce pelo mesmo argumento que ja tirou o campo do marinho.
- */
 /** Le uma faixa ja gravada na ficha, no formato canonico ("4-12" ou "8"). */
 function faixaDoTexto(valor: string | undefined): Faixa | null {
   const bruto = typeof valor === 'string' ? valor.trim() : ''
@@ -87,6 +77,17 @@ function faixaDoTexto(valor: string | undefined): Faixa | null {
   return { min, max, fonte: 'fishbase' }
 }
 
+/**
+ * KH derivado da dureza, e nao de medida por especie.
+ *
+ * Nenhuma das duas bases publica KH: o Seriously Fish da dureza geral e o
+ * FishBase da dH. Em agua natural o carbonato acompanha a dureza geral do
+ * biotopo, entao a banda larga abaixo e conselho correto, so nao e medida da
+ * especie. A `fonte` da ficha cita a referencia de onde veio a dureza que
+ * originou o valor, e a derivacao em si fica no relatorio. A alternativa,
+ * registrada no handoff, e tornar `kh` opcional em agua doce pelo mesmo
+ * argumento que ja tirou o campo do marinho.
+ */
 function khDeGh(gh: Faixa): { valor: string; nota: string } {
   if (gh.max <= 8) return { valor: '1-5', nota: 'agua mole' }
   if (gh.min >= 10) return { valor: '10-18', nota: 'agua dura' }
@@ -176,7 +177,7 @@ function congenereCom(f: Fish, campo: CampoHerdavel): Fish | null {
 function herdar(f: Fish, campo: CampoHerdavel): Proposta | null {
   const irmao = congenereCom(f, campo)
   if (!irmao) return null
-  return { valor: irmao[campo], fonte: `congênere ${irmao.nomeCientifico}`, nota: 'congênere' }
+  return { valor: irmao[campo], fonte: '', nota: `congênere ${irmao.nomeCientifico}` }
 }
 
 /**
@@ -185,8 +186,8 @@ function herdar(f: Fish, campo: CampoHerdavel): Proposta | null {
  * Sao dez especies, quase todas de biotopo bem marcado: ciclideo de lago
  * africano vive em agua dura e alcalina, Pangio de igarape de agua preta vive em
  * agua mole e acida. O pH ja registrado na ficha diz de qual dos dois se trata,
- * e a banda sai larga de proposito. Como todo campo deduzido, vai marcado na
- * `fonte`; se um dia a medida por especie aparecer, ela substitui.
+ * e a banda sai larga de proposito. Se um dia a medida por especie aparecer numa
+ * das bases, ela substitui.
  */
 function ghDePh(ph: Faixa): { valor: string; nota: string } | null {
   if (ph.min >= 7.2 && ph.max >= 8) return { valor: '10-20', nota: 'perfil alcalino' }
@@ -199,9 +200,37 @@ function ghDePh(ph: Faixa): { valor: string; nota: string } | null {
 
 interface Proposta {
   valor: string
-  /** De onde saiu, para o relatorio e para a `fonte`. */
+  /**
+   * Nome da fonte citavel, ou vazio quando o valor foi derivado.
+   *
+   * A `fonte` da ficha aparece na pagina, com o rotulo "Fonte". Ela e uma lista
+   * de referencias e nada mais: nota de derivacao ali dentro vira frase torta na
+   * cara do leitor ("Seriously Fish e derivado da dureza (Seriously Fish)").
+   * Quando a derivacao parte de um valor publicado, quem entra aqui e a fonte
+   * desse valor, que e a referencia real por tras do numero.
+   */
   fonte: string
+  /** Como o valor foi obtido. So aparece no relatorio, nunca na ficha. */
   nota: string
+}
+
+/** Ordem de citacao, para a lista sair sempre igual. */
+const ORDEM_FONTES = ['Seriously Fish', 'FishBase', 'GBIF', 'Wikipedia']
+
+/** Texto da `fonte` quando tudo na ficha saiu de derivacao, sem referencia externa. */
+export const SEM_FONTE_EXTERNA = 'Derivado dos parâmetros da própria ficha'
+
+/** Lista de referencias em portugues: "A, B e C". */
+export function citar(fontes: Iterable<string>): string {
+  const nomes = [...new Set(fontes)].filter(Boolean)
+    .sort((a, b) => {
+      const ia = ORDEM_FONTES.indexOf(a)
+      const ib = ORDEM_FONTES.indexOf(b)
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b)
+    })
+  if (nomes.length === 0) return ''
+  if (nomes.length === 1) return nomes[0]
+  return `${nomes.slice(0, -1).join(', ')} e ${nomes[nomes.length - 1]}`
 }
 
 type Regra = (f: Fish, c: Colheita | undefined) => Proposta | null
@@ -224,7 +253,7 @@ const REGRAS: Record<string, Regra> = {
     if (doIrmao) return doIrmao
     const ph = c?.ph ?? faixaDoTexto(f.ph)
     const deduzida = ph ? ghDePh(ph) : null
-    return deduzida ? { valor: deduzida.valor, fonte: 'deduzido do pH', nota: deduzida.nota } : null
+    return deduzida ? { valor: deduzida.valor, fonte: '', nota: `deduzido do pH, ${deduzida.nota}` } : null
   },
 
   /*
@@ -236,8 +265,7 @@ const REGRAS: Record<string, Regra> = {
     const gh = c?.gh ?? faixaDoTexto(f.gh)
     if (!gh) return null
     const { valor, nota } = khDeGh(gh)
-    const origem = c?.gh ? NOME_FONTE[c.gh.fonte] : 'dureza da propria ficha'
-    return { valor, fonte: `derivado da dureza (${origem})`, nota }
+    return { valor, fonte: c?.gh ? NOME_FONTE[c.gh.fonte] : '', nota: `derivado da dureza, ${nota}` }
   },
 
   temperatura: (f, c) => {
@@ -256,7 +284,7 @@ const REGRAS: Record<string, Regra> = {
 
   posicaoAquario: (f, c) => {
     const p = posicaoDe(f, c)
-    return p ? { valor: p.valor, fonte: 'derivado', nota: p.nota } : null
+    return p ? { valor: p.valor, fonte: '', nota: `derivado da ${p.nota}` } : null
   },
 
   /*
@@ -347,9 +375,8 @@ async function main(): Promise<void> {
 
     if (mudancas.length) {
       // O validador exige `fonte` em ficha que recebeu campo antes vazio.
-      const citaveis = [...fontes].filter((s) => s !== 'derivado')
       if (!texto(reg.fonte)) {
-        reg.fonte = citaveis.length ? citaveis.join(' e ') : 'derivado da familia'
+        reg.fonte = citar(fontes) || SEM_FONTE_EXTERNA
       }
       linhas.push(`  ${String(f.id).padStart(3)} ${f.nomePopular.slice(0, 26).padEnd(26)} ${mudancas.join('  ')}`)
     }

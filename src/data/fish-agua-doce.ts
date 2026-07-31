@@ -113,7 +113,7 @@ const data: Fish[] = [
     "temperatura": "25-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2370102,
       "wormsAphiaId": 991188,
@@ -204,7 +204,7 @@ const data: Fish[] = [
     "temperatura": "21-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2348299,
       "wormsAphiaId": 1016536,
@@ -330,7 +330,7 @@ const data: Fish[] = [
     "temperatura": "26-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371326,
       "wormsAphiaId": 1015817,
@@ -375,7 +375,7 @@ const data: Fish[] = [
     "temperatura": "23-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371268,
       "wormsAphiaId": 1014998,
@@ -420,7 +420,7 @@ const data: Fish[] = [
     "temperatura": "23-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371275,
       "wormsAphiaId": 1383553,
@@ -465,7 +465,7 @@ const data: Fish[] = [
     "temperatura": "23-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371223,
       "wormsAphiaId": 1010585,
@@ -504,7 +504,7 @@ const data: Fish[] = [
     "temperatura": "22-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371310,
       "wormsAphiaId": 1018727,
@@ -550,7 +550,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "deduzido do pH e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2373362,
       "wormsAphiaId": 1622617,
@@ -812,7 +812,7 @@ const data: Fish[] = [
     "temperatura": "4-24 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2349007,
       "wormsAphiaId": 1017645,
@@ -897,7 +897,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2393998,
       "wormsAphiaId": 862539,
@@ -943,7 +943,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2368023,
       "wormsAphiaId": 1021081,
@@ -1074,7 +1074,7 @@ const data: Fish[] = [
     "temperatura": "16-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 9209900,
       "wormsAphiaId": 459284,
@@ -1166,7 +1166,7 @@ const data: Fish[] = [
     "temperatura": "16-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2391447,
       "wormsAphiaId": 1384021,
@@ -1206,7 +1206,7 @@ const data: Fish[] = [
     "temperatura": "18-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2391514,
       "wormsAphiaId": 743378,
@@ -1252,7 +1252,7 @@ const data: Fish[] = [
     "temperatura": "20-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "deduzido do pH e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2352343,
       "taxonomia": {
@@ -1322,7 +1322,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2367815,
       "wormsAphiaId": 1021712,
@@ -1368,7 +1368,7 @@ const data: Fish[] = [
     "temperatura": "26-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2371896,
       "wormsAphiaId": 1535727,
@@ -1414,7 +1414,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2407613,
       "wormsAphiaId": 1428141,
@@ -1459,7 +1459,7 @@ const data: Fish[] = [
     "temperatura": "23-27 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2342685,
       "wormsAphiaId": 1018309,
@@ -1620,7 +1620,7 @@ const data: Fish[] = [
     "temperatura": "20-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "congênere Corydoras hastatus e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado de congênere (Corydoras hastatus)",
     "enrichment": {
       "gbifTaxonKey": 2342597,
       "taxonomia": {
@@ -1659,7 +1659,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2342679,
       "wormsAphiaId": 1007681,
@@ -1703,7 +1703,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2370829,
       "wormsAphiaId": 1528515,
@@ -1748,7 +1748,7 @@ const data: Fish[] = [
     "temperatura": "23-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5210826,
       "wormsAphiaId": 1019019,
@@ -2081,7 +2081,7 @@ const data: Fish[] = [
     "temperatura": "18-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2362708,
       "wormsAphiaId": 1008792,
@@ -2121,7 +2121,7 @@ const data: Fish[] = [
     "temperatura": "18-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 9797255,
       "wormsAphiaId": 1026595,
@@ -2167,7 +2167,7 @@ const data: Fish[] = [
     "temperatura": "18-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2389480,
       "wormsAphiaId": 1022766,
@@ -2342,7 +2342,7 @@ const data: Fish[] = [
     "temperatura": "23-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2348780,
       "wormsAphiaId": 1017207,
@@ -2388,7 +2388,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 6165385,
       "wormsAphiaId": 1528029,
@@ -2427,7 +2427,7 @@ const data: Fish[] = [
     "temperatura": "22-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2346564,
       "wormsAphiaId": 280711,
@@ -2499,7 +2499,7 @@ const data: Fish[] = [
     "temperatura": "15-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 7769592,
       "wormsAphiaId": 280831,
@@ -2545,7 +2545,7 @@ const data: Fish[] = [
     "temperatura": "21-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2353920,
       "wormsAphiaId": 862543,
@@ -2591,7 +2591,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2371368,
       "wormsAphiaId": 281018,
@@ -2680,7 +2680,7 @@ const data: Fish[] = [
     "temperatura": "26-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354397,
       "wormsAphiaId": 1016402,
@@ -2720,7 +2720,7 @@ const data: Fish[] = [
     "temperatura": "23-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354911,
       "wormsAphiaId": 1020968,
@@ -2766,7 +2766,7 @@ const data: Fish[] = [
     "temperatura": "26-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2373162,
       "wormsAphiaId": 1021214,
@@ -2851,7 +2851,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "wormsAphiaId": 1383837,
       "enrichedAt": "2026-03-18T12:18:56.721Z",
@@ -2880,7 +2880,7 @@ const data: Fish[] = [
     "temperatura": "20-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354661,
       "wormsAphiaId": 1017690,
@@ -2926,7 +2926,7 @@ const data: Fish[] = [
     "temperatura": "16-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354612,
       "wormsAphiaId": 1018225,
@@ -2972,7 +2972,7 @@ const data: Fish[] = [
     "temperatura": "23-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2354681,
       "wormsAphiaId": 1026685,
@@ -3018,7 +3018,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354538,
       "wormsAphiaId": 1016408,
@@ -3103,7 +3103,7 @@ const data: Fish[] = [
     "temperatura": "20-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354601,
       "wormsAphiaId": 1015050,
@@ -3529,7 +3529,7 @@ const data: Fish[] = [
     "temperatura": "23-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2371694,
       "wormsAphiaId": 1432872,
@@ -3638,7 +3638,7 @@ const data: Fish[] = [
     "temperatura": "16-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5211160,
       "wormsAphiaId": 1016961,
@@ -3903,7 +3903,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2411715,
       "wormsAphiaId": 1525674,
@@ -3982,7 +3982,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "deduzido do pH e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2372995,
       "wormsAphiaId": 1592819,
@@ -4027,7 +4027,7 @@ const data: Fish[] = [
     "temperatura": "25-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2373109,
       "wormsAphiaId": 1017752,
@@ -4071,7 +4071,7 @@ const data: Fish[] = [
     "temperatura": "25-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2373104,
       "wormsAphiaId": 1014331,
@@ -4111,7 +4111,7 @@ const data: Fish[] = [
     "temperatura": "23-27 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2354003,
       "wormsAphiaId": 1017311,
@@ -4699,7 +4699,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2348609,
       "wormsAphiaId": 1383694,
@@ -4831,7 +4831,7 @@ const data: Fish[] = [
     "temperatura": "20-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2394154,
       "wormsAphiaId": 281942,
@@ -4876,7 +4876,7 @@ const data: Fish[] = [
     "temperatura": "19-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "congênere Otocinclus vittatus e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado de congênere (Otocinclus vittatus)",
     "enrichment": {
       "gbifTaxonKey": 2340458,
       "taxonomia": {
@@ -4915,7 +4915,7 @@ const data: Fish[] = [
     "temperatura": "25-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2353911,
       "wormsAphiaId": 1014021,
@@ -4961,7 +4961,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "wormsAphiaId": 1525327,
       "inatPhotoUrls": [
@@ -4993,7 +4993,7 @@ const data: Fish[] = [
     "temperatura": "24-27 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2353914,
       "wormsAphiaId": 1013641,
@@ -5123,7 +5123,7 @@ const data: Fish[] = [
     "temperatura": "24-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2394190,
       "wormsAphiaId": 1021281,
@@ -5163,7 +5163,7 @@ const data: Fish[] = [
     "temperatura": "20-24 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "deduzido do pH e derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2340258,
       "wormsAphiaId": 1014313,
@@ -5207,7 +5207,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "wormsAphiaId": 282193,
       "inatPhotoUrls": [
@@ -5240,7 +5240,7 @@ const data: Fish[] = [
     "temperatura": "23-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2356255,
       "wormsAphiaId": 1019082,
@@ -5280,7 +5280,7 @@ const data: Fish[] = [
     "temperatura": "24-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5203752,
       "wormsAphiaId": 275348,
@@ -5400,7 +5400,7 @@ const data: Fish[] = [
     "temperatura": "25-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 4287127,
       "wormsAphiaId": 1627606,
@@ -5492,7 +5492,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 7059115,
       "wormsAphiaId": 1627327,
@@ -5537,7 +5537,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2419372,
       "wormsAphiaId": 1011768,
@@ -5583,7 +5583,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da dureza (dureza da propria ficha)",
+    "fonte": "Derivado dos parâmetros da própria ficha",
     "enrichment": {
       "gbifTaxonKey": 2419333,
       "wormsAphiaId": 882142,
@@ -5629,7 +5629,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2353616,
       "wormsAphiaId": 1467890,
@@ -5821,7 +5821,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "derivado da familia",
+    "fonte": "Derivado da família",
     "enrichment": {
       "gbifTaxonKey": 2373063,
       "wormsAphiaId": 1010918,
@@ -5905,7 +5905,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 2372999,
       "wormsAphiaId": 1527228,
@@ -6030,7 +6030,7 @@ const data: Fish[] = [
     "temperatura": "25-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "wormsAphiaId": 1018251,
       "inatPhotoUrls": [
@@ -6481,7 +6481,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish; FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2344418,
       "wormsAphiaId": 1015139,
@@ -6618,7 +6618,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5211191,
       "wormsAphiaId": 1022769,
@@ -6664,7 +6664,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5211187,
       "wormsAphiaId": 1020267,
@@ -6710,7 +6710,7 @@ const data: Fish[] = [
     "temperatura": "25-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5211200,
       "wormsAphiaId": 1027008,
@@ -6756,7 +6756,7 @@ const data: Fish[] = [
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "wormsAphiaId": 1461908,
       "inatPhotoUrls": [
@@ -7141,7 +7141,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish)",
+    "fonte": "Seriously Fish",
     "enrichment": {
       "gbifTaxonKey": 5212872,
       "wormsAphiaId": 1020010,
@@ -7276,7 +7276,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 8246728,
       "wormsAphiaId": 405781,
@@ -7321,7 +7321,7 @@ const data: Fish[] = [
     "temperatura": "16-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 4286942,
       "taxonomia": {
@@ -7364,7 +7364,7 @@ const data: Fish[] = [
     "temperatura": "16-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 8246728,
       "taxonomia": {
@@ -7387,10 +7387,10 @@ const data: Fish[] = [
   },
   {
     "id": 179,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Come de tudo, seco, vivo ou congelado, e não dá trabalho nenhum nesse ponto. Uma ração de qualidade como base já sustenta o peixe. Alimento vivo entra para melhorar cor e condição.",
+    "caracteristica": "Corpo curto e alto, com a cauda em leque e sem o prolongamento que dá nome ao Espadinha. O que se vende hoje é quase tudo linhagem de cativeiro: vermelho, laranja, preto e as combinações com mancha na base da cauda. A forma selvagem, bem mais discreta, quase não aparece no comércio.",
+    "comportamento": "É um dos peixes mais tranquilos que se pode pôr num aquário comunitário. Não tem nada da implicância do Espadinha nem da Molinésia, e até os machos se toleram entre si. Se for manter os dois sexos juntos, leve mais fêmeas que machos: o macho persegue sem descanso, e a fêmea precisa de companheiras para dividir a atenção dele.",
+    "diformismoSexual": "O macho é o menor dos dois e tem a nadadeira anal transformada em gonopódio, um bastão fino apontado para trás. A fêmea é maior e de barriga mais cheia.",
     "familia": "Poeciliidae",
     "gh": "10-30",
     "imagem": "",
@@ -7402,12 +7402,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "7-8.2",
     "posicaoAquario": "Todo o aquário",
-    "reproducao": "",
+    "reproducao": "É vivíparo e se reproduz sozinho no aquário comunitário. A pergunta não é como fazer, é quando vai acontecer. A gestação leva de quatro a seis semanas, e ninhada de até oitenta filhotes não é rara. Os adultos costumam ignorar os alevinos, mas quem quer criar a ninhada inteira tira a fêmea prenha para um aquário à parte e a devolve depois do parto.",
     "tamanhoAdulto": "7.5 cm",
     "temperatura": "18-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2350164,
       "taxonomia": {
@@ -7450,7 +7450,7 @@ const data: Fish[] = [
     "temperatura": "26-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 5208131,
       "taxonomia": {
@@ -7473,10 +7473,10 @@ const data: Fish[] = [
   },
   {
     "id": 181,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Onívoro de fundo. A base é ração que afunda, em pastilha ou grânulo, completada com alimento vivo e congelado. Não conte com ele para limpar a sobra dos outros peixes: coridora que come só resto definha.",
+    "caracteristica": "Corpo curto coberto por duas fileiras de placas ósseas no lugar de escamas, e três pares de barbilhões na boca virada para baixo. O tom bronze esverdeado que dá nome ao peixe muda de intensidade conforme a luz e o substrato. Sobe de vez em quando até a superfície para engolir ar: parte da respiração dele acontece no intestino, e isso é normal, não é sinal de água ruim.",
+    "comportamento": "Pacífico e gregário, vive melhor em grupo de seis ou mais. Sozinho ou em dupla ele se esconde e passa o dia parado. Em grupo fica ativo e vasculha o fundo o tempo todo.",
+    "diformismoSexual": "Vista de cima, a fêmea é mais larga e mais arredondada, e costuma passar do macho em tamanho. A diferença fica óbvia quando ela está com ovos.",
     "familia": "Callichthyidae",
     "gh": "2-15",
     "imagem": "",
@@ -7488,12 +7488,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-8",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Reproduz como a maioria das coridoras. Monte o grupo com dois machos para cada fêmea e espere as fêmeas ficarem visivelmente cheias de ovos. A desova é disparada por uma troca grande de água, de metade a dois terços do volume, com água mais fria e mais oxigenação. Repita todo dia até eles desovarem. Os ovos costumam ir para o vidro e eclodem em três ou quatro dias, e é preciso separar a postura dos adultos.",
     "tamanhoAdulto": "7.5 cm",
     "temperatura": "21-27 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2342606,
       "taxonomia": {
@@ -7579,7 +7579,7 @@ const data: Fish[] = [
     "temperatura": "20-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2339313,
       "taxonomia": {
@@ -7645,10 +7645,10 @@ const data: Fish[] = [
   },
   {
     "id": 185,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Na natureza cata insetos pequenos, vermes e crustáceos na coluna d'água. No aquário aceita ração seca sem drama, mas cor e condição melhoram bastante com refeição regular de alimento vivo e congelado, como larva de mosquito, dáfnia e artêmia.",
+    "caracteristica": "Corpo alto e comprimido, em cobre alaranjado, com a marca preta em forma de cunha que ocupa a metade de trás do flanco. É essa mancha que separa a espécie das primas parecidas, e ela ainda serve para sexar o peixe.",
+    "comportamento": "Peixe de cardume e de temperamento fácil, um dos melhores para quem está montando o primeiro aquário comunitário. Não faz exigência de química da água e convive com quase tudo do mesmo porte: outros ciprinídeos, tetras, vivíparos, ciclídeos anões, cascudinhos e botias. Mantenha oito ou mais.",
+    "diformismoSexual": "A fêmea madura é mais roliça e um pouco maior. O macho é mais esguio e mais colorido. Dá para conferir pela cunha preta do flanco: no macho ela tem contorno nítido e ponta definida, na fêmea o desenho é mais arredondado.",
     "familia": "Cyprinidae",
     "gh": "1-12",
     "imagem": "",
@@ -7660,12 +7660,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "5-7.5",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Não cuida da prole, e desova de um jeito diferente da maioria dos ciprinídeos pequenos: em vez de espalhar os ovos, cola cada um na face de baixo de folhas largas. Num aquário maduro e bem plantado alguns filhotes aparecem sozinhos. Para colher mais, monte um aquário à parte, bem escuro, de fundo nu ou coberto por tela. A malha precisa ser larga o bastante para o ovo passar e estreita o bastante para o adulto não alcançar.",
     "tamanhoAdulto": "4.5 cm",
     "temperatura": "21-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2367610,
       "taxonomia": {
@@ -7708,7 +7708,7 @@ const data: Fish[] = [
     "temperatura": "23-29 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 5208367,
       "taxonomia": {
@@ -7731,10 +7731,10 @@ const data: Fish[] = [
   },
   {
     "id": 187,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Piscívoro na natureza. No aquário a dieta é de alimento carnudo, como camarão, mexilhão e peixe de carne branca em pedaço.",
+    "caracteristica": "Ciclídeo de corpo alongado e boca enorme, feito para caçar em velocidade. As faixas escuras verticais do flanco e o ocelo preto contornado de claro na base da cauda são a marca do gênero. O macho adulto desenvolve uma corcova na nuca.",
+    "comportamento": "Territorial e moderadamente agressivo, e come qualquer peixe que caiba na boca. Convive com espécies grandes, como aruanãs, arraias, bagres e outros ciclídeos de porte, desde que o aquário seja realmente grande. Não é peixe para aquário comunitário.",
+    "diformismoSexual": "O macho fica maior e desenvolve uma corcova na nuca conforme amadurece.",
     "familia": "Cichlidae",
     "gh": "0-15",
     "imagem": "",
@@ -7746,7 +7746,7 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.5-7",
     "posicaoAquario": "Todo o aquário",
-    "reproducao": "",
+    "reproducao": "Há pouquíssimo relato de reprodução em aquário, e nenhum protocolo confiável de repetir. O porte que o casal precisa alcançar é o que deixa a tentativa fora do alcance de quem cria em casa.",
     "tamanhoAdulto": "75 cm",
     "temperatura": "24-27 °C",
     "tipo": "PEIXESDULCICOLAS",
@@ -7774,10 +7774,10 @@ const data: Fish[] = [
   },
   {
     "id": 188,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Basicamente carnívoro, mas aceita quase tudo que se ofereça. Alimento vivo puxa a cor para cima. Inclua matéria vegetal, em ração com espirulina ou espinafre escaldado, porque na natureza ele obtém isso do intestino dos invertebrados que come.",
+    "caracteristica": "Ciclídeo compacto e vermelho intenso, salpicado de pontos azuis brilhantes pelo corpo e pelas nadadeiras. A cor sobe muito na época de desova, quando o casal fica quase escarlate.",
+    "comportamento": "Territorial, razoavelmente calmo fora da desova e muito agressivo quando está criando. Convive com peixes africanos de porte parecido, como tetras do Congo, sinodontes e cascudos, e com outros ciclídeos africanos se o aquário for grande. Comprar só um casal costuma terminar com o mais fraco morto. O caminho é comprar um grupo de jovens e deixar o casal se formar.",
+    "diformismoSexual": "Difícil de sexar. Fora da época de reprodução o macho é um pouco mais colorido, e essa é toda a diferença visível.",
     "familia": "Cichlidae",
     "gh": "4-15",
     "imagem": "",
@@ -7789,12 +7789,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-7.8",
     "posicaoAquario": "Todo o aquário",
-    "reproducao": "",
+    "reproducao": "Não é difícil, desde que o casal se forme sozinho. Compre cinco ou seis jovens e tenha paciência, porque o processo demora. Monte o aquário com pedras grandes servindo de sítio de desova e retire os outros peixes assim que o casal se definir, senão eles morrem. A espécie é monogâmica e o casal fica junto pelo resto da vida.",
     "tamanhoAdulto": "10 cm",
     "temperatura": "22-24 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2371376,
       "taxonomia": {
@@ -7816,10 +7816,10 @@ const data: Fish[] = [
   },
   {
     "id": 189,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Micropredadora: na natureza come insetos pequenos, vermes e crustáceos. No aquário aceita ração de qualidade, e fica bem melhor com larva de mosquito, dáfnia e artêmia entrando na rotina.",
+    "caracteristica": "Prima menor e mais esguia da Rasbora Arlequim, em cobre alaranjado mais quente. A marca preta do flanco é fina e comprida, em forma de gancho, no lugar da cunha larga da parente.",
+    "comportamento": "Muito pacífica e sem exigência de química da água, o que a torna fácil de encaixar num comunitário. Vai bem com ciprinídeos pequenos, tetras, vivíparos, ciclídeos anões, cascudinhos e botias. É peixe de cardume e precisa de oito a dez para ficar à vontade e para o macho mostrar a cor cheia.",
+    "diformismoSexual": "A fêmea é mais roliça e um pouco maior. O macho é mais fino e mais colorido, e nele a marca escura do flanco tem contorno mais nítido.",
     "familia": "Cyprinidae",
     "gh": "1-10",
     "imagem": "",
@@ -7831,12 +7831,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "5.5-7.5",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Cola os ovos na face de baixo de folhas largas e não cuida deles depois. Em aquário maduro e plantado aparece filhote sem ninguém fazer nada. Para criar em quantidade, use um aquário à parte, escuro, com tela no fundo que deixe o ovo passar e barre o adulto.",
     "tamanhoAdulto": "3 cm",
     "temperatura": "23-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2367617,
       "taxonomia": {
@@ -7859,10 +7859,10 @@ const data: Fish[] = [
   },
   {
     "id": 190,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Micropredadora, come insetos pequenos, vermes e crustáceos. A boca é minúscula, então o alimento precisa acompanhar o tamanho. Ração seca sozinha não basta: dáfnia e artêmia todo dia é o que traz a cor e coloca o peixe em condição de desova.",
+    "caracteristica": "Um dos menores peixes de aquário que existem, com pouco mais de dois centímetros. O corpo é vermelho intenso, cortado por uma faixa escura no comprimento, e o vermelho fica mais forte nos machos dominantes. Vem de igarapé de água preta sobre turfa, e é em água escura e ácida que a cor aparece de verdade.",
+    "comportamento": "Pacífica, mas não serve para comunitário comum: é pequena e tímida demais, e some no meio de peixe maior. Rende muito mais sozinha ou com espécies igualmente miúdas, como coridoras anãs, otocinclos, Trigonostigma e bettas pequenos. Convive bem com camarões dos gêneros Caridina e Neocaridina. Mantenha oito a dez.",
+    "diformismoSexual": "A fêmea madura é bem mais roliça e um pouco maior. O macho é mais colorido, e o dominante do grupo fica com o vermelho mais intenso de todos.",
     "familia": "Cyprinidae",
     "gh": "1-10",
     "imagem": "",
@@ -7874,12 +7874,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "4-7",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Espalha os ovos e não cuida de nada. Em boa condição a fêmea põe poucos ovos por dia, todo dia, e num aquário maduro e bem plantado alguns filhotes aparecem sozinhos. Para colher mais, use um recipiente pequeno, de dez a quinze litros, escuro, com o fundo protegido por tela ou por uma camada de bolinhas de vidro.",
     "tamanhoAdulto": "2 cm",
     "temperatura": "20-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2366587,
       "taxonomia": {
@@ -7900,10 +7900,10 @@ const data: Fish[] = [
   },
   {
     "id": 192,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Aceita ração seca, mas prefere de longe alimento vivo e congelado, como larva de mosquito, dáfnia e artêmia. Com essa dieta a cor melhora e o peixe entra em condição de desova bem mais rápido.",
+    "caracteristica": "Corpo roliço em azul e amarelo, com listras avermelhadas nos flancos e um ocelo escuro na base da cauda. O macho adulto desenvolve uma corcova na testa.",
+    "comportamento": "Um pouco territorial com os da própria espécie, tranquilo com o resto. Combina com peixes pequenos e pacíficos, e vai especialmente bem com espécies da mesma região, como os arco-íris de Papua. Dá para manter em grupo pequeno: eles brigam de mentira, abrindo as nadadeiras um para o outro, e isso rende mais espetáculo do que um casal sozinho.",
+    "diformismoSexual": "O macho é maior, mais colorido e desenvolve corcova na testa. A fêmea tem a barriga amarelada, que falta no macho. Em peixe jovem, olhe a nadadeira anal: a fêmea costuma ter uma barra escura na borda, o macho não.",
     "familia": "Eleotridae",
     "gh": "5-10",
     "imagem": "",
@@ -7915,12 +7915,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.5-7.5",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Desova em caverna, então caverna é obrigatória. Um pedaço de cano de plástico funciona bem, porque dá para tampar as duas pontas com o dedo e retirar a postura inteira. Compre de seis a oito jovens e deixe o casal se formar. O macho fica se exibindo na entrada da caverna e tenta convencer a fêmea cheia de ovos a entrar.",
     "tamanhoAdulto": "7.5 cm",
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2386263,
       "taxonomia": {
@@ -7943,10 +7943,10 @@ const data: Fish[] = [
   },
   {
     "id": 193,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "É raspador especializado: come o biofilme de alga que cresce sobre a pedra, e tem o intestino longo feito para isso. Aceita ração que afunda e um pouco de alimento carnudo, mas só de vez em quando. O que garante o peixe a longo prazo é aquário maduro com bastante superfície coberta de alga.",
+    "caracteristica": "Góbio de riacho de correnteza, com as nadadeiras pélvicas fundidas num disco que gruda na pedra. A cor varia muito, do oliva claro ao marrom escuro, e um indivíduo troca de padrão em minutos. A bochecha pode ser laranja, dourada ou azul viva, e as nadadeiras têm fundo alaranjado com fileiras de marcas escuras.",
+    "comportamento": "Convive bem, desde que os companheiros sejam escolhidos com cuidado. Para a parte de cima, espécies pacíficas de água corrente e bem oxigenada, como Tanichthys e Danio pequenos. No fundo, botias pequenas de riacho. Evite peixe que come com agressividade e ciclídeo territorial, porque tiram a comida dele.",
+    "diformismoSexual": "O dimorfismo do gênero é marcado, mas nesta espécie o macho é difícil de definir, porque a cor muda o tempo todo. Machos costumam ter a primeira nadadeira dorsal mais alta, com raios prolongados.",
     "familia": "Gobiidae",
     "gh": "2-12",
     "imagem": "",
@@ -7958,12 +7958,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.5-7.5",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Não há criação em aquário. Existe registro de corte e de desova, mas ninguém conseguiu criar os filhotes: a larva recém-eclodida é levada rio abaixo até o mar e passa a primeira fase da vida em água salgada, antes de subir o rio de volta. A fêmea é extremamente fecunda para o tamanho e chega a pôr dez mil ovos de uma vez.",
     "tamanhoAdulto": "7 cm",
     "temperatura": "20-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2376117,
       "taxonomia": {
@@ -8028,10 +8028,10 @@ const data: Fish[] = [
   },
   {
     "id": 195,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Come plâncton e invertebrado pequeno na superfície e na coluna d'água. No aquário, o miolo da dieta deve ser alimento vivo miúdo, como dáfnia, moina, náuplio de artêmia e micro-verme. Ração seca em floco pequeno é aceita, mas não sustenta sozinha.",
+    "caracteristica": "Peixe pequeno de corpo translúcido esverdeado, com nadadeiras amarelas de ponta clara. O olho é azul vivo, o que dá o nome popular. No macho, as nadadeiras ímpares se alongam em filamentos conforme ele amadurece.",
+    "comportamento": "Pacífico e bom para comunitário montado com espécies do mesmo porte e das mesmas exigências. O Gobi Pavão, que divide o riacho com ele na natureza, é companheiro certeiro. É peixe de cardume: oito a dez indivíduos deixam o grupo menos assustado e fazem os machos se exibirem uns para os outros.",
+    "diformismoSexual": "O macho tem padrão e cor mais fortes que a fêmea, e as nadadeiras ímpares dele se alongam bastante quando amadurece.",
     "familia": "Pseudomugilidae",
     "gh": "15-30",
     "imagem": "",
@@ -8043,12 +8043,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "7-8",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Espalha os ovos, não cuida deles e come a própria postura se tiver chance. A fêmea põe alguns ovos por dia, durante vários dias, colados na vegetação. Há um detalhe que pesa: todos os exemplares de aquário vêm de uma única coleta, e a consanguinidade cobra o preço em fertilidade baixa e alevino deformado.",
     "tamanhoAdulto": "6 cm",
     "temperatura": "24-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2411765,
       "taxonomia": {
@@ -8070,10 +8070,10 @@ const data: Fish[] = [
   },
   {
     "id": 196,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Micropredador, come insetos pequenos, vermes e crustáceos. Aceita ração de qualidade sem problema, e melhora com larva de mosquito, dáfnia e artêmia. Inclua na rotação alguma ração com conteúdo vegetal ou de alga.",
+    "caracteristica": "Corpo esguio com uma linha clara brilhante do olho até a cauda, sobre fundo escuro, e vermelho nas nadadeiras. Vive em água mais fria que a média do aquário tropical, e essa é a característica que mais pesa na hora de escolher os companheiros.",
+    "comportamento": "Muito pacífico e ótimo para comunitário, desde que a temperatura seja respeitada. Combina com o Barbo Rosa e com o peixe-do-paraíso, com quem divide o riacho na natureza. Apesar de ser vendido como companhia de Kinguio, não serve para isso. É peixe de cardume: compre dez ou mais.",
+    "diformismoSexual": "A fêmea madura é mais roliça e costuma ser um pouco maior. O macho é mais fino e mais colorido.",
     "familia": "Cyprinidae",
     "gh": "5-20",
     "imagem": "",
@@ -8085,12 +8085,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-8.5",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Espalha os ovos continuamente e não cuida da prole. Num grupo mantido sozinho, em aquário plantado e maduro, filhote costuma aparecer sem intervenção nenhuma. Para colher mais, monte um aquário pequeno e escuro com o fundo coberto por tela ou por bolinhas de vidro, para o ovo cair fora do alcance dos adultos.",
     "tamanhoAdulto": "4 cm",
     "temperatura": "18-22 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 5207572,
       "taxonomia": {
@@ -8113,10 +8113,10 @@ const data: Fish[] = [
   },
   {
     "id": 197,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Onívoro generalista: come vermes, insetos, outros invertebrados pequenos, material vegetal e detrito. No aquário aceita ração seca com facilidade, e vai melhor com alimento vivo e congelado na rotina, mais alguma ração de conteúdo vegetal.",
+    "caracteristica": "Corpo alto e comprimido, prateado com reflexo rosado que fica intenso no macho em época de desova. Ocorre em ambiente muito variado, de riacho de serra a lago e brejo, e essa plasticidade aparece na facilidade com que se adapta ao aquário.",
+    "comportamento": "Em geral pacífico e bom para comunitário bem pensado. Não faz exigência de química da água e vai bem com outros ciprinídeos, tetras, vivíparos, arco-íris, anabantídeos, bagres e botias. É de cardume e precisa de oito a dez para ficar tranquilo e para os machos exibirem a cor cheia.",
+    "diformismoSexual": "O macho adulto é menor, mais fino e bem mais colorido que a fêmea, sobretudo na época de desova, quando aparecem tubérculos na cabeça e no focinho. Algumas linhagens ornamentais mantêm a cor forte o ano todo.",
     "familia": "Cyprinidae",
     "gh": "5-20",
     "imagem": "pethiaconchonius",
@@ -8128,12 +8128,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-8",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Espalha os ovos em desova livre e não cuida deles. Em aquário maduro pode aparecer filhote sem intervenção. Para produzir em quantidade, use um aquário menor, escuro, cheio de água madura e com o fundo coberto por tela de malha larga o bastante para o ovo cair.",
     "tamanhoAdulto": "10 cm",
     "temperatura": "16-24 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 7572096,
       "taxonomia": {
@@ -8176,7 +8176,7 @@ const data: Fish[] = [
     "temperatura": "24-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2361970,
       "taxonomia": {
@@ -8199,10 +8199,10 @@ const data: Fish[] = [
   },
   {
     "id": 199,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Raspador de aufwuchs: alga, crustáceo miúdo e larva de inseto presos na superfície. No aquário, combine ração seca de qualidade com alimento vivo e congelado e com vegetal fresco, como ervilha sem pele, pepino, abobrinha escaldada e espinafre. Depois de aclimatado ele sobe para o meio da água para comer.",
+    "caracteristica": "Corpo alongado com boca ventral em ventosa, que ele usa para se fixar na pedra em correnteza e raspar o biofilme. Passa dos vinte e cinco centímetros na vida adulta, o que quase ninguém espera do filhote de cinco centímetros que se vende na loja.",
+    "comportamento": "Apesar de ser vendido como peixe de limpeza para comunitário, não serve para isso. Filhote se esconde, mas o adulto fica cada vez mais territorial, e é especialmente agressivo com peixe de formato parecido, como Crossocheilus, Epalzeorhynchos e Garra. Evite outros peixes de fundo. Ele chega a grudar no flanco de peixe maior para raspar o muco.",
+    "diformismoSexual": "A fêmea madura é nitidamente mais encorpada. Peixe jovem não dá para sexar. Em condição de desova, o macho adulto desenvolve tubérculos no focinho.",
     "familia": "Gyrinocheilidae",
     "gh": "2-20",
     "imagem": "",
@@ -8214,12 +8214,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-8",
     "posicaoAquario": "Vidros e superfícies",
-    "reproducao": "",
+    "reproducao": "Não há registro de reprodução em aquário. O que abastece o comércio vem de fazenda de criação, com indução hormonal.",
     "tamanhoAdulto": "28 cm",
     "temperatura": "25-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2368346,
       "taxonomia": {
@@ -8242,10 +8242,10 @@ const data: Fish[] = [
   },
   {
     "id": 200,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Insetívoro de superfície. A dieta é de alimento vivo e congelado: larva de mosquito, artêmia, camarão, tenébrio pequeno. Come inseto vivo com gosto. Aceita floco, mas floco não pode ser a base. Ele só come na superfície, então confira se está mesmo pegando a parte dele.",
+    "caracteristica": "Vive colado à superfície e é feito para isso: dorso achatado, boca virada para cima e nadadeiras peitorais enormes, abertas como asas, que dão o nome. Salta para fora da água atrás de inseto, então o aquário precisa de tampa.",
+    "comportamento": "Em geral tranquilo, mas come qualquer peixe que caiba na boca e implica com outros peixes de superfície. As nadadeiras compridas são convite para peixe beliscador. Companheiros bons são africanos de meia-água e de fundo: tetras do Congo, peixe elefante, sinodontes, Ctenopoma e ciclídeos oeste-africanos de porte pequeno a médio. Em aquário amplo e com bastante planta flutuante, um grupo pequeno convive.",
+    "diformismoSexual": "Olhe a borda de trás da nadadeira anal: reta na fêmea, convexa no macho.",
     "familia": "Pantodontidae",
     "gh": "5-15",
     "imagem": "",
@@ -8257,12 +8257,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6-7.5",
     "posicaoAquario": "Topo",
-    "reproducao": "",
+    "reproducao": "Difícil, mas possível. Os ovos são espalhados e boiam. Precisa de aquário com a maior superfície possível, cheio de planta flutuante, e do casal condicionado com alimento vivo e congelado. Baixar a lâmina d'água por duas semanas e depois completar com água nova costuma disparar a desova, que vem depois de muita perseguição do macho.",
     "tamanhoAdulto": "12 cm",
     "temperatura": "23-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2402307,
       "taxonomia": {
@@ -8285,10 +8285,10 @@ const data: Fish[] = [
   },
   {
     "id": 201,
-    "alimentacao": "",
-    "caracteristica": "",
-    "comportamento": "",
-    "diformismoSexual": "",
+    "alimentacao": "Onívoro e voraz, come praticamente tudo. Uma mistura de pellet seco, congelado carnudo e material vegetal dá conta. Adulto não precisa comer todo dia. Cuidado na hora de alimentar, porque ele não sabe parar.",
+    "caracteristica": "Bagre de corpo comprido e cabeça achatada, com quatro pares de barbilhões. Tem órgão respiratório acessório e aguenta bastante tempo fora d'água, o que lhe permite atravessar terreno molhado de um corpo d'água a outro. Na natureza chega a um metro, embora em cativeiro raramente passe de sessenta centímetros.",
+    "comportamento": "Altamente predador: come qualquer peixe que caiba naquela boca. Só convive com espécies grandes e robustas, como barbos grandes, cascudos e ciclídeos de porte. Todo companheiro precisa entrar já maior que ele, porque o jovem cresce muito rápido. Não é peixe para comunitário.",
+    "diformismoSexual": "Na forma selvagem, o macho tem pontos na nadadeira dorsal, o que não vale para as variedades de aquário. O jeito seguro é olhar a papila genital: alongada e pontuda no macho, curta e romba na fêmea. A fêmea também tem a barriga bem mais cheia.",
     "familia": "Clariidae",
     "gh": "2-25",
     "imagem": "clariasbatrachus",
@@ -8300,12 +8300,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "5.5-8",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Acontece em escala em fazenda de criação e é rara em aquário, embora possível em tanque grande. A maturidade chega perto dos trinta centímetros. Comece com um grupo de jovens para conseguir um casal, e retire o resto assim que a dupla se formar, porque eles ficam territoriais. Na natureza a desova é em toca escavada na barranca do rio.",
     "tamanhoAdulto": "100 cm",
     "temperatura": "20-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 5202683,
       "taxonomia": {
@@ -8347,7 +8347,7 @@ const data: Fish[] = [
     "temperatura": "23-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2401878,
       "taxonomia": {
@@ -8390,7 +8390,7 @@ const data: Fish[] = [
     "temperatura": "20-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2402039,
       "taxonomia": {
@@ -8433,7 +8433,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:37.164Z",
       "gbifTaxonKey": 2348519,
@@ -8476,7 +8476,7 @@ const data: Fish[] = [
     "temperatura": "20-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:38.768Z",
       "gbifTaxonKey": 2362709,
@@ -8517,7 +8517,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:03:48.804Z",
       "inatPhotoUrls": [
@@ -8550,7 +8550,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:03:50.891Z",
       "inatPhotoUrls": [
@@ -8583,7 +8583,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:43.685Z",
       "gbifTaxonKey": 2340460,
@@ -8626,7 +8626,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:03:52.847Z",
       "inatPhotoUrls": [
@@ -8659,7 +8659,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "híbrido de aquariofilia",
+    "fonte": "Híbrido de aquariofilia",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:03:55.187Z",
       "inatPhotoUrls": [
@@ -8691,7 +8691,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:48.478Z",
       "gbifTaxonKey": 2352623,
@@ -8734,7 +8734,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:50.170Z",
       "gbifTaxonKey": 2411651,
@@ -8777,7 +8777,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:34:52.931Z",
       "gbifTaxonKey": 5212838,
@@ -8842,10 +8842,10 @@ const data: Fish[] = [
   },
   {
     "id": 215,
-    "alimentacao": "",
-    "caracteristica": "",
+    "alimentacao": "Onívoro e aceita quase tudo, mas a boca é pequena e o alimento precisa acompanhar. Alterne floco e grânulo de qualidade com alimento vivo e congelado miúdo. É essa variedade que sustenta o vermelho da cabeça.",
+    "caracteristica": "Corpo prateado translúcido, com a cabeça vermelho-sangue e a cauda listrada de preto e branco. O vermelho da cabeça funciona como termômetro do peixe: some quando a água piora ou o peixe está estressado, e volta quando as coisas se ajeitam.",
     "comportamento": "Pacífico, cardume de 8+",
-    "diformismoSexual": "",
+    "diformismoSexual": "A fêmea madura é nitidamente mais arredondada de corpo que o macho.",
     "familia": "Characidae",
     "gh": "2-15",
     "imagem": "",
@@ -8857,12 +8857,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "5.5-7.0",
     "posicaoAquario": "Meio",
-    "reproducao": "",
+    "reproducao": "Para criar em quantidade é preciso um aquário à parte, pequeno e com pouca luz. Ponha tufos de planta de folha fina, como musgo de java, ou esfregão de desova, para os ovos aderentes terem onde ficar. Cobrir o fundo com tela que deixe o ovo passar e barre o adulto também funciona. Dá para desovar em grupo, com meia dúzia de cada sexo, ou em casal.",
     "tamanhoAdulto": "5 cm",
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:13.278Z",
       "gbifTaxonKey": 2354371,
@@ -8904,7 +8904,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:14.694Z",
       "gbifTaxonKey": 2354646,
@@ -8947,7 +8947,7 @@ const data: Fish[] = [
     "temperatura": "18-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:16.632Z",
       "gbifTaxonKey": 2354671,
@@ -8990,7 +8990,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:18.135Z",
       "gbifTaxonKey": 2355627,
@@ -9033,7 +9033,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:19.803Z",
       "gbifTaxonKey": 2355640,
@@ -9118,7 +9118,7 @@ const data: Fish[] = [
     "temperatura": "18-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:04:04.211Z",
       "inatPhotoUrls": [
@@ -9131,10 +9131,10 @@ const data: Fish[] = [
   },
   {
     "id": 224,
-    "alimentacao": "",
-    "caracteristica": "",
+    "alimentacao": "Onívora e fácil de alimentar. A base é pastilha ou pellet de boa qualidade que afunde, completada com alimento vivo e congelado, como dáfnia, artêmia e larva de mosquito.",
+    "caracteristica": "Coridora pequena, de corpo claro com três marcas pretas: uma sobre o olho, como máscara, uma na base da dorsal e uma na base da cauda. É esse desenho que dá o nome. Vem de riachos que recebem degelo dos Andes e passam por períodos de água bem fria.",
     "comportamento": "Pacífico, grupo de 6+",
-    "diformismoSexual": "",
+    "diformismoSexual": "Olhe de cima: a fêmea tem a barriga mais arredondada e costuma ser um pouco maior.",
     "familia": "Callichthyidae",
     "gh": "2-25",
     "imagem": "",
@@ -9146,12 +9146,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.0-7.5",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Reproduz como as outras coridoras. Use um aquário de desova pequeno, de fundo nu ou de areia fina, com filtro de esponja movido a ar para não sugar alevino, e tufos de musgo de java. Condicione o grupo com dois machos por fêmea e dispare a desova com uma troca grande de água mais fria, quando as fêmeas estiverem cheias de ovos.",
     "tamanhoAdulto": "5 cm",
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:27.905Z",
       "gbifTaxonKey": 2342738,
@@ -9194,7 +9194,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:29.356Z",
       "gbifTaxonKey": 2342634,
@@ -9235,7 +9235,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:30.846Z",
       "gbifTaxonKey": 2342708,
@@ -9278,7 +9278,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:04:07.696Z",
       "inatPhotoUrls": [
@@ -9311,7 +9311,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase) e GBIF",
+    "fonte": "FishBase e GBIF",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:34.574Z",
       "gbifTaxonKey": 2342613,
@@ -9354,7 +9354,7 @@ const data: Fish[] = [
     "temperatura": "22-26 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:36.271Z",
       "gbifTaxonKey": 2342782,
@@ -9397,7 +9397,7 @@ const data: Fish[] = [
     "temperatura": "26-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:04:12.199Z",
       "inatPhotoUrls": [
@@ -9408,10 +9408,10 @@ const data: Fish[] = [
   },
   {
     "id": 231,
-    "alimentacao": "",
-    "caracteristica": "",
+    "alimentacao": "Na natureza é onívoro, com preferência por invertebrado aquático. No aquário vai bem com dieta variada de ração que afunda, dáfnia congelada, larva de mosquito e camarão. Comida caseira ligada com gelatina, misturando fruta, vegetal, espirulina e parte carnuda, funciona muito bem.",
+    "caracteristica": "Ciclídeo robusto de corpo alto e escuro, coberto de pontos azul-esverdeados que reluzem conforme a luz. O nome vem do boxeador campeão dos anos 1920, escolhido pelos traços marcados da cara e pelo temperamento brigão. Existe uma variedade azul fixada a partir de uma mutação natural, que fica menor que a forma comum.",
     "comportamento": "Agressivo, territorial. Pet fish interativo.",
-    "diformismoSexual": "",
+    "diformismoSexual": "Nenhuma das duas fontes consultadas descreve diferença externa confiável entre macho e fêmea. Quem quer um casal parte de um grupo de jovens e deixa a dupla se formar sozinha.",
     "familia": "Cichlidae",
     "gh": "5-20",
     "imagem": "",
@@ -9423,12 +9423,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.5-7.5",
     "posicaoAquario": "Todo o aquário",
-    "reproducao": "",
+    "reproducao": "Forma casal e os dois cuidam da postura juntos, sobre substrato. Jovens crescem lado a lado sem problema, mas começam a brigar quando amadurecem, então o caminho é deixar um casal se formar a partir de um grupo. Formada a dupla, os dois ficam pacíficos entre si e hostis com o resto, sobretudo com peixes de formato parecido.",
     "tamanhoAdulto": "25 cm",
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:39.984Z",
       "gbifTaxonKey": 2369703,
@@ -9471,7 +9471,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:41.734Z",
       "gbifTaxonKey": 2373136,
@@ -9514,7 +9514,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:43.260Z",
       "gbifTaxonKey": 7570042,
@@ -9557,7 +9557,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:45.136Z",
       "gbifTaxonKey": 2370147,
@@ -9600,7 +9600,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:46.937Z",
       "gbifTaxonKey": 5208202,
@@ -9686,7 +9686,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:49.923Z",
       "gbifTaxonKey": 7623402,
@@ -9729,7 +9729,7 @@ const data: Fish[] = [
     "temperatura": "25-30 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:51.507Z",
       "gbifTaxonKey": 2394132,
@@ -9772,7 +9772,7 @@ const data: Fish[] = [
     "temperatura": "10-25 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:53.177Z",
       "gbifTaxonKey": 2367919,
@@ -9815,7 +9815,7 @@ const data: Fish[] = [
     "temperatura": "18-24 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:40:54.865Z",
       "gbifTaxonKey": 5205384,
@@ -9942,7 +9942,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "FishBase e derivado da dureza (FishBase)",
+    "fonte": "FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:00.739Z",
       "gbifTaxonKey": 2339870,
@@ -9985,7 +9985,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:02.457Z",
       "gbifTaxonKey": 7916021,
@@ -10028,7 +10028,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:04.429Z",
       "gbifTaxonKey": 2338912,
@@ -10051,10 +10051,10 @@ const data: Fish[] = [
   },
   {
     "id": 246,
-    "alimentacao": "",
-    "caracteristica": "",
+    "alimentacao": "Onívoro. Na natureza come invertebrado de fundo e detrito. Aceita quase tudo que se ofereça, e precisa de alguma parte vegetal na dieta.",
+    "caracteristica": "Vivíparo minúsculo, menor que o Guppy comum. O macho é uma explosão de cor, com manchas metálicas em verde, laranja e preto que mudam de tom conforme a luz. A fêmea é bem maior e sem cor, num cinza esverdeado.",
     "comportamento": "Pacífico, vivíparo, cores intensas, menor que Guppy.",
-    "diformismoSexual": "",
+    "diformismoSexual": "O macho é menor e muito mais colorido. A fêmea é bem mais encorpada e vive praticamente sempre prenha.",
     "familia": "Poeciliidae",
     "gh": "15-35",
     "imagem": "",
@@ -10066,12 +10066,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.5-8.0",
     "posicaoAquario": "Todo o aquário",
-    "reproducao": "",
+    "reproducao": "Fácil a ponto de ser inevitável: reproduz no aquário comunitário e é muito prolífico. Sai ninhada nova a cada vinte e três ou vinte e quatro dias, de cinco a vinte e cinco filhotes por vez, conforme a idade e o tamanho da fêmea. Mantenha várias fêmeas por macho, porque ele persegue sem parar. Um aviso: não misture com Guppy, porque as duas espécies cruzam entre si.",
     "tamanhoAdulto": "3 cm",
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:05.996Z",
       "gbifTaxonKey": 5203789,
@@ -10114,7 +10114,7 @@ const data: Fish[] = [
     "temperatura": "22-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T21:04:17.948Z",
       "inatPhotoUrls": [
@@ -10147,7 +10147,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:09.042Z",
       "gbifTaxonKey": 5203757,
@@ -10170,10 +10170,10 @@ const data: Fish[] = [
   },
   {
     "id": 249,
-    "alimentacao": "",
-    "caracteristica": "",
+    "alimentacao": "Pouco exigente na prática: aceita ração seca, congelado e vivo. Verme de qualquer tipo é o que ele mais gosta. Como come devagar e à noite, confira se companheiro rápido não está tomando a comida dele.",
+    "caracteristica": "O prolongamento carnudo do queixo, que parece uma tromba, é um órgão sensorial que ele usa para vasculhar o fundo. Gera um campo elétrico fraco e se orienta pela deformação desse campo, o que lhe permite viver em água escura e barrenta. É um peixe de cérebro grande para o tamanho, com comportamento à altura.",
     "comportamento": "Pacífico, noturno, usa campo elétrico para navegar.",
-    "diformismoSexual": "",
+    "diformismoSexual": "Não dá para sexar por fora. A diferença está no padrão do campo elétrico que cada sexo emite, medição fora do alcance de quem cria em casa.",
     "familia": "Mormyridae",
     "gh": "5-15",
     "imagem": "",
@@ -10185,12 +10185,12 @@ const data: Fish[] = [
     "outrosNome": "",
     "ph": "6.0-7.5",
     "posicaoAquario": "Fundo",
-    "reproducao": "",
+    "reproducao": "Não há reprodução em aquário. Um estudo sugere que o confinamento embaralha o padrão elétrico que distingue macho de fêmea, a ponto de os peixes não se reconhecerem, o que trava a desova.",
     "tamanhoAdulto": "25 cm",
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:10.905Z",
       "gbifTaxonKey": 2402409,
@@ -10233,7 +10233,7 @@ const data: Fish[] = [
     "temperatura": "24-28 °C",
     "tipo": "PEIXESDULCICOLAS",
     "subTipo": "",
-    "fonte": "Seriously Fish e derivado da dureza (Seriously Fish) e FishBase",
+    "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "enrichedAt": "2026-03-18T20:41:12.884Z",
       "gbifTaxonKey": 2402260,

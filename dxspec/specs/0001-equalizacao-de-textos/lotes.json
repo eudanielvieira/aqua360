@@ -1,0 +1,12 @@
+{
+  "01": {
+    "regra": "voz",
+    "chaves": [
+      "agua-doce:179", "agua-doce:181", "agua-doce:185", "agua-doce:187",
+      "agua-doce:188", "agua-doce:189", "agua-doce:190", "agua-doce:192",
+      "agua-doce:193", "agua-doce:195", "agua-doce:196", "agua-doce:197",
+      "agua-doce:199", "agua-doce:200", "agua-doce:201", "agua-doce:215",
+      "agua-doce:224", "agua-doce:231", "agua-doce:246", "agua-doce:249"
+    ]
+  }
+}
