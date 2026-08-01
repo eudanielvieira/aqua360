@@ -1547,14 +1547,25 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "",
     "enrichment": {
+      "gbifTaxonKey": 2342720,
       "wormsAphiaId": 1026374,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras paleatus"
+      },
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/334574786/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/622999436/medium.jpg"
       ],
-      "inatObservationCount": 106,
-      "enrichedAt": "2026-03-18T12:16:40.655Z",
+      "inatObservationCount": 111,
+      "gbifOccurrenceCount": 521,
+      "enrichedAt": "2026-08-01T14:41:27.522Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Corydoras_melanotaenia.JPG/800px-Corydoras_melanotaenia.JPG"
     }
   },
@@ -1800,7 +1811,7 @@ const data: Fish[] = [
         "https://static.inaturalist.org/photos/163969539/medium.jpeg"
       ],
       "inatObservationCount": 2,
-      "enrichedAt": "2026-03-18T12:17:06.534Z",
+      "enrichedAt": "2026-08-01T14:41:33.541Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Cyathopharynx.JPG/800px-Cyathopharynx.JPG"
     }
   },
@@ -2853,8 +2864,19 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish",
     "enrichment": {
+      "gbifTaxonKey": 2354525,
       "wormsAphiaId": 1383837,
-      "enrichedAt": "2026-03-18T12:18:56.721Z",
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Characiformes",
+        "familia": "Characidae",
+        "genero": "Hyphessobrycon",
+        "especie": "Hyphessobrycon amandae"
+      },
+      "gbifOccurrenceCount": 15,
+      "enrichedAt": "2026-08-01T14:41:36.268Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/05.Hyphessobrycon_herbertaxelrodi.JPG/800px-05.Hyphessobrycon_herbertaxelrodi.JPG"
     }
   },
@@ -3571,8 +3593,19 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "",
     "enrichment": {
+      "gbifTaxonKey": 2371698,
       "wormsAphiaId": 1014260,
-      "enrichedAt": "2026-03-18T12:20:05.480Z",
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cichlidae",
+        "genero": "Lamprologus",
+        "especie": "Lamprologus ornatipinnis"
+      },
+      "gbifOccurrenceCount": 84,
+      "enrichedAt": "2026-08-01T14:41:40.152Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lamprologusstappersimalemcl.jpg/800px-Lamprologusstappersimalemcl.jpg"
     }
   },
@@ -4963,12 +4996,23 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish",
     "enrichment": {
+      "gbifTaxonKey": 2353909,
       "wormsAphiaId": 1525327,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Characiformes",
+        "familia": "Characidae",
+        "genero": "Paracheirodon",
+        "especie": "Paracheirodon innesi"
+      },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/137108085/medium.jpg"
       ],
       "inatObservationCount": 1,
-      "enrichedAt": "2026-03-18T12:22:26.056Z"
+      "gbifOccurrenceCount": 65,
+      "enrichedAt": "2026-08-01T14:41:43.614Z"
     }
   },
   {
@@ -5209,12 +5253,23 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish",
     "enrichment": {
+      "gbifTaxonKey": 2372929,
       "wormsAphiaId": 282193,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cichlidae",
+        "genero": "Pelvicachromis",
+        "especie": "Pelvicachromis pulcher"
+      },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/243149845/medium.jpg"
       ],
       "inatObservationCount": 1,
-      "enrichedAt": "2026-03-18T12:22:47.666Z",
+      "gbifOccurrenceCount": 88,
+      "enrichedAt": "2026-08-01T14:41:48.121Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pelvicachromis_pulcher_%28female%29.jpg/800px-Pelvicachromis_pulcher_%28female%29.jpg"
     }
   },
@@ -6032,12 +6087,23 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish",
     "enrichment": {
+      "gbifTaxonKey": 5208522,
       "wormsAphiaId": 1018251,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cichlidae",
+        "genero": "Pterophyllum",
+        "especie": "Pterophyllum altum"
+      },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/319256063/medium.jpeg"
       ],
       "inatObservationCount": 1,
-      "enrichedAt": "2026-03-18T12:24:03.106Z",
+      "gbifOccurrenceCount": 41,
+      "enrichedAt": "2026-08-01T14:41:53.364Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/20110527_Sea_Life_Blankenberge_%286%29.jpg/800px-20110527_Sea_Life_Blankenberge_%286%29.jpg"
     }
   },
@@ -6152,8 +6218,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 8395052,
-      "wormsAphiaId": 1533238,
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Puntius_denisonii_1.jpg/800px-Puntius_denisonii_1.jpg",
+      "wormsAphiaId": 1020961,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -6169,8 +6234,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/313652912/medium.jpeg"
       ],
       "inatObservationCount": 8,
-      "gbifOccurrenceCount": 1,
-      "enrichedAt": "2026-03-18T12:24:17.438Z"
+      "gbifOccurrenceCount": 15,
+      "enrichedAt": "2026-08-01T14:41:57.091Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Puntius_denisonii_1.jpg/800px-Puntius_denisonii_1.jpg"
     }
   },
   {
@@ -6276,7 +6342,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish, FishBase e GBIF",
     "enrichment": {
       "gbifTaxonKey": 8214163,
-      "wormsAphiaId": 991303,
+      "wormsAphiaId": 991304,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -6291,9 +6357,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/221643625/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/287818884/medium.jpeg"
       ],
-      "inatObservationCount": 45,
-      "gbifOccurrenceCount": 4,
-      "enrichedAt": "2026-03-18T12:24:37.434Z",
+      "inatObservationCount": 47,
+      "gbifOccurrenceCount": 82,
+      "enrichedAt": "2026-08-01T14:42:00.843Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tiger_barb_fish.jpg/800px-Tiger_barb_fish.jpg"
     }
   },
@@ -6448,14 +6514,25 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "",
     "enrichment": {
+      "gbifTaxonKey": 5208133,
       "wormsAphiaId": 1018653,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Cichlidae",
+        "genero": "Symphysodon",
+        "especie": "Symphysodon aequifasciatus"
+      },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/454555022/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/107110043/medium.jpeg",
         "https://static.inaturalist.org/photos/586511112/medium.jpg"
       ],
       "inatObservationCount": 3,
-      "enrichedAt": "2026-03-18T12:24:56.434Z",
+      "gbifOccurrenceCount": 58,
+      "enrichedAt": "2026-08-01T14:42:08.432Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/800px-Blue_Discus.jpg"
     }
   },
@@ -6740,7 +6817,7 @@ const data: Fish[] = [
     "caracteristica": "",
     "comportamento": "Pacífico, podendo apresentar uma atitude territorialista com outros machos da mesma espécie e até outros peixes, mas nada preocupante.",
     "diformismoSexual": "Os machos apresentam uma cor alaranjada na região da barriga, barbatanas longas e filamentos extensos. As fêmeas apresentam barbatanas curtas e arredondadas, pouca coloração alaranjada.",
-    "familia": "Osphroneminae",
+    "familia": "Osphronemidae",
     "gh": "5-19",
     "imagem": "trichogasterleerii",
     "kh": "3-10",
@@ -6758,14 +6835,25 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
+      "gbifTaxonKey": 5211174,
       "wormsAphiaId": 1461908,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Perciformes",
+        "familia": "Osphronemidae",
+        "genero": "Trichopodus",
+        "especie": "Trichopodus leerii"
+      },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/302111910/medium.jpeg",
         "https://static.inaturalist.org/photos/607151790/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/614184194/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/663724195/medium.jpg"
       ],
-      "inatObservationCount": 32,
-      "enrichedAt": "2026-03-18T12:25:24.185Z",
+      "inatObservationCount": 38,
+      "gbifOccurrenceCount": 6,
+      "enrichedAt": "2026-08-01T14:42:13.255Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Colisa_lalia.jpg/800px-Colisa_lalia.jpg"
     }
   },
@@ -7324,6 +7412,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 4286942,
+      "wormsAphiaId": 154298,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7338,7 +7427,9 @@ const data: Fish[] = [
         "https://static.inaturalist.org/photos/55641134/medium.jpeg",
         "https://static.inaturalist.org/photos/203973907/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:50:58.219Z",
+      "inatObservationCount": 10773,
+      "gbifOccurrenceCount": 76554,
+      "enrichedAt": "2026-08-01T14:42:16.856Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gold_fish1.jpg/800px-Gold_fish1.jpg"
     }
   },
@@ -7367,6 +7458,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 8246728,
+      "wormsAphiaId": 283197,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7379,9 +7471,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/9105145/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/18143009/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/455536652/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/29667048/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:03.564Z",
+      "inatObservationCount": 1812,
+      "gbifOccurrenceCount": 5021,
+      "enrichedAt": "2026-08-01T14:42:28.462Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/DSC_0690_-_Edited.jpg/800px-DSC_0690_-_Edited.jpg"
     }
   },
@@ -7410,6 +7504,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2350164,
+      "wormsAphiaId": 862549,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7424,7 +7519,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/594333944/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/71359247/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:06.607Z",
+      "inatObservationCount": 464,
+      "gbifOccurrenceCount": 1674,
+      "enrichedAt": "2026-08-01T14:42:38.316Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Rainbow_wag_platy.jpg/800px-Rainbow_wag_platy.jpg"
     }
   },
@@ -7453,6 +7550,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 5208131,
+      "wormsAphiaId": 862548,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7462,13 +7560,14 @@ const data: Fish[] = [
         "genero": "Symphysodon",
         "especie": "Symphysodon discus"
       },
-      "enrichedAt": "2026-03-18T18:51:08.667Z",
+      "gbifOccurrenceCount": 27,
+      "enrichedAt": "2026-08-01T14:42:42.695Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Discus_heckel.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/454555022/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/107110043/medium.jpeg",
         "https://static.inaturalist.org/photos/586511112/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Discus_heckel.jpg"
+      ]
     }
   },
   {
@@ -7479,7 +7578,7 @@ const data: Fish[] = [
     "diformismoSexual": "Vista de cima, a fêmea é mais larga e mais arredondada, e costuma passar do macho em tamanho. A diferença fica óbvia quando ela está com ovos.",
     "familia": "Callichthyidae",
     "gh": "2-15",
-    "imagem": "",
+    "imagem": "corydorasaeneus",
     "kh": "3-10",
     "nomeCientifico": "Corydoras aeneus",
     "nomePopular": "Coridora Bronze",
@@ -7496,6 +7595,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2342606,
+      "wormsAphiaId": 1014877,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7506,11 +7606,13 @@ const data: Fish[] = [
         "especie": "Corydoras aeneus"
       },
       "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/685632635/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/293463793/medium.jpg",
-        "https://static.inaturalist.org/photos/23675566/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/347207428/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:11.416Z",
+      "inatObservationCount": 87,
+      "gbifOccurrenceCount": 1056,
+      "enrichedAt": "2026-08-01T14:42:46.209Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Corydoras_aeneus_2.jpg/800px-Corydoras_aeneus_2.jpg"
     }
   },
@@ -7548,13 +7650,14 @@ const data: Fish[] = [
         "genero": "Ancistrus",
         "especie": ""
       },
-      "enrichedAt": "2026-03-18T18:51:13.441Z",
+      "gbifOccurrenceCount": 7645,
+      "enrichedAt": "2026-08-01T14:42:50.006Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancistrus_sp._%28aka%29.jpg/800px-Ancistrus_sp._%28aka%29.jpg",
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/58055305/medium.jpg",
         "https://static.inaturalist.org/photos/466294435/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/67668655/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancistrus_sp._%28aka%29.jpg/800px-Ancistrus_sp._%28aka%29.jpg"
+      ]
     }
   },
   {
@@ -7581,7 +7684,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "gbifTaxonKey": 2339313,
+      "gbifTaxonKey": 2339312,
+      "wormsAphiaId": 1020265,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7591,13 +7695,14 @@ const data: Fish[] = [
         "genero": "Macrotocinclus",
         "especie": "Macrotocinclus affinis"
       },
-      "enrichedAt": "2026-03-18T18:51:15.446Z",
+      "gbifOccurrenceCount": 56,
+      "enrichedAt": "2026-08-01T14:42:53.421Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Otocinclus_affinis.JPG/800px-Otocinclus_affinis.JPG",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/24026671/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/98915580/medium.jpeg",
         "https://static.inaturalist.org/photos/6570553/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Otocinclus_affinis.JPG/800px-Otocinclus_affinis.JPG"
+      ]
     }
   },
   {
@@ -7625,6 +7730,7 @@ const data: Fish[] = [
     "fonte": "FishBase e GBIF",
     "enrichment": {
       "gbifTaxonKey": 2367984,
+      "wormsAphiaId": 1022013,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7634,12 +7740,12 @@ const data: Fish[] = [
         "genero": "Pangio",
         "especie": "Pangio kuhlii"
       },
-      "enrichedAt": "2026-03-18T18:51:17.820Z",
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/149223784/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/163755077/medium.jpeg",
-        "https://static.inaturalist.org/photos/472467329/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/627345860/medium.jpg"
       ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 23,
+      "enrichedAt": "2026-08-01T14:42:57.413Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kuhli_loach_in_aquarium.jpg/800px-Kuhli_loach_in_aquarium.jpg"
     }
   },
@@ -7668,6 +7774,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2367610,
+      "wormsAphiaId": 1018655,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7682,7 +7789,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/560828765/medium.jpg",
         "https://static.inaturalist.org/photos/209533677/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:20.525Z",
+      "inatObservationCount": 52,
+      "gbifOccurrenceCount": 111,
+      "enrichedAt": "2026-08-01T14:43:01.389Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Harlequin_rasboras_03.jpg/800px-Harlequin_rasboras_03.jpg"
     }
   },
@@ -7711,6 +7820,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 5208367,
+      "wormsAphiaId": 281050,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7723,9 +7833,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/253680365/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/4604986/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/45414401/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/50949763/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:22.911Z",
+      "inatObservationCount": 43,
+      "gbifOccurrenceCount": 652,
+      "enrichedAt": "2026-08-01T14:43:06.076Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Heros_severus.JPG/800px-Heros_severus.JPG"
     }
   },
@@ -7754,6 +7866,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 5208153,
+      "wormsAphiaId": 280183,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7765,10 +7878,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/66513830/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/609277262/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/347046955/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/347046955/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/609277262/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:24.911Z",
+      "inatObservationCount": 1476,
+      "gbifOccurrenceCount": 2373,
+      "enrichedAt": "2026-08-01T14:43:11.354Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cichla_ocellaris_Dvur_zoo_1.jpg/800px-Cichla_ocellaris_Dvur_zoo_1.jpg"
     }
   },
@@ -7797,6 +7912,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2371376,
+      "wormsAphiaId": 1012500,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7811,7 +7927,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/540864727/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/540864676/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:26.821Z"
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 46,
+      "enrichedAt": "2026-08-01T14:43:20.016Z"
     }
   },
   {
@@ -7838,7 +7956,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "gbifTaxonKey": 2367617,
+      "gbifTaxonKey": 2367616,
+      "wormsAphiaId": 1524546,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7849,11 +7968,13 @@ const data: Fish[] = [
         "especie": "Trigonostigma espei"
       },
       "inatPhotoUrls": [
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/541163318/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/300596843/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/541163318/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/470229329/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:29.230Z",
+      "inatObservationCount": 6,
+      "gbifOccurrenceCount": 14,
+      "enrichedAt": "2026-08-01T14:43:28.742Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Trigonostigma_espei_2023.jpg/800px-Trigonostigma_espei_2023.jpg"
     }
   },
@@ -7882,6 +8003,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2366587,
+      "wormsAphiaId": 1524293,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7894,7 +8016,9 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/175045404/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:33.045Z",
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 4,
+      "enrichedAt": "2026-08-01T14:43:32.352Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Boraras-brigittae-3191524164.jpg/800px-Boraras-brigittae-3191524164.jpg"
     }
   },
@@ -7923,6 +8047,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2386263,
+      "wormsAphiaId": 1383558,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7932,13 +8057,14 @@ const data: Fish[] = [
         "genero": "Tateurndina",
         "especie": "Tateurndina ocellicauda"
       },
-      "enrichedAt": "2026-03-18T18:51:40.871Z",
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-08-01T14:43:37.902Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tateurndina_ocellicauda_male_DG.jpg/800px-Tateurndina_ocellicauda_male_DG.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/309626844/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/309235119/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/307218301/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tateurndina_ocellicauda_male_DG.jpg/800px-Tateurndina_ocellicauda_male_DG.jpg"
+      ]
     }
   },
   {
@@ -7966,6 +8092,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2376117,
+      "wormsAphiaId": 1012910,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -7978,9 +8105,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/532718935/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/533971881/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/519338440/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/676664262/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:43.048Z",
+      "inatObservationCount": 9,
+      "gbifOccurrenceCount": 25,
+      "enrichedAt": "2026-08-01T14:43:46.281Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Stiphodon_percnopterygionus2.jpg/800px-Stiphodon_percnopterygionus2.jpg"
     }
   },
@@ -8009,6 +8138,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish, FishBase e GBIF",
     "enrichment": {
       "gbifTaxonKey": 2411742,
+      "wormsAphiaId": 991270,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8022,7 +8152,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/181029040/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/220280848/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:45.301Z",
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 140,
+      "enrichedAt": "2026-08-01T14:43:49.924Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Iriatherina_Werneri-Male_group.jpg/800px-Iriatherina_Werneri-Male_group.jpg"
     }
   },
@@ -8051,6 +8183,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2411765,
+      "wormsAphiaId": 1014039,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8060,7 +8193,7 @@ const data: Fish[] = [
         "genero": "Pseudomugil",
         "especie": "Pseudomugil furcatus"
       },
-      "enrichedAt": "2026-03-18T18:51:47.456Z",
+      "enrichedAt": "2026-08-01T14:43:53.456Z",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/369251107/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/529344697/medium.jpg",
@@ -8093,6 +8226,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 5207572,
+      "wormsAphiaId": 1014958,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8103,11 +8237,13 @@ const data: Fish[] = [
         "especie": "Tanichthys albonubes"
       },
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/41306335/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/570867643/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/474614190/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/235696829/medium.jpg"
+        "https://static.inaturalist.org/photos/91957922/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:50.535Z",
+      "inatObservationCount": 38,
+      "gbifOccurrenceCount": 47,
+      "enrichedAt": "2026-08-01T14:43:57.052Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/White_Cloud_Mountain_Minnow_1.jpg/800px-White_Cloud_Mountain_Minnow_1.jpg"
     }
   },
@@ -8136,6 +8272,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 7572096,
+      "wormsAphiaId": 991302,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8150,7 +8287,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/550723386/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/355365969/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:53.692Z",
+      "inatObservationCount": 27,
+      "gbifOccurrenceCount": 325,
+      "enrichedAt": "2026-08-01T14:44:01.142Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Black_Ruby_Barb_700.jpg/800px-Black_Ruby_Barb_700.jpg"
     }
   },
@@ -8179,6 +8318,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2361970,
+      "wormsAphiaId": 1014423,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8190,10 +8330,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/424448011/medium.jpeg",
-        "https://static.inaturalist.org/photos/458083975/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/119290376/medium.jpg"
+        "https://static.inaturalist.org/photos/666640441/medium.jpg",
+        "https://static.inaturalist.org/photos/458083975/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:51:56.136Z",
+      "inatObservationCount": 21,
+      "gbifOccurrenceCount": 73,
+      "enrichedAt": "2026-08-01T14:44:04.830Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Fish_Georgia_aquarium_-_37561224091_%28cropped%29.jpg/800px-Fish_Georgia_aquarium_-_37561224091_%28cropped%29.jpg"
     }
   },
@@ -8222,6 +8364,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2368346,
+      "wormsAphiaId": 1026903,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8236,7 +8379,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/67465359/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/67407984/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:51:58.614Z",
+      "inatObservationCount": 16,
+      "gbifOccurrenceCount": 92,
+      "enrichedAt": "2026-08-01T14:44:08.549Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chinese_algae_eater.jpg/800px-Chinese_algae_eater.jpg"
     }
   },
@@ -8265,6 +8410,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 2402307,
+      "wormsAphiaId": 1019063,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8279,7 +8425,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/540859176/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/53146715/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:52:01.491Z",
+      "inatObservationCount": 11,
+      "gbifOccurrenceCount": 376,
+      "enrichedAt": "2026-08-01T14:44:12.291Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pantodon_buchholzi.jpg/800px-Pantodon_buchholzi.jpg"
     }
   },
@@ -8308,6 +8456,7 @@ const data: Fish[] = [
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
       "gbifTaxonKey": 5202683,
+      "wormsAphiaId": 280201,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8322,7 +8471,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/344483504/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/58308117/medium.jpg"
       ],
-      "enrichedAt": "2026-03-18T18:52:03.920Z"
+      "inatObservationCount": 831,
+      "gbifOccurrenceCount": 2058,
+      "enrichedAt": "2026-08-01T14:44:16.019Z"
     }
   },
   {
@@ -8350,6 +8501,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2401878,
+      "wormsAphiaId": 1022974,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8364,7 +8516,9 @@ const data: Fish[] = [
         "https://static.inaturalist.org/photos/309077380/medium.jpeg",
         "https://static.inaturalist.org/photos/130105965/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:52:06.995Z",
+      "inatObservationCount": 8,
+      "gbifOccurrenceCount": 470,
+      "enrichedAt": "2026-08-01T14:44:20.451Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Black_Ghost_Knifefish_400.jpg/800px-Black_Ghost_Knifefish_400.jpg"
     }
   },
@@ -8393,6 +8547,7 @@ const data: Fish[] = [
     "fonte": "FishBase",
     "enrichment": {
       "gbifTaxonKey": 2402039,
+      "wormsAphiaId": 1021874,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8407,7 +8562,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/624811229/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/63960540/medium.jpeg"
       ],
-      "enrichedAt": "2026-03-18T18:52:10.008Z",
+      "inatObservationCount": 22,
+      "gbifOccurrenceCount": 4655,
+      "enrichedAt": "2026-08-01T14:44:31.152Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Eigenmannia_virescens_000.jpg/800px-Eigenmannia_virescens_000.jpg"
     }
   },
@@ -8435,8 +8592,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:37.164Z",
       "gbifTaxonKey": 2348519,
+      "wormsAphiaId": 1013634,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8446,12 +8603,14 @@ const data: Fish[] = [
         "genero": "Fundulopanchax",
         "especie": "Fundulopanchax gardneri"
       },
+      "gbifOccurrenceCount": 44,
+      "enrichedAt": "2026-08-01T14:44:51.095Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Fundulopanchax_gardneri.png/800px-Fundulopanchax_gardneri.png",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/4807327/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/354448355/medium.jpg",
         "https://static.inaturalist.org/photos/223056220/medium.png"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Fundulopanchax_gardneri.png/800px-Fundulopanchax_gardneri.png"
+      ]
     }
   },
   {
@@ -8478,8 +8637,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:38.768Z",
       "gbifTaxonKey": 2362709,
+      "wormsAphiaId": 1008820,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8489,6 +8648,8 @@ const data: Fish[] = [
         "genero": "Danio",
         "especie": "Danio margaritatus"
       },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-08-01T14:44:54.975Z",
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/476236208/medium.jpg",
         "https://static.inaturalist.org/photos/476154900/medium.jpg"
@@ -8585,8 +8746,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:43.685Z",
       "gbifTaxonKey": 2340460,
+      "wormsAphiaId": 1018560,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8601,6 +8762,9 @@ const data: Fish[] = [
         "https://static.inaturalist.org/photos/159083008/medium.jpeg",
         "https://static.inaturalist.org/photos/204764282/medium.jpeg"
       ],
+      "inatObservationCount": 17,
+      "gbifOccurrenceCount": 526,
+      "enrichedAt": "2026-08-01T14:45:03.644Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Otocinclus_arnoldi_%281%29.JPG/800px-Otocinclus_arnoldi_%281%29.JPG"
     }
   },
@@ -8693,8 +8857,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:48.478Z",
       "gbifTaxonKey": 2352623,
+      "wormsAphiaId": 1383186,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8704,12 +8868,14 @@ const data: Fish[] = [
         "genero": "Moenkhausia",
         "especie": "Moenkhausia pittieri"
       },
+      "gbifOccurrenceCount": 13,
+      "enrichedAt": "2026-08-01T14:45:12.584Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Moenkhausia_pittieri_young_fish_in_aquarium.jpg/800px-Moenkhausia_pittieri_young_fish_in_aquarium.jpg",
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/349050805/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/448181356/medium.jpg",
         "https://static.inaturalist.org/photos/298821733/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Moenkhausia_pittieri_young_fish_in_aquarium.jpg/800px-Moenkhausia_pittieri_young_fish_in_aquarium.jpg"
+      ]
     }
   },
   {
@@ -8736,8 +8902,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:50.170Z",
       "gbifTaxonKey": 2411651,
+      "wormsAphiaId": 1012431,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8747,12 +8913,14 @@ const data: Fish[] = [
         "genero": "Melanotaenia",
         "especie": "Melanotaenia boesemani"
       },
+      "gbifOccurrenceCount": 39,
+      "enrichedAt": "2026-08-01T14:45:16.068Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Red_m_boesemani.jpg/800px-Red_m_boesemani.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/310937589/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/586266337/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/585196465/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Red_m_boesemani.jpg/800px-Red_m_boesemani.jpg"
+      ]
     }
   },
   {
@@ -8779,8 +8947,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:52.931Z",
       "gbifTaxonKey": 5212838,
+      "wormsAphiaId": 1026694,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8795,6 +8963,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/184752577/medium.jpg",
         "https://static.inaturalist.org/photos/185135370/medium.jpg"
       ],
+      "inatObservationCount": 133,
+      "gbifOccurrenceCount": 354,
+      "enrichedAt": "2026-08-01T14:45:19.616Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Osteoglossum_bicirrhosum.JPG/800px-Osteoglossum_bicirrhosum.JPG"
     }
   },
@@ -8822,8 +8993,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:34:54.768Z",
       "gbifTaxonKey": 5212877,
+      "wormsAphiaId": 1042347,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8837,7 +9008,10 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/2984244/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/252396806/medium.jpg",
         "https://static.inaturalist.org/photos/72945342/medium.jpeg"
-      ]
+      ],
+      "inatObservationCount": 170,
+      "gbifOccurrenceCount": 644,
+      "enrichedAt": "2026-08-01T14:45:23.465Z"
     }
   },
   {
@@ -8864,8 +9038,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:13.278Z",
       "gbifTaxonKey": 2354371,
+      "wormsAphiaId": 1383817,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8879,6 +9053,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/220586524/medium.jpeg",
         "https://static.inaturalist.org/photos/57924571/medium.jpg"
       ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 146,
+      "enrichedAt": "2026-08-01T14:45:27.931Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tetra_Glowlight_cropped.jpg/800px-Tetra_Glowlight_cropped.jpg"
     }
   },
@@ -8906,8 +9083,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:14.694Z",
       "gbifTaxonKey": 2354646,
+      "wormsAphiaId": 1016501,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8917,12 +9094,14 @@ const data: Fish[] = [
         "genero": "Hyphessobrycon",
         "especie": "Hyphessobrycon megalopterus"
       },
+      "gbifOccurrenceCount": 48,
+      "enrichedAt": "2026-08-01T14:45:31.642Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/05.Hyphessobrycon_herbertaxelrodi.JPG/800px-05.Hyphessobrycon_herbertaxelrodi.JPG",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/25379262/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/442674019/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/190360265/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/05.Hyphessobrycon_herbertaxelrodi.JPG/800px-05.Hyphessobrycon_herbertaxelrodi.JPG"
+      ]
     }
   },
   {
@@ -8949,8 +9128,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:16.632Z",
       "gbifTaxonKey": 2354671,
+      "wormsAphiaId": 1016061,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -8965,6 +9144,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/246558874/medium.jpg",
         "https://static.inaturalist.org/photos/67108933/medium.jpg"
       ],
+      "inatObservationCount": 30,
+      "gbifOccurrenceCount": 376,
+      "enrichedAt": "2026-08-01T14:45:35.086Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/05.Hyphessobrycon_herbertaxelrodi.JPG/800px-05.Hyphessobrycon_herbertaxelrodi.JPG"
     }
   },
@@ -8992,8 +9174,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:18.135Z",
       "gbifTaxonKey": 2355627,
+      "wormsAphiaId": 1015806,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9005,9 +9187,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/57949984/medium.jpg",
-        "https://static.inaturalist.org/photos/439449850/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/349220783/medium.jpeg"
+        "https://static.inaturalist.org/photos/184581284/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/697560220/medium.jpg"
       ],
+      "inatObservationCount": 15,
+      "gbifOccurrenceCount": 421,
+      "enrichedAt": "2026-08-01T14:45:38.825Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Nannostomus-beckfordi.jpg"
     }
   },
@@ -9035,8 +9220,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:19.803Z",
       "gbifTaxonKey": 2355640,
+      "wormsAphiaId": 1017913,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9050,7 +9235,10 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/9330978/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/170760001/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/413644195/medium.jpg"
-      ]
+      ],
+      "inatObservationCount": 5,
+      "gbifOccurrenceCount": 576,
+      "enrichedAt": "2026-08-01T14:45:42.290Z"
     }
   },
   {
@@ -9077,8 +9265,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:21.119Z",
       "gbifTaxonKey": 2353985,
+      "wormsAphiaId": 1017164,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9088,12 +9276,14 @@ const data: Fish[] = [
         "genero": "Prionobrama",
         "especie": "Prionobrama filigera"
       },
+      "gbifOccurrenceCount": 450,
+      "enrichedAt": "2026-08-01T14:45:45.966Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bloodfin_Glass_Tetra.jpg/800px-Bloodfin_Glass_Tetra.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/142795681/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/310489118/medium.jpg",
         "https://static.inaturalist.org/photos/123441181/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bloodfin_Glass_Tetra.jpg/800px-Bloodfin_Glass_Tetra.jpg"
+      ]
     }
   },
   {
@@ -9137,7 +9327,7 @@ const data: Fish[] = [
     "diformismoSexual": "Olhe de cima: a fêmea tem a barriga mais arredondada e costuma ser um pouco maior.",
     "familia": "Callichthyidae",
     "gh": "2-25",
-    "imagem": "",
+    "imagem": "corydoraspanda",
     "kh": "3-10",
     "nomeCientifico": "Corydoras panda",
     "nomePopular": "Corydoras Panda",
@@ -9153,8 +9343,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:27.905Z",
       "gbifTaxonKey": 2342738,
+      "wormsAphiaId": 1013132,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9169,6 +9359,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/528033559/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/562225614/medium.jpg"
       ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 3,
+      "enrichedAt": "2026-08-01T14:45:52.048Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Panda_Corydoras.jpg/800px-Panda_Corydoras.jpg"
     }
   },
@@ -9180,7 +9373,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Callichthyidae",
     "gh": "2-15",
-    "imagem": "",
+    "imagem": "corydoraspygmaeus",
     "kh": "3-10",
     "nomeCientifico": "Corydoras pygmaeus",
     "nomePopular": "Corydoras Pigmeu",
@@ -9196,8 +9389,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:29.356Z",
       "gbifTaxonKey": 2342634,
+      "wormsAphiaId": 1013422,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9210,6 +9403,9 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/222279897/medium.jpeg"
       ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 20,
+      "enrichedAt": "2026-08-01T14:45:55.744Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Corydoras_melanotaenia.JPG/800px-Corydoras_melanotaenia.JPG"
     }
   },
@@ -9221,7 +9417,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Callichthyidae",
     "gh": "2-10",
-    "imagem": "",
+    "imagem": "corydorashabrosus",
     "kh": "3-10",
     "nomeCientifico": "Corydoras habrosus",
     "nomePopular": "Corydoras Habrosus",
@@ -9237,8 +9433,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:30.846Z",
       "gbifTaxonKey": 2342708,
+      "wormsAphiaId": 1013766,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9248,12 +9444,14 @@ const data: Fish[] = [
         "genero": "Corydoras",
         "especie": "Corydoras habrosus"
       },
+      "gbifOccurrenceCount": 144,
+      "enrichedAt": "2026-08-01T14:46:00.634Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Corydoras_habrosus-Weibchen.jpg/800px-Corydoras_habrosus-Weibchen.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/334574786/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Corydoras_habrosus-Weibchen.jpg/800px-Corydoras_habrosus-Weibchen.jpg"
+      ]
     }
   },
   {
@@ -9264,7 +9462,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Callichthyidae",
     "gh": "2-15",
-    "imagem": "",
+    "imagem": "corydorasaeneusalbino",
     "kh": "3-10",
     "nomeCientifico": "Corydoras aeneus var. albino",
     "nomePopular": "Corydoras Albino",
@@ -9297,7 +9495,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Callichthyidae",
     "gh": "5-19",
-    "imagem": "",
+    "imagem": "corydorasvenezuelanus",
     "kh": "3-10",
     "nomeCientifico": "Corydoras venezuelanus",
     "nomePopular": "Corydoras Venezuela",
@@ -9313,8 +9511,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase e GBIF",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:34.574Z",
       "gbifTaxonKey": 2342613,
+      "wormsAphiaId": 1017733,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9325,10 +9523,12 @@ const data: Fish[] = [
         "especie": "Corydoras aeneus"
       },
       "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/685632635/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
-        "https://static.inaturalist.org/photos/106313347/medium.jpeg",
-        "https://static.inaturalist.org/photos/23675566/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/347207428/medium.jpeg"
       ],
+      "inatObservationCount": 87,
+      "enrichedAt": "2026-08-01T14:46:06.632Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Corydoras_melanotaenia.JPG/800px-Corydoras_melanotaenia.JPG"
     }
   },
@@ -9340,7 +9540,7 @@ const data: Fish[] = [
     "diformismoSexual": "",
     "familia": "Callichthyidae",
     "gh": "1-5",
-    "imagem": "",
+    "imagem": "corydorasadolfoi",
     "kh": "1-5",
     "nomeCientifico": "Corydoras adolfoi",
     "nomePopular": "Corydoras Adolfoi",
@@ -9356,8 +9556,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:36.271Z",
       "gbifTaxonKey": 2342782,
+      "wormsAphiaId": 1012211,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9367,12 +9567,14 @@ const data: Fish[] = [
         "genero": "Corydoras",
         "especie": "Corydoras adolfoi"
       },
+      "gbifOccurrenceCount": 8,
+      "enrichedAt": "2026-08-01T14:46:10.571Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Corydoras-adolfoi-alone.jpg/800px-Corydoras-adolfoi-alone.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/463828136/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/454429281/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/334574786/medium.jpeg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Corydoras-adolfoi-alone.jpg/800px-Corydoras-adolfoi-alone.jpg"
+      ]
     }
   },
   {
@@ -9430,8 +9632,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:39.984Z",
       "gbifTaxonKey": 2369703,
+      "wormsAphiaId": 956728,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9443,9 +9645,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/428594478/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/351651020/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/414350077/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/684625955/medium.jpg",
+        "https://static.inaturalist.org/photos/69902930/medium.jpg"
       ],
+      "inatObservationCount": 408,
+      "gbifOccurrenceCount": 1128,
+      "enrichedAt": "2026-08-01T14:46:16.491Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cichlasoma_octofasciata2.jpg/800px-Cichlasoma_octofasciata2.jpg"
     }
   },
@@ -9473,8 +9678,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:41.734Z",
       "gbifTaxonKey": 2373136,
+      "wormsAphiaId": 1011453,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9486,9 +9691,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/97809113/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/359040163/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/14517107/medium.jpg"
+        "https://static.inaturalist.org/photos/579921741/medium.jpg",
+        "https://static.inaturalist.org/photos/212642123/medium.jpg"
       ],
+      "inatObservationCount": 2838,
+      "gbifOccurrenceCount": 8264,
+      "enrichedAt": "2026-08-01T14:46:20.247Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Herichthys_cyanoguttatum_%28Rio_Grande_Cichlid%29.jpg/800px-Herichthys_cyanoguttatum_%28Rio_Grande_Cichlid%29.jpg"
     }
   },
@@ -9516,8 +9724,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:43.260Z",
       "gbifTaxonKey": 7570042,
+      "wormsAphiaId": 991179,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9528,10 +9736,13 @@ const data: Fish[] = [
         "especie": "Andinoacara rivulatus"
       },
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/206213680/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/206365780/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/607754665/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/296840703/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/280866667/medium.jpg",
+        "https://static.inaturalist.org/photos/206213680/medium.jpeg"
       ],
+      "inatObservationCount": 103,
+      "gbifOccurrenceCount": 346,
+      "enrichedAt": "2026-08-01T14:46:40.569Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Andinoacara_rivulatus_-_20061112.jpg/800px-Andinoacara_rivulatus_-_20061112.jpg"
     }
   },
@@ -9559,8 +9770,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:45.136Z",
       "gbifTaxonKey": 2370147,
+      "wormsAphiaId": 1018306,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9571,10 +9782,13 @@ const data: Fish[] = [
         "especie": "Amphilophus labiatus"
       },
       "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/247005459/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/248264794/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/172463365/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/131439219/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/478503783/medium.jpg"
       ],
+      "inatObservationCount": 215,
+      "gbifOccurrenceCount": 318,
+      "enrichedAt": "2026-08-01T14:46:44.835Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/D%C3%A4hlh%C3%B6lzli_-_Zitronen_Buntbarsch_3.jpg/800px-D%C3%A4hlh%C3%B6lzli_-_Zitronen_Buntbarsch_3.jpg"
     }
   },
@@ -9602,8 +9816,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:46.937Z",
       "gbifTaxonKey": 5208202,
+      "wormsAphiaId": 1020811,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9618,6 +9832,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/352480597/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/456586387/medium.jpg"
       ],
+      "inatObservationCount": 927,
+      "gbifOccurrenceCount": 1478,
+      "enrichedAt": "2026-08-01T14:46:48.505Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Parachromis_managuensis_2012_G1.jpg/800px-Parachromis_managuensis_2012_G1.jpg"
     }
   },
@@ -9645,8 +9862,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:48.620Z",
       "gbifTaxonKey": 5208207,
+      "wormsAphiaId": 1021035,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9659,8 +9876,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/608491160/medium.jpg",
         "https://static.inaturalist.org/photos/1705371/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/93368203/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/172409098/medium.jpg"
       ],
+      "inatObservationCount": 169,
+      "gbifOccurrenceCount": 431,
+      "enrichedAt": "2026-08-01T14:46:52.154Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Parachromis_managuensis_2012_G1.jpg/800px-Parachromis_managuensis_2012_G1.jpg"
     }
   },
@@ -9688,8 +9908,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:49.923Z",
       "gbifTaxonKey": 7623402,
+      "wormsAphiaId": 1620248,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9699,12 +9919,14 @@ const data: Fish[] = [
         "genero": "Trichopodus",
         "especie": "Trichopodus leerii"
       },
+      "gbifOccurrenceCount": 53,
+      "enrichedAt": "2026-08-01T14:46:55.839Z",
+      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trichogaster_trichopterus2004.jpg/800px-Trichogaster_trichopterus2004.jpg",
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/56649897/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/33467123/medium.jpeg",
         "https://static.inaturalist.org/photos/478594447/medium.jpg"
-      ],
-      "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trichogaster_trichopterus2004.jpg/800px-Trichogaster_trichopterus2004.jpg"
+      ]
     }
   },
   {
@@ -9731,8 +9953,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:51.507Z",
       "gbifTaxonKey": 2394132,
+      "wormsAphiaId": 1021202,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9745,8 +9967,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/181941068/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/599012991/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/550874407/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/608844655/medium.jpg"
       ],
+      "inatObservationCount": 49,
+      "gbifOccurrenceCount": 47,
+      "enrichedAt": "2026-08-01T14:46:59.650Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sphaerichthys_osphromenoides.jpg/800px-Sphaerichthys_osphromenoides.jpg"
     }
   },
@@ -9774,8 +9999,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:53.177Z",
       "gbifTaxonKey": 2367919,
+      "wormsAphiaId": 991279,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9787,9 +10012,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/234320632/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/275164970/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/481614787/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/9049442/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/275164970/medium.jpg"
       ],
+      "inatObservationCount": 1434,
+      "gbifOccurrenceCount": 20365,
+      "enrichedAt": "2026-08-01T14:47:03.568Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Misgurnus_anguillicaudatus.jpg/800px-Misgurnus_anguillicaudatus.jpg"
     }
   },
@@ -9817,8 +10045,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:54.865Z",
       "gbifTaxonKey": 5205384,
+      "wormsAphiaId": 1021995,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9831,7 +10059,10 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/15888637/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/408023581/medium.jpg"
-      ]
+      ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 133,
+      "enrichedAt": "2026-08-01T14:47:07.326Z"
     }
   },
   {
@@ -9858,8 +10089,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:56.773Z",
       "gbifTaxonKey": 5202178,
+      "wormsAphiaId": 862544,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9874,6 +10105,9 @@ const data: Fish[] = [
         "https://static.inaturalist.org/photos/32166225/medium.jpeg",
         "https://static.inaturalist.org/photos/32269466/medium.jpeg"
       ],
+      "inatObservationCount": 12,
+      "gbifOccurrenceCount": 691,
+      "enrichedAt": "2026-08-01T14:47:11.999Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Hypostomus_plecostomus_-_Rapha%C3%ABl_Covain.png/800px-Hypostomus_plecostomus_-_Rapha%C3%ABl_Covain.png"
     }
   },
@@ -9901,8 +10135,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:40:58.679Z",
       "gbifTaxonKey": 5961447,
+      "wormsAphiaId": 1022573,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9917,6 +10151,9 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/356386868/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/264582170/medium.jpg"
       ],
+      "inatObservationCount": 18,
+      "gbifOccurrenceCount": 149,
+      "enrichedAt": "2026-08-01T14:47:16.786Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancistrus_sp._%28aka%29.jpg/800px-Ancistrus_sp._%28aka%29.jpg"
     }
   },
@@ -9944,8 +10181,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:00.739Z",
       "gbifTaxonKey": 2339870,
+      "wormsAphiaId": 1422267,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9957,9 +10194,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://static.inaturalist.org/photos/13378241/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/250618378/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/475522281/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/475522281/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250618378/medium.jpg"
       ],
+      "inatObservationCount": 8,
+      "gbifOccurrenceCount": 213,
+      "enrichedAt": "2026-08-01T14:47:20.359Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Akwa02_panaque_nigrolineatus.jpg/800px-Akwa02_panaque_nigrolineatus.jpg"
     }
   },
@@ -9987,8 +10227,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:02.457Z",
       "gbifTaxonKey": 7916021,
+      "wormsAphiaId": 1007332,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -9999,10 +10239,11 @@ const data: Fish[] = [
         "especie": "Kryptopterus vitreolus"
       },
       "inatPhotoUrls": [
-        "https://static.inaturalist.org/photos/244341464/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/509471039/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/477204588/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/588345004/medium.jpg"
       ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 2,
+      "enrichedAt": "2026-08-01T14:47:26.032Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Glaswelse.jpg/800px-Glaswelse.jpg"
     }
   },
@@ -10030,8 +10271,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:04.429Z",
       "gbifTaxonKey": 2338912,
+      "wormsAphiaId": 1020278,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -10044,8 +10285,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/318300949/medium.jpeg",
         "https://static.inaturalist.org/photos/247914217/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/431133890/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/31270449/medium.jpeg"
       ],
+      "inatObservationCount": 8,
+      "gbifOccurrenceCount": 176,
+      "enrichedAt": "2026-08-01T14:48:04.528Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pimelodus_maculatus.jpg/800px-Pimelodus_maculatus.jpg"
     }
   },
@@ -10073,8 +10317,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:05.996Z",
       "gbifTaxonKey": 5203789,
+      "wormsAphiaId": 1009116,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -10086,9 +10330,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/574777134/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/545236200/medium.jpg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/317307641/medium.jpeg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/596313461/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/695480154/medium.jpg"
       ],
+      "inatObservationCount": 22,
+      "gbifOccurrenceCount": 9,
+      "enrichedAt": "2026-08-01T14:48:08.474Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Poecilia_latipinna.jpg/800px-Poecilia_latipinna.jpg"
     }
   },
@@ -10149,8 +10396,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:09.042Z",
       "gbifTaxonKey": 5203757,
+      "wormsAphiaId": 275352,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -10163,8 +10410,11 @@ const data: Fish[] = [
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/60110619/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/119165005/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/422501052/medium.jpg"
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/2126731/medium.JPG"
       ],
+      "inatObservationCount": 233,
+      "gbifOccurrenceCount": 561,
+      "enrichedAt": "2026-08-01T14:48:17.570Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Poecilia_latipinna.jpg/800px-Poecilia_latipinna.jpg"
     }
   },
@@ -10192,8 +10442,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:10.905Z",
       "gbifTaxonKey": 2402409,
+      "wormsAphiaId": 1015207,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -10205,9 +10455,12 @@ const data: Fish[] = [
       },
       "inatPhotoUrls": [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/123367341/medium.jpeg",
-        "https://inaturalist-open-data.s3.amazonaws.com/photos/53146270/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/150027833/medium.jpeg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/540864766/medium.jpg"
       ],
+      "inatObservationCount": 18,
+      "gbifOccurrenceCount": 466,
+      "enrichedAt": "2026-08-01T14:48:22.491Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gnathonemus_petersii.jpg/800px-Gnathonemus_petersii.jpg"
     }
   },
@@ -10235,8 +10488,8 @@ const data: Fish[] = [
     "subTipo": "",
     "fonte": "Seriously Fish e FishBase",
     "enrichment": {
-      "enrichedAt": "2026-03-18T20:41:12.884Z",
       "gbifTaxonKey": 2402260,
+      "wormsAphiaId": 1022648,
       "taxonomia": {
         "reino": "Animalia",
         "filo": "Chordata",
@@ -10251,8 +10504,850 @@ const data: Fish[] = [
         "https://inaturalist-open-data.s3.amazonaws.com/photos/461051510/medium.jpg",
         "https://inaturalist-open-data.s3.amazonaws.com/photos/344473796/medium.jpg"
       ],
+      "inatObservationCount": 132,
+      "gbifOccurrenceCount": 201,
+      "enrichedAt": "2026-08-01T14:49:19.953Z",
       "wikiPhotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chitala_Ornata.jpg/800px-Chitala_Ornata.jpg"
     }
+  },
+  {
+    "id": 251,
+    "alimentacao": "Come do fundo e aceita ração afundante como base. Alimento vivo e congelado duas ou três vezes por semana mantém a cor e a condição. Ele não é faxineiro de aquário: contar com a sobra de comida dos outros é o erro mais comum com o gênero.",
+    "caracteristica": "Corpo bronzeado com uma faixa laranja fluorescente que corre do alto da cabeça até a base da cauda. A faixa acende sob luz suave e fundo escuro, e é dela que vem o apelido de laser. A espécie ainda não tem descrição científica formal e circula no comércio pelo código CW010.",
+    "comportamento": "Vive em cardume no fundo e fica arisco quando está em número pequeno. Seis é o mínimo para ele se soltar, e a partir de dez o grupo passa o dia forrageando à vista. Convive bem com peixes calmos de meia água.",
+    "diformismoSexual": "Visto de cima, a fêmea é nitidamente mais larga e arredondada, ainda mais quando está cheia de ovas. O macho tem o corpo mais estreito e reto.",
+    "gh": "2-15",
+    "kh": "3-10",
+    "origem": "América do Sul, Peru",
+    "outrasInformacoes": "Areia fina no fundo é obrigatória. Cascalho grosso ou de ponta viva gasta os barbilhões e abre caminho para infecção.",
+    "outrosNome": "",
+    "ph": "6-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Desova como os demais corys do grupo do bronze. O gatilho costuma ser uma troca parcial grande com água mais fria, repetida em dias seguidos, com dois machos para cada fêmea. Os ovos ficam colados no vidro e saem com o dedo, rolando devagar até um recipiente com água do próprio aquário de desova.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "21-27 °C",
+    "subTipo": "",
+    "fonte": "Aquatic Arts, com parâmetros do congênere Corydoras aeneus (Seriously Fish)",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasspcw010",
+    "nomeCientifico": "Corydoras sp. CW010",
+    "nomePopular": "Corydora Laser Laranja",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 252,
+    "alimentacao": "Onívoro de fundo. Pastilha ou ração afundante de boa qualidade dá conta do dia a dia, com larva de mosquito e artêmia para variar. Vale conferir se a comida chega ao fundo antes de os peixes de meia água limparem tudo.",
+    "caracteristica": "Mesma silhueta do bronze, com uma faixa verde metálica acesa do ombro até a cauda. Sob luz frontal a faixa vira quase esmeralda, e some se o peixe está estressado. É outra forma ainda sem nome científico, conhecida no comércio como CW009.",
+    "comportamento": "Cardume de fundo, tranquilo e de dia inteiro em atividade quando está bem acompanhado. Abaixo de seis exemplares ele se esconde e come mal. Aceita como vizinhos characídeos pequenos, rasboras e ciclídeos anões.",
+    "diformismoSexual": "A fêmea é maior e bem mais larga vista por cima. O macho é menor e de perfil mais afilado.",
+    "gh": "2-15",
+    "kh": "3-10",
+    "origem": "América do Sul, rios Marañón e Ucayali, no Peru",
+    "outrasInformacoes": "Vem dos rios Marañón e Ucayali, no Peru, e não gosta de água parada. Um retorno de filtro que crie corrente leve no fundo deixa o cardume mais ativo.",
+    "outrosNome": "",
+    "ph": "6-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Segue o padrão do gênero: grupo bem alimentado, troca de água grande com água mais fria e aumento de oxigenação até o casal desovar. Os ovos vão para o vidro ou para plantas de folha fina. Separar os adultos depois da postura evita que a própria desova seja comida.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "21-27 °C",
+    "subTipo": "",
+    "fonte": "Aqua Imports e Fishkeeper, com parâmetros do congênere Corydoras aeneus (Seriously Fish)",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasspcw009",
+    "nomeCientifico": "Corydoras sp. CW009",
+    "nomePopular": "Corydora Laser Verde",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 253,
+    "alimentacao": "Aceita ração afundante como base e agradece larva de mosquito, tubifex e artêmia. A dieta variada é o que mantém a cor e o corpo cheio. Comida que fica só na superfície não chega até ele.",
+    "caracteristica": "Corpo claro coberto de pontos escuros finos, com um brilho violeta no flanco que aparece de lado, na luz certa. A nadadeira dorsal tem uma mancha escura bem marcada na base. É um cory de porte médio, de focinho curto e arredondado.",
+    "comportamento": "Pacífico e gregário, feito para aquário comunitário. Precisa de pelo menos seis companheiros da mesma espécie para se sentir seguro. Não combina com nada grande ou agressivo, porque ele não disputa comida nem espaço.",
+    "diformismoSexual": "De cima a diferença é clara: a fêmea é mais larga e redonda, e cresce um pouco mais. O macho é estreito.",
+    "gh": "0-12",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia do rio Madeira",
+    "outrasInformacoes": "Vem da bacia do rio Madeira, de igarapés e áreas de floresta alagada. Folhas secas no fundo reproduzem bem esse ambiente e ele responde ficando mais ativo.",
+    "outrosNome": "",
+    "ph": "5.6-7",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Desova como os outros corys. Monte um aquário de cria com fundo de areia fina, filtro de esponja e touceiras de musgo. Dois machos por fêmea e trocas de água frias em dias seguidos costumam disparar a postura.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "21-27 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorassimilis",
+    "nomeCientifico": "Corydoras similis",
+    "nomePopular": "Corydora Similis",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342642,
+      "wormsAphiaId": 1011251,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras similis"
+      },
+      "gbifOccurrenceCount": 9,
+      "enrichedAt": "2026-08-01T14:49:30.880Z"
+    }
+  },
+  {
+    "id": 254,
+    "alimentacao": "Onívoro forrageador, aceita ração afundante, larva de mosquito e tubifex. Come bastante para o tamanho e precisa de porção própria, não do resto dos outros. Uma dieta variada mantém o verde do flanco vivo.",
+    "caracteristica": "É o cory de corpo mais alto e robusto do acervo, todo verde esmeralda metálico nos flancos. A dorsal é curta e alta, e o conjunto lembra mais um Brochis do que um Corydoras comum. Durante anos foi chamado de Brochis splendens, nome que ainda aparece em loja.",
+    "comportamento": "Pacífico e gregário como os primos menores, com a diferença de ocupar mais espaço. Grupo de seis a oito é o mínimo para ele se comportar naturalmente. Peixes de meia água tranquilos completam bem o aquário.",
+    "diformismoSexual": "A fêmea adulta é mais redonda, mais alta de corpo e cresce um pouco mais que o macho.",
+    "gh": "2-15",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia amazônica",
+    "outrasInformacoes": "Pelo porte, pede aquário mais comprido que o habitual para corys. Ele forma agregações em remansos e lagos marginais, e um fundo aberto de areia é o que mais se aproxima disso.",
+    "outrosNome": "",
+    "ph": "5-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Deposita os ovos perto da linha d'água, o que facilita retirar a postura para um recipiente à parte. O restante do processo é o do gênero: grupo condicionado e troca de água mais fria como gatilho. A eclosão leva de três a quatro dias.",
+    "tamanhoAdulto": "8 cm",
+    "temperatura": "20-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorassplendens",
+    "nomeCientifico": "Corydoras splendens",
+    "nomePopular": "Corydora Esmeralda",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 7701783,
+      "wormsAphiaId": 1020519,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras splendens"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/142704345/medium.jpeg",
+        "https://static.inaturalist.org/photos/13808123/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/336655532/medium.jpeg"
+      ],
+      "inatObservationCount": 4,
+      "gbifOccurrenceCount": 118,
+      "enrichedAt": "2026-08-01T14:49:34.513Z"
+    }
+  },
+  {
+    "id": 255,
+    "alimentacao": "Onívoro de fundo, aceita ração afundante e alimento vivo ou congelado. Come com apetite e cresce rápido quando bem alimentado. Vale garantir que a comida chegue ao fundo em quantidade.",
+    "caracteristica": "O maior desta família no acervo e o mais diferente de todos. O macho tem cerdas espessas nas bochechas, que lembram uma barba, e uma faixa clara sobre a cabeça escura. O corpo é longo, achatado e coberto de um desenho vermiculado, com a dorsal alta e pontuda nos machos maduros.",
+    "comportamento": "Com outras espécies é pacífico, mas entre machos a história muda. Dois machos adultos num aquário pequeno brigam por território sem trégua, então ou vai um só, ou o aquário precisa ser longo e com esconderijos. As fêmeas convivem sem problema.",
+    "diformismoSexual": "O macho é inconfundível quando adulto: cerdas faciais, cabeça escura com faixa clara e nadadeiras alongadas. A fêmea é maior de corpo, mais redonda e sem as cerdas.",
+    "gh": "1-12",
+    "kh": "3-10",
+    "origem": "América do Sul, drenagens costeiras do Rio de Janeiro a Santa Catarina, no Brasil",
+    "outrasInformacoes": "Vem de drenagens costeiras do Sudeste e do Sul do Brasil e quer água mais fria que os corys amazônicos. Num aquário aquecido o ano todo ele adoece e vive pouco.",
+    "outrosNome": "",
+    "ph": "5.5-7.5",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Um macho para cada fêmea evita que os machos se concentrem na briga. Quando a fêmea está visivelmente cheia de ovas, uma troca grande com água mais fria em dias seguidos costuma disparar a desova. Os ovos vão para o vidro ou para esfregões de desova, que facilitam a retirada.",
+    "tamanhoAdulto": "10 cm",
+    "temperatura": "16-24 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "scleromystaxbarbatus",
+    "nomeCientifico": "Scleromystax barbatus",
+    "nomePopular": "Corydora Barbatus",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342592,
+      "wormsAphiaId": 1018308,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Scleromystax",
+        "especie": "Scleromystax barbatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/250972610/medium.jpg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/218243266/medium.jpg",
+        "https://static.inaturalist.org/photos/472953311/medium.jpg"
+      ],
+      "inatObservationCount": 24,
+      "gbifOccurrenceCount": 460,
+      "enrichedAt": "2026-08-01T14:49:44.264Z"
+    }
+  },
+  {
+    "id": 256,
+    "alimentacao": "Onívoro forrageador. Ração afundante de boa qualidade como base, com larva de mosquito e tubifex para variar. Precisa de porção própria: pelo tamanho, come mais que os corys menores.",
+    "caracteristica": "Corpo alto e volumoso, verde escuro, com o focinho alongado que rendeu o apelido de focinho de porco. A dorsal traz muito mais raios que a dos corys comuns, o que dá a ela um aspecto de leque. É um dos maiores do grupo.",
+    "comportamento": "Pacífico e gregário, precisa de seis a oito companheiros para viver bem. Ocupa o fundo o dia inteiro e não incomoda ninguém. Pelo porte, vizinhos muito pequenos podem acabar atropelados na hora da comida.",
+    "diformismoSexual": "A fêmea adulta é nitidamente mais redonda e de corpo mais alto, e cresce um pouco mais que o macho.",
+    "gh": "2-12",
+    "kh": "3-10",
+    "origem": "América do Sul, oeste da bacia amazônica",
+    "outrasInformacoes": "Vem do oeste da bacia amazônica. Pelo porte e pela quantidade que come, pede aquário com boa filtragem e fundo de areia amplo.",
+    "outrosNome": "",
+    "ph": "6-7.5",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Não há relato consistente de reprodução em aquário doméstico para esta espécie. Quem tentar deve partir do protocolo do gênero, com grupo condicionado e troca de água mais fria como gatilho.",
+    "tamanhoAdulto": "10 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "brochismultiradiatus",
+    "nomeCientifico": "Brochis multiradiatus",
+    "nomePopular": "Brochis Focinho de Porco",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342823,
+      "wormsAphiaId": 1340121,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Brochis",
+        "especie": "Brochis multiradiatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/246860237/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 17,
+      "enrichedAt": "2026-08-01T14:49:48.506Z"
+    }
+  },
+  {
+    "id": 257,
+    "alimentacao": "Come ração afundante, larva de mosquito e tubifex. Dieta variada mantém a condição do peixe. Alimento que não afunda simplesmente não chega até ele.",
+    "caracteristica": "Tem uma faixa preta que sai da dorsal e desce na diagonal até a parte de baixo da cauda, e outra que atravessa o olho. O desenho lembra o do Arqueado, com a diferença de que aqui a faixa é reta e curta, em vez de um arco que percorre o dorso inteiro. O corpo é claro e o porte, pequeno.",
+    "comportamento": "Pacífico e gregário, vive bem em grupo de quatro a seis. É um cory discreto, que passa o dia revirando o fundo em busca de comida. Aceita companhia de characídeos pequenos e ciclídeos anões.",
+    "diformismoSexual": "A fêmea cresce mais e fica visivelmente mais larga e redonda quando está com ovas. O macho permanece estreito.",
+    "gh": "1-5",
+    "kh": "1-5",
+    "origem": "América do Sul, bacias do alto rio Negro e do rio Meta",
+    "outrasInformacoes": "Vive em igarapés de água preta do alto rio Negro e do rio Meta, onde a água é escura e muito mole. Ele aceita água de comunidade, mas ganha cor num aquário com folhas secas e pouca iluminação.",
+    "outrosNome": "",
+    "ph": "4-7",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Segue o protocolo do gênero, com dois machos por fêmea. A troca de água grande com água mais fria, repetida por dias, é o gatilho. Os ovos costumam ir para o vidro, e vale oferecer plantas de folha fina como alternativa.",
+    "tamanhoAdulto": "5 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasmelini",
+    "nomeCientifico": "Corydoras melini",
+    "nomePopular": "Corydora Melini",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342602,
+      "wormsAphiaId": 1013866,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras melini"
+      },
+      "gbifOccurrenceCount": 36,
+      "enrichedAt": "2026-08-01T14:49:52.067Z"
+    }
+  },
+  {
+    "id": 258,
+    "alimentacao": "Onívoro sem frescura: aceita ração afundante, alimento seco, vivo e congelado. Grindal, tubifex e larva de mosquito melhoram a condição. Como todo cory, precisa que a comida chegue ao fundo.",
+    "caracteristica": "Corpo inteiramente preto acetinado, sem faixa nem mancha, com brilho esverdeado quando a luz bate de lado. É uma forma de aquarismo fixada na Alemanha nos anos 1990 a partir do bronze, e não uma espécie coletada na natureza. O nome de comércio cita a Venezuela, mas a origem selvagem da linhagem não está estabelecida.",
+    "comportamento": "Tranquilo e gregário como o bronze do qual descende. Grupo de seis ou mais deixa o cardume ativo e à vista durante o dia. É um excelente peixe de aquário comunitário.",
+    "diformismoSexual": "De cima, a fêmea é mais larga e volumosa. O macho é menor e mais estreito.",
+    "gh": "2-15",
+    "kh": "3-10",
+    "origem": "Forma de aquarismo, sem população selvagem conhecida, fixada na Alemanha nos anos 1990 a partir do bronze",
+    "outrasInformacoes": "Fundo de areia fina, sem grão pontiagudo, para preservar os barbilhões. Por ser forma de cativeiro, os parâmetros seguem os do bronze.",
+    "outrosNome": "",
+    "ph": "6.5-7.5",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Reproduz como o bronze e é considerado fácil. Troca de água grande com água mais fria dispara a desova, com dois machos por fêmea. Os ovos ficam no vidro e podem ser recolhidos para um recipiente à parte.",
+    "tamanhoAdulto": "7 cm",
+    "temperatura": "20-27 °C",
+    "subTipo": "",
+    "fonte": "Green Aqua e Aquadiction",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasspvenezuelablack",
+    "nomeCientifico": "Corydoras sp. Venezuela Black",
+    "nomePopular": "Corydora Venezuela Preta",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 259,
+    "alimentacao": "Aceita ração afundante como base, com larva de mosquito e tubifex para variar. A dieta variada mantém o contraste entre o laranja e o preto. Não conte com ele para limpar sobra de comida.",
+    "caracteristica": "Tem a cabeça alaranjada e uma faixa preta larga que corre do alto da cabeça pelo dorso, sobre um corpo branco. É quase idêntico ao Adolfoi, e a diferença está na largura dessa faixa: no Duplicareus ela é bem mais grossa. Os dois são vendidos trocados com frequência.",
+    "comportamento": "Pacífico e gregário, quer de quatro a seis companheiros no mínimo. É um cory pequeno e discreto, que fica mais bonito em grupo grande sobre areia clara. Vizinhos pequenos e calmos são a companhia certa.",
+    "diformismoSexual": "A fêmea cresce mais e é claramente mais larga vista de cima, sobretudo com ovas. O macho é estreito e menor.",
+    "gh": "1-5",
+    "kh": "1-5",
+    "origem": "América do Sul, bacia do alto rio Negro",
+    "outrasInformacoes": "Vem do alto rio Negro, de água preta muito mole e ácida. Ele se adapta à água de comunidade, mas mostra a cor cheia em aquário escuro, com folhas e galhos.",
+    "outrosNome": "",
+    "ph": "4-7",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Deposita os ovos no substrato ou perto da linha d'água. O gatilho é o do gênero: fêmea cheia de ovas, troca grande com água mais fria e mais oxigenação. Vale separar ovos ou adultos depois da postura.",
+    "tamanhoAdulto": "4 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish e FishBase",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasduplicareus",
+    "nomeCientifico": "Corydoras duplicareus",
+    "nomePopular": "Corydora Duplicareus",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342771,
+      "wormsAphiaId": 1010810,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras duplicareus"
+      },
+      "enrichedAt": "2026-08-01T14:49:58.294Z"
+    }
+  },
+  {
+    "id": 260,
+    "alimentacao": "Onívoro forrageador. Ração afundante de qualidade como base, complementada com larva de mosquito e tubifex. Alimento vivo ou congelado algumas vezes por semana deixa o peixe em forma.",
+    "caracteristica": "É o cory bandido: uma máscara preta atravessa o olho e uma segunda faixa preta desce da dorsal até a base da cauda, sobre corpo bege claro. O desenho é limpo e sem pontilhado, o que ajuda a separá-lo dos corys manchados. Porte pequeno e focinho curto.",
+    "comportamento": "Pacífico e gregário, de quatro a seis exemplares no mínimo. Revira o fundo o dia inteiro quando se sente seguro no grupo. Convive com qualquer peixe comunitário que não seja grande demais.",
+    "diformismoSexual": "Vista de cima, a fêmea é mais larga e redonda e cresce um pouco mais. O macho é afilado.",
+    "gh": "5-12",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia do rio Meta, na Colômbia",
+    "outrasInformacoes": "Vem da bacia do rio Meta, na Colômbia. Areia fina no fundo é o que preserva os barbilhões dele a longo prazo.",
+    "outrosNome": "",
+    "ph": "6-7.5",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Reproduz no padrão do gênero, com dois machos por fêmea. Troca de água grande e mais fria em dias seguidos costuma disparar a desova. Os ovos vão para o vidro, e plantas de folha fina servem de alternativa.",
+    "tamanhoAdulto": "5 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasmetae",
+    "nomeCientifico": "Corydoras metae",
+    "nomePopular": "Corydora Metae",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342763,
+      "wormsAphiaId": 1007633,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras metae"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/520926840/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 116,
+      "enrichedAt": "2026-08-01T14:50:01.762Z"
+    }
+  },
+  {
+    "id": 261,
+    "alimentacao": "Ração afundante como base, com larva de mosquito e tubifex para complementar. A variedade da dieta é o que mantém a condição. Ele não sobrevive de sobra dos outros peixes.",
+    "caracteristica": "Corpo branco com uma faixa preta fina sobre o dorso e uma mancha laranja na nuca, no mesmo esquema do Adolfoi. A diferença está na faixa dorsal, que aqui é estreita e vai até a cauda. Vem do rio Unini, afluente do rio Negro.",
+    "comportamento": "Pacífico e gregário, de quatro a seis no mínimo. É um cory de água preta, discreto e ativo quando bem acompanhado. Aceita a companhia de tetras pequenos e ciclídeos anões.",
+    "diformismoSexual": "A fêmea cresce mais e tem o corpo nitidamente mais alto e redondo. O macho é menor e mais estreito.",
+    "gh": "1-5",
+    "kh": "1-5",
+    "origem": "América do Sul, bacia do rio Negro",
+    "outrasInformacoes": "Habita trechos de água preta e floresta alagada, com água escura, mole e ácida. Folha seca e madeira no aquário deixam o ambiente parecido com o de origem.",
+    "outrosNome": "",
+    "ph": "5-7",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Segue o protocolo do gênero, com dois machos por fêmea. A troca grande com água mais fria em dias seguidos é o gatilho. Os ovos ficam no vidro e podem ser rolados com o dedo até um recipiente com água do próprio aquário de desova.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "20-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasdavidsandsi",
+    "nomeCientifico": "Corydoras davidsandsi",
+    "nomePopular": "Corydora Davidsandsi",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342691,
+      "wormsAphiaId": 1011630,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras davidsandsi"
+      },
+      "gbifOccurrenceCount": 1,
+      "enrichedAt": "2026-08-01T14:50:05.611Z"
+    }
+  },
+  {
+    "id": 262,
+    "alimentacao": "Onívoro de fundo, aceita ração afundante, larva de mosquito e tubifex. Dieta variada mantém a condição e o desenho bem contrastado. A comida precisa chegar ao fundo.",
+    "caracteristica": "Tem duas manchas escuras grandes em forma de sela, uma logo atrás da cabeça e outra na frente da cauda, sobre um fundo claro pontilhado. Esse par de selas é o que dá nome ao peixe e não se confunde com nenhum outro cory. Foi raríssimo por décadas e só ficou acessível quando passou a ser reproduzido em cativeiro.",
+    "comportamento": "Pacífico e gregário, quer no mínimo seis companheiros. Em grupo pequeno ele se esconde e come pouco. Combina com peixes comunitários calmos de porte pequeno.",
+    "diformismoSexual": "A fêmea é maior e bem mais larga vista de cima. O macho é menor e de corpo estreito.",
+    "gh": "2-25",
+    "kh": "3-10",
+    "origem": "América do Sul, rio Araza, na bacia do Madre de Dios, no sul do Peru",
+    "outrasInformacoes": "Vem do rio Araza, na bacia do Madre de Dios, no sul do Peru, onde a água é mais fria que na Amazônia baixa. Ele não gosta de aquário quente o ano inteiro.",
+    "outrosNome": "",
+    "ph": "6-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Reproduz no padrão do gênero e hoje é criado comercialmente. Grupo condicionado, troca de água grande com água mais fria e oxigenação alta formam o gatilho. Os ovos são depositados no vidro ou em plantas de folha fina.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "22-26 °C",
+    "subTipo": "",
+    "fonte": "FishBase, com tamanho de Aquadiction e Wet Spot Tropical Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasweitzmani",
+    "nomeCientifico": "Corydoras weitzmani",
+    "nomePopular": "Corydora Duas Selas",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342702,
+      "wormsAphiaId": 1383634,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras weitzmani"
+      },
+      "gbifOccurrenceCount": 15,
+      "enrichedAt": "2026-08-01T14:50:09.146Z"
+    }
+  },
+  {
+    "id": 263,
+    "alimentacao": "Ração afundante como base, com alimento vivo e congelado de tamanho pequeno. Dieta variada mantém o laranja intenso. Não espere que ele coma o que sobra dos outros.",
+    "caracteristica": "Corpo laranja avermelhado com uma mancha verde metálica no ombro, atrás da cabeça. É um dos corys de cor mais quente, e o contraste entre o laranja e o verde fica evidente em grupo. Porte pequeno e focinho curto.",
+    "comportamento": "Pacífico e gregário, de quatro a seis exemplares no mínimo. Ocupa o fundo e sobe até a superfície de vez em quando para engolir ar, o que é normal na família. Vive bem em aquário comunitário calmo.",
+    "diformismoSexual": "A fêmea cresce mais e tem o corpo mais alto e redondo. O macho é menor e mais estreito.",
+    "gh": "2-15",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia amazônica",
+    "outrasInformacoes": "Vem da bacia amazônica. Areia fina e algum sombreamento com plantas flutuantes deixam o peixe mais confiante.",
+    "outrosNome": "",
+    "ph": "6-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Deposita os ovos perto da superfície, então plantas flutuantes ajudam muito. O gatilho é o do gênero, com dois machos por fêmea e troca de água mais fria em dias seguidos. Esfregões de desova facilitam retirar a postura inteira.",
+    "tamanhoAdulto": "5 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydoraseques",
+    "nomeCientifico": "Corydoras eques",
+    "nomePopular": "Corydora Eques",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342759,
+      "wormsAphiaId": 1020274,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras eques"
+      },
+      "gbifOccurrenceCount": 15,
+      "enrichedAt": "2026-08-01T14:50:12.578Z"
+    }
+  },
+  {
+    "id": 264,
+    "alimentacao": "Aceita ração afundante, larva de mosquito, tubifex e artêmia. Dieta variada mantém o tom de ferrugem forte. Comida que não afunda passa longe dele.",
+    "caracteristica": "Corpo cor de ferrugem, quase alaranjado, com uma faixa preta que corre pelo alto do dorso até a cauda. Quando jovem o desenho é outro: a faixa desce em arco pelo flanco e o peixe é confundido com o Arqueado. A mudança acontece conforme ele cresce.",
+    "comportamento": "Pacífico e gregário, de quatro a seis no mínimo. É um cory tranquilo, que passa o dia procurando comida no fundo. Bom vizinho para tetras, rasboras e ciclídeos anões.",
+    "diformismoSexual": "A fêmea cresce mais e é nitidamente mais larga e alta de corpo. O macho é menor.",
+    "gh": "1-12",
+    "kh": "3-10",
+    "origem": "América do Sul, bacias do alto Amazonas, do Solimões e do rio Negro",
+    "outrasInformacoes": "Vem do alto Amazonas, do Solimões e do rio Negro, de lagos de várzea e remansos. Fundo de areia com folhas secas é o cenário que ele prefere.",
+    "outrosNome": "",
+    "ph": "5.5-7.2",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Reproduz no padrão do gênero, com dois ou mais machos por fêmea. Troca de água grande com água mais fria em dias seguidos dispara a desova. Os ovos vão para o vidro ou para esfregões, que facilitam a retirada.",
+    "tamanhoAdulto": "6.5 cm",
+    "temperatura": "20-27 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasrabauti",
+    "nomeCientifico": "Corydoras rabauti",
+    "nomePopular": "Corydora Rabauti",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342617,
+      "wormsAphiaId": 1014721,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras rabauti"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/32389577/medium.jpeg",
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/25379566/medium.jpg"
+      ],
+      "inatObservationCount": 2,
+      "gbifOccurrenceCount": 27,
+      "enrichedAt": "2026-08-01T14:50:15.995Z"
+    }
+  },
+  {
+    "id": 265,
+    "alimentacao": "Onívoro forrageador: ração afundante como base, com larva de mosquito e tubifex. A variedade na dieta mantém a condição do peixe.",
+    "caracteristica": "Corpo bege uniforme, sem faixa nem mancha, com as nadadeiras puxando para o alaranjado. O detalhe está no macho maduro, que desenvolve uma dorsal alongada e alta. É um cory de aparência sóbria, que se destaca pelo conjunto e não pelo desenho.",
+    "comportamento": "Pacífico e gregário, quer de quatro a seis companheiros. Vive no fundo e não disputa espaço com ninguém. Aquário comunitário calmo é o ambiente dele.",
+    "diformismoSexual": "O macho maduro tem a dorsal alongada, o sinal mais fácil. A fêmea é maior, mais larga e redonda, sobretudo com ovas.",
+    "gh": "1-8",
+    "kh": "1-5",
+    "origem": "América do Sul, bacia do rio Orinoco",
+    "outrasInformacoes": "Vem da bacia do Orinoco. Os alevinos vão melhor sobre uma camada fina de areia do que num aquário de fundo nu.",
+    "outrosNome": "",
+    "ph": "5.5-7",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Os ovos são depositados no vidro ou entre plantas de folha fina. Depois da postura dá para deixar os ovos onde estão ou movê-los para um recipiente com água do aquário de desova. A eclosão leva de três a quatro dias, e os alevinos aceitam náuplios de artêmia assim que absorvem o saco vitelino.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "20-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasconcolor",
+    "nomeCientifico": "Corydoras concolor",
+    "nomePopular": "Corydora Concolor",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342681,
+      "wormsAphiaId": 1013713,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras concolor"
+      },
+      "gbifOccurrenceCount": 21,
+      "enrichedAt": "2026-08-01T14:50:19.536Z"
+    }
+  },
+  {
+    "id": 266,
+    "alimentacao": "Onívoro forrageador, aceita ração afundante e alimento vivo ou congelado pequeno. Dieta variada mantém a condição.",
+    "caracteristica": "Corpo claro coberto de pontos escuros bem distribuídos, com o focinho mais alongado que o dos corys comuns. A cauda também é pontilhada, em linhas. O nome vem justamente desse padrão de pintas.",
+    "comportamento": "Pacífico e gregário, precisa de grupo para se sentir seguro. Ocupa o fundo do aquário e não incomoda os vizinhos. Peixes comunitários calmos completam bem o conjunto.",
+    "diformismoSexual": "A fêmea adulta é mais larga e redonda vista de cima, e cresce um pouco mais que o macho.",
+    "gh": "2-25",
+    "kh": "3-10",
+    "origem": "América do Sul, oeste da bacia amazônica",
+    "outrasInformacoes": "Vem do oeste da bacia amazônica. O focinho longo é feito para cavar, então areia fina no fundo é essencial.",
+    "outrosNome": "",
+    "ph": "6-8",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Não há relato consistente de reprodução em aquário para esta espécie. Quem quiser tentar deve seguir o protocolo do gênero, com grupo condicionado e troca de água mais fria como gatilho.",
+    "tamanhoAdulto": "6.1 cm",
+    "temperatura": "22-25 °C",
+    "subTipo": "",
+    "fonte": "FishBase",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasleopardus",
+    "nomeCientifico": "Corydoras leopardus",
+    "nomePopular": "Corydora Leopardo",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342639,
+      "wormsAphiaId": 1014354,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras leopardus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/95274531/medium.jpeg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 30,
+      "enrichedAt": "2026-08-01T14:50:23.012Z"
+    }
+  },
+  {
+    "id": 267,
+    "alimentacao": "Onívoro e fácil de alimentar. Pastilha ou ração afundante de boa qualidade como base, com dáfnia, artêmia e larva de mosquito para variar.",
+    "caracteristica": "Corpo claro com pontos escuros no flanco, uma linha escura contínua ao longo do meio do corpo e a cabeça com desenho vermiculado, em traços que se ligam. É esse desenho da cabeça que o separa do Julii, cuja cabeça tem pontos soltos. Boa parte do que se vende como Julii no Brasil é esta espécie.",
+    "comportamento": "Muito pacífico e feito para aquário comunitário. Quer no mínimo seis da própria espécie para ficar confiante e ativo. Evite companhia grande ou agressiva demais.",
+    "diformismoSexual": "Vista de cima a diferença salta: a fêmea é mais larga e redonda, ainda mais cheia de ovas, e um pouco maior. O macho é estreito.",
+    "gh": "1-12",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia amazônica central, Amazônia peruana e drenagens costeiras do Suriname",
+    "outrasInformacoes": "Vem de igarapés e áreas de floresta alagada da Amazônia central e peruana. Confira o desenho da cabeça na hora da compra, porque a troca com o Julii é a mais comum do gênero.",
+    "outrosNome": "",
+    "ph": "5.8-7.2",
+    "posicaoAquario": "Fundo",
+    "reproducao": "É um dos corys mais fáceis de reproduzir e uma boa porta de entrada para quem nunca criou o gênero. Fundo de areia ou nu, filtro de esponja e touceiras de musgo montam o aquário de cria. Dois machos por fêmea e trocas de água frias em dias seguidos disparam a postura, que costuma ir para o vidro.",
+    "tamanhoAdulto": "5.5 cm",
+    "temperatura": "22-26 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Callichthyidae",
+    "imagem": "corydorastrilineatus",
+    "nomeCientifico": "Corydoras trilineatus",
+    "nomePopular": "Corydora Trilineatus",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342746,
+      "wormsAphiaId": 1013377,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras trilineatus"
+      },
+      "inatPhotoUrls": [
+        "https://static.inaturalist.org/photos/135912485/medium.jpg",
+        "https://static.inaturalist.org/photos/230848221/medium.jpeg",
+        "https://static.inaturalist.org/photos/13807132/medium.jpg"
+      ],
+      "inatObservationCount": 3,
+      "gbifOccurrenceCount": 67,
+      "enrichedAt": "2026-08-01T14:50:26.561Z"
+    }
+  },
+  {
+    "id": 268,
+    "alimentacao": "Ração afundante de qualidade como base, com larva de mosquito e tubifex. Dieta variada mantém o peixe em forma. A comida tem que chegar ao fundo.",
+    "caracteristica": "Uma única faixa preta sai do focinho, passa pelo olho e sobe em arco por todo o dorso até a parte de baixo da cauda. O arco é contínuo e limpo, sobre corpo claro e sem pontilhado. É o desenho mais reconhecível entre os corys pequenos.",
+    "comportamento": "Pacífico e gregário, de quatro a seis exemplares no mínimo. Fica ativo e à vista quando o grupo é grande. Aceita bem tetras, rasboras e outros peixes comunitários pequenos.",
+    "diformismoSexual": "A fêmea cresce mais e é claramente mais larga e redonda vista de cima. O macho é estreito.",
+    "gh": "2-12",
+    "kh": "3-10",
+    "origem": "América do Sul, bacia do alto Amazonas",
+    "outrasInformacoes": "Vem do alto Amazonas. O Rabauti jovem tem desenho parecido e é vendido no lugar dele com frequência, então vale olhar o adulto antes de fechar a compra.",
+    "outrosNome": "",
+    "ph": "5-7.5",
+    "posicaoAquario": "Fundo",
+    "reproducao": "Segue o protocolo do gênero: fêmea cheia de ovas, troca de água grande com água mais fria e mais oxigenação, repetida em dias seguidos. Os ovos vão para o vidro ou para plantas de folha fina.",
+    "tamanhoAdulto": "4.8 cm",
+    "temperatura": "20-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish e FishBase",
+    "familia": "Callichthyidae",
+    "imagem": "corydorasarcuatus",
+    "nomeCientifico": "Corydoras arcuatus",
+    "nomePopular": "Corydora Arqueada",
+    "tipo": "PEIXESDULCICOLAS",
+    "enrichment": {
+      "gbifTaxonKey": 2342688,
+      "wormsAphiaId": 1014977,
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "",
+        "ordem": "Siluriformes",
+        "familia": "Callichthyidae",
+        "genero": "Corydoras",
+        "especie": "Corydoras arcuatus"
+      },
+      "inatPhotoUrls": [
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/626884444/medium.jpg"
+      ],
+      "inatObservationCount": 1,
+      "gbifOccurrenceCount": 53,
+      "enrichedAt": "2026-08-01T14:50:30.668Z"
+    }
+  },
+  {
+    "id": 269,
+    "alimentacao": "Aceita qualquer alimento oferecido. Ração em flocos como base, com artêmia e alimento congelado para reforçar a cor do macho.",
+    "caracteristica": "Variedade de cauda em leque e azul metálico uniforme, do corpo à ponta da nadadeira, sem pintas nem faixas. A linhagem Moscow foi selecionada para cobrir o corpo inteiro com a cor. A fêmea é prateada, com um azul discreto nas nadadeiras.",
+    "comportamento": "Muito pacífico e tranquilo em aquário comunitário. Não combina com peixes que mordem nadadeiras, porque a cauda larga é alvo fácil. Livebearers, rasboras, corys e tetras pequenos são boa companhia.",
+    "diformismoSexual": "O macho é menor, azul por inteiro e tem a nadadeira anal transformada em gonopódio, um bastão fino apontado para trás. A fêmea é maior, mais volumosa e bem mais discreta.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Mantenha duas ou três fêmeas para cada macho: sozinha, a fêmea é perseguida o dia inteiro. A cauda larga sofre em correnteza forte.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "É vivíparo e se reproduz sozinho no aquário. A gestação leva de quatro a seis semanas, e a fêmea guarda esperma para várias ninhadas seguidas sem novo acasalamento. Plantas flutuantes densas são o que garante a sobrevivência dos alevinos.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarbluemoscow",
+    "nomeCientifico": "Poecilia reticulata var. blue moscow",
+    "nomePopular": "Guppy Blue Moscow",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 270,
+    "alimentacao": "Come de tudo, seco, vivo ou congelado. Ração de qualidade como base e artêmia algumas vezes por semana mantêm o vermelho forte.",
+    "caracteristica": "Variedade de vermelho saturado por todo o corpo e por toda a cauda em leque, sem quebra de tom. É uma das linhagens mais estáveis do comércio. A fêmea tem o corpo claro e o vermelho concentrado nas nadadeiras.",
+    "comportamento": "Peixe calmo, de aquário comunitário tranquilo. Fica longe de barbos e outros mordedores de nadadeira. Convive bem com corys, rasboras e tetras pequenos.",
+    "diformismoSexual": "O macho é menor, mais colorido e tem gonopódio no lugar da nadadeira anal. A fêmea é maior e de barriga cheia, com a mancha gravídica escura perto da anal.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Duas ou três fêmeas por macho evitam o assédio constante. Ninhada seguida em aquário pequeno lota o sistema rápido, então planeje o destino dos filhotes.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "Vivíparo e prolífico: a reprodução acontece sem nenhum esforço do aquarista. Uma fêmea pode parir dezenas de alevinos a cada quatro ou seis semanas. Vegetação flutuante densa é o que salva a ninhada dos adultos.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarred",
+    "nomeCientifico": "Poecilia reticulata var. red",
+    "nomePopular": "Guppy Vermelho",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 271,
+    "alimentacao": "Aceita todo tipo de alimento. Ração em flocos como base, com alimento vivo e congelado para manter o contraste do desenho.",
+    "caracteristica": "Variedade de desenho reticulado, com uma malha escura fina cobrindo o corpo e a cauda sobre fundo amarelado ou esverdeado. Esse padrão de rede é o que dá o nome cobra à linhagem. A fêmea traz uma versão apagada dessa malha na cauda.",
+    "comportamento": "Pacífico e sociável, bom para aquário comunitário calmo. Longe de peixes mordedores de nadadeira. Aceita bem a companhia de outros vivíparos e de peixes pequenos de fundo.",
+    "diformismoSexual": "O macho é menor, tem gonopódio e carrega o desenho completo. A fêmea é maior, mais robusta e de cor discreta.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Mantenha mais fêmeas que machos. O desenho reticulado leva alguns meses para fechar por completo no macho jovem.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "Vivíparo, reproduz sem intervenção. A gestação vai de quatro a seis semanas e a fêmea pode gerar ninhadas por meses depois de um único acasalamento. Um aquário bem plantado é o que permite criar os alevinos junto com os adultos.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarcobra",
+    "nomeCientifico": "Poecilia reticulata var. cobra",
+    "nomePopular": "Guppy Cobra",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 272,
+    "alimentacao": "Come de tudo que se oferece. Ração de qualidade como base, com congelado e artêmia para manter a condição.",
+    "caracteristica": "Variedade de metade traseira preta profunda, incluindo a cauda em leque, contra a frente prateada. O corte entre as duas cores é abrupto e é a marca da linhagem. A fêmea repete o esquema em tom mais suave.",
+    "comportamento": "Tranquilo e adequado a aquário comunitário. A cauda larga e escura chama atenção de peixes mordedores, que ficam de fora. Convive bem com vivíparos, corys e pequenos characídeos.",
+    "diformismoSexual": "O macho é menor, com o preto muito mais extenso e a anal transformada em gonopódio. A fêmea é maior e mais volumosa.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Duas ou três fêmeas por macho reduzem o assédio. O preto da linhagem escurece com a idade e só fecha no adulto.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "Vivíparo e fácil. A fêmea pare de quatro em quatro ou de seis em seis semanas e guarda esperma para as ninhadas seguintes. Plantas flutuantes densas dão abrigo aos alevinos recém-nascidos.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarblackmoscow",
+    "nomeCientifico": "Poecilia reticulata var. black moscow",
+    "nomePopular": "Guppy Black Moscow",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 273,
+    "alimentacao": "Aceita qualquer alimento. Flocos de qualidade como base, com artêmia e congelado para sustentar tanta cor.",
+    "caracteristica": "Variedade sem cor dominante: o corpo mistura azul, verde e violeta, e a cauda em leque combina vermelho, azul e preto em mosaico. Cada exemplar sai um pouco diferente do outro, o que é próprio da linhagem. A fêmea é clara, com um toque de cor nas nadadeiras.",
+    "comportamento": "Pacífico, feito para aquário comunitário calmo. Fica longe de barbos e de qualquer peixe que morda nadadeira. Aceita bem a companhia de outros vivíparos e de peixes de fundo pequenos.",
+    "diformismoSexual": "O macho é menor, muito mais colorido e tem gonopódio. A fêmea é maior, de barriga cheia e cor apagada.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Mais fêmeas que machos no aquário. A cor plena do macho aparece só depois de alguns meses.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "Vivíparo, reproduz sozinho no aquário comunitário. A gestação leva de quatro a seis semanas e as ninhadas se repetem sem novo acasalamento. Como o padrão de cor varia entre irmãos, quem quer fixar uma linhagem precisa selecionar os reprodutores.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarmulticolor",
+    "nomeCientifico": "Poecilia reticulata var. multicolor",
+    "nomePopular": "Guppy Multicolor",
+    "tipo": "PEIXESDULCICOLAS"
+  },
+  {
+    "id": 274,
+    "alimentacao": "Come de tudo. Ração em flocos como base, complementada com artêmia e alimento congelado.",
+    "caracteristica": "Variedade de corpo prateado e cauda em leque tomada por um mosaico vermelho e escuro, em manchas irregulares. O desenho da cauda é o que define a linhagem, e ele se estende também para a dorsal. A fêmea traz um reflexo do padrão na cauda, bem mais fraco.",
+    "comportamento": "Peixe calmo de aquário comunitário. Peixes que mordem nadadeira estragam a cauda dele em poucos dias e devem ficar fora. Corys, rasboras e tetras pequenos são vizinhos seguros.",
+    "diformismoSexual": "O macho é menor, carrega o mosaico na cauda e tem gonopódio no lugar da anal. A fêmea é maior e mais robusta.",
+    "gh": "8-30",
+    "kh": "3-10",
+    "origem": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "outrasInformacoes": "Duas ou três fêmeas por macho. O mosaico da cauda vai se formando aos poucos e só fica completo no macho adulto.",
+    "outrosNome": "",
+    "ph": "7-8.5",
+    "posicaoAquario": "Todo o aquário",
+    "reproducao": "Vivíparo e prolífico. A fêmea pare a cada quatro ou seis semanas e pode seguir parindo por meses com o esperma armazenado. Plantas flutuantes densas garantem a sobrevivência dos alevinos no comunitário.",
+    "tamanhoAdulto": "6 cm",
+    "temperatura": "17-28 °C",
+    "subTipo": "",
+    "fonte": "Seriously Fish",
+    "familia": "Poeciliidae",
+    "imagem": "poeciliareticulatavarredmosaic",
+    "nomeCientifico": "Poecilia reticulata var. red mosaic",
+    "nomePopular": "Guppy Mosaico Vermelho",
+    "tipo": "PEIXESDULCICOLAS"
   }
 ]
 

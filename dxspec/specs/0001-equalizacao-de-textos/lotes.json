@@ -8,5 +8,16 @@
       "agua-doce:199", "agua-doce:200", "agua-doce:201", "agua-doce:215",
       "agua-doce:224", "agua-doce:231", "agua-doce:246", "agua-doce:249"
     ]
+  },
+  "02": {
+    "regra": "voz",
+    "chaves": [
+      "agua-doce:251", "agua-doce:252", "agua-doce:253", "agua-doce:254",
+      "agua-doce:255", "agua-doce:256", "agua-doce:257", "agua-doce:258",
+      "agua-doce:259", "agua-doce:260", "agua-doce:261", "agua-doce:262",
+      "agua-doce:263", "agua-doce:264", "agua-doce:265", "agua-doce:266",
+      "agua-doce:267", "agua-doce:268", "agua-doce:269", "agua-doce:270",
+      "agua-doce:271", "agua-doce:272", "agua-doce:273", "agua-doce:274"
+    ]
   }
 }

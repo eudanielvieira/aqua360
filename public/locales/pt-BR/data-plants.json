@@ -1819,5 +1819,35 @@
     "crescimento": "Lento",
     "dificuldade": "Moderada",
     "posicao": "Frente/Meio"
+  },
+  "149": {
+    "nomePopular": "Hydrocotyle Verticillata",
+    "outrosNome": "Erva-capitão",
+    "origem": "América do Norte e América do Sul",
+    "reproducao": "Por estolhos laterais, que brotam mudas em cada nó",
+    "co2": "Não necessário, mas recomendável",
+    "crescimento": "Rápido",
+    "dificuldade": "Média",
+    "estrutura": "Estolhos",
+    "plantio": "Grupo",
+    "porte": "Pequeno",
+    "posicao": "Frente/Meio",
+    "substratoFertil": "Não obrigatório, mas recomendável.",
+    "suportaEmersao": "Sim"
+  },
+  "150": {
+    "nomePopular": "Flutuante de Raiz Vermelha",
+    "outrosNome": "Red Root Floater",
+    "origem": "América do Sul (bacia amazônica)",
+    "reproducao": "Por mudas laterais",
+    "co2": "Não",
+    "crescimento": "Rápido",
+    "dificuldade": "Média",
+    "estrutura": "Flutuante",
+    "plantio": "Grupo",
+    "porte": "Pequeno",
+    "posicao": "Superfície",
+    "substratoFertil": "Não",
+    "suportaEmersao": "Não"
   }
 }

@@ -1,74 +1,379 @@
 {
   "_nota": "Origem em portugues, escrita a partir da distribuicao colhida em scripts/.params-cache.json. Padrao: <regiao>, <detalhe>, sem ponto final. Consumido por apply-fish-params.ts. Variedade de aquarismo cai no nome base quando nao tem entrada propria.",
-
-  "Carassius auratus": { "texto": "Ásia, leste da China e Japão", "fonte": "FishBase" },
-  "Xiphophorus hellerii": { "texto": "América do Norte e Central, de Veracruz no México ao noroeste de Honduras", "fonte": "FishBase" },
-  "Xiphophorus maculatus": { "texto": "América do Norte e Central, de Veracruz no México ao norte de Belize", "fonte": "FishBase" },
-  "Xiphophorus maculatus var. mickey": { "texto": "América do Norte e Central, de Veracruz no México ao norte de Belize", "fonte": "FishBase" },
-  "Symphysodon discus": { "texto": "América do Sul, bacia Amazônica no baixo rio Negro, no rio Abacaxis e no rio Trombetas", "fonte": "FishBase" },
-  "Corydoras aeneus": { "texto": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes", "fonte": "FishBase" },
-  "Corydoras aeneus var. albino": { "texto": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes", "fonte": "FishBase" },
-  "Corydoras venezuelanus": { "texto": "América do Sul, Venezuela", "fonte": "GBIF" },
-  "Corydoras panda": { "texto": "América do Sul, alto rio Amazonas", "fonte": "FishBase" },
-  "Corydoras pygmaeus": { "texto": "América do Sul, bacia do rio Madeira", "fonte": "FishBase" },
-  "Corydoras habrosus": { "texto": "América do Sul, alto rio Orinoco", "fonte": "FishBase" },
-  "Corydoras adolfoi": { "texto": "América do Sul, bacia do rio Negro", "fonte": "FishBase" },
-  "Ancistrus sp.": { "texto": "América do Sul, sobretudo Brasil, Colômbia, Venezuela e Peru", "fonte": "GBIF" },
-  "Ancistrus cirrhosus": { "texto": "América do Sul, bacia do rio Paraná", "fonte": "FishBase" },
-  "Macrotocinclus affinis": { "texto": "América do Sul, rios da região do Rio de Janeiro, no Brasil", "fonte": "FishBase" },
-  "Otocinclus vittatus": { "texto": "América do Sul, bacias dos rios Amazonas, Orinoco, Paraná, Paraguai, Xingu e Tocantins", "fonte": "FishBase" },
-  "Hypostomus plecostomus": { "texto": "América do Sul, faixa costeira das Guianas, do rio Oiapoque ao rio Essequibo", "fonte": "FishBase" },
-  "Panaque nigrolineatus": { "texto": "América do Sul, bacia do Orinoco e afluentes do médio e baixo Amazonas", "fonte": "FishBase" },
-  "Pangio kuhlii": { "texto": "Ásia, Indonésia e península da Malásia", "fonte": "GBIF" },
-  "Trigonostigma heteromorpha": { "texto": "Ásia, península Malaia, Singapura e Indonésia", "fonte": "FishBase" },
-  "Trigonostigma espei": { "texto": "Ásia, Tailândia e Camboja", "fonte": "FishBase" },
-  "Boraras brigittae": { "texto": "Ásia, sul de Bornéu, na Indonésia", "fonte": "FishBase" },
-  "Heros severus": { "texto": "América do Sul, alto rio Orinoco na Colômbia e na Venezuela, e alto rio Negro na bacia Amazônica", "fonte": "FishBase" },
-  "Cichla ocellaris": { "texto": "América do Sul, do rio Marowijne no Suriname e na Guiana Francesa até o rio Essequibo, na Guiana", "fonte": "FishBase" },
-  "Hemichromis lifalili": { "texto": "África, bacia do rio Congo na República Centro-Africana, no Congo e na República Democrática do Congo", "fonte": "FishBase" },
-  "Tateurndina ocellicauda": { "texto": "Oceania, leste de Papua-Nova Guiné", "fonte": "FishBase" },
-  "Stiphodon ornatus": { "texto": "Ásia, ilha de Sumatra, na Indonésia", "fonte": "FishBase" },
-  "Pseudomugil furcatus": { "texto": "Oceania, planícies do leste de Papua-Nova Guiné", "fonte": "FishBase" },
-  "Tanichthys albonubes": { "texto": "Ásia, China e Vietnã, hoje considerado extinto na natureza", "fonte": "FishBase" },
-  "Pethia conchonius": { "texto": "Ásia, Afeganistão, Paquistão, Índia, Nepal e Bangladesh", "fonte": "FishBase" },
-  "Crossocheilus oblongus": { "texto": "Ásia, da Tailândia à Indonésia", "fonte": "FishBase" },
-  "Gyrinocheilus aymonieri": { "texto": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong, e norte da península Malaia", "fonte": "FishBase" },
-  "Pantodon buchholzi": { "texto": "África ocidental e central, da Nigéria e do lago Chade às bacias do Ogooué e do Congo", "fonte": "FishBase" },
-  "Clarias batrachus": { "texto": "Ásia, ilha de Java, na Indonésia", "fonte": "FishBase" },
-  "Apteronotus albifrons": { "texto": "América do Sul, da Venezuela às bacias do Paraguai e do Paraná, e Amazônia peruana", "fonte": "FishBase" },
-  "Eigenmannia virescens": { "texto": "América do Sul, a leste dos Andes, da bacia do Orinoco à do rio da Prata", "fonte": "FishBase" },
-  "Fundulopanchax gardneri": { "texto": "África, bacia do rio Cross, na Nigéria e nos Camarões", "fonte": "FishBase" },
-  "Celestichthys margaritatus": { "texto": "Ásia, Myanmar", "fonte": "FishBase" },
-  "Poecilia sphenops var. black": { "texto": "América Central e do Sul, do México à Colômbia", "fonte": "FishBase" },
-  "Poecilia latipinna var. balloon": { "texto": "América do Norte, da Carolina do Norte nos Estados Unidos a Veracruz, no México", "fonte": "FishBase" },
-  "Poecilia velifera": { "texto": "América Central, península de Yucatán e sistema do Usumacinta, no México", "fonte": "FishBase" },
-  "Poecilia wingei": { "texto": "América do Sul, lagoas de Campoma e Buena Vista, na Venezuela", "fonte": "FishBase" },
-  "Pterophyllum scalare var. koi": { "texto": "América do Sul, bacia Amazônica no Peru, na Colômbia e no Brasil", "fonte": "FishBase" },
-  "Hybrid (Blood Parrot)": { "texto": "Híbrido criado em cativeiro, sem população natural", "fonte": "híbrido de aquariofilia" },
-  "Moenkhausia pittieri": { "texto": "América do Sul, bacia do lago Valencia, na Venezuela", "fonte": "FishBase" },
-  "Melanotaenia boesemani": { "texto": "Ásia, lagos Ayamaru na península de Doberai, na Papua Ocidental, Indonésia", "fonte": "FishBase" },
-  "Osteoglossum bicirrhosum": { "texto": "América do Sul, bacia Amazônica e rios Rupununi e Oiapoque", "fonte": "FishBase" },
-  "Arapaima gigas": { "texto": "América do Sul, bacia do rio Amazonas", "fonte": "FishBase" },
-  "Hemigrammus bleheri": { "texto": "América do Sul, bacias dos rios Negro e Meta", "fonte": "FishBase" },
-  "Hyphessobrycon megalopterus": { "texto": "América do Sul, alto rio Paraguai e bacia do rio Guaporé", "fonte": "FishBase" },
-  "Hyphessobrycon anisitsi": { "texto": "América do Sul, bacias dos rios Paraná e Uruguai", "fonte": "FishBase" },
-  "Nannostomus beckfordi": { "texto": "América do Sul, dos rios da Guiana ao sul até a bacia Amazônica e o rio Negro", "fonte": "FishBase" },
-  "Nannostomus marginatus": { "texto": "América do Sul, baixo e médio Amazonas, Colômbia, Guiana, Peru, Suriname e Venezuela", "fonte": "FishBase" },
-  "Prionobrama filigera": { "texto": "América do Sul, bacia do rio Amazonas", "fonte": "FishBase" },
-  "Danio rerio var. gold": { "texto": "Ásia, Paquistão, Índia, Bangladesh, Nepal e Myanmar", "fonte": "FishBase" },
-  "Mikrogeophagus ramirezi var. electric blue": { "texto": "América do Sul, bacia do rio Orinoco, nos llanos da Venezuela e da Colômbia", "fonte": "FishBase" },
-  "Rocio octofasciata": { "texto": "América Central, vertente atlântica do sul do México a Honduras", "fonte": "FishBase" },
-  "Herichthys cyanoguttatus": { "texto": "América do Norte, baixo rio Grande no Texas e nordeste do México", "fonte": "FishBase" },
-  "Andinoacara rivulatus": { "texto": "América do Sul, vertente do Pacífico, do rio Esmeraldas no Equador ao rio Tumbes no Peru", "fonte": "FishBase" },
-  "Amphilophus labiatus": { "texto": "América Central, lagos Nicarágua e Manágua, na Nicarágua", "fonte": "FishBase" },
-  "Parachromis managuensis": { "texto": "América Central, vertente atlântica de Honduras à Costa Rica", "fonte": "FishBase" },
-  "Parachromis dovii": { "texto": "América Central, vertentes atlântica e do Pacífico, de Honduras à Costa Rica", "fonte": "FishBase" },
-  "Trichopodus leeri": { "texto": "Ásia, península Malaia, Tailândia e Indonésia", "fonte": "FishBase" },
-  "Sphaerichthys osphromenoides": { "texto": "Ásia, Sumatra e Bornéu, na Indonésia, e península Malaia", "fonte": "FishBase" },
-  "Misgurnus anguillicaudatus": { "texto": "Ásia, da Sibéria e Sacalina à Coreia, Japão, China e norte do Vietnã", "fonte": "FishBase" },
-  "Sewellia lineolata": { "texto": "Ásia, bacia do Mekong na China, no Vietnã e no Camboja", "fonte": "FishBase" },
-  "Kryptopterus vitreolus": { "texto": "Ásia, sul e sudeste da Tailândia", "fonte": "FishBase" },
-  "Pimelodus pictus": { "texto": "América do Sul, bacias dos rios Amazonas e Orinoco", "fonte": "FishBase" },
-  "Gnathonemus petersii": { "texto": "África, das bacias do Níger às do Congo", "fonte": "FishBase" },
-  "Chitala ornata": { "texto": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong", "fonte": "FishBase" }
+  "Carassius auratus": {
+    "texto": "Ásia, leste da China e Japão",
+    "fonte": "FishBase"
+  },
+  "Xiphophorus hellerii": {
+    "texto": "América do Norte e Central, de Veracruz no México ao noroeste de Honduras",
+    "fonte": "FishBase"
+  },
+  "Xiphophorus maculatus": {
+    "texto": "América do Norte e Central, de Veracruz no México ao norte de Belize",
+    "fonte": "FishBase"
+  },
+  "Xiphophorus maculatus var. mickey": {
+    "texto": "América do Norte e Central, de Veracruz no México ao norte de Belize",
+    "fonte": "FishBase"
+  },
+  "Symphysodon discus": {
+    "texto": "América do Sul, bacia Amazônica no baixo rio Negro, no rio Abacaxis e no rio Trombetas",
+    "fonte": "FishBase"
+  },
+  "Corydoras aeneus": {
+    "texto": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes",
+    "fonte": "FishBase"
+  },
+  "Corydoras aeneus var. albino": {
+    "texto": "América do Sul, da Colômbia e de Trinidad até a bacia do rio da Prata, a leste dos Andes",
+    "fonte": "FishBase"
+  },
+  "Corydoras venezuelanus": {
+    "texto": "América do Sul, Venezuela",
+    "fonte": "GBIF"
+  },
+  "Corydoras panda": {
+    "texto": "América do Sul, alto rio Amazonas",
+    "fonte": "FishBase"
+  },
+  "Corydoras pygmaeus": {
+    "texto": "América do Sul, bacia do rio Madeira",
+    "fonte": "FishBase"
+  },
+  "Corydoras habrosus": {
+    "texto": "América do Sul, alto rio Orinoco",
+    "fonte": "FishBase"
+  },
+  "Corydoras adolfoi": {
+    "texto": "América do Sul, bacia do rio Negro",
+    "fonte": "FishBase"
+  },
+  "Ancistrus sp.": {
+    "texto": "América do Sul, sobretudo Brasil, Colômbia, Venezuela e Peru",
+    "fonte": "GBIF"
+  },
+  "Ancistrus cirrhosus": {
+    "texto": "América do Sul, bacia do rio Paraná",
+    "fonte": "FishBase"
+  },
+  "Macrotocinclus affinis": {
+    "texto": "América do Sul, rios da região do Rio de Janeiro, no Brasil",
+    "fonte": "FishBase"
+  },
+  "Otocinclus vittatus": {
+    "texto": "América do Sul, bacias dos rios Amazonas, Orinoco, Paraná, Paraguai, Xingu e Tocantins",
+    "fonte": "FishBase"
+  },
+  "Hypostomus plecostomus": {
+    "texto": "América do Sul, faixa costeira das Guianas, do rio Oiapoque ao rio Essequibo",
+    "fonte": "FishBase"
+  },
+  "Panaque nigrolineatus": {
+    "texto": "América do Sul, bacia do Orinoco e afluentes do médio e baixo Amazonas",
+    "fonte": "FishBase"
+  },
+  "Pangio kuhlii": {
+    "texto": "Ásia, Indonésia e península da Malásia",
+    "fonte": "GBIF"
+  },
+  "Trigonostigma heteromorpha": {
+    "texto": "Ásia, península Malaia, Singapura e Indonésia",
+    "fonte": "FishBase"
+  },
+  "Trigonostigma espei": {
+    "texto": "Ásia, Tailândia e Camboja",
+    "fonte": "FishBase"
+  },
+  "Boraras brigittae": {
+    "texto": "Ásia, sul de Bornéu, na Indonésia",
+    "fonte": "FishBase"
+  },
+  "Heros severus": {
+    "texto": "América do Sul, alto rio Orinoco na Colômbia e na Venezuela, e alto rio Negro na bacia Amazônica",
+    "fonte": "FishBase"
+  },
+  "Cichla ocellaris": {
+    "texto": "América do Sul, do rio Marowijne no Suriname e na Guiana Francesa até o rio Essequibo, na Guiana",
+    "fonte": "FishBase"
+  },
+  "Hemichromis lifalili": {
+    "texto": "África, bacia do rio Congo na República Centro-Africana, no Congo e na República Democrática do Congo",
+    "fonte": "FishBase"
+  },
+  "Tateurndina ocellicauda": {
+    "texto": "Oceania, leste de Papua-Nova Guiné",
+    "fonte": "FishBase"
+  },
+  "Stiphodon ornatus": {
+    "texto": "Ásia, ilha de Sumatra, na Indonésia",
+    "fonte": "FishBase"
+  },
+  "Pseudomugil furcatus": {
+    "texto": "Oceania, planícies do leste de Papua-Nova Guiné",
+    "fonte": "FishBase"
+  },
+  "Tanichthys albonubes": {
+    "texto": "Ásia, China e Vietnã, hoje considerado extinto na natureza",
+    "fonte": "FishBase"
+  },
+  "Pethia conchonius": {
+    "texto": "Ásia, Afeganistão, Paquistão, Índia, Nepal e Bangladesh",
+    "fonte": "FishBase"
+  },
+  "Crossocheilus oblongus": {
+    "texto": "Ásia, da Tailândia à Indonésia",
+    "fonte": "FishBase"
+  },
+  "Gyrinocheilus aymonieri": {
+    "texto": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong, e norte da península Malaia",
+    "fonte": "FishBase"
+  },
+  "Pantodon buchholzi": {
+    "texto": "África ocidental e central, da Nigéria e do lago Chade às bacias do Ogooué e do Congo",
+    "fonte": "FishBase"
+  },
+  "Clarias batrachus": {
+    "texto": "Ásia, ilha de Java, na Indonésia",
+    "fonte": "FishBase"
+  },
+  "Apteronotus albifrons": {
+    "texto": "América do Sul, da Venezuela às bacias do Paraguai e do Paraná, e Amazônia peruana",
+    "fonte": "FishBase"
+  },
+  "Eigenmannia virescens": {
+    "texto": "América do Sul, a leste dos Andes, da bacia do Orinoco à do rio da Prata",
+    "fonte": "FishBase"
+  },
+  "Fundulopanchax gardneri": {
+    "texto": "África, bacia do rio Cross, na Nigéria e nos Camarões",
+    "fonte": "FishBase"
+  },
+  "Celestichthys margaritatus": {
+    "texto": "Ásia, Myanmar",
+    "fonte": "FishBase"
+  },
+  "Poecilia sphenops var. black": {
+    "texto": "América Central e do Sul, do México à Colômbia",
+    "fonte": "FishBase"
+  },
+  "Poecilia latipinna var. balloon": {
+    "texto": "América do Norte, da Carolina do Norte nos Estados Unidos a Veracruz, no México",
+    "fonte": "FishBase"
+  },
+  "Poecilia velifera": {
+    "texto": "América Central, península de Yucatán e sistema do Usumacinta, no México",
+    "fonte": "FishBase"
+  },
+  "Poecilia wingei": {
+    "texto": "América do Sul, lagoas de Campoma e Buena Vista, na Venezuela",
+    "fonte": "FishBase"
+  },
+  "Pterophyllum scalare var. koi": {
+    "texto": "América do Sul, bacia Amazônica no Peru, na Colômbia e no Brasil",
+    "fonte": "FishBase"
+  },
+  "Hybrid (Blood Parrot)": {
+    "texto": "Híbrido criado em cativeiro, sem população natural",
+    "fonte": "híbrido de aquariofilia"
+  },
+  "Moenkhausia pittieri": {
+    "texto": "América do Sul, bacia do lago Valencia, na Venezuela",
+    "fonte": "FishBase"
+  },
+  "Melanotaenia boesemani": {
+    "texto": "Ásia, lagos Ayamaru na península de Doberai, na Papua Ocidental, Indonésia",
+    "fonte": "FishBase"
+  },
+  "Osteoglossum bicirrhosum": {
+    "texto": "América do Sul, bacia Amazônica e rios Rupununi e Oiapoque",
+    "fonte": "FishBase"
+  },
+  "Arapaima gigas": {
+    "texto": "América do Sul, bacia do rio Amazonas",
+    "fonte": "FishBase"
+  },
+  "Hemigrammus bleheri": {
+    "texto": "América do Sul, bacias dos rios Negro e Meta",
+    "fonte": "FishBase"
+  },
+  "Hyphessobrycon megalopterus": {
+    "texto": "América do Sul, alto rio Paraguai e bacia do rio Guaporé",
+    "fonte": "FishBase"
+  },
+  "Hyphessobrycon anisitsi": {
+    "texto": "América do Sul, bacias dos rios Paraná e Uruguai",
+    "fonte": "FishBase"
+  },
+  "Nannostomus beckfordi": {
+    "texto": "América do Sul, dos rios da Guiana ao sul até a bacia Amazônica e o rio Negro",
+    "fonte": "FishBase"
+  },
+  "Nannostomus marginatus": {
+    "texto": "América do Sul, baixo e médio Amazonas, Colômbia, Guiana, Peru, Suriname e Venezuela",
+    "fonte": "FishBase"
+  },
+  "Prionobrama filigera": {
+    "texto": "América do Sul, bacia do rio Amazonas",
+    "fonte": "FishBase"
+  },
+  "Danio rerio var. gold": {
+    "texto": "Ásia, Paquistão, Índia, Bangladesh, Nepal e Myanmar",
+    "fonte": "FishBase"
+  },
+  "Mikrogeophagus ramirezi var. electric blue": {
+    "texto": "América do Sul, bacia do rio Orinoco, nos llanos da Venezuela e da Colômbia",
+    "fonte": "FishBase"
+  },
+  "Rocio octofasciata": {
+    "texto": "América Central, vertente atlântica do sul do México a Honduras",
+    "fonte": "FishBase"
+  },
+  "Herichthys cyanoguttatus": {
+    "texto": "América do Norte, baixo rio Grande no Texas e nordeste do México",
+    "fonte": "FishBase"
+  },
+  "Andinoacara rivulatus": {
+    "texto": "América do Sul, vertente do Pacífico, do rio Esmeraldas no Equador ao rio Tumbes no Peru",
+    "fonte": "FishBase"
+  },
+  "Amphilophus labiatus": {
+    "texto": "América Central, lagos Nicarágua e Manágua, na Nicarágua",
+    "fonte": "FishBase"
+  },
+  "Parachromis managuensis": {
+    "texto": "América Central, vertente atlântica de Honduras à Costa Rica",
+    "fonte": "FishBase"
+  },
+  "Parachromis dovii": {
+    "texto": "América Central, vertentes atlântica e do Pacífico, de Honduras à Costa Rica",
+    "fonte": "FishBase"
+  },
+  "Trichopodus leeri": {
+    "texto": "Ásia, península Malaia, Tailândia e Indonésia",
+    "fonte": "FishBase"
+  },
+  "Sphaerichthys osphromenoides": {
+    "texto": "Ásia, Sumatra e Bornéu, na Indonésia, e península Malaia",
+    "fonte": "FishBase"
+  },
+  "Misgurnus anguillicaudatus": {
+    "texto": "Ásia, da Sibéria e Sacalina à Coreia, Japão, China e norte do Vietnã",
+    "fonte": "FishBase"
+  },
+  "Sewellia lineolata": {
+    "texto": "Ásia, bacia do Mekong na China, no Vietnã e no Camboja",
+    "fonte": "FishBase"
+  },
+  "Kryptopterus vitreolus": {
+    "texto": "Ásia, sul e sudeste da Tailândia",
+    "fonte": "FishBase"
+  },
+  "Pimelodus pictus": {
+    "texto": "América do Sul, bacias dos rios Amazonas e Orinoco",
+    "fonte": "FishBase"
+  },
+  "Gnathonemus petersii": {
+    "texto": "África, das bacias do Níger às do Congo",
+    "fonte": "FishBase"
+  },
+  "Chitala ornata": {
+    "texto": "Ásia, bacias do Mekong, do Chao Phraya e do Meklong",
+    "fonte": "FishBase"
+  },
+  "Corydoras similis": {
+    "texto": "América do Sul, bacia do rio Madeira",
+    "fonte": "FishBase"
+  },
+  "Corydoras splendens": {
+    "texto": "América do Sul, bacia amazônica",
+    "fonte": "FishBase"
+  },
+  "Scleromystax barbatus": {
+    "texto": "América do Sul, drenagens costeiras do Rio de Janeiro a Santa Catarina, no Brasil",
+    "fonte": "FishBase"
+  },
+  "Brochis multiradiatus": {
+    "texto": "América do Sul, oeste da bacia amazônica",
+    "fonte": "FishBase"
+  },
+  "Corydoras melini": {
+    "texto": "América do Sul, bacias do alto rio Negro e do rio Meta",
+    "fonte": "FishBase"
+  },
+  "Corydoras duplicareus": {
+    "texto": "América do Sul, bacia do alto rio Negro",
+    "fonte": "FishBase"
+  },
+  "Corydoras metae": {
+    "texto": "América do Sul, bacia do rio Meta, na Colômbia",
+    "fonte": "FishBase"
+  },
+  "Corydoras davidsandsi": {
+    "texto": "América do Sul, bacia do rio Negro",
+    "fonte": "FishBase"
+  },
+  "Corydoras weitzmani": {
+    "texto": "América do Sul, rio Araza, na bacia do Madre de Dios, no sul do Peru",
+    "fonte": "Aquadiction, Wet Spot Tropical Fish"
+  },
+  "Corydoras eques": {
+    "texto": "América do Sul, bacia amazônica",
+    "fonte": "FishBase"
+  },
+  "Corydoras rabauti": {
+    "texto": "América do Sul, bacias do alto Amazonas, do Solimões e do rio Negro",
+    "fonte": "FishBase"
+  },
+  "Corydoras concolor": {
+    "texto": "América do Sul, bacia do rio Orinoco",
+    "fonte": "FishBase"
+  },
+  "Corydoras leopardus": {
+    "texto": "América do Sul, oeste da bacia amazônica",
+    "fonte": "FishBase"
+  },
+  "Corydoras trilineatus": {
+    "texto": "América do Sul, bacia amazônica central, Amazônia peruana e drenagens costeiras do Suriname",
+    "fonte": "FishBase"
+  },
+  "Corydoras arcuatus": {
+    "texto": "América do Sul, bacia do alto Amazonas",
+    "fonte": "FishBase"
+  },
+  "Corydoras sp. CW009": {
+    "texto": "América do Sul, rios Marañón e Ucayali, no Peru",
+    "fonte": "Aqua Imports, Aquadiction"
+  },
+  "Corydoras sp. CW010": {
+    "texto": "América do Sul, Peru",
+    "fonte": "Aquatic Arts"
+  },
+  "Corydoras sp. Venezuela Black": {
+    "texto": "Forma de aquarismo, sem população selvagem conhecida, fixada na Alemanha nos anos 1990 a partir do bronze",
+    "fonte": "Aquadiction, Green Aqua"
+  },
+  "Poecilia reticulata var. blue moscow": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  },
+  "Poecilia reticulata var. red": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  },
+  "Poecilia reticulata var. cobra": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  },
+  "Poecilia reticulata var. black moscow": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  },
+  "Poecilia reticulata var. multicolor": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  },
+  "Poecilia reticulata var. red mosaic": {
+    "texto": "América do Sul, nordeste do continente e ilhas do Caribe, hoje introduzido em quase todo o mundo",
+    "fonte": "FishBase"
+  }
 }
