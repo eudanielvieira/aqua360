@@ -6109,6 +6109,30 @@ const data: Plant[] = [
       "gbifOccurrenceCount": 136,
       "enrichedAt": "2026-08-01T14:56:43.747Z"
     }
+  },
+  {
+    "id": 151,
+    "co2": "Não",
+    "crescimento": "Lento",
+    "dificuldade": "Fácil",
+    "estrutura": "Rosetas",
+    "familia": "Araceae",
+    "iluminacao": "0.5 Watts/Litro",
+    "imagem": "cryptocorynecrispatulavartonkinensis",
+    "nomeCientifico": "Cryptocoryne crispatula var. tonkinensis",
+    "nomePopular": "Cryptocoryne Tonkinensis",
+    "origem": "Ásia, Vietnã e sudeste da China (Guangxi)",
+    "outrosNome": "Tonkinensis",
+    "ph": "6.0 a 7.5",
+    "plantio": "Grupo",
+    "porte": "Grande",
+    "posicao": "Meio/fundo",
+    "reproducao": "Por estolhos laterais e divisão do rizoma",
+    "substratoFertil": "Não obrigatório, mas recomendável.",
+    "suportaEmersao": "Sim",
+    "tamanho": "20 a 60 cm",
+    "temperatura": "22 a 28 ºC",
+    "fonte": "Flowgrow, Buce Plant, Ultum Nature Systems"
   }
 ]
 

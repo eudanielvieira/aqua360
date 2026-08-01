@@ -1849,5 +1849,20 @@
     "posicao": "Superfície",
     "substratoFertil": "Não",
     "suportaEmersao": "Não"
+  },
+  "151": {
+    "nomePopular": "Cryptocoryne Tonkinensis",
+    "outrosNome": "Tonkinensis",
+    "origem": "Ásia, Vietnã e sudeste da China (Guangxi)",
+    "reproducao": "Por estolhos laterais e divisão do rizoma",
+    "co2": "Não",
+    "crescimento": "Lento",
+    "dificuldade": "Fácil",
+    "estrutura": "Rosetas",
+    "plantio": "Grupo",
+    "porte": "Grande",
+    "posicao": "Meio/fundo",
+    "substratoFertil": "Não obrigatório, mas recomendável.",
+    "suportaEmersao": "Sim"
   }
 }
