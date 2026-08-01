@@ -77,5 +77,12 @@
   "pwa.free": "Gratis -- accede sin conexion desde tu celular",
   "pwa.install": "Instalar",
   "pwa.installFull": "Instalar la app Aqua360",
-  "pwa.installed": "App instalada con exito"
+  "pwa.installed": "App instalada con exito",
+  "lightbox.open": "Ampliar la imagen de {{name}}",
+  "lightbox.close": "Cerrar",
+  "lightbox.zoomIn": "Acercar",
+  "lightbox.zoomOut": "Alejar",
+  "lightbox.hint": "Toca la imagen para acercar. Toca fuera para cerrar.",
+  "communityPhoto.alt": "Foto de la comunidad {{n}}",
+  "communityPhoto.credit": "Fotos de la comunidad via"
 }

@@ -77,5 +77,12 @@
   "pwa.free": "無料 -- スマートフォンからオフラインでアクセス",
   "pwa.install": "インストール",
   "pwa.installFull": "Aqua360アプリをインストール",
-  "pwa.installed": "アプリのインストールが完了しました"
+  "pwa.installed": "アプリのインストールが完了しました",
+  "lightbox.open": "{{name}}の画像を拡大",
+  "lightbox.close": "閉じる",
+  "lightbox.zoomIn": "拡大",
+  "lightbox.zoomOut": "縮小",
+  "lightbox.hint": "画像をタップで拡大。外側をタップで閉じます。",
+  "communityPhoto.alt": "コミュニティの写真 {{n}}",
+  "communityPhoto.credit": "コミュニティの写真提供:"
 }

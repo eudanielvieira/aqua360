@@ -180,6 +180,7 @@ export default function FishDetailPage() {
                   wikiPhoto={enrichment?.wikiPhotoUrl}
                   alt={f.nomePopular}
                   className="w-full h-full"
+                  zoomable
                 />
               </div>
 

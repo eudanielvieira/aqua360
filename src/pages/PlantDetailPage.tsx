@@ -70,8 +70,10 @@ export default function PlantDetailPage() {
             wikiPhoto={enrichment?.wikiPhotoUrl}
             alt={plant.nomePopular}
             className="w-full h-full"
+            zoomable
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+          {/* `pointer-events-none` para o degrade nao roubar o clique que abre a imagem. */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none" />
           <div className="absolute bottom-4 left-5 right-5">
             <p className="text-white/80 text-sm italic drop-shadow-lg">{plant.nomeCientifico}</p>
           </div>

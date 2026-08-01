@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { ImageOff } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { getAllImages } from '../utils/image'
+import ImageLightbox from './ImageLightbox'
 
 interface Props {
   localImage: string
@@ -8,9 +10,25 @@ interface Props {
   wikiPhoto?: string
   alt: string
   className?: string
+  /**
+   * Clicar abre a imagem em tela cheia. Opt-in por componente, e nao
+   * comportamento novo do `FallbackImage`: nas listagens e nos cards a
+   * imagem inteira ja e um link para a ficha, e roubar o clique dali
+   * quebraria a navegacao.
+   */
+  zoomable?: boolean
 }
 
-export default function FallbackImage({ localImage, inatPhotos, wikiPhoto, alt, className = '' }: Props) {
+export default function FallbackImage({
+  localImage,
+  inatPhotos,
+  wikiPhoto,
+  alt,
+  className = '',
+  zoomable = false,
+}: Props) {
+  const { t } = useTranslation('common')
+  const [aberta, setAberta] = useState(false)
   const allUrls = getAllImages(localImage, inatPhotos, wikiPhoto)
   const [urlIndex, setUrlIndex] = useState(0)
   const [allFailed, setAllFailed] = useState(false)
@@ -49,12 +67,33 @@ export default function FallbackImage({ localImage, inatPhotos, wikiPhoto, alt, 
     )
   }
 
-  return (
+  const imagem = (
     <img
       src={currentUrl}
       alt={alt}
       className={`object-cover ${className}`}
       onError={handleError}
     />
+  )
+
+  if (!zoomable) return imagem
+
+  return (
+    <>
+      {/*
+        Botao de verdade, e nao um `onClick` na imagem: quem navega por
+        teclado precisa chegar ate aqui com Tab, e quem usa leitor de tela
+        precisa ouvir que isto abre alguma coisa.
+      */}
+      <button
+        type="button"
+        onClick={() => setAberta(true)}
+        aria-label={t('lightbox.open', { name: alt })}
+        className="block h-full w-full cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+      >
+        {imagem}
+      </button>
+      {aberta && <ImageLightbox src={currentUrl} alt={alt} onClose={() => setAberta(false)} />}
+    </>
   )
 }
