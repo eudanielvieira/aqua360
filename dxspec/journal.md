@@ -268,3 +268,30 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** o aviso de divulgacao de afiliado, que continua nao existindo em pagina nenhuma. Agora e
   o unico item aberto da frente, e virou risco real: os anuncios ja estao no ar.
 - **Detalhe:** commit `4d59f23`
+
+## 2026-08-01 - board - visualizador de imagem em tela cheia, e por que print nao da para proibir
+**Quem:** Daniel Vieira (agente)
+- Dois pedidos numa mensagem so. O primeiro foi **recusado por impossibilidade tecnica**, nao por
+  escolha: proibir print como app de banco depende de API nativa do sistema (`FLAG_SECURE` no Android,
+  deteccao de captura no iOS) e **nenhuma delas e exposta para pagina web**, nem para PWA instalado.
+  Bloquear a tecla Print Screen so pega parte do desktop, limpar area de transferencia nao vale para
+  celular, e DRM protege superficie de video e nao a pagina. A protecao real ja estava no ar: a marca
+  dagua ladrilhada nas 113 ilustracoes. Registrado em Notas de operacao para nao ser repesquisado.
+- O segundo foi entregue: **clicar na imagem abre em tela cheia com zoom**, na ficha de peixe, na de
+  planta e nas fotos da comunidade. O maior ganho ficou nas fotos da comunidade, que saem com um terco
+  da largura da coluna e agora pedem a versao `large` do iNaturalist no lugar da `medium`, 1024px
+  contra uns 500.
+- O zoom e proprio porque o `index.html` fixa `maximum-scale=1.0, user-scalable=no` no viewport, entao
+  o pinch do sistema nao funciona em lugar nenhum do app e "abrir maior" pararia no tamanho da tela.
+- Tres detalhes que o codigo ja pedia: `data-swipe-ignore` no overlay (senao arrastar a imagem
+  ampliada trocaria de especie), a miniatura virando `button` de verdade (Tab e leitor de tela) e
+  `pointer-events-none` no degrade da ficha de planta, que estava por cima da imagem e roubaria o
+  clique.
+- **Bug pre-existente encontrado no caminho e nao corrigido:** o `SimilarSpecies` renderiza `src=""`
+  quando a especie nao tem imagem nem foto (25 plantas e 57 peixes nessa situacao), e o
+  `/images/avatar.jpg` que **todos os nove `onError` do projeto apontam nao existe**. A rede de
+  protecao de imagem quebrada esta furada. Nao corrigi porque a correcao pede uma decisao: criar um
+  placeholder de verdade ou reaproveitar o estado vazio do `FallbackImage`.
+- **Proximo:** decidir esse placeholder, e decidir se o visualizador vale tambem nas fichas de coral e
+  de doenca, que hoje montam a imagem na mao sem passar pelo `FallbackImage`.
+- **Detalhe:** commit `1601149`

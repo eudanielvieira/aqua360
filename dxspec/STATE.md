@@ -13,7 +13,7 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-08-01 por Daniel Vieira (leva de arte com 27 fichas novas, AdSense no ar)
+**Ultima atualizacao:** 2026-08-01 por Daniel Vieira (visualizador de imagem em tela cheia)
 
 ## Foco atual
 - **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. Água doce está
@@ -42,6 +42,10 @@ alwaysApply: true
   arquivos de uma vez, e o manifesto de arte própria saiu de 38 para **113 slugs**. Os originais
   agora moram fora do repositório, em `aquarismo/ilustracoes/`, com README ligando cada slug ao nome
   de origem.
+- **Visualizador de imagem.** Frente pequena, entregue: clicar na imagem abre em tela cheia com zoom
+  próprio, na ficha de peixe, na de planta e nas fotos da comunidade. Ficou pausada com uma decisão
+  aberta (o placeholder de imagem quebrada) e uma extensão possível (coral e doença). Detalhe no
+  journal global.
 
 ## Frentes
 > Uma linha por frente. Status: ativa | on-deck | concluida | pausada.
@@ -52,6 +56,7 @@ alwaysApply: true
 | Monetização (propaganda + afiliados) | ativa | - | AdSense no ar nas 952 páginas com `ads.txt`, e a promessa de "Sem anúncios" removida dos quatro idiomas (`4d59f23`). Falta **só o aviso de divulgação de afiliado**, que virou risco real agora que o anúncio já carrega |
 | SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
 | Gesto no mobile (sem spec própria) | pausada | - | Entregue na ficha de peixe (commits `22305f2`, `bef4c39`): arrastar para o lado troca de espécie, na ordem da listagem, com passagem de card no lugar da troca seca. Próximo: decidir se vale em plantas, corais e doenças (`SwipeNav` já é reutilizável) e se entra barra de anterior/próxima no rodapé, que resolve a descoberta do gesto |
+| Visualizador de imagem (sem spec própria) | pausada | - | Entregue em 2026-08-01 (`1601149`): clicar abre em tela cheia com zoom próprio, na ficha de peixe, na de planta e nas fotos da comunidade, que passaram a pedir a versão `large` do iNaturalist. Próximo: decidir o placeholder de imagem quebrada (ver todos) e se vale estender a coral e doença, que hoje montam a imagem na mão sem passar pelo `FallbackImage` |
 | Normalização de imagens (sem spec própria) | pausada | - | Leva de 86 arquivos processada em 2026-08-01 (`e28e2ea`, `42fabc5`): manifesto de 38 para 113 slugs, originais movidos para `aquarismo/ilustracoes/`, fora do repositório. Restam ~618 das 776 imagens ainda no arquivo antigo de 180x135. Próximo: o lote seguinte que chegar |
 | Colisão de ids nas traduções | concluida | `dxspec/specs/0001-equalizacao-de-textos/` | Resolvida como task 2 da spec 0001, commit `7789e9a`. Eram 92 ids, não 74: a contagem antiga só olhava doce contra salgada |
 
@@ -89,6 +94,15 @@ alwaysApply: true
       jogar os originais em `source-images/` com o nome do slug e rodar
       `node scripts/normalize-images.ts <nome>`, que já atualiza o manifesto sozinho. Na família
       Polypteridae falta só o Peixe-Corda (58).
+- [ ] **A rede de proteção de imagem quebrada está furada, e precisa da sua decisão.** Duas coisas,
+      as duas pré-existentes e achadas em 2026-08-01 ao mexer no visualizador. Primeira: o
+      `SimilarSpecies` renderiza `src=""` quando a espécie não tem imagem nem foto, o que faz o
+      navegador rebaixar a página inteira (são **25 plantas e 57 peixes** sem `imagem`; o *Anubias
+      barteri* dispara na ficha da Tonkinensis). Segunda: o **`/images/avatar.jpg` não existe**, e é
+      para onde apontam os **nove `onError`** espalhados por `SimilarSpecies`, `SearchPage`,
+      `CompatibilityPage` e `AquariumBuilderPage`. A decisão é qual fallback usar: criar um
+      placeholder de verdade ou reaproveitar o estado vazio que o `FallbackImage` já desenha (ícone
+      mais o nome da espécie). Escolhido o caminho, é uma passada nos nove pontos.
 - [ ] **Uma ilustração ficou sem destino** em `aquarismo/ilustracoes/sem-destino/`: corpo amarelo com
       sete barras pretas e nadadeiras escarlates, que é fêmea de *Mesoheros festae* e não existe no
       acervo. Ou entra ficha nova para a espécie, ou a arte se perde.
@@ -149,6 +163,18 @@ alwaysApply: true
   `releasePrerenderedHead()` ainda apaga o que sobra do DOM quando o React assume o head. A tag do
   AdSense ficou lá e chegava a **zero das 952 páginas**, sem nenhum erro aparecer em lugar nenhum.
   Confira no `dist` com `grep -rl <marca> dist --include=index.html | wc -l` antes de dar por feito.
+- **Proibir print não existe na web, e a pergunta vai voltar.** Perguntado em 2026-08-01. O
+  comportamento de app de banco depende de API nativa do sistema (`FLAG_SECURE` no Android, detecção
+  de captura no iOS) e **nenhuma é exposta para página web**, nem para PWA instalado, porque o app
+  segue dentro do navegador. Bloquear a tecla Print Screen só pega parte do desktop e não toca no
+  botão físico do celular; limpar a área de transferência não vale para print de celular; DRM
+  (Widevine) protege superfície de vídeo, não a página. A proteção real do projeto já está no ar e é
+  a marca d'água ladrilhada nas ilustrações. Vale lembrar que qualquer trava de cópia briga com a
+  frente de SEO, que depende de o Google carregar e indexar a imagem.
+- **O viewport do app proíbe pinch zoom.** O `index.html` fixa
+  `maximum-scale=1.0, user-scalable=no`, então o zoom do sistema não funciona em tela nenhuma. Foi por
+  isso que o visualizador de imagem precisou de zoom próprio. Se um dia essa linha sair (ela é um
+  problema de acessibilidade), o zoom do `ImageLightbox` pode ser reavaliado.
 - **Script que regrava bloco de dado precisa fundir, não substituir.** O `enrich-data.ts` reescreve
   `enrichment` inteiro e apagou 372 `wikiPhotoUrl` que outros scripts tinham gravado. O sintoma não
   aparece no validador nem no build: some a foto de fallback de centenas de fichas. Depois de rodar
