@@ -10,39 +10,45 @@ alwaysApply: false
 > aponta pra cá. Volátil. Contrato: `./spec.md`. Plano: `./tasks.md`.
 > Histórico imutável (como chegou até aqui): `./journal/` (append-only, uma entrada por handoff).
 
-**Última atualização:** 2026-07-31 por Daniel Vieira (ficha de peixe homogênea)
+**Última atualização:** 2026-08-01 por Daniel Vieira (leva de arte, 27 fichas novas, lote 02 de voz)
 **Status:** ativa
 
 ## Onde estamos
 Nove tasks fechadas (1 a 7, 13 e 15) mais a task 11 entregue esperando revisão; 8 e 9 parciais.
-**Água doce está com 100% dos parâmetros preenchidos** e 20 fichas já têm o texto na voz nova.
-O que sobra é o texto das outras 71 fichas de água doce e o acervo marinho inteiro.
+**Água doce está com 100% dos parâmetros preenchidos** e 44 fichas já têm o texto na voz nova (lotes
+01 e 02). O que sobra é o texto das outras 71 fichas antigas de água doce e o acervo marinho inteiro.
 
-**A ficha de peixe agora é homogênea** (commit `b5703c4`): as 704 espécies saem com as mesmas seções,
-na mesma ordem, e onde falta dado a linha fica dizendo "Não informado" em vez de sumir. O dado não
-mudou, então o placar abaixo é o mesmo de antes da mudança. O que mudou é que a lacuna virou visível
-na tela, e não só no relatório do validador.
+**A ficha de peixe é homogênea** desde `b5703c4`: as espécies saem com as mesmas seções, na mesma
+ordem, e onde falta dado a linha fica dizendo "Não informado" em vez de sumir.
 
-| Regra | AC | Abertura | Agora |
-|-------|-----|---------:|------:|
-| `chaves` | AC-2 | 5272 | 273 |
-| `formato` | AC-3 | 2084 | **0** |
-| `faixas` | AC-4 | 23 | **0** |
-| `tipografia` | AC-5 | 434 | 114 |
-| `taxonomia` | AC-6 | 75 | **0** |
-| `completude` | AC-7 | 2208 | 1624 |
-| `voz` | AC-8 | 0 | 0 |
-| `acentuacao` | AC-9 | 190 | **0** |
-| `paridade` | AC-10 | 250 | **0** |
-| **Total** | | **10536** | **2011** |
+**Uma leva de arte entrou em 2026-08-01 e mexeu no tamanho do acervo** (commits `e28e2ea`,
+`42fabc5`): 75 espécies ganharam ilustração própria (manifesto de 38 para 113 slugs) e **27 fichas
+novas** foram criadas porque a arte chegou sem ter onde morar. Água doce foi de 244 para 268 fichas e
+plantas de 148 para 151. As 24 fichas novas de peixe entraram completas, com parâmetro colhido em
+fonte e texto no lote 02.
 
-Ficha mínima: 176 de 704 (25%), e **em água doce 176 de 244 (72%)**, contra 151 na abertura desta
-leva. Os 273 de `chaves` e os 114 de `tipografia` que restam estão todos nas traduções en/es/ja e só
-a cascata (tasks 16 e 17) resolve, o que não vale fazer antes de o português fechar.
+| Regra | AC | Abertura | Antes da leva | Agora |
+|-------|-----|---------:|--------------:|------:|
+| `chaves` | AC-2 | 5272 | 273 | 345 |
+| `formato` | AC-3 | 2084 | **0** | **0** |
+| `faixas` | AC-4 | 23 | **0** | **0** |
+| `tipografia` | AC-5 | 434 | 114 | 109 |
+| `taxonomia` | AC-6 | 75 | **0** | **0** |
+| `completude` | AC-7 | 2208 | 1624 | 1624 |
+| `voz` | AC-8 | 0 | 0 | **0** |
+| `acentuacao` | AC-9 | 190 | **0** | **0** |
+| `paridade` | AC-10 | 250 | **0** | **0** |
+| **Total** | | **10536** | **2011** | **2078** |
+
+**O total subiu, e é esperado.** São as 24 fichas novas vezes os três idiomas que ainda não têm
+cascata: 72 violações de `chaves`, a mesma dívida das outras 91 fichas. `tipografia` caiu de 114 para
+109 de carona na limpeza dos textos do `/apoie`. O que importa é o placar de conteúdo, que subiu:
+ficha mínima em **água doce de 176/244 (72%) para 200/268 (75%)**, e no total de 176/704 (25%) para
+200/728 (27%).
 
 Água doce, por coluna: origem, pH, GH, KH, temperatura, tamanho adulto e posição no aquário estão em
-**zero vazios**. Falta só texto: 71 fichas, 222 células (`caracteristica` 67, `reproducao` 55,
-`diformismoSexual` 50, `alimentacao` 40, `comportamento` 10).
+**zero vazios**, incluindo as 24 fichas novas. Falta só texto: 71 fichas, 222 células
+(`caracteristica` 67, `reproducao` 55, `diformismoSexual` 50, `alimentacao` 40, `comportamento` 10).
 
 Três lacunas que a ficha homogênea expôs e que nenhuma regra do validador via, porque a página
 escondia: `enrichment.taxonomia` ausente em **84 das 704**; posto `classe` vazio em **536 das 620**
@@ -50,7 +56,8 @@ que têm o bloco (o GBIF já devolve esse campo, é enriquecimento e não pesqui
 em **333** e `fonte` em **489**.
 
 ## Em andamento / próximo passo
-- **Bloqueio primeiro:** o lote 01 precisa da sua revisão antes de escalar. Ver "Bloqueios".
+- **Bloqueio primeiro:** o lote 01 precisa da sua revisão antes de escalar, e agora o **lote 02**
+  (24 fichas, 144 células, `scripts/textos-pt/lote-02.json`) entrou na mesma fila. Ver "Bloqueios".
 - **Decisão sua, rápida:** GH e KH em água salgada. As 346 fichas marinhas agora exibem os dois como
   "Não informado", mas marinho não tem esses parâmetros por espécie: o `gh` foi limpo justamente por
   guardar densidade, que é do sistema, e o `kh` já é opcional lá. São 692 falsos sinais de trabalho.
@@ -63,6 +70,14 @@ em **333** e `fonte` em **489**.
   `--arquivo=agua-salgada`, mas a fonte de marinho é pior que a de doce e vai precisar de ajuste.
 
 ## Decisões recentes
+- 2026-08-01: **variedade selecionada vira ficha própria, uma por arte** (seis guppies). Segue o que o
+  acervo já fazia em `Poecilia sphenops var. black`, e o `voz.md` já tem a regra do caso.
+- 2026-08-01: **gênero clássico `Corydoras` no `nomeCientifico`**, e não a revisão de 2024
+  (`Hoplisoma`, `Osteogaster`, `Brochis`, `Gastrodermus`) que vinha nos nomes de arquivo. Trocar em 18
+  fichas novas criaria duas convenções dentro do mesmo arquivo.
+- 2026-08-01: **ilustração sem identificação confiável não entra.** Arte na espécie errada é pior que
+  ficha sem arte, porque ensina o errado e ninguém audita depois.
+- 2026-08-01: **o `enrich-data.ts` não roda no acervo até o bug de `wikiPhotoUrl` ser corrigido.**
 - 2026-07-31: **o "Não informado" mora na apresentação, nunca no dado.** Campo vazio continua vazio no
   arquivo. Gravar o texto no dado zeraria o `completude` e transformaria 1624 lacunas reais em enfeite.
 - 2026-07-31: **o `fallback` que segura a linha vazia é opt-in por componente.** Plantas, corais e
@@ -90,6 +105,15 @@ em **333** e `fonte` em **489**.
       `scripts/textos-pt/lote-01.json` (commit `da66739`), com o guia em `./voz.md`. Ler o JSON é mais
       rápido que abrir o arquivo de dados. Enquanto ele não for aprovado, as 71 fichas restantes de
       água doce ficam paradas, e a cascata para en/es/ja também.
+- [ ] **O lote 02 entrou na mesma fila** (`scripts/textos-pt/lote-02.json`, commit `e28e2ea`): 24
+      fichas, 144 células, das espécies novas que a leva de arte trouxe. Já está publicado, ao
+      contrário do lote 01, porque sem texto as fichas novas nasceriam vazias. Se a sua revisão do
+      lote 01 mudar a calibragem da voz, o 02 precisa da mesma passada.
+- [ ] **`enrich-data.ts` destrói `wikiPhotoUrl` e não pode ser rodado.** Regrava o bloco `enrichment`
+      inteiro sem preservar o que os scripts de foto gravaram antes. Em 2026-08-01 apagou 372 URLs
+      (190 em água doce, 182 em salgada); restaurei as de doce e reverti o resto. É a imagem de
+      fallback das centenas de fichas sem arte própria. Correção: fundir o bloco em vez de
+      substituir.
 - [ ] **Três duplicatas de água doce esperando sua decisão.** 177 contra 25, 178 contra 176, 205
       contra 50, mais 163 contra 237. O validador não as vê porque compara o nome científico como
       texto cru. Fundir apaga rota, mexe no sitemap e nas quatro traduções, então não fiz sozinho.

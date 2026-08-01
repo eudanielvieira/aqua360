@@ -225,3 +225,46 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** as duas decisoes de produto que ja estavam abertas nesta frente (gesto em plantas,
   corais e doencas; barra de anterior/proxima no rodape para a descoberta do gesto).
 - **Detalhe:** commits `bef4c39`, `7f8a1ae`
+
+## 2026-08-01 - frente `0001-equalizacao-de-textos` - leva de arte, 27 fichas novas e o lote 02 de voz
+**Quem:** Daniel Vieira (agente)
+- Pedido entrou por imagem: 86 PNG numa pasta, "coloca no ar". Dez eram duplicata exata por md5, e das
+  76 uteis **75 entraram**. O manifesto de arte propria saiu de **38 para 113 slugs**. Sete corys e oito
+  plantas que ja existiam estavam com o campo `imagem` vazio, ou seja, sem imagem nenhuma na tela, e a
+  leva fechou esses buracos.
+- **27 fichas novas** porque a arte chegou sem ter onde morar: 18 Corydoradinae (15 com binomial e 3
+  formas sem descricao formal), 6 variedades de guppy e 3 plantas. Agua doce foi de 244 para 268
+  fichas. Parametro colhido no `harvest-params` e texto no **lote 02** (24 fichas, 144 celulas), que
+  passa no gate de voz. **Agua doce subiu de 72% para 75%** de ficha minima.
+- O total de bloqueantes subiu de 2011 para **2078**, e e esperado: 24 fichas novas vezes os tres
+  idiomas sem cascata dao 72 violacoes de `chaves`. `tipografia` caiu de 114 para 109.
+- **Achado grave: `bun run enrich` destroi `wikiPhotoUrl`.** O script regrava o bloco `enrichment`
+  inteiro sem preservar o que os scripts de foto gravaram antes. Foram **372 URLs destruidas**, que sao
+  a imagem de fallback das centenas de fichas sem arte propria. Restaurei as 190 de agua doce e reverti
+  os outros arquivos. **O bug segue no script e ele nao deve ser rodado ate ser corrigido.**
+- Duas identificacoes contrariaram o nome do arquivo: `brichardi.png` nao e brichardi (a arte ja
+  publicada no registro 102 e que bate com a ficha; a nova e *Cyprichromis*, foi para o 48 com
+  confianca media) e `blunthead cichlid` nao e Tropheus (padrao de femea de *Mesoheros festae*, que nao
+  existe no acervo, ficou de fora).
+- Os 240 MB de original sairam do repositorio para `aquarismo/ilustracoes/`, com README ligando cada
+  slug ao nome de origem.
+- **Proximo:** os bloqueios nao se moveram. O lote 01 continua esperando sua revisao e agora o lote 02
+  entrou na mesma fila.
+- **Detalhe:** `dxspec/specs/0001-equalizacao-de-textos/journal/0004-2026-08-01-leva-de-arte-e-27-fichas-novas.md`, commits `e28e2ea`, `42fabc5`
+
+## 2026-08-01 - frente `monetizacao` - AdSense no ar e o fim da promessa de site sem anuncios
+**Quem:** Daniel Vieira (agente)
+- O Daniel tinha colado a tag do AdSense no `index.html` e perguntou se commitava assim ou usava outro
+  metodo. O metodo estava certo, o lugar nao: a tag ficou **dentro do bloco `<!--seo-->`**, e ali ela
+  morre duas vezes, porque o `generate-seo.ts` reescreve esse bloco inteiro nas 952 paginas geradas e o
+  `releasePrerenderedHead()` ainda apaga o que sobra do DOM quando o React assume o head. Medido no
+  `dist`: **0 de 952 paginas tinham a tag**. Movida para fora dos marcadores, sao 952 de 952.
+- Entrou tambem o `public/ads.txt`, que o AdSense exige na raiz do dominio para autorizar o publisher.
+  Sem ele o inventario e marcado como nao autorizado.
+- Fechado o todo que estava no board desde 2026-07-31: o `/apoie` vendia "Sem anuncios" como beneficio
+  de quem apoia. O terceiro cartao saiu, e com ele as chaves `benefit.adFree` nos quatro idiomas. As
+  versoes en, es e ja ainda diziam o mesmo na `description` da pagina e no texto do Buy Me a Coffee, e
+  foram alinhadas com o pt-BR, que ja tinha sido limpo. A paridade de chaves segue passando.
+- **Proximo:** o aviso de divulgacao de afiliado, que continua nao existindo em pagina nenhuma. Agora e
+  o unico item aberto da frente, e virou risco real: os anuncios ja estao no ar.
+- **Detalhe:** commit `4d59f23`
