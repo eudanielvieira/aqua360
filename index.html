@@ -11,6 +11,13 @@
     <meta name="apple-mobile-web-app-title" content="Aqua360" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <!--
+      AdSense fica FORA do bloco seo de proposito. La dentro ela nao
+      sobrevive a duas coisas: o generate-seo.ts reescreve o bloco inteiro em
+      cada uma das 952 paginas geradas, e o releasePrerenderedHead() apaga o
+      bloco do DOM quando o React assume o head.
+    -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797657277855237" crossorigin="anonymous"></script>
+    <!--
       Tudo entre os marcadores seo e reescrito por rota no build, pelo
       scripts/generate-seo.ts. O que esta aqui e o padrao: vale no dev e nas
       URLs que caem no fallback do SPA sem ter pagina gerada.

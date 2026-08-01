@@ -123,7 +123,10 @@ export default function SupportPage() {
           )}
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3 text-left">
+        {/* O terceiro cartao prometia "Sem anuncios" e saiu quando o site passou
+            a exibir AdSense. Promessa que o produto nao cumpre custa mais que o
+            espaco que ela ocupa. */}
+        <div className="grid gap-4 sm:grid-cols-2 text-left">
           <div className="p-4 rounded-xl bg-surface-alt/50">
             <Coffee size={20} className="text-amber-500 mb-2" />
             <p className="text-sm font-bold text-text">{t('benefit.server')}</p>
@@ -133,11 +136,6 @@ export default function SupportPage() {
             <Heart size={20} className="text-rose-500 mb-2" />
             <p className="text-sm font-bold text-text">{t('benefit.content')}</p>
             <p className="text-xs text-text-secondary mt-1">{t('benefit.content.desc')}</p>
-          </div>
-          <div className="p-4 rounded-xl bg-surface-alt/50">
-            <Globe size={20} className="text-primary mb-2" />
-            <p className="text-sm font-bold text-text">{t('benefit.adFree')}</p>
-            <p className="text-xs text-text-secondary mt-1">{t('benefit.adFree.desc')}</p>
           </div>
         </div>
 
