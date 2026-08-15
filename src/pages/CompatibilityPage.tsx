@@ -4,7 +4,7 @@ import { loadAllFish } from '../data/fish-index'
 import type { Fish } from '../types'
 import { checkCompatibility, type CompatibilityResult, type SpeciesParams } from '../utils/compatibility'
 import { fuzzySearch } from '../utils/fuzzySearch'
-import { getPrimaryImage } from '../utils/image'
+import { applyImageFallback, getPrimaryImage } from '../utils/image'
 import PageHeader from '../components/PageHeader'
 import { Search, X, Plus, CheckCircle, AlertTriangle, XCircle, Info, Trash2, Droplets, Waves, Skull, Heart, Beef, Salad, Cookie } from 'lucide-react'
 
@@ -85,7 +85,7 @@ function SpeciesSearch({ species, selectedIds, onAdd }: {
                   src={getPrimaryImage(s.imagem, s.inatPhotos)}
                   alt={s.nomePopular}
                   className="w-full h-full object-cover"
-                  onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+                  onError={applyImageFallback}
                 />
               </div>
               <div className="flex-1 min-w-0">
@@ -109,7 +109,7 @@ function SpeciesChip({ species, onRemove }: { species: SpeciesOption; onRemove: 
           src={getPrimaryImage(species.imagem, species.inatPhotos)}
           alt={species.nomePopular}
           className="w-full h-full object-cover"
-          onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+          onError={applyImageFallback}
         />
       </div>
       <div className="flex-1 min-w-0">
@@ -211,7 +211,7 @@ function ComparisonTable({ selected, pairs }: { selected: SpeciesOption[]; pairs
                           src={getPrimaryImage(s.imagem, s.inatPhotos)}
                           alt={s.nomePopular}
                           className="w-full h-full object-cover"
-                          onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+                          onError={applyImageFallback}
                         />
                       </div>
                       <span className={`font-bold truncate max-w-[100px] ${isBad ? 'text-red-600' : 'text-text'}`}>{s.nomePopular}</span>

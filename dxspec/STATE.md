@@ -13,9 +13,14 @@ alwaysApply: true
 > **Convencao de pastas:** `dxspec/` = fonte da verdade de engenharia (SDD: board, specs, mapas).
 > Swagger/OpenAPI/docs de API NAO ficam aqui, vao em `api-docs/` ou sao gerados.
 
-**Ultima atualizacao:** 2026-08-01 por Daniel Vieira (visualizador de imagem em tela cheia)
+**Ultima atualizacao:** 2026-08-14 por Codex (estabilizacao da aplicacao)
 
 ## Foco atual
+- **Estabilizacao da aplicacao.** Rodada concluida com 404 real, uma unica medicao de pageview por
+  rota, reset global de rolagem, zoom do navegador restaurado, placeholder consistente para imagem
+  quebrada e merge seguro no enriquecimento. A PWA deixou de precachear o acervo inteiro (794 para
+  19 entradas), e o projeto ganhou Vitest e CI de teste + build. A entrega esta isolada na branch
+  `agent/stabilize-aqua360` para revisao antes de chegar a `main`.
 - **Equalização de textos (spec 0001).** A maior frente do projeto e a que está ativa. Água doce está
   com **100% dos parâmetros preenchidos** e 44 fichas já têm o texto na voz de aquarista (lotes 01 e
   02). A ficha de peixe é **homogênea**: mesmas seções em todas as espécies, com a lacuna aparecendo
@@ -52,6 +57,7 @@ alwaysApply: true
 
 | Frente | Status | STATE local | Proximo passo (resumo) |
 |--------|--------|-------------|------------------------|
+| Estabilizacao da aplicacao (sem spec propria) | concluida | - | 404 real, pageview sem duplicidade, reset de rolagem, zoom acessivel, fallback de imagem, merge seguro no enriquecimento, precache reduzido e CI com Vitest. Revisar a branch `agent/stabilize-aqua360` antes do merge |
 | Equalização de textos (0001) | ativa | `dxspec/specs/0001-equalizacao-de-textos/STATE.md` | Água doce com parâmetros em 100%, ficha homogênea (`b5703c4`) e 44 fichas com texto novo (lotes 01 e 02). A leva de arte de 2026-08-01 trouxe 27 fichas novas e levou água doce a 75% de ficha mínima. Próxima: **sua revisão do lote 01**, que agora destrava o 02 também. Decisão rápida pendente: GH e KH nas 346 marinhas, que hoje saem como "Não informado" sendo que marinho não tem esses parâmetros por espécie |
 | Monetização (propaganda + afiliados) | ativa | - | AdSense no ar nas 952 páginas com `ads.txt`, e a promessa de "Sem anúncios" removida dos quatro idiomas (`4d59f23`). Falta **só o aviso de divulgação de afiliado**, que virou risco real agora que o anúncio já carrega |
 | SEO (sem spec própria) | pausada | - | Base entregue (commit `8c28378`): head por rota gerado no build, robots.txt, sitemap de 925 URLs. Próximo: URL por idioma (`/en/`, `/es/`, `/ja/` + hreflang), que é o que destrava os outros três idiomas. Vira spec se for encarado |
@@ -66,10 +72,6 @@ alwaysApply: true
 - **Lote piloto de texto esperando sua revisão** (`scripts/textos-pt/lote-01.json`, guia em
   `dxspec/specs/0001-equalizacao-de-textos/voz.md`). Enquanto não passar, a reescrita não escala. O
   lote 02 (24 fichas novas) já está publicado e entra na mesma revisão.
-- **`bun run enrich` não pode ser rodado.** O `enrich-data.ts` regrava o bloco `enrichment` inteiro e
-  não preserva `wikiPhotoUrl`. Em 2026-08-01 apagou 372 URLs de foto, que são a imagem de fallback
-  das centenas de fichas sem arte própria; restaurei as 190 de água doce e reverti os outros
-  arquivos. O bug segue lá. Correção: fundir o bloco em vez de substituir.
 - **Quatro pares de ficha duplicada em água doce** esperando sua decisão de fundir ou manter (177/25,
   178/176, 205/50, 163/237). Fundir apaga rota e mexe no sitemap e nas quatro traduções.
 - Alerta de conformidade, **agora ativo e não mais hipotético**: o AdSense já carrega nas 952 páginas
@@ -94,15 +96,9 @@ alwaysApply: true
       jogar os originais em `source-images/` com o nome do slug e rodar
       `node scripts/normalize-images.ts <nome>`, que já atualiza o manifesto sozinho. Na família
       Polypteridae falta só o Peixe-Corda (58).
-- [ ] **A rede de proteção de imagem quebrada está furada, e precisa da sua decisão.** Duas coisas,
-      as duas pré-existentes e achadas em 2026-08-01 ao mexer no visualizador. Primeira: o
-      `SimilarSpecies` renderiza `src=""` quando a espécie não tem imagem nem foto, o que faz o
-      navegador rebaixar a página inteira (são **25 plantas e 57 peixes** sem `imagem`; o *Anubias
-      barteri* dispara na ficha da Tonkinensis). Segunda: o **`/images/avatar.jpg` não existe**, e é
-      para onde apontam os **nove `onError`** espalhados por `SimilarSpecies`, `SearchPage`,
-      `CompatibilityPage` e `AquariumBuilderPage`. A decisão é qual fallback usar: criar um
-      placeholder de verdade ou reaproveitar o estado vazio que o `FallbackImage` já desenha (ícone
-      mais o nome da espécie). Escolhido o caminho, é uma passada nos nove pontos.
+- [x] ~~**A rede de proteção de imagem quebrada está furada.**~~ Fechado em 2026-08-14: entrou um
+      placeholder SVG local, `getPrimaryImage` e `getThumbnail` deixaram de devolver `src=""`, e os
+      nove `onError` passaram a usar um helper que impede recursao no proprio fallback.
 - [ ] **Uma ilustração ficou sem destino** em `aquarismo/ilustracoes/sem-destino/`: corpo amarelo com
       sete barras pretas e nadadeiras escarlates, que é fêmea de *Mesoheros festae* e não existe no
       acervo. Ou entra ficha nova para a espécie, ou a arte se perde.
@@ -113,20 +109,15 @@ alwaysApply: true
       condição.
 - [ ] Decidir o que fazer com o slug `symphysodonauequifasciatus`, que tem um typo ("auequi") vindo do
       dado antigo. Renomear exige mexer no arquivo e no campo `imagem` do Acará Disco ao mesmo tempo.
-- [ ] **`FishCategoryPage` ordena o array do módulo de dados no lugar** (`data.sort(...)`, sem cópia),
-      ou seja, mexe no array compartilhado por todas as telas. Hoje não dá sintoma porque a ficha
-      ordena uma cópia com a mesma chave (`nomePopular`), mas morde no dia em que alguém pedir outra
-      ordenação. `[...data].sort(...)` resolve, como o `FishDetailPage` já faz.
-- [ ] 71 erros de lint pré-existentes no projeto, a maioria `no-explicit-any` e `set-state-in-effect`.
+- [x] ~~**`FishCategoryPage` ordena o array do módulo de dados no lugar.**~~ Fechado em 2026-08-14
+      com `[...data].sort(...)`, sem mutar o dado compartilhado.
+- [ ] 69 erros de lint pré-existentes no projeto, a maioria `no-explicit-any` e `set-state-in-effect`.
       Não vieram deste trabalho, mas seguram qualquer gate de CI que rode `bun run lint`.
-- [ ] **O projeto não tem runner de teste.** Não existe `vitest` nem script `test` no `package.json`, e
-      a verificação de cada entrega tem sido manual no navegador. Enquanto isso não muda, nenhum gate
-      de CI consegue exigir teste, e coisas como o gesto de arrastar (que tem regra de borda: trava de
-      direção, faixa da borda, zona ignorada) ficam sem rede de proteção contra regressão.
-- [ ] **Rolagem não volta ao topo ao trocar de rota por link.** O app nunca teve reset de rolagem; o
-      `SwipeNav` resolveu só no caminho do gesto, chamando `window.scrollTo` ao navegar. Quem abre uma
-      espécie parecida pelo rodapé da ficha continua caindo no meio da página nova. A correção certa é
-      um reset por mudança de rota no `Layout`, uma linha para todas as telas.
+- [x] ~~**O projeto não tem runner de teste.**~~ Fechado em 2026-08-14 com Vitest, scripts `test` e
+      `test:watch`, testes para fallback de imagem e merge de enriquecimento, e workflow de CI com
+      teste + build. O lint fica fora do gate ate a divida pre-existente de 69 erros ser tratada.
+- [x] ~~**Rolagem não volta ao topo ao trocar de rota por link.**~~ Fechado em 2026-08-14 com um hook
+      global ligado ao `Layout`, cobrindo qualquer mudanca de pathname.
 - [ ] **Enviar o sitemap no Google Search Console.** `https://aqua360.vercel.app/sitemap.xml` está no
       ar e declarado no `robots.txt`, mas sem submeter a indexação das 925 URLs demora muito mais.
       Depende de acesso do Daniel, não tem como o agente fazer.
@@ -171,14 +162,13 @@ alwaysApply: true
   (Widevine) protege superfície de vídeo, não a página. A proteção real do projeto já está no ar e é
   a marca d'água ladrilhada nas ilustrações. Vale lembrar que qualquer trava de cópia briga com a
   frente de SEO, que depende de o Google carregar e indexar a imagem.
-- **O viewport do app proíbe pinch zoom.** O `index.html` fixa
-  `maximum-scale=1.0, user-scalable=no`, então o zoom do sistema não funciona em tela nenhuma. Foi por
-  isso que o visualizador de imagem precisou de zoom próprio. Se um dia essa linha sair (ela é um
-  problema de acessibilidade), o zoom do `ImageLightbox` pode ser reavaliado.
-- **Script que regrava bloco de dado precisa fundir, não substituir.** O `enrich-data.ts` reescreve
-  `enrichment` inteiro e apagou 372 `wikiPhotoUrl` que outros scripts tinham gravado. O sintoma não
-  aparece no validador nem no build: some a foto de fallback de centenas de fichas. Depois de rodar
-  qualquer script de enriquecimento, compare o diff **por campo**, não só a contagem de linhas.
+- **O viewport voltou a permitir pinch zoom.** Em 2026-08-14 sairam `maximum-scale=1.0` e
+  `user-scalable=no`; o navegador voltou a controlar a ampliacao em todas as telas. O zoom proprio do
+  `ImageLightbox` foi mantido porque tambem oferece enquadramento da imagem no overlay.
+- **Script que regrava bloco de dado precisa fundir, não substituir.** O `enrich-data.ts` apagou 372
+  `wikiPhotoUrl` em 2026-08-01 ao substituir `enrichment` inteiro. Desde 2026-08-14 ele usa merge que
+  preserva campos existentes, coberto por teste de nao mutacao. A regra segue valendo para scripts
+  futuros: compare o diff **por campo**, não só a contagem de linhas.
 - **Testando o `dist` no navegador, desregistre o service worker antes.** O app é PWA com
   `registerType: 'autoUpdate'`, e o SW precacha o shell e os assets. Numa sessão de teste ele serviu o
   bundle da build anterior e produziu um sintoma convincente que já estava corrigido no código. Limpe

@@ -30,6 +30,7 @@ import {
   diseaseMeta,
   fishCategoryPages,
   fishMeta,
+  notFoundMeta,
   plantMeta,
   staticPages,
   type PageMeta,
@@ -282,9 +283,20 @@ async function main(): Promise<void> {
   }
 
   const indexable = routes.filter(route => !route.meta.noIndex)
+  const notFoundRoute: Route = {
+    path: '/404',
+    meta: notFoundMeta,
+    type: 'website',
+    jsonLd: [],
+  }
+  await writeFile(
+    join(DIST, '404.html'),
+    `${before}\n${renderHead(notFoundRoute)}\n    ${after}`,
+    'utf8'
+  )
   await writeFile(join(DIST, 'sitemap.xml'), buildSitemap(routes), 'utf8')
 
-  console.log(`SEO: ${routes.length} paginas geradas, ${indexable.length} no sitemap.`)
+  console.log(`SEO: ${routes.length} paginas geradas + 404, ${indexable.length} no sitemap.`)
   report(routes)
 }
 

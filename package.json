@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build && bun run scripts/generate-seo.ts",
     "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "preview": "vite preview",
     "parse-data": "bun run scripts/parse-sql-data.ts",
     "validate-data": "bun run scripts/validate-data.ts",
@@ -47,6 +49,7 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^8.0.0",
-    "vite-plugin-pwa": "^1.2.0"
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^4.1.10"
   }
 }

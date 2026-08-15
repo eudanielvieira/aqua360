@@ -229,6 +229,13 @@ export function diseaseMeta(disease: Disease): PageMeta {
   }
 }
 
+/** Fica fora de staticPages para nunca entrar no sitemap. */
+export const notFoundMeta: PageMeta = {
+  title: withBrand('Página não encontrada'),
+  description: 'A página que você tentou acessar não existe ou mudou de endereço no Aqua360.',
+  noIndex: true,
+}
+
 // --- Páginas fixas --------------------------------------------------------
 
 /**
