@@ -8,14 +8,14 @@ declare global {
 }
 
 export function usePageTracking() {
-  const location = useLocation()
+  const { pathname, search } = useLocation()
 
   useEffect(() => {
     if (typeof window.gtag === 'function') {
       window.gtag('event', 'page_view', {
-        page_path: location.pathname + location.search,
+        page_path: pathname + search,
         page_title: document.title,
       })
     }
-  }, [location])
+  }, [pathname, search])
 }

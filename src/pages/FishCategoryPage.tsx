@@ -33,7 +33,7 @@ export default function FishCategoryPage() {
     if (!slug) return
     setLoading(true)
     loadFishByType(slug).then(data => {
-      setAllFish(data.sort((a, b) => a.nomePopular.localeCompare(b.nomePopular)))
+      setAllFish([...data].sort((a, b) => a.nomePopular.localeCompare(b.nomePopular)))
       setLoading(false)
       setVisibleCount(PAGE_SIZE)
     })

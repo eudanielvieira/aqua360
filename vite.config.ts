@@ -32,8 +32,20 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,jpg,woff2}'],
+        // O catalogo tem centenas de JPGs. Precachear todos fazia a primeira
+        // instalacao baixar quase 25 MB; agora a imagem entra no cache apenas
+        // quando o usuario realmente a abre.
+        globPatterns: ['**/*.{js,css,html,svg,woff2}'],
+        globIgnores: ['images/**'],
         runtimeCaching: [
+          {
+            urlPattern: /\/images\/.*\.(?:jpg|jpeg|png|webp|svg)$/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'aqua360-images',
+              expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 30 },
+            },
+          },
           {
             urlPattern: /^https:\/\/api\.gbif\.org\/.*/i,
             handler: 'CacheFirst',

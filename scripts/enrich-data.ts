@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs'
 import { join } from 'path'
+import { mergeEnrichment, type EnrichmentData } from './merge-enrichment'
 
 const CACHE_FILE = join(__dirname, '.enrichment-cache.json')
 const DATA_DIR = join(__dirname, '../src/data')
@@ -118,7 +119,7 @@ async function queryINaturalist(name: string): Promise<{
 interface DataRecord {
   id: number
   nomeCientifico: string
-  enrichment?: any
+  enrichment?: EnrichmentData
   [key: string]: any
 }
 
@@ -192,7 +193,7 @@ async function processFile(filePath: string, typeName: string, cache: Cache): Pr
       continue
     }
 
-    const enrichment: any = {}
+    const enrichment: EnrichmentData = {}
     if (entry.gbifTaxonKey) enrichment.gbifTaxonKey = entry.gbifTaxonKey
     if (entry.wormsAphiaId) enrichment.wormsAphiaId = entry.wormsAphiaId
     if (entry.taxonomia) enrichment.taxonomia = entry.taxonomia
@@ -202,7 +203,7 @@ async function processFile(filePath: string, typeName: string, cache: Cache): Pr
     enrichment.enrichedAt = entry.enrichedAt
 
     if (Object.keys(enrichment).length > 1) {
-      record.enrichment = enrichment
+      record.enrichment = mergeEnrichment(record.enrichment, enrichment)
       enriched++
     } else {
       skipped++

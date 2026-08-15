@@ -295,3 +295,21 @@ ficam disponiveis sob demanda, sem custo de carga.
 - **Proximo:** decidir esse placeholder, e decidir se o visualizador vale tambem nas fichas de coral e
   de doenca, que hoje montam a imagem na mao sem passar pelo `FallbackImage`.
 - **Detalhe:** commit `1601149`
+
+## 2026-08-14 - board - estabilizacao de navegacao, midia, dados e build
+**Quem:** Codex (agente)
+- A navegacao ganhou 404 de verdade (HTML estatico com `noindex` e status 404 na Vercel), reset global
+  de rolagem e pinch zoom do navegador. O Google Analytics deixou de disparar a pageview automatica e
+  manteve uma unica medicao manual por `pathname + search`.
+- Entrou um placeholder SVG local para todos os caminhos de imagem quebrada, sem `src=""` e sem loop
+  de `onError`. O `enrich-data.ts` agora funde o bloco novo com o existente, preservando campos como
+  `wikiPhotoUrl`, e a categoria de peixes deixou de ordenar o array compartilhado no lugar.
+- A PWA parou de precachear o acervo de imagens: o manifesto caiu de 794 entradas e 24,3 MiB para 19
+  entradas e 2,91 MiB, com cache de runtime para as imagens. Vitest, tres testes de regressao e um
+  workflow de CI com teste + build passaram; o build gerou 953 rotas mais `404.html` e sitemap de 952
+  URLs. O lint completo caiu de 72 para 69 erros, mas continua fora do gate pela divida pre-existente.
+- O verificador visual automatizado nao conseguiu criar o socket local por restricao do sandbox. A
+  checagem foi completada no artefato de producao e por HTTP local: shell da SPA, metadados da 404,
+  viewport e configuracao de Analytics conferidos.
+- **Proximo:** revisar o PR em rascunho da branch `agent/stabilize-aqua360` e, aprovado, fazer o merge.
+- **Detalhe:** branch `agent/stabilize-aqua360`.

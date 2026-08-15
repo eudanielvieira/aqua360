@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getPrimaryImage } from '../utils/image'
+import { applyImageFallback, getPrimaryImage } from '../utils/image'
 
 interface Species {
   id: number
@@ -54,10 +54,7 @@ export default function SimilarSpecies({ currentId, familia, loadAll, basePath, 
                 alt={species.nomePopular}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 loading="lazy"
-                onError={e => {
-                  const target = e.target as HTMLImageElement
-                  target.src = '/images/avatar.jpg'
-                }}
+                onError={applyImageFallback}
               />
             </div>
             <p className="text-xs font-medium text-text truncate">{species.nomePopular}</p>

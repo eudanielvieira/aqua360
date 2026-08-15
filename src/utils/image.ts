@@ -1,5 +1,17 @@
 import { NORMALIZED_IMAGES } from '../data/normalized-images'
 
+export const PLACEHOLDER_IMAGE = '/images/placeholder.svg'
+
+/**
+ * Substitui uma imagem quebrada uma unica vez. Remover o handler antes da
+ * troca impede loop caso o proprio placeholder deixe de ser publicado.
+ */
+export function applyImageFallback(event: { currentTarget: HTMLImageElement }) {
+  const image = event.currentTarget
+  image.onerror = null
+  image.src = PLACEHOLDER_IMAGE
+}
+
 export function getImageUrl(imageName: string): string {
   if (!imageName) return ''
   const name = imageName.replace(/\.(jpg|jpeg|png)$/i, '')
@@ -65,9 +77,9 @@ export function getAllThumbnails(
 
 // Mantidos para compatibilidade
 export function getPrimaryImage(localImage: string, inatPhotos?: string[], wikiPhoto?: string): string {
-  return getAllImages(localImage, inatPhotos, wikiPhoto)[0] || ''
+  return getAllImages(localImage, inatPhotos, wikiPhoto)[0] || PLACEHOLDER_IMAGE
 }
 
 export function getThumbnail(localImage: string, inatPhotos?: string[], wikiPhoto?: string): string {
-  return getAllThumbnails(localImage, inatPhotos, wikiPhoto)[0] || ''
+  return getAllThumbnails(localImage, inatPhotos, wikiPhoto)[0] || PLACEHOLDER_IMAGE
 }

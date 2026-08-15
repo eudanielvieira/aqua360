@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link, useSearchParams } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral, Disease } from '../types'
-import { getPrimaryImage } from '../utils/image'
+import { applyImageFallback, getPrimaryImage } from '../utils/image'
 import { fuzzySearch, type FuzzyItem } from '../utils/fuzzySearch'
 import PageHeader from '../components/PageHeader'
 import { Search, Fish, Leaf, Gem, HeartPulse } from 'lucide-react'
@@ -137,7 +137,7 @@ export default function SearchPage() {
                   src={getPrimaryImage(item.imagem, item.inatPhotos)}
                   alt={item.nome}
                   className="w-full h-full object-cover"
-                  onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+                  onError={applyImageFallback}
                 />
               </div>
               <div className="flex-1 min-w-0">

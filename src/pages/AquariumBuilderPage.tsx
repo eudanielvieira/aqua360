@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { loadAllFish } from '../data/fish-index'
 import type { Plant, Coral } from '../types'
-import { getPrimaryImage } from '../utils/image'
+import { applyImageFallback, getPrimaryImage } from '../utils/image'
 import { fuzzySearch } from '../utils/fuzzySearch'
 import PageHeader from '../components/PageHeader'
 import { Search, CheckCircle, AlertTriangle, Leaf, Fish as FishIcon, Shell, Gem, Plus } from 'lucide-react'
@@ -285,7 +285,7 @@ function RecCard({ rec }: { rec: Recommendation }) {
               src={getPrimaryImage(rec.species.imagem, rec.species.inatPhotos)}
               alt={rec.species.nomePopular}
               className="w-full h-full object-cover"
-              onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }}
+              onError={applyImageFallback}
             />
           </div>
           <div className="flex-1 min-w-0">
@@ -456,7 +456,7 @@ export default function AquariumBuilderPage() {
                 <div className="w-10 h-10 rounded-lg overflow-hidden bg-surface-alt flex-shrink-0">
                   <img src={getPrimaryImage(s.imagem, s.inatPhotos)} alt={s.nomePopular}
                     className="w-full h-full object-cover"
-                    onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }} />
+                    onError={applyImageFallback} />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-text truncate">{s.nomePopular}</p>
@@ -474,7 +474,7 @@ export default function AquariumBuilderPage() {
             <div className="w-16 h-16 rounded-xl overflow-hidden bg-surface-alt flex-shrink-0">
               <img src={getPrimaryImage(mainFish.imagem, mainFish.inatPhotos)} alt={mainFish.nomePopular}
                 className="w-full h-full object-cover"
-                onError={e => { (e.target as HTMLImageElement).src = '/images/avatar.jpg' }} />
+                onError={applyImageFallback} />
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-bold text-text text-lg">{mainFish.nomePopular}</p>

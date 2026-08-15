@@ -15,10 +15,9 @@ interface Props {
 /**
  * Visualizador em tela cheia, para ver o detalhe da ilustracao.
  *
- * Traz zoom proprio em vez de deixar para o navegador porque o
- * `index.html` fixa `maximum-scale=1.0, user-scalable=no` no viewport, e
- * com isso o pinch do sistema nao funciona em lugar nenhum do app. Sem
- * um zoom aqui dentro, "abrir maior" pararia no tamanho da tela.
+ * Mantem zoom proprio mesmo com o pinch zoom global habilitado: aqui a
+ * ampliacao fica limitada ao overlay e permite deslocar a imagem sem
+ * alterar a escala do restante da pagina.
  */
 export default function ImageLightbox({ src, alt, onClose }: Props) {
   const { t } = useTranslation('common')
